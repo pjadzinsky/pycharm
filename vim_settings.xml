@@ -434,8 +434,8 @@
         <mark key="." line="176" column="15" />
         <mark key="^" line="176" column="15" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" timestamp="1503524967324">
-        <mark key="'" line="180" column="32" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" timestamp="1503528761119">
+        <mark key="'" line="210" column="16" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/segment/labgen/util.py" timestamp="1498606540480">
         <mark key="'" line="66" column="4" />
@@ -1406,6 +1406,14 @@
       <jump line="180" column="32" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="287" column="8" filename="$USER_HOME$/git/mousera2/build/vision/objdetect/cascade/core.py" />
       <jump line="41" column="23" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_dataset.py" />
+      <jump line="87" column="33" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="2" column="1" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="22" column="37" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="38" column="28" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="41" column="40" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="101" column="29" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="186" column="35" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="210" column="16" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -1586,7 +1594,7 @@
         <text>util</text>
       </register>
       <register name="/" type="4">
-        <text>train</text>
+        <text>cascade_pb2</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">aW1wb3J0IGdmbGFncwppbXBvcnQgcmFuZG9tCgpmcm9tIGNvbW1vbiBpbXBvcnQgY2xpCmZyb20gY29tbW9uIGltcG9ydCBsb2cKZnJvbSBjb21tb24udXRpbHMgaW1wb3J0IHByb2dyZXNzCmZyb20gdG9vbHMgaW1wb3J0IHRlcnJhCmZyb20gdmlzaW9uIGltcG9ydCB1dGlsCmZyb20gdmlzaW9uLm9iamRldGVjdC5jYXNjYWRlIGltcG9ydCBjb3JlCgo=</text>
@@ -1631,15 +1639,14 @@
       </register>
     </registers>
     <search>
-      <last-search>train</last-search>
+      <last-search>cascade_pb2</last-search>
       <last-offset />
-      <last-pattern>train</last-pattern>
+      <last-pattern>cascade_pb2</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>frame_indexes</entry>
         <entry>_generate</entry>
         <entry>_frame_time_sec</entry>
         <entry>_frame_times_sec</entry>
@@ -1659,6 +1666,7 @@
         <entry>update</entry>
         <entry>video</entry>
         <entry>train</entry>
+        <entry>cascade_pb2</entry>
       </history-search>
       <history-cmd>
         <entry>2w</entry>
