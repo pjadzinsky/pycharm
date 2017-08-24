@@ -10,7 +10,6 @@
         <mark key="^" line="23" column="8" />
         <mark key="." line="23" column="8" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" timestamp="1503525245493" />
       <file name="$USER_HOME$/git/mousera2/queue_processors/slab_video/docker_utils.sh" timestamp="1503503962608">
         <mark key="[" line="8" column="42" />
         <mark key="]" line="8" column="43" />
@@ -106,7 +105,6 @@
       <file name="$USER_HOME$/git/mousera2/checkers/archive/metrics_coverage/metrics_coverage.docker" timestamp="1503503158719">
         <mark key="'" line="12" column="21" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/corpus.proto" timestamp="1503533092357" />
       <file name="$USER_HOME$/git/mousera2/analytics/scale/house_of_mischief/report.py" timestamp="1502389687695">
         <mark key="'" line="19" column="19" />
         <mark key="[" line="19" column="17" />
@@ -437,8 +435,8 @@
         <mark key="." line="176" column="15" />
         <mark key="^" line="176" column="15" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" timestamp="1503533760168">
-        <mark key="'" line="337" column="17" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" timestamp="1503583475751">
+        <mark key="'" line="177" column="0" />
         <mark key="[" line="339" column="32" />
         <mark key="]" line="339" column="31" />
         <mark key="." line="339" column="31" />
@@ -1041,12 +1039,10 @@
         <mark key="." line="15" column="36" />
         <mark key="^" line="15" column="36" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_dataset.py" timestamp="1503528126179">
-        <mark key="'" line="41" column="23" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="^" line="41" column="23" />
-        <mark key="." line="41" column="23" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_dataset.py" timestamp="1503583692545">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/queue_processors/slab_video/pipeline.py" timestamp="1503440597177">
         <mark key="'" line="119" column="87" />
@@ -1376,8 +1372,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="23" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" />
-      <jump line="15" column="0" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" />
       <jump line="52" column="20" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/superpix_mask/review.js" />
       <jump line="16" column="32" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/superpix_mask/review.js" />
       <jump line="13" column="22" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/superpix_mask/review.js" />
@@ -1472,10 +1466,16 @@
       <jump line="331" column="12" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="334" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="337" column="17" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="342" column="30" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="404" column="4" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="32" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="83" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="96" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="177" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>annotation_proto</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1652,7 +1652,7 @@
         <text>annotation_proto</text>
       </register>
       <register name="/" type="4">
-        <text>strong</text>
+        <text>class</text>
       </register>
       <register name="0" type="4">
         <text>fetch_image_data</text>
@@ -1661,7 +1661,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWFzayA9IGN2Mi5pbXJlYWQodGVtcGZpbGVuYW1lKQo=</text>
+        <text encoding="base64">ICAgICAgICBhbm5vdGF0aW9uX3Byb3RvID0gYW5ub3RhdGlvbi5nZXRfcHJvdG8oKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1672,34 +1672,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RvcmUgPSBzMy5TM0ZpbGVTdG9yZSh0ZXJyYS5jb3JlLmNvbmZpZy50ZXJyYV9kYXRhX2J1Y2tldCkKICAgICAgICAgICAgdGVtcGZpbGVuYW1lID0gZnMubWFrZV90ZW1wX2ZpbGUoKQogICAgICAgICAgICBzdG9yZS5kb3dubG9hZChhbm5vdGF0aW9uX3Byb3RvLm1hc2suczNfa2V5LCB0ZW1wZmlsZW5hbWUpCg==</text>
+        <text encoding="base64">ICAgICAgICBhbm5vdGF0aW9uID0gYW5ub3RhdGVkX2l0ZW0uZ2V0X2Jlc3RfYW5ub3RhdGlvbigpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI21hc2sgPSAoYW5ub3RhdGlvbl9wcm90by5tYXNrLnMzX2tleSkK</text>
+        <text encoding="base64">ICAgICAgICAjIGJveGVzLiBJJ20gZ29pbmcgdG8gYWRkIHRoZW0gdG8gdGhlIGFubm90YXRpb25fcHJvdG8K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cy50eXBlMDE3IGltcG9ydCBjb3J1Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIERhdGFzZXRHZW5lcmF0b3IgbmVlZHMgZWFjaCBhbm5vdGF0ZWQgaXRlbSB0byBoYXZlIHN0cm9uZy93ZWFrIGxhYmVsZWQgYm91bmRpbmcK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cy50eXBlMDE3IGltcG9ydCBjb3J1Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cy50eXBlMDE3IGltcG9ydCBjb3J1Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBiYm94ZXMK</text>
+        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>strong</last-search>
+      <last-search>class</last-search>
       <last-offset />
-      <last-pattern>strong</last-pattern>
+      <last-pattern>class</last-pattern>
       <last-replace>corpus_utils</last-replace>
       <last-substitute>utils</last-substitute>
       <last-dir>1</last-dir>
@@ -1707,7 +1707,6 @@
     </search>
     <history>
       <history-search>
-        <entry>IsRunning</entry>
         <entry>IsRunningOn</entry>
         <entry>def process_task</entry>
         <entry>metric_client</entry>
@@ -1727,6 +1726,7 @@
         <entry>utils</entry>
         <entry>mask</entry>
         <entry>strong</entry>
+        <entry>class</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz53</entry>
