@@ -10,12 +10,12 @@
         <mark key="^" line="23" column="8" />
         <mark key="." line="23" column="8" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" timestamp="1503695947386">
-        <mark key="'" line="57" column="30" />
-        <mark key="[" line="49" column="0" />
-        <mark key="]" line="51" column="19" />
-        <mark key="." line="51" column="19" />
-        <mark key="^" line="51" column="19" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" timestamp="1503697084599">
+        <mark key="'" line="99" column="19" />
+        <mark key="[" line="123" column="0" />
+        <mark key="]" line="123" column="0" />
+        <mark key="." line="123" column="0" />
+        <mark key="^" line="123" column="3" />
       </file>
       <file name="$USER_HOME$/git/mousera2/queue_processors/slab_video/docker_utils.sh" timestamp="1503503962608">
         <mark key="[" line="8" column="42" />
@@ -1438,7 +1438,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="83" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="96" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="177" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="287" column="8" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
@@ -1508,10 +1507,8 @@
       <jump line="148" column="40" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="143" column="39" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="100" column="48" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
-      <jump line="99" column="48" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="78" column="39" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="73" column="48" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
-      <jump line="56" column="69" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="55" column="30" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="210" column="8" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="283" column="90" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
@@ -1538,10 +1535,13 @@
       <jump line="49" column="21" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
       <jump line="51" column="16" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
       <jump line="19" column="40" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
+      <jump line="56" column="32" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
+      <jump line="94" column="42" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
+      <jump line="99" column="19" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1718,16 +1718,16 @@
         <text>training</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>return</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2dfY29uZi5yZXN0b3JlKCkgICMgRW5zdXJlIGV4ZWN1dG9yIGxvZ2dpbmcgc2V0dXAgYXMgaW4gZHJpdmVyIGVudgogICAgICAgIGxvZy5pbmZvKCdTdGFydGluZyB3b3JrIHVuaXQ6ICVzJyAlICh0cmFpbmluZ19wYXJhbXMpKQogICAgICAgIHJlcG8gPSBjb3JlLkNhc2NhZGVNb2RlbFJlcG8oKQogICAgICAgIGlmIHJlcG8ubW9kZWxfZXhpc3RzKHRyYWluaW5nX3BhcmFtcykgYW5kIG5vdCB0ZXN0aW5nOgogICAgICAgICAgICBsb2cuaW5mbygnTW9kZWwgZXhpc3RzLi4uIHNraXBwaW5nOiAlcycgJSB0cmFpbmluZ19wYXJhbXMpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIG1vZGVsX2tleSA9IHRyYWluaW5nLnRyYWluX2Nhc2NhZGUodHJhaW5pbmdfcGFyYW1zKQogICAgICAgIGxvZy5pbmZvKCdEb25lIHdpdGggd29yayB1bml0OiAlcycgJSAodHJhaW5pbmdfcGFyYW1zKSkKICAgICAgICByZXR1cm4gbW9kZWxfa2V5Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYgo=</text>
+        <text encoding="base64">ICAgIGV4aXQoMCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1738,34 +1738,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHRyYWluaW5nLnRyYWluX2Nhc2NhZGUodGFzaykK</text>
+        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZGVmIHRlc3QodHJhaW5pbmdfcGFyYW1zKToKICAgIG1vZGVsX2tleSA9IHRyYWluX2Nhc2NhZGUodHJhaW5pbmdfcGFyYW1zKQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHJlcG8gPSBjb3JlLkNhc2NhZGVNb2RlbFJlcG8oKQo=</text>
+        <text encoding="base64">ICAgIHRyYWluaW5nLnRyYWluX2Nhc2NhZGUodGFzaykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICN0ZXN0KHRhc2tzWzBdKQo=</text>
+        <text encoding="base64">ZGVmIHRlc3QodHJhaW5pbmdfcGFyYW1zKToKICAgIG1vZGVsX2tleSA9IHRyYWluX2Nhc2NhZGUodHJhaW5pbmdfcGFyYW1zKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IiIiCmRlZiB0ZXN0KHRhc2spOgogICAgaW1wb3J0IHB1ZGIKICAgIHB1ZGIuc2V0X3RyYWNlKCkKICAgIHJlcG8gPSBjb3JlLkNhc2NhZGVNb2RlbFJlcG8oKQogICAgbW9kZWxfa2V5ID0gdHJhaW5pbmcudHJhaW5fY2FzY2FkZSh0YXNrKQoKIiIiCg==</text>
+        <text encoding="base64">ICAgIHJlcG8gPSBjb3JlLkNhc2NhZGVNb2RlbFJlcG8oKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGVmIHRlc3QodHJhaW5pbmdfcGFyYW1zKToKICAgIHJlcG8gPSBjb3JlLkNhc2NhZGVNb2RlbFJlcG8oKQogICAgbW9kZWxfa2V5ID0gdHJhaW5pbmcudHJhaW5fY2FzY2FkZSh0cmFpbmluZ19wYXJhbXMpCgo=</text>
+        <text encoding="base64">ICAgICN0ZXN0KHRhc2tzWzBdKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">bG9nLmluZm8oJ0RvbmUgd2l0aCB3b3JrIHVuaXQ6ICVzJyAlICh0cmFpbmluZ19wYXJhbXMpKQo=</text>
+        <text encoding="base64">IiIiCmRlZiB0ZXN0KHRhc2spOgogICAgaW1wb3J0IHB1ZGIKICAgIHB1ZGIuc2V0X3RyYWNlKCkKICAgIHJlcG8gPSBjb3JlLkNhc2NhZGVNb2RlbFJlcG8oKQogICAgbW9kZWxfa2V5ID0gdHJhaW5pbmcudHJhaW5fY2FzY2FkZSh0YXNrKQoKIiIiCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>return</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>return</last-pattern>
       <last-replace>_items</last-replace>
       <last-substitute>_annotated_items</last-substitute>
       <last-dir>1</last-dir>
@@ -1773,8 +1773,6 @@
     </search>
     <history>
       <history-search>
-        <entry>wait</entry>
-        <entry>model_key</entry>
         <entry>runtime</entry>
         <entry>fetch_model</entry>
         <entry>cascade.xml</entry>
@@ -1793,9 +1791,10 @@
         <entry>testing</entry>
         <entry>tasks</entry>
         <entry>pudb</entry>
+        <entry>-2</entry>
+        <entry>return</entry>
       </history-search>
       <history-cmd>
-        <entry>151</entry>
         <entry>506</entry>
         <entry>188</entry>
         <entry>%s/Is_Running/Percent_Time_Running/gc</entry>
@@ -1814,6 +1813,7 @@
         <entry>wq</entry>
         <entry>284</entry>
         <entry>q</entry>
+        <entry>65</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
