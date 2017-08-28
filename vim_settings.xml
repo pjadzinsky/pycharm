@@ -568,8 +568,8 @@
         <mark key="." line="255" column="24" />
         <mark key="^" line="211" column="66" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1503679101808">
-        <mark key="'" line="278" column="0" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1503936173272">
+        <mark key="'" line="136" column="0" />
         <mark key="[" line="120" column="31" />
         <mark key="]" line="122" column="19" />
         <mark key="^" line="122" column="19" />
@@ -1370,12 +1370,12 @@
         <mark key="^" line="21" column="41" />
         <mark key="." line="21" column="41" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type012/local_client/labeler.py" timestamp="1503679177037">
-        <mark key="'" line="210" column="0" />
-        <mark key="[" line="226" column="25" />
-        <mark key="]" line="226" column="37" />
-        <mark key="^" line="226" column="37" />
-        <mark key="." line="226" column="37" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type012/local_client/labeler.py" timestamp="1503935985185">
+        <mark key="'" line="213" column="0" />
+        <mark key="[" line="209" column="20" />
+        <mark key="]" line="209" column="29" />
+        <mark key="^" line="209" column="29" />
+        <mark key="." line="209" column="29" />
       </file>
       <file name="$USER_HOME$/git/mousera2/api/metrics/metrics.py" timestamp="1503503087216">
         <mark key="'" line="44" column="5" />
@@ -1436,8 +1436,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="51" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/publish_split_dataset.py" />
-      <jump line="69" column="70" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/publish_split_dataset.py" />
       <jump line="61" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/mouse/create_models.py" />
       <jump line="53" column="8" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/mouse/create_models.py" />
       <jump line="56" column="4" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/mouse/create_models.py" />
@@ -1536,10 +1534,12 @@
       <jump line="112" column="31" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="113" column="26" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="114" column="15" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
+      <jump line="122" column="19" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="136" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYnVja2V0X25hbWUgPSBDQVNDQURFX01PREVMU19CVUNLRVQK</text>
+      <register name="&quot;" type="4">
+        <text>failed_items</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1713,10 +1713,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>bucket_name</text>
+        <text>failed_items</text>
       </register>
       <register name="/" type="4">
-        <text>testing</text>
+        <text>class AnnotatedItem</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbG9nLmluZm8oJ1NraXBwaW5nIGFubm90YXRlZCBpdGVtIHdpdGggemVyby1zaXplZCByZWdpb24nKQo=</text>
@@ -1761,9 +1761,9 @@
       </register>
     </registers>
     <search>
-      <last-search>testing</last-search>
+      <last-search>class AnnotatedItem</last-search>
       <last-offset />
-      <last-pattern>testing</last-pattern>
+      <last-pattern>class AnnotatedItem</last-pattern>
       <last-replace>_items</last-replace>
       <last-substitute>_annotated_items</last-substitute>
       <last-dir>1</last-dir>
@@ -1771,7 +1771,6 @@
     </search>
     <history>
       <history-search>
-        <entry>test_dataset_key</entry>
         <entry>close</entry>
         <entry>\.tar</entry>
         <entry>upload</entry>
@@ -1791,6 +1790,7 @@
         <entry>self._dest_key</entry>
         <entry>print</entry>
         <entry>testing</entry>
+        <entry>class AnnotatedItem</entry>
       </history-search>
       <history-cmd>
         <entry>%s/is_running/percent_time_running/gc</entry>
