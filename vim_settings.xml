@@ -254,11 +254,11 @@
       <file name="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_1/run_demo_predict_is_running_on_wheel.sh" timestamp="1503503302328">
         <mark key="'" line="1" column="10" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/labels.py" timestamp="1504296059207">
-        <mark key="[" line="18" column="16" />
-        <mark key="]" line="18" column="19" />
-        <mark key="^" line="9" column="70" />
-        <mark key="." line="18" column="19" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/labels.py" timestamp="1504299223203">
+        <mark key="[" line="21" column="13" />
+        <mark key="]" line="21" column="12" />
+        <mark key="^" line="21" column="12" />
+        <mark key="." line="21" column="12" />
       </file>
       <file name="$USER_HOME$/git/mousera2/build/vision/segment/labgen/labgen.py" timestamp="1498858807729">
         <mark key="'" line="23" column="36" />
@@ -548,19 +548,19 @@
         <mark key="." line="87" column="26" />
         <mark key="^" line="87" column="26" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1504297198012">
-        <mark key="'" line="132" column="0" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1504299439250">
+        <mark key="'" line="169" column="0" />
         <mark key="[" line="199" column="70" />
         <mark key="]" line="199" column="73" />
         <mark key="^" line="199" column="73" />
         <mark key="." line="199" column="73" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" timestamp="1504298444800">
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" timestamp="1504299763830">
         <mark key="'" line="45" column="12" />
-        <mark key="[" line="48" column="93" />
-        <mark key="]" line="48" column="96" />
-        <mark key="^" line="48" column="96" />
-        <mark key="." line="48" column="96" />
+        <mark key="[" line="108" column="57" />
+        <mark key="]" line="108" column="57" />
+        <mark key="^" line="108" column="57" />
+        <mark key="." line="108" column="57" />
       </file>
       <file name="$USER_HOME$/Testeo/my_bittrex/volume.py" timestamp="1499020130317">
         <mark key="'" line="266" column="46" />
@@ -852,11 +852,11 @@
         <mark key="^" line="5" column="41" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/debug.py" timestamp="1504297926830">
-        <mark key="[" line="8" column="10" />
-        <mark key="]" line="8" column="19" />
-        <mark key="^" line="8" column="19" />
-        <mark key="." line="8" column="19" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/debug.py" timestamp="1504299374346">
+        <mark key="[" line="7" column="43" />
+        <mark key="]" line="10" column="19" />
+        <mark key="^" line="10" column="19" />
+        <mark key="." line="10" column="19" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type016/local_client/labeler.py" timestamp="1504298289418">
         <mark key="'" line="118" column="47" />
@@ -1418,7 +1418,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="341" column="35" filename="$USER_HOME$/git/mousera2/build/vision/objdetect/cascade/core.py" />
       <jump line="343" column="25" filename="$USER_HOME$/git/mousera2/build/vision/objdetect/cascade/core.py" />
       <jump line="280" column="13" filename="$USER_HOME$/git/mousera2/build/vision/objdetect/cascade/core.py" />
       <jump line="283" column="17" filename="$USER_HOME$/git/mousera2/build/vision/objdetect/cascade/core.py" />
@@ -1518,10 +1517,11 @@
       <jump line="118" column="47" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type016/local_client/labeler.py" />
       <jump line="80" column="83" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" />
       <jump line="45" column="12" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" />
+      <jump line="169" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>proto</text>
+        <text>done_items + waiting_items</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1695,13 +1695,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>proto</text>
+        <text>done_items + waiting_items</text>
       </register>
       <register name="/" type="4">
-        <text>annotation_proto</text>
+        <text>class Annot</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlmIGtleSBpbiBbb3JkKCd7MH0nLmZvcm1hdChpKSkgZm9yIGkgaW4gcmFuZ2UobGVuKHBvc3NpYmxlX2xhYmVscykpXToKICAgICAgICAgICAgaW50X3NlbGVjdGlvbiA9IGludChjaHIoa2V5KSkKICAgICAgICAgICAgbGFiZWxfaXRlbShhbm5vdGF0ZWRfaXRlbSwgY3JlYXRvciwgaW50X3NlbGVjdGlvbikKICAgICAgICAgICAgYnJlYWsK</text>
+        <text encoding="base64">cG9zc2libGVfbGFiZWxzWzExN10gPSBsYWJlbHMxCnF1ZXN0aW9uc1sxMTddID0gcXVlc3Rpb24xCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHByb3RvLmFubm90YXRpb24ubGFiZWwgPSBpbnRfc2VsZWN0aW9uCg==</text>
@@ -1743,9 +1743,9 @@
       </register>
     </registers>
     <search>
-      <last-search>annotation_proto</last-search>
+      <last-search>class Annot</last-search>
       <last-offset />
-      <last-pattern>annotation_proto</last-pattern>
+      <last-pattern>class Annot</last-pattern>
       <last-replace>annotated_item</last-replace>
       <last-substitute>annotateditem</last-substitute>
       <last-dir>1</last-dir>
@@ -1753,7 +1753,6 @@
     </search>
     <history>
       <history-search>
-        <entry>light_</entry>
         <entry>interval</entry>
         <entry>def main</entry>
         <entry>annotate_item</entry>
@@ -1773,6 +1772,7 @@
         <entry>class</entry>
         <entry>label_item</entry>
         <entry>annotation_proto</entry>
+        <entry>class Annot</entry>
       </history-search>
       <history-cmd>
         <entry>184</entry>
