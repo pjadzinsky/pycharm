@@ -243,12 +243,12 @@
         <mark key="^" line="40" column="43" />
         <mark key="." line="40" column="43" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/common/spark/mus_utils.py" timestamp="1504888899028">
-        <mark key="'" line="210" column="4" />
-        <mark key="[" line="233" column="13" />
-        <mark key="]" line="233" column="54" />
-        <mark key="." line="233" column="54" />
-        <mark key="^" line="233" column="54" />
+      <file name="$USER_HOME$/git/mousera2/common/spark/mus_utils.py" timestamp="1504896215250">
+        <mark key="'" line="237" column="13" />
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="34" column="63" />
+        <mark key="." line="35" column="0" />
+        <mark key="^" line="35" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/config.py" timestamp="1503503171941">
         <mark key="'" line="179" column="15" />
@@ -834,6 +834,7 @@
         <mark key="^" line="238" column="24" />
         <mark key="." line="238" column="24" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" timestamp="1504895906122" />
       <file name="$USER_HOME$/git/mousera2/analytics/arthritis/arthritis_index.py" timestamp="1498252159460">
         <mark key="'" line="242" column="4" />
         <mark key="[" line="230" column="18" />
@@ -1209,6 +1210,13 @@
         <mark key="." line="20" column="24" />
         <mark key="^" line="20" column="24" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" timestamp="1504896282290">
+        <mark key="'" line="40" column="33" />
+        <mark key="[" line="67" column="30" />
+        <mark key="]" line="67" column="29" />
+        <mark key="." line="67" column="29" />
+        <mark key="^" line="67" column="29" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/vision/wheel/active_timing/config.py" timestamp="1503503310928">
         <mark key="'" line="179" column="15" />
       </file>
@@ -1542,11 +1550,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="250" column="17" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/scoring.py" />
-      <jump line="256" column="4" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/scoring.py" />
-      <jump line="347" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/scoring.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/sparkjobs.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/sparkjobs.py" />
       <jump line="10" column="45" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/sparkjobs.py" />
       <jump line="67" column="68" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/sparkjobs.py" />
       <jump line="68" column="78" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/sparkjobs.py" />
@@ -1642,10 +1645,15 @@
       <jump line="5" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_2.py" />
       <jump line="72" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_2.py" />
       <jump line="123" column="22" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_2.py" />
+      <jump line="52" column="24" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
+      <jump line="87" column="11" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
+      <jump line="233" column="13" filename="$USER_HOME$/git/mousera2/common/spark/mus_utils.py" />
+      <jump line="68" column="19" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
+      <jump line="40" column="33" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>perf</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1819,18 +1827,35 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>perf</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>mus_ut</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">UFlfQklOQVJZKAogIE5BTUUgICAgIGNyZWF0ZV8yCiAgU09VUkNFUyAgY3JlYXRlXzIucHkKICBERVBFTkRTICAvL3Rvb2xzL3RlcnJhL2NvcmUvY29ycHVzL3R5cGUwMTM6aGFuZGxlcgogICAgICAgICAgIC8vdG9vbHMvdGVycmEvY29yZS9jb3JwdXM6dXRpbHMKICAgICAgICAgICAvL2NvbW1vbi9zcGFyazpzcGFya191dGlscwogICAgICAgICAgIC8vY29tbW9uL3NwYXJrOmJlc3RlZmZvcnQKICAgICAgICAgICAvL2NvbW1vbi9zcGFyazptdXNfdXRpbHMKICAgICAgICAgICAvL2NvbW1vbjpsb2cKICAgICAgICAgICAvL3NkazM6c2RrMwogICAgICAgICAgIC8vc2RrMy92aWRlbzpjb3JlCikK</text>
+        <text encoding="base64">ZnJvbSBjb21tb24uc3BhcmsgaW1wb3J0IHBlcmYK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIHByaW50IEZMQUdTLnN0YXJ0CiAgICBwcmludCBGTEFHUy5lbmQKICAgIHJldHVybgo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdtb250aCcsIE5vbmUsICdXaGljaCBtb250aCBmb3Igd2hpY2ggdG8gZ2VuZXJhdGUgYSByZXBvcnQgKEphbnVhcnkgPSAxLCBldGMpJykK</text>
+      </register>
+      <register name="r" type="4">
+        <keys>
+          <key char="105" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="40" mods="0" />
+        </keys>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">V2hpY2ggeWVhciBmb3Igd2hpY2ggdG8gZ2VuZXJhdGUgYSByZXBvcnQgKFlZWVknKQo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="5" type="4">
         <text>PY_BINARY(
   NAME     create_for_ear_tag
   SOURCES  create_for_ear_tag.py
@@ -1852,43 +1877,26 @@
            PIP://python-gflags
 )</text>
       </register>
-      <register name="r" type="4">
-        <keys>
-          <key char="105" code="0" mods="0" />
-          <key char="32" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="65535" code="40" mods="0" />
-        </keys>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKICAgICAgICAjIEhlcmUgaXMgd2hlcmUgSSdtIGFkZGluZyBzcGVjaWFsIGNvZGUgdG8gbGltaXQgdGhlIGludGVydmFsIHRvIG9ubHkgdGltZXMgYWZ0ZXIKICAgICAgICAjIGVhciB0YWdzIGFyZSBwbGFjZWQgb24gc3ViamVjdHMuCiAgICAgICAgc3ViamVjdHMgPSBjYWdlLnN1YmplY3RfbGlua2FnZXMoTm9uZSkuYWxsKCkKICAgICAgICAjIEFubm90YXRpb25UeXBlIDI0NCBpcyAnRWFyIFRhZ2dlZCcKICAgICAgICBhbm5vdGF0aW9ucyA9IFttdXMuQW5ub3RhdGlvbi5maWx0ZXIocywgYW5ub3RhdGlvbl90eXBlcz1bbXVzLkFubm90YXRpb25UeXBlKDI0NCldKSBmb3IgcyBpbiBzdWJqZWN0c10KICAgICAgICAjICdhbm5vdGF0aW9ucycgaXMgYSBsaXN0IG9mIGxpc3RzLCBmbGF0dGVuIGl0CiAgICAgICAgYW5ub3RhdGlvbnMgPSBzdW0oYW5ub3RhdGlvbnMsIFtdKQoKICAgICAgICBmaXJzdF9lYXJfdGFnZ2VkX3RpbWUgPSBtaW4oW2Fubm90YXRpb24ub2JqZWN0X3RpbWUoKSBmb3IgYW5ub3RhdGlvbiBpbiBhbm5vdGF0aW9uc10pCiAgICAgICAgaW50ZXJ2YWwuc3RhcnRfdGltZV9zZWMgPSBmaXJzdF9lYXJfdGFnZ2VkX3RpbWUKICAgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">VGhpcyBzY3JpcHQgaXMgY29weSBwYXN0ZWQgZnJvbSB0b29scy90ZXJyYS9jb3JlL2NvcnB1cy90eXBlMDEzL2NyZWF0ZS9jcmVhdGVfMi5weSBhbmQgb25seSBzbGlnaHRseQptb2RpZmllZC4gVGhlIHJlYXNvbiBmb3IgaXQgaXMgdGhhdCB3ZSBuZWVkIHRvIGNvbnN0cmFpbiBleGFtcGxlcyBmb3IgbGFiZWxpbmcgdG8gdGltZXMgYWZ0ZXIgZWFyIHRhZ3MKYXJlIGFkZGVkIHRvIG1pY2UuIEkgZG9uJ3Qgc2VlIGEgZ29vZCB3YXkgb2YgZ2VuZXJhbGl6aW5nIHdpdGhvdXQgd3JpdGluZyBsb3RzIG9mIGJhZCBjb2RlLiBJbnN0ZWFkCkkgYW0gZ29pbmcgdG8gYWRkIGhlcmUgd2hhdCBpcyBuZWVkZWQuIE9ubHkgZGlmZmVyZW5jZSB3aXRoIHRvb2xzL3RlcnJhL2NvcmUvY29ycHVzL3R5cGUwMTMvY3JlYXRlL2NyZWF0ZS5weSAKaXMgaW4gYmV0d2VlbiBzZWN0aW9uIHdpdGggbG9zdCBvZiAiIyIgKHNlYXJjaCBmb3IgIyMjIyMjIyMjIyMjIyMjIyMjIyMjKQo=</text>
+        <text encoding="base64">ICAgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKICAgICAgICAjIEhlcmUgaXMgd2hlcmUgSSdtIGFkZGluZyBzcGVjaWFsIGNvZGUgdG8gbGltaXQgdGhlIGludGVydmFsIHRvIG9ubHkgdGltZXMgYWZ0ZXIKICAgICAgICAjIGVhciB0YWdzIGFyZSBwbGFjZWQgb24gc3ViamVjdHMuCiAgICAgICAgc3ViamVjdHMgPSBjYWdlLnN1YmplY3RfbGlua2FnZXMoTm9uZSkuYWxsKCkKICAgICAgICAjIEFubm90YXRpb25UeXBlIDI0NCBpcyAnRWFyIFRhZ2dlZCcKICAgICAgICBhbm5vdGF0aW9ucyA9IFttdXMuQW5ub3RhdGlvbi5maWx0ZXIocywgYW5ub3RhdGlvbl90eXBlcz1bbXVzLkFubm90YXRpb25UeXBlKDI0NCldKSBmb3IgcyBpbiBzdWJqZWN0c10KICAgICAgICAjICdhbm5vdGF0aW9ucycgaXMgYSBsaXN0IG9mIGxpc3RzLCBmbGF0dGVuIGl0CiAgICAgICAgYW5ub3RhdGlvbnMgPSBzdW0oYW5ub3RhdGlvbnMsIFtdKQoKICAgICAgICBmaXJzdF9lYXJfdGFnZ2VkX3RpbWUgPSBtaW4oW2Fubm90YXRpb24ub2JqZWN0X3RpbWUoKSBmb3IgYW5ub3RhdGlvbiBpbiBhbm5vdGF0aW9uc10pCiAgICAgICAgaW50ZXJ2YWwuc3RhcnRfdGltZV9zZWMgPSBmaXJzdF9lYXJfdGFnZ2VkX3RpbWUKICAgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">RE9DS0VSX0lNQUdFKAogIE5BTUUgICAgIGltYWdlXzIKICBTT1VSQ0UgICBjcmVhdGVfaW1hZ2VfMi5kb2NrZXIKKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>mus_ut</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>mus_ut</last-pattern>
       <last-replace>training_dataset_key</last-replace>
       <last-substitute>training</last-substitute>
       <last-dir>1</last-dir>
@@ -1896,8 +1904,6 @@
     </search>
     <history>
       <history-search>
-        <entry>training</entry>
-        <entry>ima</entry>
         <entry>light_cycle</entry>
         <entry>####</entry>
         <entry>No clips</entry>
@@ -1916,6 +1922,8 @@
         <entry>frames_per_cage</entry>
         <entry>###</entry>
         <entry>pudb</entry>
+        <entry>start</entry>
+        <entry>mus_ut</entry>
       </history-search>
       <history-cmd>
         <entry>%s/annotateditem/annotated_item/gc</entry>
@@ -1936,8 +1944,8 @@
         <entry>qa</entry>
         <entry>142</entry>
         <entry>q</entry>
-        <entry>w</entry>
         <entry>wq</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
