@@ -211,11 +211,12 @@
       <file name="$USER_HOME$/git/mousera2/storage/s3inv.py" timestamp="1505171906183">
         <mark key="'" line="18" column="12" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/common/spark/mus_utils.py" timestamp="1505324940272">
+      <file name="$USER_HOME$/git/mousera2/common/spark/mus_utils.py" timestamp="1505335676443">
         <mark key="'" line="108" column="0" />
-        <mark key="[" line="30" column="59" />
-        <mark key="]" line="30" column="59" />
-        <mark key="." line="30" column="59" />
+        <mark key="[" line="136" column="0" />
+        <mark key="]" line="137" column="11" />
+        <mark key="^" line="137" column="11" />
+        <mark key="." line="137" column="11" />
       </file>
       <file name="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/config.py" timestamp="1503503171941">
         <mark key="'" line="179" column="15" />
@@ -1288,12 +1289,12 @@
         <mark key="." line="12" column="0" />
         <mark key="^" line="134" column="28" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" timestamp="1505333860541">
-        <mark key="'" line="73" column="20" />
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="^" line="104" column="7" />
-        <mark key="." line="35" column="0" />
+      <file name="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" timestamp="1505335734861">
+        <mark key="'" line="29" column="19" />
+        <mark key="[" line="25" column="65" />
+        <mark key="]" line="25" column="65" />
+        <mark key="^" line="25" column="65" />
+        <mark key="." line="25" column="65" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/scales/test/post_message.py" timestamp="1497535377736">
         <mark key="'" line="16" column="49" />
@@ -1424,7 +1425,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="12" filename="$USER_HOME$/debug.py" />
       <jump line="442" column="6" filename="$USER_HOME$/git/mousera2/sdk3/mus.py" />
       <jump line="405" column="15" filename="$USER_HOME$/git/mousera2/sdk3/mus.py" />
       <jump line="408" column="25" filename="$USER_HOME$/git/mousera2/sdk3/mus.py" />
@@ -1524,6 +1524,7 @@
       <jump line="14" column="0" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" />
       <jump line="75" column="20" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" />
       <jump line="77" column="16" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/lib/models/models.py" />
+      <jump line="29" column="19" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -1701,19 +1702,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>rdd.count()</text>
+        <text>p</text>
       </register>
       <register name="/" type="4">
         <text>of</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaW50ICcqJyo4MAo=</text>
+        <text encoding="base64">Z2ZsYWdzLkRFRklORV9zdHJpbmcoJ2VuZF90aW1lJywgTm9uZSwgJ0lmIGdpdmVuIGl0IHByb2Nlc3MgdXAgdW50aWwgdGhpcyBkYXRlJykK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxvZy5pbmZvKCdpbnNpZGUgInByb2Nlc3NfY2FnZV9kdXJpbmdfaW50ZXJ2YWwiJykK</text>
+        <text encoding="base64">ICAgICAgICBpZiBieSA9PSAnc3ViamVjdCc6CiAgICAgICAgICAgIG11c19vYmplY3QgPSByb3cuc3ViamVjdAogICAgICAgICAgICBpbnRlcnZhbCA9IG11c19vYmplY3Quc2xvdHRlZF9pbnRlcnZhbCgpCiAgICAgICAgaWYgYnkgPT0gJ2NhZ2UnOgogICAgICAgICAgICBtdXNfb2JqZWN0ID0gcm93LmNhZ2UKICAgICAgICAgICAgaW50ZXJ2YWwgPSBtdXNfb2JqZWN0LnNsb3R0ZWRfaW50ZXJ2YWwoKQogICAgICAgIGlmIGJ5ID09ICdleHBlcmltZW50JzoKICAgICAgICAgICAgbXVzX29iamVjdCA9IHJvdy5leHBlcmltZW50CiAgICAgICAgICAgIHN0YXJ0ID0gbXVzX29iamVjdC5zdGFydF90aW1lCiAgICAgICAgICAgIGVuZCA9IG11c19vYmplY3QuZW5kX3RpbWUoKQogICAgICAgICAgICBpbnRlcnZhbCA9IHV0aW1lLkludGVydmFsKHN0YXJ0LCBlbmQpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1724,25 +1725,25 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIDpwYXJhbSBieTogc3RyLCBvbmUgb2YgJ3N1YmplY3QnLCAnZXhwZWlybWVudCcsICdjYWdlJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHVuZGVyIGEgc3Bhcmsgam9iCg==</text>
+        <text encoding="base64">ICAgIHN0YXJ0L2VuZCB0aW1lIG9mIG9yaWdpbmFsIGludGVydmFsIGFyZSB0YWtlbiBmcm9tICdieScgKGllLCBleHBlcmltZW50LCBzdWJqZWN0LCBjYWdlKSBpbiByb3cK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgVE9ETzogaWYgWW91c3NlZiAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSBweXNwYXJrIGltcG9ydCBzcWwK</text>
+        <text encoding="base64">ICAgIGxvZy5pbmZvKCdpbnNpZGUgInByb2Nlc3NfY2FnZV9kdXJpbmdfaW50ZXJ2YWwiJykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24uYnVja2V0IGltcG9ydCBidWNrZXQK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24uYnVja2V0IGltcG9ydCBidWNrZXQKZnJvbSBjb21tb24ubWV0cmljcyBpbXBvcnQgbWV0cmljX2NsaWVudApmcm9tIGNvbW1vbi5tZXRyaWNzIGltcG9ydCBtZXRyaWNfZGF0YQo=</text>
+        <text encoding="base64">ICAgIHVuZGVyIGEgc3Bhcmsgam9iCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
