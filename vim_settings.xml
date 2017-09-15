@@ -98,6 +98,10 @@
       <file name="$USER_HOME$/git/mousera2/checkers/archive/metrics_coverage/metrics_coverage.docker" timestamp="1503503158719">
         <mark key="'" line="12" column="21" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/corpus.proto" timestamp="1505496333336">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="17" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/house_of_mischief/report.py" timestamp="1502389687695">
         <mark key="'" line="19" column="19" />
         <mark key="[" line="19" column="17" />
@@ -724,6 +728,13 @@
         <mark key="." line="44" column="12" />
         <mark key="^" line="6" column="19" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/corpus.proto" timestamp="1505496378313">
+        <mark key="'" line="13" column="2" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="26" column="1" />
+        <mark key="^" line="26" column="1" />
+        <mark key="." line="26" column="1" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/scales/test/scale_queues_test.py" timestamp="1502492574375">
         <mark key="'" line="119" column="15" />
         <mark key="[" line="18" column="8" />
@@ -776,8 +787,8 @@
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/create/create.py" timestamp="1504887541125">
         <mark key="'" line="88" column="48" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" timestamp="1505245425611">
-        <mark key="'" line="148" column="4" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" timestamp="1505496295392">
+        <mark key="'" line="127" column="33" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/scales/utils/post_message.py" timestamp="1502492588377">
         <mark key="'" line="56" column="11" />
@@ -1418,9 +1429,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="162" column="49" filename="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/lib/models/models.py" />
-      <jump line="164" column="38" filename="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/lib/models/models.py" />
-      <jump line="167" column="9" filename="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/lib/models/models.py" />
       <jump line="179" column="8" filename="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/lib/models/models.py" />
       <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/lib/models/models.py" />
       <jump line="74" column="19" filename="$USER_HOME$/git/mousera2/vision/wheel/active_timing/scripts/task_8/process_experiment.py" />
@@ -1518,10 +1526,13 @@
       <jump line="18" column="27" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/publish_split_dataset.py" />
       <jump line="1767" column="4" filename="$USER_HOME$/git/mousera2/sdk3/mus.py" />
       <jump line="913" column="10" filename="$USER_HOME$/git/mousera2/sdk3/mus.py" />
+      <jump line="127" column="33" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" />
+      <jump line="24" column="1" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/corpus.proto" />
+      <jump line="13" column="2" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/corpus.proto" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">c3ludGF4ID0gInByb3RvMyI7Cg==</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1698,10 +1709,10 @@
         <text>test_dataset_key</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text encoding="base64">b3B0aW9uYWwg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHRlc3RpbmdfZGF0YXNldF9rZXkgPSAncHJvamVjdC8xMjcvMTUwNTQyNzQzMS9kYXRhLnByb3RvJyAjICgyODg3IGltYWdlcykK</text>
+        <text encoding="base64">c3ludGF4ID0gInByb3RvMyI7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
@@ -1743,17 +1754,16 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search encoding="base64">b3B0aW9uYWwg</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
-      <last-replace>end</last-replace>
-      <last-substitute>start</last-substitute>
+      <last-pattern encoding="base64">b3B0aW9uYWwg</last-pattern>
+      <last-replace />
+      <last-substitute encoding="base64">b3B0aW9uYWwg</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>utime</entry>
         <entry>predictions</entry>
         <entry>met_res</entry>
         <entry>save_</entry>
@@ -1773,9 +1783,9 @@
         <entry>project_id</entry>
         <entry>class Base</entry>
         <entry>pudb</entry>
+        <entry encoding="base64">b3B0aW9uYWwg</entry>
       </history-search>
       <history-cmd>
-        <entry>125</entry>
         <entry>%s/metric_name/output_metric_name/gc</entry>
         <entry>123</entry>
         <entry>106</entry>
@@ -1794,6 +1804,7 @@
         <entry>q</entry>
         <entry>wq</entry>
         <entry>qa</entry>
+        <entry>%s/optional //</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
