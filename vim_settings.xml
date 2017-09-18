@@ -24,12 +24,12 @@
         <mark key="^" line="22" column="8" />
         <mark key="." line="22" column="8" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" timestamp="1505434509721">
-        <mark key="'" line="63" column="87" />
-        <mark key="[" line="18" column="73" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-        <mark key="^" line="20" column="0" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" timestamp="1505769994698">
+        <mark key="'" line="35" column="68" />
+        <mark key="[" line="18" column="5" />
+        <mark key="]" line="18" column="7" />
+        <mark key="^" line="18" column="7" />
+        <mark key="." line="18" column="7" />
       </file>
       <file name="$USER_HOME$/git/mousera2/queue_processors/slab_video/test/CMakeLists.txt" timestamp="1497975402459">
         <mark key="'" line="15" column="17" />
@@ -1109,9 +1109,9 @@
         <mark key="^" line="119" column="15" />
         <mark key="." line="119" column="15" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/readme.md" timestamp="1505765960096">
-        <mark key="[" line="8" column="6" />
-        <mark key="]" line="9" column="5" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/readme.md" timestamp="1505769843948">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="11" column="65" />
         <mark key="." line="9" column="5" />
         <mark key="^" line="9" column="5" />
       </file>
@@ -1483,12 +1483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="127" column="8" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" />
-      <jump line="26" column="37" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" />
-      <jump line="10" column="37" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/demo.py" />
-      <jump line="28" column="15" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/demo.py" />
-      <jump line="129" column="20" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" />
-      <jump line="21" column="26" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create_for_ear_tag.py" />
       <jump line="131" column="26" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/utils.py" />
       <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/utils.py" />
       <jump line="71" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/utils.py" />
@@ -1583,10 +1577,16 @@
       <jump line="517" column="12" filename="$USER_HOME$/git/mousera2/experiments/process_csvs.py" />
       <jump line="1388" column="0" filename="$USER_HOME$/git/mousera2/experiments/process_csvs.py" />
       <jump line="2620" column="0" filename="$USER_HOME$/git/mousera2/experiments/process_csvs.py" />
+      <jump line="59" column="40" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
+      <jump line="15" column="5" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
+      <jump line="52" column="13" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
+      <jump line="17" column="5" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
+      <jump line="18" column="9" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
+      <jump line="35" column="68" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/create_models.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSB2aXNpb24ub2JqZGV0ZWN0LmNhc2NhZGUgaW1wb3J0IGNvcmUK</text>
+      <register name="&quot;" type="4">
+        <text>#</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1760,19 +1760,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>besteffort</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>thick</text>
+        <text>dataset</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IGNsaQpmcm9tIGNvbW1vbiBpbXBvcnQgbG9nCmZyb20gY29tbW9uLnNwYXJrIGltcG9ydCBiZXN0ZWZmb3J0CmZyb20gY29tbW9uLnNwYXJrIGltcG9ydCBzcGFya191dGlscwpmcm9tIGNvbW1vbi5zcGFyayBpbXBvcnQgbXVzX3V0aWxzCmZyb20gY29tbW9uLnV0aWxzIGltcG9ydCB1dGltZQpmcm9tIHNkazMgaW1wb3J0IG11cwpmcm9tIHNkazMudmlkZW8gaW1wb3J0IHBsYXkKZnJvbSB0b29scyBpbXBvcnQgdGVycmEKZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cyBpbXBvcnQgdXRpbHMKZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cy5saWIud3NybCBpbXBvcnQgY29ycHVzX3BiMgpmcm9tIHRvb2xzLnRlcnJhLmNvcmUuY29ycHVzLnR5cGUwMTMgaW1wb3J0IGhhbmRsZXIKZnJvbSB2aXNpb24ub2JqZGV0ZWN0LmNhc2NhZGUgaW1wb3J0IGNhc2NhZGVfcGIyCmZyb20gdmlzaW9uLm9iamRldGVjdC5jYXNjYWRlIGltcG9ydCBjb3JlCg==</text>
+        <text encoding="base64">dGVzdF9kYXRhc2V0X2tleTogcHJvamVjdC8xMjcvMTUwNTQyNzQzMS9kYXRhLnByb3RvICgyODg3IGltYWdlcykKdHJhaW5fZGF0YXNldF9rZXk6IHByb2plY3QvMTI3LzE1MDU3NTIyOTcvZGF0YS5wcm90byAoOTMzOCBpbWFnZXMpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSB2aXNpb24ub2JqZGV0ZWN0LmNhc2NhZGUgaW1wb3J0IGNvcmUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CmZyb20gdmlzaW9uLm9iamRldGVjdC5jYXNjYWRlIGltcG9ydCBjYXNjYWRlX3BiMgo=</text>
+        <text encoding="base64">dHJhaW5pbmdfZGF0YXNldF9rZXkgPSAncHJvamVjdC8xMTQvMTUwNDI3OTk0Ny9kYXRhLnByb3RvJwp0ZXN0aW5nX2RhdGFzZXRfa2V5ID0gJ3Byb2plY3QvMTI3LzE1MDU0Mjc0MzEvZGF0YS5wcm90bycgIyAoMjg4NyBpbWFnZXMpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1783,34 +1783,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cyBpbXBvcnQgdXRpbHMKZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cy5saWIud3NybCBpbXBvcnQgY29ycHVzX3BiMgpmcm9tIHRvb2xzLnRlcnJhLmNvcmUuY29ycHVzLnR5cGUwMTMgaW1wb3J0IGhhbmRsZXIK</text>
+        <text encoding="base64">ZnJvbSB2aXNpb24ub2JqZGV0ZWN0LmNhc2NhZGUgaW1wb3J0IGNvcmUK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSB0b29scyBpbXBvcnQgdGVycmEK</text>
+        <text encoding="base64">CmZyb20gdmlzaW9uLm9iamRldGVjdC5jYXNjYWRlIGltcG9ydCBjYXNjYWRlX3BiMgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBzZGszIGltcG9ydCBtdXMKZnJvbSBzZGszLnZpZGVvIGltcG9ydCBwbGF5Cg==</text>
+        <text encoding="base64">ZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cyBpbXBvcnQgdXRpbHMKZnJvbSB0b29scy50ZXJyYS5jb3JlLmNvcnB1cy5saWIud3NybCBpbXBvcnQgY29ycHVzX3BiMgpmcm9tIHRvb2xzLnRlcnJhLmNvcmUuY29ycHVzLnR5cGUwMTMgaW1wb3J0IGhhbmRsZXIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24udXRpbHMgaW1wb3J0IHV0aW1lCg==</text>
+        <text encoding="base64">ZnJvbSB0b29scyBpbXBvcnQgdGVycmEK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24uc3BhcmsgaW1wb3J0IG11c191dGlscwo=</text>
+        <text encoding="base64">ZnJvbSBzZGszIGltcG9ydCBtdXMKZnJvbSBzZGszLnZpZGVvIGltcG9ydCBwbGF5Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24uc3BhcmsgaW1wb3J0IHNwYXJrX3V0aWxzCg==</text>
+        <text encoding="base64">ZnJvbSBjb21tb24udXRpbHMgaW1wb3J0IHV0aW1lCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IGNsaQpmcm9tIGNvbW1vbiBpbXBvcnQgbG9nCmZyb20gY29tbW9uLnNwYXJrIGltcG9ydCBiZXN0ZWZmb3J0Cg==</text>
+        <text encoding="base64">ZnJvbSBjb21tb24uc3BhcmsgaW1wb3J0IG11c191dGlscwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>thick</last-search>
+      <last-search>dataset</last-search>
       <last-offset />
-      <last-pattern>thick</last-pattern>
+      <last-pattern>dataset</last-pattern>
       <last-replace>height</last-replace>
       <last-substitute>width</last-substitute>
       <last-dir>1</last-dir>
@@ -1818,10 +1818,6 @@
     </search>
     <history>
       <history-search>
-        <entry>frames_per</entry>
-        <entry>items</entry>
-        <entry>max_items</entry>
-        <entry>frames_per_cage</entry>
         <entry>frames_per_item</entry>
         <entry>num_items</entry>
         <entry>pudb</entry>
@@ -1838,6 +1834,10 @@
         <entry>def get</entry>
         <entry>line</entry>
         <entry>thick</entry>
+        <entry>test_</entry>
+        <entry>testing_</entry>
+        <entry>testing</entry>
+        <entry>dataset</entry>
       </history-search>
       <history-cmd>
         <entry>5</entry>
