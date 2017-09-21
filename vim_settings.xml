@@ -959,6 +959,13 @@
         <mark key="^" line="2" column="0" />
         <mark key="." line="17" column="0" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create.py" timestamp="1506014788615">
+        <mark key="'" line="95" column="4" />
+        <mark key="[" line="115" column="0" />
+        <mark key="]" line="117" column="19" />
+        <mark key="." line="117" column="19" />
+        <mark key="^" line="117" column="19" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/sdk3/test/from_s3_tests.py" timestamp="1497485639065">
         <mark key="'" line="12" column="20" />
         <mark key="[" line="35" column="0" />
@@ -1479,9 +1486,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="126" column="63" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
-      <jump line="132" column="38" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
-      <jump line="136" column="30" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="139" column="63" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="147" column="38" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
@@ -1579,10 +1583,13 @@
       <jump line="360" column="7" filename="$USER_HOME$/debug.py" />
       <jump line="35" column="53" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/to_TFRecords.py" />
       <jump line="94" column="36" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/to_TFRecords.py" />
+      <jump line="61" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create.py" />
+      <jump line="152" column="65" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create.py" />
+      <jump line="93" column="4" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/create/create.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>initialize_all_variables</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">VGFzayA9IGNvbGxlY3Rpb25zLm5hbWVkdHVwbGUoJ1Rhc2snLCBbJ2NhZ2UnLCAnc2FtcGxlX3RpbWUnXSkK</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1759,16 +1766,16 @@
         <text>initialize_all_variables</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>DET</text>
       </register>
       <register name="0" type="4">
         <text>d</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">VGFzayA9IGNvbGxlY3Rpb25zLm5hbWVkdHVwbGUoJ1Rhc2snLCBbJ2NhZ2UnLCAnc2FtcGxlX3RpbWUnXSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOwo=</text>
+        <text encoding="base64">ICAgIG1vZGVsX2tleSA9IG1vZGUK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1779,34 +1786,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJlY29yZHNfZmlsZSA9IHRvX1RGUmVjb3Jkcy5pbnNwZWN0X1RGUmVjb3JkcygpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAnbmRpbScK</text>
+        <text encoding="base64">ICAgICAgICBNT0RFTF9LRVkgPSAnMWZlYTI5NzdhM2E5MzRmMmM4MjE4YzM0Mzg2MWFhODQnCiAgICAgICAgREVURUNUT1JfUEFSQU1TID0gY2FzY2FkZV9wYjIuRGV0ZWN0b3JQYXJhbXMobWluX25laWdoYm9yX2NvdW50PTExLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjYWxlPTEuMSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5fcGF0Y2hfc2l6ZT0yMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhfcGF0Y2hfc2l6ZT00MCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QGdmbGFncy52YWxpZGF0b3IoJ2RldGVjdG9yJywgTm90KQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgcGlja2VkIGluIGJldHdlZW4gZWFydGFncyBpbnN0ZXJ0ZWQgYW5kIGNhZ2UudW5zbG90dGVkX3RpbWUoKQo=</text>
+        <text encoding="base64">ZGVwZW5kaW5nIG9uIHRoZSBmbGFnICkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICMgR2VuZXJhdGUgbmV3IHJvd3MgZnJvbSBlYWNoIHJvdyBpbiByZGQuIEVhY2ggbmV3IHJvdyB3aWxsIGluY2x1ZGUgYSAndGltZScgdGhhdCBpcyByYW5kb21seQogICAgIyBwaWNrZWQgaW4gYmV0d2VlbiBlYXJ0YWdzIGluc3RlcnRlZCBhbmQgY2FnZS51bnNsb3R0ZWRfdGltZSgpCg==</text>
+        <text encoding="base64">ICAgIHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">VGFzayA9IGNvbGxlY3Rpb25zLm5hbWVkdHVwbGUoJ1Rhc2snLCBbJ2NhZ2UnLCAnc2FtcGxlX3RpbWUnXSkK</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIF9nZXRfY2xhc3NfbGFiZWwocmVsYXRpdmVfcGF0aCwgY2xhc3NfdG9faW50PU5vbmUpOgogICAgIiIiIEV4dHJhY3Qgc3RyaW5nIHJlcHJlc2VudGluZyBjbGFzcyBsYWJlbCBmcm9tIHJlbGF0aXZlIHBhdGguCiAgICByZWxhdGl2ZV9wYXRoIHdpbGwgYmUgb2YgdGhlIGZvcm0gVHJhaW5pbmcvY2xhc3NfbGFiZWwgb3IgY2xhc3NfbGFiZWwvVHJhaW5pbmcKICAgICh3aGVyZSAnVHJhaW5pbmcnIGNvdWxkIGJlIGFsc28gJ1RyYWluJyAsICdWYWxpZGF0ZScsICdWYWxpZGF0aW5nJywgJ1Rlc3QnLCAnVGVzdGluZycKICAgIGFuZCBvciB0aGUgbG93ZXIgY2FzZSB2ZXJzaW9ucykKCiAgICBjbGFzc190b19pbnQgICAgKGRpY3Qgb3IgTm9uZSk6CiAgICAgICAgTm9uZTogICB0aGUgc3RyaW5nIGNsYXNzIHdpbGwgYmUgcmV0dXJuZWQKICAgICAgICBkaWN0OiAgIHNob3VsZCBoYXZlIGtleXMgZXF1YWwgdG8gdGhlIHN0cmluZyBjbGFzcyB0aGF0IHdvdWxkIGJlCiAgICAgICAgICAgICAgICByZXR1cm5lZCB3aGVuIGNsYXNzX3RvX2ludCBpcyBOb25lLiBWYWx1ZXMgc2hvdWxkIGJlIHdoYXQgeW91CiAgICAgICAgICAgICAgICB3YW50IHRvIGJlIHJldHVybmVkIGFzIHRoZSBsYWJlbAogICAgICAgICAgICAgICAgZXhhbXBsZSAoYXNzdW1pbmcgY2xhc3NlcyBhcmUgImNhdCIsICJkb2ciLCAiaG91c2UiLCAiYWlycGxhbmUiKQogICAgICAgICAgICAgICAgeydkb2cnOjAsICdjYXQnOjAsICdhaXJwbGFuZSc6MSwgJ2hvdXNlJzoyfQoKICAgICIiIgogICAgIyBpZiBpbnNpZGUgcm9vdF9mb2xkZXIvVHJhaW5pbmcvcmVhcmluZy8gdGhlIGNsYXNzIGxhYmVsIHNob3VsZCBiZSAncmVhcmluZycKICAgICMgZm9yIHRoZSB0aW1lIGJlaW5nLCB3ZSBvbmx5IGhhdmUgZm9sZGVycyBvZiB0aGUgZm9ybQogICAgIyAgIFRyYWluL1RyYWluaW5nL1ZhbGlkYXRlL1ZhbGlkYXRpbmcvVGVzdC9UZXN0aW5nCiAgICAjICAgaWYgbmVlZGVkIG1vZGlmeSBGT0xERVJfUkVHRVggYXQgdGhlIHRvcAogICAgZm9sZGVyX3JlZ2V4ID0gcmUuY29tcGlsZSgiKFt0VF1yYWlufFt2Vl1hbGlkYXR8W3RUXWVzdCllPyhpbmd8aW9uKT8iKQogICAgbWF0Y2ggPSBmb2xkZXJfcmVnZXguc2VhcmNoKHJlbGF0aXZlX3BhdGgpCiAgICBpZiBtYXRjaDoKICAgICAgICBzdHJfbGFiZWwgPSByZWxhdGl2ZV9wYXRoLnJlcGxhY2UobWF0Y2guZ3JvdXAoMCksICcnKQogICAgZWxzZToKICAgICAgICBzdHJfbGFiZWwgPSByZWxhdGl2ZV9wYXRoCgogICAgc3RyX2xhYmVsID0gc3RyX2xhYmVsLnN0cmlwKCcvJykKCiAgICBjbGFzc19sYWJlbCA9IHN0cl9sYWJlbAogICAgaWYgY2xhc3NfdG9faW50OgogICAgICAgIGNsYXNzX2xhYmVsID0gY2xhc3NfdG9faW50W3N0cl9sYWJlbF0KICAgIHJldHVybiBjbGFzc19sYWJlbAoKCg==</text>
+        <text encoding="base64">ICAgIHJlY29yZHNfZmlsZSA9IHRvX1RGUmVjb3Jkcy5pbnNwZWN0X1RGUmVjb3JkcygpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>DET</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>DET</last-pattern>
       <last-replace>height</last-replace>
       <last-substitute>width</last-substitute>
       <last-dir>1</last-dir>
@@ -1814,8 +1821,6 @@
     </search>
     <history>
       <history-search>
-        <entry>testing</entry>
-        <entry encoding="base64">XDwwMDJcPg==</entry>
         <entry>training</entry>
         <entry>width</entry>
         <entry>redraw</entry>
@@ -1834,6 +1839,8 @@
         <entry>tf</entry>
         <entry>inspect</entry>
         <entry>pudb</entry>
+        <entry>detector</entry>
+        <entry>DET</entry>
       </history-search>
       <history-cmd>
         <entry>%s/util/vision_util/gc</entry>
