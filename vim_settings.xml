@@ -92,6 +92,12 @@
         <mark key="^" line="208" column="27" />
         <mark key="." line="216" column="0" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/storage/accounting/utils.py" timestamp="1506104713263">
+        <mark key="[" line="135" column="0" />
+        <mark key="]" line="137" column="25" />
+        <mark key="." line="135" column="0" />
+        <mark key="^" line="110" column="19" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/archive/plots.py" timestamp="1502494000940">
         <mark key="'" line="245" column="14" />
         <mark key="[" line="21" column="8" />
@@ -792,8 +798,8 @@
         <mark key="^" line="238" column="24" />
         <mark key="." line="238" column="24" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" timestamp="1506103247142">
-        <mark key="'" line="44" column="12" />
+      <file name="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" timestamp="1506104527964">
+        <mark key="'" line="99" column="11" />
         <mark key="[" line="47" column="0" />
         <mark key="]" line="47" column="35" />
       </file>
@@ -1502,9 +1508,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
-      <jump line="240" column="12" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
-      <jump line="330" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
       <jump line="332" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
       <jump line="335" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
       <jump line="144" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
@@ -1602,10 +1605,13 @@
       <jump line="43" column="12" filename="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" />
       <jump line="44" column="12" filename="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" />
       <jump line="91" column="64" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
+      <jump line="92" column="18" filename="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" />
+      <jump line="95" column="17" filename="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" />
+      <jump line="99" column="11" filename="$USER_HOME$/git/mousera2/storage/accounting/experiment_cost_report.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBzdG9yYWdlLmFjY291bnRpbmcgaW1wb3J0IHV0aWxzCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnKicqODAKICAgICAgICBwcmludCBuYW1lCiAgICAgICAgcHJpbnQgcmRkLmZpcnN0KCkK</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1782,16 +1788,16 @@
         <text>task</text>
       </register>
       <register name="/" type="4">
-        <text>utils</text>
+        <text>rdd</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnJvbSBzdG9yYWdlLmFjY291bnRpbmcgaW1wb3J0IHV0aWxzCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAnKicqODAKICAgICAgICBwcmludCBuYW1lCiAgICAgICAgcHJpbnQgcmRkLmZpcnN0KCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBzdG9yYWdlLmFjY291bnRpbmcgaW1wb3J0IHV0aWxzCg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBzeXMKICAgIHN5cy5leGl0KDApCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHJkZF9jYWNoaW5nID0gc3BhcmtfdXRpbHMuUmRkUzNDYWNoZShzYywgJ3N0b3JhZ2UnKQo=</text>
+        <text encoding="base64">ZnJvbSBzdG9yYWdlLmFjY291bnRpbmcgaW1wb3J0IHV0aWxzCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1802,13 +1808,13 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHJkZF9jYWNoaW5nID0gc3BhcmtfdXRpbHMuUmRkUzNDYWNoZShzYywgJ3N0b3JhZ2UnKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNhY2hlZF9yZGQgPSBzcGFya191dGlscy5SZGRTM0NhY2hlKHNjLCAnc3RvcmFnZScpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNhY2hlZF9yZGQgPSBzcGFya191dGlscy5SZGRTM0NhY2hlKHNjLCAnc3RvcmFnZScpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -1817,19 +1823,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHJldHVybgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>utils</last-search>
+      <last-search>rdd</last-search>
       <last-offset />
-      <last-pattern>utils</last-pattern>
+      <last-pattern>rdd</last-pattern>
       <last-replace>square_size_px</last-replace>
       <last-substitute>width</last-substitute>
       <last-dir>1</last-dir>
@@ -1837,7 +1843,6 @@
     </search>
     <history>
       <history-search>
-        <entry>height</entry>
         <entry>rectangles</entry>
         <entry>dragging</entry>
         <entry>is_draging</entry>
@@ -1857,6 +1862,7 @@
         <entry>suffix</entry>
         <entry>parse</entry>
         <entry>utils</entry>
+        <entry>rdd</entry>
       </history-search>
       <history-cmd>
         <entry>142</entry>
