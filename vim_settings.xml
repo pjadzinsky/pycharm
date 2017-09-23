@@ -779,6 +779,13 @@
         <mark key="]" line="40" column="0" />
         <mark key="." line="40" column="0" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/corpus.proto" timestamp="1506124498925">
+        <mark key="'" line="14" column="2" />
+        <mark key="[" line="14" column="2" />
+        <mark key="]" line="14" column="2" />
+        <mark key="^" line="14" column="2" />
+        <mark key="." line="14" column="2" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/scales/test/scale_queues_test.py" timestamp="1502492574375">
         <mark key="'" line="119" column="15" />
         <mark key="[" line="18" column="8" />
@@ -1182,10 +1189,11 @@
         <mark key="." line="20" column="24" />
         <mark key="^" line="20" column="24" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" timestamp="1506117126545">
-        <mark key="[" line="132" column="0" />
-        <mark key="]" line="132" column="0" />
-        <mark key="." line="132" column="0" />
+      <file name="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" timestamp="1506124272456">
+        <mark key="'" line="131" column="0" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/powerspectra/synthview_powerspectra.py" timestamp="1504155874686">
         <mark key="'" line="52" column="47" />
@@ -1214,6 +1222,12 @@
         <mark key="]" line="1043" column="51" />
         <mark key="^" line="838" column="18" />
         <mark key="." line="838" column="18" />
+      </file>
+      <file name="$USER_HOME$/git/mousera2/storage/accounting/CMakeLists.txt" timestamp="1506124611778">
+        <mark key="[" line="32" column="1" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
+        <mark key="^" line="33" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/build/vision/wheel/active_timing/lib/models/models.py" timestamp="1505319094898">
         <mark key="'" line="72" column="67" />
@@ -1521,8 +1535,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="259" column="8" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_rectangles.py" />
-      <jump line="289" column="4" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_rectangles.py" />
       <jump line="290" column="4" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_rectangles.py" />
       <jump line="291" column="4" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_rectangles.py" />
       <jump line="292" column="4" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_rectangles.py" />
@@ -1618,13 +1630,15 @@
       <jump line="56" column="22" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
       <jump line="130" column="35" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
       <jump line="135" column="67" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
-      <jump line="132" column="34" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
       <jump line="41" column="33" filename="$USER_HOME$/git/mousera2/storage/s3inv.py" />
       <jump line="244" column="0" filename="$USER_HOME$/git/mousera2/storage/s3inv.py" />
+      <jump line="132" column="0" filename="$USER_HOME$/git/mousera2/storage/accounting/integrated_experiment_cost_report.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/corpus.proto" />
+      <jump line="14" column="2" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/corpus.proto" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJyMjIyMjIyMjIycKICAgICAgICAgICAgcHJpbnQgJ3N1ZmZpeDonLCBzdWZmaXgK</text>
+      <register name="&quot;" type="4">
+        <text>optional</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1798,19 +1812,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>intersection_interval</text>
+        <text>optional</text>
       </register>
       <register name="/" type="4">
-        <text>print</text>
+        <text encoding="base64">b3B0aW9uYWwg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJ2YWwgPSByb3cuaW50ZXJ2YWwKICAgICAgICAgICAgaWYgc3VmZml4IGFuZCBub3QgcmVjb3JkLmtleS5lbmRzd2l0aChzdWZmaXgpOgogICAgICAgICAgICAgICAgcmV0dXJuCgogICAgICAgICAgICBtYWNfYWRkcmVzcywgXyAsIF8sIGludGVyc2VjdGlvbl9pbnRlcnZhbCA9IGFjY291bnRpbmdfdXRpbHMucGFyc2Vfa2V5KHJlY29yZC5rZXksIGludGVydmFsKQogICAgICAgICAgICBpZiBub3QgbWFjX2FkZHJlc3Mgb3Igbm90IGludGVyc2VjdGlvbl9pbnRlcnZhbDoKICAgICAgICAgICAgICAgIHJldHVybgoKICAgICAgICAgICAgcmV0dXJuIHNwYXJrX3V0aWxzLmV4dGVuZF9yb3cocm93LCB7J21hY19hZGRyZXNzJzogbWFjX2FkZHJlc3N9KQo=</text>
+        <text encoding="base64">UFlfQklOQVJZKAogIE5BTUUgICAgZXhwZXJpbWVudF9jb3N0X3JlcG9ydAogIFNPVVJDRVMgZXhwZXJpbWVudF9jb3N0X3JlcG9ydC5weQogIERFUEVORFMgLy9jb21tb246Y2xpCiAgICAgICAgICAvL2NvbW1vbi9zdG9yZTpzMwogICAgICAgICAgLy9zdG9yYWdlL2FjY291bnRpbmc6dXRpbHMKICAgICAgICAgIC8vc3RvcmFnZTpwcmljZXMKICAgICAgICAgIC8vdGhpcmRwYXJ0eTpweXNwYXJrCikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJyMjIyMjIyMjIycKICAgICAgICAgICAgcHJpbnQgJ3N1ZmZpeDonLCBzdWZmaXgK</text>
+        <text encoding="base64">IyBTUEFSS19ET0NLRVJfRU5WIHN0b3JhZ2UuYWNjb3VudGluZy5pbWFnZQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJyMjIyMjIyMjIycKICAgICAgICAgICAgcHJpbnQgJ3N1ZmZpeDonLCBzdWZmaXgK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1821,43 +1835,41 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJ2YWwgPSByb3cuaW50ZXJ2YWwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJ2YWwgPSByb3cuaW50ZXJ2YWwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWFjX2FkZHJlc3NlcwogICAgICAgICAgICBtYWNfYWRkcmVzcywgXyAsIF8sIGludGVyc2VjdGlvbl9pbnRlcnZhbCA9IGFjY291bnRpbmdfdXRpbHMucGFyc2Vfa2V5KHJlY29yZC5rZXksIGludGVydmFsKQogICAgICAgICAgICBpZiBub3QgbWFjX2FkZHJlc3Mgb3Igbm90IGludGVyc2VjdGlvbl9pbnRlcnZhbDoKICAgICAgICAgICAgICAgIHJldHVybgoKICAgICAgICAgICAgcmV0dXJuIHNwYXJrX3V0aWxzLmV4dGVuZF9yb3cocm93LCB7J21hY19hZGRyZXNzJzogbWFjX2FkZHJlc3N9KQoKCgoKCgoKCgoKCgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWFjX2FkZHJlc3NlcwogICAgICAgICAgICBtYWNfYWRkcmVzcywgXyAsIF8sIGludGVyc2VjdGlvbl9pbnRlcnZhbCA9IGFjY291bnRpbmdfdXRpbHMucGFyc2Vfa2V5KHJlY29yZC5rZXksIGludGVydmFsKQogICAgICAgICAgICBpZiBub3QgbWFjX2FkZHJlc3Mgb3Igbm90IGludGVyc2VjdGlvbl9pbnRlcnZhbDoKICAgICAgICAgICAgICAgIHJldHVybgoKICAgICAgICAgICAgcmV0dXJuIHNwYXJrX3V0aWxzLmV4dGVuZF9yb3cocm93LCB7J21hY19hZGRyZXNzJzogbWFjX2FkZHJlc3N9KQoKCgoKCgoKCgoKCgo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJ2YWwgPSByb3cuaW50ZXJ2YWwKICAgICAgICAgICAgaWYgc3VmZml4IGFuZCBub3QgcmVjb3JkLmtleS5lbmRzd2l0aChzdWZmaXgpOgogICAgICAgICAgICAgICAgcmV0dXJuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJ2YWwgPSByb3cuaW50ZXJ2YWwKICAgICAgICAgICAgaWYgc3VmZml4IGFuZCBub3QgcmVjb3JkLmtleS5lbmRzd2l0aChzdWZmaXgpOgogICAgICAgICAgICAgICAgcmV0dXJuCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>print</last-search>
+      <last-search encoding="base64">b3B0aW9uYWwg</last-search>
       <last-offset />
-      <last-pattern>print</last-pattern>
-      <last-replace>get_cached_rdd</last-replace>
-      <last-substitute>get_new_rdd</last-substitute>
+      <last-pattern encoding="base64">b3B0aW9uYWwg</last-pattern>
+      <last-replace />
+      <last-substitute encoding="base64">b3B0aW9uYWwg</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>utils</entry>
-        <entry>rdd</entry>
         <entry>class Slab</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>start</entry>
@@ -1876,9 +1888,10 @@
         <entry>suffix</entry>
         <entry>pudb</entry>
         <entry>print</entry>
+        <entry>optional</entry>
+        <entry encoding="base64">b3B0aW9uYWwg</entry>
       </history-search>
       <history-cmd>
-        <entry>48</entry>
         <entry>34</entry>
         <entry>%s/pt_to_square/pt_to_rect/gc</entry>
         <entry>%s/squaure/square/gc</entry>
@@ -1897,6 +1910,7 @@
         <entry>137</entry>
         <entry>%s/cached_rdd/new_rdd/g</entry>
         <entry>%s/get_new_rdd/get_cached_rdd/g</entry>
+        <entry>%s/optional //</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
