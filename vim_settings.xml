@@ -63,12 +63,12 @@
         <mark key="]" line="58" column="0" />
         <mark key="." line="58" column="0" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/ml/tests/image_utils_test.py" timestamp="1506531187865">
+      <file name="$USER_HOME$/git/mousera2/ml/tests/image_utils_test.py" timestamp="1506540026361">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
-        <mark key="^" line="25" column="0" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="^" line="19" column="36" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/validation/run_validation.py" timestamp="1502389383877">
         <mark key="'" line="17" column="75" />
@@ -108,12 +108,12 @@
         <mark key="." line="135" column="0" />
         <mark key="^" line="110" column="19" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/ml/image_utils.py" timestamp="1506532584504">
+      <file name="$USER_HOME$/git/mousera2/ml/image_utils.py" timestamp="1506540264376">
         <mark key="'" line="9" column="0" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="." line="52" column="0" />
-        <mark key="^" line="41" column="67" />
+        <mark key="[" line="18" column="33" />
+        <mark key="]" line="18" column="33" />
+        <mark key="." line="18" column="33" />
+        <mark key="^" line="18" column="33" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/archive/plots.py" timestamp="1502494000940">
         <mark key="'" line="245" column="14" />
@@ -1692,8 +1692,8 @@
       <jump line="76" column="8" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/export.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgIkVNUFRZIiBub3QgaW4gbGFiZWw6CiAgICAgICAgICAgICAgICBwcmludCBsYWJlbAogICAgICAgICAgICAgICAgcHJpbnQgJ2FycmF5LnNoYXBlOicsIGFycmF5LnNoYXBlCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAnRU1QVFkgYmJveCcK</text>
+      <register name="&quot;" type="4">
+        <text>new_image</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1867,19 +1867,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>width</text>
+        <text>new_image</text>
       </register>
       <register name="/" type="4">
         <text>pudb</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmltYWdlcyA9IG5wLmV4cGFuZF9kaW1zKGltYWdlKDksIDksIDMpLCAzKQo=</text>
+      <register name="0" type="4">
+        <text>_batch</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgIkVNUFRZIiBub3QgaW4gbGFiZWw6CiAgICAgICAgICAgICAgICBwcmludCBsYWJlbAogICAgICAgICAgICAgICAgcHJpbnQgJ2FycmF5LnNoYXBlOicsIGFycmF5LnNoYXBlCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAnRU1QVFkgYmJveCcK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAiRU1QVFkiIGluIGxhYmVsOgogICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1890,25 +1890,25 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjcHJpbnQgImtleToiLCBrZXkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgJ0VNUFRZIGltYWdlLCBza2lwcGluZycK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAiaW1hZ2Uuc2hhcGU6IiwgaW1hZ2Uuc2hhcGUK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAiPj4+PiIsIGxhYmVsCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBpbWFnZXMK</text>
+        <text encoding="base64">ICAgICAgICBuZXdfaW1hZ2UgPSBuZXdfaW1hZ2VbOjotMSwgOl0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBuZXdfaW1hZ2UgPSBuZXdfaW1hZ2VbOiwgOjotMV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmZsaXBwZWQucmVzaGFwZSgoMywzKSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -1947,8 +1947,6 @@
         <entry>pudb</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/width/square_size_px/gc</entry>
-        <entry>143</entry>
         <entry>137</entry>
         <entry>%s/cached_rdd/new_rdd/g</entry>
         <entry>%s/get_new_rdd/get_cached_rdd/g</entry>
@@ -1966,6 +1964,8 @@
         <entry>7</entry>
         <entry>q</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>ws</entry>
+        <entry>2w</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
