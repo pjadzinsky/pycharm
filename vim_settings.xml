@@ -63,12 +63,12 @@
         <mark key="]" line="58" column="0" />
         <mark key="." line="58" column="0" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/ml/tests/image_utils_test.py" timestamp="1506540026361">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="^" line="19" column="36" />
-        <mark key="." line="15" column="0" />
+      <file name="$USER_HOME$/git/mousera2/ml/tests/image_utils_test.py" timestamp="1506541409943">
+        <mark key="'" line="10" column="19" />
+        <mark key="[" line="42" column="53" />
+        <mark key="]" line="43" column="18" />
+        <mark key="^" line="43" column="18" />
+        <mark key="." line="43" column="18" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/validation/run_validation.py" timestamp="1502389383877">
         <mark key="'" line="17" column="75" />
@@ -108,12 +108,12 @@
         <mark key="." line="135" column="0" />
         <mark key="^" line="110" column="19" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/ml/image_utils.py" timestamp="1506540264376">
+      <file name="$USER_HOME$/git/mousera2/ml/image_utils.py" timestamp="1506541616427">
         <mark key="'" line="9" column="0" />
-        <mark key="[" line="18" column="33" />
-        <mark key="]" line="18" column="33" />
-        <mark key="." line="18" column="33" />
-        <mark key="^" line="18" column="33" />
+        <mark key="[" line="31" column="56" />
+        <mark key="]" line="31" column="93" />
+        <mark key="^" line="31" column="93" />
+        <mark key="." line="31" column="93" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/archive/plots.py" timestamp="1502494000940">
         <mark key="'" line="245" column="14" />
@@ -888,6 +888,9 @@
         <mark key="." line="285" column="56" />
         <mark key="^" line="285" column="56" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" timestamp="1506541873156">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/scales/utils/post_message.py" timestamp="1502492588377">
         <mark key="'" line="56" column="11" />
         <mark key="[" line="24" column="8" />
@@ -1590,7 +1593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="655" column="4" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
       <jump line="671" column="4" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
       <jump line="761" column="4" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
       <jump line="816" column="4" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
@@ -1690,10 +1692,11 @@
       <jump line="81" column="12" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/export.py" />
       <jump line="96" column="23" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/export.py" />
       <jump line="76" column="8" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/export.py" />
+      <jump line="10" column="19" filename="$USER_HOME$/git/mousera2/ml/tests/image_utils_test.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>new_image</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAiIiIgSnVzdCBtYWtlIHN1cmUgaXQgcnVucywgIiIiCg==</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1867,19 +1870,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>new_image</text>
+        <text>new_batch</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>image</text>
       </register>
-      <register name="0" type="4">
-        <text>_batch</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHByaW50IG5ld19iYXRjaC5kdHlwZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
+        <text encoding="base64">ICAgICAgICAiIiIgSnVzdCBtYWtlIHN1cmUgaXQgcnVucywgIiIiCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmJhdGNoCiAgICAgICAgcHJpbnQgbm9pc3kKICAgICAgICAjc2VsZi5hc3NlcnRFcXVhbChzaGlmdGVkWzAsIDAsIDAsIDBdLCAyNTApCiAgICAgICAgI3NlbGYuYXNzZXJ0RXF1YWwoc2hpZnRlZFswLCAxLCAwLCAwXSwgLTUpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1890,10 +1893,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
@@ -1902,30 +1905,29 @@
         <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfaW1hZ2UgPSBuZXdfaW1hZ2VbOjotMSwgOl0K</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfaW1hZ2UgPSBuZXdfaW1hZ2VbOiwgOjotMV0K</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmltYWdlLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBzZWxmLmZsaXBwZWQucmVzaGFwZSgoMywzKSkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmbGlwcGVkLnJlc2hhcGUoKDMsMykpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>image</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
-      <last-replace>validating_f</last-replace>
-      <last-substitute>validation_f</last-substitute>
+      <last-pattern>image</last-pattern>
+      <last-replace>batch</last-replace>
+      <last-substitute>image</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>progress</entry>
         <entry>break</entry>
         <entry>dataset_key</entry>
         <entry>dataset</entry>
@@ -1945,9 +1947,9 @@
         <entry>fs</entry>
         <entry>size</entry>
         <entry>pudb</entry>
+        <entry>image</entry>
       </history-search>
       <history-cmd>
-        <entry>137</entry>
         <entry>%s/cached_rdd/new_rdd/g</entry>
         <entry>%s/get_new_rdd/get_cached_rdd/g</entry>
         <entry>%s/optional //</entry>
@@ -1966,6 +1968,7 @@
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>ws</entry>
         <entry>2w</entry>
+        <entry>11,38s/image/batch/gc</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
