@@ -103,12 +103,12 @@
         <mark key="." line="135" column="0" />
         <mark key="^" line="110" column="19" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/ml/image_utils.py" timestamp="1506570290995">
-        <mark key="'" line="58" column="106" />
-        <mark key="[" line="6" column="18" />
-        <mark key="]" line="7" column="0" />
+      <file name="$USER_HOME$/git/mousera2/ml/image_utils.py" timestamp="1506632895516">
+        <mark key="'" line="39" column="40" />
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
         <mark key="^" line="7" column="0" />
-        <mark key="." line="7" column="0" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/archive/plots.py" timestamp="1502494000940">
         <mark key="'" line="245" column="14" />
@@ -883,7 +883,7 @@
         <mark key="." line="285" column="56" />
         <mark key="^" line="285" column="56" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" timestamp="1506625089046">
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" timestamp="1506632816263">
         <mark key="'" line="11" column="26" />
         <mark key="[" line="36" column="36" />
         <mark key="]" line="13" column="17" />
@@ -984,6 +984,13 @@
         <mark key="]" line="7" column="3" />
         <mark key="^" line="7" column="3" />
         <mark key="." line="7" column="3" />
+      </file>
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/from_patches.py" timestamp="1506633667571">
+        <mark key="'" line="38" column="23" />
+        <mark key="[" line="44" column="12" />
+        <mark key="]" line="44" column="12" />
+        <mark key="." line="44" column="12" />
+        <mark key="^" line="43" column="43" />
       </file>
       <file name="$USER_HOME$/git/mousera2/sdk/test/mus_test.py" timestamp="1502401935373">
         <mark key="'" line="409" column="8" />
@@ -1586,11 +1593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="81" column="11" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
-      <jump line="85" column="8" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
-      <jump line="77" column="11" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
-      <jump line="75" column="24" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
-      <jump line="89" column="8" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
       <jump line="90" column="12" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
       <jump line="106" column="4" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
       <jump line="67" column="3" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
@@ -1686,10 +1688,15 @@
       <jump line="47" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="48" column="47" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
       <jump line="50" column="22" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/training.py" />
+      <jump line="7" column="21" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/from_patches.py" />
+      <jump line="41" column="40" filename="$USER_HOME$/git/mousera2/ml/image_utils.py" />
+      <jump line="24" column="4" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/from_patches.py" />
+      <jump line="25" column="8" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/from_patches.py" />
+      <jump line="31" column="23" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/private/from_patches.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50IG1vZGVsCg==</text>
+      <register name="&quot;" type="4">
+        <text>pos_dat_file</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1863,19 +1870,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>util</text>
+        <text>pos_dat_file</text>
       </register>
       <register name="/" type="4">
-        <text>dataset</text>
+        <text>pos</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">dGVzdGluZ19kYXRhc2V0X2tleSA9ICdwcm9qZWN0LzExNC8xNTA0MjgxOTgzL2RhdGEucHJvdG8nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGVtcGZpbGUgPSBmcy5tYWtlX3RlbXBfZmlsZShwb3NfZGlyLCBzdWZmaXg9Ii5wbmciKQogICAgICAgICAgICBjdjIuaW13cml0ZSh0ZW1wZmlsZSwgWFtpXSkKICAgICAgICAgICAgcG9zX2RhdF9maWxlLndyaXRlKCdwb3Mve3RlbXBmaWxlfSAxIDAgMCB7d2lkdGh9IHtoZWlnaHR9XG4nLmZvcm1hdCh0ZW1wZmlsZT10ZW1wZmlsZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg9d2lkdGgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodD1oZWlnaHQpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50IG1vZGVsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3YyLmltd3JpdGUodGVtcGZpbGUsIFhbaV0pCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOwogICAgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3YyLmltd3JpdGUodGVtcGZpbGUsIFhbaV0pCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1886,34 +1893,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0ZXN0X3NldF9mcmFjdGlvbiA9IDAuMjUgICMgdGhpcyBmYWN0aW9uIGlzIHNldCBhc2lkZSBmb3IgdGVzdGluZywgcmVzdCBnb2VzIHRvIHRyYWluaW5nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCApKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmogPSB0ZXJyYS5Bbm5vdGF0aW9uUHJvamVjdC5vYmplY3RzLmdldChpZD1wcm9qZWN0X2lkKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">UHJvamVjdCBpZCIpCg==</text>
+        <text encoding="base64">ICAgIHRlc3RpbmdfZmxhZyA9IEZhbHNlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Z2ZsYWdzLk1hcmtGbGFnQXNSZXF1aXJlZCgncHJvamVjdF9pZCcpCg==</text>
+        <text encoding="base64">ZnJvbSBtbCBpbXBvcnQgdGVycmFfY29uZmlnCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">SW5wdXQ6IGEgdGVycmEgcHJvamVjdCBpZAo=</text>
+        <text encoding="base64">ICAgIHN0b3JlID0gdGVycmFfY29uZmlnLmdldF9zdG9yZSh0ZXN0aW5nX2ZsYWcpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0ZW1wZmlsZSA9IGZzLm1ha2VfdGVtcF9maWxlKGRpcl8pCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>dataset</last-search>
+      <last-search>pos</last-search>
       <last-offset />
-      <last-pattern>dataset</last-pattern>
+      <last-pattern>pos</last-pattern>
       <last-replace>clf</last-replace>
       <last-substitute>estimator</last-substitute>
       <last-dir>1</last-dir>
@@ -1921,7 +1928,6 @@
     </search>
     <history>
       <history-search>
-        <entry>test</entry>
         <entry>all_c</entry>
         <entry>find_corr</entry>
         <entry>show</entry>
@@ -1936,11 +1942,12 @@
         <entry>class</entry>
         <entry>class B</entry>
         <entry>class Sub</entry>
-        <entry>pudb</entry>
         <entry>training_dataset_key</entry>
         <entry>params</entry>
         <entry>dataset_key</entry>
         <entry>dataset</entry>
+        <entry>pudb</entry>
+        <entry>pos</entry>
       </history-search>
       <history-cmd>
         <entry>7</entry>
