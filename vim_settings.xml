@@ -895,12 +895,12 @@
         <mark key="." line="285" column="56" />
         <mark key="^" line="285" column="56" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" timestamp="1506556762793">
-        <mark key="'" line="46" column="43" />
-        <mark key="[" line="33" column="35" />
-        <mark key="]" line="33" column="35" />
-        <mark key="^" line="46" column="43" />
-        <mark key="." line="33" column="44" />
+      <file name="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" timestamp="1506620189590">
+        <mark key="'" line="11" column="26" />
+        <mark key="[" line="42" column="29" />
+        <mark key="]" line="42" column="29" />
+        <mark key="." line="42" column="29" />
+        <mark key="^" line="42" column="29" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/scales/utils/post_message.py" timestamp="1502492588377">
         <mark key="'" line="56" column="11" />
@@ -1608,10 +1608,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
-      <jump line="49" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
-      <jump line="57" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
       <jump line="29" column="3" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
       <jump line="56" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
       <jump line="24" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
@@ -1635,7 +1631,6 @@
       <jump line="126" column="0" filename="$USER_HOME$/git/mousera2/ml/image_utils.py" />
       <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/ml/image_utils.py" />
       <jump line="14" column="0" filename="$USER_HOME$/git/mousera2/ml/image_utils.py" />
-      <jump line="41" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
       <jump line="46" column="43" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
       <jump line="11" column="0" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
       <jump line="20" column="3" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
@@ -1708,10 +1703,15 @@
       <jump line="63" column="7" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
       <jump line="51" column="15" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
       <jump line="83" column="0" filename="$USER_HOME$/PycharmProjects/opas/load.py" />
+      <jump line="7" column="12" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
+      <jump line="90" column="9" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
+      <jump line="41" column="10" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
+      <jump line="11" column="26" filename="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/train.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjcHJpbnQgIkNvbXB1dGluZyBjb3JyZWxhdGlvbnMgYmV0d2VlbjoiLCBjb2wxLCAiYW5kIiwgY29sMgo=</text>
+      <register name="&quot;" type="4">
+        <text>:</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1885,19 +1885,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
-        <text>inches</text>
+        <text>fs</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGF4WzBdLnBsb3QodGltZSwgY29ycikKICAgIGF4WzBdLnBsb3QoWzAsIDBdLCBheC5nZXRfeWxpbSgpLCAnOmsnKQo=</text>
+        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IGxvZwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjcHJpbnQgIkNvbXB1dGluZyBjb3JyZWxhdGlvbnMgYmV0d2VlbjoiLCBjb2wxLCAiYW5kIiwgY29sMgo=</text>
+        <text encoding="base64">ICAgIGZzLm1ha2VfdGVtcF9maWxlKCkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICNmaWcuc2F2ZWZpZyhvcy5wYXRoLmpvaW4oJ2RhdGEnLCAie2NvbDF9X3tjb2wyfS5wbmciLmZvcm1hdChjb2wxPWNvbDEsIGNvbDI9Y29sMikpKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1908,43 +1908,41 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGF4WzFdLnNldF94bGltKC0xMDAsIDEwMCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">cGlja2xlZF90cmFpbl9hcnJheXMgPSAnWF90cmFpbi5wa2wnCnBpY2tsZWRfdHJhaW5fbGFiZWxzID0gJ3lfdHJhaW4ucGtsJwpwaWNrbGVkX3ZhbF9hcnJheXMgPSAnWF92YWwucGtsJwpwaWNrbGVkX3ZhbF9sYWJlbHMgPSAneV92YWwucGtsJwpwaWNrbGVkX3Rlc3RfYXJyYXlzID0gJ1hfdGVzdC5wa2wnCnBpY2tsZWRfdGVzdF9sYWJlbHMgPSAneV90ZXN0LnBrbCcKCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ZGVmIGdldF9kYXRhKHdoaWNoX3R5cGUpOgogICAgbG9nLmNoZWNrKHdoaWNoX3R5cGUgaW4gWyd0ZXN0aW5nJywgJ3ZhbGlkYXRpbmcnLCAndHJhaW5pbmcnXSkKCiAgICBpZiB3aGljaF90eXBlID09ICd0cmFpbmluZyc6CiAgICAgICAgcGlja2xlZF9hcnJheXMgPSBwaWNrbGVkX3RyYWluX2FycmF5cwogICAgICAgIHBpY2tsZWRfbGFiZWxzID0gcGlja2xlZF90cmFpbl9sYWJlbHMKICAgICAgICBwcmVmaXhlcyA9IHRyYWluaW5nX3ByZWZpeGVzCiAgICBlbGlmIHdoaWNoX3R5cGUgPT0gJ3ZhbGlkYXRpbmcnOgogICAgICAgIHBpY2tsZWRfYXJyYXlzID0gcGlja2xlZF92YWxfYXJyYXlzCiAgICAgICAgcGlja2xlZF9sYWJlbHMgPSBwaWNrbGVkX3ZhbF9sYWJlbHMKICAgICAgICBwcmVmaXhlcyA9IHZhbGlkYXRpbmdfcHJlZml4ZXMKICAgIGVsaWYgd2hpY2hfdHlwZSA9PSAndGVzdGluZyc6CiAgICAgICAgcGlja2xlZF9hcnJheXMgPSBwaWNrbGVkX3Rlc3RfYXJyYXlzCiAgICAgICAgcGlja2xlZF9sYWJlbHMgPSBwaWNrbGVkX3Rlc3RfbGFiZWxzCiAgICAgICAgcHJlZml4ZXMgPSB0ZXN0aW5nX3ByZWZpeGVzCgogICAgaWYgb3MucGF0aC5pc2ZpbGUocGlja2xlZF9hcnJheXMpIGFuZCBvcy5wYXRoLmlzZmlsZShwaWNrbGVkX2xhYmVscyk6CiAgICAgICAgd2l0aCBvcGVuKHBpY2tsZWRfYXJyYXlzLCAncmInKSBhcyBmaWQ6CiAgICAgICAgICAgIFggPSBwaWNrbGUubG9hZChmaWQpCiAgICAgICAgd2l0aCBvcGVuKHBpY2tsZWRfbGFiZWxzLCAncmInKSBhcyBmaWQ6CiAgICAgICAgICAgIHkgPSBwaWNrbGUubG9hZChmaWQpCiAgICBlbHNlOgogICAgICAgIGZvciBYLCB5IGluIGltYWdlX3V0aWxzLmxvYWRfYmF0Y2gocHJlZml4ZXMsIDAsICgyMCwgMjApKToKICAgICAgICAgICAgd2l0aCBvcGVuKHBpY2tsZWRfYXJyYXlzLCAnd2InKSBhcyBmaWQ6CiAgICAgICAgICAgICAgICBwaWNrbGUuZHVtcChYLCBmaWQpCiAgICAgICAgICAgIHdpdGggb3BlbihwaWNrbGVkX2xhYmVscywgJ3diJykgYXMgZmlkOgogICAgICAgICAgICAgICAgcGlja2xlLmR1bXAoeSwgZmlkKQoKICAgIHJldHVybiBYLCB5Cgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICNwbG90KGRmLCAnJykK</text>
+        <text encoding="base64">ZnJvbSBtbCBpbXBvcnQgbWxfcGIyCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICNmaW5kX2NvcnJfcGVhayhkZiwgJ3gnLCAneScpCg==</text>
+        <text encoding="base64">ZnJvbSBtbCBpbXBvcnQgdGVycmFfY29uZmlnCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGF4c1sxXS5sZWdlbmQoKQo=</text>
+        <text encoding="base64">ZnJvbSBtbAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>inches</last-search>
+      <last-search>fs</last-search>
       <last-offset />
-      <last-pattern>inches</last-pattern>
-      <last-replace />
-      <last-substitute encoding="base64">Pj4+IA==</last-substitute>
+      <last-pattern>fs</last-pattern>
+      <last-replace>clf</last-replace>
+      <last-substitute>estimator</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>scikit</entry>
-        <entry>_train</entry>
         <entry>load_batch</entry>
         <entry>get_all</entry>
         <entry>find_corr_peak</entry>
@@ -1963,12 +1961,12 @@
         <entry>plot</entry>
         <entry>periodic_cor</entry>
         <entry>inches</entry>
+        <entry>estimator</entry>
+        <entry>fs</entry>
       </history-search>
       <history-cmd>
-        <entry>wq</entry>
         <entry>w2</entry>
         <entry>7</entry>
-        <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>ws</entry>
         <entry>2w</entry>
         <entry>11,38s/image/batch/gc</entry>
@@ -1984,6 +1982,8 @@
         <entry>55,80s/_train//gc</entry>
         <entry>qw</entry>
         <entry encoding="base64">JXMvPj4+IC8vZw==</entry>
+        <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>%s/estimator/clf/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
