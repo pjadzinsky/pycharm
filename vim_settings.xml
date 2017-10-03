@@ -71,6 +71,11 @@
         <mark key="." line="17" column="89" />
         <mark key="^" line="17" column="75" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/vidpose_id/handler.py" timestamp="1507050131901">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/vision/objdetect/cascade/eartag/demo_on_experiment.py" timestamp="1506371139739">
         <mark key="'" line="46" column="32" />
         <mark key="[" line="58" column="40" />
@@ -912,12 +917,6 @@
         <mark key="^" line="108" column="25" />
         <mark key="." line="108" column="25" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/opas/load.py" timestamp="1506655225606">
-        <mark key="'" line="45" column="4" />
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="7" />
-        <mark key="." line="45" column="0" />
-      </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/scripts/recompute_estimate_daily.py" timestamp="1502494039507">
         <mark key="'" line="52" column="12" />
         <mark key="[" line="18" column="8" />
@@ -1380,11 +1379,12 @@
         <mark key="^" line="525" column="27" />
         <mark key="." line="525" column="27" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type019/handler.py" timestamp="1507048147247">
-        <mark key="[" line="6" column="11" />
-        <mark key="]" line="6" column="3" />
-        <mark key="." line="6" column="3" />
-        <mark key="^" line="6" column="3" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type019/handler.py" timestamp="1507050034043">
+        <mark key="'" line="4" column="8" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="42" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/objdetect/ear_tags/demo.py" timestamp="1506627651566">
         <mark key="'" line="51" column="34" />
@@ -1633,8 +1633,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="336" column="17" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
-      <jump line="340" column="35" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="342" column="25" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="279" column="13" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/core.py" />
       <jump line="29" column="0" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/publish_split_dataset.py" />
@@ -1733,10 +1731,12 @@
       <jump line="330" column="16" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
       <jump line="332" column="16" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
       <jump line="334" column="16" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
+      <jump line="0" column="51" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type019/handler.py" />
+      <jump line="4" column="8" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type019/handler.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHVwZGF0ZV9kaXNwbGF5KCkK</text>
+        <text encoding="base64">ICAgIGEgJ3Bvc2UnIHRvIGVhY2ggbW91c2UK</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1910,19 +1910,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>clip</text>
       </register>
       <register name="/" type="4">
-        <text>move_</text>
+        <text>handler</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">QUREX1NVQkRJUkVDVE9SWSh2aWRwb3NlKQo=</text>
+      <register name="0" type="4">
+        <text>PoseForSingleFrameInClipWithID</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHVwZGF0ZV9kaXNwbGF5KCkK</text>
+        <text encoding="base64">ICAgIGEgJ3Bvc2UnIHRvIGVhY2ggbW91c2UK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAvL3Zpc2lvbi9zZWdtZW50L3N1cGVycGl4OnN1cGVycGl4Cg==</text>
+        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IGxvZwo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1933,34 +1933,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJldHVybgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHVwZGF0ZV9kaXNwbGF5KCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdtYXhfaXRlbXMnLCAxMDAwLCAiTWF4aW11bSBudW1iZXIgb2YgaXRlbXMgdG8gYWRkIHRvIGNvcnB1cyIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAvL3Zpc2lvbi9zZWdtZW50L3N1cGVycGl4OnN1cGVycGl4Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdjbGlwc19wZXJfY2FnZScsIDEwLCAiTnVtYmVyIG9mIGNsaXBzIHBlciBjYWdlIGluIHRoZSBkYXRhc2V0IikK</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdjbGlwX2R1cmF0aW9uJywgMTIwLCAiRHVyYXRpb24gb2YgZWFjaCBjbGlwIGluIHNlY29uZHMiKQo=</text>
+        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdtYXhfaXRlbXMnLCAxMDAwLCAiTWF4aW11bSBudW1iZXIgb2YgaXRlbXMgdG8gYWRkIHRvIGNvcnB1cyIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9lbnVtKCdsaWdodF9jeWNsZScsIE5vbmUsIFsnbGlnaHQnLCAnZGFyayddLCAiRXhhbXBsZXMgd2lsbCBiZSBmcm9tIGVpdGhlciAnbGlnaHQnIG9yICdkYXJrJyBjeWNsZSIpCg==</text>
+        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdjbGlwc19wZXJfY2FnZScsIDEwLCAiTnVtYmVyIG9mIGNsaXBzIHBlciBjYWdlIGluIHRoZSBkYXRhc2V0IikK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9lbnVtKCdjb2xvcicsIE5vbmUsIFsnYmxhY2snLCAnZ3JheScsICd3aGl0ZScsICdicm93biddLCAnQ29sb3Igb2YgbW91c2UgdG8gcHJvY2VzcyAod2hpdGUgb3IgYmxhY2spJykK</text>
+        <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdjbGlwX2R1cmF0aW9uJywgMTIwLCAiRHVyYXRpb24gb2YgZWFjaCBjbGlwIGluIHNlY29uZHMiKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9ib29sKCd0ZXN0aW5nJywgRmFsc2UsICdNYWtlIHRoZSBqb2IgdGlueSBmb3Igc21va2UgdGVzdGluZyBwdXJwb3NlcycpCg==</text>
+        <text encoding="base64">Z2ZsYWdzLkRFRklORV9lbnVtKCdsaWdodF9jeWNsZScsIE5vbmUsIFsnbGlnaHQnLCAnZGFyayddLCAiRXhhbXBsZXMgd2lsbCBiZSBmcm9tIGVpdGhlciAnbGlnaHQnIG9yICdkYXJrJyBjeWNsZSIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>move_</last-search>
+      <last-search>handler</last-search>
       <last-offset />
-      <last-pattern>move_</last-pattern>
+      <last-pattern>handler</last-pattern>
       <last-replace>_id</last-replace>
       <last-substitute>_ids</last-substitute>
       <last-dir>1</last-dir>
@@ -1968,7 +1968,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>mv</entry>
         <entry>move</entry>
         <entry>class</entry>
@@ -1988,6 +1987,7 @@
         <entry>return</entry>
         <entry>annoa</entry>
         <entry>move_</entry>
+        <entry>handler</entry>
       </history-search>
       <history-cmd>
         <entry>37,50s/train/val</entry>
