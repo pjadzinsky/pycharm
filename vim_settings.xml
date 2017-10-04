@@ -655,8 +655,8 @@
         <mark key="." line="87" column="26" />
         <mark key="^" line="87" column="26" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1507070327574">
-        <mark key="'" line="84" column="0" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1507073238745">
+        <mark key="'" line="149" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" timestamp="1505514547631">
         <mark key="'" line="39" column="0" />
@@ -1400,12 +1400,12 @@
         <mark key="." line="41" column="23" />
         <mark key="^" line="11" column="19" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/tools/terra/labelers_report.py" timestamp="1507071115113">
-        <mark key="'" line="23" column="16" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
-        <mark key="^" line="3" column="0" />
+      <file name="$USER_HOME$/git/mousera2/tools/terra/labelers_report.py" timestamp="1507073289856">
+        <mark key="'" line="34" column="16" />
+        <mark key="[" line="45" column="73" />
+        <mark key="]" line="45" column="98" />
+        <mark key="." line="45" column="98" />
+        <mark key="^" line="45" column="98" />
       </file>
       <file name="$USER_HOME$/git/mousera2/build/vision/objdetect/cascade/private/sparkjobs.py" timestamp="1506627801716">
         <mark key="'" line="137" column="12" />
@@ -1640,8 +1640,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="37" filename="$USER_HOME$/git/mousera2/vision/objdetect/cascade/publish_split_dataset.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
       <jump line="31" column="0" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
       <jump line="59" column="0" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
       <jump line="87" column="0" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
@@ -1727,23 +1725,25 @@
       <jump line="334" column="16" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type013/local_client/label_squares.py" />
       <jump line="0" column="51" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type019/handler.py" />
       <jump line="4" column="8" filename="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type019/handler.py" />
-      <jump line="66" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="75" column="5" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
-      <jump line="136" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
-      <jump line="149" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
-      <jump line="212" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="248" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="276" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="11" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="26" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="52" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="70" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
-      <jump line="84" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
       <jump line="14" column="16" filename="$USER_HOME$/git/mousera2/tools/terra/labelers_report.py" />
+      <jump line="179" column="13" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="210" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="212" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="66" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="84" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="136" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
+      <jump line="149" column="0" filename="$USER_HOME$/git/mousera2/tools/terra/core/models.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>kyle</text>
+        <text encoding="base64">bGFiZWxlcl9uYW1hcyA=</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1920,10 +1920,10 @@
         <text>kyle</text>
       </register>
       <register name="/" type="4">
-        <text>user</text>
+        <text>class Annotation</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGFubm90YXRvciA9IHRlcnJhLkFubm90YXRvci5vYmplY3RzLmdldChpZGVudGlmaWVyPSdreWxlJykKICAgIHByb2plY3QgPSB0ZXJyYS5Bbm5vdGF0aW9uUHJvamVjdC5vYmplY3RzLmdldChpZD0xMTQpCiAgICBwcmludCBhbm5vdGF0aW9ucyhhbm5vdGF0b3IsIHByb2plY3QpCg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">bGFiZWxlcl9uYW1hcyA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Z2ZsYWdzLkRFRklORV9pbnRlZ2VyKCdwcm9qZWN0X3R5cGUnLCBOb25lLCAnZmlsdGVyIGJ5IHByb2plY3QgdHlwZScpCmdmbGFncy5ERUZJTkVfc3RyaW5nKCdzdGFydF90aW1lLCAnKQo=</text>
@@ -1965,9 +1965,9 @@
       </register>
     </registers>
     <search>
-      <last-search>user</last-search>
+      <last-search>class Annotation</last-search>
       <last-offset />
-      <last-pattern>user</last-pattern>
+      <last-pattern>class Annotation</last-pattern>
       <last-replace>annotator</last-replace>
       <last-substitute>user</last-substitute>
       <last-dir>1</last-dir>
@@ -1975,8 +1975,6 @@
     </search>
     <history>
       <history-search>
-        <entry>DETECTOR_PARAMS</entry>
-        <entry>rdd</entry>
         <entry>tasks_per_row</entry>
         <entry>play</entry>
         <entry>detections</entry>
@@ -1990,11 +1988,13 @@
         <entry>move_</entry>
         <entry>handler</entry>
         <entry>class Anno</entry>
-        <entry>class Annotator</entry>
         <entry>class Us</entry>
         <entry>class</entry>
-        <entry>class Annotation</entry>
         <entry>user</entry>
+        <entry>class Annotator</entry>
+        <entry>AnnotationIt</entry>
+        <entry>class Annot</entry>
+        <entry>class Annotation</entry>
       </history-search>
       <history-cmd>
         <entry>26</entry>
