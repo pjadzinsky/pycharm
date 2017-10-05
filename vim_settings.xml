@@ -681,11 +681,12 @@
         <mark key="." line="55" column="60" />
         <mark key="^" line="55" column="60" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" timestamp="1507218695414">
-        <mark key="[" line="73" column="13" />
-        <mark key="]" line="69" column="26" />
-        <mark key="." line="69" column="26" />
-        <mark key="^" line="69" column="26" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" timestamp="1507225534421">
+        <mark key="'" line="11" column="28" />
+        <mark key="[" line="103" column="0" />
+        <mark key="]" line="103" column="0" />
+        <mark key="^" line="98" column="43" />
+        <mark key="." line="103" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/sdk3/test/from_kairos_test.py" timestamp="1502217049629">
         <mark key="'" line="145" column="8" />
@@ -1648,10 +1649,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="278" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
-      <jump line="296" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
-      <jump line="307" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
-      <jump line="318" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
       <jump line="326" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
       <jump line="330" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
       <jump line="342" column="4" filename="$USER_HOME$/git/mousera2/common/store/s3.py" />
@@ -1748,10 +1745,14 @@
       <jump line="279" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
       <jump line="297" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
       <jump line="379" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
+      <jump line="77" column="12" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
+      <jump line="8" column="21" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
+      <jump line="83" column="32" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
+      <jump line="11" column="28" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>None</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -1925,19 +1926,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>None</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>def .*verl</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWRkZWQgPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgIGxvZy5jaGVja19lcSh0eXBlKHRyYWNrbGV0cyksIGxpc3QpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y2xhc3MgVHJhY2tsZXRzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRlZCA9IEZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCgogICAgICAgIGlvdXMgPSBbdmlzX3V0aWxzLmludGVyc2VjdGlvbl9zY29yZShiYm94LCBiYm94MikgZm9yIGJib3gyIGluIGdvb2RfYmJveGVzXQogICAgICAgIGlmIG1heChpb3VzKSA8IG1heF9vdmVybGFwX2JldHdlZW5fYmJveGVzOgogICAgICAgICAgICBnb29kX2Jib3hlcy5hcHBlbmQoYmJveCkKICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1948,25 +1949,25 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jbG9zZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpb3UgPSAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgbGFzdF9iYm94ID0gc2VsZi5ib3VuZGluZ19ib3hlc1stMV0KICAgICAgICBpZiB2aXNfdXRpbHMuaW50ZXJzZWN0aW9uX3Njb3JlKGxhc3RfYmJveCwgYmJveCkgPiBtaW5faW91OgoKICAgICAgICBzZWxmLmJvdW5kaW5nX2JveGVzLmFwcGVuZChiYm94KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBiYm94MyBpbiBiYWRfYmJveGVzOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdvb2RfYmJveGVzLmFwcGVuZChiYm94MSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW91ID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICBmb3IgYmJveDIgaW4gYmFkX2Jib3hlczoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBUT0RPIHdoYXQncyB0aGUgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFkZF90b19nb29kID0gVHJ1ZQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
