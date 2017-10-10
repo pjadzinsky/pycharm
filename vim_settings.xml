@@ -116,11 +116,12 @@
         <mark key="^" line="21" column="8" />
         <mark key="." line="21" column="8" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" timestamp="1507653592833">
-        <mark key="'" line="74" column="31" />
-        <mark key="[" line="80" column="0" />
-        <mark key="]" line="80" column="0" />
-        <mark key="." line="80" column="0" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" timestamp="1507655447964">
+        <mark key="'" line="17" column="28" />
+        <mark key="[" line="80" column="45" />
+        <mark key="]" line="81" column="12" />
+        <mark key="^" line="81" column="12" />
+        <mark key="." line="81" column="12" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/corpus.proto" timestamp="1506435435010">
         <mark key="'" line="0" column="0" />
@@ -895,12 +896,9 @@
         <mark key="." line="15" column="13" />
         <mark key="^" line="15" column="13" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet.proto" timestamp="1507653280835">
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet.proto" timestamp="1507654810241">
         <mark key="'" line="26" column="3" />
         <mark key="[" line="42" column="0" />
-        <mark key="]" line="46" column="114" />
-        <mark key="." line="46" column="114" />
-        <mark key="^" line="46" column="114" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/segment/labgen/sample/create_dataset.py" timestamp="1500568575580">
         <mark key="'" line="20" column="0" />
@@ -1632,6 +1630,12 @@
         <mark key="." line="152" column="0" />
         <mark key="^" line="129" column="26" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/CMakeLists.txt" timestamp="1507655079618">
+        <mark key="[" line="23" column="21" />
+        <mark key="]" line="23" column="19" />
+        <mark key="." line="23" column="19" />
+        <mark key="^" line="23" column="19" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/task.js" timestamp="1505864522115">
         <mark key="'" line="19" column="14" />
         <mark key="[" line="19" column="14" />
@@ -1674,10 +1678,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
-      <jump line="106" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
-      <jump line="141" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
-      <jump line="180" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
       <jump line="199" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
       <jump line="219" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
       <jump line="301" column="0" filename="$USER_HOME$/git/mousera2/common/utils/utime.py" />
@@ -1774,10 +1774,14 @@
       <jump line="42" column="21" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
       <jump line="43" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
       <jump line="74" column="31" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="81" column="72" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="21" column="18" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="82" column="5" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="17" column="28" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBicmVhawo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBwcm9iYWJpbGl0eV9vZl9BID4gMDoK</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6444,19 +6448,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>tracklet</text>
+        <text>probabilites</text>
       </register>
       <register name="/" type="4">
         <text>cageg</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZnJhbWUuYm91bmRpbmdfYm94LnkyID0gcm93Wyd5MiddCg==</text>
+        <text encoding="base64">ICAgICAgICBwcm9iYWJpbGl0eV9vZl9BID0gMAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBicmVhawo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBwcm9iYWJpbGl0eV9vZl9BID4gMDoK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMuZXh0ZW5kKFtzLmlkIGZvciBzIGluIHN1YmplY3RzXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZnJhbWUuaWRfcHJvYmFiaWxpdGllcy5leHRlbmQocHJvYmFiaWxpdGVzKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6467,25 +6471,25 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByb2JhYmlsaXRlcyA9IFswLjUsIDAuNV0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByb2JhYmlsaXRpZXMgPSBbMCwgMV0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFsxLCAwXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIGJvdW5kaW5nX2JveC54MSA9IHJvd1sneDEnXQogICAgICAgICAgICBmcmFtZS5ib3VuZGluZ19ib3gueDIgPSByb3dbJ3gyJ10KICAgICAgICAgICAgZnJhbWUuYm91bmRpbmdfYm94LnkxID0gcm93Wyd5MSddCiAgICAgICAgICAgIGZyYW1lLmJvdW5kaW5nX2JveC55MiA9IHJvd1sneTInXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJlcGVhdGVkIGRvdWJsZSBpZF9wcm9iYWJpbGl0aWVzID0gNTsgLy8gbGlzdCBvZiBwcm9iYWJpbGl0aWVzIGNvcnJlc3BvbmRpbmcgdG8gc3ViamVjdHMgaW4gJ1RyYWNrbGV0cycgbWVzc2FnZQo=</text>
+        <text encoding="base64">ICAgIHRyYWNrbGV0cy5zdWJqZWN0X2lkcy5leHRlbmQoW3MuaWQgZm9yIHMgaW4gc3ViamVjdHNdKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHZpc2lvbi5Cb3VuZGluZ0JveCBib3VuZGluZ19ib3ggPSA0Owo=</text>
+        <text encoding="base64">ICAgICAgICBicmVhawo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIFN0YXRlVW5jZXJ0YWludHkgdW5jZXJ0YWludHkgPSAzOwo=</text>
+        <text encoding="base64">ICAgICMuZXh0ZW5kKFtzLmlkIGZvciBzIGluIHN1YmplY3RzXSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -6538,11 +6542,11 @@
         <entry>s/\t/, /gc</entry>
         <entry>%s/time'/time_sec'/gc</entry>
         <entry>30</entry>
-        <entry>q</entry>
         <entry>w2</entry>
         <entry>s/start/end</entry>
         <entry>2w</entry>
         <entry>12</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
