@@ -116,13 +116,13 @@
         <mark key="^" line="21" column="8" />
         <mark key="." line="21" column="8" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" timestamp="1507672811165">
-        <mark key="e" line="97" column="4" />
-        <mark key="'" line="93" column="12" />
-        <mark key="[" line="67" column="0" />
-        <mark key="]" line="71" column="21" />
-        <mark key="." line="67" column="0" />
-        <mark key="^" line="81" column="30" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" timestamp="1507734883753">
+        <mark key="e" line="101" column="4" />
+        <mark key="'" line="64" column="53" />
+        <mark key="[" line="64" column="53" />
+        <mark key="]" line="64" column="65" />
+        <mark key="." line="64" column="65" />
+        <mark key="^" line="82" column="69" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/corpus.proto" timestamp="1506435435010">
         <mark key="'" line="0" column="0" />
@@ -1702,11 +1702,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="26" column="3" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet.proto" />
-      <jump line="47" column="15" filename="$USER_HOME$/git/mousera2/vision/vision.proto" />
-      <jump line="13" column="26" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
-      <jump line="34" column="7" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
-      <jump line="36" column="24" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
       <jump line="37" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
       <jump line="40" column="30" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
       <jump line="45" column="28" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
@@ -1802,10 +1797,15 @@
       <jump line="127" column="69" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
       <jump line="128" column="37" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
       <jump line="129" column="23" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
+      <jump line="67" column="8" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="117" column="6" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="122" column="8" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="27" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
+      <jump line="64" column="53" filename="$USER_HOME$/git/mousera2/vision/tracking/merge_tracklets_and_ids.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>process</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG1hcHBlciA9IHBsYW5lbWFwLk9mZnNldFBsYW5lTWFwcGVyKGNhbGlicmF0aW9uLCB6X29mZnNldF9jbSkK</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6472,19 +6472,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>process</text>
+        <text>DEFAULT_MOUSE_Z</text>
       </register>
       <register name="/" type="4">
-        <text>probab</text>
+        <text>z_offset</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIHBsb3Rfbl9zZWNvbmRfZXN0aW1hdGVzX2Zvcl9zbGFiX2ludGVydmFsKHRyYWNrbGV0cywgdGVzdGluZz1UcnVlLCBzdHJvbmdfaW5zdGVhZF9vZl9lc3RpbWF0ZT1GYWxzZSk6Cg==</text>
+        <text encoding="base64">ICAgIGNtLnogPSB4eXpfY21bMl0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBhY3RpdmVfaW5kZXggPT0gMTA5OgogICAgICAgIGltcG9ydCBwdWRiOwogICAgICAgIHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgIG1hcHBlciA9IHBsYW5lbWFwLk9mZnNldFBsYW5lTWFwcGVyKGNhbGlicmF0aW9uLCB6X29mZnNldF9jbSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
+        <text encoding="base64">REVGQVVMVF9NT1VTRV9aID0gMQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6495,34 +6495,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHpfb2Zmc2V0X2NtID0gMS43MjEK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsK</text>
+        <text encoding="base64">ICAgICAgICBpZiBhY3RpdmVfaW5kZXggPT0gMTA5OgogICAgICAgIGltcG9ydCBwdWRiOwogICAgICAgIHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgdHJhY2tsZXRfaWQgPT0gMTA5OgogICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7CiAgICAgICAgICAgICAgICBwdWRiLnNldF90cmFjZSgpCiAgICAgICAgICAgICAgICBhYWEgPSB0cmFja2xldF9pZAogICAgICAgICAgICAgICAgYmJiID0gYWFhCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgdHJhY2tsZXRfaWQgPT0gMTA5OgogICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7CiAgICAgICAgICAgICAgICBwdWRiLnNldF90cmFjZSgpCiAgICAgICAgICAgICAgICBhYWEgPSB0cmFja2xldF9pZAogICAgICAgICAgICAgICAgYmJiID0gYWFhCg==</text>
+        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBvbmx5IHNhdmUgYSBmZXcgZ29vZCB0cmFja2xldHMgZm9yIGRlYnVnZ2luZwogICAgICAgICAgICBpZiB0cmFja2xldF9pZCBub3QgaW4gWzEwOSwgMzg0LCAxMDA2XToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGRkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdHJhY2tsZXRfaWQgPT0gMTA5OgogICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7CiAgICAgICAgICAgICAgICBwdWRiLnNldF90cmFjZSgpCiAgICAgICAgICAgICAgICBhYWEgPSB0cmFja2xldF9pZAogICAgICAgICAgICAgICAgYmJiID0gYWFhCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsKICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgdHJhY2tsZXRfaWQgPT0gMTA5OgogICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7CiAgICAgICAgICAgICAgICBwdWRiLnNldF90cmFjZSgpCiAgICAgICAgICAgICAgICBhYWEgPSB0cmFja2xldF9pZAogICAgICAgICAgICAgICAgYmJiID0gYWFhCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>probab</last-search>
+      <last-search>z_offset</last-search>
       <last-offset />
-      <last-pattern>probab</last-pattern>
+      <last-pattern>z_offset</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -6530,8 +6530,6 @@
     </search>
     <history>
       <history-search>
-        <entry>cageg</entry>
-        <entry>Writer</entry>
         <entry>def compl</entry>
         <entry>def conta</entry>
         <entry>proto</entry>
@@ -6550,6 +6548,8 @@
         <entry>activity_hash</entry>
         <entry>tracklets</entry>
         <entry>probab</entry>
+        <entry>get_center</entry>
+        <entry>z_offset</entry>
       </history-search>
       <history-cmd>
         <entry>%s/new_distance/new_iou/gc</entry>
