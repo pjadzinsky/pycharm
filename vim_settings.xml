@@ -922,6 +922,13 @@
         <mark key="'" line="26" column="3" />
         <mark key="[" line="42" column="0" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1507868444024">
+        <mark key="'" line="29" column="21" />
+        <mark key="[" line="11" column="34" />
+        <mark key="]" line="12" column="40" />
+        <mark key="^" line="12" column="40" />
+        <mark key="." line="12" column="40" />
+      </file>
       <file name="$USER_HOME$/git/mousera2/vision/segment/labgen/sample/create_dataset.py" timestamp="1500568575580">
         <mark key="'" line="20" column="0" />
         <mark key="[" line="142" column="0" />
@@ -1691,11 +1698,11 @@
         <mark key="." line="152" column="0" />
         <mark key="^" line="129" column="26" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/CMakeLists.txt" timestamp="1507738761380">
-        <mark key="[" line="21" column="11" />
-        <mark key="]" line="23" column="35" />
-        <mark key="." line="23" column="35" />
-        <mark key="^" line="23" column="35" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/CMakeLists.txt" timestamp="1507867817457">
+        <mark key="[" line="18" column="12" />
+        <mark key="]" line="19" column="11" />
+        <mark key="." line="19" column="11" />
+        <mark key="^" line="19" column="11" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/wsrl/task.js" timestamp="1505864522115">
         <mark key="'" line="19" column="14" />
@@ -1739,7 +1746,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="570" column="14" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" />
       <jump line="6" column="19" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" />
       <jump line="576" column="3" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" />
       <jump line="197" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" />
@@ -1839,10 +1845,11 @@
       <jump line="101" column="81" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/demo_calculate_activity.py" />
       <jump line="102" column="31" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/demo_calculate_activity.py" />
       <jump line="136" column="58" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/demo_calculate_activity.py" />
+      <jump line="28" column="21" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdXRpbWUuSW50ZXJ2YWwoc2VsZi5zdGFydF90aW1lX3NlYywgc2VsZi5lbmRfdGltZV9zZWMpCg==</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6509,19 +6516,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>object</text>
       </register>
       <register name="/" type="4">
-        <text>activity_df</text>
+        <text>Trackles</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9lbnVtKCdpZCcsIE5vbmUsIFsnMCcsICcxJ10sICdpZCBvZiBkZW1vIHRvIHJ1bicpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdXRpbWUuSW50ZXJ2YWwoc2VsZi5zdGFydF90aW1lX3NlYywgc2VsZi5lbmRfdGltZV9zZWMpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgZGlkIGFueSBvdGhlciB0cmFja2xldCByZXR1cm5lZCBOb25lPyBpbiB0aGF0IGNhc2UK</text>
+        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCB0cmFja2xldHMpOgogICAgICAgIGxvZy5jaGVja19lcSh0eXBlKHRyYWNrbGV0cyksIHRyYWNrbGV0X3BiMi5UcmFja2xldHMpCiAgICAgICAgc2VsZi5jYWdlX2lkID0gdHJhY2tsZXRzLmNhZ2VfaWQKICAgICAgICBzZWxmLnN0YXJ0X3RpbWVfc2VjID0gdHJhY2tsZXRzLnN0YXJ0X3RpbWVfc2VjCiAgICAgICAgc2VsZi5lbmRfdGltZV9zZWMgPSB0cmFja2xldHMuZW5kX3RpbWVfc2VjCiAgICAgICAgc2VsZi5pdGVtcyA9IHRyYWNrbGV0cy5pdGVtcwo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6532,34 +6539,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHN1YmplY3RzX2luX3RyYWNrbGV0c19mb3VuZC4K</text>
+        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCB0cmFja2xldCk6CiAgICAgICAgbG9nLmNoZWNrX2VxKHR5cGUodHJhY2tsZXQpLCB0cmFja2xldF9wYjIuVHJhY2tsZXQpCiAgICAgICAgc2VsZi5zdGFydF90aW1lX3NlYyA9IHRyYWNrbGV0LnN0YXJ0X3RpbWVfc2VjCiAgICAgICAgc2VsZi5lbmRfdGltZV9zZWMgPSB0cmFja2xldC5lbmRfdGltZV9zZWMKICAgICAgICBzZWxmLmlkX2Rpc3QK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHN1YmplY3RfY29scyA9IGNhbGN1bGF0ZV9hY3Rpdml0eS5fc3ViamVjdF9jb2x1bW5zKGFjdGl2aXR5X2RmKQo=</text>
+        <text encoding="base64">ICAgICMgZGlkIGFueSBvdGhlciB0cmFja2xldCByZXR1cm5lZCBOb25lPyBpbiB0aGF0IGNhc2UK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOwogICAgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgIHN1YmplY3RzX2luX3RyYWNrbGV0c19mb3VuZC4K</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHdlaWdodGVkID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgIHN1YmplY3RfY29scyA9IGNhbGN1bGF0ZV9hY3Rpdml0eS5fc3ViamVjdF9jb2x1bW5zKGFjdGl2aXR5X2RmKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHBlcl9zdWJqZWN0X2RmID0gY2FsY3VsYXRlX2FjdGl2aXR5LmNhbGN1bGF0ZV9wZXJfc3ViamVjdF9hY3Rpdml0eV9lc3RpbWF0ZXMoYWN0aXZpdHlfZGYsIHdlaWdodGVkKQo=</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOwogICAgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>activity_df</last-search>
+      <last-search>Trackles</last-search>
       <last-offset />
-      <last-pattern>activity_df</last-pattern>
+      <last-pattern>Trackles</last-pattern>
       <last-replace />
       <last-substitute>_id</last-substitute>
       <last-dir>1</last-dir>
@@ -6567,7 +6574,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">IA==</entry>
         <entry encoding="base64">PDw8</entry>
         <entry encoding="base64">Pj4+</entry>
         <entry>pudb</entry>
@@ -6587,6 +6593,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>activity</entry>
         <entry>activity_df</entry>
+        <entry>Trackles</entry>
       </history-search>
       <history-cmd>
         <entry>25</entry>
