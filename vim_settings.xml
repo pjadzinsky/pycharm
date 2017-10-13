@@ -543,14 +543,16 @@
         <mark key="^" line="31" column="35" />
         <mark key="." line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/vision.proto" timestamp="1507650763098">
-        <mark key="'" line="47" column="15" />
-      </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/to_ml.py" timestamp="1506400516292">
         <mark key="[" line="30" column="58" />
         <mark key="]" line="31" column="28" />
         <mark key="^" line="31" column="28" />
         <mark key="." line="31" column="28" />
+      </file>
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_utils_test.py" timestamp="1507911405420">
+        <mark key="'" line="80" column="25" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="145" column="16" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/arthritis/test/arthritis_index_test.py" timestamp="1498147069669">
         <mark key="'" line="8" column="5" />
@@ -686,6 +688,7 @@
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/models.py" timestamp="1507091325542">
         <mark key="'" line="215" column="17" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" timestamp="1507910551228" />
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" timestamp="1505514547631">
         <mark key="'" line="39" column="0" />
         <mark key="[" line="126" column="24" />
@@ -804,6 +807,11 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
         <mark key="^" line="8" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/mousera2/vision/segment/cnn/train/dataset/generate_tracklets.py" timestamp="1507309404081">
+        <mark key="'" line="40" column="16" />
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="64" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/lib/video_pose/corpus.proto" timestamp="1503072204031">
         <mark key="'" line="3" column="34" />
@@ -1617,6 +1625,7 @@
         <mark key="." line="18" column="0" />
         <mark key="^" line="17" column="19" />
       </file>
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" timestamp="1507911088005" />
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type017/local_client/labeler.py" timestamp="1504291980060">
         <mark key="'" line="176" column="9" />
         <mark key="[" line="180" column="8" />
@@ -1732,9 +1741,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="205" column="23" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
-      <jump line="207" column="16" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
-      <jump line="574" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" />
       <jump line="141" column="16" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
       <jump line="144" column="71" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
       <jump line="214" column="14" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
@@ -1832,6 +1838,9 @@
       <jump line="159" column="39" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
       <jump line="567" column="71" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" />
       <jump line="78" column="30" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/test/activity_test.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_utils_test.py" />
+      <jump line="91" column="25" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_utils_test.py" />
+      <jump line="80" column="25" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_utils_test.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -6505,7 +6514,7 @@
         <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>mus_vid</text>
+        <text>split_stream</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHRyYWNrbGV0X21vc3RfbGlrZWx5X3N1YmplY3QodHJhY2tsZXQsIHRocmVzaG9sZD0wLjUpOgpkZWYgZGlzam9pbnRfaW5kaWNlc19vZl90cmFja2xldHModHJhY2tsZXRzLCBpbmRpY2VzX3RvX3NwbGl0PU5vbmUpOgo=</text>
@@ -6550,9 +6559,9 @@
       </register>
     </registers>
     <search>
-      <last-search>mus_vid</last-search>
+      <last-search>split_stream</last-search>
       <last-offset />
-      <last-pattern>mus_vid</last-pattern>
+      <last-pattern>split_stream</last-pattern>
       <last-replace />
       <last-substitute>_id</last-substitute>
       <last-dir>1</last-dir>
@@ -6560,7 +6569,6 @@
     </search>
     <history>
       <history-search>
-        <entry>_id</entry>
         <entry>tracklet_index_to_id</entry>
         <entry>def .*</entry>
         <entry>def .*id</entry>
@@ -6580,6 +6588,7 @@
         <entry>index</entry>
         <entry>def tracklet_to_id</entry>
         <entry>mus_vid</entry>
+        <entry>split_stream</entry>
       </history-search>
       <history-cmd>
         <entry>25</entry>
