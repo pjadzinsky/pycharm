@@ -836,12 +836,12 @@
         <mark key="." line="15" column="13" />
         <mark key="^" line="15" column="13" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1508429300584">
-        <mark key="'" line="135" column="0" />
-        <mark key="[" line="30" column="4" />
-        <mark key="]" line="34" column="18" />
-        <mark key="." line="34" column="18" />
-        <mark key="^" line="34" column="18" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1508430736849">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="60" column="39" />
+        <mark key="]" line="61" column="3" />
+        <mark key="." line="61" column="3" />
+        <mark key="^" line="61" column="3" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet.proto" timestamp="1508349834626">
         <mark key="'" line="0" column="0" />
@@ -1489,10 +1489,10 @@
         <mark key="^" line="17" column="19" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet_utils.py" timestamp="1508170259339">
-        <mark key="[" line="613" column="13" />
-        <mark key="]" line="613" column="62" />
-        <mark key="^" line="613" column="62" />
-        <mark key="." line="613" column="62" />
+        <mark key="[" line="716" column="13" />
+        <mark key="]" line="716" column="62" />
+        <mark key="^" line="716" column="62" />
+        <mark key="." line="716" column="62" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type017/local_client/labeler.py" timestamp="1504291980060">
         <mark key="'" line="176" column="9" />
@@ -1618,9 +1618,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="297" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
-      <jump line="22" column="85" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
-      <jump line="68" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="88" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="379" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
       <jump line="32" column="34" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
@@ -1718,10 +1715,13 @@
       <jump line="112" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
       <jump line="53" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="116" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="151" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="28" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ZGVmIHNwbGl0X2luX2Nvbm5lY3RlZF9jb21wb25lbnRzKHRpbWVzLCBndWlkcywgY2x1c3RlcmVkX3N1YmplY3RzKToKICAgICIiIgogICAgRGl2aWRlIGFsbCAzIGxpc3RzICh0aW1lcywgZ3VpZHMgYW5kIGNsdXN0ZXJlZF9zdWJqZWN0cykgaW50byBzZXRzIHRoYXQgYXJlIGRpc2pvaW50IGZyb20KICAgIGVhY2ggb3RoZXIKICAgIAogICAgOnBhcmFtIHRpbWVzOiAKICAgIDpwYXJhbSBndWlkczogCiAgICA6cGFyYW0gY2x1c3RlcmVkX3N1YmplY3RzOiAKICAgIDpyZXR1cm46IAogICAgIiIiCg==</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6388,16 +6388,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Subject</text>
+        <text>time</text>
       </register>
       <register name="/" type="4">
-        <text>mouse_</text>
+        <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIGNsdXN0ZXJfYWxsX2ZyYW1lcyhkZXRlY3Rpb25zLCBtaW5fY29udGFpbmVkX2ZyYWN0aW9uKToKICAgICIiIiAKICAgIENsdXN0ZXIgZmVhdHVyZXMgcGVyIHN1YmplY3RzIGluIGFsbCBmcmFtZXMgbiAnZGV0ZWN0aW9ucycgYW5kCiAgICByZXR1cm4gMyBsaXN0cywgb25lIHdpdGggdGltZXMsIG9uZSB3aXRoIHNsYWJfZ3VpZHMgYW5kIG9uZSB3aXRoIHN1YmplY3RzLiBFYWNoIGxpc3QgaGFzIG9uZSBpdGVtIHBlcgogICAgaXRlbSBpbiBkZXRlY3Rpb25zLmFsbF9mcmFtZXMKICAgIAogICAgdG8gbG9vcCB0aHJvdWdoIHRoZSByZXN1bHRzIGRvOgogICAgICAgIHRpbWUsIGd1aWQsIGZyYW1lX3N1YmplY3RzIGluIHppcCh0aW1lX3NlYywgc2xhYl9ndWlkcywgc3ViamVjdHMpOgogICAgICAgICAgICAuLi4uCiAgICAiIiIKICAgIGxvZy5jaGVja19lcSh0eXBlKGRldGVjdGlvbnMpLCBiYm94X2RldGVjdGlvbl9wYjIuQkJveERldGVjdGlvbnMpCiAgICB0aW1lX3NlY3MgPSBbXQogICAgc2xhYl9ndWlkcyA9IFtdCiAgICBzdWJqZWN0cyA9IFtdCiAgICBmb3IgZnJhbWVfZGV0ZWN0aW9ucyBpbiBkZXRlY3Rpb25zLmFsbF9mcmFtZXM6CiAgICAgICAgdGltZV9zZWNzLmFwcGVuZChmcmFtZV9kZXRlY3Rpb25zLnRpbWVzdGFtcCkKICAgICAgICBzbGFiX2d1aWRzLmFwcGVuZChmcmFtZV9kZXRlY3Rpb25zLnNsYWJfZ3VpZCkKICAgICAgICBzdWJqZWN0cy5hcHBlbmQoY2x1c3Rlcl9mcmFtZV9kZXRlY3Rpb25zKGZyYW1lX2RldGVjdGlvbnMsIG1pbl9jb250YWluZWRfZnJhY3Rpb24pKQoKICAgIHJldHVybiB0aW1lX3NlY3MsIHNsYWJfZ3VpZHMsIHN1YmplY3RzCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ZGVmIHNwbGl0X2luX2Nvbm5lY3RlZF9jb21wb25lbnRzKHRpbWVzLCBndWlkcywgY2x1c3RlcmVkX3N1YmplY3RzKToKICAgICIiIgogICAgRGl2aWRlIGFsbCAzIGxpc3RzICh0aW1lcywgZ3VpZHMgYW5kIGNsdXN0ZXJlZF9zdWJqZWN0cykgaW50byBzZXRzIHRoYXQgYXJlIGRpc2pvaW50IGZyb20KICAgIGVhY2ggb3RoZXIKICAgIAogICAgOnBhcmFtIHRpbWVzOiAKICAgIDpwYXJhbSBndWlkczogCiAgICA6cGFyYW0gY2x1c3RlcmVkX3N1YmplY3RzOiAKICAgIDpyZXR1cm46IAogICAgIiIiCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -6405,7 +6405,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzb3J0ZWQK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6416,34 +6416,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IiIiCmxvZy5jaGVja19lcSh0eXBlKGRldGVjdGlvbnMpLCBiYm94X2RldGVjdGlvbl9wYjIuQkJveERldGVjdGlvbnMpCnRpbWVfc2VjcyA9IFtdCnNsYWJfZ3VpZHMgPSBbXQpzdWJqZWN0cyA9IFtdCmZvciBmcmFtZV9kZXRlY3Rpb25zIGluIGRldGVjdGlvbnMuYWxsX2ZyYW1lczoKICAgIHRpbWVfc2Vjcy5hcHBlbmQoZnJhbWVfZGV0ZWN0aW9ucy50aW1lc3RhbXApCiAgICBzbGFiX2d1aWRzLmFwcGVuZChmcmFtZV9kZXRlY3Rpb25zLnNsYWJfZ3VpZCkKICAgIHN1YmplY3RzLmFwcGVuZChjbHVzdGVyX2ZyYW1lX2RldGVjdGlvbnMoZnJhbWVfZGV0ZWN0aW9ucywgbWluX2NvbnRhaW5lZF9mcmFjdGlvbikpCgpyZXR1cm4gdGltZV9zZWNzLCBzbGFiX2d1aWRzLCBzdWJqZWN0cwpXZQpJJ20gZ29pbmcgdG8gbWVyZ2UgdGhvc2UgY3N2cyBlbmRpbmcgd2l0aCBvbmUgZGF0YWZyYW1lIHRoYXQgaGFzIG9uZSByb3cgcGVyIGJvdW5kaW5nIGJveCB3aXRoIHBvdGVudGlhbCBlYXJ0YWdfY2F0ZWdvcnkKYXNzaWduZWQKIiIiCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzX2d1aWRfdGltZXMgPSBmaWx0ZXIobGFtYmRhIHQsIGcpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dG8gbG9vcCB0aHJvdWdoIHRoZSByZXN1bHRzIGRvOgp0aW1lLCBndWlkLCBmcmFtZV9zdWJqZWN0cyBpbiB6aXAodGltZV9zZWMsIHNsYWJfZ3VpZHMsIHN1YmplY3RzKToKLi4uLgo=</text>
+        <text encoding="base64">ICAgICB0aW1lcyBhbmQgZ3VpZHMK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Q2x1c3RlciBmZWF0dXJlcyBwZXIgc3ViamVjdHMgaW4gYWxsIGZyYW1lcyBuICdkZXRlY3Rpb25zJyBhbmQKcmV0dXJuIDMgbGlzdHMsIG9uZSB3aXRoIHRpbWVzLCBvbmUgd2l0aCBzbGFiX2d1aWRzIGFuZCBvbmUgd2l0aCBzdWJqZWN0cy4gRWFjaCBsaXN0IGhhcyBvbmUgaXRlbSBwZXIKaXRlbSBpbiBkZXRlY3Rpb25zLmFsbF9mcmFtZXMK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIChkZXRlY3Rpb25zLCBtaW5fY29udGFpbmVkX2ZyYWN0aW9uKToK</text>
+        <text encoding="base64">IiIiCmxvZy5jaGVja19lcSh0eXBlKGRldGVjdGlvbnMpLCBiYm94X2RldGVjdGlvbl9wYjIuQkJveERldGVjdGlvbnMpCnRpbWVfc2VjcyA9IFtdCnNsYWJfZ3VpZHMgPSBbXQpzdWJqZWN0cyA9IFtdCmZvciBmcmFtZV9kZXRlY3Rpb25zIGluIGRldGVjdGlvbnMuYWxsX2ZyYW1lczoKICAgIHRpbWVfc2Vjcy5hcHBlbmQoZnJhbWVfZGV0ZWN0aW9ucy50aW1lc3RhbXApCiAgICBzbGFiX2d1aWRzLmFwcGVuZChmcmFtZV9kZXRlY3Rpb25zLnNsYWJfZ3VpZCkKICAgIHN1YmplY3RzLmFwcGVuZChjbHVzdGVyX2ZyYW1lX2RldGVjdGlvbnMoZnJhbWVfZGV0ZWN0aW9ucywgbWluX2NvbnRhaW5lZF9mcmFjdGlvbikpCgpyZXR1cm4gdGltZV9zZWNzLCBzbGFiX2d1aWRzLCBzdWJqZWN0cwpXZQpJJ20gZ29pbmcgdG8gbWVyZ2UgdGhvc2UgY3N2cyBlbmRpbmcgd2l0aCBvbmUgZGF0YWZyYW1lIHRoYXQgaGFzIG9uZSByb3cgcGVyIGJvdW5kaW5nIGJveCB3aXRoIHBvdGVudGlhbCBlYXJ0YWdfY2F0ZWdvcnkKYXNzaWduZWQKIiIiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIChkZXRlY3Rpb25zLCBtaW5fY29udGFpbmVkX2ZyYWN0aW9uKToK</text>
+        <text encoding="base64">dG8gbG9vcCB0aHJvdWdoIHRoZSByZXN1bHRzIGRvOgp0aW1lLCBndWlkLCBmcmFtZV9zdWJqZWN0cyBpbiB6aXAodGltZV9zZWMsIHNsYWJfZ3VpZHMsIHN1YmplY3RzKToKLi4uLgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmZWF0dXJlcyBhbmQgY291bGQgYmUgc29tZXRoaW5nIGxpa2UK</text>
+        <text encoding="base64">Q2x1c3RlciBmZWF0dXJlcyBwZXIgc3ViamVjdHMgaW4gYWxsIGZyYW1lcyBuICdkZXRlY3Rpb25zJyBhbmQKcmV0dXJuIDMgbGlzdHMsIG9uZSB3aXRoIHRpbWVzLCBvbmUgd2l0aCBzbGFiX2d1aWRzIGFuZCBvbmUgd2l0aCBzdWJqZWN0cy4gRWFjaCBsaXN0IGhhcyBvbmUgaXRlbSBwZXIKaXRlbSBpbiBkZXRlY3Rpb25zLmFsbF9mcmFtZXMK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>mouse_</last-search>
+      <last-search encoding="base64">ZGVmIA==</last-search>
       <last-offset />
-      <last-pattern>mouse_</last-pattern>
+      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
       <last-replace>subject_</last-replace>
       <last-substitute>mouse_</last-substitute>
       <last-dir>1</last-dir>
@@ -6460,7 +6460,6 @@
         <entry>cluster_frame</entry>
         <entry>times</entry>
         <entry>Clusters</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>organize</entry>
         <entry>Cluster</entry>
         <entry>_C</entry>
@@ -6471,6 +6470,7 @@
         <entry>class</entry>
         <entry>pudb</entry>
         <entry>mouse_</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
         <entry>53,56s/mouse/tag</entry>
