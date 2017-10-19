@@ -65,11 +65,12 @@
         <mark key="." line="13" column="34" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" timestamp="1508431765342">
-        <mark key="[" line="89" column="101" />
-        <mark key="]" line="84" column="49" />
-        <mark key="." line="84" column="49" />
-        <mark key="^" line="84" column="30" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" timestamp="1508433213814">
+        <mark key="'" line="187" column="31" />
+        <mark key="[" line="187" column="24" />
+        <mark key="]" line="187" column="31" />
+        <mark key="." line="187" column="31" />
+        <mark key="^" line="187" column="31" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/object/CMakeLists.txt" timestamp="1508348035057">
         <mark key="[" line="0" column="0" />
@@ -175,8 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="34" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
-      <jump line="35" column="35" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="39" column="3" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="63" column="15" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="71" column="19" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
@@ -275,10 +274,12 @@
       <jump line="28" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
       <jump line="28" column="55" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
       <jump line="73" column="7" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
+      <jump line="33" column="81" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
+      <jump line="187" column="31" filename="$USER_HOME$/git/mousera2/vision/tracking/from_cnn_bbox.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>bounding_boxes</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -4945,16 +4946,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>bounding_boxes</text>
       </register>
       <register name="/" type="4">
-        <text>bbox</text>
+        <text>class</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgc3ViamVjdF9iYm94ID0gY2x1c3Rlcl9zdWJqZWN0LnN1YmplY3RfZGV0ZWN0aW9uLmJib3gK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzaWduIHRvIE5vbmUgaWYgbW9yZSB0aGFuIG9uZSBJT1UgPiBtaW5fb3ZlcmFscF93aXRoX3RyYWNrbGV0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW91ID0gdmlzX3V0aWxzLmludGVyc2VjdGlvbl9zY29yZShwcmV2aW91c19iYm94LCBuZXh0X2Jib3gpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -4962,7 +4963,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgYWxsIElPVSA8IG1pbl9vdmVyYWxwX3dpdGhfdHJhY2tsZXQgb3IgaWYgbW9yZSB0aGFuIG9uZSBJT1UgPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzaWduIHRvIE5vbmUgaWYgbW9yZSB0aGFuIG9uZSBJT1UgPiBtaW5fb3ZlcmFscF93aXRoX3RyYWNrbGV0Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -4973,34 +4974,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzaWduIHRvIGEgbmV3IG5ldyB0cmFja2xldCBpZiBhbGwgSU9VIDwgbWluX292ZXJhbHBfd2l0aF90cmFja2xldCBvciBpZiBtb3JlIHRoYW4gb25lIElPVSA+Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgYWxsIElPVSA8IG1pbl9vdmVyYWxwX3dpdGhfdHJhY2tsZXQgb3IgaWYgbW9yZSB0aGFuIG9uZSBJT1UgPgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIGluZGV4IGNvdWxkIGJlICIwIiBhbmQgImlmIG5vdCBpbmRleCIgd2lsbCBldmFsdWF0ZSB0byBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzaWduIHRvIGEgbmV3IG5ldyB0cmFja2xldCBpZiBhbGwgSU9VIDwgbWluX292ZXJhbHBfd2l0aF90cmFja2xldCBvciBpZiBtb3JlIHRoYW4gb25lIElPVSA+Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBiYgo=</text>
+        <text encoding="base64">ICAgICAgICAjIGluZGV4IGNvdWxkIGJlICIwIiBhbmQgImlmIG5vdCBpbmRleCIgd2lsbCBldmFsdWF0ZSB0byBUcnVlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBiYgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">QXMgb2YgMTAtMDUtMjAxNyB3aGVuIHdlIHJ1biBhIGNubiBtb2RlbCB0byBmaW5kIG1pY2UsIGEgY3N2IGlzIGdlbmVyYXRlZCB3aXRoIHNvbWUgbWV0YWRhdGEgYW5kIHRoZSBwb3NpdGlvbgpvZiBlYWNoIGZvdW5kIGJib3guCkVhY2ggcm93IGluIHRoZSBjc3YgY29ycmVzcG9uZCB0byBvbmUgYmJveCBhbmQgcG90ZW50aWFsbHkgbWFueSByb3dzIGluIHRoZSBjc3YgY29ycmVzcG9uZCB0byBvbmUgZnJhbWUgKGlmCnRpbWVfc2VjIGlzIHRoZSBzYW1lKS4gSGVyZSB3ZSdsbCBjcmVhdGUgdHJhY2tsZXRzIGV4cGxvcmluZyBkaWZmZXJlbnQgaWRlYXMgZnJvbSB0aG9zZSBiYm94ZXMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGVmIHNwbGl0X2luX2Nvbm5lY3RlZF9jb21wb25lbnRzKHRpbWVzLCBndWlkcywgY2x1c3RlcmVkX3N1YmplY3RzKToKICAgICIiIgogICAgRGl2aWRlIGFsbCAzIGxpc3RzICh0aW1lcywgZ3VpZHMgYW5kIGNsdXN0ZXJlZF9zdWJqZWN0cykgaW50byBzZXRzIHRoYXQgYXJlIGRpc2pvaW50IGZyb20KICAgIGVhY2ggb3RoZXIKICAgIAogICAgOnBhcmFtIHRpbWVzOiAKICAgIDpwYXJhbSBndWlkczogCiAgICA6cGFyYW0gY2x1c3RlcmVkX3N1YmplY3RzOiAKICAgIDpyZXR1cm46IAogICAgIiIiCg==</text>
+        <text encoding="base64">QXMgb2YgMTAtMDUtMjAxNyB3aGVuIHdlIHJ1biBhIGNubiBtb2RlbCB0byBmaW5kIG1pY2UsIGEgY3N2IGlzIGdlbmVyYXRlZCB3aXRoIHNvbWUgbWV0YWRhdGEgYW5kIHRoZSBwb3NpdGlvbgpvZiBlYWNoIGZvdW5kIGJib3guCkVhY2ggcm93IGluIHRoZSBjc3YgY29ycmVzcG9uZCB0byBvbmUgYmJveCBhbmQgcG90ZW50aWFsbHkgbWFueSByb3dzIGluIHRoZSBjc3YgY29ycmVzcG9uZCB0byBvbmUgZnJhbWUgKGlmCnRpbWVfc2VjIGlzIHRoZSBzYW1lKS4gSGVyZSB3ZSdsbCBjcmVhdGUgdHJhY2tsZXRzIGV4cGxvcmluZyBkaWZmZXJlbnQgaWRlYXMgZnJvbSB0aG9zZSBiYm94ZXMK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWQK</text>
+        <text encoding="base64">ZGVmIHNwbGl0X2luX2Nvbm5lY3RlZF9jb21wb25lbnRzKHRpbWVzLCBndWlkcywgY2x1c3RlcmVkX3N1YmplY3RzKToKICAgICIiIgogICAgRGl2aWRlIGFsbCAzIGxpc3RzICh0aW1lcywgZ3VpZHMgYW5kIGNsdXN0ZXJlZF9zdWJqZWN0cykgaW50byBzZXRzIHRoYXQgYXJlIGRpc2pvaW50IGZyb20KICAgIGVhY2ggb3RoZXIKICAgIAogICAgOnBhcmFtIHRpbWVzOiAKICAgIDpwYXJhbSBndWlkczogCiAgICA6cGFyYW0gY2x1c3RlcmVkX3N1YmplY3RzOiAKICAgIDpyZXR1cm46IAogICAgIiIiCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>bbox</last-search>
+      <last-search>class</last-search>
       <last-offset />
-      <last-pattern>bbox</last-pattern>
+      <last-pattern>class</last-pattern>
       <last-replace>subject_</last-replace>
       <last-substitute>mouse_</last-substitute>
       <last-dir>1</last-dir>
@@ -5022,12 +5023,12 @@
         <entry>Organize</entry>
         <entry>3, 4</entry>
         <entry>2, 2</entry>
-        <entry>class</entry>
         <entry>pudb</entry>
         <entry>mouse_</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>kier</entry>
         <entry>bbox</entry>
+        <entry>class</entry>
       </history-search>
       <history-cmd>
         <entry>%s/bbox = \(.*\)/bbox.CopyFrom($1)/gc</entry>
