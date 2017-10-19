@@ -226,9 +226,9 @@
         <mark key="." line="16" column="19" />
         <mark key="^" line="5" column="19" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/object/methods/cnn/bbox_detection.proto" timestamp="1508384782158">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="26" />
+      <file name="$USER_HOME$/git/mousera2/vision/object/methods/cnn/bbox_detection.proto" timestamp="1508440835885">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="10" column="0" />
         <mark key="." line="19" column="38" />
         <mark key="^" line="19" column="38" />
       </file>
@@ -402,12 +402,12 @@
         <mark key="." line="12" column="28" />
         <mark key="^" line="12" column="28" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/bbox_tracklet_from_subject_featrues_test.py" timestamp="1508439031004">
-        <mark key="'" line="24" column="56" />
-        <mark key="[" line="101" column="8" />
-        <mark key="]" line="101" column="86" />
-        <mark key="." line="101" column="86" />
-        <mark key="^" line="101" column="86" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/bbox_tracklet_from_subject_featrues_test.py" timestamp="1508441659814">
+        <mark key="'" line="4" column="17" />
+        <mark key="[" line="113" column="31" />
+        <mark key="]" line="117" column="31" />
+        <mark key="." line="117" column="31" />
+        <mark key="^" line="117" column="31" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/services/data_download/create_event_notify.py" timestamp="1502389768961">
         <mark key="'" line="24" column="19" />
@@ -1243,7 +1243,8 @@
         <mark key="." line="6" column="36" />
         <mark key="^" line="6" column="36" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" timestamp="1508438332858">
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" timestamp="1508440840309">
+        <mark key="'" line="188" column="4" />
         <mark key="[" line="10" column="28" />
         <mark key="]" line="10" column="53" />
         <mark key="." line="10" column="53" />
@@ -1666,11 +1667,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
-      <jump line="45" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
-      <jump line="85" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
-      <jump line="112" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
-      <jump line="141" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="151" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="161" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
       <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
@@ -1766,10 +1762,15 @@
       <jump line="28" column="55" filename="$USER_HOME$/git/mousera2/vision/tracking/bbox_tracklet_from_subject_features.py" />
       <jump line="183" column="8" filename="$USER_HOME$/git/mousera2/vision/tracking/bbox_tracklet_from_subject_features.py" />
       <jump line="2" column="35" filename="$USER_HOME$/git/mousera2/vision/tracking/bbox_tracklet_from_subject_features.py" />
+      <jump line="88" column="8" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
+      <jump line="10" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
+      <jump line="188" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
+      <jump line="107" column="109" filename="$USER_HOME$/git/mousera2/vision/tracking/test/bbox_tracklet_from_subject_featrues_test.py" />
+      <jump line="4" column="17" filename="$USER_HOME$/git/mousera2/vision/tracking/test/bbox_tracklet_from_subject_featrues_test.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>c</text>
+        <text>time</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6436,16 +6437,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>c</text>
+        <text>time</text>
       </register>
       <register name="/" type="4">
-        <text>Clu</text>
+        <text>np</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y2xhc3MgU3ViamVjdEZlYXR1cmVzKG9iamVjdCk6Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBwMVswXSA8IHhfcmFuZ2VbMF06CiAgICAgICAgICAgIHAxWzBdID0geF9yYW5nZVswXQogICAgICAgIGVsaWYgcDFbMF0gPiB4X3JhbmdlWzFdCiAgICAgICAgICAgIHAxWzBdID0geF9yYW5nZVsxXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIFN1YmplY3RGZWF0dXJlcyhvYmplY3QpCg==</text>
+        <text encoding="base64">ICAgICAgICB5ID0gbnAucmFuZG9tLnJhbmRpbnQoeV9yYW5nZVswXSwgeV9yYW5nZVsxXSkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -6453,7 +6454,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwMSA9IG5wLmFycmF5KFt4LCB5XSkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6464,34 +6465,34 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA9IG5wLnJhbmRvbS5yYW5kaW50KHhfcmFuZ2VbMF0sIHhfcmFuZ2VbMV0pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBwMSA9IG5wLmFycmF5KCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGZvciBzIGluIHN1YmplY3RzX3RvX2V4Y2x1ZGU6Cg==</text>
+        <text encoding="base64">ICAgICAgICBwMSArPSBzdGVwCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPSBkZXRlY3Rpb25zX2RpY3RbJ3N1YmplY3QnXS5pbmRleChzKQogICAgICAgICAgICAgICAgZGV0ZWN0aW9uc19kaWN0WydzdWJqZWN0J10ucG9wKGluZGV4KQo=</text>
+        <text encoding="base64">ICAgIHggPSBucC5yYW5kb20ucmFuZGludCh4X3JhbmdlWzBdLCB4X3JhbmdlWzFdKQogICAgeSA9IG5wLnJhbmRvbS5yYW5kaW50KHlfcmFuZ2VbMF0sIHlfcmFuZ2VbMV0pCiAgICBwMSA9IG5wLmFycmF5KFt4LCB5XSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">ICAgICAgICBwMSA9IG5wLmFycmF5Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBwMSAgPSBbbWF4KCldCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJib3hfc3RhcnQgPSB2aXNfdQptZXNzYWdlIEJCb3hEZXRlY3Rpb24gewogICAgdmlzaW9uLkJvdW5kaW5nQm94IGJib3ggPSAxOwpyZXBlYXRlZCBzdHJpbmcgbGFiZWxzID0gMjsKcmVwZWF0ZWQgZG91YmxlIHByb2JhYmlsaXRpZXMgPSAzOwp9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Clu</last-search>
+      <last-search>np</last-search>
       <last-offset />
-      <last-pattern>Clu</last-pattern>
+      <last-pattern>np</last-pattern>
       <last-replace>SubjectFeatures</last-replace>
       <last-substitute>Cluster</last-substitute>
       <last-dir>1</last-dir>
@@ -6499,7 +6500,6 @@
     </search>
     <history>
       <history-search>
-        <entry>organize</entry>
         <entry>_C</entry>
         <entry>Org</entry>
         <entry>Organize</entry>
@@ -6519,13 +6519,13 @@
         <entry>tracklet_detection_hierarchy</entry>
         <entry>Cluster</entry>
         <entry>Clu</entry>
+        <entry>np</entry>
       </history-search>
       <history-cmd>
         <entry>%s/subjects_features/subjects/gc</entry>
         <entry>24</entry>
         <entry>%s/assign_detection/assign_feature/gc</entry>
         <entry>%s/SubjectDetection/Cluster/gc</entry>
-        <entry>q</entry>
         <entry>%s/organize/cluster/gc</entry>
         <entry>%s/Cluster/_Cluster/gc</entry>
         <entry>%s/_C/C/gc</entry>
@@ -6540,6 +6540,7 @@
         <entry>%s/Cluster/SubjectFeatures/</entry>
         <entry>%s/tracklet_detection_hierarchy/subject_features_per_frame/gc</entry>
         <entry>%s/Cluster/SubjectFeatures/gc</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
