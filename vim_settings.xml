@@ -130,11 +130,11 @@
         <mark key="." line="19" column="19" />
         <mark key="^" line="19" column="19" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" timestamp="1508386925294">
-        <mark key="'" line="121" column="4" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="58" />
-        <mark key="." line="50" column="0" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" timestamp="1508418916268">
+        <mark key="'" line="122" column="4" />
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="0" />
+        <mark key="." line="58" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/sdk/from_kairos.py" timestamp="1499887568365">
         <mark key="'" line="373" column="8" />
@@ -602,12 +602,12 @@
         <mark key="." line="87" column="26" />
         <mark key="^" line="87" column="26" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" timestamp="1508388897280">
-        <mark key="'" line="96" column="21" />
-        <mark key="[" line="94" column="0" />
-        <mark key="]" line="94" column="0" />
-        <mark key="^" line="96" column="21" />
-        <mark key="." line="94" column="0" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" timestamp="1508413560156">
+        <mark key="'" line="112" column="4" />
+        <mark key="[" line="124" column="44" />
+        <mark key="]" line="125" column="0" />
+        <mark key="^" line="125" column="0" />
+        <mark key="." line="125" column="0" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" timestamp="1505514547631">
         <mark key="'" line="39" column="0" />
@@ -1634,9 +1634,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="422" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
-      <jump line="448" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
-      <jump line="467" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
       <jump line="279" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
       <jump line="297" column="0" filename="$USER_HOME$/git/mousera2/vision/util.py" />
       <jump line="22" column="85" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklet_detection_hierarchy.py" />
@@ -1734,10 +1731,13 @@
       <jump line="185" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
       <jump line="13" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
       <jump line="98" column="21" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
+      <jump line="155" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
+      <jump line="102" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
+      <jump line="112" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklet_detection_hierarchy_test.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHBlciBmcmFtZQo=</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6404,16 +6404,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>subjects_per_frame</text>
+        <text>Detect</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>mouse_</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIGNsdXN0ZXJfYWxsX2ZyYW1lcyhkZXRlY3Rpb25zLCBtaW5fY29udGFpbmVkX2ZyYWN0aW9uKToK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHBlciBmcmFtZQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -6421,7 +6421,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsK</text>
+        <text encoding="base64">ICAgICAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6432,22 +6432,22 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhbmQgbm8gdGFncwo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAsIHRoZXJlIGFyZSB0d28gc3ViamVjdHMK</text>
+        <text encoding="base64">ICAgICAgICBhbmQgbm8gdGFncwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmcmFtZV8xID0gc2VsZi5hbGxfZnJhbWVfZGV0ZWN0aW9ucy5hbGxfZnJhbWVzWzBdCiAgICAgICAgc3ViamVjdHMgPSB0cmFja2xldF9kZXRlY3Rpb25faGllcmFyY2h5LmNsdXN0ZXJfZnJhbWVfZGV0ZWN0aW9ucyhmcmFtZV8xLCBtaW5fY29udGFpbmVkX2ZyYWN0aW9uKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihzdWJqZWN0cyksIDIpCiAgICAgICAgdGFncyA9IFtzLnRhZyBmb3IgcyBpbiBzdWJqZWN0cyBpZiBzLnRhZ10KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbih0YWdzKSwgMCkK</text>
+        <text encoding="base64">ICAgICAgICAsIHRoZXJlIGFyZSB0d28gc3ViamVjdHMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICcnJwo=</text>
+        <text encoding="base64">ICAgICAgICBmcmFtZV8xID0gc2VsZi5hbGxfZnJhbWVfZGV0ZWN0aW9ucy5hbGxfZnJhbWVzWzBdCiAgICAgICAgc3ViamVjdHMgPSB0cmFja2xldF9kZXRlY3Rpb25faGllcmFyY2h5LmNsdXN0ZXJfZnJhbWVfZGV0ZWN0aW9ucyhmcmFtZV8xLCBtaW5fY29udGFpbmVkX2ZyYWN0aW9uKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihzdWJqZWN0cyksIDIpCiAgICAgICAgdGFncyA9IFtzLnRhZyBmb3IgcyBpbiBzdWJqZWN0cyBpZiBzLnRhZ10KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbih0YWdzKSwgMCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgICcnJwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -6457,17 +6457,16 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>mouse_</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
-      <last-replace>Cluster</last-replace>
-      <last-substitute>Organize</last-substitute>
+      <last-pattern>mouse_</last-pattern>
+      <last-replace>subject_</last-replace>
+      <last-substitute>mouse_</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>subject_fea</entry>
         <entry>def org</entry>
         <entry>def boun</entry>
         <entry>raise</entry>
@@ -6487,13 +6486,9 @@
         <entry>2, 2</entry>
         <entry>class</entry>
         <entry>pudb</entry>
+        <entry>mouse_</entry>
       </history-search>
       <history-cmd>
-        <entry>wq</entry>
-        <entry>610</entry>
-        <entry>1qw</entry>
-        <entry>72</entry>
-        <entry>w2</entry>
         <entry>53,56s/mouse/tag</entry>
         <entry>%s/bbox = \(.*\)/bbox.CopyFrom($1)/gc</entry>
         <entry>%s/bbox = \(.*\)/bbox.CopyFrom(\1)/gc</entry>
@@ -6508,6 +6503,11 @@
         <entry>%s/Cluster/_Cluster/gc</entry>
         <entry>%s/_C/C/gc</entry>
         <entry>%s/Organize/Cluster/gc</entry>
+        <entry>123,185s/mouse_/subject_/gc</entry>
+        <entry>180</entry>
+        <entry>150</entry>
+        <entry>113,185s/mouse_/subject_/gc</entry>
+        <entry>110,185s/mouse_/subject_/gc</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
