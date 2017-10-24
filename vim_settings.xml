@@ -886,8 +886,8 @@
         <mark key="." line="15" column="13" />
         <mark key="^" line="15" column="13" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1508875315081">
-        <mark key="'" line="249" column="27" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1508882341723">
+        <mark key="'" line="32" column="4" />
         <mark key="[" line="249" column="53" />
         <mark key="]" line="249" column="54" />
         <mark key="." line="249" column="54" />
@@ -1700,9 +1700,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="31" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
-      <jump line="31" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
-      <jump line="49" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
       <jump line="65" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
       <jump line="78" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
       <jump line="81" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/test/subject_features_per_frame_test.py" />
@@ -1800,6 +1797,9 @@
       <jump line="353" column="2" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="117" column="23" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="304" column="50" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
+      <jump line="31" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="171" column="31" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="32" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -6473,7 +6473,7 @@
         <text>BU</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>generate_tracklet_id</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiB3cml0ZShzZWxmLCBpZGVudGlmaWVyLCB0aW1lX2ludGVydmFsLCBkYXRhLCAgYmxvY2tpbmc9RmFsc2UpOgo=</text>
@@ -6532,9 +6532,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>generate_tracklet_id</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>generate_tracklet_id</last-pattern>
       <last-replace>contain</last-replace>
       <last-substitute>contenin</last-substitute>
       <last-dir>1</last-dir>
@@ -6542,7 +6542,6 @@
     </search>
     <history>
       <history-search>
-        <entry>rtie</entry>
         <entry>proto</entry>
         <entry>serialize</entry>
         <entry>ProtoSeri</entry>
@@ -6562,6 +6561,7 @@
         <entry>def _item_present</entry>
         <entry>class In</entry>
         <entry>pudb</entry>
+        <entry>generate_tracklet_id</entry>
       </history-search>
       <history-cmd>
         <entry>34</entry>
