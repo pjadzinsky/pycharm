@@ -826,8 +826,8 @@
         <mark key="^" line="0" column="11" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" timestamp="1509130684962">
-        <mark key="'" line="276" column="19" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" timestamp="1509135054837">
+        <mark key="'" line="291" column="32" />
         <mark key="[" line="276" column="19" />
         <mark key="]" line="276" column="20" />
         <mark key="^" line="564" column="15" />
@@ -1705,8 +1705,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="118" column="51" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
-      <jump line="151" column="0" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="189" column="16" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="190" column="20" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="191" column="26" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
@@ -1805,6 +1803,8 @@
       <jump line="82" column="4" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
       <jump line="33" column="0" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="245" column="8" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
+      <jump line="240" column="42" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
+      <jump line="291" column="32" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -6478,7 +6478,7 @@
         <text>small</text>
       </register>
       <register name="/" type="4">
-        <text>1E</text>
+        <text>fake_all</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzM19rZXlfMSA9ICdmb29fMScK</text>
@@ -6537,9 +6537,9 @@
       </register>
     </registers>
     <search>
-      <last-search>1E</last-search>
+      <last-search>fake_all</last-search>
       <last-offset />
-      <last-pattern>1E</last-pattern>
+      <last-pattern>fake_all</last-pattern>
       <last-replace>slab.guid()</last-replace>
       <last-substitute>slab_guid</last-substitute>
       <last-dir>1</last-dir>
@@ -6547,7 +6547,6 @@
     </search>
     <history>
       <history-search>
-        <entry>class Data</entry>
         <entry>Writer</entry>
         <entry>key</entry>
         <entry>Follow</entry>
@@ -6567,6 +6566,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>list_w</entry>
         <entry>1E</entry>
+        <entry>fake_all</entry>
       </history-search>
       <history-cmd>
         <entry>%s/direcit/directi/gc</entry>
