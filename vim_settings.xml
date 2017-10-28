@@ -1474,12 +1474,12 @@
         <mark key="." line="16" column="8" />
         <mark key="^" line="16" column="8" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/common/store/interval2.py" timestamp="1509202559204">
-        <mark key="'" line="161" column="14" />
-        <mark key="[" line="168" column="55" />
-        <mark key="]" line="168" column="55" />
-        <mark key="." line="168" column="55" />
-        <mark key="^" line="161" column="14" />
+      <file name="$USER_HOME$/git/mousera2/common/store/interval2.py" timestamp="1509215777883">
+        <mark key="'" line="199" column="34" />
+        <mark key="[" line="185" column="12" />
+        <mark key="]" line="185" column="12" />
+        <mark key="." line="185" column="12" />
+        <mark key="^" line="185" column="12" />
       </file>
       <file name="$USER_HOME$/git/mousera2/analytics/scale/estimate_daily_weight.py" timestamp="1502492656670">
         <mark key="'" line="278" column="22" />
@@ -1706,9 +1706,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="12" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
-      <jump line="10" column="18" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
-      <jump line="11" column="18" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
       <jump line="12" column="12" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
       <jump line="13" column="12" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
       <jump line="14" column="31" filename="$USER_HOME$/git/mousera2/vision/tracking/test/tracklets_test.py" />
@@ -1803,13 +1800,16 @@
       <jump line="269" column="0" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="248" column="0" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="351" column="2" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
-      <jump line="140" column="9" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="72" column="64" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="161" column="14" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
+      <jump line="160" column="66" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
+      <jump line="345" column="80" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
+      <jump line="140" column="50" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
+      <jump line="183" column="34" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>_</text>
+        <text>d</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6476,16 +6476,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>d</text>
       </register>
       <register name="/" type="4">
-        <text>expanded</text>
+        <text>interval</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzM19rZXlfMSA9ICdmb29fMScK</text>
+      <register name="0" type="4">
+        <text>query_interval</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNfbmFtZSA9IF9nZXRfbWV0cmljX25hbWUoc2VsZi5fZGF0YV9uYW1lKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -6497,7 +6497,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBCICAgIEIK</text>
+        <text encoding="base64">ICAgICAgICBzIGluIHRoZSAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -6508,22 +6508,22 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNfbmFtZSA9IF9nZXRfbWV0cmljX25hbWUoc2VsZi5fZGF0YV9uYW1lKQogICAgICAgIHRhZ3MgPSB7J2lkJzogaWRlbnRpZmllciwgJ3ZlcnNpb24nOiBzZWxmLl92ZXJzaW9ufQogICAgICAgIGdyb3VwX2J5ID0gWydpZCcsICdidWNrZXRfbmFtZScsICdjb2xsaXNpb25faW5kZXgnXQoKICAgICAgICByZXN1bHRfZ3JvdXBzID0gc2VsZi5fa2Fpcm9zLnJlYWQobWV0cmljX25hbWUsIGV4cGFuZGVkX2ludGVydmFsLCB0YWdzLCBncm91cF9ieSkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydF9zZWMgPSBxdWVyeV9pbnRlcnZhbC5zdGFydF90aW1lX3NlYwogICAgICAgIGVuZF9zZWMgPSBxdWVyeV9pbnRlcnZhbC5lbmRfdGltZV9zZWMKICAgICAgICBleHBhbmRlZF9pbnRlcnZhbCA9IHV0aW1lLkludGVydmFsKHN0YXJ0X3NlYyAtIEJFQUNPTl9JTlRFUlZBTF9TRUMsIGVuZF9zZWMgKyBCRUFDT05fSU5URVJWQUxfU0VDKQogICAgICAgIGV4cGFuZGVkX2ludGVydmFsLmVuc3VyZV9maW5pdGUoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBCICAgIEIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IGxvZwo=</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNfbmFtZSA9IF9nZXRfbWV0cmljX25hbWUoc2VsZi5fZGF0YV9uYW1lKQogICAgICAgIHRhZ3MgPSB7J2lkJzogaWRlbnRpZmllciwgJ3ZlcnNpb24nOiBzZWxmLl92ZXJzaW9ufQogICAgICAgIGdyb3VwX2J5ID0gWydpZCcsICdidWNrZXRfbmFtZScsICdjb2xsaXNpb25faW5kZXgnXQoKICAgICAgICByZXN1bHRfZ3JvdXBzID0gc2VsZi5fa2Fpcm9zLnJlYWQobWV0cmljX25hbWUsIGV4cGFuZGVkX2ludGVydmFsLCB0YWdzLCBncm91cF9ieSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IG1vY2sK</text>
+        <text encoding="base64">ICAgICAgICBzdGFydF9zZWMgPSBxdWVyeV9pbnRlcnZhbC5zdGFydF90aW1lX3NlYwogICAgICAgIGVuZF9zZWMgPSBxdWVyeV9pbnRlcnZhbC5lbmRfdGltZV9zZWMKICAgICAgICBleHBhbmRlZF9pbnRlcnZhbCA9IHV0aW1lLkludGVydmFsKHN0YXJ0X3NlYyAtIEJFQUNPTl9JTlRFUlZBTF9TRUMsIGVuZF9zZWMgKyBCRUFDT05fSU5URVJWQUxfU0VDKQogICAgICAgIGV4cGFuZGVkX2ludGVydmFsLmVuc3VyZV9maW5pdGUoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZGVmIGdldF9jb25uZWN0ZWRfY29tcG9uZW50cyhzbGFiX2d1aWQsIGludGVydmFsLCBtYXhfYWNjZXB0YWJsZV9kZWxheSk6CiAgICAiIiIKICAgIERPTidUIFBSIFRISVMgWUVUIE5PVCBXT1JLSU5HCiAgICAKICAgIEdldCBhbGwgdHJhY2tsZXRzIHRoYXQgaW50ZXJzZWN0ICdpbnRlcnZhbCcgYW5kIG9yZ2FuaXplIHRoZW0gaW50byBjb25uZWN0ZWQgY29tcG9uZW50cwogICAgYmJveF90cmFja2xldC5UcmFja2xldHMgb2JqZWN0cwogICAgCiAgICBOb3RlOiBhbHRob3VnaCB3ZSBhcmUgYXNraW5nIGZvciBjb25uZWN0ZWQgY29tcG9uZW50cyBkdXJpbmcgJ2ludGVydmFsJywgdGhlIHJldHVybmVkCiAgICBjb25uZWN0ZWQgY29tcG9uZW50cyBtaWdodCBleHRlbmQgYmV5b25kIGludGVydmFsCiAgICAKICAgIDpwYXJhbSBzbGFiX2d1aWQ6IAogICAgOnBhcmFtIGludGVydmFsOiAKICAgIDpwYXJhbSBtYXhfYWNjZXB0YWJsZV9kZWxheTogdHJhY2tsZXRzIHRoYXQgYXJlIHNlcGFyYXRlZCBieSBsZXNzIHRoYW4gJ21heF9hY2NlcHRhYmxlX2RlbGF5JyBhcmUgdHJlYXRlZCBhcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVybGFwcGluZwogICAgOnJldHVybjogbGlzdCBvZiBiYm94X3RyYWNrbGV0LlRyYWNrbGV0cywKICAgICAgICAgICAgIGVhY2ggaXRlbSBpbiBsaXN0IHJlcHJlc2VudHMgYWxsIHRyYWNrbGV0cyBpbiB0aGUgY29ubmVjdGVkIGNvbXBvbmVudAogICAgIiIiCgogICAgdHJhY2tsZXRzX2xpc3QgPSBzdG9yZS5xdWVyeV9ieV9pbnRlcnZhbChzbGFiX2d1aWQsIGludGVydmFsKQoKCiAgICBhbGxfdHJhY2tsZXRzID0gZXh0ZW5kX2xpc3QodHJhY2tsZXRzX2xpc3QsICdsZWZ0JykgK1wKICAgICAgICAgICAgICAgICAgICBleHRlbmRfbGlzdCh0cmFja2xldHNfbGlzdCwgJ3JpZ2h0JywgaW5jbHVkZV9pbnB1dF9pbl9vdXRwdXQ9RmFsc2UpCgogICAgIyBFYWNoIGl0ZW0gaW4gJ2FsbF90cmFja2xldHMnIGlzIGEgVHJhY2tsZXRzIG9iamVjdCwKICAgIHJldHVybgo=</text>
+        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IGxvZwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">aW1wb3J0IG1vY2sK</text>
       </register>
       <register name="x" type="4">
         <keys>
@@ -6531,25 +6531,23 @@
         </keys>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZGVmIGdldF9jb25uZWN0ZWRfY29tcG9uZW50cyhzbGFiX2d1aWQsIGludGVydmFsLCBtYXhfYWNjZXB0YWJsZV9kZWxheSk6CiAgICAiIiIKICAgIERPTidUIFBSIFRISVMgWUVUIE5PVCBXT1JLSU5HCiAgICAKICAgIEdldCBhbGwgdHJhY2tsZXRzIHRoYXQgaW50ZXJzZWN0ICdpbnRlcnZhbCcgYW5kIG9yZ2FuaXplIHRoZW0gaW50byBjb25uZWN0ZWQgY29tcG9uZW50cwogICAgYmJveF90cmFja2xldC5UcmFja2xldHMgb2JqZWN0cwogICAgCiAgICBOb3RlOiBhbHRob3VnaCB3ZSBhcmUgYXNraW5nIGZvciBjb25uZWN0ZWQgY29tcG9uZW50cyBkdXJpbmcgJ2ludGVydmFsJywgdGhlIHJldHVybmVkCiAgICBjb25uZWN0ZWQgY29tcG9uZW50cyBtaWdodCBleHRlbmQgYmV5b25kIGludGVydmFsCiAgICAKICAgIDpwYXJhbSBzbGFiX2d1aWQ6IAogICAgOnBhcmFtIGludGVydmFsOiAKICAgIDpwYXJhbSBtYXhfYWNjZXB0YWJsZV9kZWxheTogdHJhY2tsZXRzIHRoYXQgYXJlIHNlcGFyYXRlZCBieSBsZXNzIHRoYW4gJ21heF9hY2NlcHRhYmxlX2RlbGF5JyBhcmUgdHJlYXRlZCBhcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVybGFwcGluZwogICAgOnJldHVybjogbGlzdCBvZiBiYm94X3RyYWNrbGV0LlRyYWNrbGV0cywKICAgICAgICAgICAgIGVhY2ggaXRlbSBpbiBsaXN0IHJlcHJlc2VudHMgYWxsIHRyYWNrbGV0cyBpbiB0aGUgY29ubmVjdGVkIGNvbXBvbmVudAogICAgIiIiCgogICAgdHJhY2tsZXRzX2xpc3QgPSBzdG9yZS5xdWVyeV9ieV9pbnRlcnZhbChzbGFiX2d1aWQsIGludGVydmFsKQoKCiAgICBhbGxfdHJhY2tsZXRzID0gZXh0ZW5kX2xpc3QodHJhY2tsZXRzX2xpc3QsICdsZWZ0JykgK1wKICAgICAgICAgICAgICAgICAgICBleHRlbmRfbGlzdCh0cmFja2xldHNfbGlzdCwgJ3JpZ2h0JywgaW5jbHVkZV9pbnB1dF9pbl9vdXRwdXQ9RmFsc2UpCgogICAgIyBFYWNoIGl0ZW0gaW4gJ2FsbF90cmFja2xldHMnIGlzIGEgVHJhY2tsZXRzIG9iamVjdCwKICAgIHJldHVybgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>expanded</last-search>
+      <last-search>interval</last-search>
       <last-offset />
-      <last-pattern>expanded</last-pattern>
-      <last-replace>slab.guid()</last-replace>
-      <last-substitute>slab_guid</last-substitute>
+      <last-pattern>interval</last-pattern>
+      <last-replace>query_interval</last-replace>
+      <last-substitute>interval</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>Follow</entry>
-        <entry encoding="base64">Rm91bmQg</entry>
         <entry>fetch()</entry>
         <entry>temp</entry>
         <entry>import</entry>
@@ -6568,11 +6566,10 @@
         <entry>class</entry>
         <entry>get_kairos</entry>
         <entry>expanded</entry>
+        <entry>BEACON</entry>
+        <entry>interval</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/tracklets_list/results/gc</entry>
-        <entry>263,308s/left/right/gc</entry>
-        <entry>86</entry>
         <entry>85</entry>
         <entry>153</entry>
         <entry>231</entry>
@@ -6589,6 +6586,9 @@
         <entry>3</entry>
         <entry>q</entry>
         <entry>qa</entry>
+        <entry>%s/interval/query_interval/gc</entry>
+        <entry>141,171s/interval/query_interval/gc</entry>
+        <entry>182</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
