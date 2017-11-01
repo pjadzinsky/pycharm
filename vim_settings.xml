@@ -655,8 +655,8 @@
         <mark key="." line="79" column="15" />
         <mark key="^" line="79" column="15" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" timestamp="1509566011063">
-        <mark key="'" line="52" column="0" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" timestamp="1509574495094">
+        <mark key="'" line="277" column="53" />
       </file>
       <file name="$USER_HOME$/git/mousera2/tools/terra/core/corpus/type018/local_client/labeler.py" timestamp="1505514547631">
         <mark key="'" line="39" column="0" />
@@ -928,12 +928,12 @@
         <mark key="." line="15" column="13" />
         <mark key="^" line="15" column="13" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1509573986572">
-        <mark key="'" line="269" column="37" />
-        <mark key="[" line="479" column="27" />
-        <mark key="]" line="479" column="29" />
-        <mark key="." line="479" column="29" />
-        <mark key="^" line="479" column="29" />
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1509574885389">
+        <mark key="'" line="36" column="0" />
+        <mark key="[" line="106" column="48" />
+        <mark key="]" line="108" column="19" />
+        <mark key="." line="108" column="19" />
+        <mark key="^" line="108" column="19" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet.proto" timestamp="1508349834626">
         <mark key="'" line="0" column="0" />
@@ -1780,11 +1780,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="211" column="0" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
-      <jump line="16" column="50" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/demo.py" />
-      <jump line="166" column="8" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
-      <jump line="16" column="41" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
-      <jump line="9" column="25" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
       <jump line="31" column="13" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
       <jump line="167" column="13" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
       <jump line="174" column="13" filename="$USER_HOME$/git/mousera2/vision/object/methods/cnn/models/models.py" />
@@ -1880,6 +1875,11 @@
       <jump line="175" column="12" filename="$USER_HOME$/git/mousera2/common/store/interval2.py" />
       <jump line="55" column="34" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/demo_per_subject_metrics.py" />
       <jump line="269" column="37" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="153" column="48" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
+      <jump line="277" column="53" filename="$USER_HOME$/git/mousera2/vision/tracking/metrics/activity/calculate_activity.py" />
+      <jump line="374" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
+      <jump line="36" column="0" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -6553,7 +6553,7 @@
         <text>duration10</text>
       </register>
       <register name="/" type="4">
-        <text>def _la</text>
+        <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbmV3X3Jlc3VsdHMgPSBzZWxmLmV4dGVuZGVkX3F1ZXJ5KGlkZW50aWZpZXIsIG5ld19pbnRlcnZhbCwgZGlyZWN0aW9uLCBtYXhfYWNjZXB0YWJsZV9kZWxheSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluY2x1ZGVfaW5wdXRfaW5fb3V0cHV0PWluY2x1ZGVfaW5wdXRfaW5fb3V0cHV0KQo=</text>
@@ -6612,9 +6612,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def _la</last-search>
+      <last-search encoding="base64">ZGVmIA==</last-search>
       <last-offset />
-      <last-pattern>def _la</last-pattern>
+      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
       <last-replace>interval_no_start</last-replace>
       <last-substitute>no_start_event</last-substitute>
       <last-dir>1</last-dir>
@@ -6622,9 +6622,7 @@
     </search>
     <history>
       <history-search>
-        <entry>reader</entry>
         <entry>class I</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>no_end_event</entry>
         <entry>no_end_start</entry>
         <entry>no_start_event</entry>
@@ -6642,6 +6640,8 @@
         <entry>def _clear_</entry>
         <entry>pudb</entry>
         <entry>def _la</entry>
+        <entry>get_subject</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
         <entry>%s/DATA_VERSION/VERSION/gc</entry>
