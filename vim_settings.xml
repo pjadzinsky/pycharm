@@ -921,12 +921,12 @@
         <mark key="." line="15" column="13" />
         <mark key="^" line="15" column="13" />
       </file>
-      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1509656319050">
+      <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" timestamp="1509658012668">
         <mark key="'" line="203" column="48" />
-        <mark key="[" line="198" column="58" />
-        <mark key="]" line="198" column="58" />
-        <mark key="." line="198" column="58" />
-        <mark key="^" line="198" column="58" />
+        <mark key="[" line="203" column="13" />
+        <mark key="]" line="203" column="23" />
+        <mark key="." line="203" column="23" />
+        <mark key="^" line="203" column="23" />
       </file>
       <file name="$USER_HOME$/git/mousera2/vision/tracking/tracklet.proto" timestamp="1508349834626">
         <mark key="'" line="0" column="0" />
@@ -1879,8 +1879,8 @@
       <jump line="203" column="48" filename="$USER_HOME$/git/mousera2/vision/tracking/tracklets.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiCiAgICBwdWRiLnNldF90cmFjZSgpCg==</text>
+      <register name="&quot;" type="4">
+        <text>labels</text>
       </register>
       <register name="d" type="4">
         <keys>
@@ -6547,7 +6547,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s3_bucket_name</text>
+        <text>labels</text>
       </register>
       <register name="/" type="4">
         <text>tracklet_identity</text>
