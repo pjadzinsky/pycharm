@@ -1,5 +1,21 @@
 <templateSet group="Python">
-  <template name="pudb" value="import pudb;pudb.set_trace()" description="pudb" toReformat="true" toShortenFQNames="true">
+  <template name="comps" value="{$VAR_EXPR$ for $VAR$ in $ITERABLE$}" description="Set comprehension" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="pyIterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="collectionElementName(ITERABLE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_EXPR" expression="" defaultValue="VAR" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="pudb" value="import pudb; pudb.set_trace()" shortcut="TAB" description="pudb" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fixme" value="# (fixme cont)" shortcut="TAB" description="fixme continuation line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="# (todo cont)" description="todo cont" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
