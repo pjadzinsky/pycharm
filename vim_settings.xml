@@ -841,11 +841,6 @@
         <mark key="." line="23" column="34" />
         <mark key="^" line="23" column="34" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/seasonality_feature_creator.py" timestamp="1534360732738">
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="49" column="60" />
-        <mark key="." line="22" column="0" />
-      </file>
       <file name="$USER_HOME$/crypto/credentials.py" timestamp="1532213051235">
         <mark key="[" line="6" column="27" />
         <mark key="]" line="6" column="27" />
@@ -1394,6 +1389,18 @@
         <mark key="^" line="19" column="16" />
         <mark key="." line="19" column="16" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/hyper_tuner.py" timestamp="1534537847984">
+        <mark key="[" line="200" column="33" />
+        <mark key="]" line="201" column="36" />
+        <mark key="^" line="201" column="36" />
+        <mark key="." line="201" column="36" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/tests/test_live_trainer.py" timestamp="1534538106673">
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="37" />
+        <mark key="^" line="33" column="36" />
+        <mark key="." line="60" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1531161403638">
         <mark key="'" line="105" column="0" />
         <mark key="[" line="118" column="0" />
@@ -1407,6 +1414,12 @@
         <mark key="]" line="133" column="13" />
         <mark key="." line="133" column="13" />
         <mark key="^" line="133" column="13" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" timestamp="1534538080075">
+        <mark key="[" line="15" column="8" />
+        <mark key="]" line="15" column="32" />
+        <mark key="^" line="15" column="32" />
+        <mark key="." line="15" column="32" />
       </file>
       <file name="$USER_HOME$/Testeo/simulations_code/simulate.py" timestamp="1517206899109">
         <mark key="'" line="15" column="24" />
@@ -2501,7 +2514,7 @@
         <text>pudb</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBrcGlfbG9hZGVyID0gZGF0YS5Mb2FkZXIoW2tleV0sIG1vZGVsLnN0b3JlX3RhZ3MuYWNjb3VudF9pZCkKICAgICAgICBrcGlzID0ga3BpX2xvYWRlci5sb2FkKG1vZGVsLmludGVydmFsX3MsIHN0YXJ0X2Vwb2NoPXN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2g9ZW5kX2Vwb2NoKQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
@@ -2510,7 +2523,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2535,10 +2548,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHByaW50CiAgICAgICAgcHByaW50LnBwcmludCggWyggc1swXS5rZXksIHNbMV0pIGZvciBzIGluIHN1Z2dlc3Rpb25zXSkKICAgICAgICBmb3Igc3VnZ2VzdGlvbl8xLCBzdWdnZXN0aW9uXzIgaW4gemlwKHN1Z2dlc3Rpb25zWzotMV0sIHN1Z2dlc3Rpb25zWzE6XSk6CiAgICAgICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShzdWdnZXN0aW9uXzFbMV0gPj0gc3VnZ2VzdGlvbl8yWzFdKQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHByaW50CiAgICAgICAgcHByaW50LnBwcmludCggWyggc1swXS5rZXksIHNbMV0pIGZvciBzIGluIHN1Z2dlc3Rpb25zXSkKICAgICAgICBmb3Igc3VnZ2VzdGlvbl8xLCBzdWdnZXN0aW9uXzIgaW4gemlwKHN1Z2dlc3Rpb25zWzotMV0sIHN1Z2dlc3Rpb25zWzE6XSk6CiAgICAgICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShzdWdnZXN0aW9uXzFbMV0gPj0gc3VnZ2VzdGlvbl8yWzFdKQoK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2606,22 +2619,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNfcG9vbCA9IHBvb2xfbG9hZGVyLmxvYWQobW9kZWwuaW50ZXJ2YWxfcywgc3RhcnRfZXBvY2g9c3RhcnRfZXBvY2gsIGVuZF9lcG9jaD1lbmRfZXBvY2gpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNfcG9vbCA9IHBvb2xfbG9hZGVyLmxvYWQobW9kZWwuaW50ZXJ2YWxfcywgc3RhcnRfZXBvY2g9c3RhcnRfZXBvY2gsIGVuZF9lcG9jaD1lbmRfZXBvY2gpCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBudW1fYmlucyA9IDgK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIGtwaXMgaXMgZW1wdHksIHdoeT8K</text>
+        <text encoding="base64">ICAgICAgICBudW1fYmlucyA9IDgK</text>
       </register>
       <register name=":" type="4">
-        <text>72</text>
+        <text>220</text>
       </register>
     </registers>
     <search>
@@ -2657,7 +2670,6 @@
         <entry>pudb</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/db.sdk/sdk/g</entry>
         <entry>246</entry>
         <entry>125</entry>
         <entry>96</entry>
@@ -2677,6 +2689,7 @@
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>q</entry>
         <entry>72</entry>
+        <entry>220</entry>
       </history-cmd>
       <history-expr />
       <history-input />
