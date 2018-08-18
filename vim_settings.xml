@@ -20,11 +20,12 @@
       <file name="/a.dummy" timestamp="1534615712145">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/create_crontab.sh" timestamp="1534617401376">
-        <mark key="[" line="3" column="5" />
-        <mark key="]" line="3" column="12" />
-        <mark key="." line="3" column="12" />
-        <mark key="^" line="3" column="12" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/create_crontab.sh" timestamp="1534618893343">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="7" column="56" />
+        <mark key="]" line="7" column="52" />
+        <mark key="^" line="7" column="52" />
+        <mark key="." line="7" column="52" />
       </file>
       <file name="$USER_HOME$/Testeo/to_upload/state.py" timestamp="1512191715262">
         <mark key="'" line="46" column="0" />
@@ -82,10 +83,11 @@
         <mark key="." line="13" column="10" />
         <mark key="^" line="2" column="66" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/README_crontab.md" timestamp="1534617144906">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/README_crontab.md" timestamp="1534619154006">
+        <mark key="[" line="5" column="77" />
+        <mark key="]" line="6" column="8" />
+        <mark key="." line="6" column="8" />
+        <mark key="^" line="6" column="8" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/poloniex_client.py" timestamp="1532220579147">
         <mark key="'" line="207" column="8" />
@@ -787,12 +789,12 @@
         <mark key="^" line="20" column="27" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/graph.py" timestamp="1534614908003">
-        <mark key="'" line="133" column="29" />
-        <mark key="[" line="114" column="57" />
-        <mark key="]" line="115" column="32" />
-        <mark key="." line="115" column="32" />
-        <mark key="^" line="115" column="32" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/graph.py" timestamp="1534619392618">
+        <mark key="'" line="274" column="4" />
+        <mark key="[" line="104" column="0" />
+        <mark key="]" line="104" column="0" />
+        <mark key="." line="104" column="0" />
+        <mark key="^" line="112" column="32" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/urls_rf.yaml" timestamp="1530050154930">
         <mark key="'" line="118" column="8" />
@@ -1947,9 +1949,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" />
-      <jump line="26" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" />
-      <jump line="68" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" />
       <jump line="106" column="61" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" />
       <jump line="94" column="56" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" />
       <jump line="52" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" />
@@ -2047,10 +2046,13 @@
       <jump line="129" column="29" filename="$USER_HOME$/crypto/crypto/crypto/graph.py" />
       <jump line="9" column="0" filename="$USER_HOME$/crypto/crypto/crypto/db/scripts/exchanges_db.py" />
       <jump line="58" column="48" filename="$USER_HOME$/crypto/crypto/crypto/db/scripts/cycles_db.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/create_crontab.sh" />
+      <jump line="115" column="32" filename="$USER_HOME$/crypto/crypto/crypto/graph.py" />
+      <jump line="277" column="4" filename="$USER_HOME$/crypto/crypto/crypto/graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Z3JlcCAkbGluZSAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
+        <text encoding="base64">ICAgIGRlZiBjeWNsZXMoc2VsZik6CiAgICAgICAgcmV0dXJuIFtDeWNsZShjeWNsZSkgZm9yIGN5Y2xlIGluIG54LmN5Y2xlX2Jhc2lzKHNlbGYuZ3JhcGgpXQoK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2592,22 +2594,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0 0 * * * . ~/envs/crypto-env/bin/activate; python3 ~/crypto/crypto/crypto/db/scripts/exchanges_db.py</text>
+        <text>update_exchanges_db</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>class Coi</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Z3JlcCAkbGluZSAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
+        <text encoding="base64">Y2htb2QgK3ggL2V0Yy9jcm9uLmRhaWx5L3VwZGF0ZV9leGNoYW5nZXNfZGIuc2gK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">bGluZT0nMCAwICogKiAqIC4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHknCg==</text>
+        <text encoding="base64">ICAgIGRlZiBjeWNsZXMoc2VsZik6CiAgICAgICAgcmV0dXJuIFtDeWNsZShjeWNsZSkgZm9yIGN5Y2xlIGluIG54LmN5Y2xlX2Jhc2lzKHNlbGYuZ3JhcGgpXQoK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">TW9kaWZ5Cg==</text>
+        <text encoding="base64">ZGVmIHNpbXBsZXN0X2N5Y2xlKGV4Y2hhbmdlXzEsIGV4Y2hhbmdlXzIsIGN1cnJlbmN5KToKICAgICIiIgogICAgUmV0dXJucyBhIEN5Y2xlIG9mIHRoaXMgZm9ybQogICAgICAgIChiaXRjb2luLCBleGNoYW5nZSAxKSB0byAoY3VycmVuY3ksIGV4Y2hhbmdlIDEpIHRvIChjdXJyZW5jeSwgZXhjaGFuZ2UgMikgdG8gKGJpdGNvaW4sIGV4Y2hhbmdlIDIpCiAgICAiIiIKICAgIGJ0YyA9IHNkay5DdXJyZW5jeS5mcm9tX25hbWUoJ2JpdGNvaW4nKQogICAgY3ljbGUgPSBDeWNsZShbCiAgICAgICAgc2RrLk5vZGUuZnJvbV9jdXJyZW5jeV9hbmRfZXhjaGFuZ2UoYnRjLCBleGNoYW5nZV8xKSwKICAgICAgICBzZGsuTm9kZS5mcm9tX2N1cnJlbmN5X2FuZF9leGNoYW5nZShjdXJyZW5jeSwgZXhjaGFuZ2VfMSksCiAgICAgICAgc2RrLk5vZGUuZnJvbV9jdXJyZW5jeV9hbmRfZXhjaGFuZ2UoY3VycmVuY3ksIGV4Y2hhbmdlXzIpLAogICAgICAgIHNkay5Ob2RlLmZyb21fY3VycmVuY3lfYW5kX2V4Y2hhbmdlKGJ0YywgZXhjaGFuZ2VfMildKQogICAgcmV0dXJuIGN5Y2xlCgoKZGVmIHNpbXBsZXN0X2N5Y2xlcygpOgogICAgIiIiCiAgICBHZW5lcmF0b3Igb2YgdmVyeSBzaW1wbGVzdCBjeWNsZXMuIExvb3BzIHRocm91Z2ggZXZlcnkgcGFpciBvZiBzZGsuRXhjaGFuZ2Ugb2JqZWN0cyBhbmQgZm9yIGVhY2gKICAgIHBhaXIsIGdyYWJzIHRoZSBjb21tb24gc2RrLkN1cnJlbmNpZXMuIFRoZW4gZm9yIGVhY2ggY29tbW9uIGN1cnJlbmN5IHByb2R1Y2VzIGEgJ3NpbXBsZXN0X2N5Y2xlJywgb25lIHRoYXQKICAgIGdvZXMgZnJvbSAoYml0Y29pbiwgZXhjaGFuZ2UgMSkgdG8gKGN1cnJlbmN5LCBleGNoYW5nZSAxKSB0byAoY3VycmVuY3ksIGV4Y2hhbmdlIDIpIHRvIChiaXRjb2luLCBleGNoYW5nZSAyKQoKICAgIDpyZXR1cm46CiAgICAiIiIKICAgIGZvciBleGNoYW5nZV8xLCBleGNoYW5nZV8yIGluIHBlcm11dGF0aW9ucyhzZGsuRXhjaGFuZ2UuYWxsKCksIDIpOgogICAgICAgIGN1cnJlbmNpZXNfZXhjaGFuZ2VfMSA9IGV4Y2hhbmdlXzEuY3VycmVuY2llcyhpc19hY3RpdmU9VHJ1ZSkKICAgICAgICBjdXJyZW5jaWVzX2V4Y2hhbmdlXzIgPSBleGNoYW5nZV8yLmN1cnJlbmNpZXMoaXNfYWN0aXZlPVRydWUpCiAgICAgICAgY29tbW9uX2N1cnJlbmNpZXMgPSBzZXQoY3VycmVuY2llc19leGNoYW5nZV8xKS5pbnRlcnNlY3Rpb24oY3VycmVuY2llc19leGNoYW5nZV8yKQoKICAgICAgICBmb3IgaSwgY3VycmVuY3kgaW4gZW51bWVyYXRlKGNvbW1vbl9jdXJyZW5jaWVzKToKICAgICAgICAgICAgY3ljbGUgPSBzaW1wbGVzdF9jeWNsZShleGNoYW5nZV8xLCBleGNoYW5nZV8yLCBjdXJyZW5jeSkKICAgICAgICAgICAgeWllbGQgIGN5Y2xlCgoK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2632,10 +2634,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">MCAgIDAgKiAqICAgKiAiLiB+L2VudnMvY3J5cHRvLWVudi9iaW4vYWN0aXZhdGU7IHB5dGhvbjMgfi9jcnlwdG8vY3J5cHRvL2NyeXB0by9kYi9zY3JpcHRzL2V4Y2hhbmdlc19kYi5weSIKMCAgIDAgKiAqICAgKiAiLiB+L2VudnMvY3J5cHRvLWVudi9iaW4vYWN0aXZhdGU7IHB5dGhvbjMgfi9jcnlwdG8vY3J5cHRvL2NyeXB0by9kYi9zY3JpcHRzL2N5Y2xlc19kYi5weSIK</text>
+        <text encoding="base64">MS4gYGNyb250YWIgLWxgIHRvIGxpc3QgZXhpc3RpbmcgY3JvbiBqb2JzCjEuIGBjcm9udGFiIC1lYCB0byBlZGl0L2NyZWF0ZSBjcm9udGFiIGZpbGUKCgoxLiBNb2RpZnkgc2NyaXB0cy9jcmVhdGVfY3JvbnRhYi5zaCBhcyBuZWVkZWQK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">TW9kaWZ5CjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9leGNoYW5nZXNfZGIucHkiCjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHkiCg==</text>
+        <text encoding="base64">Z3JlcCAnJyRsaW5lJyAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2703,38 +2705,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyB0aGlzIHNjcmlwdCB3aWxsIGRlbGV0ZSB5b3VyIGN1cnJlbnQgY3JvbnRhYiBhbmQgYWRkIGEgbmV3IG9uZQo=</text>
+        <text encoding="base64">bGluZT0nMCAwICogKiAqIC4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHknCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">TW9kaWZ5CjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9leGNoYW5nZXNfZGIucHkiCjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHkiCg==</text>
+        <text encoding="base64">Z3JlcCAnJyRsaW5lJyAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">bWFrZSBjcm9udCB0YWIgbG9vayBsaWtlIHRoZSBvbmUgYmVsb3cK</text>
+        <text encoding="base64">Z3JlcCAnJyRsaW5lJyAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCg==</text>
+        <text encoding="base64">PiAvZXRjL2Nyb24uZGFpbHkvdXBkYXRlX2V4Y2hhbmdlc19kYi5zaAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGVsc2U6Cg==</text>
+        <text encoding="base64">bGluZT0nMCAwICogKiAqIC4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHknCg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>class Coi</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
-      <last-replace>self.configs_path</last-replace>
-      <last-substitute>cwd</last-substitute>
+      <last-pattern>class Coi</last-pattern>
+      <last-replace />
+      <last-substitute>.sh</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>sys</entry>
-        <entry>def run</entry>
-        <entry>Thread</entry>
         <entry>def thread_write</entry>
         <entry>thread_write</entry>
         <entry>self.run_thread</entry>
@@ -2752,10 +2751,11 @@
         <entry>star</entry>
         <entry>class Cycle</entry>
         <entry>pudb</entry>
+        <entry>.sh</entry>
+        <entry>simplest</entry>
+        <entry>class Coi</entry>
       </history-search>
       <history-cmd>
-        <entry>w</entry>
-        <entry>wq</entry>
         <entry>21</entry>
         <entry>%s/start_epoch/storage_start_epoch/gc</entry>
         <entry>%s/end_epoch/storage_end_epoch/gc</entry>
@@ -2774,6 +2774,8 @@
         <entry>207</entry>
         <entry>q</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>%s/.sh//gc</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
