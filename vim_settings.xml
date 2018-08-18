@@ -17,8 +17,14 @@
         <mark key="^" line="31" column="29" />
         <mark key="." line="31" column="29" />
       </file>
-      <file name="/a.dummy" timestamp="1534541994871">
+      <file name="/a.dummy" timestamp="1534615712145">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/create_crontab.sh" timestamp="1534617401376">
+        <mark key="[" line="3" column="5" />
+        <mark key="]" line="3" column="12" />
+        <mark key="." line="3" column="12" />
+        <mark key="^" line="3" column="12" />
       </file>
       <file name="$USER_HOME$/Testeo/to_upload/state.py" timestamp="1512191715262">
         <mark key="'" line="46" column="0" />
@@ -75,6 +81,11 @@
         <mark key="]" line="19" column="0" />
         <mark key="." line="13" column="10" />
         <mark key="^" line="2" column="66" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/README_crontab.md" timestamp="1534617144906">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/poloniex_client.py" timestamp="1532220579147">
         <mark key="'" line="207" column="8" />
@@ -379,6 +390,12 @@
         <mark key="]" line="83" column="11" />
         <mark key="." line="83" column="11" />
         <mark key="^" line="83" column="11" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1534616101510">
+        <mark key="[" line="74" column="25" />
+        <mark key="]" line="77" column="17" />
+        <mark key="^" line="77" column="17" />
+        <mark key="." line="77" column="17" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/urls_nnets.yaml" timestamp="1530049178238">
         <mark key="'" line="153" column="4" />
@@ -2032,8 +2049,8 @@
       <jump line="58" column="48" filename="$USER_HOME$/crypto/crypto/crypto/db/scripts/cycles_db.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>values</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Z3JlcCAkbGluZSAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2575,22 +2592,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>values</text>
+        <text>0 0 * * * . ~/envs/crypto-env/bin/activate; python3 ~/crypto/crypto/crypto/db/scripts/exchanges_db.py</text>
       </register>
       <register name="/" type="4">
         <text>pudb</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgTk9UIEVYSVNUUwogICAgICAgICAgICAgICAgKFNFTEVDVCAxIEZST00gTWFya2V0cyBXSEVSRSAKICAgICAgICAgICAgICAgICAgICBCYXNlSWQgPSB7YmFzZV9pZH0gQU5ECiAgICAgICAgICAgICAgICAgICAgQ3VycmVuY3lJZCA9IHtjdXJyZW5jeV9pZH0gQU5ECiAgICAgICAgICAgICAgICAgICAgRXhjaGFuZ2VJZCA9IHtleGNoYW5nZV9pZH0KICAgICAgICAgICAgICAgICkK</text>
+        <text encoding="base64">Z3JlcCAkbGluZSAvZXRjL2Nyb250YWIgfHwgZWNobyAkbGluZSA+PiAvZXRjL2Nyb250YWIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgPSB7ZXhjaGFuZ2VfaWR9Cg==</text>
+        <text encoding="base64">bGluZT0nMCAwICogKiAqIC4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHknCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgQU5ECg==</text>
+        <text encoding="base64">TW9kaWZ5Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2615,10 +2632,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBDdXJyZW5jeUlkID0ge2N1cnJlbmN5X2lkfSBBTkQK</text>
+        <text encoding="base64">MCAgIDAgKiAqICAgKiAiLiB+L2VudnMvY3J5cHRvLWVudi9iaW4vYWN0aXZhdGU7IHB5dGhvbjMgfi9jcnlwdG8vY3J5cHRvL2NyeXB0by9kYi9zY3JpcHRzL2V4Y2hhbmdlc19kYi5weSIKMCAgIDAgKiAqICAgKiAiLiB+L2VudnMvY3J5cHRvLWVudi9iaW4vYWN0aXZhdGU7IHB5dGhvbjMgfi9jcnlwdG8vY3J5cHRvL2NyeXB0by9kYi9zY3JpcHRzL2N5Y2xlc19kYi5weSIK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">TW9kaWZ5CjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9leGNoYW5nZXNfZGIucHkiCjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHkiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2686,19 +2703,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZGVmIG1haW4oYXJncyk6CiAgICBkZWwgYXJncwoKICAgIGNyZWF0ZV9jeWNsZXNfdGFibGUoKQogICAgcG9wdWxhdGVfY3ljbGVzX3RhYmxlKCkKICAgIGNvbi5jb21taXQoKQoKCg==</text>
+        <text encoding="base64">IyB0aGlzIHNjcmlwdCB3aWxsIGRlbGV0ZSB5b3VyIGN1cnJlbnQgY3JvbnRhYiBhbmQgYWRkIGEgbmV3IG9uZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">TW9kaWZ5CjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9leGNoYW5nZXNfZGIucHkiCjAgICAwICogKiAgICogIi4gfi9lbnZzL2NyeXB0by1lbnYvYmluL2FjdGl2YXRlOyBweXRob24zIH4vY3J5cHRvL2NyeXB0by9jcnlwdG8vZGIvc2NyaXB0cy9jeWNsZXNfZGIucHkiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bWFrZSBjcm9udCB0YWIgbG9vayBsaWtlIHRoZSBvbmUgYmVsb3cK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNvbi5jb21taXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChjbWQpCg==</text>
+        <text encoding="base64">ICAgIGVsc2U6Cg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
