@@ -160,11 +160,12 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" timestamp="1534743203405">
-        <mark key="[" line="14" column="68" />
-        <mark key="]" line="15" column="53" />
-        <mark key="^" line="15" column="53" />
-        <mark key="." line="15" column="53" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" timestamp="1534776636554">
+        <mark key="'" line="47" column="13" />
+        <mark key="[" line="18" column="37" />
+        <mark key="]" line="18" column="38" />
+        <mark key="^" line="19" column="58" />
+        <mark key="." line="18" column="38" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/db_scripts/exchanges_db.py" timestamp="1534731333633">
         <mark key="[" line="9" column="77" />
@@ -1066,12 +1067,12 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1534743486041">
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1534776621400">
         <mark key="'" line="726" column="0" />
-        <mark key="[" line="951" column="0" />
-        <mark key="]" line="951" column="0" />
-        <mark key="^" line="951" column="46" />
-        <mark key="." line="951" column="0" />
+        <mark key="[" line="899" column="48" />
+        <mark key="]" line="901" column="112" />
+        <mark key="^" line="901" column="112" />
+        <mark key="." line="901" column="112" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/data/output_metric_query_2.json" timestamp="1515803754834">
         <mark key="'" line="0" column="0" />
@@ -2039,11 +2040,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
-      <jump line="136" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
-      <jump line="156" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
-      <jump line="177" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
-      <jump line="190" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
       <jump line="200" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
       <jump line="227" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
       <jump line="232" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/simulated_client.py" />
@@ -2139,10 +2135,15 @@
       <jump line="178" column="38" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="17" column="4" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="78" column="4" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="19" column="58" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" />
+      <jump line="30" column="23" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" />
+      <jump line="31" column="23" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" />
+      <jump line="40" column="15" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" />
+      <jump line="47" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_market_summary.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8uZXhjaGFuZ2VzIGltcG9ydCBlcnJvcnMK</text>
+      <register name="&quot;" type="4">
+        <text>sdkExchange</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2684,10 +2685,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>sdkExchange</text>
       </register>
       <register name="/" type="4">
-        <text>errors</text>
+        <text>market_</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBleGNoYW5nZSwgbWFya2V0LCBidXlfZGYsIHNlbGxfZGYpOgo=</text>
@@ -2810,13 +2811,13 @@
         <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name=":" type="4">
-        <text>942</text>
+        <text>904</text>
       </register>
     </registers>
     <search>
-      <last-search>errors</last-search>
+      <last-search>market_</last-search>
       <last-offset />
-      <last-pattern>errors</last-pattern>
+      <last-pattern>market_</last-pattern>
       <last-replace>sell</last-replace>
       <last-substitute>buy</last-substitute>
       <last-dir>1</last-dir>
@@ -2824,7 +2825,6 @@
     </search>
     <history>
       <history-search>
-        <entry>market1</entry>
         <entry>class Ticker</entry>
         <entry>Currency(</entry>
         <entry>pickle</entry>
@@ -2844,10 +2844,9 @@
         <entry>pudb</entry>
         <entry>def test_ticker</entry>
         <entry>errors</entry>
+        <entry>market_</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/market/ticker/gc</entry>
-        <entry>121</entry>
         <entry>148</entry>
         <entry>129</entry>
         <entry>%s/market1/ticker_1/gc</entry>
@@ -2862,10 +2861,12 @@
         <entry>540</entry>
         <entry>28</entry>
         <entry>105</entry>
-        <entry>qa</entry>
         <entry>217</entry>
         <entry>112</entry>
         <entry>942</entry>
+        <entry>qa</entry>
+        <entry>15</entry>
+        <entry>904</entry>
       </history-cmd>
       <history-expr />
       <history-input />
