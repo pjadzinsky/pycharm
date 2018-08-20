@@ -1792,6 +1792,13 @@
         <mark key="^" line="13" column="35" />
         <mark key="." line="13" column="35" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittests/cassandra_empty.yaml" timestamp="1534800954767">
+        <mark key="'" line="3" column="28" />
+        <mark key="[" line="3" column="38" />
+        <mark key="]" line="3" column="28" />
+        <mark key="^" line="3" column="28" />
+        <mark key="." line="3" column="28" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_seasonality.py" timestamp="1515521327530">
         <mark key="'" line="122" column="0" />
         <mark key="[" line="59" column="19" />
@@ -2037,7 +2044,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="489" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="492" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="495" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="498" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2137,10 +2143,11 @@
       <jump line="72" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" />
       <jump line="60" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" />
       <jump line="32" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
+      <jump line="3" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittests/cassandra_empty.yaml" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>config_for_test_server</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAic2NvcGUiCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2682,7 +2689,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>config_for_test_server</text>
+        <text>scope</text>
       </register>
       <register name="/" type="4">
         <text>start_epoch</text>
@@ -2691,13 +2698,13 @@
         <text encoding="base64">ICAgICAgICAgICJhcHBsaWVzX3RvX291dHB1dHMiOiB0cnVlCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">RkxBR1MubWFyCg==</text>
+        <text encoding="base64">ICAgICAgICAic2NvcGUiCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAibnVtX2Vwb2NocyI6IDEwMDAsCg==</text>
+        <text encoding="base64">ICAgICAgICAic2NvcGUiCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2722,10 +2729,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAiYmF0Y2hfc2l6ZSI6IDEyOCwK</text>
+        <text encoding="base64">RkxBR1MubWFyCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
+        <text encoding="base64">ICAgICAgICAibnVtX2Vwb2NocyI6IDEwMDAsCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2793,19 +2800,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAib3B0aW1pemVyIjogImFkYWdyYWQiLAo=</text>
+        <text encoding="base64">ICAgICAgICAiYmF0Y2hfc2l6ZSI6IDEyOCwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiZWFybHlfc3RvcHBpbmciOiB7CiAgICAgICAgICAibWluX2RlbHRhIjogMCwKICAgICAgICAgICJwYXRpZW5jZSI6IDEwMCwKICAgICAgICAgICJtb2RlIjogIm1pbiIKICAgICAgICB9LAo=</text>
+        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBzZWxmLmJ1ZmZlcl9zZWNzID0gcGFyYW1zLmdldCgnYnVmZmVyX3NlY3MnLCAxKQo=</text>
+        <text encoding="base64">ICAgICAgICAib3B0aW1pemVyIjogImFkYWdyYWQiLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBzZWxmLnRyYWluX3NlY3MgPSBwYXJhbXMuZ2V0KCd0cmFpbl9zZWNzJykK</text>
+        <text encoding="base64">ICAgICAgICAiZWFybHlfc3RvcHBpbmciOiB7CiAgICAgICAgICAibWluX2RlbHRhIjogMCwKICAgICAgICAgICJwYXRpZW5jZSI6IDEwMCwKICAgICAgICAgICJtb2RlIjogIm1pbiIKICAgICAgICB9LAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBzZWxmLnZhbF9zZWNzID0gcGFyYW1zLmdldCgndmFsX3NlY3MnKQo=</text>
+        <text encoding="base64">ICBzZWxmLmJ1ZmZlcl9zZWNzID0gcGFyYW1zLmdldCgnYnVmZmVyX3NlY3MnLCAxKQo=</text>
       </register>
       <register name=":" type="4">
         <text>114</text>
