@@ -359,9 +359,9 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1534884343469">
         <mark key="'" line="104" column="36" />
-        <mark key="[" line="441" column="0" />
-        <mark key="]" line="441" column="0" />
-        <mark key="." line="441" column="0" />
+        <mark key="[" line="442" column="0" />
+        <mark key="]" line="442" column="0" />
+        <mark key="." line="442" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/prediction/prediction_utils.py" timestamp="1518453362231">
         <mark key="'" line="27" column="70" />
@@ -502,12 +502,12 @@
         <mark key="." line="52" column="20" />
         <mark key="^" line="52" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" timestamp="1534886205497">
-        <mark key="'" line="148" column="45" />
-        <mark key="[" line="126" column="57" />
-        <mark key="]" line="127" column="40" />
-        <mark key="." line="127" column="40" />
-        <mark key="^" line="127" column="40" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" timestamp="1534887184348">
+        <mark key="'" line="162" column="51" />
+        <mark key="[" line="160" column="0" />
+        <mark key="]" line="160" column="16" />
+        <mark key="." line="160" column="16" />
+        <mark key="^" line="162" column="51" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/neural_nets/tests/data/metric_queries_1.json" timestamp="1512749054134">
         <mark key="'" line="0" column="0" />
@@ -1774,7 +1774,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="263" column="42" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="247" column="19" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="23" column="21" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer.py" />
       <jump line="50" column="10" filename="$USER_HOME$/opas/core/python/opasai/common/settings/settings_browser.py" />
@@ -1874,10 +1873,11 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="104" column="36" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/settings/kpi_setting.py" />
+      <jump line="162" column="51" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2422,19 +2422,19 @@
         <text>best_suggestion</text>
       </register>
       <register name="/" type="4">
-        <text>def get</text>
+        <text>pudb</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGFtb3VudF9rcGlfc2V0dGluZy5zZXR0aW5nc19yZWFkZXIuZGF0YVsnaW5wdXRzJ10uYXBwZW5kKG5ld19tZXRyaWMpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2462,7 +2462,7 @@
         <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2530,28 +2530,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQobmV3X21ldHJpYykK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQobmV3X21ldHJpYykK</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkKICAgICAgICAgICAgbWV0cmljX3Bvb2wgPSBbbS5mb3J3YXJkX2ZpbGwoKSBmb3IgbSBpbiBtZXRyaWNfcG9vbF0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkKICAgICAgICAgICAgbWV0cmljX3Bvb2wgPSBbbS5mb3J3YXJkX2ZpbGwoKSBmb3IgbSBpbiBtZXRyaWNfcG9vbF0K</text>
       </register>
       <register name=":" type="4">
         <text>139</text>
       </register>
     </registers>
     <search>
-      <last-search>def get</last-search>
+      <last-search>pudb</last-search>
       <last-offset />
-      <last-pattern>def get</last-pattern>
+      <last-pattern>pudb</last-pattern>
       <last-replace>train_end_epoch</last-replace>
       <last-substitute>training_end_epoch</last-substitute>
       <last-dir>1</last-dir>
@@ -2559,7 +2559,6 @@
     </search>
     <history>
       <history-search>
-        <entry>=</entry>
         <entry>def predict</entry>
         <entry>def metrics</entry>
         <entry>def query_bu</entry>
@@ -2579,6 +2578,7 @@
         <entry>def dup</entry>
         <entry>def co</entry>
         <entry>def get</entry>
+        <entry>pudb</entry>
       </history-search>
       <history-cmd>
         <entry>59</entry>
