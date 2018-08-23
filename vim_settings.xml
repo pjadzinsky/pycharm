@@ -681,12 +681,12 @@
         <mark key="^" line="31" column="40" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" timestamp="1533257663442">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="60" column="50" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" timestamp="1534998320310">
+        <mark key="'" line="941" column="0" />
+        <mark key="[" line="967" column="0" />
+        <mark key="]" line="967" column="0" />
         <mark key="^" line="22" column="24" />
-        <mark key="." line="26" column="59" />
+        <mark key="." line="967" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/ss_df2_kpi_amount_model_anomaly.json" timestamp="1534895418649">
         <mark key="'" line="2" column="1" />
@@ -1853,11 +1853,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="21" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" />
-      <jump line="127" column="50" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" />
-      <jump line="138" column="61" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" />
-      <jump line="126" column="83" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" />
-      <jump line="109" column="1" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/ss_blueshift_kpi_95thPercentile.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/cassandra_metrics.json" />
       <jump line="48" column="6" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/cassandra_input_metrics.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/cassandra_input_metrics.json" />
@@ -1953,10 +1948,15 @@
       <jump line="42" column="14" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="66" column="14" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="309" column="4" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" />
+      <jump line="926" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" />
+      <jump line="981" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" />
+      <jump line="927" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" />
+      <jump line="941" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEB1bml0dGVzdC5za2lwKCduZWVkcyBmaXhpbmcuIEVpdGhlciBjaGFuZ2UgdGhlIGludGVydmFsIGluIGNvbmRpdGlvbl8xIG9yIG1vY2sgaXQnKQo=</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgdGltZXdpbmRvd3MgPSBnZXRfdW5wcm9jZXNzZWRfdGltZXdpbmRvd3MoYnJvd3Nlciwga3BpLCBrcGlfc2V0dGluZ3MpCiAgICAgICAgICAgICAgICBhbm9tYWx5X3NldHRpbmcgPSBicm93c2VyLmdldF9rcGlfYW5vbWFseShrcGkpCj4+Pj4+Pj4gUmV2ZXJ0aW5nIHRvIG1hc3RlciB2ZXJzaW9uIG9mIHNldHRpbmdzX2Jyb3dzZXIgYW5kIGFsbCBmaWxlcyBpdCB0b3VjaGVkCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2501,19 +2501,19 @@
         <text>False</text>
       </register>
       <register name="/" type="4">
-        <text>skip</text>
+        <text encoding="base64">PDw8PA==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEB1bml0dGVzdC5za2lwKCduZWVkcyBmaXhpbmcuIEVpdGhlciBjaGFuZ2UgdGhlIGludGVydmFsIGluIGNvbmRpdGlvbl8xIG9yIG1vY2sgaXQnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgbWluX2ludGVydmFsIGlzIGFuIG9wdGltaXphdGlvbiB0byByZXR1cm4gc29tZSBkYXRhIGZyb20gc3RvcmFnZS4gV2Ugc2hvdWxkbid0IGRlcGVuZCBvbiBpdCBhbmQgCiAgICAgICAgICAgICAgICAjIHRoZXJlIGFyZSBzb21lIGNvcm5lciBjYXNlcwo=</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgdGltZXdpbmRvd3MgPSBnZXRfdW5wcm9jZXNzZWRfdGltZXdpbmRvd3MoYnJvd3Nlciwga3BpLCBrcGlfc2V0dGluZ3MpCiAgICAgICAgICAgICAgICBhbm9tYWx5X3NldHRpbmcgPSBicm93c2VyLmdldF9rcGlfYW5vbWFseShrcGkpCj4+Pj4+Pj4gUmV2ZXJ0aW5nIHRvIG1hc3RlciB2ZXJzaW9uIG9mIHNldHRpbmdzX2Jyb3dzZXIgYW5kIGFsbCBmaWxlcyBpdCB0b3VjaGVkCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKHNlbGYuYmFzZV9maWxlX3BhdGgsICd0ZXN0X3dpdGhfanVzdF9tb2RlbHNfcmVzdWx0cy5qc29uJykpIGFzIGZpZDoKICAgICAgICAgICAgaGlzdG9yaWNhbF9yZXN1bHRzID0ganNvbi5sb2FkKGZpZCkK</text>
+        <text encoding="base64">PDw8PDw8PCBlNjlhZTA3OWM4NjJiNGM5OWMwNDFlOGQzZTBlMGY1NjBhYjZmN2Q3Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2538,10 +2538,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PT09PT09PQogICAgYW5vbWFseV9zZXR0aW5nID0gYnJvd3Nlci5nZXRfa3BpX2Fub21hbHkoa3BpKQo+Pj4+Pj4+IFJldmVydGluZyB0byBtYXN0ZXIgdmVyc2lvbiBvZiBzZXR0aW5nc19icm93c2VyIGFuZCBhbGwgZmlsZXMgaXQgdG91Y2hlZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICdkYXRhL3Rlc3Rfd2l0aF9qdXN0X21vZGVsc19yZXN1bHRzLmpzb24K</text>
+        <text encoding="base64">PDw8PDw8PCBlNjlhZTA3OWM4NjJiNGM5OWMwNDFlOGQzZTBlMGY1NjBhYjZmN2Q3Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2609,28 +2609,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAuIFJlc3V0bHMgYXJlIHVucHJlZGljdGFibGUgYXMgd3JpdHRlbiBiZWNhdXNlCg==</text>
+        <text encoding="base64">PT09PT09PQogICAga3BpX2xpc3QgPSBzZXQoYnJvd3Nlci5nZXRfa3BpcyhhY2NvdW50X2lkKS5nZXRfa3BpcygpKQogICAga3BpX3NldHRpbmdzID0ge2twaTogYnJvd3Nlci5nZXRfa3BpKGtwaSkgZm9yIGtwaSBpbiBrcGlfbGlzdH0KPj4+Pj4+PiBSZXZlcnRpbmcgdG8gbWFzdGVyIHZlcnNpb24gb2Ygc2V0dGluZ3NfYnJvd3NlciBhbmQgYWxsIGZpbGVzIGl0IHRvdWNoZWQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBERUNSRUFTRV9TRU5USU5FTCA9IDAuNwo=</text>
+        <text encoding="base64">PDw8PDw8PCBlNjlhZTA3OWM4NjJiNGM5OWMwNDFlOGQzZTBlMGY1NjBhYjZmN2Q3Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHF1ZXJpZXMgPSBxdWVyaWVzWzoyXQo=</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgdGltZXdpbmRvd3MgPSBnZXRfdW5wcm9jZXNzZWRfdGltZXdpbmRvd3MoYnJvd3Nlciwga3BpLCBrcGlfc2V0dGluZ3MpCiAgICAgICAgICAgICAgICBhbm9tYWx5X3NldHRpbmcgPSBicm93c2VyLmdldF9rcGlfYW5vbWFseV9zZXR0aW5ncyhrcGkpCj4+Pj4+Pj4gc3R5bGluZwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEB1bml0dGVzdC5za2lwVW5sZXNzKG9zLmVudmlyb24uZ2V0KCdSVU5fSU5URUdSQVRJT05fVEVTVFMnKSwgJ3Rha2VzIHNvbWUgdGltZSB0byBydW4sIG9ubHkgdGVzdCBzcG9yYWRpY2FsbHknKQo=</text>
+        <text encoding="base64">PDw8PDw8PCAwNzcwNjE2MDAwMDg3MTFkMTVlOWVhNGUyZGI1NGE3YTczYWVhYjQ5Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBlbGYuICAK</text>
+        <text encoding="base64">PT09PT09PQogICAgYW5vbWFseV9zZXR0aW5nID0gYnJvd3Nlci5nZXRfa3BpX2Fub21hbHlfc2V0dGluZ3Moa3BpKQo+Pj4+Pj4+IHN0eWxpbmcK</text>
       </register>
       <register name=":" type="4">
-        <text>97</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>skip</last-search>
+      <last-search encoding="base64">PDw8PA==</last-search>
       <last-offset />
-      <last-pattern>skip</last-pattern>
+      <last-pattern encoding="base64">PDw8PA==</last-pattern>
       <last-replace>data['inputs']</last-replace>
       <last-substitute>data</last-substitute>
       <last-dir>1</last-dir>
@@ -2638,7 +2638,6 @@
     </search>
     <history>
       <history-search>
-        <entry>,</entry>
         <entry>output</entry>
         <entry>account_id</entry>
         <entry>$(cluster)</entry>
@@ -2658,6 +2657,7 @@
         <entry>2</entry>
         <entry>test_all</entry>
         <entry>skip</entry>
+        <entry encoding="base64">PDw8PA==</entry>
       </history-search>
       <history-cmd>
         <entry>621</entry>
@@ -2675,11 +2675,11 @@
         <entry>221,224s/data/data['inputs']/gc</entry>
         <entry>150</entry>
         <entry>25</entry>
-        <entry>w</entry>
         <entry>114</entry>
         <entry>118</entry>
         <entry>88</entry>
         <entry>97</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
