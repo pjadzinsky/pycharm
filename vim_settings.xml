@@ -1452,13 +1452,13 @@
         <mark key="." line="133" column="13" />
         <mark key="^" line="133" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" timestamp="1535577781617">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" timestamp="1535580239959">
         <mark key="e" line="90" column="8" />
-        <mark key="'" line="24" column="16" />
-        <mark key="[" line="213" column="32" />
-        <mark key="]" line="213" column="43" />
-        <mark key="." line="213" column="43" />
-        <mark key="^" line="213" column="43" />
+        <mark key="'" line="3" column="21" />
+        <mark key="[" line="202" column="82" />
+        <mark key="]" line="202" column="48" />
+        <mark key="." line="202" column="48" />
+        <mark key="^" line="202" column="48" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/tests/test_hyper_tuner.py" timestamp="1534788817172">
         <mark key="'" line="67" column="24" />
@@ -1940,7 +1940,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="49" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="56" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
       <jump line="73" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
@@ -2038,12 +2037,13 @@
       <jump line="84" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="186" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="16" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
-      <jump line="206" column="83" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="24" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
+      <jump line="206" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
+      <jump line="3" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>hidden_X</text>
+        <text>100</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2585,22 +2585,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>hidden_X</text>
+        <text>100</text>
       </register>
       <register name="/" type="4">
         <text>rann</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBucF90ZXN0aW5nLmFzc2VydF9hcnJheV9hbG1vc3RfZXF1YWwoaGlkZGVuX1hbOiwgMTpdLCBtb2RpZmllZF9oaWRkZW5fWFs6LCAxOl0pCiAgICAgICAgc2VsZi5hc3NlcnRHcmVhdGVyKChhYnMoaGlkZGVuX1hbOiwgMF0gLSBtb2RpZmllZF9oaWRkZW5fWFs6LCAwXSkpLm1heCgpLCAxKQo=</text>
+        <text encoding="base64">ICAgICAgICBjdXJ2ZSA9IGh2LkN1cnZlKChYWzosIDBdKSkgKiBodi5DdXJ2ZSgoWFs6LCAxXSkpICogaHYuQ3VydmUoKFhbOiwgMl0pKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG5wLnJhbmRvbS5zZWVkKDEpCg==</text>
+        <text encoding="base64">ICAgICAgICBjdXJ2ZSA9IGh2LkN1cnZlKChYWzosIDBdKSkgKiBodi5DdXJ2ZSgoWFs6LCAxXSkpICogaHYuQ3VydmUoKFhbOiwgMl0pKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaHYK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2625,10 +2625,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBYMkQgPSBYLnJlc2hhcGUoLTEsIFguc2hhcGVbMl0pCiAgICAgICAgaGlkZGVuX1gyRCA9IGhpZGRlbl9YLnJlc2hhcGUoLTEsIGhpZGRlbl9YLnNoYXBlWzJdKQoKICAgICAgICAiIiIKICAgICAgICBUaGlyZCBwYXJ0IG9mIGRlYnVnZ2luZywgc2ltaWxhciB0byBzZWNvbmQgYnV0IGluc3RlYWQgb2YgY2FsbGluZyBucC5kb3QoWFhYLCBDT01QT05FTlRTLlQgb3IgTUlYSU5HLlQpCiAgICAgICAgY2FsbCB0cmFuc2Zvcm0gYW5kIGludmVyc2VfdHJhbnNmb3JtICh0aGUgb25lIGltcGxlbWVudGVkIGJ5IEZhc3RJQ0EsIG5vdCBtaW5lCiAgICAgICAgIiIiCiAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkKICAgICAgICBYMkQsIF8sIF8gPSBzZWxmLmVzdGltYXRvci5wcmVwcm9jZXNzKG1ldHJpY3MpCiAgICAgICAgaGlkZGVuX1gyRCwgXywgXyA9IHNlbGYuZXN0aW1hdG9yLnByZXByb2Nlc3MoaGlkZGVuKQoKICAgICAgICBucF90ZXN0aW5nLmFzc2VydF9hcnJheV9hbG1vc3RfZXF1YWwoc2VsZi5lc3RpbWF0b3IuZXN0aW1hdG9yLnRyYW5zZm9ybShYMkQpLCBoaWRkZW5fWDJEKQogICAgICAgIG5wX3Rlc3RpbmcuYXNzZXJ0X2FycmF5X2FsbW9zdF9lcXVhbChzZWxmLmVzdGltYXRvci5lc3RpbWF0b3IuaW52ZXJzZV90cmFuc2Zvcm0oaGlkZGVuX1gyRCksIFgyRCkKCiAgICAgICAgIyBub3cgdGVzdCB0aGF0IHdlIGNhbiBjaGFuZ2UgY29sdW1uIDAgb2YgaGlkZGVuX1gyRCBhbmQgY29tcHV0ZWQgWDJEWzosIDBdIGNoYW5nZXMgYnV0IFgyRFs6LCAxLzJdIGRvIG5vdAogICAgICAgIG5ld19YMkQgPSBucC5kb3QoaGlkZGVuX1gyRCAqIG5wLmFycmF5KFsxLjUsIDEsIDFdKSwgTUlYSU5HLlQpCiAgICAgICAgbnBfdGVzdGluZy5hc3NlcnRfYXJyYXlfYWxtb3N0X2VxdWFsKG5ld19YMkRbOiwgMTpdLCBYMkRbOiwgMTpdKQogICAgICAgIG1heF9kaWZmID0gKG5ld19YMkRbOiwgMF0gLSBYMkRbOiwgMF0pLm1heCgpCiAgICAgICAgc2VsZi5hc3NlcnRHcmVhdGVyKG1heF9kaWZmLCAxKQoKICAgICAgICByZXR1cm4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBsb3QobmV3X1gsIGkrMSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBucF90ZXN0aW5nLmFzc2VydF9hcnJheV9hbG1vc3RfZXF1YWwobnAuZG90KFgyRCwgc2VsZi5lc3RpbWF0b3IuZXN0aW1hdG9yLmNvbXBvbmVudHNfLlQpLCBoaWRkZW5fWDJEKQogICAgICAgIG5wX3Rlc3RpbmcuYXNzZXJ0X2FycmF5X2FsbW9zdF9lcXVhbChucC5kb3QoaGlkZGVuX1gyRCwgTUlYSU5HLlQpLCBYMkQpCgogICAgICAgICMgbm93IHRlc3QgdGhhdCB3ZSBjYW4gY2hhbmdlIGNvbHVtbiAwIG9mIGhpZGRlbl9YMkQgYW5kIGNvbXB1dGVkIFgyRFs6LCAwXSBjaGFuZ2VzIGJ1dCBYMkRbOiwgMS8yXSBkbyBub3QKICAgICAgICBuZXdfWDJEID0gbnAuZG90KGhpZGRlbl9YMkQgKiBucC5hcnJheShbMS41LCAxLCAxXSksIE1JWElORy5UKQogICAgICAgIG5wX3Rlc3RpbmcuYXNzZXJ0X2FycmF5X2FsbW9zdF9lcXVhbChuZXdfWDJEWzosIDE6XSwgWDJEWzosIDE6XSkKICAgICAgICBtYXhfZGlmZiA9IChuZXdfWDJEWzosIDBdIC0gWDJEWzosIDBdKS5tYXgoKQogICAgICAgIHNlbGYuYXNzZXJ0R3JlYXRlcihtYXhfZGlmZiwgMSkKCiAgICAgICAgIiIiCiAgICAgICAgU2Vjb25kIHBhcnQgb2YgZGVidWdnaW5nLCBzaW1pbGFyIHRvIGFib3ZlIGJ1dCBpbnN0ZWFkIG9mIHN0YXJ0aW5nIGZyb20gYXJyYXlzLCBzdGFydCBmcm9tIGxpc3Qgb2YgbWV0cmljcwogICAgICAgICIiIgogICAgICAgIFgyRCwgXywgXyA9IHNlbGYuZXN0aW1hdG9yLnByZXByb2Nlc3MobWV0cmljcykKICAgICAgICBoaWRkZW5fWDJELCBfLCBfID0gc2VsZi5lc3RpbWF0b3IucHJlcHJvY2VzcyhoaWRkZW4pCgogICAgICAgIG5wX3Rlc3RpbmcuYXNzZXJ0X2FycmF5X2FsbW9zdF9lcXVhbChucC5kb3QoWDJELCBDT01QT05FTlRTLlQpLCBoaWRkZW5fWDJEKQogICAgICAgIG5wX3Rlc3RpbmcuYXNzZXJ0X2FycmF5X2FsbW9zdF9lcXVhbChucC5kb3QoaGlkZGVuX1gyRCwgTUlYSU5HLlQpLCBYMkQpCgogICAgICAgICMgbm93IHRlc3QgdGhhdCB3ZSBjYW4gY2hhbmdlIGNvbHVtbiAwIG9mIGhpZGRlbl9YMkQgYW5kIGNvbXB1dGVkIFgyRFs6LCAwXSBjaGFuZ2VzIGJ1dCBYMkRbOiwgMS8yXSBkbyBub3QKICAgICAgICBuZXdfWDJEID0gbnAuZG90KGhpZGRlbl9YMkQgKiBucC5hcnJheShbMS41LCAxLCAxXSksIE1JWElORy5UKQogICAgICAgIG5wX3Rlc3RpbmcuYXNzZXJ0X2FycmF5X2FsbW9zdF9lcXVhbChuZXdfWDJEWzosIDE6XSwgWDJEWzosIDE6XSkKICAgICAgICBtYXhfZGlmZiA9IChuZXdfWDJEWzosIDBdIC0gWDJEWzosIDBdKS5tYXgoKQogICAgICAgIHNlbGYuYXNzZXJ0R3JlYXRlcihtYXhfZGlmZiwgMSkKCg==</text>
+        <text encoding="base64">ICAgICAgICBjdXJ2ZSA9IHBsb3QoWCwgMCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2696,19 +2696,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGFzc2VydCBtaXhpbmcuc2hhcGVbMF0gPT0gbWl4aW5nLnNoYXBlWzFdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3VydmUgPSBodi5DdXJ2ZSgoWFs6LCAwXSkpICogaHYuQ3VydmUoKFhbOiwgMV0pKSAqIGh2LkN1cnZlKChYWzosIDJdKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3B0c19kaWN0ID0geydDdXJ2ZSc6IHsncGxvdCc6IHsnd2lkdGgnOiAxMjAwfX19Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGFzc2VydCBpc2luc3RhbmNlKG1peGluZywgbnAubmRhcnJheSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaHYub3V0cHV0KGN1cnZlWzoxMDBdLm9wdHMob3B0c19kaWN0KSwgZmlsZW5hbWU9Jy90bXAvdGVzdF97fScuZm9ybWF0KGkpKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">TUlYSU5HID0gbnAuYXJyYXkoW1sxLCAwLCAwXSwKICAgICAgICAgICAgICAgICAgIFswLCAtMSwgNV0sCiAgICAgICAgICAgICAgICAgICBbMCwgMSwgMF1dKQpDT01QT05FTlRTID0gbnAubGluYWxnLmludihNSVhJTkcpCiMgbWl4aW5nLlQgaXMKIyAgIFtbMSwgMCwgMF0sCiMgICAgWzAsIC0xLCAxXSwKIyAgICBbMCwgNSwgMF1dKQo=</text>
+        <text encoding="base64">ICAgIG5wLnJhbmRvbS5zZWVkKDEpCg==</text>
       </register>
       <register name=":" type="4">
         <text>128</text>
