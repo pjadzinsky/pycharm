@@ -348,12 +348,12 @@
         <mark key="." line="83" column="11" />
         <mark key="^" line="83" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1535833584775">
-        <mark key="'" line="71" column="65" />
-        <mark key="[" line="114" column="0" />
-        <mark key="]" line="114" column="30" />
-        <mark key="^" line="114" column="36" />
-        <mark key="." line="114" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1535834746971">
+        <mark key="'" line="114" column="22" />
+        <mark key="[" line="115" column="16" />
+        <mark key="]" line="115" column="16" />
+        <mark key="^" line="115" column="16" />
+        <mark key="." line="115" column="16" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/urls_nnets.yaml" timestamp="1530049178238">
         <mark key="'" line="153" column="4" />
@@ -980,7 +980,7 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1535833945926">
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1535834212063">
         <mark key="'" line="400" column="0" />
         <mark key="[" line="1249" column="27" />
         <mark key="]" line="1249" column="27" />
@@ -1160,7 +1160,7 @@
         <mark key="." line="135" column="15" />
         <mark key="^" line="135" column="15" />
       </file>
-      <file name="/Python Console" timestamp="1535833117470">
+      <file name="/Python Console" timestamp="1535834486470">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/all_to_MemFree_nnet.yaml" timestamp="1531180018704">
@@ -1869,9 +1869,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="626" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="1214" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="64" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="68" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="372" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -1969,6 +1966,9 @@
       <jump line="97" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/poloniex_client.py" />
       <jump line="400" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="229" column="33" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="113" column="16" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="114" column="22" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -2517,7 +2517,7 @@
         <text>ticker</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>tracker</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aWNrZXIgPSBtYXJrZXRfMQo=</text>
@@ -2635,9 +2635,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>tracker</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>tracker</last-pattern>
       <last-replace>ticker</last-replace>
       <last-substitute>market</last-substitute>
       <last-dir>1</last-dir>
@@ -2645,7 +2645,6 @@
     </search>
     <history>
       <history-search>
-        <entry>isinstance</entry>
         <entry>market_p</entry>
         <entry>market</entry>
         <entry>market_</entry>
@@ -2665,6 +2664,7 @@
         <entry>dev</entry>
         <entry>analyze_cycles</entry>
         <entry>pudb</entry>
+        <entry>tracker</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
