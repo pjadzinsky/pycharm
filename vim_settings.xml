@@ -206,8 +206,8 @@
         <mark key="^" line="41" column="34" />
         <mark key="." line="76" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" timestamp="1535815632765">
-        <mark key="'" line="101" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" timestamp="1535815653678">
+        <mark key="'" line="258" column="8" />
         <mark key="[" line="101" column="0" />
         <mark key="]" line="101" column="0" />
         <mark key="." line="101" column="0" />
@@ -742,6 +742,13 @@
         <mark key="]" line="90" column="5" />
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1535815924817">
+        <mark key="'" line="122" column="31" />
+        <mark key="[" line="145" column="0" />
+        <mark key="]" line="145" column="0" />
+        <mark key="." line="145" column="0" />
+        <mark key="^" line="69" column="23" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/s3_utils.py" timestamp="1528698253158">
         <mark key="'" line="0" column="0" />
@@ -1841,14 +1848,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="363" column="62" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="9" column="7" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="201" column="71" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="208" column="71" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="227" column="71" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="234" column="71" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="255" column="38" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
-      <jump line="22" column="60" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
       <jump line="202" column="38" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
       <jump line="209" column="29" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
       <jump line="23" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_metric_processor.py" />
@@ -1941,10 +1940,18 @@
       <jump line="97" column="20" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" />
       <jump line="276" column="8" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" />
       <jump line="101" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" />
+      <jump line="258" column="8" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/bittrex_client.py" />
+      <jump line="134" column="74" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="69" column="23" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="78" column="19" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="87" column="19" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="93" column="19" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="118" column="29" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="122" column="31" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgIGlmIHJlc3VsdFsnc3VjY2VzcyddOgogICAgICAgICAgICB1dWlkID0gcmVzdWx0WydyZXN1bHQnXVsndXVpZCddCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdXVpZCA9IE5vbmUKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKHJlc3VsdCkKICAgICAgICByZXR1cm4gdXVpZAoKICAgIGRlZiBzZWxsX2xpbWl0KHNlbGYsIHRpY2tlciwgcXVhbnRpdHksIHJhdGUpOgogICAgICAgIHJlc3VsdCA9IHNlbGYucHJpdmF0ZV9jbGllbnQuc2VsbF9saW1pdCh0aWNrZXIsIHF1YW50aXR5LCByYXRlKQogICAgICAgIGlmIHJlc3VsdFsnc3VjY2VzcyddOgogICAgICAgICAgICB1dWlkID0gcmVzdWx0WydyZXN1bHQnXVsndXVpZCddCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdXVpZCA9IE5vbmUKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKHJlc3VsdCkKICAgICAgICByZXR1cm4gdXVpZAo+Pj4+Pj4+IFN0YXNoZWQgY2hhbmdlcwo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnV1aWRzID0gW05vbmVdICogc2VsZi5OCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2489,19 +2496,19 @@
         <text>e</text>
       </register>
       <register name="/" type="4">
-        <text>_get_uuid</text>
+        <text>Transaction</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiB0ZXN0Xzcoc2VsZik6CiAgICAgICAgYW5zd2VyID0gdXRpbWUuSW50ZXJ2YWwoMTAsIDIwKS5fX2x0X18odXRpbWUuSW50ZXJ2YWwoNSwgOCkpCiAgICAgICAgc2VsZi5hc3NlcnRGYWxzZShhbnN3ZXIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgIGlmIHJlc3VsdFsnc3VjY2VzcyddOgogICAgICAgICAgICB1dWlkID0gcmVzdWx0WydyZXN1bHQnXVsndXVpZCddCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdXVpZCA9IE5vbmUKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKHJlc3VsdCkKICAgICAgICByZXR1cm4gdXVpZAoKICAgIGRlZiBzZWxsX2xpbWl0KHNlbGYsIHRpY2tlciwgcXVhbnRpdHksIHJhdGUpOgogICAgICAgIHJlc3VsdCA9IHNlbGYucHJpdmF0ZV9jbGllbnQuc2VsbF9saW1pdCh0aWNrZXIsIHF1YW50aXR5LCByYXRlKQogICAgICAgIGlmIHJlc3VsdFsnc3VjY2VzcyddOgogICAgICAgICAgICB1dWlkID0gcmVzdWx0WydyZXN1bHQnXVsndXVpZCddCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdXVpZCA9IE5vbmUKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKHJlc3VsdCkKICAgICAgICByZXR1cm4gdXVpZAo+Pj4+Pj4+IFN0YXNoZWQgY2hhbmdlcwo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnV1aWRzID0gW05vbmVdICogc2VsZi5OCg==</text>
       </register>
       <register name="q" type="4">
         <text>2</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgIGlmIHJlc3VsdFsnc3VjY2VzcyddOgogICAgICAgICAgICB1dWlkID0gcmVzdWx0WydyZXN1bHQnXVsndXVpZCddCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdXVpZCA9IE5vbmUKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKHJlc3VsdCkKICAgICAgICByZXR1cm4gdXVpZAoKICAgIGRlZiBzZWxsX2xpbWl0KHNlbGYsIHRpY2tlciwgcXVhbnRpdHksIHJhdGUpOgogICAgICAgIHJlc3VsdCA9IHNlbGYucHJpdmF0ZV9jbGllbnQuc2VsbF9saW1pdCh0aWNrZXIsIHF1YW50aXR5LCByYXRlKQogICAgICAgIGlmIHJlc3VsdFsnc3VjY2VzcyddOgogICAgICAgICAgICB1dWlkID0gcmVzdWx0WydyZXN1bHQnXVsndXVpZCddCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdXVpZCA9IE5vbmUKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKHJlc3VsdCkKICAgICAgICByZXR1cm4gdXVpZAo+Pj4+Pj4+IFN0YXNoZWQgY2hhbmdlcwo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2517,10 +2524,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB1dWlkID0gTm9uZQo=</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+        <text encoding="base64">ICAgICAgICB1dWlkID0gTm9uZQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2588,28 +2595,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBSZXR1cm4gYW4gaXRlcmF0b3Igb3ZlciB0aGUgbGlzdCBvZiBtZXRyaWNzIHRvIGNvbnNpZGVyIGZvciBSQ0EuCiAgICAgICAgSWYgdXNpbmcgaWNhIHdlIG1pZ2h0IGNoYW5nZSBtb3JlIHRoYW4gb25lIG1ldHJpYyBhdCBvbmNlLgoKICAgICAgICA6cGFyYW0gbW9kZWw6CiAgICAgICAgOnBhcmFtIGlucHV0X21ldHJpY3M6CiAgICAgICAgOnBhcmFtIHVzZV9pY2E6CiAgICAgICAgOnJldHVybjoKICAgICAgICAiIiIKICAgICAgICBkbWtzID0gbW9kZWwuZ2V0X2RlcGlwZWxpbmVkX2lucHV0X21ldHJpY3MoKQogICAgICAgIG51bV9kbWtzID0gbGVuKGRta3MpCiAgICAgICAgaWNhID0gRXN0aW1hdG9yKG1vZGVsLnBpcGVsaW5lX2RlZikKICAgICAgICBzb3VyY2VzID0gaWNhLmZpdF90cmFuc2Zvcm0obWV0cmljcykKICAgICAgICBmb3IgaSBpbiByYW5nZShudW1fZG1rcyk6CgoKCiAgICAgICAgeWllbGQgbmV4dF9jYW5kaWRhdGUK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBSZXR1cm4gYW4gaXRlcmF0b3Igb3ZlciB0aGUgbGlzdCBvZiBtZXRyaWNzIHRvIGNvbnNpZGVyIGZvciBSQ0EuCiAgICAgICAgSWYgdXNpbmcgaWNhIHdlIG1pZ2h0IGNoYW5nZSBtb3JlIHRoYW4gb25lIG1ldHJpYyBhdCBvbmNlLgoKICAgICAgICA6cGFyYW0gbW9kZWw6CiAgICAgICAgOnBhcmFtIGlucHV0X21ldHJpY3M6CiAgICAgICAgOnBhcmFtIHVzZV9pY2E6CiAgICAgICAgOnJldHVybjoKICAgICAgICAiIiIKICAgICAgICBkbWtzID0gbW9kZWwuZ2V0X2RlcGlwZWxpbmVkX2lucHV0X21ldHJpY3MoKQogICAgICAgIG51bV9kbWtzID0gbGVuKGRta3MpCiAgICAgICAgaWNhID0gRXN0aW1hdG9yKG1vZGVsLnBpcGVsaW5lX2RlZikKICAgICAgICBzb3VyY2VzID0gaWNhLmZpdF90cmFuc2Zvcm0obWV0cmljcykKICAgICAgICBmb3IgaSBpbiByYW5nZShudW1fZG1rcyk6CgoKCiAgICAgICAgeWllbGQgbmV4dF9jYW5kaWRhdGUK</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
       </register>
     </registers>
     <search>
-      <last-search>_get_uuid</last-search>
+      <last-search>Transaction</last-search>
       <last-offset />
-      <last-pattern>_get_uuid</last-pattern>
+      <last-pattern>Transaction</last-pattern>
       <last-replace>\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -2617,7 +2624,6 @@
     </search>
     <history>
       <history-search>
-        <entry>end_indexes</entry>
         <entry>1512938758</entry>
         <entry>Anomaly((1512940758, 1512940958), 1.0, 1.0, 10.0)</entry>
         <entry>Anomaly((1512940758, 1512940958), 1.0, 1, 10.0)</entry>
@@ -2637,6 +2643,7 @@
         <entry>def sell</entry>
         <entry encoding="base64">PDw8PDw=</entry>
         <entry>_get_uuid</entry>
+        <entry>Transaction</entry>
       </history-search>
       <history-cmd>
         <entry>169</entry>
