@@ -348,12 +348,12 @@
         <mark key="." line="83" column="11" />
         <mark key="^" line="83" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1535214788620">
-        <mark key="'" line="20" column="0" />
-        <mark key="[" line="20" column="40" />
-        <mark key="]" line="20" column="40" />
-        <mark key="." line="20" column="40" />
-        <mark key="^" line="71" column="84" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1535830430392">
+        <mark key="'" line="112" column="34" />
+        <mark key="[" line="110" column="29" />
+        <mark key="]" line="110" column="29" />
+        <mark key="." line="110" column="29" />
+        <mark key="^" line="110" column="29" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/urls_nnets.yaml" timestamp="1530049178238">
         <mark key="'" line="153" column="4" />
@@ -1866,9 +1866,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="76" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="107" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="115" column="31" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="235" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/utils.py" />
       <jump line="243" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/utils.py" />
@@ -1966,6 +1963,9 @@
       <jump line="412" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="72" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/poloniex_client.py" />
       <jump line="128" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="52" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="61" column="73" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="108" column="34" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -2514,7 +2514,7 @@
         <text>status</text>
       </register>
       <register name="/" type="4">
-        <text>def .*order</text>
+        <text>gain</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBjYW5jZWxfb3JkZXJzKHNlbGYsIHV1aWRzKToKICAgICAgICBwYXNzCg==</text>
@@ -2632,9 +2632,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def .*order</last-search>
+      <last-search>gain</last-search>
       <last-offset />
-      <last-pattern>def .*order</last-pattern>
+      <last-pattern>gain</last-pattern>
       <last-replace>ticker</last-replace>
       <last-substitute>market</last-substitute>
       <last-dir>1</last-dir>
@@ -2642,7 +2642,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Transaction</entry>
         <entry>class Node</entry>
         <entry>def _gain</entry>
         <entry>class Staple</entry>
@@ -2662,6 +2661,7 @@
         <entry>class Exch</entry>
         <entry>def can</entry>
         <entry>def .*order</entry>
+        <entry>gain</entry>
       </history-search>
       <history-cmd>
         <entry>256</entry>
