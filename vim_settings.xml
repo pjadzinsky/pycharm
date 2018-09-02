@@ -495,12 +495,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1535929596002">
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1535930727563">
         <mark key="'" line="329" column="11" />
-        <mark key="[" line="328" column="50" />
-        <mark key="]" line="329" column="11" />
-        <mark key="." line="329" column="11" />
-        <mark key="^" line="329" column="11" />
+        <mark key="[" line="332" column="34" />
+        <mark key="]" line="334" column="43" />
+        <mark key="." line="334" column="43" />
+        <mark key="^" line="334" column="43" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -1996,8 +1996,8 @@
       <jump line="329" column="11" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIwo=</text>
+      <register name="&quot;" type="4">
+        <text>anomalous_map</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2539,7 +2539,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>clipped</text>
+        <text>anomalous_map</text>
       </register>
       <register name="/" type="4">
         <text>sour</text>
