@@ -353,8 +353,8 @@
         <mark key="." line="83" column="11" />
         <mark key="^" line="83" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1535952664596">
-        <mark key="'" line="61" column="7" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1535988860306">
+        <mark key="'" line="119" column="18" />
         <mark key="[" line="121" column="16" />
         <mark key="]" line="121" column="18" />
         <mark key="." line="121" column="18" />
@@ -760,8 +760,8 @@
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1535952747535">
-        <mark key="'" line="45" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1535988606798">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="160" column="71" />
         <mark key="]" line="160" column="72" />
         <mark key="." line="160" column="72" />
@@ -955,6 +955,12 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="41" column="0" />
         <mark key="^" line="41" column="9" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/log.py" timestamp="1535989618017">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="^" line="13" column="0" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_base_stage.py" timestamp="1535488561892">
         <mark key="'" line="164" column="12" />
@@ -1898,9 +1904,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="19" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
-      <jump line="106" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
-      <jump line="120" column="8" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="136" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="297" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="9" column="56" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -1998,10 +2001,13 @@
       <jump line="341" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="306" column="8" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="259" column="7" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="119" column="18" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgQFBKIEkgdGhpbmsgdGhpcyBzaG91bGQgYmUgdGhlIG9ubHkgcHVibGljIG1ldGhvZCBoZXJlLiBFdmVyeXRoaW5nIGVsc2Ugc2hvdWxkIGVpdGhlciBtb3ZlIHRvIHBhcmVudCBvciBiZQogICAgIyBzcGVjaWZpYyBmb3IgdGhpcyBjbGFzcy4gRm9yIGV4YW1wbGUgcmNhX2F0X3RpbWVfc2luZ2xlX21vZGVsIGFuZCByY2FfYXRfdGltZV9jb21iaW5lZF9tb2RlbCBzaG91bGQgbW92ZSB0byAKICAgICMgV2hhdElmCg==</text>
+        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhmaWxlbmFtZT1sb2dfZmlsZSxsZXZlbD1sb2dnaW5nLkRFQlVHKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2543,7 +2549,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>predictions[0].values.max()</text>
+        <text>example.</text>
       </register>
       <register name="/" type="4">
         <text>rca_at_time</text>
@@ -2552,13 +2558,13 @@
         <text encoding="base64">ICAgIGRlZiBfcHJvY2Vzc19tZXRyaWNzX3RvX2ZlYXR1cmVzKHNlbGYsIGlucHV0X21ldHJpY3MsIG91dHB1dF9tZXRyaWNzLCBpc190cmFpbmluZyk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgQFBKIEkgdGhpbmsgdGhpcyBzaG91bGQgYmUgdGhlIG9ubHkgcHVibGljIG1ldGhvZCBoZXJlLiBFdmVyeXRoaW5nIGVsc2Ugc2hvdWxkIGVpdGhlciBtb3ZlIHRvIHBhcmVudCBvciBiZQogICAgIyBzcGVjaWZpYyBmb3IgdGhpcyBjbGFzcy4gRm9yIGV4YW1wbGUgcmNhX2F0X3RpbWVfc2luZ2xlX21vZGVsIGFuZCByY2FfYXRfdGltZV9jb21iaW5lZF9tb2RlbCBzaG91bGQgbW92ZSB0byAKICAgICMgV2hhdElmCg==</text>
+        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhmaWxlbmFtZT1sb2dfZmlsZSxsZXZlbD1sb2dnaW5nLkRFQlVHKQo=</text>
       </register>
       <register name="q" type="4">
         <text>2</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1udW1lcmljX2xldmVsLCBmaWxlbmFtZT1sb2dfZmlsZSkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2577,7 +2583,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyB0aGUgaW5wdXQgbGlzdAo=</text>
+        <text encoding="base64">ICAgICMgQFBKIEkgdGhpbmsgdGhpcyBzaG91bGQgYmUgdGhlIG9ubHkgcHVibGljIG1ldGhvZCBoZXJlLiBFdmVyeXRoaW5nIGVsc2Ugc2hvdWxkIGVpdGhlciBtb3ZlIHRvIHBhcmVudCBvciBiZQogICAgIyBzcGVjaWZpYyBmb3IgdGhpcyBjbGFzcy4gRm9yIGV4YW1wbGUgcmNhX2F0X3RpbWVfc2luZ2xlX21vZGVsIGFuZCByY2FfYXRfdGltZV9jb21iaW5lZF9tb2RlbCBzaG91bGQgbW92ZSB0byAKICAgICMgV2hhdElmCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2648,16 +2654,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgKHNlbGYsIG1ldHJpY3MsIGZlYXR1cmVfZGF0YSk6Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyB0aGUgaW5wdXQgbGlzdAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHVuaXR0ZXN0Lm1haW4oKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IyEvVXNlcnMvbGV3YS9hbmFjb25kYTIvYmluL3B5dGhvbgo=</text>
+        <text encoding="base64">ICAgICMgKHNlbGYsIG1ldHJpY3MsIGZlYXR1cmVfZGF0YSk6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
