@@ -99,6 +99,13 @@
         <mark key="." line="102" column="0" />
         <mark key="^" line="123" column="30" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" timestamp="1536256851312">
+        <mark key="'" line="99" column="68" />
+        <mark key="[" line="100" column="69" />
+        <mark key="]" line="101" column="84" />
+        <mark key="^" line="101" column="84" />
+        <mark key="." line="101" column="84" />
+      </file>
       <file name="$USER_HOME$/Testeo/pick_currencies.py" timestamp="1512614966532">
         <mark key="'" line="8" column="11" />
         <mark key="[" line="20" column="9" />
@@ -182,9 +189,6 @@
         <mark key="]" line="64" column="7" />
         <mark key="." line="64" column="7" />
         <mark key="^" line="64" column="7" />
-      </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/client_interface.py" timestamp="1536115363865">
-        <mark key="'" line="49" column="8" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" timestamp="1535746037185">
         <mark key="'" line="53" column="69" />
@@ -484,12 +488,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1536256392193">
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1536256987916">
         <mark key="'" line="232" column="85" />
-        <mark key="[" line="200" column="27" />
-        <mark key="]" line="201" column="36" />
-        <mark key="^" line="201" column="36" />
-        <mark key="." line="201" column="36" />
+        <mark key="[" line="247" column="43" />
+        <mark key="]" line="248" column="45" />
+        <mark key="^" line="248" column="45" />
+        <mark key="." line="248" column="45" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -1901,10 +1905,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="314" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
-      <jump line="201" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="240" column="40" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="52" column="20" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="238" column="47" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="154" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="148" column="10" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -2001,10 +2001,14 @@
       <jump line="318" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="230" column="40" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="231" column="85" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
+      <jump line="29" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
+      <jump line="48" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
+      <jump line="99" column="68" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>mod_kpi_values</text>
+        <text>o</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2546,10 +2550,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>mod_kpi_values</text>
+        <text>o</text>
       </register>
       <register name="/" type="4">
-        <text>input_features_data</text>
+        <text>ong</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBkZXBpcGVsaW5lZF9tZXRyaWNfa2V5LkRlcGlwZWxpbmVkTWV0cmljS2V5KCdvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdtZWFuKE9uZU1pbnV0ZVJhdGUpJywgeydjbHVzdGVyJzogKCdQcm9kX0NsdXN0ZXInLCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnbmFtZSc6ICgnUmVhZExhdGVuY3knLCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnc2NvcGUnOiAoJ3VjdF9zdGF0c190cmlnZ2VyX3N0YXRzJywpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwgWydob3N0J10pKQo=</text>
@@ -2663,13 +2667,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>139</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>input_features_data</last-search>
+      <last-search>ong</last-search>
       <last-offset />
-      <last-pattern>input_features_data</last-pattern>
+      <last-pattern>ong</last-pattern>
       <last-replace>'] =</last-replace>
       <last-substitute encoding="base64">ID0=</last-substitute>
       <last-dir>1</last-dir>
@@ -2677,8 +2681,6 @@
     </search>
     <history>
       <history-search>
-        <entry>anomalies_to</entry>
-        <entry>ks</entry>
         <entry>utils</entry>
         <entry>def pop</entry>
         <entry>source</entry>
@@ -2697,6 +2699,8 @@
         <entry>sorted_we</entry>
         <entry>thre</entry>
         <entry>input_features_data</entry>
+        <entry>drop_points</entry>
+        <entry>ong</entry>
       </history-search>
       <history-cmd>
         <entry>203</entry>
@@ -2716,9 +2720,9 @@
         <entry>173</entry>
         <entry>167</entry>
         <entry>305</entry>
-        <entry>q</entry>
         <entry>w</entry>
         <entry>139</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
