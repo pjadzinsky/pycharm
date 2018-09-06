@@ -346,8 +346,8 @@
         <mark key="." line="101" column="5" />
         <mark key="^" line="128" column="4" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1536167733135">
-        <mark key="'" line="107" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1536256145107">
+        <mark key="'" line="318" column="0" />
         <mark key="[" line="318" column="0" />
         <mark key="]" line="318" column="0" />
         <mark key="." line="318" column="0" />
@@ -484,12 +484,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1536255250942">
-        <mark key="'" line="215" column="12" />
-        <mark key="[" line="253" column="41" />
-        <mark key="]" line="254" column="26" />
-        <mark key="^" line="254" column="26" />
-        <mark key="." line="254" column="26" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1536256392193">
+        <mark key="'" line="232" column="85" />
+        <mark key="[" line="200" column="27" />
+        <mark key="]" line="201" column="36" />
+        <mark key="^" line="201" column="36" />
+        <mark key="." line="201" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -1901,8 +1901,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="160" column="11" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="271" column="8" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="314" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="201" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="240" column="40" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -1951,7 +1949,6 @@
       <jump line="229" column="7" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="251" column="57" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="243" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/utils.py" />
-      <jump line="230" column="80" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="234" column="31" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="232" column="89" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="227" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -2001,10 +1998,13 @@
       <jump line="216" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="75" column="67" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="79" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
+      <jump line="318" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="230" column="40" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="231" column="85" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>mod_kpi_values</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2546,10 +2546,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>assertEqciwual</text>
+        <text>mod_kpi_values</text>
       </register>
       <register name="/" type="4">
-        <text>thre</text>
+        <text>input_features_data</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBkZXBpcGVsaW5lZF9tZXRyaWNfa2V5LkRlcGlwZWxpbmVkTWV0cmljS2V5KCdvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdtZWFuKE9uZU1pbnV0ZVJhdGUpJywgeydjbHVzdGVyJzogKCdQcm9kX0NsdXN0ZXInLCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnbmFtZSc6ICgnUmVhZExhdGVuY3knLCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnc2NvcGUnOiAoJ3VjdF9zdGF0c190cmlnZ2VyX3N0YXRzJywpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwgWydob3N0J10pKQo=</text>
@@ -2667,9 +2667,9 @@
       </register>
     </registers>
     <search>
-      <last-search>thre</last-search>
+      <last-search>input_features_data</last-search>
       <last-offset />
-      <last-pattern>thre</last-pattern>
+      <last-pattern>input_features_data</last-pattern>
       <last-replace>'] =</last-replace>
       <last-substitute encoding="base64">ID0=</last-substitute>
       <last-dir>1</last-dir>
@@ -2677,7 +2677,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pudb</entry>
         <entry>anomalies_to</entry>
         <entry>ks</entry>
         <entry>utils</entry>
@@ -2697,6 +2696,7 @@
         <entry>sorted_dict</entry>
         <entry>sorted_we</entry>
         <entry>thre</entry>
+        <entry>input_features_data</entry>
       </history-search>
       <history-cmd>
         <entry>203</entry>
