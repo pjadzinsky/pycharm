@@ -3,6 +3,13 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" timestamp="1536352838477">
+        <mark key="'" line="36" column="35" />
+        <mark key="[" line="13" column="88" />
+        <mark key="]" line="13" column="64" />
+        <mark key="^" line="13" column="64" />
+        <mark key="." line="13" column="95" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_encode_with_seasonality.py" timestamp="1515524684860">
         <mark key="'" line="92" column="59" />
         <mark key="[" line="152" column="45" />
@@ -1269,11 +1276,6 @@
         <mark key="." line="26" column="0" />
         <mark key="^" line="26" column="43" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/base_feature_creator.py" timestamp="1536285982854">
-        <mark key="]" line="8" column="19" />
-        <mark key="." line="8" column="19" />
-        <mark key="^" line="8" column="19" />
-      </file>
       <file name="$USER_HOME$/Testeo/market/log_market.py" timestamp="1512623375672">
         <mark key="'" line="30" column="22" />
         <mark key="[" line="13" column="8" />
@@ -1336,13 +1338,6 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
         <mark key="^" line="415" column="57" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" timestamp="1536341301970">
-        <mark key="'" line="430" column="29" />
-        <mark key="[" line="417" column="53" />
-        <mark key="]" line="418" column="7" />
-        <mark key="." line="418" column="7" />
-        <mark key="^" line="418" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/test_discrete_information.py" timestamp="1531337087138">
         <mark key="'" line="66" column="4" />
@@ -1921,9 +1916,14 @@
         <mark key="." line="260" column="18" />
         <mark key="^" line="88" column="3" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/vis/ss_df2_amount_base.py" timestamp="1536352363830">
+        <mark key="[" line="55" column="8" />
+        <mark key="]" line="55" column="8" />
+        <mark key="^" line="55" column="8" />
+        <mark key="." line="55" column="8" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="239" column="93" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="240" column="30" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="257" column="31" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="9" column="54" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -2023,10 +2023,11 @@
       <jump line="357" column="59" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" />
       <jump line="362" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" />
       <jump line="367" column="29" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" />
+      <jump line="24" column="35" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBbbS52YWx1ZXMucmVwbGFjZSgtMSwgMCwgaW5wbGFjZT1UcnVlKSBmb3IgbSBpbiBtZXRyaWNzXQo=</text>
+        <text encoding="base64">ICAgIG0zX2hhdCA9ICh2MyAtIDMqdjEqdjIgKyAyKnYxKiozKSAvICh2MiAtIHYxKioyKSoqKDMvMikKCiAgICBtNF9oYXQgPSAodjQgLSA0ICogdjEgKiB2MyArIDYgKiB2MSoqMiAqIHYyIC0gMyAqIHYxKio0KSAvICh2MiAtIHYxKioyKSoqNAoKICAgIHJldHVybiBtM19oYXQgLSBtMywgbTRfaGF0IC0gbTQKCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2568,22 +2569,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>filtered_vals</text>
+        <text>v3</text>
       </register>
       <register name="/" type="4">
-        <text>look_ahead</text>
+        <text>3</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X21hbnlfc2VudGluZWxfdmFsdWVzX2luX3RoZV9lbmQoc2VsZik6CiAgICAgICAgIiIiIFRlc3QgdGhhdCB3aGVuIHRoZSB2YWx1ZXMgb2YgLTEgYXJlIG1vcmUgdGhhbiAnbG9va19haGVhZCcgdGhlbiB0aGUgLTEgdmFsdWVzIGFyZSByZXBsYWNlZCBieSAwCiAgICAgICAgIiIiCiAgICAgICAgdGltZXMgPSBucC5hcmFuZ2UoMTAwLCAyMDApCiAgICAgICAgdmFsdWVzID0gbnAuYXJhbmdlKDEwMCwgMjAwKQogICAgICAgIHZhbHVlc1stMTA6XSA9IC0xICAgICAgICAgICMgaW5zZXJ0aW5nIDEwIC0xIHZhbHVlcwogICAgICAgIGxvb2tfYWhlYWQgPSA1CgogICAgICAgIG0gPSBtZXRyaWMuTWV0cmljKHNlbGYubWV0cmljX2tleSwgemlwKHRpbWVzLCB2YWx1ZXMpLCAxMDAsIDIwMCwgMSkKICAgICAgICBleHBlY3RlZCA9IG0udmFsdWVzLmNvcHkoKQogICAgICAgIGV4cGVjdGVkLmlsb2NbLTEwOl0gPSAwICAgICMgVGhlIGV4cGVjdGVkIHNlcmllcyBzaG91bGQgaGF2ZSB0aGUgLTEgdmFsdWVzIHJlcGxhY2VkIGJ5IDAKICAgICAgICBtLl9sb29rX2FoZWFkX2ZpbHRlcihsb29rX2FoZWFkKQogICAgICAgIGNvbXB1dGVkID0gbS52YWx1ZXMKCiAgICAgICAgbnB0ZXN0LmFzc2VydF9hcnJheV9lcXVhbChjb21wdXRlZCwgZXhwZWN0ZWQpCg==</text>
+        <text encoding="base64">ICAgIHYyID0gMSAvIChsMyoqMiAqICgyICogbDMgKzEpKSArIFwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBbbS52YWx1ZXMucmVwbGFjZSgtMSwgMCwgaW5wbGFjZT1UcnVlKSBmb3IgbSBpbiBtZXRyaWNzXQo=</text>
+        <text encoding="base64">ICAgIG0zX2hhdCA9ICh2MyAtIDMqdjEqdjIgKyAyKnYxKiozKSAvICh2MiAtIHYxKioyKSoqKDMvMikKCiAgICBtNF9oYXQgPSAodjQgLSA0ICogdjEgKiB2MyArIDYgKiB2MSoqMiAqIHYyIC0gMyAqIHYxKio0KSAvICh2MiAtIHYxKioyKSoqNAoKICAgIHJldHVybiBtM19oYXQgLSBtMywgbTRfaGF0IC0gbTQKCg==</text>
       </register>
       <register name="q" type="4">
         <text>2</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmxvb2tfYWhlYWQ6Cg==</text>
+        <text encoding="base64">IFwK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2599,10 +2600,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ZGVmIHRlcm0yKGwzLCBsNCk6Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2670,28 +2671,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ZGVmIHRlcm0xKGwpOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
+        <text encoding="base64">IFwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNaW5pbXVtVHJhZGUgSW50LAogICAgICAgICAgICAgICAgICAgIE1ha2VyRmVlIFJFQUwsCiAgICAgICAgICAgICAgICAgICAgVGFrZXJGZWUgUkVBTCwKICAgICAgICAgICAgICAgICAgICBXaXRoZHJhd2FsRmVlIFJFQUwsCiAgICAgICAgICAgICAgICAgICAgTWFya2V0U2VwIENIQVIsCg==</text>
+        <text encoding="base64">IFwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">IFwK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>look_ahead</last-search>
+      <last-search>3</last-search>
       <last-offset />
-      <last-pattern>look_ahead</last-pattern>
+      <last-pattern>3</last-pattern>
       <last-replace>output</last-replace>
       <last-substitute>input</last-substitute>
       <last-dir>1</last-dir>
@@ -2699,7 +2700,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>def .*from</entry>
         <entry>def pred</entry>
         <entry>input_metrics</entry>
@@ -2719,6 +2719,7 @@
         <entry>pipeline</entry>
         <entry>1, 1</entry>
         <entry>look_ahead</entry>
+        <entry>3</entry>
       </history-search>
       <history-cmd>
         <entry>258,266s/ =/'] =/gc</entry>
