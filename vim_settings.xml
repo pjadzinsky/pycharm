@@ -138,12 +138,12 @@
         <mark key="[" line="9" column="0" />
         <mark key="]" line="10" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1536603801227">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1536610301494">
         <mark key="'" line="385" column="0" />
-        <mark key="[" line="386" column="0" />
-        <mark key="]" line="386" column="36" />
-        <mark key="." line="386" column="36" />
-        <mark key="^" line="386" column="36" />
+        <mark key="[" line="489" column="34" />
+        <mark key="]" line="490" column="36" />
+        <mark key="." line="490" column="36" />
+        <mark key="^" line="490" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/data/metric_queries_1.json" timestamp="1513801709735">
         <mark key="'" line="8" column="11" />
@@ -308,9 +308,10 @@
         <mark key="^" line="62" column="149" />
         <mark key="." line="62" column="149" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/identity_feature_creator.py" timestamp="1536298947140">
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="82" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/identity_feature_creator.py" timestamp="1536610161083">
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="64" />
+        <mark key="." line="57" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/tests/test_metric_clusterer.py" timestamp="1512595377005">
         <mark key="'" line="5" column="39" />
@@ -1418,12 +1419,12 @@
         <mark key="^" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest_moments.py" timestamp="1536603741801">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest_moments.py" timestamp="1536610058509">
         <mark key="'" line="78" column="4" />
-        <mark key="[" line="60" column="0" />
-        <mark key="]" line="60" column="0" />
-        <mark key="." line="60" column="0" />
-        <mark key="^" line="60" column="36" />
+        <mark key="[" line="84" column="50" />
+        <mark key="]" line="84" column="53" />
+        <mark key="." line="84" column="53" />
+        <mark key="^" line="84" column="53" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_rnn.py" timestamp="1513277301522">
         <mark key="'" line="0" column="0" />
@@ -2063,7 +2064,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgZmVhdHVyZXMuc2hhcGVbMl0gPT0gbGVuKGRlcGlwZWxpbmVkX21ldHJpY19rZXlzKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2605,7 +2606,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>y_train</text>
+        <text>values</text>
       </register>
       <register name="/" type="4">
         <text>predict_with_samples</text>
@@ -2614,13 +2615,13 @@
         <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICB0aGlzIG1ldGhvZCBzaG91bGQgdW5kbyBfcHJvY2Vzc19kYXRhIChkZW5vcm1hbGl6ZSB0aGUgc2FtcGxlcyBhbmQgY29udmVydCB0aGUgc2FtcGxlcyBiYWNrIHRvIG1ldHJpY3MpCiAgICAgICAgIiIiCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgZmVhdHVyZXMuc2hhcGVbMl0gPT0gbGVuKGRlcGlwZWxpbmVkX21ldHJpY19rZXlzKQo=</text>
       </register>
       <register name="q" type="4">
         <text>2</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAjIG9yaWdpbmFsbHkgd2UgaGF2ZSBvbmUgZGVwaXBlbGluZWRfb3V0cHV0X21ldHJpYywgYnV0IHRoZSBwdXJwb3NlIG9mIHRoZSBSYW5kb21Gb3Jlc3RNb21lbnRzIGlzIHRvCiAgICAgICAgIyBwcm9kdWNlIHNldmVyYWwgb3V0cHV0cy4gRm9yIHRoZSB0aW1lIGJlaW5nIEknbSBqdXN0IGFwcGVuZGluZyBhICJfbW9tZW50IyIgYXQgdGhlIGVuZAogICAgICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCiAgICAgICAgZG1rcyA9IFtdCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UoMSwgc2VsZi5udW1fbW9tZW50cyArIDEpOgogICAgICAgICAgICBkbWsgPSBzZWxmLmRlcGlwZWxpbmVkX291dHB1dF9tZXRyaWNzWzBdLmRlZXBjb3B5KCkKICAgICAgICAgICAgZG1rLmZpZWxkICs9ICJfbW9tZW50e30iLmZvcm1hdChpKQogICAgICAgICAgICBkbWtzLmFwcGVuZChkbWspCgogICAgICAgIHNlbGYuZGVwaXBlbGluZWRfb3V0cHV0X21ldHJpY3MgPSBkbWtzCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2636,10 +2637,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmRlcGlwZWxpbmVkX291dHB1dF9tZXRyaWNzWzBdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5kZXBpcGVsaW5lZF9vdXRwdXRfbWV0cmljc1swXS5rZXkuZGVlcGNvcHkoKSBmb3IgXQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2710,10 +2711,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">TlVNID0gNAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRoYW4gYW4gZWxlbWVudCBpbiBhIGxpc3QK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
@@ -2722,7 +2723,7 @@
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>387</text>
+        <text>496</text>
       </register>
     </registers>
     <search>
@@ -2758,8 +2759,6 @@
         <entry>predict_with_samples</entry>
       </history-search>
       <history-cmd>
-        <entry>s/inputs_//gc</entry>
-        <entry>68,72s/input/output/gc</entry>
         <entry>s/, /}, {/gc</entry>
         <entry>276,283s/=/=transaction./gc</entry>
         <entry>422</entry>
@@ -2778,6 +2777,8 @@
         <entry>115</entry>
         <entry>473</entry>
         <entry>387</entry>
+        <entry>60</entry>
+        <entry>496</entry>
       </history-cmd>
       <history-expr />
       <history-input />
