@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" timestamp="1536618811655">
-        <mark key="'" line="96" column="0" />
-        <mark key="[" line="94" column="0" />
-        <mark key="]" line="94" column="8" />
-        <mark key="." line="94" column="8" />
-        <mark key="^" line="92" column="16" />
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" timestamp="1536700518325">
+        <mark key="'" line="107" column="8" />
+        <mark key="[" line="10" column="34" />
+        <mark key="]" line="12" column="57" />
+        <mark key="." line="12" column="57" />
+        <mark key="^" line="12" column="57" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_encode_with_seasonality.py" timestamp="1515524684860">
         <mark key="'" line="92" column="59" />
@@ -1861,10 +1861,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="426" column="58" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="413" column="72" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="421" column="11" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="422" column="43" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="424" column="25" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="1109" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="57" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest_moments.py" />
@@ -1961,10 +1957,14 @@
       <jump line="471" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="161" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" />
+      <jump line="86" column="0" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" />
+      <jump line="10" column="32" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" />
+      <jump line="105" column="8" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>(1, 1)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2506,22 +2506,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>a</text>
+        <text>(1, 1)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8PA==</text>
+        <text>hv.out</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLm1vZGVsX2NvbmZpZyA9IG1vZGVsX2NvbmZpZwo=</text>
+        <text encoding="base64">ZGVmIGYobTEsIG0yLCBtMywgbTQsIHN0YXJ0LCBwbG90X2ZsYWcpOgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">VEhJUyBJUyBOT1QgV09SS0lORyBBUyBFWFBFQ1RFRC4KVE8gREVCVUcgSVQsIERPCg==</text>
       </register>
       <register name="q" type="4">
         <text>2</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2537,7 +2537,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
@@ -2608,28 +2608,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBiOGNkMTQ5Li4uIENoYW5naW5nIHN0YXJ0IHRpbWUgb2YgYSBmYWlsaW5nIHRlc3QK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydF9lcG9jaCA9IHNlbGYuc3RhcnRfZXBvY2ggLSB1dGltZS5PTkVEQVkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">Pj4+Pj4+PiBiOGNkMTQ5Li4uIENoYW5naW5nIHN0YXJ0IHRpbWUgb2YgYSBmYWlsaW5nIHRlc3QK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBzdGFydF9lcG9jaCA9IHNlbGYuc3RhcnRfZXBvY2ggLSB1dGltZS5PTkVEQVkK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">PT09PT09PQo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkudHJhaW5lcnMub3Bhc19tb2RlbHMudXRpbHMubWV0cmljc19pY2EgaW1wb3J0IEVzdGltYXRvcgo=</text>
+        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8PA==</last-search>
+      <last-search>hv.out</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8PA==</last-pattern>
+      <last-pattern>hv.out</last-pattern>
       <last-replace>True</last-replace>
       <last-substitute>true</last-substitute>
       <last-dir>1</last-dir>
@@ -2637,7 +2637,6 @@
     </search>
     <history>
       <history-search>
-        <entry>from_compon</entry>
         <entry>uuid</entry>
         <entry>^class</entry>
         <entry>self.</entry>
@@ -2657,9 +2656,9 @@
         <entry>ICA</entry>
         <entry>clip_metrics_in_interval</entry>
         <entry encoding="base64">PDw8PA==</entry>
+        <entry>hv.out</entry>
       </history-search>
       <history-cmd>
-        <entry>60</entry>
         <entry>496</entry>
         <entry>sort</entry>
         <entry>s/,/', '/gc</entry>
@@ -2679,6 +2678,7 @@
         <entry>165</entry>
         <entry>w</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
