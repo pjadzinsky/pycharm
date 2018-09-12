@@ -300,6 +300,11 @@
         <mark key="^" line="62" column="149" />
         <mark key="." line="62" column="149" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/identity_feature_creator.py" timestamp="1536777348219">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="45" column="82" />
+        <mark key="." line="57" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/tests/test_metric_clusterer.py" timestamp="1512595377005">
         <mark key="'" line="5" column="39" />
         <mark key="[" line="30" column="0" />
@@ -846,6 +851,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="34" column="4" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/moments_feature_creator2.py" timestamp="1536777698601">
+        <mark key="[" line="49" column="48" />
+        <mark key="]" line="49" column="29" />
+        <mark key="." line="49" column="29" />
+        <mark key="^" line="49" column="29" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/urls/urls_rf.yaml" timestamp="1530315689763">
         <mark key="'" line="123" column="18" />
         <mark key="[" line="135" column="35" />
@@ -1045,11 +1056,11 @@
         <mark key="." line="66" column="45" />
         <mark key="^" line="66" column="45" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/moments_feature_creator.py" timestamp="1536611525984">
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
-        <mark key="^" line="50" column="21" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/moments_feature_creator.py" timestamp="1536777410568">
+        <mark key="[" line="15" column="107" />
+        <mark key="]" line="16" column="3" />
+        <mark key="." line="16" column="3" />
+        <mark key="^" line="16" column="3" />
       </file>
       <file name="$USER_HOME$/Testeo/choose_currencies.py" timestamp="1517238843720">
         <mark key="'" line="109" column="31" />
@@ -1960,7 +1971,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="205" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="374" column="37" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="460" column="28" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2060,6 +2070,7 @@
       <jump line="92" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/moments.yaml" />
       <jump line="44" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/moments.yaml" />
       <jump line="50" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
+      <jump line="18" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/moments_feature_creator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2069,7 +2080,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgIFdlIGNhbid0IGltcGxlbWVudCAnZmVhdHVyZXNfZnJvbV9tZXRyaWNzJyBiZWNhdXNlIGl0IGlzIGltcG9zc2libGUgdG8gZXN0aW1hdGUgdGhlIG1vbWVudHMgd2l0aG91dCBhIG1vZGVsLgogICAgQmVmb3JlIHdlIHRyYWluIGEgbW9kZWwsIGEgc2FtcGxlIGlzIGp1c3QgY29tcG9zZWQgb2YgdGhlIGlucHV0L291dHB1dCBmZWF0dXJlcyBhbmQgd2UgZG9uJ3Qga25vdyBob3cgdG8gZXN0aW1hdGUKICAgIHdoYXQgdGhlIG1vbWVudHMgc2hvdWxkIGJlLgogICAgSG93ZXZlciwgb25jZSB3ZSBkbyBoYXZlIGEgbW9kZWwsIHdlIGNhbiBlc3RpbWF0ZSBYKioyX2hhdCAodGhlIGVzdGltYXRlIG9mIFgqKjIpIGFzCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2611,22 +2622,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>RandomForestMoments</text>
+        <text>IdentityFeatureCreator</text>
       </register>
       <register name="/" type="4">
-        <text>tiy</text>
+        <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMuZmVhdHVyZV9jcmVhdG9yLm1vbWVudHNfZmVhdHVyZV9jcmVhdG9yLk1vbWVudHNGZWF0dXJlQ3JlYXRvciIsCg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkudHJhaW5lcnMuZmVhdHVyZV9jcmVhdG9yLmlkZW50aXR5X2ZlYXR1cmVfY3JlYXRvciBpbXBvcnQgSWRlbnRpdHlGZWF0dXJlQ3JlYXRvcgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgIFdlIGNhbid0IGltcGxlbWVudCAnZmVhdHVyZXNfZnJvbV9tZXRyaWNzJyBiZWNhdXNlIGl0IGlzIGltcG9zc2libGUgdG8gZXN0aW1hdGUgdGhlIG1vbWVudHMgd2l0aG91dCBhIG1vZGVsLgogICAgQmVmb3JlIHdlIHRyYWluIGEgbW9kZWwsIGEgc2FtcGxlIGlzIGp1c3QgY29tcG9zZWQgb2YgdGhlIGlucHV0L291dHB1dCBmZWF0dXJlcyBhbmQgd2UgZG9uJ3Qga25vdyBob3cgdG8gZXN0aW1hdGUKICAgIHdoYXQgdGhlIG1vbWVudHMgc2hvdWxkIGJlLgogICAgSG93ZXZlciwgb25jZSB3ZSBkbyBoYXZlIGEgbW9kZWwsIHdlIGNhbiBlc3RpbWF0ZSBYKioyX2hhdCAodGhlIGVzdGltYXRlIG9mIFgqKjIpIGFzCg==</text>
       </register>
       <register name="q" type="4">
         <text>2</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNoYW5nZSBtb3N0IG9mIHdoYXQgY29tZXMgbmV4dCBhcyBwb3N0LXByb2Nlc3NvcnMgKHNvcnRpbmcsIHBsb3R0aW5nLCBwdXNoaW5nIHRvIHN0b3JhZ2UpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2642,10 +2653,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNoYW5nZSBtb3N0IG9mIHdoYXQgY29tZXMgbmV4dCBhcyBwb3N0LXByb2Nlc3NvcnMgKHNvcnRpbmcsIHBsb3R0aW5nLCBwdXNoaW5nIHRvIHN0b3JhZ2UpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBtZXRyaWNzX2Zyb21fZmVhdHVyZXMoc2VsZik6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2716,25 +2727,25 @@
         <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgIF9faW5pdF9fIGFuZCBmZWF0dXJlc19mcm9tX21ldHJpY3MgYXJlIGlkZW50aWNhbCB0byB0aGUgcGFyZW50IGNsYXNzLCB3ZSBvbmx5IGhhdmUgdG8gb3ZlcndyaXRlCiAgICBtZXRyaWNzX2Zyb21fZmVhdHVyZXMgYmVjYXVzZSB0aGlzIEZlYXR1cmVDcmVhdG9yIGdlbmVyYXRlcyBOIG1ldHJpY3MgZnJvbSBldmVyeSBvcmlnaW5hbCBvdXRwdXQgbWV0cmljCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGh0dHA6Ly9zY2lraXQtbGVhcm4ub3JnL3N0YWJsZS9tb2R1bGVzL2dlbmVyYXRlZC9za2xlYXJuLmVuc2VtYmxlLlJhbmRvbUZvcmVzdFJlZ3Jlc3Nvci5odG1sCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAjIGNoYW5nZSBtb3N0IG9mIHdoYXQgY29tZXMgbmV4dCBhcyBwb3N0LXByb2Nlc3NvcnMgKHNvcnRpbmcsIHBsb3R0aW5nLCBwdXNoaW5nIHRvIHN0b3JhZ2UpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEZvciBhIGZ1bGwgZGVzY3JpcHRpb24gb2YgdGhlIG1vZGVsIGFuZCBhdmFpbGFibGUgcGFyYW1ldGVycyBzZWUK</text>
+        <text encoding="base64">ICAgICAgICAjIGNoYW5nZSBtb3N0IG9mIHdoYXQgY29tZXMgbmV4dCBhcyBwb3N0LXByb2Nlc3NvcnMgKHNvcnRpbmcsIHBsb3R0aW5nLCBwdXNoaW5nIHRvIHN0b3JhZ2UpCg==</text>
       </register>
       <register name=":" type="4">
         <text>100</text>
       </register>
     </registers>
     <search>
-      <last-search>tiy</last-search>
+      <last-search encoding="base64">ZGVmIA==</last-search>
       <last-offset />
-      <last-pattern>tiy</last-pattern>
+      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
       <last-replace>x[\1]</last-replace>
       <last-substitute>x(\([^)]*\))</last-substitute>
       <last-dir>1</last-dir>
@@ -2742,7 +2753,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pudb</entry>
         <entry>requests</entry>
         <entry>96</entry>
         <entry>First</entry>
@@ -2762,6 +2772,7 @@
         <entry>x(\([^)]*\))</entry>
         <entry>feval</entry>
         <entry>tiy</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
         <entry>190</entry>
