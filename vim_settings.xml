@@ -503,12 +503,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1536771361457">
-        <mark key="'" line="257" column="0" />
-        <mark key="[" line="288" column="0" />
-        <mark key="]" line="288" column="0" />
-        <mark key="." line="288" column="0" />
-        <mark key="^" line="275" column="48" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1536862296263">
+        <mark key="'" line="78" column="66" />
+        <mark key="[" line="342" column="0" />
+        <mark key="]" line="342" column="0" />
+        <mark key="." line="342" column="0" />
+        <mark key="^" line="329" column="48" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -1993,7 +1993,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="394" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1345" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1347" column="16" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1288" column="33" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2093,6 +2092,7 @@
       <jump line="98" column="0" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.m" />
       <jump line="308" column="2" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.m" />
       <jump line="312" column="37" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.m" />
+      <jump line="78" column="66" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2647,7 +2647,7 @@
         <text>...</text>
       </register>
       <register name="/" type="4">
-        <text>save data for</text>
+        <text>class.*ICA</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmb3IgZXhjaGFuZ2UgaW4gc2VsZi5leGNoYW5nZXMoKToK</text>
@@ -2765,9 +2765,9 @@
       </register>
     </registers>
     <search>
-      <last-search>save data for</last-search>
+      <last-search>class.*ICA</last-search>
       <last-offset />
-      <last-pattern>save data for</last-pattern>
+      <last-pattern>class.*ICA</last-pattern>
       <last-replace>\1[\2]</last-replace>
       <last-substitute>\(f*x\)(\([^)]\))</last-substitute>
       <last-dir>1</last-dir>
@@ -2775,7 +2775,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>class Ticker</entry>
         <entry>def buy_limit</entry>
         <entry>mar</entry>
@@ -2795,6 +2794,7 @@
         <entry>\(f*x\)(\([^)]\))</entry>
         <entry>norm_moment</entry>
         <entry>save data for</entry>
+        <entry>class.*ICA</entry>
       </history-search>
       <history-cmd>
         <entry>%s/= =/==/gc</entry>
