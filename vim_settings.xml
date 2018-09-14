@@ -359,13 +359,13 @@
         <mark key="." line="499" column="37" />
         <mark key="^" line="499" column="37" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" timestamp="1536939283974">
-        <mark key="b" line="487" column="16" />
-        <mark key="'" line="48" column="4" />
-        <mark key="[" line="253" column="27" />
-        <mark key="]" line="253" column="49" />
-        <mark key="." line="253" column="49" />
-        <mark key="^" line="253" column="49" />
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" timestamp="1536940714152">
+        <mark key="b" line="499" column="16" />
+        <mark key="'" line="272" column="27" />
+        <mark key="[" line="259" column="0" />
+        <mark key="]" line="270" column="36" />
+        <mark key="." line="259" column="0" />
+        <mark key="^" line="249" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/prediction/prediction_utils.py" timestamp="1518453362231">
         <mark key="'" line="27" column="70" />
@@ -1990,7 +1990,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="507" column="16" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
       <jump line="515" column="20" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
       <jump line="520" column="20" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
       <jump line="523" column="16" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
@@ -2090,6 +2089,7 @@
       <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
       <jump line="268" column="12" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
       <jump line="48" column="4" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
+      <jump line="272" column="27" filename="$USER_HOME$/opas/core/python/opasai/stats/moments_to_pdf/reco_adaptive.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2098,8 +2098,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>1</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEFbMypqKzEsIDQqai0zXSA9IDEKICAgICAgICAgICAgICAgIEFbMypqKzEsIDQqai0yXSA9IHhbaisxXSAtIHhbal0KICAgICAgICAgICAgICAgIEFbMypqKzEsIDQqai0xXSA9ICh4W2orMV0gLSB4W2pdKSoqMgogICAgICAgICAgICAgICAgQVszKmorMSwgNCpqXSA9ICh4W2orMV0gLSB4W2pdKSoqMwogICAgICAgICAgICAgICAgQVszKmorMSwgNCpqKzFdID0gLTEKICAgICAgICAgICAgICAgIEFbMypqKzIsIDQqai0yXSA9IDEKICAgICAgICAgICAgICAgIEFbMypqKzIsIDQqai0xXSA9IDIqKHhbaisxXSAtIHhbal0pCiAgICAgICAgICAgICAgICBBWzMqaisyLCA0KmpdID0gMyooeFtqKzFdIC0geFtqXSkqKjIKICAgICAgICAgICAgICAgIEFbMypqKzIsIDQqaisyXSA9IC0xCiAgICAgICAgICAgICAgICBBWzMqaiszLCA0KmotMV0gPSAyCiAgICAgICAgICAgICAgICBBWzMqaiszLCA0KmpdID0gNiooeFtqKzFdIC0geFtqXSkKICAgICAgICAgICAgICAgIEFbMypqKzMsIDQqaiszXSA9IC0yCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2647,7 +2647,7 @@
         <text>\^</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGZvciBpIGluIHJhbmdlKDEsIG4rMSk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEFbMypqKzEsIDQqai0zXSA9IDEKICAgICAgICAgICAgICAgIEFbMypqKzEsIDQqai0yXSA9IHhbaisxXSAtIHhbal0KICAgICAgICAgICAgICAgIEFbMypqKzEsIDQqai0xXSA9ICh4W2orMV0gLSB4W2pdKSoqMgogICAgICAgICAgICAgICAgQVszKmorMSwgNCpqXSA9ICh4W2orMV0gLSB4W2pdKSoqMwogICAgICAgICAgICAgICAgQVszKmorMSwgNCpqKzFdID0gLTEKICAgICAgICAgICAgICAgIEFbMypqKzIsIDQqai0yXSA9IDEKICAgICAgICAgICAgICAgIEFbMypqKzIsIDQqai0xXSA9IDIqKHhbaisxXSAtIHhbal0pCiAgICAgICAgICAgICAgICBBWzMqaisyLCA0KmpdID0gMyooeFtqKzFdIC0geFtqXSkqKjIKICAgICAgICAgICAgICAgIEFbMypqKzIsIDQqaisyXSA9IC0xCiAgICAgICAgICAgICAgICBBWzMqaiszLCA0KmotMV0gPSAyCiAgICAgICAgICAgICAgICBBWzMqaiszLCA0KmpdID0gNiooeFtqKzFdIC0geFtqXSkKICAgICAgICAgICAgICAgIEFbMypqKzMsIDQqaiszXSA9IC0yCg==</text>
       </register>
       <register name="1" type="8">
         <text>+1
