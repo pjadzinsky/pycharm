@@ -710,12 +710,11 @@
         <mark key="." line="12" column="24" />
         <mark key="^" line="12" column="24" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_graph.py" timestamp="1537165582803">
-        <mark key="'" line="25" column="0" />
-        <mark key="[" line="59" column="38" />
-        <mark key="]" line="59" column="47" />
-        <mark key="." line="59" column="47" />
-        <mark key="^" line="59" column="47" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_graph.py" timestamp="1537194102758">
+        <mark key="'" line="152" column="47" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/utime.py" timestamp="1535759026934">
         <mark key="'" line="148" column="9" />
@@ -1306,8 +1305,11 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="25" column="73" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" timestamp="1537165168086">
-        <mark key="^" line="80" column="27" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" timestamp="1537194090631">
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="^" line="48" column="7" />
+        <mark key="." line="50" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/filter_currencies.py" timestamp="1528813538590">
         <mark key="'" line="29" column="0" />
@@ -1919,7 +1921,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="413" column="22" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="414" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="606" column="24" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="607" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2019,6 +2020,7 @@
       <jump line="19" column="19" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_graph.py" />
       <jump line="127" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_graph.py" />
       <jump line="24" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_graph.py" />
+      <jump line="185" column="47" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_graph.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2028,7 +2030,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRlc3QgdGhhdCB3ZSBjYW4gY29tcHV0ZSBnYWluCg==</text>
+        <text encoding="base64">CgoKCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2570,16 +2572,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>public_clients</text>
+        <text>cls</text>
       </register>
       <register name="/" type="4">
         <text>,\([^ ]\)</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBub2Rlcy5hcHBlbmQoc2RrLk5vZGUoc2VsZi5idGMsIHNlbGYucG9sbykpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmcgPSBzZGsuQ29pbkdyYXBoKCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRlc3QgdGhhdCB3ZSBjYW4gY29tcHV0ZSBnYWluCg==</text>
+        <text encoding="base64">CgoKCg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -2601,10 +2603,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjbHMubWFya2V0cyA9IHt9Cg==</text>
+        <text encoding="base64">Y2xhc3MgVGVzdG5DeWNsZSh1bml0dGVzdC5UZXN0Q2FzZSk6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwdWJsaWNfY2xpZW50cyA9IHt9Cg==</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0MihzZWxmKToKICAgICAgICAiIiIKICAgICAgICBUZXN0cyBhIHNpbXBsZSBncmFwaCB3aXRoIG9uZSBjeWNsZSAsIGFuZCB0aGVuIHdpdGggb25lIGN5Y2xlIGxvbmdlciB0aGFuIHRoZSBleHBlY3RlZCBsZW5ndGgKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIHNlbGYuZyA9IHNkay5Db2luR3JhcGgoKQogICAgICAgIGVsaXN0ID0gW3sxLCAyfSwgezIsIDN9LCB7MywgNH0sIHs0LCA1fSwgezUsIDF9XQogICAgICAgIHNlbGYuZy5ncmFwaC5hZGRfZWRnZXNfZnJvbShlbGlzdCkKICAgICAgICBsaXN0X29mX2N5Y2xlcyA9IFtdCiAgICAgICAgY3VycmVudF9wYXRoID0gWzFdCiAgICAgICAgbGlzdF9vZl9jeWNsZXMgPSBzZWxmLmcuX2ZpbmRfbl9jeWNsZXMobGlzdF9vZl9jeWNsZXMsIGN1cnJlbnRfcGF0aCwgMykKICAgICAgICBzZWxmLmFzc2VydFRydWUobGVuKGxpc3Rfb2ZfY3ljbGVzKT09MCkKICAgICAgICBsaXN0X29mX2N5Y2xlcyA9IHNlbGYuZy5fZmluZF9uX2N5Y2xlcyhsaXN0X29mX2N5Y2xlcywgY3VycmVudF9wYXRoLCA1KQogICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShsaXN0X29mX2N5Y2xlcyA9PSBbWzEsIDIsIDMsIDQsIDUsIDFdXSkKCiAgICBkZWYgdGVzdDMoc2VsZik6CiAgICAgICAgIiIiCiAgICAgICAgVGVzdHMgYSBncmFwaCB3aXRoIHR3byBjeWNsZXMsIGFuZCBhIGN5Y2xlIGluIHRoZSBtaWRkbGUKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIHNlbGYuZyA9IHNkay5Db2luR3JhcGgoKQogICAgICAgIGVsaXN0ID0gW3sxLCAyfSwgezIsIDN9LCB7MywgNH0sIHs0LCA1fSwgezUsIDF9LCB7MiwgNn0sIHs2LCAzfV0KICAgICAgICBzZWxmLmcuZ3JhcGguYWRkX2VkZ2VzX2Zyb20oZWxpc3QpCiAgICAgICAgbGlzdF9vZl9jeWNsZXMgPSBbXQogICAgICAgIGN1cnJlbnRfcGF0aCA9IFsxXQogICAgICAgIGxpc3Rfb2ZfY3ljbGVzID0gc2VsZi5nLl9maW5kX25fY3ljbGVzKGxpc3Rfb2ZfY3ljbGVzLCBjdXJyZW50X3BhdGgsIDEwKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGlzdF9vZl9jeWNsZXMsIFtbMSwgMiwgMywgNCwgNSwgMV0sIFsxLCAyLCA2LCAzLCA0LCA1LCAxXV0pCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2672,22 +2674,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgZXhjaGFuZ2UgaW4gc2RrLkV4Y2hhbmdlLmFsbCgpOgogICAgICAgICAgICBwdWJsaWNfY2xpZW50c1tleGNoYW5nZV0gPSBjbGllbnRfdXRpbHMuZ2V0X3B1YmxpY19jbGllbnQoZXhjaGFuZ2UsIGlzX3NpbXVsYXRpb24pCiAgICAgICAgICAgIGNscy5tYXJrZXRzW2V4Y2hhbmdlXSA9IHB1YmxpY19jbGllbnRzW2V4Y2hhbmdlXS5tYXJrZXRfc3VtbWFyaWVzKHNpbXVsYXRpb25fc2NoZWR1bGUpCg==</text>
+        <text encoding="base64">ICAgICAgICBjbHMuZyA9IHNkay5Db2luR3JhcGgoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXNfc2ltdWxhdGlvbiA9IFRydWUK</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIHNldFVwQ2xhc3MoY2xzKToK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzaW11bGF0aW9uX3NjaGVkdWxlID0gU2ltdWxhdGlvblNjaGVkdWxlKHV0aW1lLmZyb21faXNvZm9ybWF0KCcyMDE4LTA2LTAxVDAwLTA3JyksIDM2MDAsIDM2MDAsICdmaXJzdCcpCg==</text>
+        <text encoding="base64">ICAgICAgICAjIHRlc3QgdGhhdCB3ZSBjYW4gY29tcHV0ZSBnYWluCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">I1RPRE8gZml4IGFsbHRoZXNlIHRlc3RzCg==</text>
+        <text encoding="base64">ICAgICAgICBjbHMubWFya2V0cyA9IHt9Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/,\([^ ]\)/, \1/gc</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -2739,10 +2741,10 @@
         <entry>%s/lru_cache(max_size/lru_cache(maxsize/g</entry>
         <entry>372</entry>
         <entry>qa</entry>
-        <entry>q</entry>
         <entry>%s/Node/Node.from_currency_and_exchange/gc</entry>
         <entry>1356</entry>
         <entry>%s/,\([^ ]\)/, \1/gc</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
