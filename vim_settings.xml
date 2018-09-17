@@ -985,10 +985,10 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1537146829465">
-        <mark key="'" line="406" column="0" />
-        <mark key="[" line="1355" column="69" />
-        <mark key="]" line="1355" column="69" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1537148420765">
+        <mark key="'" line="299" column="48" />
+        <mark key="[" line="302" column="0" />
+        <mark key="]" line="302" column="52" />
         <mark key="." line="1355" column="69" />
         <mark key="^" line="406" column="0" />
       </file>
@@ -1299,12 +1299,12 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="25" column="73" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" timestamp="1537146895201">
-        <mark key="'" line="50" column="13" />
-        <mark key="[" line="62" column="25" />
-        <mark key="]" line="62" column="25" />
-        <mark key="^" line="62" column="25" />
-        <mark key="." line="62" column="25" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" timestamp="1537148790514">
+        <mark key="'" line="80" column="27" />
+        <mark key="[" line="85" column="0" />
+        <mark key="]" line="85" column="0" />
+        <mark key="^" line="80" column="27" />
+        <mark key="." line="85" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/filter_currencies.py" timestamp="1528813538590">
         <mark key="'" line="29" column="0" />
@@ -1916,21 +1916,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="95" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="39" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="142" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="71" column="11" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="69" column="64" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="1377" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="980" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="270" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="1369" column="34" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="249" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/client_interface.py" />
-      <jump line="55" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/client_utils.py" />
-      <jump line="64" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="31" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="66" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="140" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="141" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="322" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="323" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2016,6 +2001,21 @@
       <jump line="40" column="25" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" />
       <jump line="37" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" />
       <jump line="50" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" />
+      <jump line="65" column="36" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" />
+      <jump line="1355" column="69" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="139" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="144" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="149" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="163" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="206" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="229" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="242" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="302" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="355" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="270" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="276" column="80" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="299" column="48" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="80" column="27" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2024,8 +2024,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2567,22 +2567,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>0.5</text>
       </register>
       <register name="/" type="4">
-        <text>gain</text>
+        <text>simplest</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2RrLk5vZGUuZnJvbV9jdXJyZW5jeV9hbmRfZXhjaGFuZ2UoYnRjLCBleGNoYW5nZV8yKV0pCg==</text>
+      <register name="0" type="4">
+        <text># this condition is brittle. gain should be mocked</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">Y2xhc3MgVGVzdEZhaWxpbmdDeWNsZSh1bml0dGVzdC5UZXN0Q2FzZSk6CiAgICAiIiIgRm9sbG93aW5nIGN5Y2xlIHdhcyBmYWlsaW5nIGFzIDBmIDA3LzI1LzIwMTgKICAgICIiIgogICAgZGVmIHRlc3RfZmFpcmNvaW4oc2VsZik6CiAgICAgICAgYml0dHJleCA9IHNkay5FeGNoYW5nZS5mcm9tX25hbWUoJ2JpdHRyZXgnKQogICAgICAgIHBvbG8gPSBzZGsuRXhjaGFuZ2UuZnJvbV9uYW1lKCdwb2xvbmlleCcpCiAgICAgICAgY3VycmVuY3kgPSBzZGsuQ3VycmVuY3kuZnJvbV9uYW1lKCdmYWlyY29pbicpCiAgICAgICAgY3ljbGUgPSBzZGsuc2ltcGxlc3RfY3ljbGUoYml0dHJleCwgcG9sbywgY3VycmVuY3kpCiAgICAgICAgY3ljbGUuZ2FpbigwLjEpCgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2598,10 +2598,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEFsbW9zdEVxdWFsKGdhaW4sIDAuMDk5MjU0NywgNCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2669,28 +2669,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzZW5kZXIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGlzaW5zdGFuY2UoY3ljbGUsIHNkay5DeWNsZSkpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoY3ljbGVbMF0sIHNlbGYubm9kZSkKICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChjeWNsZVstMV0sIHNlbGYubm9kZSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChtc2cpCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgY3ljbGUgaW4gY3ljbGVzOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChtc2cpCg==</text>
+        <text encoding="base64">ICAgICAgICBhcmUgdGhlIG9ubHkgc3RhcnRpbmcgbm9kZSB1c2VkIGluIHRoZSB0ZXN0Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChtc2cpCg==</text>
+        <text encoding="base64">ICAgICAgICAgZ3JhcGguQ3ljbGUgb2JqZWN0cyBhbmQgdGhhdCBmaXJzdCBhbmQgbGFzdCBub2Rlcwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>1356</text>
       </register>
     </registers>
     <search>
-      <last-search>gain</last-search>
+      <last-search>simplest</last-search>
       <last-offset />
-      <last-pattern>gain</last-pattern>
+      <last-pattern>simplest</last-pattern>
       <last-replace>Node.from_currency_and_exchange</last-replace>
       <last-substitute>Node</last-substitute>
       <last-dir>1</last-dir>
@@ -2698,11 +2698,6 @@
     </search>
     <history>
       <history-search>
-        <entry>class Ticker</entry>
-        <entry>self.exchange</entry>
-        <entry>class Ex</entry>
-        <entry>iteriemt</entry>
-        <entry>iteri</entry>
         <entry encoding="base64">XmNsYXNzIA==</entry>
         <entry encoding="base64">b2JqZWN0IGhhcyBubyA=</entry>
         <entry>BadNode</entry>
@@ -2711,13 +2706,18 @@
         <entry>failure</entry>
         <entry>fai</entry>
         <entry>ailure</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>print</entry>
         <entry>Node</entry>
         <entry>node</entry>
         <entry>node.curr</entry>
         <entry>node.ex</entry>
         <entry>gain</entry>
+        <entry>PRIV</entry>
+        <entry>class Coin</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>class Cyc</entry>
+        <entry>n_cyc</entry>
+        <entry>simplest</entry>
       </history-search>
       <history-cmd>
         <entry>1004</entry>
