@@ -1263,12 +1263,12 @@
         <mark key="." line="24" column="25" />
         <mark key="^" line="28" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537575703000">
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537803122702">
         <mark key="'" line="6" column="30" />
-        <mark key="[" line="66" column="44" />
-        <mark key="]" line="66" column="43" />
-        <mark key="." line="66" column="43" />
-        <mark key="^" line="66" column="43" />
+        <mark key="[" line="69" column="24" />
+        <mark key="]" line="69" column="25" />
+        <mark key="." line="69" column="25" />
+        <mark key="^" line="65" column="22" />
       </file>
       <file name="$USER_HOME$/Testeo/upload/upload_update_state.sh" timestamp="1516120100657">
         <mark key="'" line="0" column="0" />
@@ -1753,12 +1753,12 @@
         <mark key="^" line="24" column="48" />
         <mark key="." line="24" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537575587232">
-        <mark key="'" line="98" column="12" />
-        <mark key="[" line="225" column="92" />
-        <mark key="]" line="227" column="25" />
-        <mark key="^" line="227" column="25" />
-        <mark key="." line="227" column="25" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537802957055">
+        <mark key="'" line="160" column="32" />
+        <mark key="[" line="240" column="34" />
+        <mark key="]" line="240" column="34" />
+        <mark key="^" line="240" column="34" />
+        <mark key="." line="240" column="34" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
         <mark key="'" line="41" column="19" />
@@ -2222,14 +2222,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="380" column="102" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="377" column="16" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="374" column="24" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="373" column="38" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="369" column="12" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="365" column="24" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="362" column="24" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="361" column="38" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="357" column="12" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="353" column="16" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="349" column="38" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2322,6 +2314,14 @@
       <jump line="432" column="8" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="543" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="93" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="144" column="6" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="147" column="107" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="204" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="210" column="25" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="128" column="12" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="143" column="65" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="155" column="11" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="160" column="32" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2330,8 +2330,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+      <register name="&quot;" type="4">
+        <text>estimated_times</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2873,22 +2873,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>estimated_times</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>accepted_diff</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAnRXhjaGFuZ2VfMSc6IHNkay5FeGNoYW5nZScsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgIG1ldHJpY3MK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2911,10 +2911,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFRydWUocm93LmVxdWFscyhyZWFkKSkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoa2V5KQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFRydWUocm93LmVxdWFscyhyZWFkKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2982,28 +2982,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoa2V5KQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBoYXNhdHRyKHNkaywgayk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHYgPSBpbnQodikKICAgICAgICAgICAgICAgIHJvd1trXSA9IGdldGF0dHIoc2RrLCBrKSh2KQogICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICBwYXNzCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICMgbWFrZSBhbGwgaW5kZXggbG93ZXIga2V5CiAgICBpbmRleGVzID0gcm93LmluZGV4CiAgICBsb3dlciA9IFtpLmxvd2VyKCkgZm9yIGkgaW4gaW5kZXhlc10KICAgIHJvdy5pbmRleCA9IGxvd2VyCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBoYXNhdHRyKHNkaywgayk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHYgPSBpbnQodikKICAgICAgICAgICAgICAgIHJvd1trXSA9IGdldGF0dHIoc2RrLCBrKSh2KQogICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICBwYXNzCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICMgbWFrZSBhbGwgaW5kZXggbG93ZXIga2V5CiAgICBpbmRleGVzID0gcm93LmluZGV4CiAgICBsb3dlciA9IFtpLmxvd2VyKCkgZm9yIGkgaW4gaW5kZXhlc10KICAgIHJvdy5pbmRleCA9IGxvd2VyCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFRydWUocm93LmVxdWFscyhyZWFkKSkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>123</text>
+        <text>55</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>accepted_diff</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>accepted_diff</last-pattern>
       <last-replace>exchange_</last-replace>
       <last-substitute>Exchange_</last-substitute>
       <last-dir>1</last-dir>
@@ -3011,9 +3011,6 @@
     </search>
     <history>
       <history-search>
-        <entry>type_</entry>
-        <entry>ticker</entry>
-        <entry>transactions</entry>
         <entry>transaction</entry>
         <entry>print</entry>
         <entry encoding="base64">ZGVmIA==</entry>
@@ -3031,9 +3028,11 @@
         <entry>read</entry>
         <entry>class .*Status</entry>
         <entry>pudb</entry>
+        <entry>dif</entry>
+        <entry>_estimate</entry>
+        <entry>accepted_diff</entry>
       </history-search>
       <history-cmd>
-        <entry>40</entry>
         <entry>424</entry>
         <entry>56</entry>
         <entry>423</entry>
@@ -3053,6 +3052,7 @@
         <entry>88</entry>
         <entry>%s/Exchange_/exchange_/gc</entry>
         <entry>123</entry>
+        <entry>55</entry>
       </history-cmd>
       <history-expr />
       <history-input />
