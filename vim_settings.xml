@@ -1153,12 +1153,12 @@
         <mark key="." line="24" column="25" />
         <mark key="^" line="28" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537826302204">
-        <mark key="'" line="48" column="22" />
-        <mark key="[" line="136" column="0" />
-        <mark key="]" line="136" column="0" />
-        <mark key="." line="136" column="0" />
-        <mark key="^" line="125" column="41" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537829407533">
+        <mark key="'" line="74" column="23" />
+        <mark key="[" line="127" column="83" />
+        <mark key="]" line="127" column="82" />
+        <mark key="." line="127" column="82" />
+        <mark key="^" line="127" column="82" />
       </file>
       <file name="$USER_HOME$/Testeo/upload/upload_update_state.sh" timestamp="1516120100657">
         <mark key="'" line="0" column="0" />
@@ -1631,12 +1631,12 @@
         <mark key="^" line="24" column="48" />
         <mark key="." line="24" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537826316640">
-        <mark key="'" line="93" column="21" />
-        <mark key="[" line="93" column="0" />
-        <mark key="]" line="93" column="0" />
-        <mark key="." line="93" column="0" />
-        <mark key="^" line="94" column="36" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537829263699">
+        <mark key="'" line="89" column="12" />
+        <mark key="[" line="105" column="24" />
+        <mark key="]" line="105" column="24" />
+        <mark key="." line="105" column="30" />
+        <mark key="^" line="104" column="29" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
         <mark key="'" line="41" column="19" />
@@ -2082,13 +2082,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="320" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="388" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="409" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="442" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="456" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="1276" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="1292" column="18" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1293" column="18" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1295" column="71" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="16" column="17" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2182,6 +2175,13 @@
       <jump line="113" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="125" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="93" column="21" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="154" column="35" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="13" column="12" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="57" column="78" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="58" column="42" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="73" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="89" column="12" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="74" column="23" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2190,8 +2190,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+      <register name="&quot;" type="4">
+        <text>per_metric</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2733,22 +2733,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>tags</text>
+        <text>per_metric</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>stats</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZF90YWdzW3RhZ10gPSBbbnAucmFuZG9tLmNob2ljZShwb3NzaWJsZV90YWdzW3RhZ10pXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGVyX21ldHJpYyA9IGNoYW5nZWRbOiwgaV0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2771,10 +2771,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzdGF0MCA9IHN0YXRzWzBdCiAgICAgICAgY2hhbmdlZCA9IHN0YXRzIC8gc3RhdDAgPCAwLjkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbWF4KHN0ZHMpICE9IDA6Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2842,28 +2842,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICBjaGFuZ2VkX2Zvcl9vbmVfbWV0cmljCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gcG9zc2libGVfaW50ZXJ2YWxzOiBpdGVyYWJsZSBvZiBpbnRlZ2Vycy4gRWFjaCBpbnRlZ2VyIGlzIGEgY2FuZGlkYXRlIHRvIHVzZSBhcyAnc2FtcGxlX2ludGVydmFsJyBpbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1ldHJpY0tleSB3aGVuIHB1bGxpbmcgZGF0YSBmcm9tIHN0b3JhZ2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>stats</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>stats</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -2871,7 +2871,6 @@
     </search>
     <history>
       <history-search>
-        <entry>class .*Status</entry>
         <entry>dif</entry>
         <entry>_estimate</entry>
         <entry>accepted_diff</entry>
@@ -2891,6 +2890,7 @@
         <entry>forward</entry>
         <entry>valid_data_ran</entry>
         <entry>pudb</entry>
+        <entry>stats</entry>
       </history-search>
       <history-cmd>
         <entry>%s/isinstance(\([^,]*\), int)/isinstance(\1, np.int)/gc</entry>
