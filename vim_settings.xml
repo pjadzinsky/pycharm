@@ -194,7 +194,7 @@
         <mark key="]" line="30" column="0" />
         <mark key="." line="30" column="0" />
       </file>
-      <file name="/" timestamp="1537809727670">
+      <file name="/" timestamp="1537817853160">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/data/metric_queries_1.json" timestamp="1513801709735">
@@ -1228,12 +1228,12 @@
         <mark key="." line="24" column="25" />
         <mark key="^" line="28" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537812368159">
-        <mark key="'" line="11" column="52" />
-        <mark key="[" line="68" column="50" />
-        <mark key="]" line="68" column="63" />
-        <mark key="." line="68" column="63" />
-        <mark key="^" line="68" column="63" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537819398948">
+        <mark key="'" line="48" column="22" />
+        <mark key="[" line="123" column="79" />
+        <mark key="]" line="123" column="79" />
+        <mark key="." line="123" column="79" />
+        <mark key="^" line="132" column="36" />
       </file>
       <file name="$USER_HOME$/Testeo/upload/upload_update_state.sh" timestamp="1516120100657">
         <mark key="'" line="0" column="0" />
@@ -1713,6 +1713,13 @@
         <mark key="^" line="24" column="48" />
         <mark key="." line="24" column="48" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537819299282">
+        <mark key="'" line="48" column="8" />
+        <mark key="[" line="203" column="0" />
+        <mark key="]" line="203" column="0" />
+        <mark key="." line="203" column="0" />
+        <mark key="^" line="46" column="47" />
+      </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
         <mark key="'" line="41" column="19" />
         <mark key="[" line="108" column="0" />
@@ -2175,13 +2182,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="58" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="74" column="74" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="76" column="58" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="21" column="39" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="90" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="34" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="33" column="29" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="396" column="25" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="440" column="24" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="430" column="30" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2275,6 +2275,13 @@
       <jump line="209" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
       <jump line="921" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="84" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
+      <jump line="47" column="24" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" />
+      <jump line="48" column="22" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" />
+      <jump line="137" column="15" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="86" column="51" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="138" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="232" column="29" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="48" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2283,8 +2290,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">IyBsb2NhbCBtb2RlbCBzdG9yZSByb290Ck1PREVMX1NUT1JFX1JPT1QgPSAnL21udCcKCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2826,22 +2833,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>/mnt</text>
-      </register>
-      <register name="/" type="4">
-        <text>Range</text>
-      </register>
-      <register name="0" type="4">
         <text encoding="base64">IA==</text>
       </register>
+      <register name="/" type="4">
+        <text>start</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEBtb2NrLnBhdGNoKCdvcGFzYWkubWV0cmljcy5zdG9yYWdlX2NsaWVudC5TdG9yYWdlQ2xpZW50LnZhbGlkX2RhdGFfcmFuZ2UnKQo=</text>
+      </register>
       <register name="1" type="2">
-        <text encoding="base64">IyBsb2NhbCBtb2RlbCBzdG9yZSByb290Ck1PREVMX1NUT1JFX1JPT1QgPSAnL21udCcKCg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZHJvcCAK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2864,10 +2871,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBnZXQgdGhlIHVuaW9uIGFjcm9zcyBhbGwgdmFsaWQgcmFuZ2VzLiB2YWxpZF9kYXRhX3JhbmdlIGlzIGEgZGljdGlvbmFyeSBtYXBwaW5nIGtleXMgdG8gdHVwbGVzCiAgICAgICAgICAgICMgKHN0YXJ0LCBlbmQsIGV4cGlyeSkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpbiB0aGUgbmV4dCBsaW5lIHdlIGNvbnZlcnQgdGhlIHR1cGxlcyB0byB1dGltZS5JbnRlcnZhbCBhbmQgYXQgdGhlIHNhbWUgdGltZSBmaWx0ZXIgb3V0IGludGVydmFscwo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydElzTm9uZShjb21wdXRlZCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2935,37 +2942,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyAgQFBKLCB3aGF0IGlzICdpJyBoZXJlPwo=</text>
+        <text encoding="base64">ICAgICAgICBjb21wdXRlZCA9IGluc2lnaHRzLnZhbGlkX2RhdGFfcmFuZ2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyAoaSwgc3RhcnQsIGVuZCkgQFBKLCB3aGF0IGlzICdpJyBoZXJlPwo=</text>
+        <text encoding="base64">ICAgICAgICBpbnNpZ2h0cyA9IG1ldHJpY19pbnNpZ2h0cy5NZXRyaWNJbnNpZ2h0cyhxdWVyaWVzLCAnc29tZV9hY2NvdW50JywgWzVdKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGVyX3Nlcmllc19pbnRlcnZhbCA9IGNoYWluLmZyb21faXRlcmFibGUodmFsaWRfZGF0YV9yYW5nZS52YWx1ZXMoKSkK</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X3ZhbGlkX2RhdGFfcmFuZ2VfMgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBSZXR1cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q:q</text>
+        <text>150</text>
       </register>
     </registers>
     <search>
-      <last-search>Range</last-search>
+      <last-search>start</last-search>
       <last-offset />
-      <last-pattern>Range</last-pattern>
-      <last-replace>exchange_</last-replace>
-      <last-substitute>Exchange_</last-substitute>
+      <last-pattern>start</last-pattern>
+      <last-replace>end</last-replace>
+      <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>Exchange_</entry>
-        <entry>F</entry>
         <entry>class Exch</entry>
         <entry>def get_ba</entry>
         <entry>read</entry>
@@ -2984,11 +2989,10 @@
         <entry>def inter</entry>
         <entry>valid_data</entry>
         <entry>Range</entry>
+        <entry>account</entry>
+        <entry>start</entry>
       </history-search>
       <history-cmd>
-        <entry>94,122s/transaction/transfer/gc</entry>
-        <entry>%s/int/np.int</entry>
-        <entry>%s/isinstance(\([^,]\), int)/isinstance(\1, np.int)/gc</entry>
         <entry>%s/isinstance(\([^,]*\), int)/isinstance(\1, np.int)/gc</entry>
         <entry>181</entry>
         <entry>182</entry>
@@ -3004,8 +3008,11 @@
         <entry>110</entry>
         <entry>59</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
-        <entry>q</entry>
         <entry>q:q</entry>
+        <entry>s/start/end/gc</entry>
+        <entry>q</entry>
+        <entry>47</entry>
+        <entry>150</entry>
       </history-cmd>
       <history-expr />
       <history-input />
