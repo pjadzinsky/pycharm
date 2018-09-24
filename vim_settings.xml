@@ -640,11 +640,11 @@
         <mark key="^" line="64" column="11" />
         <mark key="." line="64" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" timestamp="1537758576577">
-        <mark key="'" line="275" column="35" />
-        <mark key="[" line="278" column="31" />
-        <mark key="]" line="140" column="34" />
-        <mark key="." line="278" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" timestamp="1537760371271">
+        <mark key="'" line="104" column="27" />
+        <mark key="[" line="86" column="26" />
+        <mark key="]" line="86" column="27" />
+        <mark key="." line="86" column="27" />
         <mark key="^" line="140" column="34" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_utils.py" timestamp="1517937833497">
@@ -2214,8 +2214,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="202" column="19" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="203" column="34" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="204" column="32" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="208" column="37" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="216" column="26" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2314,6 +2312,8 @@
       <jump line="522" column="88" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="231" column="21" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="237" column="23" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="84" column="26" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="104" column="27" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2868,7 +2868,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>repr_transa</text>
+        <text>F</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAnRXhjaGFuZ2VfMSc6IHNkay5FeGNoYW5nZScsCg==</text>
@@ -2989,22 +2989,20 @@
         <text encoding="base64">ICAgIHNkCg==</text>
       </register>
       <register name=":" type="4">
-        <text>107</text>
+        <text>%s/Exchange_/exchange_/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>repr_transa</last-search>
+      <last-search>F</last-search>
       <last-offset />
-      <last-pattern>repr_transa</last-pattern>
-      <last-replace>isinstance(\1, np.int)</last-replace>
-      <last-substitute>isinstance(\([^,]*\), int)</last-substitute>
+      <last-pattern>F</last-pattern>
+      <last-replace>exchange_</last-replace>
+      <last-substitute>Exchange_</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>ticker_id</entry>
-        <entry>transfers</entry>
         <entry>dum</entry>
         <entry>dummy</entry>
         <entry>DELTE</entry>
@@ -3023,11 +3021,10 @@
         <entry>exchange_</entry>
         <entry>'i'</entry>
         <entry>repr_transa</entry>
+        <entry>Exchange_</entry>
+        <entry>F</entry>
       </history-search>
       <history-cmd>
-        <entry>28</entry>
-        <entry>q</entry>
-        <entry>%s/order/order_/gc</entry>
         <entry>372</entry>
         <entry>40</entry>
         <entry>424</entry>
@@ -3045,6 +3042,9 @@
         <entry>181</entry>
         <entry>182</entry>
         <entry>107</entry>
+        <entry>433</entry>
+        <entry>88</entry>
+        <entry>%s/Exchange_/exchange_/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
