@@ -1677,12 +1677,12 @@
         <mark key="^" line="24" column="48" />
         <mark key="." line="24" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537890383026">
-        <mark key="'" line="145" column="27" />
-        <mark key="[" line="95" column="54" />
-        <mark key="]" line="96" column="27" />
-        <mark key="^" line="96" column="27" />
-        <mark key="." line="96" column="27" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1537892669024">
+        <mark key="'" line="234" column="8" />
+        <mark key="[" line="237" column="59" />
+        <mark key="]" line="237" column="59" />
+        <mark key="^" line="237" column="59" />
+        <mark key="." line="237" column="59" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
         <mark key="'" line="41" column="19" />
@@ -2127,17 +2127,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="22" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" />
-      <jump line="137" column="15" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="86" column="51" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="138" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="232" column="29" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="48" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="200" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
-      <jump line="261" column="39" filename="$USER_HOME$/opas/core/python/opasai/common/tests/test_utime.py" />
-      <jump line="40" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/store/s3.py" />
-      <jump line="28" column="39" filename="$USER_HOME$/opas/core/python/opasai/common/store/s3.py" />
-      <jump line="92" column="28" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="32" column="60" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="42" column="33" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
@@ -2227,6 +2216,17 @@
       <jump line="556" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="585" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="145" column="27" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="278" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="209" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="212" column="32" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="213" column="12" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="218" column="16" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="219" column="34" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="221" column="11" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="225" column="41" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="227" column="71" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="229" column="85" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="234" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2781,7 +2781,7 @@
         <text>from</text>
       </register>
       <register name="/" type="4">
-        <text>allstats</text>
+        <text>power</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBxdWVyeV9hbGxzdGF0cyhzZWxmLCBzdGFydF9lcG9jaCwgZW5kX2Vwb2NoLCBudW1fYmlucz1Ob25lLCB6ZXJvX3ZhbHVlX3RocmVzaG9sZD0xRS01LCBtaW5fc2FtcGxlcz0wLAogICAgICAgICAgICAgICAgICAgICAgIG1heF9zYW1wbGVzPTAsIGVxdWl2YWxlbmNlX3RhZ3M9Tm9uZSwgbWVhc3VyZW1lbnRfdGFnX25hbWVfZmllbGRfcmVnX2V4X2ZpbHRlcj1Ob25lKToK</text>
@@ -2906,9 +2906,9 @@
       </register>
     </registers>
     <search>
-      <last-search>allstats</last-search>
+      <last-search>power</last-search>
       <last-offset />
-      <last-pattern>allstats</last-pattern>
+      <last-pattern>power</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -2916,7 +2916,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def inter</entry>
         <entry>valid_data</entry>
         <entry>Range</entry>
         <entry>account</entry>
@@ -2936,6 +2935,7 @@
         <entry>class</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>allstats</entry>
+        <entry>power</entry>
       </history-search>
       <history-cmd>
         <entry>182</entry>
