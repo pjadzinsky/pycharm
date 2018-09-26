@@ -76,12 +76,12 @@
         <mark key="^" line="40" column="0" />
         <mark key="." line="40" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/holt_winters.py" timestamp="1537929963139">
-        <mark key="'" line="40" column="3" />
-        <mark key="[" line="3" column="30" />
-        <mark key="]" line="40" column="3" />
-        <mark key="." line="40" column="3" />
-        <mark key="^" line="40" column="3" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/holt_winters.py" timestamp="1537935575694">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="50" column="8" />
+        <mark key="]" line="52" column="70" />
+        <mark key="^" line="52" column="70" />
+        <mark key="." line="52" column="70" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1537746818729">
         <mark key="'" line="178" column="0" />
@@ -2041,7 +2041,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="21" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="154" column="35" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="13" column="12" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="57" column="78" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
@@ -2141,6 +2140,7 @@
       <jump line="14" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/holt_winters.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/holt_winters.py" />
       <jump line="39" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/holt_winters.py" />
+      <jump line="10" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/holt_winters.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2150,7 +2150,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>train_end</text>
+        <text>StorageClient</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2692,22 +2692,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>train_end</text>
+        <text>StorageClient</text>
       </register>
       <register name="/" type="4">
-        <text>def query_bu</text>
+        <text>Stor</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHN0YXJ0ID0gdXRpbWUuZnJvbV9pc29mb3JtYXQoJzIwMTctMDEtMDFUMDAtMDcnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG1ldHJpYy52YWx1ZXMuc2hhcGUK</text>
+        <text encoding="base64">ICAgICAgICBzYyA9IFN0b3JhZ2VDbGllbnQoJ2V4dC5kZjIuc3RvcmFnZS5vcGFzLmFpJykK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIG1ldHJpYyA9IG1ldHJpY3NbMF0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2730,10 +2730,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICNtZXRyaWNzID0gc2MucXVlcnlfYnVsa3NxbChbcXVlcnldLCBzdGFydCwgZW5kLCA4NjYwMCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2801,28 +2801,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
+        <text encoding="base64">ZnJvIHN0YXRpY21ldGhvZC50c2EuYXBpIGltCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXNfdGFnc1t0YWddID0gW3RhZ3NbdGFnXV0K</text>
+        <text encoding="base64">ICAgIG1ldHJpYy52YWx1ZXMuc2hhcGUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxlY3RlZF90YWdzID0ge30K</text>
+        <text encoding="base64">ICAgIG1ldHJpYyA9IG1ldHJpY3NbMF0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGFncyA9IHt9Cg==</text>
+        <text encoding="base64">ICAgICNtZXRyaWNzID0gc2MucXVlcnlfYnVsa3NxbChbcXVlcnldLCBzdGFydCwgZW5kLCA4NjYwMCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>def query_bu</last-search>
+      <last-search>Stor</last-search>
       <last-offset />
-      <last-pattern>def query_bu</last-pattern>
+      <last-pattern>Stor</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -2830,7 +2830,6 @@
     </search>
     <history>
       <history-search>
-        <entry>account</entry>
         <entry>start</entry>
         <entry>mnt</entry>
         <entry>forward</entry>
@@ -2850,6 +2849,7 @@
         <entry>power</entry>
         <entry>sele</entry>
         <entry>def query_bu</entry>
+        <entry>Stor</entry>
       </history-search>
       <history-cmd>
         <entry>107</entry>
