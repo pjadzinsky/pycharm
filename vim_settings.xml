@@ -868,6 +868,12 @@
         <mark key="." line="511" column="8" />
         <mark key="^" line="507" column="32" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer.py" timestamp="1538001333988">
+        <mark key="[" line="66" column="51" />
+        <mark key="]" line="67" column="25" />
+        <mark key="." line="67" column="25" />
+        <mark key="^" line="67" column="25" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/README_tests.md" timestamp="1537996012040">
         <mark key="[" line="130" column="0" />
         <mark key="]" line="130" column="0" />
@@ -2354,8 +2360,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gYW5vbWFseV9tb2RlOiBpcyBzZXQgb25seSB0aGUgYW5vbWFseSBzdGFnZSBpcyBydW4K</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2906,13 +2912,13 @@
         <text encoding="base64">Y2QgPHBhdGggdG8gb3Bhcz4vb3Bhcy9jb3JlCm12biBjbGVhbiBpbnN0YWxsIC1Ec2tpcFRlc3RzIApgYGAKCm9uY2UgdGhpcyBpcyBjb21wbGV0ZSB0aGVuIApgYGAKY2Qgc2VydmluZy9mcm9udGVuZC9hcHAgCnNidCBjbGVhbiBjb21waWxlIC1qdm0tZGVidWcgOTk5OSAifnJ1biAtRGNvbmZpZy5yZXNvdXJjZT1kZXZfc3RhZ2luZy5jb25mIgpgYGAKCmluIGFub3RoZXIgdGVybWluYWwsIHN0YXJ0IHVwIHRoZSBsb2NhbCBVSQpgYGAKY2QgPHBhdGggdG8gb3Bhcz4vb3Bhcy9jb3JlL3NlcnZpbmcvZnJvbnRlbmQvYXBwCnlhcm4gc3RhcnQgCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkuY29tbW9uLnNldHRpbmdzLmtwaV9zdGFnZV9hbm9tYWx5X3NldHRpbmcgaW1wb3J0IEtwaVN0YWdlQW5vbWFseVNldHRpbmcKZnJvbSBvcGFzYWkuY29tbW9uLnNldHRpbmdzLmtwaV9zdGFnZV9yZWNvbW1lbmRhdGlvbl9zZXR0aW5nIGltcG9ydCBLcGlTdGFnZVJlY29tbWVuZGF0aW9uU2V0dGluZwpmcm9tIG9wYXNhaS5jb21tb24uc2V0dGluZ3Muc2V0dGluZ3NfcmVhZGVyIGltcG9ydCBTZXR0aW5nc1JlYWRlcgpmcm9tIG9wYXNhaS5jb21tb24gaW1wb3J0IHV0aW1lCmZyb20gb3Bhc2FpLmNvbW1vbi5zZXR0aW5ncy5rcGlfc3RhZ2Vfc2V0dGluZyBpbXBvcnQgU3RhZ2VTdGF0ZQpmcm9tIG9wYXNhaS5jb21tb24uc2V0dGluZ3Mua3BpX3N0YWdlX21vZGVsX3NldHRpbmcgaW1wb3J0IEtwaVN0YWdlTW9kZWxTZXR0aW5nCmZyb20gb3Bhc2FpLnNlbGZzZXJ2ZS5tb2RlbGluZy5rcGlfc3RhZ2VfdGFzayBpbXBvcnQgS3BpU3RhZ2VUYXNrCg==</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gYW5vbWFseV9tb2RlOiBpcyBzZXQgb25seSB0aGUgYW5vbWFseSBzdGFnZSBpcyBydW4K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgd2hlbiBleGVjdXRpbmcgaW4gcGFyYWxsZWwgd2UgbGV2ZXJhZ2UgdGhlIEFzeW5jUmVzdWx0IHRvIGRlY2lkZSB0aGUgdGFza1N0YXRlCg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkuY29tbW9uLnNldHRpbmdzLmtwaV9zdGFnZV9hbm9tYWx5X3NldHRpbmcgaW1wb3J0IEtwaVN0YWdlQW5vbWFseVNldHRpbmcKZnJvbSBvcGFzYWkuY29tbW9uLnNldHRpbmdzLmtwaV9zdGFnZV9yZWNvbW1lbmRhdGlvbl9zZXR0aW5nIGltcG9ydCBLcGlTdGFnZVJlY29tbWVuZGF0aW9uU2V0dGluZwpmcm9tIG9wYXNhaS5jb21tb24uc2V0dGluZ3Muc2V0dGluZ3NfcmVhZGVyIGltcG9ydCBTZXR0aW5nc1JlYWRlcgpmcm9tIG9wYXNhaS5jb21tb24gaW1wb3J0IHV0aW1lCmZyb20gb3Bhc2FpLmNvbW1vbi5zZXR0aW5ncy5rcGlfc3RhZ2Vfc2V0dGluZyBpbXBvcnQgU3RhZ2VTdGF0ZQpmcm9tIG9wYXNhaS5jb21tb24uc2V0dGluZ3Mua3BpX3N0YWdlX21vZGVsX3NldHRpbmcgaW1wb3J0IEtwaVN0YWdlTW9kZWxTZXR0aW5nCmZyb20gb3Bhc2FpLnNlbGZzZXJ2ZS5tb2RlbGluZy5rcGlfc3RhZ2VfdGFzayBpbXBvcnQgS3BpU3RhZ2VUYXNrCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2935,10 +2941,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBhZmI1YTE0MTQ0MDA3ZjdjY2JlMDdjNGJlNzJlY2FhZDY5NzgzY2NmCg==</text>
+        <text encoding="base64">ICAgICMgd2hlbiBleGVjdXRpbmcgaW4gcGFyYWxsZWwgd2UgbGV2ZXJhZ2UgdGhlIEFzeW5jUmVzdWx0IHRvIGRlY2lkZSB0aGUgdGFza1N0YXRlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Pj4+Pj4+PiBhZmI1YTE0MTQ0MDA3ZjdjY2JlMDdjNGJlNzJlY2FhZDY5NzgzY2NmCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3006,19 +3012,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIgVGVzdCB0aGF0IHF1ZXJ5X21ldHJpY3MgYW5kIHF1ZXJ5X2J5X2tleXMgcmV0dXJuIHRoZSBzYW1lIG1ldHJpY3MK</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X3dpdGhvdXRfcGl2b3RzKHNlbGYpOgo=</text>
+        <text encoding="base64">ICAgICAgICAiIiIgVGVzdCB0aGF0IHF1ZXJ5X21ldHJpY3MgYW5kIHF1ZXJ5X2J5X2tleXMgcmV0dXJuIHRoZSBzYW1lIG1ldHJpY3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X3dpdGhvdXRfcGl2b3RzKHNlbGYpOgo=</text>
       </register>
       <register name=":" type="4">
         <text>sort</text>
