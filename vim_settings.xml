@@ -541,12 +541,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1538164244989">
-        <mark key="'" line="194" column="0" />
-        <mark key="[" line="147" column="0" />
-        <mark key="]" line="148" column="92" />
-        <mark key="." line="8" column="0" />
-        <mark key="^" line="329" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1538174651204">
+        <mark key="'" line="252" column="73" />
+        <mark key="[" line="254" column="97" />
+        <mark key="]" line="254" column="96" />
+        <mark key="." line="254" column="96" />
+        <mark key="^" line="254" column="96" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -1644,12 +1644,12 @@
         <mark key="^" line="237" column="59" />
         <mark key="." line="236" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" timestamp="1538172242992">
-        <mark key="'" line="191" column="12" />
-        <mark key="[" line="178" column="42" />
-        <mark key="]" line="178" column="44" />
-        <mark key="^" line="178" column="44" />
-        <mark key="." line="178" column="44" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" timestamp="1538174588556">
+        <mark key="'" line="373" column="36" />
+        <mark key="[" line="373" column="0" />
+        <mark key="]" line="373" column="0" />
+        <mark key="^" line="373" column="36" />
+        <mark key="." line="373" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
         <mark key="'" line="41" column="19" />
@@ -2056,12 +2056,12 @@
         <mark key="." line="65" column="0" />
         <mark key="^" line="61" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" timestamp="1538172234294">
-        <mark key="'" line="116" column="4" />
-        <mark key="[" line="102" column="0" />
-        <mark key="]" line="102" column="0" />
-        <mark key="." line="102" column="0" />
-        <mark key="^" line="100" column="81" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" timestamp="1538174191526">
+        <mark key="'" line="102" column="0" />
+        <mark key="[" line="66" column="40" />
+        <mark key="]" line="66" column="48" />
+        <mark key="." line="66" column="48" />
+        <mark key="^" line="66" column="48" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_logs.py" timestamp="1536032986032">
         <mark key="'" line="0" column="21" />
@@ -2112,9 +2112,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="277" column="45" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="327" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="34" column="69" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="64" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
       <jump line="312" column="30" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="310" column="19" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
@@ -2212,6 +2209,9 @@
       <jump line="129" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" />
       <jump line="95" column="8" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" />
       <jump line="116" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" />
+      <jump line="373" column="36" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
+      <jump line="102" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" />
+      <jump line="252" column="73" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2763,10 +2763,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>orig_pred_metric</text>
+        <text>moment</text>
       </register>
       <register name="/" type="4">
-        <text>display_met</text>
+        <text>def clipped_me</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBkaXNwbGF5X21ldHJpY3Moc2VsZiwgbTEsIG0yLCBrcGksIHBsb3RfbmFtZSk6Cg==</text>
@@ -2801,7 +2801,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -2875,33 +2875,32 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBjbHMub3B0c19kaXIgPSB7J0N1cnZlJzogeydwbG90Jzogeyd3aWR0aCc6IDEyMDB9fSwKICAgICAgICAgICAgICAgICAgICAgICAgJ1NjYXR0ZXInOiB7J3Bsb3QnOiB7J3dpZHRoJzogNjAwLCAnaGVpZ2h0JzogNjAwfX19Cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjbHMuZAo=</text>
+        <text encoding="base64">ICAgICAgICBjbHMub3B0c19kaXIgPSB7J0N1cnZlJzogeydwbG90Jzogeyd3aWR0aCc6IDEyMDB9fSwKICAgICAgICAgICAgICAgICAgICAgICAgJ1NjYXR0ZXInOiB7J3Bsb3QnOiB7J3dpZHRoJzogNjAwLCAnaGVpZ2h0JzogNjAwfX19Cgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgZGlzcGxheV9tZXRyaWNzKHNlbGYsIG0xLCBtMiwga3BpLCBwbG90X25hbWUpOgo=</text>
+        <text encoding="base64">ICAgICAgICBjbHMuZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwdWRiCg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgZGlzcGxheV9tZXRyaWNzKHNlbGYsIG0xLCBtMiwga3BpLCBwbG90X25hbWUpOgo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>218</text>
       </register>
     </registers>
     <search>
-      <last-search>display_met</last-search>
+      <last-search>def clipped_me</last-search>
       <last-offset />
-      <last-pattern>display_met</last-pattern>
+      <last-pattern>def clipped_me</last-pattern>
       <last-replace>reference_</last-replace>
-      <last-substitute>input_</last-substitute>
+      <last-substitute>def clipped_me</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>original</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry encoding="base64">PDw8</entry>
         <entry>class</entry>
@@ -2921,9 +2920,9 @@
         <entry>opts_dir</entry>
         <entry>self</entry>
         <entry>display_met</entry>
+        <entry>def clipped_me</entry>
       </history-search>
       <history-cmd>
-        <entry>sort</entry>
         <entry>185</entry>
         <entry>198</entry>
         <entry>298</entry>
@@ -2943,6 +2942,7 @@
         <entry>111</entry>
         <entry>106</entry>
         <entry>q</entry>
+        <entry>218</entry>
       </history-cmd>
       <history-expr />
       <history-input />
