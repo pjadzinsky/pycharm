@@ -83,12 +83,12 @@
         <mark key="^" line="52" column="70" />
         <mark key="." line="52" column="70" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1538249330046">
+      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1538249706382">
         <mark key="'" line="34" column="0" />
-        <mark key="[" line="65" column="0" />
-        <mark key="]" line="65" column="0" />
-        <mark key="^" line="83" column="34" />
-        <mark key="." line="65" column="0" />
+        <mark key="[" line="74" column="38" />
+        <mark key="]" line="75" column="11" />
+        <mark key="^" line="75" column="11" />
+        <mark key="." line="75" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/data/metric_queries_3.json" timestamp="1513958614044">
         <mark key="'" line="0" column="0" />
@@ -1070,8 +1070,8 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1538243565296">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1538249860564">
+        <mark key="'" line="813" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/data/output_metric_query_2.json" timestamp="1515803754834">
         <mark key="'" line="0" column="0" />
@@ -2049,8 +2049,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="351" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
-      <jump line="353" column="13" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="13" column="36" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="361" column="30" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="8" column="21" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
@@ -2149,6 +2147,8 @@
       <jump line="39" column="16" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
       <jump line="66" column="24" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
       <jump line="35" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="142" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="813" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2158,7 +2158,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2703,19 +2703,19 @@
         <text>private_client.open_orders()[ticker.__repr__()]</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>def .*sell</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGJhc2UgPSBDdXJyZW5jeS5mcm9tX3Nob3J0X25hbWUoZnJvbnQsIGV4Y2hhbmdlKQogICAgICAgICAgICAgICAgY3VycmVuY3kgPSBDdXJyZW5jeS5mcm9tX3Nob3J0X25hbWUoYmFjaywgZXhjaGFuZ2UpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbmFtZSA9PSAnYml0dHJleCc6CiAgICAgICAgICAgICAgICBjb250aW51ZQ==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdXVpZCA9IHN0cih1dWlkKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2738,10 +2738,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbmFtZSA9PSAnYml0dHJleCc6CiAgICAgICAgICAgICAgICBjb250aW51ZQ==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2809,28 +2809,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoJ05lZWQgaGV1cmlzdGljIGZvciBoaXRidGMnKQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJlbmN5ID0gQ3VycmVuY3kuZnJvbV9uYW1lKGZyb250KQo=</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJhc2UgPSBDdXJyZW5jeS5mcm9tX25hbWUoYmFjaykK</text>
+        <text encoding="base64">ICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoJ05lZWQgaGV1cmlzdGljIGZvciBoaXRidGMnKQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>def .*sell</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>def .*sell</last-pattern>
       <last-replace />
       <last-substitute>self\.</last-substitute>
       <last-dir>1</last-dir>
@@ -2838,8 +2838,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def clipped_me</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>x</entry>
         <entry>cls\.</entry>
         <entry>7b</entry>
@@ -2858,6 +2856,8 @@
         <entry>class Coin</entry>
         <entry>ticker_summary</entry>
         <entry>pudb</entry>
+        <entry>class Tick</entry>
+        <entry>def .*sell</entry>
       </history-search>
       <history-cmd>
         <entry>qw</entry>
