@@ -440,6 +440,9 @@
         <mark key="." line="47" column="35" />
         <mark key="^" line="47" column="35" />
       </file>
+      <file name="$USER_HOME$/envs/crypto-env/lib/python3.5/site-packages/pybittrex/client.py" timestamp="1538237653937">
+        <mark key="'" line="5" column="6" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/to_be_cleaned/clustering.py" timestamp="1533153795421">
         <mark key="'" line="26" column="55" />
         <mark key="[" line="34" column="118" />
@@ -2115,7 +2118,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="121" column="60" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="258" column="16" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="256" column="12" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="120" column="16" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -2215,6 +2217,7 @@
       <jump line="95" column="22" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" />
       <jump line="305" column="7" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="380" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="5" column="6" filename="$USER_HOME$/envs/crypto-env/lib/python3.5/site-packages/pybittrex/client.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2769,7 +2772,7 @@
         <text>8696268d2741d082b35e971d4e444dd4</text>
       </register>
       <register name="/" type="4">
-        <text>def gain</text>
+        <text>balance</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRpc3BsYXlfbWV0cmljcyhtMSwgbTIsIGtwaSwgInNldF91cF83YiIpCg==</text>
@@ -2894,9 +2897,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def gain</last-search>
+      <last-search>balance</last-search>
       <last-offset />
-      <last-pattern>def gain</last-pattern>
+      <last-pattern>balance</last-pattern>
       <last-replace />
       <last-substitute>self\.</last-substitute>
       <last-dir>1</last-dir>
@@ -2904,7 +2907,6 @@
     </search>
     <history>
       <history-search>
-        <entry>orig</entry>
         <entry>mock</entry>
         <entry>anomaly_ut</entry>
         <entry>orig_anom</entry>
@@ -2924,6 +2926,7 @@
         <entry>test_7</entry>
         <entry>example_7</entry>
         <entry>def gain</entry>
+        <entry>balance</entry>
       </history-search>
       <history-cmd>
         <entry>276</entry>
