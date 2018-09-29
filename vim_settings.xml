@@ -83,12 +83,12 @@
         <mark key="^" line="52" column="70" />
         <mark key="." line="52" column="70" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1538243925707">
-        <mark key="'" line="192" column="10" />
-        <mark key="[" line="19" column="24" />
-        <mark key="]" line="20" column="36" />
-        <mark key="." line="20" column="36" />
-        <mark key="^" line="20" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1538249330046">
+        <mark key="'" line="34" column="0" />
+        <mark key="[" line="65" column="0" />
+        <mark key="]" line="65" column="0" />
+        <mark key="^" line="83" column="34" />
+        <mark key="." line="65" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/data/metric_queries_3.json" timestamp="1513958614044">
         <mark key="'" line="0" column="0" />
@@ -2049,12 +2049,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="349" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
-      <jump line="128" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
-      <jump line="165" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
-      <jump line="297" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
-      <jump line="338" column="16" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
-      <jump line="346" column="19" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="351" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="353" column="13" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="13" column="36" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
@@ -2149,6 +2143,12 @@
       <jump line="1003" column="42" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="191" column="10" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="37" column="30" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="23" column="12" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="39" column="16" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="66" column="24" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
+      <jump line="35" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2158,7 +2158,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2700,22 +2700,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>back</text>
+        <text>private_client.open_orders()[ticker.__repr__()]</text>
       </register>
       <register name="/" type="4">
-        <text>class Coin</text>
+        <text>pudb</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGJhc2UgPSBDdXJyZW5jeS5mcm9tX3Nob3J0X25hbWUoZnJvbnQsIGV4Y2hhbmdlKQogICAgICAgICAgICAgICAgY3VycmVuY3kgPSBDdXJyZW5jeS5mcm9tX3Nob3J0X25hbWUoYmFjaywgZXhjaGFuZ2UpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoJ05lZWQgaGV1cmlzdGljIGZvciBoaXRidGMnKQo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbmFtZSA9PSAnYml0dHJleCc6CiAgICAgICAgICAgICAgICBjb250aW51ZQ==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2738,10 +2738,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJlbmN5ID0gQ3VycmVuY3kuZnJvbV9uYW1lKGZyb250KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJhc2UgPSBDdXJyZW5jeS5mcm9tX25hbWUoYmFjaykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2809,28 +2809,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJlbmN5ID0gQ3VycmVuY3kuZnJvbV9uYW1lKGJhY2spCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlZiBmcm9tX3Nob3J0X25hbWUoY2xzLCBzaG9ydCwgZXhjaGFuZ2UpOgo=</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5jcnlwdGVkX2tleSA9IGNyZWRlbnRpYWxzLkhJVEJUQ19FTkNSWVBURURfS0VZCiAgICAgICAgICAgIGVuY3J5cHRlZF9zZWNyZXQgPSBjcmVkZW50aWFscy5ISVRCVENfRU5DUllQVEVEX1NFQ1JFVAoKICAgICAgICAgICAgIyBEZWNyeXB0IGNvZGUgc2hvdWxkIHJ1biBvbmNlIGFuZCB2YXJpYWJsZXMgc3RvcmVkIG91dHNpZGUgb2YgdGhlIGZ1bmN0aW9uCiAgICAgICAgICAgICMgaGFuZGxlciBzbyB0aGF0IHRoZXNlIGFyZSBkZWNyeXB0ZWQgb25jZSBwZXIgY29udGFpbmVyCgogICAgICAgICAgICBoaXRidGNfa2V5ID0gcXVpbG1lcy5kZWNyeXB0KGVuY3J5cHRlZF9rZXkpCiAgICAgICAgICAgIGhpdGJ0Y19zZWNyZXQgPSBxdWlsbWVzLmRlY3J5cHQoZW5jcnlwdGVkX3NlY3JldCkK</text>
+        <text encoding="base64">ICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoJ05lZWQgaGV1cmlzdGljIGZvciBoaXRidGMnKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8udGhpcmRwYXJ0eS5leGFtcGxlX3Jlc3QgaW1wb3J0IENsaWVudAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJlbmN5ID0gQ3VycmVuY3kuZnJvbV9uYW1lKGZyb250KQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGInZ0FBQUFBQmJyNVh6MzdkSWlBcDMzb0VNNHdPV1FZeEhFSElVSExlQ09TdjF5WVphOUpkTVRFRHNIZ0lKbEtqNkNaOFZsdXBXZm9RUjVTblZOaGNfeUNJQzJydjJELURQcmp2amw1VTRfUng5Zy1YendMaFBMSHlHZHFTTnlpbEU2SC1fYmxWQ1Z0NEonCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJhc2UgPSBDdXJyZW5jeS5mcm9tX25hbWUoYmFjaykK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>class Coin</last-search>
+      <last-search>pudb</last-search>
       <last-offset />
-      <last-pattern>class Coin</last-pattern>
+      <last-pattern>pudb</last-pattern>
       <last-replace />
       <last-substitute>self\.</last-substitute>
       <last-dir>1</last-dir>
@@ -2838,8 +2838,6 @@
     </search>
     <history>
       <history-search>
-        <entry>self</entry>
-        <entry>display_met</entry>
         <entry>def clipped_me</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>x</entry>
@@ -2858,6 +2856,8 @@
         <entry>Publi</entry>
         <entry>build</entry>
         <entry>class Coin</entry>
+        <entry>ticker_summary</entry>
+        <entry>pudb</entry>
       </history-search>
       <history-cmd>
         <entry>qw</entry>
