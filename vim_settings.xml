@@ -1098,8 +1098,8 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1538352792342">
-        <mark key="'" line="586" column="35" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1538372334089">
+        <mark key="'" line="609" column="64" />
         <mark key="[" line="1276" column="43" />
         <mark key="]" line="1276" column="43" />
         <mark key="^" line="1276" column="43" />
@@ -2078,8 +2078,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="49" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="61" column="49" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="75" column="58" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="99" column="49" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="109" column="49" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
@@ -2178,6 +2176,8 @@
       <jump line="49" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="111" column="12" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="151" column="37" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="588" column="13" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="609" column="64" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2732,7 +2732,7 @@
         <text>os.path.abspath(os.path.join(os.environ['CRYPTO_ROOT'], '../results/test_db.db'))</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8PA==</text>
+        <text>class Exch</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjb25uZWN0aW9uLCB0cmFuc2FjdGlvbnNfdGFibGVfbmFtZSwgdHJhbnNmZXJzX3RhYmxlX25hbWUpOgo=</text>
@@ -2857,9 +2857,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8PA==</last-search>
+      <last-search>class Exch</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8PA==</last-pattern>
+      <last-pattern>class Exch</last-pattern>
       <last-replace>transfers</last-replace>
       <last-substitute>transactions</last-substitute>
       <last-dir>1</last-dir>
@@ -2867,8 +2867,6 @@
     </search>
     <history>
       <history-search>
-        <entry>4</entry>
-        <entry>3</entry>
         <entry>Node</entry>
         <entry>clsas Node</entry>
         <entry>class Currency</entry>
@@ -2887,6 +2885,8 @@
         <entry>__init</entry>
         <entry>commit</entry>
         <entry encoding="base64">PDw8PA==</entry>
+        <entry>Exch</entry>
+        <entry>class Exch</entry>
       </history-search>
       <history-cmd>
         <entry>55,130s/self\.//gc</entry>
