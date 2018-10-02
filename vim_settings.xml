@@ -561,6 +561,13 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1538510763269">
+        <mark key="'" line="141" column="0" />
+        <mark key="[" line="102" column="0" />
+        <mark key="]" line="102" column="0" />
+        <mark key="^" line="102" column="108" />
+        <mark key="." line="102" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
         <mark key="[" line="62" column="55" />
@@ -2103,7 +2110,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="330" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="358" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="392" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="249" column="40" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -2203,6 +2209,7 @@
       <jump line="3" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
       <jump line="31" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
       <jump line="44" column="59" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
+      <jump line="146" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2212,7 +2219,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">PDw8PDw8PCBjYzIyNTNlZjdmZTkyNTFmYzEwZDBmNmRlNjUzYzE2YjUyNmU1ODFmCj09PT09PT0K</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2757,19 +2764,19 @@
         <text>min_pnts</text>
       </register>
       <register name="/" type="4">
-        <text>war</text>
+        <text encoding="base64">PDw8</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIG1pbl9fID0gbnAubG9nKG1heChlcHMsIG1pbihuZWd2YWx1ZXMpLTAuNSkpIC8gbnAubG9nKGJhc2UpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">PDw8PDw8PCBjYzIyNTNlZjdmZTkyNTFmYzEwZDBmNmRlNjUzYzE2YjUyNmU1ODFmCj09PT09PT0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
+        <text encoding="base64">Pj4+Pj4+PiBDaGFuZ2luZyBzdGFydCB0aW1lIG9mIGEgZmFpbGluZyB0ZXN0Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2792,10 +2799,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBhZGRfdGV4dF90b19odG1sKHNlbGYsIGZpbGVuYW1lKToKICAgICAgICBwYXNzCgogICAgZGVmIHNjb3JlKHNlbGYsIFgsIHkpOgogICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vZGlmaWVkX21ldHJpY3MgPSBzZWxmLmNsaXBfbWV0cmljc190b192YWx1ZShtLCBhbm9tYWx5X2ludGVydmFscywgY2xpcF92YWx1ZV90eXBlPSdtZWFuJykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgbW9kaWZpZWRfbWV0cmljcyA9IHNlbGYuY2xpcF9tZXRyaWNzX3RvX3ZhbHVlKG0sIGFub21hbHlfaW50ZXJ2YWxzLCBjbGlwX3ZhbHVlX3R5cGU9J21lYW4nKQo+Pj4+Pj4+IHBhYmxvX3BkZgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgQFBKIHdoeSBhcmUgd2UgZG9pbmcgdGhpcyBpZiB3ZSBhbHJlYWR5IGhhdmUgbm9ybWFsX3ZhbHVlcy4gSSBkb24ndCB1bmRlcnN0YW5kIHdoeSB3ZSBuZWVkIGJvdGguCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2863,33 +2870,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgQFBKIHdoeSBhcmUgd2UgZG9pbmcgdGhpcyBpZiB3ZSBhbHJlYWR5IGhhdmUgbm9ybWFsX3ZhbHVlcy4gSSBkb24ndCB1bmRlcnN0YW5kIHdoeSB3ZSBuZWVkIGJvdGguCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vZGlmaWVkX21ldHJpY3MgPSBzZWxmLmNsaXBfbWV0cmljc190b192YWx1ZShtLCBhbm9tYWx5X2ludGVydmFscywgY2xpcF92YWx1ZV90eXBlPSdtZWFuJykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="8">
-        <text>#
-#
-#
-#
-#
-#</text>
+      <register name="7" type="2">
+        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgIGRlZiBhZGRfdGV4dF90b19odG1sKHNlbGYsIGZpbGVuYW1lKToKICAgICAgICBwYXNzCgogICAgZGVmIHNjb3JlKHNlbGYsIFgsIHkpOgogICAgICAgIHBhc3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgbW9kaWZpZWRfbWV0cmljcyA9IHNlbGYuY2xpcF9tZXRyaWNzX3RvX3ZhbHVlKG0sIGFub21hbHlfaW50ZXJ2YWxzLCBjbGlwX3ZhbHVlX3R5cGU9J21lYW4nKQo+Pj4+Pj4+IHBhYmxvX3BkZgo=</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>59</text>
       </register>
     </registers>
     <search>
-      <last-search>war</last-search>
+      <last-search encoding="base64">PDw8</last-search>
       <last-offset />
-      <last-pattern>war</last-pattern>
+      <last-pattern encoding="base64">PDw8</last-pattern>
       <last-replace>edges</last-replace>
       <last-substitute>bins</last-substitute>
       <last-dir>1</last-dir>
@@ -2897,7 +2899,6 @@
     </search>
     <history>
       <history-search>
-        <entry>DataF</entry>
         <entry>hash</entry>
         <entry>hashlib</entry>
         <entry>lru</entry>
@@ -2917,9 +2918,9 @@
         <entry encoding="base64">PDw8PDw=</entry>
         <entry>causation</entry>
         <entry>war</entry>
+        <entry encoding="base64">PDw8</entry>
       </history-search>
       <history-cmd>
-        <entry>326</entry>
         <entry>126</entry>
         <entry>46</entry>
         <entry>407</entry>
@@ -2939,6 +2940,7 @@
         <entry>43</entry>
         <entry>q</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>59</entry>
       </history-cmd>
       <history-expr />
       <history-input />
