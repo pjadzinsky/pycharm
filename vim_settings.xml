@@ -62,6 +62,12 @@
         <mark key="." line="11" column="7" />
         <mark key="^" line="11" column="7" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1538677903042">
+        <mark key="[" line="73" column="49" />
+        <mark key="]" line="73" column="48" />
+        <mark key="^" line="73" column="48" />
+        <mark key="." line="73" column="48" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittests/fake_data_anomaly_model.json" timestamp="1537396991019">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="56" column="0" />
@@ -113,6 +119,13 @@
         <mark key="]" line="38" column="0" />
         <mark key="." line="38" column="0" />
         <mark key="^" line="39" column="15" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" timestamp="1538677821857">
+        <mark key="'" line="105" column="18" />
+        <mark key="[" line="147" column="34" />
+        <mark key="]" line="148" column="7" />
+        <mark key="." line="148" column="7" />
+        <mark key="^" line="148" column="7" />
       </file>
       <file name="$USER_HOME$/Testeo/pick_currencies.py" timestamp="1512614966532">
         <mark key="'" line="8" column="11" />
@@ -880,13 +893,6 @@
         <mark key="." line="192" column="12" />
         <mark key="^" line="192" column="12" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/README_tests.md" timestamp="1538677102688">
-        <mark key="'" line="103" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="^" line="34" column="0" />
-        <mark key="." line="36" column="0" />
-      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/s3_utils.py" timestamp="1528698253158">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="70" column="0" />
@@ -1467,7 +1473,8 @@
         <mark key="." line="26" column="0" />
         <mark key="^" line="26" column="43" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/base_feature_creator.py" timestamp="1538663807876">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/base_feature_creator.py" timestamp="1538677849609">
+        <mark key="'" line="30" column="8" />
         <mark key="[" line="10" column="89" />
         <mark key="]" line="10" column="88" />
         <mark key="." line="10" column="88" />
@@ -2198,8 +2205,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="142" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="228" column="82" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="271" column="83" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="406" column="77" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="471" column="75" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2298,6 +2303,8 @@
       <jump line="14" column="27" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_mi_utils.py" />
       <jump line="24" column="36" filename="$USER_HOME$/opas/core/python/README_tests.md" />
       <jump line="106" column="0" filename="$USER_HOME$/opas/core/python/README_tests.md" />
+      <jump line="105" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
+      <jump line="30" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/base_feature_creator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2307,7 +2314,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBBdXBkYXRpbmcgZG9jdW1lbmF0aW9uIGZvciB0ZXN0cyB0byBpbmNvcnBvcmF0ZSBuZXcgbG9jYWxzdG9yYWdlIGNoYW5nZXMK</text>
+        <text encoding="base64">ICAgICAgICBiZWZvcmUgUGlwZWxpbmVGSWxsZXIsIGxldHMgZW5zdXJlIHRoYXQncyB0cnVlLgogICAgICAgIEknbSBwdXR0aW5nIFNlYXNvbmFsaXR5RmVhdHVyZUNyZWF0b3IgZmlyc3R3aWxsIGJlIGZpcnN0IGJlY2F1ZSB0aGUgRW5zdXJlU2Vhc29uYWxpdHlJbnB1dCBwcm9jZXNzb3IgbWlnaHQgY3JlYXRlIGR1bW15IGlucHV0IG1ldHJpY3MgYW5kIHdlIGRvbid0CiAgICAgICAgd2FudCBldmVyeSBzaW5nbGUgZmVhdHVyZSBjcmVhdG9yIHRvIHdvcmsgb24gdGhlbS4gVGhpcyBhbHNvIHJlbGllcyBvbiB0aGUgZmFjdCB0aGF0IFNlYXNvbmFsaXR5RmVhdHVyZUNyZWF0b3IKICAgICAgICByZW1vdmVzIHRoaXMgZHVtbXkgbWV0cmljcyBmcm9tIHRoZSBpbnB1dCBzZXQgYWZ0ZXIgdXNpbmcgdGhlbQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2849,22 +2856,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>self</text>
+        <text>In general it doesn't matter in which order we apply the feature creators but</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8</text>
+        <text>sort</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHByZWRpY3Rpb24uc3RhcnQsIHN0YXJ0KQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBBdXBkYXRpbmcgZG9jdW1lbmF0aW9uIGZvciB0ZXN0cyB0byBpbmNvcnBvcmF0ZSBuZXcgbG9jYWxzdG9yYWdlIGNoYW5nZXMK</text>
+        <text encoding="base64">ICAgICAgICBiZWZvcmUgUGlwZWxpbmVGSWxsZXIsIGxldHMgZW5zdXJlIHRoYXQncyB0cnVlLgogICAgICAgIEknbSBwdXR0aW5nIFNlYXNvbmFsaXR5RmVhdHVyZUNyZWF0b3IgZmlyc3R3aWxsIGJlIGZpcnN0IGJlY2F1ZSB0aGUgRW5zdXJlU2Vhc29uYWxpdHlJbnB1dCBwcm9jZXNzb3IgbWlnaHQgY3JlYXRlIGR1bW15IGlucHV0IG1ldHJpY3MgYW5kIHdlIGRvbid0CiAgICAgICAgd2FudCBldmVyeSBzaW5nbGUgZmVhdHVyZSBjcmVhdG9yIHRvIHdvcmsgb24gdGhlbS4gVGhpcyBhbHNvIHJlbGllcyBvbiB0aGUgZmFjdCB0aGF0IFNlYXNvbmFsaXR5RmVhdHVyZUNyZWF0b3IKICAgICAgICByZW1vdmVzIHRoaXMgZHVtbXkgbWV0cmljcyBmcm9tIHRoZSBpbnB1dCBzZXQgYWZ0ZXIgdXNpbmcgdGhlbQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Pj4+Pj4+PiBBdXBkYXRpbmcgZG9jdW1lbmF0aW9uIGZvciB0ZXN0cyB0byBpbmNvcnBvcmF0ZSBuZXcgbG9jYWxzdG9yYWdlIGNoYW5nZXMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2887,10 +2894,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PDw8PDw8PCA4Y2U0MWVkMWZmMWU1NjBiMTE5MzQ1ZDYwMDUwYjExYTBiMGNiOTBjCg==</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBtZXRyaWMgZ2V0IHRoZSBwaXBlbGluZV92YWx1ZSBmb3IgdGhlIG1ldHJpYyBwaXBlbGluZV9kZWYK</text>
+        <text encoding="base64">PDw8PDw8PCA4Y2U0MWVkMWZmMWU1NjBiMTE5MzQ1ZDYwMDUwYjExYTBiMGNiOTBjCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2958,28 +2965,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyAgdmFsdWVzIHRoYXQgYXJlIHBhcnQgb2YgcGlwZWxpbmVfZGVmIGFzIGRlZmluZWQgZm9yIHRoZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBtZXRyaWMgZ2V0IHRoZSBwaXBlbGluZV92YWx1ZSBmb3IgdGhlIG1ldHJpYyBwaXBlbGluZV9kZWYK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyByZXBsYWNlIHRhZ3MgZGVmaW5lZCBpbiBwaXBlbGluZV9kZWYK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyAgdmFsdWVzIHRoYXQgYXJlIHBhcnQgb2YgcGlwZWxpbmVfZGVmIGFzIGRlZmluZWQgZm9yIHRoZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyByZXBsYWNlIHRhZ3MgZGVmaW5lZCBpbiBwaXBlbGluZV9kZWYK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">YGBgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhc3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YGBgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>124</text>
+        <text>73</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8</last-search>
+      <last-search>sort</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8</last-pattern>
+      <last-pattern>sort</last-pattern>
       <last-replace>self.uber_feature_creator</last-replace>
       <last-substitute>self.feature_creator</last-substitute>
       <last-dir>1</last-dir>
@@ -2987,7 +2994,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def trin</entry>
         <entry>def train</entry>
         <entry>K</entry>
         <entry>def predict(</entry>
@@ -3007,9 +3013,9 @@
         <entry>storage_client</entry>
         <entry>Cache</entry>
         <entry encoding="base64">PDw8</entry>
+        <entry>sort</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/self.feature_creator/self.uber_feature_creator/gc</entry>
         <entry>wq</entry>
         <entry>34</entry>
         <entry>152</entry>
@@ -3029,6 +3035,7 @@
         <entry>255</entry>
         <entry>q</entry>
         <entry>124</entry>
+        <entry>73</entry>
       </history-cmd>
       <history-expr />
       <history-input />
