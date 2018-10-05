@@ -957,6 +957,10 @@
         <mark key="." line="2" column="89" />
         <mark key="^" line="2" column="89" />
       </file>
+      <file name="/keras_base_model.py" timestamp="1538757935523">
+        <mark key="[" line="107" column="0" />
+        <mark key="]" line="108" column="62" />
+      </file>
       <file name="$USER_HOME$/Testeo/upload_trade.sh" timestamp="1515684878638">
         <mark key="'" line="41" column="14" />
         <mark key="[" line="52" column="24" />
@@ -1359,11 +1363,11 @@
         <mark key="." line="20" column="17" />
         <mark key="^" line="20" column="17" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1538757346941">
-        <mark key="[" line="118" column="32" />
-        <mark key="]" line="118" column="30" />
-        <mark key="^" line="118" column="30" />
-        <mark key="." line="118" column="30" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1538757966899">
+        <mark key="[" line="125" column="12" />
+        <mark key="]" line="125" column="27" />
+        <mark key="." line="125" column="27" />
+        <mark key="^" line="125" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/tests/data/utils.py" timestamp="1533581396915">
         <mark key="'" line="33" column="60" />
@@ -2338,8 +2342,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbCA9IE5vbmUK</text>
+      <register name="&quot;" type="4">
+        <text>model</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2881,22 +2885,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>definition_file</text>
+        <text>model</text>
       </register>
       <register name="/" type="4">
-        <text>load_classifier</text>
+        <text>call the base</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb2NhbF9maWxlbmFtZSA9IG9zLnBhdGguam9pbihmb2xkZXIsIGNvbnN0YW50cy5SQU5ET01fRk9SRVNUX01PREVMX0ZJTEUpCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKGxvY2FsX2ZpbGVuYW1lKToKICAgICAgICAgICAgIyBjYWxsIHRoZSBiYXNlIGNsYXNzIGxvYWQgbWV0aG9kIGZpcnN0IHRvIGdldCB0aGUgYmFzZSBjbGFzcyBhIGNoYW5jZSB0byBsb2FkIHdoYXQgZXZlciBpdCBuZWVkcwogICAgICAgICAgICBPcGFzQmFzZU1vZGVsLmxvYWRfaW50ZXJuYWwoc2VsZiwgbGFzdF9jaGVja3BvaW50X3RpbWUpCiAgICAgICAgICAgIHNlbGYuX19kb3dubG9hZF9jbGFzc2lmaWVyKGxhc3RfY2hlY2twb2ludF90aW1lKQoKICAgICAgICBzZWxmLmNsZiA9IHNlbGYuX19sb2FkX2NsYXNzaWZpZXIobGFzdF9jaGVja3BvaW50X3RpbWUpCg==</text>
+        <text encoding="base64">ICAgICAgICAjIGNhbGwgdGhlIGJhc2UgY2xhc3MgbG9hZCBtZXRob2QgZmlyc3QgdG8gZ2V0IHRoZSBiYXNlIGNsYXNzIGEgY2hhbmNlIHRvIGxvYWQgd2hhdGV2ZXIgaXQgbmVlZHMKICAgICAgICBPcGFzQmFzZU1vZGVsLmxvYWRfaW50ZXJuYWwoc2VsZiwgbGFzdF9jaGVja3BvaW50X3RpbWUpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbCA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmFpc2UgSU9FcnJvcignbW9kZWwgZGVmaW5pdGlvbiB3aXRoIG5vIHdlaWdodHM6IHt9Jy5mb3JtYXQobW9kZWxfZmlsZSkpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIHJhaXNlIGUK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2919,10 +2923,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbCA9IE5vbmUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBvcGVuKGRlZmluaXRpb25fZmlsZSkgYXMgZjoKICAgICAgICAgICAgICAgIGxvYWRlZF9tb2RlbF95YW1sID0gZi5yZWFkKCkKCiAgICAgICAgICAgIG1vZGVsID0ga2VyYXMubW9kZWxzLm1vZGVsX2Zyb21feWFtbChsb2FkZWRfbW9kZWxfeWFtbCkK</text>
+        <text encoding="base64">ICAgICAgICAjIGxvYWQgd2VpZ2h0cwogICAgICAgIHRyeToKICAgICAgICAgICAgc2VsZi5rZXJhc19tb2RlbC5sb2FkX3dlaWdodHMod2VpZ2h0c19maWxlKQogICAgICAgICAgICBsb2dnZXIuaW5mbygnTG9hZGVkIGtlcmFzIG1vZGVsIGFuZCB3ZWlnaHRzIGNvcnJlc3BvbmRpbmcgdG8gdGltZToge30nLmZvcm1hdChsYXN0X2NoZWNrcG9pbnRfdGltZSkpCiAgICAgICAgZXhjZXB0IGV4Y2VwdGlvbnMuQ2xpZW50RXJyb3I6CiAgICAgICAgICAgIHJhaXNlIElPRXJyb3IoJ21vZGVsIGRlZmluaXRpb24gd2l0aCBubyB3ZWlnaHRzOiB7fScuZm9ybWF0KG1vZGVsX2ZpbGUpKQoK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2990,28 +2994,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBvcGVuKGRlZmluaXRpb25fZmlsZSkgYXMgZjoKICAgICAgICAgICAgICAgIGxvYWRlZF9tb2RlbF95YW1sID0gZi5yZWFkKCkKCiAgICAgICAgICAgIG1vZGVsID0ga2VyYXMubW9kZWxzLm1vZGVsX2Zyb21feWFtbChsb2FkZWRfbW9kZWxfeWFtbCkK</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbCA9IE5vbmUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYua2VyYXNfbW9kZWwubG9hZF93ZWlnaHRzKHdlaWdodHNfZmlsZSkKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCdMb2FkZWQga2VyYXMgbW9kZWwgYW5kIHdlaWdodHMgY29ycmVzcG9uZGluZyB0byB0aW1lOiB7fScuZm9ybWF0KGxhc3RfY2hlY2twb2ludF90aW1lKSkKICAgICAgICAgICAgZXhjZXB0IGV4Y2VwdGlvbnMuQ2xpZW50RXJyb3I6CiAgICAgICAgICAgICAgICByYWlzZSBJT0Vycm9yKCdtb2RlbCBkZWZpbml0aW9uIHdpdGggbm8gd2VpZ2h0czoge30nLmZvcm1hdChzM19rZXkpKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbCA9IE5vbmUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmtlcmFzX21vZGVsOiAgICMgbW9kZWwgY291bGQgYmUgTm9uZSBpZiB0aGVyZSBpcyBubyAnbW9kZWxfZGVmaW5pdGlvbi55YW1sJyBmaWxlIGluIHMzCiAgICAgICAgICAgICMgbm93IGxvYWQgdGhlIHdlaWdodHMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBvcGVuKGRlZmluaXRpb25fZmlsZSkgYXMgZjoKICAgICAgICAgICAgICAgIGxvYWRlZF9tb2RlbF95YW1sID0gZi5yZWFkKCkKCiAgICAgICAgICAgIG1vZGVsID0ga2VyYXMubW9kZWxzLm1vZGVsX2Zyb21feWFtbChsb2FkZWRfbW9kZWxfeWFtbCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIExvYWQgdGhlIHN0dWZmIHdlIGV4cGxpY2l0bHkgc2F2ZWQgZHVyaW5nIHRoZSBzYXZlIGNhbGwKICAgICAgICBzZWxmLmtlcmFzX21vZGVsID0gc2VsZi5fX2Rvd25sYW9kX2tlcmFzX2RlZmluaXRpb24obGFzdF9jaGVja3BvaW50X3RpbWUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBvcGVuKGRlZmluaXRpb25fZmlsZSkgYXMgZjoKICAgICAgICAgICAgICAgIGxvYWRlZF9tb2RlbF95YW1sID0gZi5yZWFkKCkKCiAgICAgICAgICAgIG1vZGVsID0ga2VyYXMubW9kZWxzLm1vZGVsX2Zyb21feWFtbChsb2FkZWRfbW9kZWxfeWFtbCkK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>load_classifier</last-search>
+      <last-search>call the base</last-search>
       <last-offset />
-      <last-pattern>load_classifier</last-pattern>
+      <last-pattern>call the base</last-pattern>
       <last-replace>self.uber_feature_creator</last-replace>
       <last-substitute>self.feature_creator</last-substitute>
       <last-dir>1</last-dir>
@@ -3019,7 +3023,6 @@
     </search>
     <history>
       <history-search>
-        <entry>==.*==.*==</entry>
         <entry>.*==.*==</entry>
         <entry>for preprocessor</entry>
         <entry>get_pipeline()</entry>
@@ -3039,6 +3042,7 @@
         <entry encoding="base64">PDw8</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry>load_classifier</entry>
+        <entry>call the base</entry>
       </history-search>
       <history-cmd>
         <entry>73</entry>
