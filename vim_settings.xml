@@ -901,12 +901,12 @@
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1538884458208">
-        <mark key="'" line="203" column="61" />
-        <mark key="[" line="228" column="0" />
-        <mark key="]" line="228" column="0" />
-        <mark key="^" line="221" column="21" />
-        <mark key="." line="228" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1538887254795">
+        <mark key="'" line="162" column="24" />
+        <mark key="[" line="274" column="8" />
+        <mark key="]" line="275" column="38" />
+        <mark key="^" line="275" column="38" />
+        <mark key="." line="275" column="38" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/s3_utils.py" timestamp="1528698253158">
         <mark key="'" line="0" column="0" />
@@ -2182,7 +2182,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="58" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/combined_model.py" />
       <jump line="101" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/combined_model.py" />
       <jump line="176" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
       <jump line="181" column="17" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
@@ -2282,6 +2281,7 @@
       <jump line="204" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="215" column="45" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="203" column="61" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="162" column="24" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2291,7 +2291,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgMyAgICAgICBDLT5BICAgIDI1LT4wLjUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50CiAgICAgICAgICAgIDMgICAgICAgQy0+QSAgICA3NS0+MS41ICAgICAgICAgYWFhICAgICAgICAgTm9uZSAgICBOb3Qgc2VudAogICAgICAgICAgICAyICAgICAgIEItPkMgICAgMi41LTI1ICAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgT3BlbgogICAgICAgICAgICAyICAgICAgIEItPkMgICAgNy41LT43NSAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgTm90IHNlbnQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2833,22 +2833,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Not</text>
+        <text>bbb</text>
       </register>
       <register name="/" type="4">
-        <text>wti</text>
+        <text>opo</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgMSAgICAgICBBLT5CICAgIDEtPjEwICAgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE9wZW4KICAgICAgICAgICAgMiAgICAgICBCLT5DICAgIDIuNS0yNSAgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE9wZW4KICAgICAgICAgICAgMyAgICAgICBDLT5BICAgIDI1LT4wLjUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50CiAgICAgICAgICAgIDIgICAgICAgQi0+QyAgICA3LjUtPjc1ICAgICAgICAgYWFhICAgICAgICAgTm9uZSAgICBOb3Qgc2VudAogICAgICAgICAgICAzICAgICAgIEMtPkEgICAgNzUtPjEuNSAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgTm90IHNlbnQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgMSAgICAgICBBLT5CICAgIDEtPjEwICAgICAgICAgICBiYmIgICAgICAgICBOb25lICAgIE5vdCBzZW50CiAgICAgICAgICAgIDIgICAgICAgQi0+QyAgICAxMC0+MTAwICAgICAgICAgYmJiICAgICAgICAgTm9uZSAgICBOb3Qgc2VudAogICAgICAgICAgICAzICAgICAgIEMtPkEgICAgMTAwLT4yICAgICAgICAgIGJiYiAgICAgICAgIE5vbmUgICAgTm90IHNlbnQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgMyAgICAgICBDLT5BICAgIDI1LT4wLjUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50CiAgICAgICAgICAgIDMgICAgICAgQy0+QSAgICA3NS0+MS41ICAgICAgICAgYWFhICAgICAgICAgTm9uZSAgICBOb3Qgc2VudAogICAgICAgICAgICAyICAgICAgIEItPkMgICAgMi41LTI1ICAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgT3BlbgogICAgICAgICAgICAyICAgICAgIEItPkMgICAgNy41LT43NSAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgTm90IHNlbnQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgMyAgICAgICBDLT5BICAgIDI1LT4wLjUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50Cg==</text>
+        <text encoding="base64">ICAgICAgICBJZiBhbiBlcnJvciBvY2N1cnMgaW4gb3JkZXI6IDIgb2YgdHJhY2tlcl9pZCBhYWEgd2Ugc3RpbGwgaGF2ZSB0byAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2871,10 +2871,14 @@
         </keys>
       </register>
       <register name="3" type="8">
-        <text encoding="base64">IAogCiAKIAogCiA=</text>
+        <text>aa
+aa
+aa</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHdlIHRyeSB0byBwdXNoIHRocm91Z2ggYW5kIHdlIG1pZ2h0IGdldCBsdWNreSB3aXRoIGFsbCB0cmFuc2FjdGlvbnMgYmVpbmcgYWNjZXB0ZWQgYnkgdGhlIGV4Y2hhbmdlIGFuZCBleGVjdXRpbmcK</text>
+      <register name="4" type="8">
+        <text>a
+a
+a</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2942,28 +2946,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIDEuIFdlIHBsYWNlIHRoZSAxc3Qgb3JkZXIgYW5kIHdoZW4gd2UgdHJ5IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgMiAgICAgICBCLT5DICAgIDcuNS0+NzUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIE9wZW4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgMyAgICAgICBDLT5BICAgIDI1LT4wLjUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50CiAgICAgICAgICAgIDMgICAgICAgQy0+QSAgICA3NS0+MS41ICAgICAgICAgYWFhICAgICAgICAgTm9uZSAgICBOb3Qgc2VudAogICAgICAgICAgICAyICAgICAgIEItPkMgICAgMi41LTI1ICAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgT3BlbgogICAgICAgICAgICAyICAgICAgIEItPkMgICAgNy41LT43NSAgICAgICAgIGFhYSAgICAgICAgIE5vbmUgICAgTm90IHNlbnQK</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">IHRvIHR3byBkZnMsIG9uZSByZWZsZWN0aW5nIHdoYXQgY291bAogZXhlY3V0ZSBhdCBzb21lIHBvaW50IGluIHRoZSBmdXR1cmUu</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgMyAgICAgICBDLT5BICAgIDI1LT4wLjUgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">IAogCiAKIAogCiA=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGFuZCB0cmFuc2FjdGlvbnNfcmVhZHk/IHRyYW5zYWN0aW9uc19ub3c/IHdoYXQgZG8gd2UgY2FsbCBpdD8KICAgICAgICBvcmRlciAgIFRpY2tlciAgcXVhbnRpdHkvcmF0ZSAgdHJhY2tlcl9pZCAgIHV1aWQgICAgU3RhdHVzCiAgICAgICAgMiAgICAgICBCLT5DICAgIE5vbmUgICAgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50CiAgICAgICAgMyAgICAgICBDLT5BICAgIE5vbmUgICAgICAgICAgICBhYWEgICAgICAgICBOb25lICAgIE5vdCBzZW50Cg==</text>
+        <text encoding="base64">ICAgIHdlIHRyeSB0byBwdXNoIHRocm91Z2ggYW5kIHdlIG1pZ2h0IGdldCBsdWNreSB3aXRoIGFsbCB0cmFuc2FjdGlvbnMgYmVpbmcgYWNjZXB0ZWQgYnkgdGhlIGV4Y2hhbmdlIGFuZCBleGVjdXRpbmcK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>wti</last-search>
+      <last-search>opo</last-search>
       <last-offset />
-      <last-pattern>wti</last-pattern>
+      <last-pattern>opo</last-pattern>
       <last-replace>transactions_pending</last-replace>
       <last-substitute>transactions_expected</last-substitute>
       <last-dir>1</last-dir>
@@ -2971,7 +2975,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def load_model</entry>
         <entry>def local_folder</entry>
         <entry>Trans</entry>
         <entry>connection</entry>
@@ -2991,6 +2994,7 @@
         <entry>transactions_expected</entry>
         <entry>trye</entry>
         <entry>wti</entry>
+        <entry>opo</entry>
       </history-search>
       <history-cmd>
         <entry>126</entry>
