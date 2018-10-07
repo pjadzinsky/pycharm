@@ -895,12 +895,12 @@
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1538861581581">
-        <mark key="'" line="146" column="66" />
-        <mark key="[" line="314" column="11" />
-        <mark key="]" line="313" column="6" />
-        <mark key="." line="313" column="6" />
-        <mark key="^" line="313" column="6" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1538865401345">
+        <mark key="'" line="294" column="108" />
+        <mark key="[" line="219" column="35" />
+        <mark key="]" line="219" column="16" />
+        <mark key="." line="219" column="16" />
+        <mark key="^" line="219" column="16" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/s3_utils.py" timestamp="1528698253158">
         <mark key="'" line="0" column="0" />
@@ -2176,8 +2176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="934" column="43" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="70" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="30" column="39" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="75" column="93" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="106" column="93" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
@@ -2276,6 +2274,8 @@
       <jump line="146" column="66" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="79" column="19" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" />
       <jump line="67" column="42" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="289" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="290" column="108" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2285,7 +2285,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">IyAgICBidGNfbm9kZXMgPSBzZGsuTm9kZS53aXRoX2N1cnJlbmN5KHNkay5DdXJyZW5jeS5mcm9tX25hbWUoJ2JpdGNvaW4nKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIF9oYW5kbGVfbm90X2Vub3VnaF9jdXJyZW5jeV9leGNlcHRpb24ocykK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2830,19 +2830,19 @@
         <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>__repr__</text>
+        <text>trade_row</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgIyBub3cgdGVzdCB0aGF0IHRoaXMgdXVpZCBpcyBub3Qgb3Blbi4gVGhlcmUgaXMgYSByYWNlIGNvbmRpdGlvbiwgaWYgJ3V1aWQnIGlzIHN0aWxsIGluIG9wZW4gb3JkZXJzLAogICAgICAgICAgICAjIHdhaXQgYSBzZWNvbmQgYW5kIHB1bGwgb3BlbiBvcmRlcnMgYWdhaW4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IyAgICBidGNfbm9kZXMgPSBzZGsuTm9kZS53aXRoX2N1cnJlbmN5KHNkay5DdXJyZW5jeS5mcm9tX25hbWUoJ2JpdGNvaW4nKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIF9oYW5kbGVfbm90X2Vub3VnaF9jdXJyZW5jeV9leGNlcHRpb24ocykK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYXNzZXJ0RmFsc2UodXVpZCBpbiBvcGVuX29yZGVyX3RoaXNfdGlja2VycykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi50cmFuc2FjdGlvbnNfdG9fYmVfcGxhY2VkLmxvY1tpbmRleF0gPSByb3cK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2865,10 +2865,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZS5zbGVlcCgxKQo=</text>
+        <text encoding="base64">ICAgIGV4Y2VwdCBOb3RFbm91Z2hDdXJyZW5jeUV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGxvZ2dlci5leGNlcHRpb24oZSkKICAgICAgICBfaGFuZGxlX25vdF9lbm91Z2hfY3VycmVuY3lfZXhjZXB0aW9uKHMpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgbG9nZ2VyLmV4Y2VwdGlvbihlKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyAgICBidGNfbm9kZXMgPSBzZGsuTm9kZS53aXRoX2N1cnJlbmN5KHNkay5DdXJyZW5jeS5mcm9tX25hbWUoJ2JpdGNvaW4nKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2936,28 +2936,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuYXNzZXJ0RmFsc2UodXVpZCBpbiBvcGVuX29yZGVyX3RoaXNfdGlja2VycykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZS5zbGVlcCgxKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG9wZW5fb3JkZXJfdGhpc190aWNrZXJzID0gcHJpdmF0ZV9jbGllbnQub3Blbl9vcmRlcnMoKS5nZXQodGlja2VyLl9fcmVwcl9fKCksIFtdKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name=":" type="4">
         <text>96</text>
       </register>
     </registers>
     <search>
-      <last-search>__repr__</last-search>
+      <last-search>trade_row</last-search>
       <last-offset />
-      <last-pattern>__repr__</last-pattern>
+      <last-pattern>trade_row</last-pattern>
       <last-replace>self.uber_feature_creator</last-replace>
       <last-substitute>self.feature_creator</last-substitute>
       <last-dir>1</last-dir>
@@ -2965,7 +2965,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def load_internal</entry>
         <entry>local_folder</entry>
         <entry>def save</entry>
         <entry>local_</entry>
@@ -2985,6 +2984,7 @@
         <entry>class Ticker</entry>
         <entry>def _gain</entry>
         <entry>__repr__</entry>
+        <entry>trade_row</entry>
       </history-search>
       <history-cmd>
         <entry>957</entry>
