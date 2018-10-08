@@ -645,11 +645,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1539034452203">
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1539037937115">
         <mark key="'" line="381" column="4" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
+        <mark key="[" line="365" column="79" />
+        <mark key="]" line="366" column="3" />
+        <mark key="." line="366" column="3" />
+        <mark key="^" line="366" column="3" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -1713,12 +1714,12 @@
         <mark key="." line="153" column="32" />
         <mark key="^" line="153" column="32" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" timestamp="1539034974714">
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" timestamp="1539037541942">
         <mark key="'" line="173" column="0" />
-        <mark key="[" line="301" column="103" />
-        <mark key="]" line="302" column="36" />
-        <mark key="." line="302" column="36" />
-        <mark key="^" line="302" column="36" />
+        <mark key="[" line="170" column="4" />
+        <mark key="]" line="170" column="4" />
+        <mark key="." line="170" column="4" />
+        <mark key="^" line="170" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/correlations.py" timestamp="1531260853152">
         <mark key="'" line="40" column="20" />
@@ -1748,8 +1749,8 @@
         <mark key="^" line="24" column="48" />
         <mark key="." line="24" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" timestamp="1539035549552">
-        <mark key="'" line="92" column="28" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" timestamp="1539038021720">
+        <mark key="'" line="199" column="24" />
         <mark key="[" line="194" column="0" />
         <mark key="]" line="194" column="0" />
         <mark key="^" line="194" column="28" />
@@ -2191,12 +2192,12 @@
         <mark key="." line="65" column="0" />
         <mark key="^" line="61" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" timestamp="1538588607727">
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly_fake_data.py" timestamp="1539038098398">
         <mark key="'" line="196" column="43" />
-        <mark key="[" line="213" column="61" />
-        <mark key="]" line="213" column="103" />
-        <mark key="." line="44" column="28" />
-        <mark key="^" line="44" column="28" />
+        <mark key="[" line="209" column="36" />
+        <mark key="]" line="209" column="56" />
+        <mark key="." line="209" column="56" />
+        <mark key="^" line="209" column="56" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_logs.py" timestamp="1536032986032">
         <mark key="'" line="0" column="21" />
@@ -2247,7 +2248,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="106" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="38" column="77" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="39" column="96" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="65" column="77" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2347,6 +2347,7 @@
       <jump line="426" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="382" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="92" column="28" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
+      <jump line="199" column="24" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/whatif.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2355,8 +2356,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JpZ19hbm9tYWxpZXMgPSAK</text>
+      <register name="&quot;" type="4">
+        <text>depipelined_metric_keys</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2898,7 +2899,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>depipelined_metric_keys</text>
       </register>
       <register name="/" type="4">
         <text>min_value</text>
@@ -2907,13 +2908,13 @@
         <text encoding="base64">ICAgICAgICBwcm9iX28xID0gW3BkZjEucHJvYltvMV90MV0sIHBkZjIucHJvYlswMV90MiwgLi4uIHBkZk4ucHJvYlswMV90Tl0uLi5dCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JpZ19hbm9tYWxpZXMgPSAK</text>
+        <text encoding="base64">ICAgIHRoZSBkaXN0cmlidXRpb24gb2YK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JpZ19hbm9tYWxpZXMgPSAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2939,7 +2940,7 @@
         <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkudHJhaW5lcnMub3Bhc19tb2RlbHMuY29tYmluZWRfbW9kZWwgaW1wb3J0IENvbWJpbmVkTW9kZWwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIiIiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3007,19 +3008,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjVE9ETyAgICAgICAgICAgQ3VycmVudCBpbXBsZW1lbnRhdGlvbiBvZiBjbGlwcGluZyBkb2VzIG5vdCB3b3JrIHdoZW4gaW5wdXRzIGhhdmUgY2xlYXIgcGVyaW9kaWNpdHkgYXMgaW4KICAgICAgICAjVE9ETyhDb250KSAgICAgdGVzdF83LCB3ZSBzaG91bGQgYnVpbGQgYSBtb2RlbCBmcm9tIHRpbWUgZmVhdHVyZXMgdG8gZXZlcnkgaW5wdXQgYW5kIGluc3RlYWQgb2YgdXNpbmcKICAgICAgICAjVE9ETyhDb250KSAgICAgdGhlIGNsaXBwZWQgdmFsdWUgdXNlIHRoZSBtb2RlbCdzIHByZWRpY3Rpb24K</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkudHJhaW5lcnMub3Bhc19tb2RlbHMuY29tYmluZWRfbW9kZWwgaW1wb3J0IENvbWJpbmVkTW9kZWwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9iX28yID0gW3BkZjEucHJvYltvMl90MV0sIHBkZjIucHJvYlswMl90MiwgLi4uIHBkZk4ucHJvYlswMl90Tl0uLi5dCg==</text>
+        <text encoding="base64">ICAgICAgICAjVE9ETyAgICAgICAgICAgQ3VycmVudCBpbXBsZW1lbnRhdGlvbiBvZiBjbGlwcGluZyBkb2VzIG5vdCB3b3JrIHdoZW4gaW5wdXRzIGhhdmUgY2xlYXIgcGVyaW9kaWNpdHkgYXMgaW4KICAgICAgICAjVE9ETyhDb250KSAgICAgdGVzdF83LCB3ZSBzaG91bGQgYnVpbGQgYSBtb2RlbCBmcm9tIHRpbWUgZmVhdHVyZXMgdG8gZXZlcnkgaW5wdXQgYW5kIGluc3RlYWQgb2YgdXNpbmcKICAgICAgICAjVE9ETyhDb250KSAgICAgdGhlIGNsaXBwZWQgdmFsdWUgdXNlIHRoZSBtb2RlbCdzIHByZWRpY3Rpb24K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBGb3IgZXhhbXBsZSBpZiB3ZSBoYXZlIHR3byBvdXRwdXRfbWV0cmljcyA9IFtvMSwgXQo=</text>
+        <text encoding="base64">ICAgICAgICBwcm9iX28yID0gW3BkZjEucHJvYltvMl90MV0sIHBkZjIucHJvYlswMl90MiwgLi4uIHBkZk4ucHJvYlswMl90Tl0uLi5dCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhbmQgdGhlbiB3ZSBtdWx0aXBseSBhbGwgdGhvc2UgcHJvYmFiaWxpdGllcy4K</text>
+        <text encoding="base64">ICAgICAgICBGb3IgZXhhbXBsZSBpZiB3ZSBoYXZlIHR3byBvdXRwdXRfbWV0cmljcyA9IFtvMSwgXQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBhbmQgdGhlbiB3ZSBtdWx0aXBseSBhbGwgdGhvc2UgcHJvYmFiaWxpdGllcy4K</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
