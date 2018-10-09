@@ -372,12 +372,12 @@
         <mark key="." line="9" column="30" />
         <mark key="^" line="9" column="30" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" timestamp="1539113113884">
-        <mark key="'" line="39" column="21" />
-        <mark key="[" line="24" column="53" />
-        <mark key="]" line="25" column="51" />
-        <mark key="." line="25" column="51" />
-        <mark key="^" line="25" column="51" />
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" timestamp="1539117166286">
+        <mark key="'" line="36" column="22" />
+        <mark key="[" line="36" column="55" />
+        <mark key="]" line="37" column="32" />
+        <mark key="." line="37" column="32" />
+        <mark key="^" line="37" column="32" />
       </file>
       <file name="$USER_HOME$/.bashrc" timestamp="1511893922581">
         <mark key="'" line="62" column="0" />
@@ -2200,7 +2200,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="920" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="925" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="928" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="939" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2300,6 +2299,7 @@
       <jump line="108" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/rebuild_models.py" />
       <jump line="30" column="7" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" />
       <jump line="33" column="21" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" />
+      <jump line="37" column="22" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2309,7 +2309,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>print</text>
+        <text>values</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2851,22 +2851,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>print</text>
+        <text>values</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8</text>
+        <text>pudb</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYWljID0gbG1vbWVudHMuQUlDKHgsICdkaXN0JykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGhvbG92aWV3cyBhcyBodgo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFpYyA9IGxtb21lbnRzLkFJQyh4LCBkaXN0KQogICAgICAgICAgICAgICAgYmljID0gbG1vbWVudHMuQklDKHgsIGRpc3QpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2888,13 +2888,11 @@
           <key char="65535" code="10" mods="0" />
         </keys>
       </register>
-      <register name="3" type="8">
-        <text>'
-'</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNhbV9mdW5jID0gZ2V0X2F0dHJpYnV0ZSgnc2FtJywgZGlzdCkK</text>
       </register>
-      <register name="4" type="8">
-        <text>'
-'</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhcmEgPSBsbW9tZW50cy5wZWx3YWsobG1vbWVudHMuc2FtbG11KERBVEEsIDUpKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2962,28 +2960,30 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHVkYgo=</text>
+        <text encoding="base64">aW1wb3J0IGhvbG92aWV3cyBhcyBodgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0c1tkaXN0XSA9IHsnYWljJzogYWljLCAnYmljJzogYmljfQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">KkV4cG9uZW50aWFsIChFWFApIAoqR2FtbWEgKEdBTSkgCipHZW5lcmFsaXNlZCBFeHRyZW1lIFZhbHVlIChHRVYpIAoqR2VuZXJhbGlzZWQgTG9naXN0aWMgKEdMTykgCipHZW5lcmFsaXNlZCBOb3JtYWwgKEdOTykgCipHZW5lcmFsaXNlZCBQYXJldG8gKEdQQSkgCipHdW1iZWwgKEdVTSkgCipLYXBwYSAoS0FQKSAKKk5vcm1hbCAoTk9SKSAKKlBlYXJzb24gSUlJIChQRTMpIAoqV2FrZWJ5IChXQUspIAoqV2VpYnVsbCAoV0VJKSAK</text>
+      <register name="7" type="8">
+        <text>'
+'</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBkZnMgPSB7fQo=</text>
+      <register name="8" type="8">
+        <text>'
+'</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlzIG9uZSB3ZWVrLCBpdCBtZWFucyB0aGF0IHdlIGhhdmUgMSBzYW1wbGUgcGVyIHdlZWsgcGVyIHBpcGVsaW5lIChyZWdhcmRsZXNzIG9mIHRoZSBncmFudWxhcml0eSkuCiAgICBJZiB3ZSBoYXZlIDEwMCBwaXBlbGluZXMgYSBmZXcgd2Vla3Mgb2YgZGF0YSBtaWdodCBiZSBlbm91Z2ggYnV0IGlmIHdlIGhhdmUgMSBwaXBlbGluZSB0aGVuIHdlCiAgICB3aWxsIG5lZWQgYSBsb3Qgb2YgdGltZS4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHVkYgo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8</last-search>
+      <last-search>pudb</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8</last-pattern>
+      <last-pattern>pudb</last-pattern>
       <last-replace>dmk_perce</last-replace>
       <last-substitute>dmk_erce</last-substitute>
       <last-dir>1</last-dir>
@@ -3008,9 +3008,9 @@
         <entry>depipelined_metric_key</entry>
         <entry>fee</entry>
         <entry>print</entry>
-        <entry>pudb</entry>
         <entry>def trade_</entry>
         <entry encoding="base64">PDw8</entry>
+        <entry>pudb</entry>
       </history-search>
       <history-cmd>
         <entry>96</entry>
