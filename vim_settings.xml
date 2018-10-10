@@ -190,11 +190,11 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539190197297">
-        <mark key="[" line="466" column="88" />
-        <mark key="]" line="466" column="94" />
-        <mark key="^" line="466" column="94" />
-        <mark key="." line="466" column="94" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539191363356">
+        <mark key="[" line="472" column="49" />
+        <mark key="]" line="472" column="46" />
+        <mark key="^" line="472" column="46" />
+        <mark key="." line="472" column="46" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/data/metric_queries_1.json" timestamp="1513801709735">
         <mark key="'" line="8" column="11" />
@@ -639,6 +639,12 @@
         <mark key="]" line="52" column="20" />
         <mark key="." line="52" column="20" />
         <mark key="^" line="52" column="20" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_self_serve_trainer.py" timestamp="1539191295837">
+        <mark key="[" line="43" column="12" />
+        <mark key="]" line="44" column="40" />
+        <mark key="^" line="44" column="40" />
+        <mark key="." line="44" column="40" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/neural_nets/tests/data/metric_queries_1.json" timestamp="1512749054134">
         <mark key="'" line="0" column="0" />
@@ -1438,11 +1444,11 @@
         <mark key="^" line="26" column="23" />
         <mark key="." line="26" column="23" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1539190332035">
-        <mark key="[" line="33" column="11" />
-        <mark key="]" line="33" column="89" />
-        <mark key="." line="33" column="89" />
-        <mark key="^" line="33" column="89" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1539190981039">
+        <mark key="[" line="68" column="28" />
+        <mark key="]" line="68" column="25" />
+        <mark key="." line="68" column="25" />
+        <mark key="^" line="68" column="25" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_combined_model.py" timestamp="1537483226723">
         <mark key="'" line="293" column="58" />
@@ -1569,6 +1575,13 @@
         <mark key="]" line="237" column="25" />
         <mark key="." line="235" column="0" />
         <mark key="^" line="15" column="8" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" timestamp="1539191028094">
+        <mark key="'" line="524" column="29" />
+        <mark key="[" line="331" column="0" />
+        <mark key="]" line="331" column="0" />
+        <mark key="." line="331" column="0" />
+        <mark key="^" line="329" column="76" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/test_distributions.py" timestamp="1539188300174">
         <mark key="[" line="97" column="25" />
@@ -2179,10 +2192,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="436" column="30" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="217" column="91" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="227" column="91" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="228" column="91" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="1013" column="25" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="235" column="4" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
@@ -2279,6 +2288,10 @@
       <jump line="6" column="42" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" />
       <jump line="52" column="24" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_lmoments.py" />
       <jump line="48" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
+      <jump line="128" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
+      <jump line="260" column="17" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
+      <jump line="278" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
+      <jump line="542" column="29" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2288,7 +2301,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>pipelines_first</text>
+        <text>output_sample_pipelines</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2830,22 +2843,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>pipelines_first</text>
+        <text>output_sample_pipelines</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8PA==</text>
+        <text>hosts</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBmaWxlX3BhdGggPSBvcy5wYXRoLmpvaW4oY3Vycl9kaXIsICcuLicsICcuLicsICd0cmFpbmVycycsICdjb25maWdzJywgJ3VuaXR0ZXN0cy9jb25maWdfZm9yX3Rlc3Rfc2VydmVyLmpzb24nKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBpcGxpbmVzLAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydExpc3RFcXVhbChjb21wdXRlZF9waXBlbGluZXMsIHBpcGVsaW5lcykK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydExpc3RFcXVhbChjb21wdXRlZF9waXBlbGluZXMsIHBpcGVsaW5lcykK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2868,10 +2881,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZGVmIGZvcl9tb2RlbF9zdG9yZSgpOgogICAgYWNjb3VudF9pZCA9ICdibHVlc2hpZnQnCiAgICBjbHVzdGVyID0gJ1Byb2RfQ2x1c3RlcicKICAgIGZpbGVfcGF0aCA9IG9zLnBhdGguam9pbihjdXJyX2RpciwgJy4uJywgJy4uJywgJ3RyYWluZXJzJywgJ2NvbmZpZ3MnLCAndW5pdHRlc3RzL2NvbmZpZ19mb3JfdGVzdF9zZXJ2ZXIuanNvbicpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNhbXBsZV9waXBsaW5lcywK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Pj4+Pj4+PiA3NTZlMjRmNzIzYmE1ZGE2NzFjNTNhMWUxZDNmN2IyMjgxODQ2YzcwCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydExpc3RFcXVhbChzYW1wbGVfcGlwbGluZXMsIHBpcGVsaW5lcyAqIDEwKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2939,28 +2952,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNhbXBsZV9waXBsaW5lcywK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAnMjAxOC0xMC0wNlQwNTo0MDozMSswMDowMCc6Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydExpc3RFcXVhbChzYW1wbGVfcGlwbGluZXMsIFsnYSddICogMTAgKyBbJ2InXSAqIDEwICsgWydjJ10gKiAxMCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3RlZF9ob3N0cyA9IG5wLmFycmF5KAogICAgICAgICAgICBbcGlwZWxpbmVzLlBpcGVsaW5lVmFsdWUoeydob3N0JzogKCdob3N0MScsKX0pLAogICAgICAgICAgICAgcGlwZWxpbmVzLlBpcGVsaW5lVmFsdWUoeydob3N0JzogKCdob3N0MicsKX0pCiAgICAgICAgICAgIF0gKiA4KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFRydWUobnAuYWxsKGhvc3RzID09IGV4cGVjdGVkX2hvc3RzKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAnMjAxOC0xMC0wNlQwNTo0MDozMSswMDowMCc6Cg==</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3RlZF9waXBlbGluZXMgPSBucC5hcnJheSgKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgcGlwZWxpbmVzLlBpcGVsaW5lVmFsdWUoeydob3N0JzogKCdob3N0MScsKX0pLAogICAgICAgICAgICAgICAgcGlwZWxpbmVzLlBpcGVsaW5lVmFsdWUoeydob3N0JzogKCdob3N0MicsKX0pCiAgICAgICAgICAgICAgICBdICogMTApCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8PA==</last-search>
+      <last-search>hosts</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8PA==</last-pattern>
+      <last-pattern>hosts</last-pattern>
       <last-replace>dmk_perce</last-replace>
       <last-substitute>dmk_erce</last-substitute>
       <last-dir>1</last-dir>
@@ -2968,7 +2981,6 @@
     </search>
     <history>
       <history-search>
-        <entry>map</entry>
         <entry>min_value</entry>
         <entry>pdf_models</entry>
         <entry>PDF</entry>
@@ -2988,6 +3000,7 @@
         <entry>sum</entry>
         <entry>GMM</entry>
         <entry encoding="base64">PDw8PA==</entry>
+        <entry>hosts</entry>
       </history-search>
       <history-cmd>
         <entry>56</entry>
