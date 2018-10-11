@@ -1795,12 +1795,12 @@
         <mark key="." line="15" column="21" />
         <mark key="^" line="22" column="30" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" timestamp="1539281260233">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" timestamp="1539283876028">
         <mark key="'" line="77" column="0" />
-        <mark key="[" line="40" column="30" />
-        <mark key="]" line="41" column="36" />
-        <mark key="." line="41" column="36" />
-        <mark key="^" line="41" column="36" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="." line="71" column="0" />
+        <mark key="^" line="78" column="51" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/quantile_normalization.py" timestamp="1529357104162">
         <mark key="'" line="4" column="0" />
@@ -2140,6 +2140,12 @@
         <mark key="." line="28" column="26" />
         <mark key="^" line="28" column="26" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" timestamp="1539283873384">
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="0" />
+        <mark key="^" line="50" column="81" />
+        <mark key="." line="48" column="0" />
+      </file>
       <file name="$USER_HOME$/Testeo/market/test/test_market.py" timestamp="1515684603350">
         <mark key="'" line="150" column="52" />
         <mark key="[" line="150" column="52" />
@@ -2314,7 +2320,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2Jpbl9jZW50ZXJzID0gYmluX2VkZ2VzWzotMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2856,7 +2862,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>uniform</text>
+        <text>period</text>
       </register>
       <register name="/" type="4">
         <text>uniform</text>
@@ -2865,7 +2871,7 @@
         <text encoding="base64">ICAgICAgICAgICAgYmluX2NlbnRlcnMgPSAoYmluX2VkZ2VzWzotMV0gKyBiaW5fZWRnZXNbMTpdKS8yCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2Jpbl9jZW50ZXJzID0gYmluX2VkZ2VzWzotMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -2894,10 +2900,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgI2Jpbl9jZW50ZXJzID0gYmluX2VkZ2VzWzotMV0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2965,19 +2971,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCBwaXBlbGluZV92YWx1ZXMpOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBmaWx0ZXIoc2VsZiwgcGlwZWxpbmVfdmFsdWVzKToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCBwaXBlbGluZV92YWx1ZXMpOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpbiB0aGUgbmV4dCBsaW5lIHdlIGRvbid0IHdhbnQgdG8gZG8gJ2lmIHZhbHVlJyBiZWNhdXNlICd2YWx1ZScgY291bGQgYmUgc2V0IHRvICd0dXBsZSgpJyAoYW4gZW1wdHkKICAgICAgICAgICAgIyB0dXBsZSkgYW5kIGluIHRoYXQgaXMgYSB2YWxpZCB2YWx1ZSAoc2hvdWxkIGFzc2VydCB0byBUcnVlIGluIHRoaXMgY2FzZSkKICAgICAgICAgICAgaWYgdmFsdWUgaXMgbm90IE5vbmU6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/uniform/gaussian/g</text>
