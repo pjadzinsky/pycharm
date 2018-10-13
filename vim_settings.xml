@@ -83,8 +83,12 @@
         <mark key="^" line="52" column="70" />
         <mark key="." line="52" column="70" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1539377781375">
-        <mark key="'" line="9" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1539396066155">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="119" column="47" />
+        <mark key="]" line="120" column="36" />
+        <mark key="^" line="120" column="36" />
+        <mark key="." line="120" column="36" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1538846953469">
         <mark key="'" line="79" column="19" />
@@ -180,11 +184,12 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539375358013">
-        <mark key="'" line="1086" column="4" />
-        <mark key="[" line="514" column="0" />
-        <mark key="]" line="514" column="0" />
-        <mark key="." line="514" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539396289181">
+        <mark key="'" line="513" column="0" />
+        <mark key="[" line="920" column="80" />
+        <mark key="]" line="921" column="36" />
+        <mark key="." line="921" column="36" />
+        <mark key="^" line="921" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/data/metric_queries_1.json" timestamp="1513801709735">
         <mark key="'" line="8" column="11" />
@@ -1379,10 +1384,6 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1539383600949">
         <mark key="'" line="10" column="46" />
-        <mark key="[" line="213" column="0" />
-        <mark key="]" line="213" column="0" />
-        <mark key="^" line="211" column="35" />
-        <mark key="." line="213" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/tests/data/utils.py" timestamp="1533581396915">
         <mark key="'" line="33" column="60" />
@@ -1937,6 +1938,12 @@
         <mark key="^" line="8" column="28" />
         <mark key="." line="8" column="28" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/rebuild_models.py" timestamp="1539395950818">
+        <mark key="[" line="61" column="4" />
+        <mark key="]" line="65" column="4" />
+        <mark key="^" line="65" column="4" />
+        <mark key="." line="65" column="4" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/combined_model.py" timestamp="1538762527177">
         <mark key="'" line="101" column="37" />
         <mark key="[" line="65" column="28" />
@@ -2283,8 +2290,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="26" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" />
-      <jump line="27" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" />
       <jump line="41" column="80" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" />
       <jump line="60" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" />
       <jump line="61" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" />
@@ -2383,6 +2388,8 @@
       <jump line="22" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/fully_connected.py" />
       <jump line="10" column="46" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="191" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="513" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2937,7 +2944,7 @@
         <text>inflated_params</text>
       </register>
       <register name="/" type="4">
-        <text>def train_model</text>
+        <text>def load</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdGFydF9lcG9jaCA9IHNlbGYudHJhaW5faW50ZXJ2YWxzWzBdLnN0YXJ0X2Vwb2NoCiAgICAgICAgZW5kX2Vwb2NoID0gc2VsZi50cmFpbl9pbnRlcnZhbHNbLTFdLmVuZF9lcG9jaAo=</text>
@@ -3062,9 +3069,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def train_model</last-search>
+      <last-search>def load</last-search>
       <last-offset />
-      <last-pattern>def train_model</last-pattern>
+      <last-pattern>def load</last-pattern>
       <last-replace>model</last-replace>
       <last-substitute>keras_model</last-substitute>
       <last-dir>1</last-dir>
@@ -3072,13 +3079,11 @@
     </search>
     <history>
       <history-search>
-        <entry>def __</entry>
         <entry>def __sp</entry>
         <entry>end_epoch</entry>
         <entry>cls</entry>
         <entry>interval_</entry>
         <entry>folder</entry>
-        <entry>def save</entry>
         <entry>model_store</entry>
         <entry>checkpint</entry>
         <entry>checkpoint</entry>
@@ -3092,6 +3097,8 @@
         <entry>model_checkpoint</entry>
         <entry>keras_model</entry>
         <entry>def train_model</entry>
+        <entry>def save</entry>
+        <entry>def load</entry>
       </history-search>
       <history-cmd>
         <entry>opas_b</entry>
