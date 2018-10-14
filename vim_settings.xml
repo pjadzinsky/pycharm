@@ -400,12 +400,12 @@
         <mark key="." line="83" column="11" />
         <mark key="^" line="83" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1539492365418">
-        <mark key="'" line="113" column="11" />
-        <mark key="[" line="173" column="0" />
-        <mark key="]" line="173" column="0" />
-        <mark key="^" line="195" column="32" />
-        <mark key="." line="173" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1539498895624">
+        <mark key="'" line="77" column="9" />
+        <mark key="[" line="195" column="13" />
+        <mark key="]" line="180" column="23" />
+        <mark key="^" line="180" column="23" />
+        <mark key="." line="180" column="23" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk2.py" timestamp="1538453563334">
         <mark key="'" line="7" column="27" />
@@ -2234,10 +2234,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="557" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="623" column="59" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="59" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="548" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="78" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="321" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2327,13 +2323,17 @@
       <jump line="118" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="199" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="84" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="89" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="171" column="28" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="175" column="32" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="200" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="138" column="19" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="195" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="113" column="11" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="190" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="88" column="28" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="89" column="40" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="90" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="77" column="9" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2343,7 +2343,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdTYWZldHkgdmFsdmUgYnJlYWsnKSAgIyBwcm94eSBmb3IgYSBicmVhawo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VuZF9lbWFpbCgnU3RpbGwgcnVubmluZycsJ2xpZmUgc2lnbmFsJykK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2888,10 +2888,10 @@
         <text>cycle_</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>life</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">IHNkay5QYXRoKFtjbHMubm9kZV8xLCBjbHMubm9kZV8yLCBjbHMubm9kZV8zXSk=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VuZF9lbWFpbCgnU3RpbGwgcnVubmluZycsJ2xpZmUgc2lnbmFsJykK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdTYWZldHkgdmFsdmUgYnJlYWsnKSAgIyBwcm94eSBmb3IgYSBicmVhawo=</text>
@@ -3013,9 +3013,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>life</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>life</last-pattern>
       <last-replace>model</last-replace>
       <last-substitute>keras_model</last-substitute>
       <last-dir>1</last-dir>
@@ -3023,8 +3023,6 @@
     </search>
     <history>
       <history-search>
-        <entry>from_name</entry>
-        <entry>def from_n</entry>
         <entry>def currency_from_sh</entry>
         <entry>class Curr</entry>
         <entry encoding="base64">ZGVmIA==</entry>
@@ -3043,6 +3041,8 @@
         <entry>=</entry>
         <entry>send_email</entry>
         <entry>pudb</entry>
+        <entry>Life</entry>
+        <entry>life</entry>
       </history-search>
       <history-cmd>
         <entry>546</entry>
