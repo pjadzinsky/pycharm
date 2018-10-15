@@ -865,6 +865,13 @@
         <mark key="^" line="11" column="16" />
         <mark key="." line="11" column="16" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_model_checkpoint.py" timestamp="1539637329444">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="54" column="83" />
+        <mark key="]" line="54" column="105" />
+        <mark key="^" line="54" column="105" />
+        <mark key="." line="54" column="105" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/setup.py" timestamp="1538839442153">
         <mark key="[" line="23" column="30" />
         <mark key="]" line="24" column="26" />
@@ -1357,12 +1364,12 @@
         <mark key="." line="20" column="17" />
         <mark key="^" line="20" column="17" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1539635653591">
-        <mark key="'" line="15" column="68" />
-        <mark key="[" line="285" column="0" />
-        <mark key="]" line="285" column="0" />
-        <mark key="." line="285" column="0" />
-        <mark key="^" line="285" column="7" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1539637495025">
+        <mark key="'" line="221" column="7" />
+        <mark key="[" line="81" column="19" />
+        <mark key="]" line="81" column="19" />
+        <mark key="." line="81" column="19" />
+        <mark key="^" line="81" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/tests/data/utils.py" timestamp="1533581396915">
         <mark key="'" line="33" column="60" />
@@ -2266,10 +2273,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="221" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="117" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="79" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="110" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="116" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="6" column="15" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="80" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
@@ -2366,6 +2369,10 @@
       <jump line="1137" column="88" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1153" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="95" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="285" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
+      <jump line="225" column="46" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
+      <jump line="221" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_model_checkpoint.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2375,7 +2382,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5tb2RlbF9zdG9yZS5tb2RlbHNfc3RvcmUudXBsb2FkKHlhbWxfdGVtcC5uYW1lLCBzM19kZWZpbml0aW9uX2tleSkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2917,22 +2924,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>()))</text>
+        <text>common_constantsMODEL_STORE_ROOT</text>
       </register>
       <register name="/" type="4">
-        <text>def hyper</text>
+        <text>save</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmtlcmFzX21ldHJpY3MgPSBbbS5yc3F1YXJlZCwgJ21zZSddCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5tb2RlbF9zdG9yZS5tb2RlbHNfc3RvcmUudXBsb2FkKHlhbWxfdGVtcC5uYW1lLCBzM19kZWZpbml0aW9uX2tleSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBoYXNoKHN0cihtb2RlbC50b19qc29uKCkpKQo=</text>
+        <text encoding="base64">ICAgICAgICBzM19kZWZpbml0aW9uX2tleSA9IHNlbGYubW9kZWxfc3RvcmUuZ2V0X3MzX2tleSh0cmFpbmluZ19zdGFydF90aW1lLCBjb25zdGFudHMuS0VSQVNfTU9ERUxfREVGSU5JVElPTl9GSUxFKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2955,10 +2962,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBmcm9tIGtlcmFzLnV0aWxzIGltcG9ydCBwcmludF9zdW1tYXJ5Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdW1tYXJ5ID0gc3RyKG1vZGVsLnRvX2pzb24oKSkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm1vZGVsX3N0b3JlLm1vZGVsc19zdG9yZS51cGxvYWQobG9jYWxfZmlsZW5hbWUsIHMzX3dlaWdodHNfa2V5KQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3026,28 +3033,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzdW1tYXJ5ID0gcHJpbnRfc3VtbWFyeShtb2RlbCwgcHJpbnRfZm49bGFtYmRhIHg6IHN1bW1hcnkgKyB4KQo=</text>
+        <text encoding="base64">ICAgICAgICBzM193ZWlnaHRzX2tleSA9IHNlbGYubW9kZWxfc3RvcmUuZ2V0X3MzX2tleSh0cmFpbmluZ19zdGFydF90aW1lLCBjb25zdGFudHMuS0VSQVNfTU9ERUxfV0VJR0hUU19GSUxFKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZXQuIFdoeSBhcmUgd2UgY2FsbGluZyBzYXZlIGFnYWluIGFmdGVyIHRyYWluaW5nPwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5tb2RlbF9zdG9yZS5tb2RlbHNfc3RvcmUudXBsb2FkKGxvY2FsX2ZpbGVuYW1lLCBzM193ZWlnaHRzX2tleSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzM193ZWlnaHRzX2tleSA9IHNlbGYubW9kZWxfc3RvcmUuZ2V0X3MzX2tleSh0cmFpbmluZ19zdGFydF90aW1lLCBjb25zdGFudHMuS0VSQVNfTU9ERUxfV0VJR0hUU19GSUxFKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbF9pZCA9IHNlbGYudG1wX2xvY2FsX2ZvbGRlcihtb2RlbCkK</text>
       </register>
       <register name=":" type="4">
         <text>242</text>
       </register>
     </registers>
     <search>
-      <last-search>def hyper</last-search>
+      <last-search>save</last-search>
       <last-offset />
-      <last-pattern>def hyper</last-pattern>
+      <last-pattern>save</last-pattern>
       <last-replace />
       <last-substitute>list_of</last-substitute>
       <last-dir>1</last-dir>
@@ -3055,10 +3062,6 @@
     </search>
     <history>
       <history-search>
-        <entry>model</entry>
-        <entry>Seasona</entry>
-        <entry>self</entry>
-        <entry>hyper</entry>
         <entry>train</entry>
         <entry>def create</entry>
         <entry>model_config</entry>
@@ -3068,13 +3071,17 @@
         <entry>model_params</entry>
         <entry>input_shape</entry>
         <entry>def train_model</entry>
-        <entry>hash</entry>
         <entry>self.mod</entry>
         <entry>pudb</entry>
         <entry>Checkpoint</entry>
         <entry>def __hash__</entry>
         <entry>__hash__</entry>
         <entry>def hyper</entry>
+        <entry>hash</entry>
+        <entry>def hash</entry>
+        <entry>def model_id</entry>
+        <entry>def save</entry>
+        <entry>save</entry>
       </history-search>
       <history-cmd>
         <entry>484</entry>
