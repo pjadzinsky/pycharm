@@ -172,10 +172,10 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539624534228">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539626478543">
         <mark key="'" line="775" column="0" />
-        <mark key="[" line="896" column="34" />
-        <mark key="]" line="896" column="34" />
+        <mark key="[" line="586" column="0" />
+        <mark key="]" line="594" column="10" />
         <mark key="^" line="893" column="25" />
         <mark key="." line="896" column="34" />
       </file>
@@ -1151,11 +1151,11 @@
         <mark key="." line="0" column="68" />
         <mark key="^" line="0" column="68" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/fully_connected.py" timestamp="1539453333207">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/fully_connected.py" timestamp="1539626512397">
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="0" />
         <mark key="^" line="22" column="15" />
-        <mark key="." line="6" column="0" />
+        <mark key="." line="58" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_metrics_ica.py" timestamp="1535400221575">
         <mark key="'" line="4" column="38" />
@@ -1353,6 +1353,13 @@
         <mark key="]" line="20" column="17" />
         <mark key="." line="20" column="17" />
         <mark key="^" line="20" column="17" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1539626492344">
+        <mark key="'" line="26" column="0" />
+        <mark key="[" line="282" column="0" />
+        <mark key="]" line="291" column="10" />
+        <mark key="." line="283" column="0" />
+        <mark key="^" line="282" column="66" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/tests/data/utils.py" timestamp="1533581396915">
         <mark key="'" line="33" column="60" />
@@ -1693,7 +1700,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" timestamp="1538153445965">
         <mark key="'" line="298" column="8" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/fs.py" timestamp="1539624778442">
+      <file name="$USER_HOME$/opas/core/python/opasai/common/fs.py" timestamp="1539626390048">
         <mark key="[" line="13" column="17" />
         <mark key="]" line="14" column="43" />
         <mark key="^" line="14" column="43" />
@@ -2249,7 +2256,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="24" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="84" column="40" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="102" column="89" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="83" column="19" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
@@ -2349,6 +2355,7 @@
       <jump line="54" column="87" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
       <jump line="43" column="35" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
       <jump line="67" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
+      <jump line="26" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2358,7 +2365,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50KCcqJyo4MCkK</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2903,19 +2910,19 @@
         <text>'</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>def create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaW50KCcqJyo4MCkK</text>
+        <text encoding="base64">ICAgIGRlZiBjcmVhdGVfbW9kZWwoc2VsZiwgbW9kZWwsIGlucHV0X3NoYXBlLCBvdXRwdXRfc2hhcGUsIHBhcmFtcyk6CiAgICAgICAgIiIiCiAgICAgICAgTXVzdCByZXR1cm4gdGhlICdtb2RlbCcgd2Ugd2FudCB0byB0cmFpbiwgbm90IHRoZSBPcGFzQmFzZU1vZGVsIGJ1dCBzb21ldGhpbmcgbGlrZSBhIFJhbmRvbUZvcmVzdCwgTGluZWFyTW9kZWwsCiAgICAgICAgTm5ldCwgZXRjLi4uCgogICAgICAgIDpwYXJhbSBpbnB1dF9zaGFwZToKICAgICAgICA6cGFyYW0gb3V0cHV0X3NoYXBlOgogICAgICAgIDpwYXJhbSBwYXJhbXM6CiAgICAgICAgOnJldHVybjoKICAgICAgICAiIiIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0b3RhbF9YID0gbnAuY29uY2F0ZW5hdGUoWF90cmFpbikKICAgICAgICB0b3RhbF95ID0gbnAuY29uY2F0ZW5hdGUoeV90cmFpbikK</text>
+        <text encoding="base64">ICAgICAgICA6cmV0dXJuOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2938,10 +2945,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNhdmUoc2VsZi50cmFpbl9pbnRlcnZhbHNbMF0uc3RhcnRfZXBvY2gsIHNjb3JlPXNlbGYuc2NvcmUodG90YWxfWCwgdG90YWxfeSkpCg==</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gb3V0cHV0X3NoYXBlOgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLm1vZGVsID0gbGluZWFyX21vZGVsLkxpbmVhclJlZ3Jlc3Npb24oKQo=</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gaW5wdXRfc2hhcGU6Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3009,28 +3016,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gaW5wdXRfc2hhcGU6IFNoYXBlIG9mIHRoZSBpbnB1dCBzYW1wbGVzIG1hdHJpeCAoc2FtcGxlcywgZmVhdHVyZXMpCiAgICAgICAgOnBhcmFtIG91dHB1dF9zaGFwZTogU2hhcGUgb2YgdGhlIG91dHB1dCBzYW1wbGVzIG1hdHJpeCAoc2FtcGxlcywgZmVhdHVyZXMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPCAwLjEpCg==</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGFicyhtZWFuXyAtIGkgKyAzKSA8IDAuMSkK</text>
+        <text encoding="base64">ICAgIGRlZiBjcmVhdGVfbW9kZWwoc2VsZiwgaW5wdXRfc2hhcGUsIG91dHB1dF9zaGFwZSk6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWVhbl8gPSBucC5hdmVyYWdlKGJpbl9jZW50ZXJzLCB3ZWlnaHRzPWhpc3QpCg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgY3JlYXRlX21vZGVsKHNlbGYsIGlucHV0X3NoYXBlLCBvdXRwdXRfc2hhcGUsIHBhcmFtcyk6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYmluX2NlbnRlcnMgPSAoYmluX2VkZ2VzWzotMV0gKyBiaW5fZWRnZXNbMTpdKS8yCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>895</text>
+        <text>572</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>def create</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>def create</last-pattern>
       <last-replace />
       <last-substitute>list_of</last-substitute>
       <last-dir>1</last-dir>
@@ -3038,7 +3045,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8PA==</entry>
         <entry>list_of</entry>
         <entry>update</entry>
         <entry>stay_in</entry>
@@ -3058,10 +3064,9 @@
         <entry>hyper</entry>
         <entry>train</entry>
         <entry>pudb</entry>
+        <entry>def create</entry>
       </history-search>
       <history-cmd>
-        <entry>51</entry>
-        <entry>216</entry>
         <entry>360</entry>
         <entry>537</entry>
         <entry>484</entry>
@@ -3075,11 +3080,13 @@
         <entry>349</entry>
         <entry>526</entry>
         <entry>180</entry>
-        <entry>517</entry>
         <entry>qa</entry>
         <entry>576</entry>
         <entry>36</entry>
         <entry>895</entry>
+        <entry>150</entry>
+        <entry>517</entry>
+        <entry>572</entry>
       </history-cmd>
       <history-expr />
       <history-input />
