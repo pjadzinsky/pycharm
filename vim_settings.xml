@@ -400,12 +400,12 @@
         <mark key="." line="83" column="11" />
         <mark key="^" line="83" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1539556460987">
-        <mark key="'" line="79" column="8" />
-        <mark key="[" line="110" column="0" />
-        <mark key="]" line="110" column="0" />
-        <mark key="." line="110" column="0" />
-        <mark key="^" line="116" column="11" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" timestamp="1539574722567">
+        <mark key="'" line="80" column="8" />
+        <mark key="[" line="117" column="46" />
+        <mark key="]" line="117" column="68" />
+        <mark key="." line="117" column="68" />
+        <mark key="^" line="117" column="68" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_store.py" timestamp="1539400916549">
         <mark key="'" line="61" column="8" />
@@ -879,8 +879,8 @@
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1539526736751">
-        <mark key="'" line="710" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1539574946680">
+        <mark key="'" line="402" column="0" />
         <mark key="[" line="403" column="0" />
         <mark key="]" line="403" column="0" />
         <mark key="^" line="429" column="32" />
@@ -2254,8 +2254,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="489" column="39" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="501" column="21" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="518" column="32" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="534" column="44" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2329,7 +2327,6 @@
       <jump line="174" column="59" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="114" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="91" column="34" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="80" column="29" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="140" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="392" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="246" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
@@ -2337,7 +2334,6 @@
       <jump line="243" column="27" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="250" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="267" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="116" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="220" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="224" column="24" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="236" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
@@ -2346,7 +2342,6 @@
       <jump line="288" column="18" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="289" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="71" column="35" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
-      <jump line="110" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="261" column="14" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="260" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="257" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
@@ -2354,6 +2349,11 @@
       <jump line="221" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="117" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
       <jump line="79" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="110" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="116" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="6" column="15" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="80" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles.py" />
+      <jump line="402" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2908,7 +2908,7 @@
         <text>body</text>
       </register>
       <register name="/" type="4">
-        <text>send_email</text>
+        <text>def send_all</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBib2R5ID0gJyonICogODAgKyAnXG4nCg==</text>
@@ -3033,9 +3033,9 @@
       </register>
     </registers>
     <search>
-      <last-search>send_email</last-search>
+      <last-search>def send_all</last-search>
       <last-offset />
-      <last-pattern>send_email</last-pattern>
+      <last-pattern>def send_all</last-pattern>
       <last-replace />
       <last-substitute>list_of</last-substitute>
       <last-dir>1</last-dir>
@@ -3043,7 +3043,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pudb</entry>
         <entry>Life</entry>
         <entry>life</entry>
         <entry>Still</entry>
@@ -3063,6 +3062,7 @@
         <entry>main</entry>
         <entry>send_em</entry>
         <entry>send_email</entry>
+        <entry>def send_all</entry>
       </history-search>
       <history-cmd>
         <entry>102</entry>
