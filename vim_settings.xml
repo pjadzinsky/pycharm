@@ -181,8 +181,8 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539647303140">
-        <mark key="'" line="608" column="67" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539648168475">
+        <mark key="'" line="1161" column="0" />
         <mark key="[" line="1161" column="0" />
         <mark key="]" line="1161" column="0" />
         <mark key="." line="1161" column="0" />
@@ -1823,8 +1823,8 @@
         <mark key="^" line="80" column="19" />
         <mark key="." line="80" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_server.py" timestamp="1538713569622">
-        <mark key="[" line="50" column="38" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_server.py" timestamp="1539648489850">
+        <mark key="[" line="79" column="55" />
         <mark key="]" line="51" column="36" />
         <mark key="^" line="51" column="36" />
         <mark key="." line="51" column="36" />
@@ -1850,12 +1850,12 @@
         <mark key="." line="65" column="55" />
         <mark key="^" line="65" column="55" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1538713650368">
-        <mark key="'" line="121" column="0" />
-        <mark key="[" line="189" column="56" />
-        <mark key="]" line="189" column="53" />
-        <mark key="." line="189" column="53" />
-        <mark key="^" line="189" column="53" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1539648206235">
+        <mark key="'" line="118" column="94" />
+        <mark key="[" line="118" column="89" />
+        <mark key="]" line="118" column="94" />
+        <mark key="." line="118" column="94" />
+        <mark key="^" line="118" column="94" />
       </file>
       <file name="$USER_HOME$/Testeo/log_market.py" timestamp="1513392990912">
         <mark key="'" line="96" column="52" />
@@ -2315,8 +2315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="765" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="55" column="82" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
       <jump line="40" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
       <jump line="97" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="70" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" />
@@ -2415,6 +2413,8 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittests/combined_model.json" />
       <jump line="64" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/rebuild_models.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittests/nyc_revenue_rf.yaml" />
+      <jump line="1161" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="118" column="94" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2969,7 +2969,7 @@
         <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>model</text>
+        <text>opas_model\.params</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB7CiAgICAgICAgICAiaGlkZGVuX2xheWVycyI6IHsnY2hvb3NlJzogW1syXSwgWzQsIDJdXX0sCiAgICAgICAgICAiYWN0aXZhdGlvbnMiOiAicmVsdSIsCiAgICAgICAgICAic2FsdCI6ICIkKHNhbHQpIgogICAgICAgIH0sCg==</text>
@@ -3090,21 +3090,20 @@
         <text encoding="base64">ICAgICAgICAiaGlkZGVuX2xheWVycyI6IFsyLCAyXSwK</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>60</text>
       </register>
     </registers>
     <search>
-      <last-search>model</last-search>
+      <last-search>opas_model\.params</last-search>
       <last-offset />
-      <last-pattern>model</last-pattern>
-      <last-replace />
-      <last-substitute>list_of</last-substitute>
+      <last-pattern>opas_model\.params</last-pattern>
+      <last-replace>opas_model.model_params</last-replace>
+      <last-substitute>opas_model\.params</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>hash</entry>
         <entry>def hash</entry>
         <entry>def model_id</entry>
         <entry>save</entry>
@@ -3124,11 +3123,9 @@
         <entry>mod</entry>
         <entry>combined</entry>
         <entry>model</entry>
+        <entry>opas_model\.params</entry>
       </history-search>
       <history-cmd>
-        <entry>150</entry>
-        <entry encoding="base64">JzwsJz5zb3J0</entry>
-        <entry>572</entry>
         <entry>211</entry>
         <entry>242</entry>
         <entry>186</entry>
@@ -3146,6 +3143,9 @@
         <entry>wq</entry>
         <entry>1163</entry>
         <entry>q</entry>
+        <entry>117</entry>
+        <entry>%s/opas_model\.params/opas_model.model_params/gc</entry>
+        <entry>60</entry>
       </history-cmd>
       <history-expr />
       <history-input />
