@@ -685,12 +685,12 @@
         <mark key="^" line="64" column="11" />
         <mark key="." line="64" column="11" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" timestamp="1539833205414">
-        <mark key="'" line="435" column="8" />
-        <mark key="[" line="298" column="17" />
-        <mark key="]" line="298" column="17" />
-        <mark key="." line="298" column="17" />
-        <mark key="^" line="303" column="52" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" timestamp="1539840457398">
+        <mark key="'" line="473" column="84" />
+        <mark key="[" line="345" column="73" />
+        <mark key="]" line="345" column="89" />
+        <mark key="." line="345" column="89" />
+        <mark key="^" line="345" column="89" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_utils.py" timestamp="1517937833497">
         <mark key="'" line="40" column="33" />
@@ -931,11 +931,11 @@
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1539832261168">
-        <mark key="'" line="345" column="0" />
-        <mark key="[" line="278" column="0" />
-        <mark key="]" line="278" column="81" />
-        <mark key="." line="502" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/trade.py" timestamp="1539840426361">
+        <mark key="'" line="467" column="0" />
+        <mark key="[" line="529" column="0" />
+        <mark key="]" line="529" column="36" />
+        <mark key="." line="467" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/README_tests.md" timestamp="1539637728628">
         <mark key="[" line="175" column="31" />
@@ -2356,13 +2356,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="588" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="196" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="572" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="37" column="45" filename="$USER_HOME$/opas/core/python/scripts/aws_batch_trainer.sh" />
-      <jump line="218" column="29" filename="$USER_HOME$/opas/core/python/scripts/aws_batch_trainer.sh" />
-      <jump line="208" column="59" filename="$USER_HOME$/opas/core/python/scripts/aws_batch_trainer.sh" />
       <jump line="210" column="99" filename="$USER_HOME$/opas/core/python/scripts/aws_batch_trainer.sh" />
       <jump line="565" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="98" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2456,6 +2449,13 @@
       <jump line="197" column="12" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="480" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="345" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="179" column="14" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="551" column="21" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="547" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="153" column="4" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="479" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="486" column="84" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="467" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2464,8 +2464,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>_</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBzMiA9IHBkLlNlcmllcyh7J3R5cGUnOiBzZGsuVHJhbnNhY3Rpb25UeXBlLkJVWUlORywKICAgICAgICAgICAgICAgICAgICAgICAgJ3RpY2tlcic6IHNlbGYudGlja2VyXzEsCiAgICAgICAgICAgICAgICAgICAgICAgICdyYXRlJzogMC4xLAogICAgICAgICAgICAgICAgICAgICAgICAncXVhbnRpdHknOiAxMCwKICAgICAgICAgICAgICAgICAgICAgICAgJ2ZlZSc6IC4xLAogICAgICAgICAgICAgICAgICAgICAgICAnc3RhdHVzJzogc2RrLlRyYW5zYWN0aW9uU3RhdHVzLk5PVF9QTEFDRUQKICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3007,22 +3007,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>, 'tracker_id': 'aaa'</text>
       </register>
       <register name="/" type="4">
-        <text>def _push</text>
+        <text>def trade</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcm93X2lkcyA9IHRyYWRlLnJvd19pZHMoeydvcmRlcl8nOiBpfSwgJ2R1bW15X3RyYW5zYWN0aW9ucycsIHNlbGYuY29uLmN1cnNvcigpKQogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHJvd19pZHMsIFtdKQo=</text>
+        <text encoding="base64">ZGVmIHRyYWRlX3JvdyhzLCBjdXJzb3IsIHRhYmxlX25hbWUpOgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzMiA9IHBkLlNlcmllcyh7J3R5cGUnOiBzZGsuVHJhbnNhY3Rpb25UeXBlLkJVWUlORywKICAgICAgICAgICAgICAgICAgICAgICAgJ3RpY2tlcic6IHNlbGYudGlja2VyXzEsCiAgICAgICAgICAgICAgICAgICAgICAgICdyYXRlJzogMC4xLAogICAgICAgICAgICAgICAgICAgICAgICAncXVhbnRpdHknOiAxMCwKICAgICAgICAgICAgICAgICAgICAgICAgJ2ZlZSc6IC4xLAogICAgICAgICAgICAgICAgICAgICAgICAnc3RhdHVzJzogc2RrLlRyYW5zYWN0aW9uU3RhdHVzLk5PVF9QTEFDRUQKICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgc2VuZF9vcmRlcnM6CiAgICAgICAgICAgICAgICAjIHRoaXMgaXMgYWZ0ZXIgd2Ugc2VudCB0aGUgb3JkZXJzLCB0aGVyZSBhcmUgMiByb3dzIHBlciAnb3JkZXJfJwogICAgICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4ocm93X2lkcyksIDIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAjIHRoaXMgaXMgYmVmb3JlIHdlIHNlbmQgdGhlIG9yZGVycywgdGhlcmUgYXJlIDEgcm93cyBwZXIgJ29yZGVyXycKICAgICAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKHJvd19pZHMpLCAxKQoKICAgICAgICAgICAgZm9yIHJvd19pZCBpbiByb3dfaWRzOgogICAgICAgICAgICAgICAgcm93cyA9IHRyYWRlLnJlYWRfcm93X2Zyb21fZGIoc2VsZi5jb24sICdkdW1teV90cmFuc2FjdGlvbnMnLCByb3dfaWQpCiAgICAgICAgICAgICAgICBzZWxmLmFzc2VydElzSW5zdGFuY2Uocm93cywgcGQuU2VyaWVzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3045,10 +3045,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4oc2VuZGVyLnRyYW5zYWN0aW9uc190b19iZV9wbGFjZWQpLCAyKQo=</text>
+        <text encoding="base64">ICAgICAgICBkZiA9IHBkLkRhdGFGcmFtZShbczEsIHMyXSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcm93X2lkcyA9IHRyYWRlLnJvd19pZHMoeydvcmRlcl8nOiBvcmRlcl99LCAnZHVtbXlfdHJhbnNhY3Rpb25zJywgc2VsZi5jb24uY3Vyc29yKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICByb3cgPSBzZWxmLmRmLmlsb2NbMF0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3116,39 +3116,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFkZS5UcmFuc2FjdGlvbnNTZW5kZXIoc2VsZi5jb24sIHNlbGYudHJhbnNhY3Rpb25zX25hbWUsIHNlbGYudHJhbnNmZXJzX25hbWUpCg==</text>
+        <text encoding="base64">ICAgICAgICByb3cgPSBzZWxmLmRmLmlsb2NbMF0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIG9yZGVyXyBpbiBbMCwgMV06CiAgICAgICAgICAgICAgICByb3dfaWRzID0gdHJhZGUucm93X2lkcyh7J29yZGVyXyc6IG9yZGVyX30sICdkdW1teV90cmFuc2FjdGlvbnMnLCBzZWxmLmNvbi5jdXJzb3IoKSkKICAgICAgICAgICAgICAgIGlmIHNlbmRfb3JkZXJzOgogICAgICAgICAgICAgICAgICAgICMgdGhpcyBpcyBhZnRlciB3ZSBzZW50IHRoZSBvcmRlcnMsIHRoZXJlIGFyZSAyIHJvd3MgcGVyICdvcmRlcl8nCiAgICAgICAgICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4ocm93X2lkcyksIDIpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICMgdGhpcyBpcyBiZWZvcmUgd2Ugc2VuZCB0aGUgb3JkZXJzLCB0aGVyZSBhcmUgMSByb3dzIHBlciAnb3JkZXJfJwogICAgICAgICAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKHJvd19pZHMpLCAxKQoKICAgICAgICAgICAgICAgIGZvciByb3dfaWQgaW4gcm93X2lkczoKICAgICAgICAgICAgICAgICAgICByb3dzID0gdHJhZGUucmVhZF9yb3dfZnJvbV9kYihzZWxmLmNvbiwgJ2R1bW15X3RyYW5zYWN0aW9ucycsIHJvd19pZCkKICAgICAgICAgICAgICAgICAgICBzZWxmLmFzc2VydElzSW5zdGFuY2Uocm93cywgcGQuU2VyaWVzKQo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBtb2NrZWRfYnV5X2xpbWl0LnNpZGVfZWZmZWN0ID0gTm90RW5vdWdoQ3VycmVuY3lFeGNlcHRpb24oJ25vdCBlbm91Z2ggY3VycmVuY3knKQo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmb3Igc2VuZF9vcmRlcnMgaW4gW0ZhbHNlLCBUcnVlXToKICAgICAgICAgICAgaWYgc2VuZF9vcmRlcnM6CiAgICAgICAgICAgICAgICBzZW5kZXIuc2VuZF9hbGxfb3JkZXJzKCkK</text>
+        <text encoding="base64">ICAgICAgICBkZiA9IGRmLmFwcGVuZChzMiwgaWdub3JlX2luZGV4PVRydWUpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmb3Igc2VuZF9vcmRlcnMgaW4gW0ZhbHNlLCBUcnVlXToKICAgICAgICAgICAgaWYgc2VuZF9vcmRlcnM6CiAgICAgICAgICAgICAgICBzZW5kZXIuc2VuZF9hbGxfb3JkZXJzKCkKCiAgICAgICAgICAgIGZvciBvcmRlcl8gaW4gWzAsIDFdOgogICAgICAgICAgICAgICAgcm93X2lkcyA9IHRyYWRlLnJvd19pZHMoeydvcmRlcl8nOiBvcmRlcl99LCAnZHVtbXlfdHJhbnNhY3Rpb25zJywgc2VsZi5jb24uY3Vyc29yKCkpCiAgICAgICAgICAgICAgICBpZiBzZW5kX29yZGVyczoKICAgICAgICAgICAgICAgICAgICAjIHRoaXMgaXMgYWZ0ZXIgd2Ugc2VudCB0aGUgb3JkZXJzLCB0aGVyZSBhcmUgMiByb3dzIHBlciAnb3JkZXJfJwogICAgICAgICAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKHJvd19pZHMpLCAyKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICAjIHRoaXMgaXMgYmVmb3JlIHdlIHNlbmQgdGhlIG9yZGVycywgdGhlcmUgYXJlIDEgcm93cyBwZXIgJ29yZGVyXycKICAgICAgICAgICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihyb3dfaWRzKSwgMSkKCiAgICAgICAgICAgICAgICBmb3Igcm93X2lkIGluIHJvd19pZHM6CiAgICAgICAgICAgICAgICAgICAgcm93cyA9IHRyYWRlLnJlYWRfcm93X2Zyb21fZGIoc2VsZi5jb24sICdkdW1teV90cmFuc2FjdGlvbnMnLCByb3dfaWQpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5hc3NlcnRJc0luc3RhbmNlKHJvd3MsIHBkLlNlcmllcykKCg==</text>
+        <text encoding="base64">ICAgICAgICBkZiA9IGRmLmFwcGVuZChzMSwgaWdub3JlX2luZGV4PVRydWUpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>357</text>
       </register>
     </registers>
     <search>
-      <last-search>def _push</last-search>
+      <last-search>def trade</last-search>
       <last-offset />
-      <last-pattern>def _push</last-pattern>
-      <last-replace>self.bitt</last-replace>
-      <last-substitute>self.bittrex</last-substitute>
+      <last-pattern>def trade</last-pattern>
+      <last-replace>self</last-replace>
+      <last-substitute>cls</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>if we</entry>
-        <entry>split_tran</entry>
-        <entry>purge</entry>
-        <entry>pudb</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>repr_tran</entry>
         <entry>trade_row</entry>
@@ -3165,17 +3161,12 @@
         <entry>self.bittrex</entry>
         <entry>cls.bittre</entry>
         <entry>def _push</entry>
+        <entry>cls</entry>
+        <entry>nothing_to_c</entry>
+        <entry>pudb</entry>
+        <entry>def trade</entry>
       </history-search>
       <history-cmd>
-        <entry>147</entry>
-        <entry>350</entry>
-        <entry>35</entry>
-        <entry>90</entry>
-        <entry>37</entry>
-        <entry>32</entry>
-        <entry>%s/current_dir/current_dicts/gc</entry>
-        <entry>q</entry>
-        <entry>qa</entry>
         <entry>600</entry>
         <entry encoding="base64">JzwsJz41NzI=</entry>
         <entry>571</entry>
@@ -3187,6 +3178,15 @@
         <entry>253</entry>
         <entry>%s/self.bittrex/self.bitt/gc</entry>
         <entry>w</entry>
+        <entry>180,208s/cls/self/g</entry>
+        <entry>547</entry>
+        <entry>420</entry>
+        <entry>505</entry>
+        <entry>153</entry>
+        <entry>457</entry>
+        <entry>460</entry>
+        <entry>480</entry>
+        <entry>357</entry>
       </history-cmd>
       <history-expr />
       <history-input />
