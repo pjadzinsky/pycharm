@@ -87,13 +87,6 @@
         <mark key="^" line="52" column="70" />
         <mark key="." line="52" column="70" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1539889952475">
-        <mark key="'" line="131" column="23" />
-        <mark key="[" line="138" column="0" />
-        <mark key="]" line="138" column="0" />
-        <mark key="^" line="134" column="85" />
-        <mark key="." line="138" column="0" />
-      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1539470453513">
         <mark key="'" line="83" column="19" />
         <mark key="[" line="49" column="28" />
@@ -184,12 +177,12 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539890889776">
-        <mark key="'" line="3" column="28" />
-        <mark key="[" line="576" column="0" />
-        <mark key="]" line="576" column="0" />
-        <mark key="." line="576" column="0" />
-        <mark key="^" line="581" column="15" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539897627512">
+        <mark key="'" line="2" column="6" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="2" column="0" />
       </file>
       <file name="/" timestamp="1539882686994">
         <mark key="[" line="0" column="0" />
@@ -1201,12 +1194,6 @@
         <mark key="]" line="0" column="68" />
         <mark key="." line="0" column="68" />
         <mark key="^" line="0" column="68" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/fully_connected.py" timestamp="1539792816483">
-        <mark key="[" line="50" column="75" />
-        <mark key="]" line="50" column="74" />
-        <mark key="." line="50" column="74" />
-        <mark key="^" line="50" column="74" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_metrics_ica.py" timestamp="1535400221575">
         <mark key="'" line="4" column="38" />
@@ -2305,8 +2292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="202" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
-      <jump line="491" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="582" column="12" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="581" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="518" column="25" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
@@ -2405,6 +2390,8 @@
       <jump line="582" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="3" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="371" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/metric_processor.py" />
+      <jump line="560" column="77" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="2" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2959,7 +2946,7 @@
         <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>Pool</text>
+        <text>pathos</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBsb2NhbF9mb2xkZXIoc2VsZiwgdHJhaW5pbmdfc3RhcnRfdGltZSwgbW9kZWxfaWQpOgo=</text>
@@ -3084,9 +3071,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Pool</last-search>
+      <last-search>pathos</last-search>
       <last-offset />
-      <last-pattern>Pool</last-pattern>
+      <last-pattern>pathos</last-pattern>
       <last-replace>mocked_upload</last-replace>
       <last-substitute>mocked_save</last-substitute>
       <last-dir>1</last-dir>
@@ -3094,7 +3081,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def trade</entry>
         <entry>except</entry>
         <entry>def load_model</entry>
         <entry>save_to_local_folder</entry>
@@ -3114,6 +3100,7 @@
         <entry>mocked_save</entry>
         <entry>def hyper</entry>
         <entry>Pool</entry>
+        <entry>pathos</entry>
       </history-search>
       <history-cmd>
         <entry>505</entry>
