@@ -193,6 +193,9 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1539982940930">
+        <mark key="'" line="579" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/data/metric_queries_1.json" timestamp="1513801709735">
         <mark key="'" line="8" column="11" />
         <mark key="[" line="8" column="5" />
@@ -2356,7 +2359,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="90" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="90" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="878" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2456,6 +2458,7 @@
       <jump line="19" column="0" filename="$USER_HOME$/opas/core/python/README_selfserve.md" />
       <jump line="47" column="13" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
       <jump line="6" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
+      <jump line="579" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3010,7 +3013,7 @@
         <text>import</text>
       </register>
       <register name="/" type="4">
-        <text>im</text>
+        <text>def load_from_local</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
@@ -3135,9 +3138,9 @@
       </register>
     </registers>
     <search>
-      <last-search>im</last-search>
+      <last-search>def load_from_local</last-search>
       <last-offset />
-      <last-pattern>im</last-pattern>
+      <last-pattern>def load_from_local</last-pattern>
       <last-replace>1.</last-replace>
       <last-substitute>^.\{,2\}\.</last-substitute>
       <last-dir>1</last-dir>
@@ -3145,7 +3148,6 @@
     </search>
     <history>
       <history-search>
-        <entry>mocked_save</entry>
         <entry>Pool</entry>
         <entry>def save</entry>
         <entry>def train</entry>
@@ -3165,6 +3167,7 @@
         <entry>class</entry>
         <entry>stages</entry>
         <entry>im</entry>
+        <entry>def load_from_local</entry>
       </history-search>
       <history-cmd>
         <entry>903</entry>
