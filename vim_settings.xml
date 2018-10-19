@@ -297,9 +297,9 @@
         <mark key="^" line="75" column="58" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/test_data.py" timestamp="1539971489739">
-        <mark key="[" line="112" column="0" />
-        <mark key="]" line="112" column="0" />
-        <mark key="." line="112" column="0" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="." line="49" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/nx_cycles.py" timestamp="1534055733574">
         <mark key="'" line="64" column="8" />
@@ -446,6 +446,12 @@
         <mark key="]" line="42" column="0" />
         <mark key="^" line="170" column="39" />
         <mark key="." line="42" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_recommendation_stage.py" timestamp="1539982116476">
+        <mark key="[" line="104" column="73" />
+        <mark key="]" line="105" column="36" />
+        <mark key="^" line="105" column="36" />
+        <mark key="." line="105" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/urls_nnets.yaml" timestamp="1530049178238">
         <mark key="'" line="153" column="4" />
@@ -646,11 +652,12 @@
         <mark key="." line="52" column="20" />
         <mark key="^" line="52" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" timestamp="1539979309241">
-        <mark key="[" line="47" column="4" />
-        <mark key="]" line="47" column="4" />
-        <mark key="^" line="47" column="4" />
-        <mark key="." line="47" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" timestamp="1539981162778">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="46" column="0" />
+        <mark key="]" line="46" column="0" />
+        <mark key="." line="46" column="0" />
+        <mark key="^" line="6" column="72" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/neural_nets/tests/data/metric_queries_1.json" timestamp="1512749054134">
         <mark key="'" line="0" column="0" />
@@ -2349,7 +2356,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="46" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="51" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="90" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="90" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
@@ -2448,7 +2454,8 @@
       <jump line="42" column="17" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer.py" />
       <jump line="26" column="0" filename="$USER_HOME$/opas/core/python/README_selfserve.md" />
       <jump line="19" column="0" filename="$USER_HOME$/opas/core/python/README_selfserve.md" />
-      <jump line="47" column="41" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
+      <jump line="47" column="13" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2457,8 +2464,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>start_trainer</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3000,22 +3007,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>start_trainer</text>
+        <text>import</text>
       </register>
       <register name="/" type="4">
-        <text>stages</text>
+        <text>im</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3038,10 +3045,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHRyYWluZXIgPSBzZWxmX3NlcnZlX3RyYWluZXIuU2VsZlNlcnZlVHJhaW5lcihGTEFHUy5lbnYsIGJhc2VfdXJpLCBGTEFHUy5kZXYsIEZMQUdTLnNlcmlhbCkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHRyYWluZXIgPSBzZWxmX3NlcnZlX3RyYWluZXIuU2VsZlNlcnZlVHJhaW5lcihGTEFHUy5lbnYsIGJhc2VfdXJpLCBGTEFHUy5kZXYsIEZMQUdTLnNlcmlhbCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3109,28 +3116,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkuc2VsZnNlcnZlLm1vZGVsaW5nIGltcG9ydCBzZWxmX3NlcnZlX3RyYWluZXIK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IFNlbGZTZXJ2ZVRyYWluZXIK</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkuc2VsZnNlcnZlLm1vZGVsaW5nIGltcG9ydCBzZWxmX3NlcnZlX3RyYWluZXIK</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>108</text>
       </register>
     </registers>
     <search>
-      <last-search>stages</last-search>
+      <last-search>im</last-search>
       <last-offset />
-      <last-pattern>stages</last-pattern>
+      <last-pattern>im</last-pattern>
       <last-replace>1.</last-replace>
       <last-substitute>^.\{,2\}\.</last-substitute>
       <last-dir>1</last-dir>
@@ -3138,7 +3145,6 @@
     </search>
     <history>
       <history-search>
-        <entry>save</entry>
         <entry>mocked_save</entry>
         <entry>Pool</entry>
         <entry>def save</entry>
@@ -3158,9 +3164,9 @@
         <entry>pudb</entry>
         <entry>class</entry>
         <entry>stages</entry>
+        <entry>im</entry>
       </history-search>
       <history-cmd>
-        <entry>91</entry>
         <entry>903</entry>
         <entry>38</entry>
         <entry>%s/mocked_save/mocked_upload/g</entry>
@@ -3180,6 +3186,7 @@
         <entry>30</entry>
         <entry>47</entry>
         <entry>q</entry>
+        <entry>108</entry>
       </history-cmd>
       <history-expr />
       <history-input />
