@@ -2095,10 +2095,12 @@
         <mark key="." line="91" column="0" />
         <mark key="^" line="91" column="36" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/choose_parameters.py" timestamp="1539801675162">
-        <mark key="[" line="65" column="0" />
-        <mark key="]" line="65" column="0" />
-        <mark key="." line="65" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/choose_parameters.py" timestamp="1539963038503">
+        <mark key="'" line="66" column="38" />
+        <mark key="[" line="92" column="116" />
+        <mark key="]" line="93" column="76" />
+        <mark key="." line="93" column="76" />
+        <mark key="^" line="93" column="76" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric_key.py" timestamp="1519230154976">
         <mark key="'" line="114" column="6" />
@@ -2307,7 +2309,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="303" column="82" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="306" column="82" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="309" column="82" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="392" column="39" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
@@ -2407,6 +2408,7 @@
       <jump line="834" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="575" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="2" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="66" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/choose_parameters.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2416,7 +2418,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3BhdGhvcz09MC4yLjIuMScsCg==</text>
+        <text encoding="base64">ICAgICMgJ25leHRfcGFyYW1zJyB3aWxsIGJlIGEgbGlzdCBvZiBkaWN0aW9uYXJpZXMuIEVhY2ggZGljdGlvbmFyeQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2958,22 +2960,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>next_params</text>
       </register>
       <register name="/" type="4">
-        <text>Pathos</text>
+        <text>accumulated_params</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLnNhdmVfdG9fbG9jYWxfZm9sZGVyKGxvY2FsX2ZvbGRlcikKICAgICAgICBzZWxmLnVwbG9hZF9tb2RlbChsb2NhbF9mb2xkZXIsIGxvZ3NfcGF0aD1sb2dzX3BhdGgpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3BhdGhvcz09MC4yLjIuMScsCg==</text>
+        <text encoding="base64">ICAgICMgJ25leHRfcGFyYW1zJyB3aWxsIGJlIGEgbGlzdCBvZiBkaWN0aW9uYXJpZXMuIEVhY2ggZGljdGlvbmFyeQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2996,10 +2998,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICBpbmZsYXRlZF9wYXJhbXMK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3BhdGhvcz09MC4yLjIuMScsCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3079,24 +3081,23 @@
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHBvb2wgPSBQb29sKDQpCiAgICAgICAgICAgICAgICAjIG11bHRpcHJvY2Vzc2luZyBpbXBsZW1lbnRhdGlvbgogICAgICAgICAgICAgICAgdmFsX2xvc3NlcyA9IFtwb29sLmFwcGx5X2FzeW5jKHNlbGYudHJhaW5fbW9kZWwsIGFyZ3M9KG0sIFhfdHJhaW4sIFhfdmFsLCB5X3RyYWluLCB5X3ZhbCwgbG9nc19wYXRoKSkgZm9yCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG0gaW4gbW9kZWxzXQogICAgICAgICAgICAgICAgdmFsX2xvc3NlcyA9IFt4LmdldCgpIGZvciB4IGluIHZhbF9sb3NzZXNdCiAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICMgc2VyaWFsIGltcGxlbWVudGF0aW9uCiAgICAgICAgICAgICAgICB2YWxfbG9zc2VzID0gW3NlbGYudHJhaW5fbW9kZWwobSwgWF90cmFpbiwgWF92YWwsIHlfdHJhaW4sIHlfdmFsLCBsb2dzX3BhdGgpIGZvciBtIGluIG1vZGVsc10K</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>150</text>
+        <text>%s/accumulated_params/next_params/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>Pathos</last-search>
+      <last-search>accumulated_params</last-search>
       <last-offset />
-      <last-pattern>Pathos</last-pattern>
-      <last-replace>mocked_upload</last-replace>
-      <last-substitute>mocked_save</last-substitute>
+      <last-pattern>accumulated_params</last-pattern>
+      <last-replace>next_params</last-replace>
+      <last-substitute>accumulated_params</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>Opas</entry>
         <entry>def load_internal</entry>
         <entry>super</entry>
         <entry>class</entry>
@@ -3116,9 +3117,9 @@
         <entry>pathos</entry>
         <entry>path</entry>
         <entry>Pathos</entry>
+        <entry>accumulated_params</entry>
       </history-search>
       <history-cmd>
-        <entry>460</entry>
         <entry>480</entry>
         <entry>357</entry>
         <entry>265</entry>
@@ -3138,6 +3139,7 @@
         <entry>598</entry>
         <entry>q</entry>
         <entry>150</entry>
+        <entry>%s/accumulated_params/next_params/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
