@@ -233,12 +233,12 @@
         <mark key="^" line="90" column="62" />
         <mark key="." line="91" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk2.py" timestamp="1540062571170">
-        <mark key="'" line="395" column="51" />
-        <mark key="[" line="435" column="33" />
-        <mark key="]" line="435" column="51" />
-        <mark key="^" line="435" column="51" />
-        <mark key="." line="435" column="51" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk2.py" timestamp="1540064396741">
+        <mark key="'" line="455" column="12" />
+        <mark key="[" line="482" column="25" />
+        <mark key="]" line="482" column="30" />
+        <mark key="^" line="482" column="30" />
+        <mark key="." line="482" column="30" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/feedforward_feature_creator.py" timestamp="1538663571301">
         <mark key="'" line="54" column="53" />
@@ -2369,7 +2369,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="598" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="613" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="149" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="593" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2469,6 +2468,7 @@
       <jump line="380" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
       <jump line="394" column="15" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
       <jump line="396" column="51" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
+      <jump line="454" column="12" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2478,7 +2478,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>create_limit_sell_order</text>
+        <text>id</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3020,22 +3020,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>create_limit_sell_order</text>
+        <text>id</text>
       </register>
       <register name="/" type="4">
-        <text>class Ord</text>
+        <text>tak</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBsaW1pdF9vcmRlcihzZWxmLCB0eXBlXywgcXVhbnRpdHksIHJhdGUpOgogICAgICAgICIiIgogICAgICAgIDpwYXJhbSBxdWFudGl0eToKICAgICAgICA6cGFyYW0gcmF0ZToKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIGlmIHR5cGVfID09IFRyYW5zYWN0aW9uVHlwZS5CVVlJTkc6CiAgICAgICAgICAgIHV1aWQgPSBzZWxmLmV4Y2hhbmdlLmNyZWF0ZV9saW1pdF9idXlfb3JkZXIoc2VsZi5zeW1ib2wsIHF1YW50aXR5LCByYXRlKQogICAgICAgIGVsaWYgdHlwZV8gPT0gVHJhbnNhY3Rpb25UeXBlLlNFTExJTkc6CiAgICAgICAgICAgIHV1aWQgPSBzZWxmLmV4Y2hhbmdlLmNyZWF0ZV9saW1pdF9zZWxsX29yZGVyKHNlbGYuc3ltYm9sLCBxdWFudGl0eSwgcmF0ZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yCgogICAgICAgIHJldHVybiB1dWlkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVlXyA9IHNlbGYuZXhjaGFuZ2UuZGVzY3JpYmUoKVsnZmVlcyddWyd0YWtlciddCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdXVpZCA9IGV4Y2hhbmdlLnNlbGxfbGltaXQoc2VsZiwgcXVhbnRpdHksIHJhdGUpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gJ3t9e317fScuZm9ybWF0KGZpcnN0LCBzZWxmLmV4Y2hhbmdlKCkubWFya2V0X3NlcCgpLCBzZWNvbmQpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBleGNoYW5nZSA9IHNlbGYuZXhjaGFuZ2UoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3058,10 +3058,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjbWQgPSAiU0VMRUNUIGlkIGZyb20gVGlja2VycyIKICAgICAgICBpZiBiYXNlcyBvciBjdXJyZW5jaWVzIG9yIGV4Y2hhbmdlczoKICAgICAgICAgICAgY21kICs9ICIgV0hFUkUgIgogICAgICAgICAgICBiYXNlX2NsYXVzZSA9ICcxJwogICAgICAgICAgICBzeW1ib2xjbGF1c2UgPSAnMScKICAgICAgICAgICAgZXhjaGFuZ2VjbGF1c2UgPSAnMScKICAgICAgICAgICAgaWYgYmFzZXM6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgbGVuKGJhc2VzKQogICAgICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgICAgIGJhc2VzID0gW2Jhc2VzXQogICAgICAgICAgICAgICAgYmFzZV9jbGF1c2UgPSAiIEJhc2VJZCBpbiAoe30pICIuZm9ybWF0KCcsJy5qb2luKFtzdHIoYi5pZCkgZm9yIGIgaW4gYmFzZXNdKSkKICAgICAgICAgICAgaWYgY3VycmVuY2llczoKICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICBsZW4oY3VycmVuY2llcykKICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBjdXJyZW5jaWVzID0gW2N1cnJlbmNpZXNdCiAgICAgICAgICAgICAgICBzeW1ib2xjbGF1c2UgPSAiIEN1cnJlbmN5SWQgaW4gKHt9KSAiLmZvcm1hdCgnLCcuam9pbihbc3RyKGMuaWQpIGZvciBjIGluIGN1cnJlbmNpZXNdKSkKICAgICAgICAgICAgaWYgZXhjaGFuZ2VzOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIGxlbihleGNoYW5nZXMpCiAgICAgICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICAgICAgZXhjaGFuZ2VzID0gW2V4Y2hhbmdlc10KICAgICAgICAgICAgICAgIGV4Y2hhbmdlY2xhdXNlID0gIiBFeGNoYW5nZUlkIGluICh7fSkgIi5mb3JtYXQoJywnLmpvaW4oW3N0cihlLmlkKSBmb3IgZSBpbiBleGNoYW5nZXNdKSkKCiAgICAgICAgICAgIGNtZCArPSAiIEFORCAiLmpvaW4oW2Jhc2VfY2xhdXNlLCBzeW1ib2xjbGF1c2UsIGV4Y2hhbmdlY2xhdXNlXSkKCiAgICAgICAgcmVzcG9uc2UgPSBjdXJzb3IuZXhlY3V0ZShjbWQpCiAgICAgICAgaWRzID0gcmVzcG9uc2UuZmV0Y2hhbGwoKQoKICAgICAgICBhbGxfID0gW2NscyhpWzBdKSBmb3IgaSBpbiBpZHNdCiAgICAgICAgcmV0dXJuIGFsbF8K</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2Vjb25kID0gc2VsZi5iYXNlKCkuc2hvcnRfbmFtZShzZWxmLmV4Y2hhbmdlKCkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmlyc3QgPSBzZWxmLmN1cnJlbmN5KCkuc2hvcnRfbmFtZShzZWxmLmV4Y2hhbmdlKCkpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3129,28 +3129,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gc2VsZi5leGNoYW5nZS5mZXRjaF9vcmRlcl9ib29rKHNlbGYuc3ltYm9sKQo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2Vjb25kID0gc2VsZi5jdXJyZW5jeSgpLnNob3J0X25hbWUoc2VsZi5leGNoYW5nZSgpKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gc2VsZi5leGNoYW5nZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmlyc3QgPSBzZWxmLmJhc2UoKS5zaG9ydF9uYW1lKHNlbGYuZXhjaGFuZ2UoKSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5fZXh0cmFjdCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmV4Y2hhbmdlKCkuYmFzZV9maXJzdCgpOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3Qgc2VsZi5leGNoYW5nZToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>381</text>
       </register>
     </registers>
     <search>
-      <last-search>class Ord</last-search>
+      <last-search>tak</last-search>
       <last-offset />
-      <last-pattern>class Ord</last-pattern>
+      <last-pattern>tak</last-pattern>
       <last-replace>exchange</last-replace>
       <last-substitute>exchange_</last-substitute>
       <last-dir>1</last-dir>
@@ -3158,8 +3158,6 @@
     </search>
     <history>
       <history-search>
-        <entry>traceback</entry>
-        <entry encoding="base64">XDxdXD4=</entry>
         <entry encoding="base64">XDwxXD4=</entry>
         <entry encoding="base64">XDx0ZXN0X3BudFw+</entry>
         <entry>def uplo</entry>
@@ -3178,6 +3176,8 @@
         <entry>exchange_</entry>
         <entry>class Order</entry>
         <entry>class Ord</entry>
+        <entry>class Exchange</entry>
+        <entry>tak</entry>
       </history-search>
       <history-cmd>
         <entry>%s/^.\{,2\}\./1./gc</entry>
