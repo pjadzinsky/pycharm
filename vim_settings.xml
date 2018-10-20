@@ -36,8 +36,8 @@
         <mark key="." line="13" column="0" />
         <mark key="^" line="13" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1540039505050">
-        <mark key="'" line="2" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1540041311179">
+        <mark key="'" line="1154" column="22" />
         <mark key="[" line="3" column="0" />
         <mark key="]" line="3" column="0" />
         <mark key="^" line="2" column="0" />
@@ -101,6 +101,12 @@
         <mark key="]" line="36" column="22" />
         <mark key="." line="36" column="22" />
         <mark key="^" line="36" column="22" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1540041352026">
+        <mark key="[" line="90" column="87" />
+        <mark key="]" line="20" column="93" />
+        <mark key="^" line="20" column="93" />
+        <mark key="." line="90" column="93" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_utils.py" timestamp="1539445746847">
         <mark key="[" line="18" column="4" />
@@ -192,10 +198,10 @@
         <mark key="^" line="6" column="14" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_fully_connected.py" timestamp="1540038855241">
-        <mark key="[" line="23" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_fully_connected.py" timestamp="1540041355453">
+        <mark key="[" line="14" column="89" />
         <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
+        <mark key="." line="14" column="95" />
       </file>
       <file name="/Python Console" timestamp="1539990948092">
         <mark key="[" line="0" column="0" />
@@ -292,7 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="73" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="84" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_combined_model.py" />
@@ -392,6 +397,7 @@
       <jump line="91" column="72" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="92" column="61" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1154" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -946,7 +952,7 @@
         <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>def uplo</text>
+        <text>def upload_</text>
       </register>
       <register name="0" type="8">
         <text>`gitlab-runner exec shell test-python`</text>
@@ -1071,9 +1077,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def uplo</last-search>
+      <last-search>def upload_</last-search>
       <last-offset />
-      <last-pattern>def uplo</last-pattern>
+      <last-pattern>def upload_</last-pattern>
       <last-replace>1.</last-replace>
       <last-substitute>^.\{,2\}\.</last-substitute>
       <last-dir>1</last-dir>
@@ -1081,7 +1087,6 @@
     </search>
     <history>
       <history-search>
-        <entry>accumulated_params</entry>
         <entry>^.\.</entry>
         <entry>^.*\.</entry>
         <entry>^.{1,2}\.</entry>
@@ -1101,6 +1106,7 @@
         <entry encoding="base64">XDwxXD4=</entry>
         <entry encoding="base64">XDx0ZXN0X3BudFw+</entry>
         <entry>def uplo</entry>
+        <entry>def upload_</entry>
       </history-search>
       <history-cmd>
         <entry>%s/mocked_save/mocked_upload/g</entry>
