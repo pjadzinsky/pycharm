@@ -483,10 +483,10 @@
         <mark key="^" line="129" column="58" />
         <mark key="." line="129" column="58" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1539019692877">
-        <mark key="'" line="207" column="4" />
-        <mark key="[" line="242" column="0" />
-        <mark key="]" line="242" column="101" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1540078118030">
+        <mark key="'" line="61" column="8" />
+        <mark key="[" line="402" column="8" />
+        <mark key="]" line="422" column="55" />
         <mark key="." line="84" column="0" />
         <mark key="^" line="107" column="28" />
       </file>
@@ -2376,7 +2376,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="829" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="834" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="575" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="66" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/choose_parameters.py" />
@@ -2476,6 +2475,7 @@
       <jump line="11" column="27" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="12" column="55" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="37" column="11" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="61" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2484,8 +2484,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>sdkTicker</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IiIiCkJlY2F1c2Ugb2YgY2xpZW50IGJ1Z2d5IGJlaGF2aW91ciB3ZSBoYXZlIHR3byBkaWZmZXJlbnQgc2l0dWF0aW9ucyB3aGVyZSB3ZSBoYXZlIC0xIGluIHRoZSBtZXRyaWNzCjEuICBUaGUgMXN0IHJlYXNvbiBhcmUgZ29vZCAtMSB2YWx1ZXMsIHBsYWNlcyB3aGVyZSB0aGUgbWV0cmljcyB3YXMgZGVhZCBvciBub24gZXhpc3RlbnQuIFR5cGljYWxseSB0aGVzZQogICAgLTEgdmFsdWVzIHdvdWxkIHN0cmV0Y2ggZm9yIGEgbG9uZyBwZXJpb2Qgb2YgdGltZSAobG9uZ2VyIHRoYW4gJ2xvb2tfYWhlYWQnIHRpbWUgcG9pbnRzKQoyLiAgVGhlIDJuZCByZWFzb24gaXMgdGhlIGJ1ZyB3aGljaCBJIChQSikgZG9uJ3QgdW5kZXJzdGFuZCBidXQgYXBwYXJlbnRseSB0aGVyZSBhcmUgc2hvcnQgc2VnbWVudHMgb2YgLTEKICAgIHZhbHVlcyBpbiBwbGFjZXMgd2hlcmUgd2Ugc2hvdWxkIGhhdmUgcmVjb3JkZWQgcmVhbCBhY3Rpdml0eSAoPj0gMCkKICAgIApBLiBUaGUgcHJvcG9zZWQgYXBwcm9hY2ggaXMgdG8gbG9vayBhdCBhbGwgdGhlIGNvbnNlY3V0aXZlICdsb29rX2FoZWFkJyB2YWx1ZXMgZm9yIGV2ZXJ5IC0xLiBJZiBhbnkgb2YgdGhvc2UKdmFsdWVzIGlzIG5vdCAtMSwgd2UgZGVsZXRlIGFsbCB0aGUgLTEgcG9pbnRzIGFuZCBmb3J3YXJkX2ZpbGwgd2lsbCBhZGQgdGhlIGxhc3QgdmFsdWUgbGF0ZXIgb24uCiAgICBYOiBub3QgYSAtMSB2YWx1ZSwgYXNzdW1lIGxvb2tfYWhlYWQgaXMgMgogICAgICAgIFgwIC0xIC0xIFgyIFgzIFg0CiAgICAgICAgWDAgICAgICAgWDIgWDMgWDQgICAoYWZ0ZXIgcmVtb3ZpbmcgLTEgdmFsdWVzKQogICAgICAgIFgwIFgwIFgwIFgyIFgzIFg0ICAgKGFmdGVyIGZvcndhcmQgZmlsbCkKSWYgYWxsIHZhbHVlcyBhcmUgLTEgdGhlbiB3ZSByZXBsYWNlIHdpdGggMC4gTm90ZSB0aGF0IGV2ZW4gZm9yIGEgbG9uZyBzdHJldGNoIG9mIC0xIHZhbHVlcyB3ZSBzdGlsbCByZW1vdmUKdGhlIGxhc3QgJ2xvb2tfYWhlYWQnIC0gMSBudW0gcG9pbnRzIHdpdGggdGhpcyBhcHByb2FjaCBidXQgdGhlbiBmb3J3YXJkX2ZpbGwgd2lsbCByZXBsYWNlIHRoZW0gd2l0aCB0aGUgbGFzdAp2YWx1ZSwgd2hpY2ggaGFwcGVucyB0byBiZSAwCiAgICAgICAgWDAgLTEgLTEgLTEgLTEgLTEKICAgICAgICBYMCAgMCAgMCAgMCAgXyAgXyAgIChhZnRlciByZXBsYWNpbmcgbG9uZyBzdHJldGNoZXMgYnkgMCAob3IgdGhlIHNlbnRpbmVsIHZhbHVlKQogICAgICAgIFgwICAwICAwICAwICAwICAwICAgKGFmdGVyIGZvcndhcmQgZmlsbCk=</text>
       </register>
       <register name="b" type="4">
         <keys>
