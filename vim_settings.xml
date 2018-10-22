@@ -961,12 +961,6 @@
         <mark key="^" line="91" column="4" />
         <mark key="." line="90" column="5" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer.py" timestamp="1540222772370">
-        <mark key="'" line="40" column="17" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
-      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/s3_utils.py" timestamp="1528698253158">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="70" column="0" />
@@ -1007,9 +1001,6 @@
         <mark key="]" line="47" column="93" />
         <mark key="^" line="47" column="93" />
         <mark key="." line="47" column="93" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1540225966636">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/samples_selector/interface.py" timestamp="1540229836925">
         <mark key="[" line="0" column="13" />
@@ -1675,12 +1666,6 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="25" column="73" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk_graph.py" timestamp="1540166252673">
-        <mark key="'" line="255" column="4" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
-      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/filter_currencies.py" timestamp="1528813538590">
         <mark key="'" line="29" column="0" />
         <mark key="[" line="136" column="0" />
@@ -2300,6 +2285,13 @@
         <mark key="." line="328" column="3" />
         <mark key="^" line="328" column="3" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" timestamp="1540240404752">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="41" column="61" />
+        <mark key="^" line="34" column="24" />
+        <mark key="." line="34" column="24" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/test_cycles.py" timestamp="1534129650181">
         <mark key="'" line="11" column="23" />
         <mark key="[" line="28" column="28" />
@@ -2341,6 +2333,13 @@
         <mark key="]" line="14" column="7" />
         <mark key="^" line="14" column="7" />
         <mark key="." line="14" column="7" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" timestamp="1540240605003">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="29" column="41" />
+        <mark key="]" line="29" column="41" />
+        <mark key="." line="29" column="41" />
+        <mark key="^" line="29" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/demos/data/data.py" timestamp="1518459223992">
         <mark key="'" line="9" column="24" />
@@ -2386,8 +2385,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="372" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="33" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="386" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="375" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="53" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2486,6 +2483,8 @@
       <jump line="67" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" />
       <jump line="68" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" />
       <jump line="72" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2494,8 +2493,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+      <register name="&quot;" type="4">
+        <text>l</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3037,32 +3036,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>output</text>
+        <text>l</text>
       </register>
       <register name="/" type="4">
         <text>self</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiB0cmFpbihzZWxmLCBpbnB1dF9tZXRyaWNzLCBvdXRwdXRfbWV0cmljcywgc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgcmVzZXRfbW9kZWwsIGxvZ3NfcGF0aCk6Cg==</text>
+        <text encoding="base64">ICAgICAgICB3YXJuaW5nX3BudHMgPSBtb2RlbFsnbW9kZWxfcGFyYW1zJ10uZ2V0KCd3YXJuaW5nX3BudHMnLCAxMDApCiAgICAgICAgbmJpbnMgPSBtb2RlbFsnbW9kZWxfcGFyYW1zJ10uZ2V0KCduYmlucycsIDEyOCkKICAgICAgICB0eXBlXyA9IG1vZGVsWydtb2RlbF9wYXJhbXMnXS5nZXQoJ3R5cGVfJywgJ2xpbnNwYWNlJykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>from opasai.common.settings.kpi_stage_model_setting import KpiStageModelSetting
-from opasai.metrics.pipelines import PipelineValue
-from opasai.metrics.depipelined_metric_key import DepipelinedMetricKey
-from opasai.metrics import fake_metric
-from opasai.nnets.model_config import ModelConfigId
-from opasai.nnets.model_store import ModelStoreItem
-from opasai.nnets.model_store_tags import ModelStoreTags
-from opasai.trainers.feature_creator.identity_feature_creator import IdentityFeatureCreator
-from opasai.trainers.feature_selector.drop_sentinel_rows import DropSentinelRows
-from opasai.trainers.opas_models.linear_model import LinearModel
-from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBzZWxmLnByZWRpY3RlZF9zZW50aW5lbDoKICAgICAgICAgICAgcm93c190b19jaGFuZ2UgPSAoWCA9PSBzZWxmLmlucHV0X3NlbnRpbmVsKS5hbnkoYXhpcz0xKQogICAgICAgICAgICB5W3Jvd3NfdG9fY2hhbmdlLCA6XSA9IHNlbGYucHJlZGljdGVkX3NlbnRpbmVsCiAgICAgICAgcmV0dXJuIHkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3085,10 +3074,10 @@ from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgcGlwZWxpbmUgaW4gcGlwZWxpbmVzCg==</text>
+        <text encoding="base64">ICAgIGRlZiB1bnByb2Nlc3Moc2VsZiwgWCwgeSwgaXNfaW5wdXQpOgogICAgICAgICIiIgogICAgICAgIEV2ZXJ5IHRpbWUgYSByb3cgaW4gWCBoYXMgYSBTRU5USU5FTCB2YWx1ZSB3ZSByZXBsYWNlIGNvcnJlc3BvbmRpbmcgdmFsdWVzIGluIHkgYnkgc2VsZi5wcmVkaWN0ZWRfc2VudGluZWwKCiAgICAgICAgOnBhcmFtIFg6CiAgICAgICAgOnBhcmFtIHk6CiAgICAgICAgOnBhcmFtIGlzX2lucHV0OgogICAgICAgIDpyZXR1cm46CiAgICAgICAgIiIiCiAgICAgICAgaWYgc2VsZi5wcmVkaWN0ZWRfc2VudGluZWw6CiAgICAgICAgICAgIHJvd3NfdG9fY2hhbmdlID0gKFggPT0gc2VsZi5pbnB1dF9zZW50aW5lbCkuYW55KGF4aXM9MSkKICAgICAgICAgICAgeVtyb3dzX3RvX2NoYW5nZSwgOl0gPSBzZWxmLnByZWRpY3RlZF9zZW50aW5lbAogICAgICAgIHJldHVybiB5Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBkZi5wcmVkaWN0ZWRfc2VudGluZWwgPSBwYXJhbXMuZ2V0KCdwcmVkaWN0ZWRfc2VudGluZWwnKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3156,22 +3145,32 @@ from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZXMgPSBzZWxmLm1vZGVsLnBpcGVsaW5lLnNvcnRlZF9waXBlbGluZXMoc2VsZi5pbnB1dHMpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICApCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
+      <register name="6" type="4">
+        <text>from opasai.common.settings.kpi_stage_model_setting import KpiStageModelSetting
+from opasai.metrics.pipelines import PipelineValue
+from opasai.metrics.depipelined_metric_key import DepipelinedMetricKey
+from opasai.metrics import fake_metric
+from opasai.nnets.model_config import ModelConfigId
+from opasai.nnets.model_store import ModelStoreItem
+from opasai.nnets.model_store_tags import ModelStoreTags
+from opasai.trainers.feature_creator.identity_feature_creator import IdentityFeatureCreator
+from opasai.trainers.feature_selector.drop_sentinel_rows import DropSentinelRows
+from opasai.trainers.opas_models.linear_model import LinearModel
+from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBmb3IgcGlwZWxpbmUgaW4gcGlwZWxpbmVzCg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkuY29tbW9uIGltcG9ydCB1dGltZQo=</text>
+        <text encoding="base64">ICAgICAgICBwaXBlbGluZXMgPSBzZWxmLm1vZGVsLnBpcGVsaW5lLnNvcnRlZF9waXBlbGluZXMoc2VsZi5pbnB1dHMpCg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -3225,8 +3224,8 @@ from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
         <entry encoding="base64">JzwsJz42ODY=</entry>
         <entry>100</entry>
         <entry>686</entry>
-        <entry>q</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
