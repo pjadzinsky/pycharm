@@ -2334,12 +2334,12 @@
         <mark key="^" line="14" column="7" />
         <mark key="." line="14" column="7" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" timestamp="1540240605003">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="29" column="41" />
-        <mark key="]" line="29" column="41" />
-        <mark key="." line="29" column="41" />
-        <mark key="^" line="29" column="19" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" timestamp="1540241825420">
+        <mark key="'" line="46" column="44" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="^" line="51" column="29" />
+        <mark key="." line="52" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/demos/data/data.py" timestamp="1518459223992">
         <mark key="'" line="9" column="24" />
@@ -2385,10 +2385,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="386" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="375" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="239" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="82" column="42" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="28" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="144" column="24" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
@@ -2485,6 +2481,10 @@
       <jump line="72" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
+      <jump line="33" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
+      <jump line="34" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
+      <jump line="36" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
+      <jump line="48" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2493,8 +2493,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>l</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3036,22 +3036,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>l</text>
+        <text>rows_to_drop</text>
       </register>
       <register name="/" type="4">
-        <text>self</text>
+        <text encoding="base64">XDxiaW5zXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3YXJuaW5nX3BudHMgPSBtb2RlbFsnbW9kZWxfcGFyYW1zJ10uZ2V0KCd3YXJuaW5nX3BudHMnLCAxMDApCiAgICAgICAgbmJpbnMgPSBtb2RlbFsnbW9kZWxfcGFyYW1zJ10uZ2V0KCduYmlucycsIDEyOCkKICAgICAgICB0eXBlXyA9IG1vZGVsWydtb2RlbF9wYXJhbXMnXS5nZXQoJ3R5cGVfJywgJ2xpbnNwYWNlJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZF9YID0gWFtzZWxlY3RlZF9yb3dzXQogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkX3kgPSB5W3NlbGVjdGVkX3Jvd3NdCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLnByZWRpY3RlZF9zZW50aW5lbDoKICAgICAgICAgICAgcm93c190b19jaGFuZ2UgPSAoWCA9PSBzZWxmLmlucHV0X3NlbnRpbmVsKS5hbnkoYXhpcz0xKQogICAgICAgICAgICB5W3Jvd3NfdG9fY2hhbmdlLCA6XSA9IHNlbGYucHJlZGljdGVkX3NlbnRpbmVsCiAgICAgICAgcmV0dXJuIHkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3074,10 +3074,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiB1bnByb2Nlc3Moc2VsZiwgWCwgeSwgaXNfaW5wdXQpOgogICAgICAgICIiIgogICAgICAgIEV2ZXJ5IHRpbWUgYSByb3cgaW4gWCBoYXMgYSBTRU5USU5FTCB2YWx1ZSB3ZSByZXBsYWNlIGNvcnJlc3BvbmRpbmcgdmFsdWVzIGluIHkgYnkgc2VsZi5wcmVkaWN0ZWRfc2VudGluZWwKCiAgICAgICAgOnBhcmFtIFg6CiAgICAgICAgOnBhcmFtIHk6CiAgICAgICAgOnBhcmFtIGlzX2lucHV0OgogICAgICAgIDpyZXR1cm46CiAgICAgICAgIiIiCiAgICAgICAgaWYgc2VsZi5wcmVkaWN0ZWRfc2VudGluZWw6CiAgICAgICAgICAgIHJvd3NfdG9fY2hhbmdlID0gKFggPT0gc2VsZi5pbnB1dF9zZW50aW5lbCkuYW55KGF4aXM9MSkKICAgICAgICAgICAgeVtyb3dzX3RvX2NoYW5nZSwgOl0gPSBzZWxmLnByZWRpY3RlZF9zZW50aW5lbAogICAgICAgIHJldHVybiB5Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkZi5wcmVkaWN0ZWRfc2VudGluZWwgPSBwYXJhbXMuZ2V0KCdwcmVkaWN0ZWRfc2VudGluZWwnKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHdlIGhhdmUgdG8gY29udmVydAogICAgICAgICAgICAgICAgICAgICMgd2UgaGF2ZSB0byBkcm9wIHNvbWUgdmFsdWVzIGluIFggYW5kIHkKICAgICAgICAgICAgICAgICMgbm93IGRpZ2l0aXplIHNlbGVjdGVkX3kgYWNjb3JkaW5nCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3145,38 +3145,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZF9YID0gWFtzZWxlY3RlZF9yb3dzXQo=</text>
       </register>
-      <register name="6" type="4">
-        <text>from opasai.common.settings.kpi_stage_model_setting import KpiStageModelSetting
-from opasai.metrics.pipelines import PipelineValue
-from opasai.metrics.depipelined_metric_key import DepipelinedMetricKey
-from opasai.metrics import fake_metric
-from opasai.nnets.model_config import ModelConfigId
-from opasai.nnets.model_store import ModelStoreItem
-from opasai.nnets.model_store_tags import ModelStoreTags
-from opasai.trainers.feature_creator.identity_feature_creator import IdentityFeatureCreator
-from opasai.trainers.feature_selector.drop_sentinel_rows import DropSentinelRows
-from opasai.trainers.opas_models.linear_model import LinearModel
-from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZF9YID0gWAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgcGlwZWxpbmUgaW4gcGlwZWxpbmVzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZXMgPSBzZWxmLm1vZGVsLnBpcGVsaW5lLnNvcnRlZF9waXBlbGluZXMoc2VsZi5pbnB1dHMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGVjdGVkX1ggPSBYW3NlbGVjdGVkX3Jvd3NdCiAgICAgICAgICAgICAgICBzZWxlY3RlZF95ID0geVtzZWxlY3RlZF9yb3dzXQo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>38</text>
       </register>
     </registers>
     <search>
-      <last-search>self</last-search>
+      <last-search encoding="base64">XDxiaW5zXD4=</last-search>
       <last-offset />
-      <last-pattern>self</last-pattern>
+      <last-pattern encoding="base64">XDxiaW5zXD4=</last-pattern>
       <last-replace>usdt</last-replace>
       <last-substitute>usdt_1</last-substitute>
       <last-dir>1</last-dir>
@@ -3184,7 +3174,6 @@ from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
     </search>
     <history>
       <history-search>
-        <entry>class</entry>
         <entry>def tickers</entry>
         <entry>^class</entry>
         <entry encoding="base64">ZGVmIA==</entry>
@@ -3204,9 +3193,9 @@ from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
         <entry>Iden</entry>
         <entry>MetricKey</entry>
         <entry>self</entry>
+        <entry encoding="base64">XDxiaW5zXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>337</entry>
         <entry>395</entry>
         <entry>76</entry>
         <entry>155</entry>
@@ -3226,6 +3215,7 @@ from opasai.trainers.trainer.base_trainer import BaseTrainer</text>
         <entry>686</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>q</entry>
+        <entry>38</entry>
       </history-cmd>
       <history-expr />
       <history-input />
