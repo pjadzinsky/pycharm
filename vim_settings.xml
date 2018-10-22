@@ -600,11 +600,12 @@
         <mark key="." line="11" column="0" />
         <mark key="^" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1540166215282">
-        <mark key="[" line="186" column="0" />
-        <mark key="]" line="186" column="0" />
-        <mark key="." line="186" column="0" />
-        <mark key="^" line="186" column="35" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1540170559046">
+        <mark key="'" line="154" column="36" />
+        <mark key="[" line="163" column="0" />
+        <mark key="]" line="163" column="0" />
+        <mark key="." line="163" column="0" />
+        <mark key="^" line="163" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/tests/test_storageClient.py" timestamp="1513006321145">
         <mark key="'" line="0" column="2" />
@@ -1265,12 +1266,12 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1540167663826">
-        <mark key="'" line="109" column="4" />
-        <mark key="[" line="120" column="78" />
-        <mark key="]" line="120" column="19" />
-        <mark key="." line="120" column="19" />
-        <mark key="^" line="120" column="19" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1540170530587">
+        <mark key="'" line="48" column="0" />
+        <mark key="[" line="98" column="57" />
+        <mark key="]" line="98" column="57" />
+        <mark key="." line="98" column="57" />
+        <mark key="^" line="98" column="57" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/data/output_metric_query_2.json" timestamp="1515803754834">
         <mark key="'" line="0" column="0" />
@@ -2375,19 +2376,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges.py" />
-      <jump line="6" column="27" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/__init__.py" />
-      <jump line="10" column="22" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/__init__.py" />
-      <jump line="546" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="30" column="6" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="65" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="66" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="33" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="9" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="48" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
-      <jump line="21" column="26" filename="$USER_HOME$/crypto/crypto/crypto/db_scripts/exchanges_db.py" />
       <jump line="275" column="15" filename="$USER_HOME$/crypto/crypto/crypto/db/db.py" />
       <jump line="142" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
       <jump line="23" column="26" filename="$USER_HOME$/crypto/crypto/crypto/db/db.py" />
@@ -2475,6 +2463,19 @@
       <jump line="69" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="78" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="109" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="185" column="35" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="187" column="12" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="125" column="18" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="220" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="123" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="201" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="226" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="193" column="39" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="340" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="154" column="36" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="40" column="43" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2483,8 +2484,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>dest</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3026,22 +3027,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>dest</text>
+        <text>exchanges</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>we need</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGNscyhwb3RlbnRpYWxfc3ltYm9sXzEsIG5vZGVfMS5leGNoYW5nZSkK</text>
+        <text encoding="base64">ICAgICAgICBlZGdlcyA9IFtlIGZvciBlIGluIHNlbGYuZ3JhcGguZWRnZXMoKSBpZiAoCiAgICAgICAgICAgICAgICAoZVswXS5jdXJyZW5jeSBpbiBiYXNlX2N1cnJlbmNpZXMgYW5kIGVbMV0uY3VycmVuY3kgaW4gcXVvdGVfY3VycmVuY2llcykgb3IKICAgICAgICAgICAgICAgIChlWzFdLmN1cnJlbmN5IGluIGJhc2VfY3VycmVuY2llcyBhbmQgZVswXS5jdXJyZW5jeSBpbiBxdW90ZV9jdXJyZW5jaWVzKSkgYW5kCiAgICAgICAgICAgICAgICAgZVswXS5leGNoYW5nZSA9PSBlWzFdLmV4Y2hhbmdlIGFuZCBlWzBdLmV4Y2hhbmdlLmlkIGluIGV4Y2hhbmdlc10K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcG90ZW50aWFsX3N5bWJvbCA9ICJ7fS97fSIuZm9ybWF0KG5vZGVfMS5jdXJyZW5jeSwgbm9kZV8yLmN1cnJlbmN5KQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBleGNoYW5nZSA9IGdldGF0dHIoY2N4dCwgbm9kZV8xLmV4Y2hhbmdlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ2NhdGNoIHNwZWNpZmljIGVycm9yLCBub3QgYSBnZW5lcmFsIG9uZScpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3064,10 +3065,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8uZXhjaGFuZ2VzIGltcG9ydCBjbGllbnRfdXRpbHMK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3138,25 +3139,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y2xhc3MgRXhjaG5hZ2UoY2N4dC5FeGNoYW5nZSk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbmFtZSk6CiAgICAgICAgZ2V0YXR0cigpCiAgICAgICAgc3VwZXIoRXhjaG5hZ2UsIHNlbGYpLgogICAgZGVmIF9fZXFfXyhzZWxmLCBvdGhlcik6CiAgICAgICAgYXNzZXJ0IGlzaW5zdGFuY2Uob3RoZXIsIGNjeHQuRXhjaGFuZ2UpCiAgICAgICAgcmV0dXJuIHNlbGYuaWQgPT0gb3RoZXIuaWQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X3RpY2tlcnNfd2l0aF9iYXNlX2N1cnJlbmNpZXMyKHNlbGYpOgogICAgICAgIHRpY2tlcnMgPSBzZWxmLmdyYXBoLnRpY2tlcnMoYmFzZV9jdXJyZW5jaWVzPVsnRVRIJ10pCiAgICAgICAgc2VsZi5hc3NlcnRHcmVhdGVyKGxlbih0aWNrZXJzKSwgMykKICAgICAgICBzZWxmLmFzc2VydExlc3MobGVuKHRpY2tlcnMsIDIwKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICBlWzBdLmV4Y2hhbmdlID09IGVbMV0uZXhjaGFuZ2UgYW5kIGVbMF0uZXhjaGFuZ2UuaWQgaW4gZXhjaGFuZ2VzXQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICBlWzBdLmV4Y2hhbmdlID09IGVbMV0uZXhjaGFuZ2UgYW5kIGVbMF0uZXhjaGFuZ2UuaWQgaW4gZXhjaGFuZ2VzXQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X2FsbF93aXRoX3NhbWVfYmFzZV9hbmRfY3VycmVuY3koc2VsZik6CiAgICAgICAgIiIiCiAgICAgICAgVGVzdCB0aGF0IFRpY2tlci5hbGwgcmV0dXJucyBubyBpdGVtcyB3aGVuIGJhc2UgYW5kIGN1cnJlbmN5IGFyZSBzZXQgdG8gdGhlIHNhbWUgY3VycmVuY3kKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIHRpY2tlcnMgPSBzZGsuVGlja2VyLmFsbChiYXNlcz1zZWxmLmJ0YywgY3VycmVuY2llcz1bc2VsZi5idGNdKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKHRpY2tlcnMpLCAwKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIChlWzFdLmN1cnJlbmN5IGluIGJhc2VfY3VycmVuY2llcyBhbmQgZVswXS5jdXJyZW5jeSBpbiBxdW90ZV9jdXJyZW5jaWVzKSkgYW5kCg==</text>
       </register>
       <register name=":" type="4">
-        <text>439</text>
+        <text>165</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>we need</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>we need</last-pattern>
       <last-replace>usdt</last-replace>
       <last-substitute>usdt_1</last-substitute>
       <last-dir>1</last-dir>
@@ -3164,8 +3165,6 @@
     </search>
     <history>
       <history-search>
-        <entry>base_currency()</entry>
-        <entry>usdt_2</entry>
         <entry>usdt_1</entry>
         <entry>exchange()</entry>
         <entry>Currency</entry>
@@ -3175,25 +3174,19 @@
         <entry>NotIm</entry>
         <entry>Ticker.all</entry>
         <entry>class Graph</entry>
-        <entry>TestGraph</entry>
         <entry>TestC</entry>
         <entry>class</entry>
-        <entry>class Node</entry>
         <entry>def tickers</entry>
-        <entry>pudb</entry>
-        <entry>class Ticker</entry>
         <entry>^class</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>TestGraph</entry>
+        <entry>class Ticker</entry>
+        <entry>class Tick</entry>
+        <entry>class Node</entry>
+        <entry>pudb</entry>
+        <entry>we need</entry>
       </history-search>
       <history-cmd>
-        <entry>78</entry>
-        <entry>%s/usdt_2/usdt/g</entry>
-        <entry>%s/usdt_1/usdt/g</entry>
-        <entry>75</entry>
-        <entry>89</entry>
-        <entry>84</entry>
-        <entry>32</entry>
-        <entry>79</entry>
         <entry>83</entry>
         <entry>118</entry>
         <entry>87</entry>
@@ -3206,6 +3199,14 @@
         <entry>193</entry>
         <entry>106</entry>
         <entry>439</entry>
+        <entry>352</entry>
+        <entry>337</entry>
+        <entry>395</entry>
+        <entry>76</entry>
+        <entry>155</entry>
+        <entry>162</entry>
+        <entry>186</entry>
+        <entry>165</entry>
       </history-cmd>
       <history-expr />
       <history-input />
