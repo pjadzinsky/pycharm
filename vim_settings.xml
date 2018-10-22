@@ -702,10 +702,10 @@
         <mark key="^" line="64" column="11" />
         <mark key="." line="64" column="11" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/README_selfserve.md" timestamp="1540039237172">
-        <mark key="'" line="19" column="0" />
-        <mark key="[" line="42" column="16" />
-        <mark key="]" line="42" column="12" />
+      <file name="$USER_HOME$/opas/core/python/README_selfserve.md" timestamp="1540184205410">
+        <mark key="'" line="42" column="12" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="87" />
         <mark key="^" line="42" column="12" />
         <mark key="." line="42" column="12" />
       </file>
@@ -2101,6 +2101,10 @@
         <mark key="." line="59" column="19" />
         <mark key="^" line="59" column="19" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/README_simulation_server.md" timestamp="1540184674170">
+        <mark key="[" line="45" column="16" />
+        <mark key="]" line="45" column="53" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/rc_index.py" timestamp="1516410241154">
         <mark key="'" line="95" column="42" />
         <mark key="[" line="95" column="26" />
@@ -2376,7 +2380,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="278" column="48" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
       <jump line="389" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
       <jump line="606" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
       <jump line="380" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk2.py" />
@@ -2476,6 +2479,7 @@
       <jump line="20" column="7" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="203" column="67" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="128" column="38" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="42" column="12" filename="$USER_HOME$/opas/core/python/README_selfserve.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2484,8 +2488,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgc3RhcGxlcyA9IHNlbGYuZ3JhcGhfcG9sb19iaXR0X2hpdGIuYWxsX3N0YXBsZXMoWydCVEMnXSwgMSkKICAgICAgICBwcmludCgxLCBsZW4obGlzdChzdGFwbGVzKSkpCg==</text>
+      <register name="&quot;" type="8">
+        <text>http://localhost:9000/admin/settingsv2</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3030,7 +3034,7 @@
         <text>not</text>
       </register>
       <register name="/" type="4">
-        <text>cutoff</text>
+        <text>sbt</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gc2VsZi5ncmFwaF9wb2xvX2JpdHRfaGl0Yi5hbGxfc3RhcGxlcyhbJ0JUQyddLCAxKQogICAgICAgIHByaW50KDEsIGxlbihsaXN0KHN0YXBsZXMpKSkK</text>
@@ -3151,13 +3155,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ2NhdGNoIHNwZWNpZmljIGVycm9yLCBub3QgYSBnZW5lcmFsIG9uZScpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>227</text>
+        <text>qa</text>
       </register>
     </registers>
     <search>
-      <last-search>cutoff</last-search>
+      <last-search>sbt</last-search>
       <last-offset />
-      <last-pattern>cutoff</last-pattern>
+      <last-pattern>sbt</last-pattern>
       <last-replace>usdt</last-replace>
       <last-substitute>usdt_1</last-substitute>
       <last-dir>1</last-dir>
@@ -3165,7 +3169,6 @@
     </search>
     <history>
       <history-search>
-        <entry>exchange()</entry>
         <entry>Currency</entry>
         <entry>NotImplemented</entry>
         <entry>with_currency</entry>
@@ -3185,9 +3188,9 @@
         <entry>class Graph</entry>
         <entry>TestGraph</entry>
         <entry>cutoff</entry>
+        <entry>sbt</entry>
       </history-search>
       <history-cmd>
-        <entry>22</entry>
         <entry>q</entry>
         <entry>149</entry>
         <entry>156</entry>
@@ -3207,6 +3210,7 @@
         <entry>216</entry>
         <entry>204</entry>
         <entry>227</entry>
+        <entry>qa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
