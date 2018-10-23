@@ -616,8 +616,10 @@
         <mark key="^" line="16" column="75" />
         <mark key="." line="16" column="75" />
       </file>
-      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" timestamp="1540315573113">
+      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" timestamp="1540324002746">
         <mark key="'" line="31" column="5" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="66" column="5" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/tests/test_data.py" timestamp="1529027378144">
         <mark key="'" line="98" column="8" />
@@ -960,8 +962,10 @@
         <mark key="^" line="11" column="16" />
         <mark key="." line="11" column="16" />
       </file>
-      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest.json" timestamp="1540315586236">
+      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest.json" timestamp="1540324069671">
         <mark key="'" line="48" column="65" />
+        <mark key="[" line="51" column="5" />
+        <mark key="]" line="59" column="5" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_model_checkpoint.py" timestamp="1539887706778">
         <mark key="'" line="0" column="0" />
@@ -1428,12 +1432,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1537889943761">
-        <mark key="'" line="166" column="4" />
-        <mark key="[" line="44" column="78" />
-        <mark key="]" line="44" column="81" />
-        <mark key="." line="44" column="81" />
-        <mark key="^" line="44" column="81" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" timestamp="1540324181692">
+        <mark key="'" line="187" column="4" />
+        <mark key="[" line="48" column="53" />
+        <mark key="]" line="49" column="36" />
+        <mark key="." line="49" column="36" />
+        <mark key="^" line="49" column="36" />
       </file>
       <file name="$USER_HOME$/Testeo/upload/upload_update_state.sh" timestamp="1516120100657">
         <mark key="'" line="0" column="0" />
@@ -1943,6 +1947,13 @@
         <mark key="]" line="24" column="48" />
         <mark key="^" line="24" column="48" />
         <mark key="." line="24" column="48" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1540324459762">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="239" column="18" />
+        <mark key="]" line="239" column="14" />
+        <mark key="." line="239" column="14" />
+        <mark key="^" line="239" column="14" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
         <mark key="'" line="41" column="19" />
@@ -2468,7 +2479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_low_probability_outputs.py" />
       <jump line="59" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_low_probability_outputs.py" />
       <jump line="30" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_low_probability_outputs.py" />
       <jump line="39" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" />
@@ -2568,6 +2578,7 @@
       <jump line="31" column="5" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="787" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2576,8 +2587,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+      <register name="&quot;" type="4">
+        <text>extccwwend</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3119,22 +3130,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>model</text>
+        <text>extccwwend</text>
       </register>
       <register name="/" type="4">
         <text>def post</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICJmZWF0dXJlX3NlbGVjdG9ycyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlX3NlbGVjdG9yLmRyb3Bfc2VudGluZWxfcm93cy5Ecm9wU2VudGluZWxSb3dzIiwKICAgICAgICAgICAgInBhcmFtcyI6IHsKICAgICAgICAgICAgICAgICJpbnB1dF9zZW50aW5lbCI6IC0xLAogICAgICAgICAgICAgICAgInByZWRpY3RlZF9zZW50aW5lbCI6ICJOYU4iCiAgICAgICAgICAgIH0KICAgICAgICB9LCB7CiAgICAgICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlX3NlbGVjdG9yLmRyb3BfbG93X3Byb2JhYmlsaXR5X291dHB1dHMuRHJvcExvd1Byb2JhYmlsaXR5T3V0cHV0cyIsCiAgICAgICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAgICAgICAicHJvYmFiaWxpdHlfdGhyZXNob2xkIjogLjAwMSwKICAgICAgICAgICAgICAgICJhZ2dyZWdhdGVkX3Byb2IiOiB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICBdLAo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGNvbXB1dGVkLCBleHBlY3RlZCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgIAogICAgSWYgbWV0cmljcyBoYXZlIHRhZ3MgWydBJyBhbmQgJ0InXSB3aXRoIHZhbHVlcyAnYTEnLCAuLi4sICdhTicsICdiMScsIC4uLiwgJ2JOJyB3ZSB3aWxsIGNvbnN0cnVjdCBkaWZmZXJlbnQgbW9kZWxzCiAgICBkZXBlbmRpbmcgb24gdGhlIHZhbHVlIG9mIHBpcGVsaW5lX2RlZi4K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3157,7 +3168,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnZhbF9sb3NzID0gdmFsX2xvc3Nlc1tiZXN0X2xvc3NfaW5kZXhdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
@@ -3228,19 +3239,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnZhbF9zY29yZSA9IC1zZWxmLnZhbF9sb3NzCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnZhbF9sb3NzID0gdmFsX2xvc3Nlc1tiZXN0X2xvc3NfaW5kZXhdCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMuZmVhdHVyZV9zZWxlY3Rvci5kcm9wX2xvd19wcm9iYWJpbGl0eV9vdXRwdXRzLkRyb3BMb3dQcm9iYWJpbGl0eU91dHB1dHMiLAogICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAicHJvYmFiaWxpdHlfdGhyZXNob2xkIjogMC4wMDEsCiAgICAgICAgICAiYWdncmVnYXRlZF9wcm9iIjogdHJ1ZQogICAgICAgIH0KICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnZhbF9zY29yZSA9IC1zZWxmLnZhbF9sb3NzCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICJmZWF0dXJlX3NlbGVjdG9ycyI6IFtdLAo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMuZmVhdHVyZV9zZWxlY3Rvci5kcm9wX2xvd19wcm9iYWJpbGl0eV9vdXRwdXRzLkRyb3BMb3dQcm9iYWJpbGl0eU91dHB1dHMiLAogICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAicHJvYmFiaWxpdHlfdGhyZXNob2xkIjogMC4wMDEsCiAgICAgICAgICAiYWdncmVnYXRlZF9wcm9iIjogdHJ1ZQogICAgICAgIH0KICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>
