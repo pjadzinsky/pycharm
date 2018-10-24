@@ -553,11 +553,6 @@
         <mark key="." line="4" column="65" />
         <mark key="^" line="4" column="65" />
       </file>
-      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" timestamp="1540324002746">
-        <mark key="'" line="31" column="5" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="66" column="5" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/tests/test_data.py" timestamp="1529027378144">
         <mark key="'" line="98" column="8" />
         <mark key="[" line="74" column="0" />
@@ -740,6 +735,11 @@
         <mark key="^" line="35" column="3" />
         <mark key="." line="36" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1540418713081">
+        <mark key="[" line="250" column="0" />
+        <mark key="]" line="250" column="0" />
+        <mark key="." line="250" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/scripts/customers/realtor.com/realtor_har.py" timestamp="1528909897005">
         <mark key="'" line="71" column="14" />
         <mark key="[" line="21" column="30" />
@@ -833,8 +833,6 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_sentinel_rows.py" timestamp="1540336312042">
         <mark key="'" line="0" column="43" />
-        <mark key="." line="54" column="29" />
-        <mark key="^" line="54" column="29" />
       </file>
       <file name="$USER_HOME$/Testeo/s3_utils.py" timestamp="1517194376409">
         <mark key="'" line="15" column="8" />
@@ -863,11 +861,6 @@
         <mark key="]" line="11" column="16" />
         <mark key="^" line="11" column="16" />
         <mark key="." line="11" column="16" />
-      </file>
-      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest.json" timestamp="1540324069671">
-        <mark key="'" line="48" column="65" />
-        <mark key="[" line="51" column="5" />
-        <mark key="]" line="59" column="5" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_model_checkpoint.py" timestamp="1539887706778">
         <mark key="'" line="0" column="0" />
@@ -2146,9 +2139,9 @@
         <mark key="." line="14" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_low_probability_outputs.py" timestamp="1540401502016">
-        <mark key="[" line="95" column="0" />
-        <mark key="]" line="95" column="0" />
-        <mark key="." line="95" column="0" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/demos/data/data.py" timestamp="1518459223992">
         <mark key="'" line="9" column="24" />
@@ -2303,7 +2296,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50IHZhbF9sb3NzZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIG5vdCBkZWNyZWFzaW5nOgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2854,13 +2847,13 @@
         <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgeyd0eXBlJzogJ3BvbG5pbWlhbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnd2VpZ2h0cyc6IFsxLCAwLjUsIDAuMjVdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Bvd2Vycyc6IFsxLCAwLjUsIDAuMjVdfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMScsKX0pKSwKICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgeyd0eXBlJzogJ3BvbG5pbWlhbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnd2VpZ2h0cyc6IFswLjUsIDAuMjUsIDFdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Bvd2Vycyc6IFswLjUsIDAuMjUsIDFdfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMicsKX0pKSwKICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgeyd0eXBlJzogJ3BvbG5pbWlhbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnd2VpZ2h0cyc6IFswLjI1LCAxLCAwLjVdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Bvd2Vycyc6IFswLjI1LCAxLCAwLjVdfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMycsKX0pKSwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50IHZhbF9sb3NzZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIG5vdCBkZWNyZWFzaW5nOgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgWzEsIDAsIDBdLCBNZXRyaWNLZXkoJ291dHB1dCcsICdtXzEnLCB7J0EnOiAoJ2ExJywpfSkpLAogICAgICAgICAgICBmYWtlX21ldHJpYy5taXhfbWV0cmljcyhpbnB1dF9tZXRyaWNzLCBbMCwgMSwgMF0sIE1ldHJpY0tleSgnb3V0cHV0JywgJ21fMScsIHsnQSc6ICgnYTInLCl9KSksCiAgICAgICAgICAgIGZha2VfbWV0cmljLm1peF9tZXRyaWNzKGlucHV0X21ldHJpY3MsIFswLCAwLCAxXSwgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMycsKX0pKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyAnaWYnIHN0YXRlbWVudCBhbmQgcmFpc2UsIHdlIGNoYW5nZSBkZWNyZWFpbmcgdG8gRmFsc2UgYW5kIHdlIHdhbnQK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2883,10 +2876,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgWy4yNSwgMSwgMC41XSwgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMycsKX0pKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyB3ZSBjYW4ndCBkbyAnZWxzZScgaW4gdGhlIGxpbmUgYmVsb3cgYmVjYXVzZSB3aGVuICdkZWNyZWFzaW5nJyBpcyBUcnVlIGFuZCB3ZSBlbnRlciB0aGUgcHJldmlvdXMK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgWzAuNSwgLjI1LCAxXSwgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMicsKX0pKSwK</text>
+        <text encoding="base64">ICAgIHByaW50IHZhbF9sb3NzZXMK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2954,19 +2947,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmIHBhcmFtcy5nZXQoJ3R5cGUnKSA9PSAncG9seW5vbWlhbCc6CiAgICAgICAgd2VpZ2h0cyA9IHBhcmFtcy5nZXQoJ3dlaWdodHMnKQoKICAgICAgICBuZXdfbWV0cmljLnZhbHVlcyAqPSB3ZWlnaHRzWzBdCiAgICAgICAgZm9yIG0sIHdlaWdodCBpbiB6aXAobWV0cmljc1sxOl0sIHdlaWdodHNbMTpdKToKICAgICAgICAgICAgbmV3X21ldHJpYy52YWx1ZXMgKz0gbS52YWx1ZXMgKiB3ZWlnaHQKICAgICAgICByZXR1cm4gbmV3X21ldHJpYwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgWzEsIDAsIDBdLCBNZXRyaWNLZXkoJ291dHB1dCcsICdtXzEnLCB7J0EnOiAoJ2ExJywpfSkpLAogICAgICAgICAgICBmYWtlX21ldHJpYy5taXhfbWV0cmljcyhpbnB1dF9tZXRyaWNzLCBbMCwgMSwgMF0sIE1ldHJpY0tleSgnb3V0cHV0JywgJ21fMScsIHsnQSc6ICgnYTInLCl9KSksCiAgICAgICAgICAgIGZha2VfbWV0cmljLm1peF9tZXRyaWNzKGlucHV0X21ldHJpY3MsIFswLCAwLCAxXSwgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMycsKX0pKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG5ld19tZXRyaWMgPSBtZXRyaWNzWzBdLmRlZXBjb3B5KCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgWy4yNSwgMSwgMC41XSwgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMycsKX0pKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG5ld19tZXRyaWMua2V5ID0gbmV3X2tleQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMubWl4X21ldHJpY3MoaW5wdXRfbWV0cmljcywgWzAuNSwgLjI1LCAxXSwgTWV0cmljS2V5KCdvdXRwdXQnLCAnbV8xJywgeydBJzogKCdhMicsKX0pKSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG5ld19tZXRyaWMudmFsdWVzID0gbmV3X21ldHJpYy52YWx1ZXMgKiogcG93ZXJzWzBdICogd2VpZ2h0c1swXQo=</text>
+        <text encoding="base64">ICAgIGlmIHBhcmFtcy5nZXQoJ3R5cGUnKSA9PSAncG9seW5vbWlhbCc6CiAgICAgICAgd2VpZ2h0cyA9IHBhcmFtcy5nZXQoJ3dlaWdodHMnKQoKICAgICAgICBuZXdfbWV0cmljLnZhbHVlcyAqPSB3ZWlnaHRzWzBdCiAgICAgICAgZm9yIG0sIHdlaWdodCBpbiB6aXAobWV0cmljc1sxOl0sIHdlaWdodHNbMTpdKToKICAgICAgICAgICAgbmV3X21ldHJpYy52YWx1ZXMgKz0gbS52YWx1ZXMgKiB3ZWlnaHQKICAgICAgICByZXR1cm4gbmV3X21ldHJpYwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmIHdlaWdodHNbMF0K</text>
+        <text encoding="base64">ICAgIG5ld19tZXRyaWMgPSBtZXRyaWNzWzBdLmRlZXBjb3B5KCkK</text>
       </register>
       <register name=":" type="4">
         <text>339</text>
