@@ -1177,12 +1177,12 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1540526003675">
-        <mark key="'" line="182" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="^" line="50" column="33" />
-        <mark key="." line="36" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1540527783629">
+        <mark key="'" line="576" column="4" />
+        <mark key="[" line="453" column="12" />
+        <mark key="]" line="453" column="18" />
+        <mark key="." line="453" column="18" />
+        <mark key="^" line="453" column="18" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/data/output_metric_query_2.json" timestamp="1515803754834">
         <mark key="'" line="0" column="0" />
@@ -2192,14 +2192,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="775" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="802" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="722" column="17" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="68" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
-      <jump line="50" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
-      <jump line="441" column="22" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="7" column="50" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
-      <jump line="33" column="6" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="34" column="14" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="35" column="29" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="98" column="37" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
@@ -2292,6 +2284,14 @@
       <jump line="183" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="58" column="13" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="60" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
+      <jump line="36" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="583" column="16" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="446" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="453" column="17" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="458" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="615" column="7" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="646" column="20" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="576" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2300,8 +2300,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjb250aW51ZQo=</text>
+      <register name="&quot;" type="4">
+        <text>self</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2843,22 +2843,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>heat_index</text>
+        <text>self</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>def currency_ch</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBjbGVhcl9vcmRlcl9ib29rX2NhY2hlKHNlbGYpOgogICAgICAgIGZvciBjdXJyZW50LCBuZXh0IGluIHNlbGZbOi0xXSwgc2VsZlsxOl06CiAgICAgICAgICAgIGlmIGN1cnJlbnQuZXhjaGFuZ2UgPT0gbmV4dC5leGNoYW5nZToKICAgICAgICAgICAgICAgIHN5bWJvbCA9ICd7fS97fScuZm9ybWF0KGN1cnJlbnQuY3VycmVuY3ksIG5leHQuY3VycmVuY3kpCiAgICAgICAgICAgICAgICB0aWNrZXIgPSBUaWNrZXIoc3ltYm9sLCBjdXJyZW50LmV4Y2hhbmdlKQogICAgICAgICAgICAgICAgdGlja2VyLm9yZGVyX2Jvb2suY2FjaGVfY2xlYXIoKQo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZW4oY3VycmVuY2llcykgPT0gMDoKICAgICAgICAgICAgcmV0dXJuIDAKICAgICAgICBlbGlmIGxlbihjdXJyZW5jaWVzKSA9PSAxOgogICAgICAgICAgICByZXR1cm4gMQoKICAgICAgICBpZiBjdXJyZW5jaWVzWy0xXSA9PSBjdXJyZW5jaWVzWy0yXToKICAgICAgICAgICAgY29zdCA9IDEuMAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHRpY2tlciA9IFRpY2tlci5mcm9tX2NvbXBvbmVudHMoY3VycmVuY2llc1stMV0sIGN1cnJlbmNpZXNbLTJdLCBzZWxmLmV4Y2hhbmdlKQogICAgICAgICAgICAgICAgaWYgY3VycmVuY2llc1stMV0gPT0gdGlja2VyLnF1b3RlX2N1cnJlbmN5OgogICAgICAgICAgICAgICAgICAgIGNvc3QgPSBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmxvY1t0aWNrZXIuc3ltYm9sLCAnTGFzdCddCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIGNvc3QgPSAxLjAgLyBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmxvY1t0aWNrZXIuc3ltYm9sLCAnTGFzdCddCiAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgIGNvc3QgPSAwCgogICAgICAgIHJldHVybiBjb3N0ICogc2VsZi5jdXJyZW5jeV9jaGFpbl92YWx1ZShjdXJyZW5jaWVzWzotMV0pCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW5jaWVzWy0xXSA9PSBjdXJyZW5jaWVzWy0yXToKICAgICAgICAgICAgIyBubyBjdXJyZW5jeSB0cmFkZXMgd2l0aCBpdHNlbGYsIHZvbHVtZSBzaG91bGQgYmUgMCBpbiB0aGlzIGNhc2UKICAgICAgICAgICAgcmV0dXJuIDAKICAgICAgICBlbHNlOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB0aWNrZXIgPSBUaWNrZXIuZnJvbV9jb21wb25lbnRzKGN1cnJlbmNpZXNbLTFdLCBjdXJyZW5jaWVzWy0yXSwgc2VsZi5leGNoYW5nZSkKICAgICAgICAgICAgICAgIGlmIGN1cnJlbmNpZXNbLTFdID09IHRpY2tlci5xdW90ZV9jdXJyZW5jeToKICAgICAgICAgICAgICAgICAgICB2b2x1bWUgPSBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmxvY1t0aWNrZXIuc3ltYm9sLCAnQmFzZVZvbHVtZSddCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHJldmVyc2VkX21hcmtldF9yb3cgPSBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmxvY1t0aWNrZXIuc3libW9sXQogICAgICAgICAgICAgICAgICAgIHZvbHVtZSA9IHJldmVyc2VkX21hcmtldF9yb3dbJ0Jhc2VWb2x1bWUnXSAvIHJldmVyc2VkX21hcmtldF9yb3dbJ0xhc3QnXQogICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICB2b2x1bWUgPSAwCgogICAgICAgIHJldHVybiBzZWxmLmN1cnJlbmN5X2NoYWluX3ZhbHVlKGN1cnJlbmNpZXNbOi0xXSkgKiB2b2x1bWUK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBjdXJyZW5jaWVzWy0xXSA9PSBjdXJyZW5jaWVzWy0yXToKICAgICAgICAgICAgIyBubyBjdXJyZW5jeSB0cmFkZXMgd2l0aCBpdHNlbGYsIHZvbHVtZSBzaG91bGQgYmUgMCBpbiB0aGlzIGNhc2UKICAgICAgICAgICAgcmV0dXJuIDAKICAgICAgICBlbHNlOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB0aWNrZXIgPSBUaWNrZXIuZnJvbV9jb21wb25lbnRzKGN1cnJlbmNpZXNbLTFdLCBjdXJyZW5jaWVzWy0yXSwgc2VsZi5leGNoYW5nZSkKICAgICAgICAgICAgICAgIGlmIGN1cnJlbmNpZXNbLTFdID09IHRpY2tlci5xdW90ZV9jdXJyZW5jeToKICAgICAgICAgICAgICAgICAgICB2b2x1bWUgPSBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmxvY1t0aWNrZXIuc3ltYm9sLCAnQmFzZVZvbHVtZSddCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHJldmVyc2VkX21hcmtldF9yb3cgPSBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmxvY1t0aWNrZXIuc3libW9sXQogICAgICAgICAgICAgICAgICAgIHZvbHVtZSA9IHJldmVyc2VkX21hcmtldF9yb3dbJ0Jhc2VWb2x1bWUnXSAvIHJldmVyc2VkX21hcmtldF9yb3dbJ0xhc3QnXQogICAgICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgICAgICB2b2x1bWUgPSAwCgogICAgICAgIHJldHVybiBzZWxmLmN1cnJlbmN5X2NoYWluX3ZhbHVlKGN1cnJlbmNpZXNbOi0xXSkgKiB2b2x1bWUK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2881,10 +2881,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gY29zdCAqIHNlbGYuY3VycmVuY3lfY2hhaW5fdmFsdWUoY3VycmVuY2llc1s6LTFdKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2952,28 +2952,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBwb3RlbnRpYWxfbWFya2V0X25hbWUgPSBUaWNrZXIuZnJvbV9jb21wb25lbnRzKGJhc2UsIGN1cnJlbmN5LCBzZWxmLmV4Y2hhbmdlKQoKICAgICAgICBlbGlmIHBvdGVudGlhbF9tYXJrZXRfbmFtZSBpbiBzZWxmLm1hcmtldF9zdW1tYXJ5X2RmLmluZGV4OgogICAgICAgIGVsaWYgcmV2ZXJzZWRfbWFya2V0X25hbWUgaW4gc2VsZi5tYXJrZXRfc3VtbWFyeV9kZi5pbmRleDoKICAgICAgICBlbHNlOgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvc3QgPSAwCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdm9sdW1lID0gMAo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">IyBkZWYgX2Jlc3RfZ2FpbihjeWNsZSwgbm9kZV8xX3F1YW50aXRpZXMsIGNhY2hlZD1UcnVlKQojICAgICAiIiIKIyAgICAgRXhwbG9yZXMgdGhlIHZhbHVlcyBvZiBnYWluIGF0IHRoZSBpbml0aWFsIGludmVzdG1lbnRzIG5vZGVfMV9xdWFudGl0aWVzLgojICAgICBub2RlXzFfcXVhbnRpdGllcyBpcyBhc3N1bWVkIHRvIGNvbWUgb3JkZXJlZCBpbmNyZWFzaW5nbHkuIEl0IHN0b3BzIHRoZSBzZWFyY2ggb25jZSAgdGhlIG5ldCBnYWluIChpbiBjb2lucywgbm90CiMgICAgIHBlcmNlbnRhZ2UpIGlzIGZvdW5kLgojCiMgICAgIDpwYXJhbSBjeWNsZToKIyAgICAgOnBhcmFtIG5vZGVfMV9xdWFudGl0aWVzOiBhcnJheSBvZiBpbml0aWFsIGludmVzdG1lbnRzIHRvIGV4cGxvcmUsIG9yZGVyZWQgaW5jcmVhc2luZ2x5CiMgICAgIDpwYXJhbSBjYWNoZWQ6CiMgICAgIDpyZXR1cm46IHRoZSB0cmFuc2FjdGlvbiBmcm9tIF9nYWluIHRoYXQgcmV0dXJucyB0aGUgbGFyZ2VzdCBnYWluIGluIGNvaW5zCiMgICAgICIiIgojICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb3N0ID0gMS4wIC8gc2VsZi5tYXJrZXRfc3VtbWFyeV9kZi5sb2NbdGlja2VyLnN5bWJvbCwgJ0xhc3QnXQo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/currency()/currency/gc</text>
+        <text>454</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>def currency_ch</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>def currency_ch</last-pattern>
       <last-replace>currency</last-replace>
       <last-substitute>currency()</last-substitute>
       <last-dir>1</last-dir>
@@ -2981,11 +2981,6 @@
     </search>
     <history>
       <history-search>
-        <entry>first</entry>
-        <entry>class TestTicker</entry>
-        <entry>from_nodes</entry>
-        <entry>__hash__</entry>
-        <entry>^class</entry>
         <entry>def load_model</entry>
         <entry>def dow</entry>
         <entry>ENV</entry>
@@ -3001,9 +2996,13 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>all_cycles</entry>
         <entry>pudb</entry>
+        <entry>from_compon</entry>
+        <entry>class Tick</entry>
+        <entry>from_components</entry>
+        <entry>currency_chain_val</entry>
+        <entry>def currency_ch</entry>
       </history-search>
       <history-cmd>
-        <entry>102</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>206</entry>
         <entry>450</entry>
@@ -3014,7 +3013,6 @@
         <entry>72</entry>
         <entry>79</entry>
         <entry>63</entry>
-        <entry>w</entry>
         <entry>68</entry>
         <entry>64</entry>
         <entry>43</entry>
@@ -3023,6 +3021,8 @@
         <entry>57</entry>
         <entry>%s/exchange()/exchange/gc</entry>
         <entry>%s/currency()/currency/gc</entry>
+        <entry>w</entry>
+        <entry>454</entry>
       </history-cmd>
       <history-expr />
       <history-input />
