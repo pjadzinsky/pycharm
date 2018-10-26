@@ -1177,12 +1177,12 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1540515878339">
-        <mark key="'" line="188" column="8" />
-        <mark key="[" line="205" column="0" />
-        <mark key="]" line="205" column="0" />
-        <mark key="." line="205" column="0" />
-        <mark key="^" line="188" column="13" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1540516745058">
+        <mark key="'" line="469" column="0" />
+        <mark key="[" line="191" column="28" />
+        <mark key="]" line="191" column="27" />
+        <mark key="." line="191" column="27" />
+        <mark key="^" line="191" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/data/output_metric_query_2.json" timestamp="1515803754834">
         <mark key="'" line="0" column="0" />
@@ -2192,11 +2192,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="310" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="311" column="8" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="315" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="316" column="8" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="320" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="347" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="353" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="357" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2292,6 +2287,11 @@
       <jump line="201" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="207" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="188" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="245" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="230" column="34" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="204" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="225" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="460" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2301,7 +2301,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBjYWNoZV9jbGVhcigpOgogICAgICAgIGZvciBleGNoYW5nZSBpbiBFeGNoYW5nZS5hbGwoKToKICAgICAgICAgICAgcGMgPSBleGNoYW5nZS5wdWJsaWNfY2xpZW50CiAgICAgICAgICAgIHBjLm9yZGVyX2Jvb2tfY2FjaGVfY2xlYXIoKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCBuZXh0IGluIHNlbGZbOi0xXSwgc2VsZlsxOl06Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2843,16 +2843,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>sorted</text>
+        <text>current</text>
       </register>
       <register name="/" type="4">
-        <text>reset</text>
+        <text>class Graph</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBjbGVhcl9vcmRlcl9ib29rX2NhY2hlKHNlbGYpOgogICAgICAgIGZvciBjdXJyZW50LCBuZXh0IGluIHNlbGZbOi0xXSwgc2VsZlsxOl06CiAgICAgICAgICAgIGlmIGN1cnJlbnQuZXhjaGFuZ2UgPT0gbmV4dC5leGNoYW5nZToKICAgICAgICAgICAgICAgIHN5bWJvbCA9ICd7fS97fScuZm9ybWF0KGN1cnJlbnQuY3VycmVuY3ksIG5leHQuY3VycmVuY3kpCiAgICAgICAgICAgICAgICB0aWNrZXIgPSBUaWNrZXIoc3ltYm9sLCBjdXJyZW50LmV4Y2hhbmdlKQogICAgICAgICAgICAgICAgdGlja2VyLm9yZGVyX2Jvb2suY2FjaGVfY2xlYXIoKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBjYWNoZV9jbGVhcigpOgogICAgICAgIGZvciBleGNoYW5nZSBpbiBFeGNoYW5nZS5hbGwoKToKICAgICAgICAgICAgcGMgPSBleGNoYW5nZS5wdWJsaWNfY2xpZW50CiAgICAgICAgICAgIHBjLm9yZGVyX2Jvb2tfY2FjaGVfY2xlYXIoKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCBuZXh0IGluIHNlbGZbOi0xXSwgc2VsZlsxOl06Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -2881,10 +2881,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiByZXNldF8K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmIGV4ZWN1dGU6CiAgICAgICAgaWYgbGVuKGV4Y2hhbmdlcykgPT0gMToKICAgICAgICAgICAgaW5pdGlhbF9iYWxhbmNlID0gZXhjaGFuZ2VzWzBdLmdldF9iYWxhbmNlcygpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKGluaXRpYWxfYmFsYW5jZS50b19kaWN0KCkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKCdWZXJzaW9uIHRoYXQgd29ya3Mgd2l0aCBhIHNpbmdsZSBleGNoYW5nZScpCiAgICAgICAgICAgIGV4aXQoMCkK</text>
+        <text encoding="base64">ICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBjYWNoZV9jbGVhcigpOgogICAgICAgIGZvciBleGNoYW5nZSBpbiBFeGNoYW5nZS5hbGwoKToKICAgICAgICAgICAgcGMgPSBleGNoYW5nZS5wdWJsaWNfY2xpZW50CiAgICAgICAgICAgIHBjLm9yZGVyX2Jvb2tfY2FjaGVfY2xlYXIoKQoK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -2952,28 +2952,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgSW4gdGhpcyB2ZXJzaW9uIHdlIHdvcmsgd2l0aCBhIHNpbmdsZSBleGNoYW5nZSwgYW5kIHdpbGwgY2hhbmdlIHRoaXMgbGF0ZXIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBDaGFuZ2luZyBydW5fcHl0aG9uX3Rlc3RzIHRvIGZpcnN0IGRlbGV0ZSAvbW50L21vZGVscy88ZW52PiBmb2xkZXIuIFRoZW4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgIGlmIGV4ZWN1dGU6CiAgICAgICAgaWYgbGVuKGV4Y2hhbmdlcykgPT0gMToKICAgICAgICAgICAgaW5pdGlhbF9iYWxhbmNlID0gZXhjaGFuZ2VzWzBdLmdldF9iYWxhbmNlcygpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKGluaXRpYWxfYmFsYW5jZS50b19kaWN0KCkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbG9nZ2VyLmVycm9yKCdWZXJzaW9uIHRoYXQgd29ya3Mgd2l0aCBhIHNpbmdsZSBleGNoYW5nZScpCiAgICAgICAgICAgIGV4aXQoMCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsYXN0X3R3b19leHBlY3RlZCA9IFsndGlwX2Ftb3VudCcsICd0b3RhbF9kaXN0YW5jZSddCg==</text>
+        <text encoding="base64">ICAgICMgSW4gdGhpcyB2ZXJzaW9uIHdlIHdvcmsgd2l0aCBhIHNpbmdsZSBleGNoYW5nZSwgYW5kIHdpbGwgY2hhbmdlIHRoaXMgbGF0ZXIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsYXN0X3R3b19jb21wdXRlZCA9IHNvcnRlZChzb3J0ZWRfZmllbGRzWy0yOl0pCg==</text>
+        <text encoding="base64">Pj4+Pj4+PiBDaGFuZ2luZyBydW5fcHl0aG9uX3Rlc3RzIHRvIGZpcnN0IGRlbGV0ZSAvbW50L21vZGVscy88ZW52PiBmb2xkZXIuIFRoZW4K</text>
       </register>
       <register name=":" type="4">
         <text>68</text>
       </register>
     </registers>
     <search>
-      <last-search>reset</last-search>
+      <last-search>class Graph</last-search>
       <last-offset />
-      <last-pattern>reset</last-pattern>
+      <last-pattern>class Graph</last-pattern>
       <last-replace>currency</last-replace>
       <last-substitute>currency\.id</last-substitute>
       <last-dir>1</last-dir>
@@ -2981,9 +2981,6 @@
     </search>
     <history>
       <history-search>
-        <entry>life_signal_email</entry>
-        <entry>send_email</entry>
-        <entry>order_book</entry>
         <entry>lru_cache</entry>
         <entry>class Path</entry>
         <entry>time</entry>
@@ -3001,6 +2998,9 @@
         <entry>def test_predict</entry>
         <entry>mocked_load</entry>
         <entry>reset</entry>
+        <entry>cache_clear</entry>
+        <entry>class Tic</entry>
+        <entry>class Graph</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
