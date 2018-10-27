@@ -1162,6 +1162,10 @@
         <mark key="^" line="60" column="32" />
         <mark key="." line="76" column="0" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/log.py" timestamp="1540608723314">
+        <mark key="[" line="62" column="0" />
+        <mark key="]" line="63" column="81" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_base_stage.py" timestamp="1539988428189">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="190" column="0" />
@@ -2387,8 +2391,9 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="8">
+        <text># config logging, adding file and console handlers
+logging.basicConfig(level=logging.DEBUG, handlers=[file_handler, console_handler])</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2935,8 +2940,8 @@
       <register name="/" type="4">
         <text>interval_s</text>
       </register>
-      <register name="0" type="4">
-        <text>['rate_code', 'store_and_fwd_flag']</text>
+      <register name="0" type="2">
+        <text encoding="base64">IyBjb25maWcgbG9nZ2luZywgYWRkaW5nIGZpbGUgYW5kIGNvbnNvbGUgaGFuZGxlcnMKbG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLkRFQlVHLCBoYW5kbGVycz1bZmlsZV9oYW5kbGVyLCBjb25zb2xlX2hhbmRsZXJdKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBvcGFzYWkuY29tbW9uIGltcG9ydCBvcGFzX2xvZ2dpbmcK</text>
