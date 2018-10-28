@@ -1153,12 +1153,12 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="41" column="9" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" timestamp="1540685781823">
-        <mark key="'" line="80" column="36" />
-        <mark key="[" line="62" column="56" />
-        <mark key="]" line="63" column="24" />
-        <mark key="^" line="63" column="24" />
-        <mark key="." line="63" column="24" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" timestamp="1540741503351">
+        <mark key="'" line="30" column="50" />
+        <mark key="[" line="44" column="88" />
+        <mark key="]" line="44" column="88" />
+        <mark key="." line="44" column="88" />
+        <mark key="^" line="44" column="27" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/log.py" timestamp="1540672828099">
         <mark key="'" line="61" column="0" />
@@ -2303,9 +2303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="143" column="64" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/test_metric_insights.py" />
-      <jump line="261" column="15" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="4" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="18" column="53" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="226" column="23" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="257" column="22" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
@@ -2403,6 +2400,9 @@
       <jump line="62" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
       <jump line="30" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
       <jump line="36" column="40" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
+      <jump line="93" column="63" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
+      <jump line="14" column="19" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
+      <jump line="30" column="50" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2412,7 +2412,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>h</text>
+        <text>#</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2954,22 +2954,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>h</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>perf</text>
+        <text>exchanges</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">bG9nZ2luZy5hZGRMZXZlbE5hbWUoUEVSRk9STUFOQ0VfTEVWRUwsICdQRVJGT1JNQU5DRScpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcKCmZyb20gYWJzbCBpbXBvcnQgZmxhZ3MKCgpQRVJGT1JNQU5DRV9MRVZFTCA9IDI1CmxvZ2dpbmcuYWRkTGV2ZWxOYW1lKFBFUkZPUk1BTkNFX0xFVkVMLCAnUEVSRk9STUFOQ0UnKQoKIiIiCiMgY3JlYXRlIHRoZSByb290IGxvb2dlci4gQWxsIG90aGVyIGxvZ2dlcnMgYXJlIGNoaWxkcmVuIG9mIHRoaXMgb25lCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKCcnKQoKY29uc29sZV9oYW5kbGVyID0gbG9nZ2luZy5TdHJlYW1IYW5kbGVyKCkKCmZvcm1hdGVyID0gbG9nZ2luZy5Gb3JtYXR0ZXIoJyUobGV2ZWxuYW1lKS4xcyAtICUobW9kdWxlKXMgLSAlKGZ1bmNOYW1lKXMgLSAlKGxpbmVubylkIC0gJShtc2cpcycpCmNvbnNvbGVfaGFuZGxlci5zZXRGb3JtYXR0ZXIoZm9ybWF0ZXIpCmxvZ2dlci5hZGRIYW5kbGVyKGNvbnNvbGVfaGFuZGxlcikKbG9nZ2VyLnNldExldmVsKGxvZ2dpbmcuREVCVUcpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGxvZ2dlci5kZWJ1ZygnZGVidWdnaW5nIG1zZycpCiAgICBsb2dnZXIuaW5mbygnaW5mbyBtc2cnKQogICAgbG9nZ2VyLndhcm5pbmcoJ3dhcm5pbmcgbXNnJykKICAgIGxvZ2dlci5lcnJvcignZXJyb3IgbXNnJykKICAgIGxvZ2dlci5jcml0aWNhbCgnY3JpdGljYWwgbXNnJykKCiMgd2UgY2FuIGRvIHNvbWV0aGluZyBsaWtlIGJlbG93LCBidXQgSSBjYW4ndCBmaWd1cmUgb3V0IHlldCBob3cgdG8gcGFyc2UgJ2xvZ19sZXZlbCcgZmxhZyBhbmQgaW5pdCB0aGUgbG9nZ2VyCiMgd2l0aG91dCBoYXZpbmcgdGhlIGxvZ2dlciBpbiBhIG1ldGhvZCB0aGF0IGlzIGNhbGxlZCBldmVyeSB0aW1lLiBXZSBjb3VsZCBjcmVhdGUgYSBjbGFzcyB0aGF0IGluaGVyaXRzIGZyb20KIyBsb2dnaW5nIGJ1dCBzZWVtcyB0byBiZSBhIGJpdCB0b28gbXVjaCBmb3Igc29tZSByZWFzb24uIERvbid0IGRlbGV0ZSB0aGUgY29kZSBiZWxvdyBqdXN0IHlldAoiIiIK</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZmxhZ3MuREVGSU5FX2VudW0oJ2xvZ19sZXZlbCcsICdERUJVRycsIFsnREVCVUcnLCAnSU5GTycsICdXQVJOSU5HJywgJ0VSUk9SJywgJ0NSSVRJQ0FMJ10sICdkZXNpcmVkIGxldmVsIG9mIGxvZ2dpbmcnKQo=</text>
+        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcKCmZyb20gYWJzbCBpbXBvcnQgZmxhZ3MKCgpQRVJGT1JNQU5DRV9MRVZFTCA9IDI1CmxvZ2dpbmcuYWRkTGV2ZWxOYW1lKFBFUkZPUk1BTkNFX0xFVkVMLCAnUEVSRk9STUFOQ0UnKQoKIiIiCiMgY3JlYXRlIHRoZSByb290IGxvb2dlci4gQWxsIG90aGVyIGxvZ2dlcnMgYXJlIGNoaWxkcmVuIG9mIHRoaXMgb25lCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKCcnKQoKY29uc29sZV9oYW5kbGVyID0gbG9nZ2luZy5TdHJlYW1IYW5kbGVyKCkKCmZvcm1hdGVyID0gbG9nZ2luZy5Gb3JtYXR0ZXIoJyUobGV2ZWxuYW1lKS4xcyAtICUobW9kdWxlKXMgLSAlKGZ1bmNOYW1lKXMgLSAlKGxpbmVubylkIC0gJShtc2cpcycpCmNvbnNvbGVfaGFuZGxlci5zZXRGb3JtYXR0ZXIoZm9ybWF0ZXIpCmxvZ2dlci5hZGRIYW5kbGVyKGNvbnNvbGVfaGFuZGxlcikKbG9nZ2VyLnNldExldmVsKGxvZ2dpbmcuREVCVUcpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGxvZ2dlci5kZWJ1ZygnZGVidWdnaW5nIG1zZycpCiAgICBsb2dnZXIuaW5mbygnaW5mbyBtc2cnKQogICAgbG9nZ2VyLndhcm5pbmcoJ3dhcm5pbmcgbXNnJykKICAgIGxvZ2dlci5lcnJvcignZXJyb3IgbXNnJykKICAgIGxvZ2dlci5jcml0aWNhbCgnY3JpdGljYWwgbXNnJykKCiMgd2UgY2FuIGRvIHNvbWV0aGluZyBsaWtlIGJlbG93LCBidXQgSSBjYW4ndCBmaWd1cmUgb3V0IHlldCBob3cgdG8gcGFyc2UgJ2xvZ19sZXZlbCcgZmxhZyBhbmQgaW5pdCB0aGUgbG9nZ2VyCiMgd2l0aG91dCBoYXZpbmcgdGhlIGxvZ2dlciBpbiBhIG1ldGhvZCB0aGF0IGlzIGNhbGxlZCBldmVyeSB0aW1lLiBXZSBjb3VsZCBjcmVhdGUgYSBjbGFzcyB0aGF0IGluaGVyaXRzIGZyb20KIyBsb2dnaW5nIGJ1dCBzZWVtcyB0byBiZSBhIGJpdCB0b28gbXVjaCBmb3Igc29tZSByZWFzb24uIERvbid0IGRlbGV0ZSB0aGUgY29kZSBiZWxvdyBqdXN0IHlldAoiIiIK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2992,10 +2992,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZmxhZ3MuREVGSU5FX2VudW0oJ2xvZ19sZXZlbCcsICdJTkZPJywgWydERUJVRycsICdJTkZPJywgJ1BFUkZPUk1BTkNFJywgJ1dBUk5JTkcnLCAnRVJST1InLCAnQ1JJVElDQUwnXSwKICAgICAgICAgICAgICAgICAgImRlc2lyZWQgbGV2ZWwgb2YgbG9nZ2luZy4gTm90ZSB3ZSBhcmUgYWRkaW5nIGEgJ1BFUkZPUk1BTkNFJyBvbmUgdG8gdGhlIHN0YW5kYXJkIG9uZXMiKQo=</text>
+        <text encoding="base64">ZmxhZ3MuREVGSU5FX2VudW0oJ2xvZ19sZXZlbCcsICdERUJVRycsIFsnREVCVUcnLCAnSU5GTycsICdXQVJOSU5HJywgJ0VSUk9SJywgJ0NSSVRJQ0FMJ10sICdkZXNpcmVkIGxldmVsIG9mIGxvZ2dpbmcnKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcKCmZyb20gYWJzbCBpbXBvcnQgZmxhZ3MKCgoiIiIKIyBjcmVhdGUgdGhlIHJvb3QgbG9vZ2VyLiBBbGwgb3RoZXIgbG9nZ2VycyBhcmUgY2hpbGRyZW4gb2YgdGhpcyBvbmUKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoJycpCgpjb25zb2xlX2hhbmRsZXIgPSBsb2dnaW5nLlN0cmVhbUhhbmRsZXIoKQoKZm9ybWF0ZXIgPSBsb2dnaW5nLkZvcm1hdHRlcignJShsZXZlbG5hbWUpLjFzIC0gJShtb2R1bGUpcyAtICUoZnVuY05hbWUpcyAtICUobGluZW5vKWQgLSAlKG1zZylzJykKY29uc29sZV9oYW5kbGVyLnNldEZvcm1hdHRlcihmb3JtYXRlcikKbG9nZ2VyLmFkZEhhbmRsZXIoY29uc29sZV9oYW5kbGVyKQpsb2dnZXIuc2V0TGV2ZWwobG9nZ2luZy5ERUJVRykKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbG9nZ2VyLmRlYnVnKCdkZWJ1Z2dpbmcgbXNnJykKICAgIGxvZ2dlci5pbmZvKCdpbmZvIG1zZycpCiAgICBsb2dnZXIud2FybmluZygnd2FybmluZyBtc2cnKQogICAgbG9nZ2VyLmVycm9yKCdlcnJvciBtc2cnKQogICAgbG9nZ2VyLmNyaXRpY2FsKCdjcml0aWNhbCBtc2cnKQoKIyB3ZSBjYW4gZG8gc29tZXRoaW5nIGxpa2UgYmVsb3csIGJ1dCBJIGNhbid0IGZpZ3VyZSBvdXQgeWV0IGhvdyB0byBwYXJzZSAnbG9nX2xldmVsJyBmbGFnIGFuZCBpbml0IHRoZSBsb2dnZXIKIyB3aXRob3V0IGhhdmluZyB0aGUgbG9nZ2VyIGluIGEgbWV0aG9kIHRoYXQgaXMgY2FsbGVkIGV2ZXJ5IHRpbWUuIFdlIGNvdWxkIGNyZWF0ZSBhIGNsYXNzIHRoYXQgaW5oZXJpdHMgZnJvbQojIGxvZ2dpbmcgYnV0IHNlZW1zIHRvIGJlIGEgYml0IHRvbyBtdWNoIGZvciBzb21lIHJlYXNvbi4gRG9uJ3QgZGVsZXRlIHRoZSBjb2RlIGJlbG93IGp1c3QgeWV0CiIiIgo=</text>
+        <text encoding="base64">ZmxhZ3MuREVGSU5FX2VudW0oJ2xvZ19sZXZlbCcsICdJTkZPJywgWydERUJVRycsICdJTkZPJywgJ1BFUkZPUk1BTkNFJywgJ1dBUk5JTkcnLCAnRVJST1InLCAnQ1JJVElDQUwnXSwKICAgICAgICAgICAgICAgICAgImRlc2lyZWQgbGV2ZWwgb2YgbG9nZ2luZy4gTm90ZSB3ZSBhcmUgYWRkaW5nIGEgJ1BFUkZPUk1BTkNFJyBvbmUgdG8gdGhlIHN0YW5kYXJkIG9uZXMiKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3063,28 +3063,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">UEVSRk9STUFOQ0VfTEVWRUwgPSAyNQpsb2dnaW5nLmFkZExldmVsTmFtZShQRVJGT1JNQU5DRV9MRVZFTCwgJ1BFUkZPUk1BTkNFJykK</text>
+        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcKCmZyb20gYWJzbCBpbXBvcnQgZmxhZ3MKCgoiIiIKIyBjcmVhdGUgdGhlIHJvb3QgbG9vZ2VyLiBBbGwgb3RoZXIgbG9nZ2VycyBhcmUgY2hpbGRyZW4gb2YgdGhpcyBvbmUKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoJycpCgpjb25zb2xlX2hhbmRsZXIgPSBsb2dnaW5nLlN0cmVhbUhhbmRsZXIoKQoKZm9ybWF0ZXIgPSBsb2dnaW5nLkZvcm1hdHRlcignJShsZXZlbG5hbWUpLjFzIC0gJShtb2R1bGUpcyAtICUoZnVuY05hbWUpcyAtICUobGluZW5vKWQgLSAlKG1zZylzJykKY29uc29sZV9oYW5kbGVyLnNldEZvcm1hdHRlcihmb3JtYXRlcikKbG9nZ2VyLmFkZEhhbmRsZXIoY29uc29sZV9oYW5kbGVyKQpsb2dnZXIuc2V0TGV2ZWwobG9nZ2luZy5ERUJVRykKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbG9nZ2VyLmRlYnVnKCdkZWJ1Z2dpbmcgbXNnJykKICAgIGxvZ2dlci5pbmZvKCdpbmZvIG1zZycpCiAgICBsb2dnZXIud2FybmluZygnd2FybmluZyBtc2cnKQogICAgbG9nZ2VyLmVycm9yKCdlcnJvciBtc2cnKQogICAgbG9nZ2VyLmNyaXRpY2FsKCdjcml0aWNhbCBtc2cnKQoKIyB3ZSBjYW4gZG8gc29tZXRoaW5nIGxpa2UgYmVsb3csIGJ1dCBJIGNhbid0IGZpZ3VyZSBvdXQgeWV0IGhvdyB0byBwYXJzZSAnbG9nX2xldmVsJyBmbGFnIGFuZCBpbml0IHRoZSBsb2dnZXIKIyB3aXRob3V0IGhhdmluZyB0aGUgbG9nZ2VyIGluIGEgbWV0aG9kIHRoYXQgaXMgY2FsbGVkIGV2ZXJ5IHRpbWUuIFdlIGNvdWxkIGNyZWF0ZSBhIGNsYXNzIHRoYXQgaW5oZXJpdHMgZnJvbQojIGxvZ2dpbmcgYnV0IHNlZW1zIHRvIGJlIGEgYml0IHRvbyBtdWNoIGZvciBzb21lIHJlYXNvbi4gRG9uJ3QgZGVsZXRlIHRoZSBjb2RlIGJlbG93IGp1c3QgeWV0CiIiIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZmxhZ3MuREVGSU5FX2VudW0oJ2xvZ19sZXZlbCcsICdJTkZPJywgWydERUJVRycsICdJTkZPJywgJ1BFUkZPUk1BTkNFJywgJ1dBUk5JTkcnLCAnRVJST1InLCAnQ1JJVElDQUwnXSwKICAgICAgICAgICAgICAgICAgImRlc2lyZWQgbGV2ZWwgb2YgbG9nZ2luZy4gTm90ZSB3ZSBhcmUgYWRkaW5nIGEgJ1BFUkZPUk1BTkNFJyBvbmUgdG8gdGhlIHN0YW5kYXJkIG9uZXMiKQoK</text>
+        <text encoding="base64">UEVSRk9STUFOQ0VfTEVWRUwgPSAyNQpsb2dnaW5nLmFkZExldmVsTmFtZShQRVJGT1JNQU5DRV9MRVZFTCwgJ1BFUkZPUk1BTkNFJykK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ZmxhZ3MuREVGSU5FX2VudW0oJ2xvZ19sZXZlbCcsICdJTkZPJywgWydERUJVRycsICdJTkZPJywgJ1BFUkZPUk1BTkNFJywgJ1dBUk5JTkcnLCAnRVJST1InLCAnQ1JJVElDQUwnXSwKICAgICAgICAgICAgICAgICAgImRlc2lyZWQgbGV2ZWwgb2YgbG9nZ2luZy4gTm90ZSB3ZSBhcmUgYWRkaW5nIGEgJ1BFUkZPUk1BTkNFJyBvbmUgdG8gdGhlIHN0YW5kYXJkIG9uZXMiKQoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmxvZ2dlci5yCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>perf</last-search>
+      <last-search>exchanges</last-search>
       <last-offset />
-      <last-pattern>perf</last-pattern>
+      <last-pattern>exchanges</last-pattern>
       <last-replace>msg, *args, **kwargs</last-replace>
       <last-substitute>msg</last-substitute>
       <last-dir>1</last-dir>
@@ -3092,7 +3092,6 @@
     </search>
     <history>
       <history-search>
-        <entry>log_file</entry>
         <entry>min_gain</entry>
         <entry>class Tick</entry>
         <entry>def split</entry>
@@ -3112,6 +3111,7 @@
         <entry>msg</entry>
         <entry>PERF</entry>
         <entry>perf</entry>
+        <entry>exchanges</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5x</entry>
