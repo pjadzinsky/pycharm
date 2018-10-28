@@ -1153,12 +1153,12 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="41" column="9" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" timestamp="1540684097013">
-        <mark key="'" line="43" column="7" />
-        <mark key="[" line="78" column="15" />
-        <mark key="]" line="79" column="36" />
-        <mark key="^" line="79" column="36" />
-        <mark key="." line="79" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" timestamp="1540685781823">
+        <mark key="'" line="80" column="36" />
+        <mark key="[" line="62" column="56" />
+        <mark key="]" line="63" column="24" />
+        <mark key="^" line="63" column="24" />
+        <mark key="." line="63" column="24" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/log.py" timestamp="1540672828099">
         <mark key="'" line="61" column="0" />
@@ -2372,7 +2372,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
       <jump line="4" column="24" filename="$USER_HOME$/opas/core/python/opasai/common/opas_logging.py" />
       <jump line="76" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
-      <jump line="79" column="43" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="80" column="98" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="792" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="790" column="35" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2400,6 +2399,7 @@
       <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
       <jump line="75" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
       <jump line="31" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/log.py" />
+      <jump line="79" column="36" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2954,7 +2954,7 @@
         <text>file_handler</text>
       </register>
       <register name="/" type="4">
-        <text>def add</text>
+        <text>def find</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">bG9nZ2VyLmFkZEhhbmRsZXIoZmlsZV9oYW5kbGVyKQo=</text>
@@ -3079,9 +3079,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def add</last-search>
+      <last-search>def find</last-search>
       <last-offset />
-      <last-pattern>def add</last-pattern>
+      <last-pattern>def find</last-pattern>
       <last-replace>file_handler</last-replace>
       <last-substitute>fh</last-substitute>
       <last-dir>1</last-dir>
@@ -3089,7 +3089,6 @@
     </search>
     <history>
       <history-search>
-        <entry>input</entry>
         <entry>in</entry>
         <entry>get_tags</entry>
         <entry>localhost</entry>
@@ -3109,6 +3108,7 @@
         <entry>initial_balance</entry>
         <entry>sender</entry>
         <entry>def add</entry>
+        <entry>def find</entry>
       </history-search>
       <history-cmd>
         <entry>57</entry>
