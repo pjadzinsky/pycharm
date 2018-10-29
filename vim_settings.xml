@@ -694,12 +694,12 @@
         <mark key="^" line="0" column="5" />
         <mark key="." line="0" column="5" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" timestamp="1540774714950">
-        <mark key="'" line="440" column="61" />
-        <mark key="[" line="247" column="30" />
-        <mark key="]" line="248" column="36" />
-        <mark key="^" line="248" column="36" />
-        <mark key="." line="248" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" timestamp="1540790747742">
+        <mark key="'" line="252" column="40" />
+        <mark key="[" line="251" column="34" />
+        <mark key="]" line="252" column="40" />
+        <mark key="^" line="252" column="40" />
+        <mark key="." line="252" column="40" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_utils.py" timestamp="1517937833497">
         <mark key="'" line="40" column="33" />
@@ -1588,11 +1588,11 @@
         <mark key="." line="174" column="54" />
         <mark key="^" line="174" column="54" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1540706847791">
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1540790833507">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="112" column="88" />
-        <mark key="]" line="112" column="87" />
-        <mark key="." line="112" column="87" />
+        <mark key="[" line="116" column="0" />
+        <mark key="]" line="117" column="79" />
+        <mark key="." line="116" column="0" />
         <mark key="^" line="112" column="87" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_model_based.py" timestamp="1540498869052">
@@ -2307,7 +2307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
       <jump line="49" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
       <jump line="87" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
       <jump line="62" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/log.py" />
@@ -2407,6 +2406,7 @@
       <jump line="551" column="42" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="326" column="26" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="439" column="61" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
+      <jump line="252" column="40" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2416,7 +2416,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBERUJVR0dJTkcsIGV4aXQgYWZ0ZXIgZmluZGluZyBhIGN5Y2xlCiAgICAgICAgICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ05vdCBhbiBlcnJvciwganVzdCBleGl0aW5nIGR1cmluZyBkZWJ1Z2dpbmcnKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2958,22 +2958,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>cls</text>
+        <text>USDT</text>
       </register>
       <register name="/" type="4">
-        <text>balances</text>
+        <text>test_split</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIF9mb3J3YXJkX2ZpbGwodmFsdWVzLCBzdGFydCwgZW5kLCBpbnRlcnZhbCk6CiAgICAiIiIKICAgIFRoaXMgbWV0aG9kIGRvZXMgbm90IG5lZWQgbWV0cmljX2tleSwgYnV0IGlmIHdlIGp1c3QgZG86CiAgICAgICAgQG1lbW9yeS5jYWNoZQogICAgICAgIGZvcndhcmRfZmlsbCh2YWx1ZXMsIHN0YXJ0LCBlbmQsIGludGVydmFsKQogICAgaXQgc3RpbGwgdGFrZXMgZm9yZXZlciAoZXZlbiB3aGVuIGNhY2hlZCwgSSB0aGluayBiZWNhdXNlIGl0IGlzIGNvbXB1dGluZyBhIGhhc2ggb2YgdmFsdWVzIHdoaWNoIGlzIGxvbmcpLgogICAgVGhlcmVmb3JlIEknbSB1c2luZyBhIHByb3h5IGZvciAndmFsdWVzJyB0aGF0IGlzIGVhc2llciB0byBjYWNoZSAodGhlIG1ldHJpY19rZXksIHN0YXJ0LCBlbmQsIGludGVydmFsKQogICAgIiIiCiAgICBuZXdfaW5kZXggPSBucC5hcmFuZ2Uoc3RhcnQsIGVuZCwgaW50ZXJ2YWwpCiAgICBmaWxsZWRfdmFscyA9IHZhbHVlcy5jb21iaW5lX2ZpcnN0KHBkLlNlcmllcyhpbmRleD1uZXdfaW5kZXgpKQogICAgZmlsbGVkX3ZhbHMgPSBmaWxsZWRfdmFscy5maWxsbmEobWV0aG9kPSdmZmlsbCcpCiAgICBmaWxsZWRfdmFscyA9IGZpbGxlZF92YWxzLmZpbGxuYSh2YWx1ZT0tMSkgICMgZm9yd2FyZCBmaWxsIGNhbid0IHJlcGxhY2UgYSBOYU4gaWYgaXQgaXMgdGhlIDFzdCB2YWx1ZSBpbiB0aGUgc2VyaWVzCgogICAgIyBub3cgd2UgZ3VhcmFudGVlZCB0aGF0IGVhY2ggYnVja2V0IGhhcyBhdCBsZWFzdCBvbmUgdmFsdWUKICAgICMgSSdtIGdvaW5nIHRvIGNvbXB1dGUgdGhlICd3ZWlnaHQnICh0aGUgYW1vdW50IG9mIHRpbWUgYSBnaXZlbiB2YWx1ZSB3YXMgb2JzZXJ2ZWQgaW5zaWRlIGEgYnVja2V0KSBhbmQgdGhlbgogICAgIyBjb21wdXRlIHRoZSBtZWFuICh1c2luZyBmb3VuZCB3ZWlnaHRzKQogICAgdGltZXMgPSBmaWxsZWRfdmFscy5pbmRleC52YWx1ZXMKICAgIGJ1Y2tldF9pbmRleCA9ICh0aW1lcyAtIHN0YXJ0KSAvLyBpbnRlcnZhbAogICAgYnVja2V0X2VuZCA9IGJ1Y2tldF9pbmRleCAqIGludGVydmFsICsgaW50ZXJ2YWwgKyBzdGFydAogICAgbmV4dF90aW1lID0gbnAuY29uY2F0ZW5hdGUoKGZpbGxlZF92YWxzLmluZGV4LnZhbHVlc1sxOl0sIFtucC5pbmZdKSkKICAgIGR1cmF0aW9uX2luX2J1Y2tldCA9IFttaW4obmV4dCwgZW5kKSAtIHRpbWUgZm9yIG5leHQsIGVuZCwgdGltZSBpbiB6aXAobmV4dF90aW1lLCBidWNrZXRfZW5kLCB0aW1lcyldCgogICAgd2VpZ2h0cyA9IFtkdXJhdGlvbiAqIDEuMCAvIGludGVydmFsIGZvciBkdXJhdGlvbiBpbiBkdXJhdGlvbl9pbl9idWNrZXRdCiAgICB3ZWlnaHRlZF92YWwgPSBbdmFsdWUgKiB3ZWlnaHQgZm9yIHZhbHVlLCB3ZWlnaHQgaW4gemlwKGZpbGxlZF92YWxzLnZhbHVlcywgd2VpZ2h0cyldCgogICAgZGYgPSBwZC5EYXRhRnJhbWUoeyd2YWx1ZSc6IHdlaWdodGVkX3ZhbCwgJ2J1Y2tldCc6IGJ1Y2tldF9pbmRleH0sIGluZGV4PXRpbWVzKQogICAgY29tcHV0ZWQgPSBkZi5ncm91cGJ5KCdidWNrZXQnLCBhc19pbmRleD1GYWxzZSkuc3VtKClbJ3ZhbHVlJ10KCiAgICBvdXRwdXQgPSBwZC5TZXJpZXMoY29tcHV0ZWQudmFsdWVzLCBpbmRleD1uZXdfaW5kZXgpCgogICAgcmV0dXJuIG91dHB1dAoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBERUJVR0dJTkcsIGV4aXQgYWZ0ZXIgZmluZGluZyBhIGN5Y2xlCiAgICAgICAgICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ05vdCBhbiBlcnJvciwganVzdCBleGl0aW5nIGR1cmluZyBkZWJ1Z2dpbmcnKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBbbS5mb3J3YXJkX2ZpbGwoaW5wbGFjZT1UcnVlKSBmb3IgbSBpbiBtZXRyaWNzXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -2996,7 +2996,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBbbS5mb3J3YXJkX2ZpbGwoaW5wbGFjZT1UcnVlKSBmb3IgbSBpbiBtZXRyaWNzXQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -3073,22 +3073,22 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCBbc2VsZi5sb29rX2FoZWFkXSAqIGxlbihtZXRyaWNzKSkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG0uX2xvb2tfYWhlYWRfZmlsdGVyKGxvb2tfYWhlYWQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCBbc2VsZi5sb29rX2FoZWFkXSAqIGxlbihtZXRyaWNzKSkpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBtLl9sb29rX2FoZWFkX2ZpbHRlcihsb29rX2FoZWFkKQo=</text>
+        <text encoding="base64">ICAgIG0uX2xvb2tfYWhlYWRfZmlsdGVyKGxvb2tfYWhlYWQpCg==</text>
       </register>
       <register name=":" type="4">
         <text>249</text>
       </register>
     </registers>
     <search>
-      <last-search>balances</last-search>
+      <last-search>test_split</last-search>
       <last-offset />
-      <last-pattern>balances</last-pattern>
+      <last-pattern>test_split</last-pattern>
       <last-replace />
       <last-substitute>PERF</last-substitute>
       <last-dir>1</last-dir>
@@ -3096,7 +3096,6 @@
     </search>
     <history>
       <history-search>
-        <entry>exchanges</entry>
         <entry>000</entry>
         <entry>t0</entry>
         <entry>t1</entry>
@@ -3116,6 +3115,7 @@
         <entry>def spli</entry>
         <entry>split_trans</entry>
         <entry>balances</entry>
+        <entry>test_split</entry>
       </history-search>
       <history-cmd>
         <entry>301</entry>
