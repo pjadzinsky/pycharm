@@ -48,6 +48,9 @@
         <mark key="^" line="35" column="4" />
         <mark key="." line="35" column="4" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1540940672724">
+        <mark key="'" line="35" column="21" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_utils.py" timestamp="1540936799964">
         <mark key="'" line="121" column="24" />
         <mark key="[" line="18" column="105" />
@@ -146,15 +149,14 @@
         <mark key="^" line="103" column="36" />
         <mark key="." line="21" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_rnn_fake_data.py" timestamp="1540737457553">
+        <mark key="'" line="11" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/logging.py" timestamp="1540602291198">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="0" column="1" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="124" column="25" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="126" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="123" column="5" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="3" column="24" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="504" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
@@ -251,6 +253,10 @@
       <jump line="87" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_utils.py" />
       <jump line="107" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_utils.py" />
       <jump line="121" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_utils.py" />
+      <jump line="61" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
+      <jump line="233" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
+      <jump line="31" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
+      <jump line="35" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -805,7 +811,7 @@
         <text>new_end</text>
       </register>
       <register name="/" type="4">
-        <text>'env'</text>
+        <text>l0</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">RU5WID0gJ3VuaXR0ZXN0Jwo=</text>
@@ -930,9 +936,9 @@
       </register>
     </registers>
     <search>
-      <last-search>'env'</last-search>
+      <last-search>l0</last-search>
       <last-offset />
-      <last-pattern>'env'</last-pattern>
+      <last-pattern>l0</last-pattern>
       <last-replace>ENV</last-replace>
       <last-substitute>FLAGS.env</last-substitute>
       <last-dir>1</last-dir>
@@ -940,7 +946,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def _for</entry>
         <entry>basic_</entry>
         <entry>def feat</entry>
         <entry>def forw</entry>
@@ -960,6 +965,7 @@
         <entry>Because</entry>
         <entry>##</entry>
         <entry>'env'</entry>
+        <entry>l0</entry>
       </history-search>
       <history-cmd>
         <entry>%s/metric_key</entry>
