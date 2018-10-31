@@ -1651,12 +1651,6 @@
         <mark key="." line="116" column="0" />
         <mark key="^" line="112" column="87" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_model_based.py" timestamp="1540936241436">
-        <mark key="[" line="20" column="17" />
-        <mark key="]" line="20" column="15" />
-        <mark key="." line="20" column="15" />
-        <mark key="^" line="20" column="15" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_QPS_rnn_with_seasonality.py" timestamp="1516744966841">
         <mark key="'" line="46" column="28" />
         <mark key="[" line="57" column="0" />
@@ -1897,8 +1891,8 @@
         <mark key="^" line="80" column="19" />
         <mark key="." line="80" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_server.py" timestamp="1541016160745">
-        <mark key="'" line="81" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_server.py" timestamp="1541019687161">
+        <mark key="'" line="16" column="14" />
         <mark key="[" line="18" column="1" />
         <mark key="]" line="18" column="1" />
         <mark key="^" line="11" column="6" />
@@ -2162,11 +2156,12 @@
         <mark key="^" line="85" column="0" />
         <mark key="." line="85" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" timestamp="1541017766552">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="67" />
-        <mark key="^" line="41" column="40" />
-        <mark key="." line="41" column="40" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" timestamp="1541019932004">
+        <mark key="'" line="41" column="7" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="^" line="32" column="90" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric_key.py" timestamp="1519230154976">
         <mark key="'" line="114" column="6" />
@@ -2388,8 +2383,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="175" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
-      <jump line="21" column="50" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" />
       <jump line="7" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_basic_preprocessor.py" />
       <jump line="75" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_basic_preprocessor.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_basic_preprocessor.py" />
@@ -2488,6 +2481,8 @@
       <jump line="38" column="24" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" />
       <jump line="48" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="35" column="0" filename="$USER_HOME$/opas/core/run_python_tests.sh" />
+      <jump line="16" column="14" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_server.py" />
+      <jump line="37" column="7" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2496,8 +2491,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>#</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3039,7 +3034,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>test_model_serverARGS</text>
       </register>
       <register name="/" type="4">
         <text>cls</text>
@@ -3048,13 +3043,13 @@
         <text encoding="base64">ICAgICAgICBtb2RlbF9wYXJhbXMgPSB0ZXN0X3V0aWxzLmxhdGVzdF9tb2RlbF9wYXJhbXMoY2xzLmNvbmZpZ19pZCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbF9wYXJhbXMgPSB0ZXN0X3V0aWxzLmxhdGVzdF9tb2RlbF9wYXJhbXMoY2xzLmNvbmZpZ19pZCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbF9wYXJhbXMgPSB0ZXN0X3V0aWxzLmxhdGVzdF9tb2RlbF9wYXJhbXMoY2xzLmNvbmZpZ19pZCkK</text>
+        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3077,10 +3072,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">QVJHUyA9IHRlc3RfdXRpbHMubGF0ZXN0X21vZGVsX3BhcmFtcyhDT05GSUdfSUQpCg==</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3148,22 +3143,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">QVJHUy51cGRhdGUoewo=</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbF9wYXJhbXMgPSB0ZXN0X3V0aWxzLmxhdGVzdF9tb2RlbF9wYXJhbXMoY2xzLmNvbmZpZ19pZCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHRlc3RfdXRpbHMubGF0ZXN0X21vZGVsX3BhcmFtcyhDT05GSUdfSUQpCg==</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbF9wYXJhbXMgPSB0ZXN0X3V0aWxzLmxhdGVzdF9tb2RlbF9wYXJhbXMoY2xzLmNvbmZpZ19pZCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFyZ3MgPSB0ZXN0X29wYXNfYmFzZV9tb2RlbC5BUkdTCg==</text>
+        <text encoding="base64">QVJHUyA9IHRlc3RfdXRpbHMubGF0ZXN0X21vZGVsX3BhcmFtcyhDT05GSUdfSUQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QVJHUyA9IHRlc3RfdXRpbHMubGF0ZXN0X21vZGVsX3BhcmFtcyhDT05GSUdfSUQpCkFSR1MudXBkYXRlKHsKICAgICdhY2NvdW50X2lkJzogJ2JsdWVzaGlmdCcsCiAgICAnY2x1c3Rlcic6ICdQcm9kX0NsdXN0ZXInLAogICAgJ3RpbWVzdGFtcCc6IHV0aW1lLm5vdygpIC0gdXRpbWUuT05FREFZICogMSwKICAgICdjb25maWdfaWQnOiBDT05GSUdfSUQsCn0pCg==</text>
+        <text encoding="base64">QVJHUy51cGRhdGUoewo=</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>39</text>
       </register>
     </registers>
     <search>
@@ -3199,7 +3194,6 @@
         <entry>cls</entry>
       </history-search>
       <history-cmd>
-        <entry>501</entry>
         <entry>500</entry>
         <entry>%s/self/cls/g</entry>
         <entry>480,481s/self/cls/g</entry>
@@ -3219,6 +3213,7 @@
         <entry>w</entry>
         <entry>qa</entry>
         <entry>wq</entry>
+        <entry>39</entry>
       </history-cmd>
       <history-expr />
       <history-input />
