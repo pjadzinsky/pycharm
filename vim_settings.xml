@@ -562,12 +562,12 @@
         <mark key="^" line="18" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/README_ci.md" timestamp="1540576542585">
-        <mark key="'" line="47" column="0" />
-        <mark key="[" line="0" column="23" />
-        <mark key="]" line="0" column="27" />
-        <mark key="^" line="0" column="27" />
-        <mark key="." line="0" column="27" />
+      <file name="$USER_HOME$/opas/core/python/README_ci.md" timestamp="1541111564424">
+        <mark key="'" line="29" column="69" />
+        <mark key="[" line="43" column="57" />
+        <mark key="]" line="43" column="57" />
+        <mark key="^" line="43" column="57" />
+        <mark key="." line="43" column="57" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_utils.py" timestamp="1537592623020">
         <mark key="'" line="25" column="17" />
@@ -1395,11 +1395,11 @@
         <mark key="^" line="4" column="14" />
         <mark key="." line="4" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" timestamp="1541107797556">
-        <mark key="[" line="17" column="58" />
-        <mark key="]" line="17" column="57" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" timestamp="1541111597110">
+        <mark key="[" line="17" column="57" />
+        <mark key="]" line="17" column="58" />
         <mark key="^" line="17" column="57" />
-        <mark key="." line="17" column="59" />
+        <mark key="." line="17" column="58" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/metric_clustering.py" timestamp="1512594680249">
         <mark key="'" line="0" column="0" />
@@ -2385,8 +2385,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="428" column="43" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="431" column="73" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="435" column="43" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="449" column="32" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="460" column="5" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
@@ -2485,6 +2483,8 @@
       <jump line="320" column="33" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="14" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="25" column="15" filename="$USER_HOME$/opas/core/run_python_tests.sh" />
+      <jump line="31" column="4" filename="$USER_HOME$/opas/core/python/README_ci.md" />
+      <jump line="29" column="69" filename="$USER_HOME$/opas/core/python/README_ci.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2493,8 +2493,9 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="8">
+        <text>echo &quot;deb https://dl.bintray.com/sbt/debian /&quot; | sudo tee -a /etc/apt/sources.list.d/sbt.list
+o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3039,7 +3040,7 @@
         <text>Read</text>
       </register>
       <register name="/" type="4">
-        <text>-f</text>
+        <text encoding="base64">XDwyRUUwRUE2NEU0MEE4OUI4NEIyREY3MzQ5OUU4MkE3NTY0MkFDODIzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">c2NyaXB0cy9sb2NhbHN0b3JhZ2Uvc3RvcmFnZV9ydW5fbG9jYWwuc2gK</text>
@@ -3160,13 +3161,13 @@
         <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>-f</last-search>
+      <last-search encoding="base64">XDwyRUUwRUE2NEU0MEE4OUI4NEIyREY3MzQ5OUU4MkE3NTY0MkFDODIzXD4=</last-search>
       <last-offset />
-      <last-pattern>-f</last-pattern>
+      <last-pattern encoding="base64">XDwyRUUwRUE2NEU0MEE4OUI4NEIyREY3MzQ5OUU4MkE3NTY0MkFDODIzXD4=</last-pattern>
       <last-replace>cls</last-replace>
       <last-substitute>self</last-substitute>
       <last-dir>1</last-dir>
@@ -3174,8 +3175,6 @@
     </search>
     <history>
       <history-search>
-        <entry>hyper</entry>
-        <entry>def run</entry>
         <entry>'</entry>
         <entry>pickle</entry>
         <entry>self</entry>
@@ -3194,6 +3193,8 @@
         <entry encoding="base64">XDxwaXBlbGluZV9kZWZcPg==</entry>
         <entry>Query</entry>
         <entry>-f</entry>
+        <entry encoding="base64">XDxzdWRvXD4=</entry>
+        <entry encoding="base64">XDwyRUUwRUE2NEU0MEE4OUI4NEIyREY3MzQ5OUU4MkE3NTY0MkFDODIzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>503</entry>
@@ -3214,8 +3215,8 @@
         <entry>179</entry>
         <entry>533</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
-        <entry>w</entry>
         <entry>wq</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
