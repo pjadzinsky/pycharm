@@ -770,6 +770,13 @@
         <mark key="^" line="1" column="59" />
         <mark key="." line="1" column="78" />
       </file>
+      <file name="$USER_HOME$/opas/core/run_python_tests.sh" timestamp="1541104727652">
+        <mark key="'" line="25" column="15" />
+        <mark key="[" line="39" column="26" />
+        <mark key="]" line="39" column="22" />
+        <mark key="." line="39" column="22" />
+        <mark key="^" line="39" column="22" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/demo_random_forest_with_introduced_faults.py" timestamp="1517960171579">
         <mark key="'" line="42" column="10" />
         <mark key="[" line="36" column="0" />
@@ -2331,7 +2338,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="423" column="58" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="428" column="43" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="431" column="73" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="435" column="43" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
@@ -2431,6 +2437,7 @@
       <jump line="265" column="7" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="320" column="33" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="14" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="25" column="15" filename="$USER_HOME$/opas/core/run_python_tests.sh" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2440,7 +2447,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5zdG9yYWdlX2NsaWVudCBpbXBvcnQgUXVlcnksIFN0b3JhZ2VDbGllbnQK</text>
+        <text encoding="base64">ICAgIGVjaG8gJHB5dGhvbgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2982,22 +2989,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>cmd</text>
       </register>
       <register name="/" type="4">
-        <text>Query</text>
+        <text>-f</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAjIFdlIG1ha2Ugb3V0cHV0IGEgcG9seW5vbWlhbCBjb21iaW5hdGlvbiBvZiB0aGUgaW5wdXRzIHRvIG1ha2UgdGhlIHByb2JsZW0gcmVhbGx5IGhhcmQuCg==</text>
+        <text encoding="base64">c2NyaXB0cy9sb2NhbHN0b3JhZ2Uvc3RvcmFnZV9ydW5fbG9jYWwuc2gK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5zdG9yYWdlX2NsaWVudCBpbXBvcnQgUXVlcnksIFN0b3JhZ2VDbGllbnQK</text>
+        <text encoding="base64">ICAgIGVjaG8gJHB5dGhvbgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBBZGRpbmcgUGlwZWxpbmVWYWx1ZXNGZWF0dXJlQ3JlYXRvciB0byBtb2RlbCBkb2luZyBpbmZlcmVuY2Ugb2YgYmVzdAo=</text>
+        <text encoding="base64">ICAgICNwaXAgaW5zdGFsbCAtLXVzZXIgLWUgcHl0aG9uCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3020,10 +3027,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgICMgU2xlZXAgZm9yIGEgYml0IGJlZm9yZSBydW5uaW5nIHRoZSB0ZXN0cyB0byBnaXZlIHN0b3JhZ2UgdGltZSB0byBjb21lIHVwCiAgICBzbGVlcCA1Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PDw8PDw8PCBjMjFiMjdiYWE0NjY0Y2Y1NTQ3NTAzZGU0MGQwYmFiNGIzNjk0M2VhCg==</text>
+        <text encoding="base64">ICAgIHNjcmlwdHMvbG9jYWxzdG9yYWdlL3N0b3JhZ2VfcnVuX2xvY2FsLnNoCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3091,28 +3098,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBpdGVydG9vbHMgaW1wb3J0IGNoYWluCg==</text>
+        <text encoding="base64">IyBTdGFydCB0aGUgbG9jYWwgc3RvcmFnZQpzY3JpcHRzL2xvY2Fsc3RvcmFnZS9zdG9yYWdlX3J1bl9sb2NhbC5zaAojIFNsZWVwIGZvciBhIGJpdCBiZWZvcmUgcnVubmluZyB0aGUgdGVzdHMgdG8gZ2l2ZSBzdG9yYWdlIHRpbWUgdG8gY29tZSB1cApzbGVlcCA1Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBBZGRpbmcgdGVzdCB0byBpbmZlciBwaXBlbGluZV9kZWYgaW4gTllDX3RheGkgZGF0YXNldAo=</text>
+        <text encoding="base64">ICAgIHN0b3Bfc3RvcmFnZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgICMgaWYgdGVzdHMgZmFpbGVkLCBpbnN0YWxsIG12biwgcmVzdGFydCBsb2NhbCBzdG9yYWdlIGFuZCB0cnkgdG8gcnVuIHRlc3RzIG9uY2UgbW9yZQogICAgZWNobyAnVHJ5aW5nIHRvIHJlY292ZXIgYnkgbWFraW5nIGEgY2xlYW4gaW5zdGFsbGF0aW9uIG9mIG12bicKICAgIG12biBjbGVhbiBpbnN0YWxsIC1Ec2tpcFRlc3RzCiAgICBzY3JpcHRzL2xvY2Fsc3RvcmFnZS9zdG9yYWdlX3J1bl9sb2NhbC5zaAogICAgI3BpcCBpbnN0YWxsIC0tdXNlciAtZSBweXRob24KICAgICMgU2xlZXAgZm9yIGEgYml0IGJlZm9yZSBydW5uaW5nIHRoZSB0ZXN0cyB0byBnaXZlIHN0b3JhZ2UgdGltZSB0byBjb21lIHVwCiAgICBzbGVlcCA1CgogICAgcnVuX3Rlc3RzCiAgICBzdG9wX3N0b3JhZ2UKICAgIGV4aXQgMQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5zdG9yYWdlX2NsaWVudCBpbXBvcnQgUXVlcnksIFN0b3JhZ2VDbGllbnQsIGdldF9zdG9yYWdlX2hvc3RfZnJvbV9hY2NvdW50X2lkCg==</text>
+        <text encoding="base64">IyBkbyBub3RoaW5nIGVsc2UK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCAzZGI4ZTFhNTBkNzNlMzk3OGRhN2E5MjdjOTU1OGNjNjZhOTExZjc2Cg==</text>
+        <text encoding="base64">c3RvcF9zdG9yYWdlCg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Query</last-search>
+      <last-search>-f</last-search>
       <last-offset />
-      <last-pattern>Query</last-pattern>
+      <last-pattern>-f</last-pattern>
       <last-replace>cls</last-replace>
       <last-substitute>self</last-substitute>
       <last-dir>1</last-dir>
@@ -3120,7 +3127,6 @@
     </search>
     <history>
       <history-search>
-        <entry>input</entry>
         <entry>hyper</entry>
         <entry>def run</entry>
         <entry>'</entry>
@@ -3140,6 +3146,7 @@
         <entry>data</entry>
         <entry encoding="base64">XDxwaXBlbGluZV9kZWZcPg==</entry>
         <entry>Query</entry>
+        <entry>-f</entry>
       </history-search>
       <history-cmd>
         <entry>503</entry>
@@ -3159,9 +3166,9 @@
         <entry>wq</entry>
         <entry>39</entry>
         <entry>179</entry>
-        <entry>w</entry>
         <entry>533</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
