@@ -562,12 +562,12 @@
         <mark key="^" line="18" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/README_ci.md" timestamp="1541111564424">
-        <mark key="'" line="29" column="69" />
-        <mark key="[" line="43" column="57" />
-        <mark key="]" line="43" column="57" />
-        <mark key="^" line="43" column="57" />
-        <mark key="." line="43" column="57" />
+      <file name="$USER_HOME$/opas/core/python/README_ci.md" timestamp="1541113192430">
+        <mark key="'" line="30" column="69" />
+        <mark key="[" line="34" column="49" />
+        <mark key="]" line="35" column="72" />
+        <mark key="^" line="35" column="72" />
+        <mark key="." line="35" column="72" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_utils.py" timestamp="1537592623020">
         <mark key="'" line="25" column="17" />
@@ -2064,6 +2064,12 @@
         <mark key="^" line="39" column="36" />
         <mark key="." line="39" column="36" />
       </file>
+      <file name="$USER_HOME$/opas/core/scripts/ssh_config" timestamp="1541112587453">
+        <mark key="[" line="12" column="9" />
+        <mark key="]" line="12" column="21" />
+        <mark key="." line="12" column="21" />
+        <mark key="^" line="12" column="21" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/models/model_utils.py" timestamp="1518118887466">
         <mark key="'" line="56" column="4" />
         <mark key="[" line="55" column="23" />
@@ -2494,8 +2500,7 @@
         </keys>
       </register>
       <register name="&quot;" type="8">
-        <text>echo &quot;deb https://dl.bintray.com/sbt/debian /&quot; | sudo tee -a /etc/apt/sources.list.d/sbt.list
-o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823</text>
+        <text>mvn clean install -DskipTests (since we do not build this regularly)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3037,22 +3042,22 @@ o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Read</text>
+        <text>z</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDwyRUUwRUE2NEU0MEE4OUI4NEIyREY3MzQ5OUU4MkE3NTY0MkFDODIzXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">c2NyaXB0cy9sb2NhbHN0b3JhZ2Uvc3RvcmFnZV9ydW5fbG9jYWwuc2gK</text>
+      <register name="0" type="8">
+        <text>mvn clean install -DskipTests (since we do not build this regularly)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgYGN1cmwgLUwgaHR0cHM6Ly9wYWNrYWdlcy5naXRsYWIuY29tL2luc3RhbGwvcmVwb3NpdG9yaWVzL3J1bm5lci9naXRsYWItcnVubmVyL3NjcmlwdC5kZWIuc2ggfCBzdWRvIGJhc2gKICAgc3VkbyBhcHQgaW5zdGFsbCBnaXRsYWItcnVubmVyYAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">UkVBRE1FX2NpLm1kKSB0byBpbnN0YWxsIGFuZCBydW4gZ2l0bGFiLXJ1bm5lciBsb2NhbGx5IGFuZCByZW1vdGVseS4gT25jZSBpbnN0YWxsZWQgcnVuCg==</text>
+        <text encoding="base64">NTIuMTc1LjIxNC4xNjIK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3075,10 +3080,10 @@ o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IyBOZXcgQ0kgaW5zdGFuY2UK</text>
+        <text encoding="base64">SG9zdCBjaTMK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">c2VlIFtSRUFETUVfY2kubWRdKC4uL1JFQURNRV9jaS5tZCkK</text>
+        <text encoding="base64">SG9zdE5hbWUK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3149,19 +3154,19 @@ o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aHR0cHM6Ly9icnljZS5maXNoZXItZmxlaWcub3JnL2Jsb2cvZmFzdGVyLWNpLWRlYnVnZ2luZy13aXRoLWdpdGxhYmNpL2luZGV4Lmh0bWwgaXMgYSB1c2VmdWwgbGluawo=</text>
+        <text encoding="base64">UkVBRE1FX2NpLm1kKSB0byBpbnN0YWxsIGFuZCBydW4gZ2l0bGFiLXJ1bm5lciBsb2NhbGx5IGFuZCByZW1vdGVseS4gT25jZSBpbnN0YWxsZWQgcnVuCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">YW5kIHRoZW4geW91IGNhbiBydW4gaXQgbG9jYWxseSB1c2luZwo=</text>
+        <text encoding="base64">IyBOZXcgQ0kgaW5zdGFuY2UK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">c2VlIFtSRUFETUVfY2kubWRdKC4uL1JFQURNRV9jaS5tZCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>11</text>
       </register>
     </registers>
     <search>
@@ -3197,7 +3202,6 @@ o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84
         <entry encoding="base64">XDwyRUUwRUE2NEU0MEE4OUI4NEIyREY3MzQ5OUU4MkE3NTY0MkFDODIzXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>503</entry>
         <entry>%s/FLAGS.env/'unittest'/</entry>
         <entry>%s/FLAGS.env/ENV/</entry>
         <entry>33</entry>
@@ -3217,6 +3221,7 @@ o apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>wq</entry>
         <entry>w</entry>
+        <entry>11</entry>
       </history-cmd>
       <history-expr />
       <history-input />
