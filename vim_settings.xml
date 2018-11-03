@@ -578,8 +578,12 @@
         <mark key="." line="11" column="0" />
         <mark key="^" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1541276977248">
-        <mark key="'" line="139" column="8" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1541279827570">
+        <mark key="'" line="152" column="8" />
+        <mark key="[" line="17" column="24" />
+        <mark key="]" line="18" column="36" />
+        <mark key="^" line="18" column="36" />
+        <mark key="." line="18" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/tests/test_storageClient.py" timestamp="1513006321145">
         <mark key="'" line="0" column="2" />
@@ -1218,12 +1222,12 @@
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1541276982217">
-        <mark key="'" line="486" column="0" />
-        <mark key="[" line="486" column="0" />
-        <mark key="]" line="486" column="48" />
-        <mark key="^" line="722" column="9" />
-        <mark key="." line="722" column="9" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1541279898699">
+        <mark key="'" line="487" column="0" />
+        <mark key="[" line="421" column="41" />
+        <mark key="]" line="422" column="36" />
+        <mark key="^" line="422" column="36" />
+        <mark key="." line="422" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/demos/data/output_metric_query_2.json" timestamp="1515803754834">
         <mark key="'" line="0" column="0" />
@@ -1389,6 +1393,12 @@
         <mark key="]" line="0" column="19" />
         <mark key="^" line="0" column="19" />
         <mark key="." line="0" column="19" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_init.py" timestamp="1541279692987">
+        <mark key="[" line="8" column="39" />
+        <mark key="]" line="8" column="39" />
+        <mark key="^" line="8" column="39" />
+        <mark key="." line="8" column="39" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/models.py" timestamp="1514574748483">
         <mark key="'" line="11" column="81" />
@@ -1635,11 +1645,12 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="415" column="57" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/__init__.py" timestamp="1541278453766">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="11" />
-        <mark key="." line="8" column="0" />
-        <mark key="^" line="4" column="10" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/__init__.py" timestamp="1541279763298">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+        <mark key="^" line="12" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" timestamp="1540929355478">
         <mark key="'" line="368" column="0" />
@@ -2316,8 +2327,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features_hypertuned.json" />
-      <jump line="82" column="31" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features_hypertuned.json" />
       <jump line="533" column="25" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="3" column="0" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="532" column="23" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2416,6 +2425,8 @@
       <jump line="498" column="15" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="139" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="486" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/crypto/crypto/crypto/__init__.py" />
+      <jump line="147" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2425,7 +2436,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">cHJpbnQocGF0aCkK</text>
+        <text encoding="base64">aW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2967,7 +2978,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>os.path.abspath(os.path.join(os.path.expanduser(os.environ['CRYPTO_ROOT']), '..'))</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
         <text>limit_order</text>
@@ -2976,13 +2987,13 @@
         <text encoding="base64">cHJpbnQocGF0aCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">b3MucGF0aC5qb2luKG9zLnBhdGguZXhwYW5kdXNlcihvcy5lbnZpcm9uWydDUllQVE9fUk9PVCddKSwgJy4uJykpCg==</text>
+        <text encoding="base64">aW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">c3lzLnBhdGguYXBwZW5kKG9zLnBhdGguYWJzcGF0aChvcy5wYXRoLmpvaW4ob3MucGF0aC5leHBhbmR1c2VyKG9zLmVudmlyb25bJ0NSWVBUT19ST09UJ10pLCAnLi4nKSkpCnN5cy5wYXRoLmFwcGVuZChvcy5wYXRoLmFic3BhdGgob3MucGF0aC5qb2luKG9zLnBhdGguZXhwYW5kdXNlcihvcy5lbnZpcm9uWydDUllQVE9fUk9PVCddKSwgJy4uJykpKQpzeXMucGF0aC5hcHBlbmQob3MucGF0aC5hYnNwYXRoKG9zLnBhdGguam9pbihvcy5wYXRoLmV4cGFuZHVzZXIob3MuZW52aXJvblsnQ1JZUFRPX1JPT1QnXSksICcuLicpKSkK</text>
+        <text encoding="base64">aW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3005,10 +3016,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">b3MucGF0aC5qb2luKG9zLnBhdGguZXhwYW5kdXNlcihvcy5lbnZpcm9uWydDUllQVE9fUk9PVCddKSwgJy4uJykpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">c3lzLnBhdGguYXBwZW5kKG9zLnBhdGguYWJzcGF0aChvcy5wYXRoLmpvaW4ob3MucGF0aC5leHBhbmR1c2VyKG9zLmVudmlyb25bJ0NSWVBUT19ST09UJ10pLCAnLi4nKSkpCnN5cy5wYXRoLmFwcGVuZChvcy5wYXRoLmFic3BhdGgob3MucGF0aC5qb2luKG9zLnBhdGguZXhwYW5kdXNlcihvcy5lbnZpcm9uWydDUllQVE9fUk9PVCddKSwgJy4uJykpKQpzeXMucGF0aC5hcHBlbmQob3MucGF0aC5hYnNwYXRoKG9zLnBhdGguam9pbihvcy5wYXRoLmV4cGFuZHVzZXIob3MuZW52aXJvblsnQ1JZUFRPX1JPT1QnXSksICcuLicpKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3076,22 +3087,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PT09PT09PQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLWUnLCAnLS1leGNoYW5nZXMnLCBuYXJncz0nKicsIGRlZmF1bHQ9W10sCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J2xpc3Qgb2YgZXhjaGFuZ2VzIHRvIHVzZS4gVXNlICcnJSUlJycgZm9yIGVhY2ggc3BhY2UuJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy1jJywgJy0tY3VycmVuY2llcycsIG5hcmdzPScqJywgZGVmYXVsdD1bXSwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0nbGlzdCBvZiBjdXJyZW5jaWVzIHRvIHVzZS4gVXNlICcnJSUlJycgZm9yIGVhY2ggc3BhY2UuJykKPj4+Pj4+PiBDb252ZXJ0aW5nIGV2ZXJ5dGhpbmcgdG8gY2N4dAo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PDw8PDw8PCAzMGI1MDNjNTUyODAyNzQzY2MzYzliMzM2OTQxOGJhMGYwNzc5N2M4Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">PT09PT09PQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLWUnLCAnLS1leGNoYW5nZXMnLCBuYXJncz0nKicsIGRlZmF1bHQ9W10sCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J2xpc3Qgb2YgZXhjaGFuZ2VzIHRvIHVzZS4gVXNlICcnJSUlJycgZm9yIGVhY2ggc3BhY2UuJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy1jJywgJy0tY3VycmVuY2llcycsIG5hcmdzPScqJywgZGVmYXVsdD1bXSwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0nbGlzdCBvZiBjdXJyZW5jaWVzIHRvIHVzZS4gVXNlICcnJSUlJycgZm9yIGVhY2ggc3BhY2UuJykKPj4+Pj4+PiBDb252ZXJ0aW5nIGV2ZXJ5dGhpbmcgdG8gY2N4dAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcSwgZiwgcV9jdXJyZW5jeSwgZl9jdXJyZW5jeSA9IHJvd1sndGlja2VyJ10udHJhZGVfcmVzdWx0cyhyb3dbJ3R5cGUnXSwgcm93WydxdWFudGl0eSddLCByb3dbJ3JhdGUnXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc190YWtlcikK</text>
+        <text encoding="base64">PDw8PDw8PCAzMGI1MDNjNTUyODAyNzQzY2MzYzliMzM2OTQxOGJhMGYwNzc5N2M4Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>140</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -3144,9 +3155,9 @@
         <entry>w</entry>
         <entry>72</entry>
         <entry>607</entry>
-        <entry>q</entry>
         <entry>14</entry>
         <entry>140</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
