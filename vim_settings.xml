@@ -69,6 +69,7 @@
         <mark key="." line="11" column="7" />
         <mark key="^" line="11" column="7" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1541452344607" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittests/fake_data_anomaly_model.json" timestamp="1537396991019">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="56" column="0" />
@@ -513,12 +514,12 @@
         <mark key="." line="13" column="14" />
         <mark key="^" line="13" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" timestamp="1541449661330">
-        <mark key="'" line="13" column="30" />
-        <mark key="[" line="40" column="22" />
-        <mark key="]" line="40" column="23" />
-        <mark key="^" line="51" column="103" />
-        <mark key="." line="40" column="22" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" timestamp="1541452879496">
+        <mark key="'" line="15" column="27" />
+        <mark key="[" line="76" column="59" />
+        <mark key="]" line="75" column="65" />
+        <mark key="^" line="75" column="65" />
+        <mark key="." line="76" column="73" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/demos/demo_graph.py" timestamp="1512596135603">
         <mark key="'" line="17" column="31" />
@@ -1478,9 +1479,9 @@
         <mark key="]" line="141" column="108" />
         <mark key="." line="186" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1541449664924">
+      <file name="/Python Console" timestamp="1541452884366">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="31" />
+        <mark key="." line="0" column="65" />
       </file>
       <file name="/fragment.py" timestamp="1541442791192">
         <mark key="[" line="0" column="0" />
@@ -2346,10 +2347,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="486" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="502" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="462" column="52" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="467" column="54" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="517" column="40" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="7" column="47" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="695" column="17" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
@@ -2436,7 +2433,6 @@
       <jump line="555" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1111" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="50" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
-      <jump line="14" column="28" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="19" column="23" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="22" column="32" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="26" column="14" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
@@ -2446,6 +2442,11 @@
       <jump line="29" column="67" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="43" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="13" column="30" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="58" column="3" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="14" column="35" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="21" column="18" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="15" column="27" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2455,7 +2456,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>l</text>
+        <text>legend</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2997,22 +2998,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>l</text>
+        <text>legend</text>
       </register>
       <register name="/" type="4">
-        <text>st</text>
+        <text>pipeline</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5wdXRfbWV0cmljcyA9IGNhY2hlZF9sb2FkKHNlbGYubW9kZWxfY29uZmlnLmdldF9pbnB1dHMoKSwgc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgbWF4X3NhbXBsZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICB5ID0gcGlwZWxpbmVfdG9feVtwaXBlbGluZV0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVsIG9bJ2V4cHJlc3Npb24nXQo=</text>
+        <text encoding="base64">ICAgIG9wdHNfZGljdCA9IHsnQ3VydmUnOiB7J3Bsb3QnOiB7J3dpZHRoJzogMTIwMH19fQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbnB1dF9tZXRyaWNzID0gY2FjaGVkX2xvYWQoc2VsZi5tb2RlbF9jb25maWcuZ2V0X2lucHV0cygpLCBzdGFydF9lcG9jaCwgZW5kX2Vwb2NoLCBtYXhfc2FtcGxlcykK</text>
+        <text encoding="base64">ICAgICAgICB0aW1lcyA9IAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3035,10 +3036,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXBsYWNlKCcpJywgJ3t9KScuZm9ybWF0KHN1ZmZpeCkpCg==</text>
+        <text encoding="base64">ICAgICAgICB5LCB5X2hhdAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3106,28 +3107,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHlfbWV0cmljcyA9IHlfY2FjaGVkX2xvYWQoaW50ZXJ2YWwsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHlfY2FjaGVkX2xvYWQgPSBjLmNhY2hlX2Z1bmN0aW9uKHlfbG9hZGRlci5sb2FkLCBpZ25vcmU9WydzZWxmJ10pCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBvdXRwdXRfbG9hZGVyID0gTG9hZGVyKHF1ZXJpZXMsIGFjY291bnRfaWQpCg==</text>
+        <text encoding="base64">ICAgIHlfaGF0X2xvYWRkZXIgPSBMb2FkZXIoeV9xdWVyaWVzLCBhY2NvdW50X2lkKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZvciBvIGluIG91dHB1dHM6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50KG91dHB1dHMpCg==</text>
+        <text encoding="base64">ICAgIHByaW50IGxlbih5X21ldHJpY3MpLCB5X21ldHJpY3NbMF0udmFsdWVzLnNoYXBlCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/^    /  /gc</text>
       </register>
     </registers>
     <search>
-      <last-search>st</last-search>
+      <last-search>pipeline</last-search>
       <last-offset />
-      <last-pattern>st</last-pattern>
+      <last-pattern>pipeline</last-pattern>
       <last-replace encoding="base64">ICA=</last-replace>
       <last-substitute encoding="base64">XiAgICA=</last-substitute>
       <last-dir>1</last-dir>
@@ -3135,7 +3136,6 @@
     </search>
     <history>
       <history-search>
-        <entry>maker_fee</entry>
         <entry>fee</entry>
         <entry>taker_fee</entry>
         <entry>describe</entry>
@@ -3155,6 +3155,7 @@
         <entry>kpi</entry>
         <entry>Self</entry>
         <entry>st</entry>
+        <entry>pipeline</entry>
       </history-search>
       <history-cmd>
         <entry>51</entry>
