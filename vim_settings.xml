@@ -514,12 +514,12 @@
         <mark key="." line="13" column="14" />
         <mark key="^" line="13" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" timestamp="1541454331326">
-        <mark key="'" line="15" column="27" />
-        <mark key="[" line="55" column="69" />
-        <mark key="]" line="54" column="51" />
-        <mark key="^" line="54" column="51" />
-        <mark key="." line="54" column="51" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" timestamp="1541459406586">
+        <mark key="'" line="47" column="31" />
+        <mark key="[" line="62" column="0" />
+        <mark key="]" line="62" column="7" />
+        <mark key="^" line="47" column="31" />
+        <mark key="." line="62" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/demos/demo_graph.py" timestamp="1512596135603">
         <mark key="'" line="17" column="31" />
@@ -687,12 +687,11 @@
         <mark key="^" line="64" column="11" />
         <mark key="." line="64" column="11" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/README_selfserve.md" timestamp="1541440131287">
-        <mark key="'" line="69" column="0" />
-        <mark key="[" line="78" column="74" />
-        <mark key="]" line="79" column="0" />
-        <mark key="." line="79" column="0" />
-        <mark key="^" line="79" column="0" />
+      <file name="$USER_HOME$/opas/core/python/README_selfserve.md" timestamp="1541456851211">
+        <mark key="'" line="68" column="0" />
+        <mark key="[" line="70" column="0" />
+        <mark key="]" line="70" column="0" />
+        <mark key="." line="70" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_hypertuned.json" timestamp="1540956956295">
         <mark key="'" line="0" column="0" />
@@ -971,7 +970,7 @@
         <mark key="^" line="47" column="93" />
         <mark key="." line="47" column="93" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541453669753">
+      <file name="/Dummy.txt" timestamp="1541457564428">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/tests/test_neural_nets_basic_trainer.py" timestamp="1540927155509">
@@ -1479,7 +1478,7 @@
         <mark key="]" line="141" column="108" />
         <mark key="." line="186" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1541454519527">
+      <file name="/Python Console" timestamp="1541459353654">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="65" />
       </file>
@@ -1915,6 +1914,7 @@
         <mark key="." line="15" column="21" />
         <mark key="^" line="22" column="30" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" timestamp="1541459344111" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_pdf.py" timestamp="1539715549020">
         <mark key="'" line="22" column="21" />
         <mark key="[" line="78" column="0" />
@@ -2354,8 +2354,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="517" column="40" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="7" column="47" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="695" column="17" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="1" column="12" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
       <jump line="715" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_trade.py" />
@@ -2454,6 +2452,8 @@
       <jump line="21" column="18" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="6" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
       <jump line="15" column="27" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="46" column="39" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
+      <jump line="47" column="31" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/debug/plot_kpi.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2462,8 +2462,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>'</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICcnJwo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3005,7 +3005,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>model_id</text>
       </register>
       <register name="/" type="4">
         <text>pipeline</text>
@@ -3014,13 +3014,13 @@
         <text encoding="base64">ICAgIHlfbWV0cmljcyA9IHlfbG9hZGRlci5sb2FkKGludGVydmFsLCBzdGFydF9lcG9jaCwgZW5kX2Vwb2NoKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgICcnJwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgICcnJwo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3043,10 +3043,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIG9wdHNfZGljdCA9IHsnQ3VydmUnOiB7J3Bsb3QnOiB7J3dpZHRoJzogMTIwMH19fQo=</text>
+        <text encoding="base64">ICAgIHlfbG9hZGRlciA9IExvYWRlci5mcm9tX2pzb25fdG9fcXVlcmllcyhvdXRwdXRzLCBhY2NvdW50X2lkKQogICAgeV9oYXRfbG9hZGRlciA9IExvYWRlci5mcm9tX2pzb25fdG9fcXVlcmllcyhvdXRwdXRzX2hhdCwgYWNjb3VudF9pZCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lcyA9IAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3114,22 +3114,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB5LCB5X2hhdAo=</text>
+        <text encoding="base64">ICAgICcnJwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaW50IEZMQUdTLmtwaV9uYW1lCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHlfbWV0cmljcyA9IHlfY2FjaGVkX2xvYWQoaW50ZXJ2YWwsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gpCg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkuY29tbW9uLnNldHRpbmdzLmtwaV9zdGFnZV9zZXR0aW5nIGltcG9ydCBLcGlTdGFnZVNldHRpbmcK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHlfY2FjaGVkX2xvYWQgPSBjLmNhY2hlX2Z1bmN0aW9uKHlfbG9hZGRlci5sb2FkLCBpZ25vcmU9WydzZWxmJ10pCg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkuc2VsZnNlcnZlLm1vZGVsaW5nLnNlbGZfc2VydmVfYmFzZV9zdGFnZSBpbXBvcnQgU2VsZlNlcnZlQmFzZVN0YWdlCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHlfaGF0X2xvYWRkZXIgPSBMb2FkZXIoeV9xdWVyaWVzLCBhY2NvdW50X2lkKQo=</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcyBpbXBvcnQgc3RvcmFnZV9jbGllbnQK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/^    /  /gc</text>
+        <text encoding="base64">JzwsJz5zb3J0</text>
       </register>
     </registers>
     <search>
@@ -3165,7 +3165,6 @@
         <entry>pipeline</entry>
       </history-search>
       <history-cmd>
-        <entry>51</entry>
         <entry>251</entry>
         <entry>107</entry>
         <entry>583</entry>
@@ -3185,6 +3184,7 @@
         <entry>s/\//g</entry>
         <entry>s/\\//g</entry>
         <entry>%s/^    /  /gc</entry>
+        <entry encoding="base64">JzwsJz5zb3J0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
