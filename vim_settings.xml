@@ -133,7 +133,9 @@
         <mark key="^" line="67" column="23" />
         <mark key="." line="67" column="23" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1541442979979" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1541520145746">
+        <mark key="'" line="62" column="4" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_public_clients.py" timestamp="1537668815602">
         <mark key="'" line="61" column="32" />
         <mark key="[" line="38" column="0" />
@@ -687,10 +689,10 @@
         <mark key="^" line="64" column="11" />
         <mark key="." line="64" column="11" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/README_selfserve.md" timestamp="1541456851211">
+      <file name="$USER_HOME$/opas/core/python/README_selfserve.md" timestamp="1541519792978">
         <mark key="'" line="68" column="0" />
-        <mark key="[" line="70" column="0" />
-        <mark key="]" line="70" column="0" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="87" />
         <mark key="." line="70" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_hypertuned.json" timestamp="1540956956295">
@@ -1172,7 +1174,7 @@
         <mark key="^" line="17" column="31" />
         <mark key="." line="17" column="31" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_base_stage.py" timestamp="1541442509922">
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_base_stage.py" timestamp="1541520060578">
         <mark key="'" line="336" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/mutual_information.py" timestamp="1512516058950">
@@ -1475,7 +1477,7 @@
         <mark key="]" line="141" column="108" />
         <mark key="." line="186" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1541462402282">
+      <file name="/Python Console" timestamp="1541519978125">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="65" />
       </file>
@@ -2347,9 +2349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="696" column="96" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="697" column="101" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
-      <jump line="704" column="39" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="708" column="84" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="709" column="85" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="716" column="20" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
@@ -2447,6 +2446,9 @@
       <jump line="412" column="8" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="426" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
       <jump line="443" column="4" filename="$USER_HOME$/crypto/crypto/crypto/trade.py" />
+      <jump line="109" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
+      <jump line="103" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
+      <jump line="62" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2455,8 +2457,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">c2J0IGNsZWFuIGNvbXBpbGUgLWp2bS1kZWJ1ZyA5OTk5ICJ+cnVuIC1EY29uZmlnLnJlc291cmNlPWRldl9zdGFnaW5nLmNvbmYgLURlbnY9PGVudj4iIA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3001,7 +3003,7 @@
         <text>object</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>def .*run</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHlfbWV0cmljcyA9IHlfbG9hZGRlci5sb2FkKGludGVydmFsLCBzdGFydF9lcG9jaCwgZW5kX2Vwb2NoKQo=</text>
@@ -3126,9 +3128,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>def .*run</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>def .*run</last-pattern>
       <last-replace encoding="base64">ICA=</last-replace>
       <last-substitute encoding="base64">XiAgICA=</last-substitute>
       <last-dir>1</last-dir>
@@ -3144,7 +3146,6 @@
         <entry>\\</entry>
         <entry encoding="base64">XiAgICA=</entry>
         <entry>window_size</entry>
-        <entry>def .*run</entry>
         <entry>def .*plot</entry>
         <entry>kpi</entry>
         <entry>Self</entry>
@@ -3156,6 +3157,7 @@
         <entry>Insufficient</entry>
         <entry>config</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>def .*run</entry>
       </history-search>
       <history-cmd>
         <entry>251</entry>
