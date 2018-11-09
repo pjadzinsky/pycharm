@@ -1295,12 +1295,12 @@
         <mark key="^" line="81" column="60" />
         <mark key="." line="52" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" timestamp="1541792277863">
-        <mark key="'" line="173" column="0" />
-        <mark key="[" line="173" column="0" />
-        <mark key="]" line="173" column="71" />
-        <mark key="^" line="183" column="47" />
-        <mark key="." line="183" column="47" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" timestamp="1541800421076">
+        <mark key="'" line="149" column="4" />
+        <mark key="[" line="154" column="31" />
+        <mark key="]" line="154" column="35" />
+        <mark key="^" line="154" column="35" />
+        <mark key="." line="154" column="35" />
       </file>
       <file name="$USER_HOME$/Testeo/choose_currencies.py" timestamp="1517238843720">
         <mark key="'" line="109" column="31" />
@@ -2348,9 +2348,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/tests/test_split_data.py" />
-      <jump line="37" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
-      <jump line="53" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
       <jump line="228" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
       <jump line="30" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/tests/test_base_trainer.py" />
       <jump line="40" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/tests/test_base_trainer.py" />
@@ -2448,6 +2445,9 @@
       <jump line="505" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="88" column="53" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
+      <jump line="225" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
+      <jump line="130" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
+      <jump line="154" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2457,7 +2457,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBpbnNlcnRfc3RhcnQgPSAwCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -2999,22 +2999,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>split_results.X_buffer, split_results.y_train, split_results.y_val, split_results.y_buffer,</text>
+        <text encoding="base64">bnVtX3BpcGVsaW5lcywg</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8PA==</text>
+        <text>val_</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIHVuZG9fc3BsaXRzKHNwbGl0X2RhdGEsIGludGVydmFsX3MsIG51bV9waXBlbGluZXMsIHBpcGVsaW5lc19maXJzdCk6Cg==</text>
+        <text encoding="base64">ICAgIHZhbF9wbnRzID0gbnVtX3BpcGVsaW5lcyAqIHN1bShbaS5kdXJhdGlvbigpIGZvciBpIGluIHZhbF9pbnRlcnZhbHNdKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBpbnNlcnRfc3RhcnQgPSAwCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdDoK</text>
+        <text encoding="base64">ICAgIGJ1ZmZlcl9wbnRzID0gbnVtX3BpcGVsaW5lcyAqIHN1bShbaS5kdXJhdGlvbigpIGZvciBpIGluIGJ1ZmZlcl9pbnRlcnZhbHNdKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3053,10 +3053,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeToK</text>
+        <text encoding="base64">ICAgIGZvciBwbnRzXywgaW50ZXJ2YWxzXyBpbiB6aXAocG50cywgaW50ZXJ2YWxzKToK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZXMsIFgsIHBpcGVsaW5lcywgZGVwaXBlbGluZWRfbWV0cmljX2tleXMsIGZlYXR1cmVfbWFwcGluZyA9IFwKICAgICAgICAgICAgICAgIGZlYXR1cmVfY3JlYXRvci5mZWF0dXJlc19mcm9tX21ldHJpY3MobWV0cmljcywgaXNfaW5wdXQsIGlzX3RyYWluaW5nKQogICAgICAgICAgICBpZiB0aW1lcyBpcyBOb25lOgogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgIGlmIGZlYXR1cmVzIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBmZWF0dXJlcyA9IFg=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3124,40 +3124,38 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkudHJhaW5lcnMucG9zdF9wcm9jZXNzb3JzLnBvc3RfcHJvY2Vzc29yX2ludGVyZmFjZSBpbXBvcnQgUG9zdFByb2Nlc3NvckludGVyZmFjZQo=</text>
+        <text encoding="base64">ICAgIHBudHMgPSBbYnVmZmVyX3BudHMsIHZhbF9wbnRzLCB0cmFpbl9wbnRzXQogICAgaW50ZXJ2YWxzID0gW2J1ZmZlcl9pbnRlcnZhbHMsIHZhbF9pbnRlcnZhbHMsIHRyYWluX2ludGVydmFsc10K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcyBpbXBvcnQgcGlwZWxpbmVzIGFzIHBpcGVsaW5lc19tb2QKZnJvbSBvcGFzYWkubWV0cmljcy52aXMgaW1wb3J0IHZpc19tZXRyaWMK</text>
+        <text encoding="base64">ICAgICAgICAjIG5vdyB0aGVzZSBhcmUgaW4gc2FtcGxlcyBvciBpbmRleGVzIGludG8gWCBhbmQgeQogICAgICAgIGZpcnN0X2J1ZmZlcl9zdGFydCA9IG51bV93aW5kb3cgKiB0b3RhbF93aW5kb3dfc2l6ZSAqIG51bV9waXBlbGluZXMKICAgICAgICB2YWxfc3RhcnQgPSBmaXJzdF9idWZmZXJfc3RhcnQgKyBidWZmZXJfd2luZG93X3NpemUgKiBudW1fcGlwZWxpbmVzCiAgICAgICAgc2Vjb25kX2J1ZmZlcl9zdGFydCA9IHZhbF9zdGFydCArIHZhbF93aW5kb3dfc2l6ZSAqIG51bV9waXBlbGluZXMKICAgICAgICB0cmFpbmluZ19zdGFydCA9IHNlY29uZF9idWZmZXJfc3RhcnQgKyBidWZmZXJfd2luZG93X3NpemUgKiBudW1fcGlwZWxpbmVzCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBNYWtpbmcgYSBiZXR0ZXIgcG9zdF9wcm9jZXNzb3IgcGxvdCB0aGF0IGlzIGF3YXJlIG9mIGludGVydmFscyBhcyBpbgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCBlZTk1YmMyMTJkYThiMGJhNTFmODhmOGQwOTU1Yjg2Y2NhNTg5ZTFlCg==</text>
+        <text encoding="base64">ICAgIFhfdmFsID0gCg==</text>
       </register>
       <register name=":" type="4">
-        <text>70</text>
+        <text>s/val_/train_/g</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8PA==</last-search>
+      <last-search>val_</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8PA==</last-pattern>
-      <last-replace>buffer</last-replace>
-      <last-substitute>train</last-substitute>
+      <last-pattern>val_</last-pattern>
+      <last-replace>train_</last-replace>
+      <last-substitute>val_</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>def un</entry>
         <entry>asser</entry>
         <entry>ernt</entry>
         <entry>val</entry>
-        <entry>val_</entry>
         <entry encoding="base64">XmRlZiA=</entry>
         <entry>class In</entry>
         <entry>intert</entry>
@@ -3173,9 +3171,10 @@
         <entry>tr</entry>
         <entry encoding="base64">PDw8</entry>
         <entry encoding="base64">PDw8PA==</entry>
+        <entry>buffer_ind</entry>
+        <entry>val_</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/^\'/self./</entry>
         <entry>%s/\^\'/self./</entry>
         <entry>13,28s/self/cls/g</entry>
         <entry>117</entry>
@@ -3195,6 +3194,7 @@
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>qa</entry>
         <entry>70</entry>
+        <entry>s/val_/train_/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
