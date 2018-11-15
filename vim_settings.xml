@@ -868,6 +868,13 @@
         <mark key="." line="242" column="2" />
         <mark key="^" line="242" column="2" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" timestamp="1542296785118">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="1" column="54" />
+        <mark key="]" line="2" column="73" />
+        <mark key="." line="2" column="73" />
+        <mark key="^" line="2" column="73" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/drop_pipeline_when_no_matching_io.py" timestamp="1541616710890">
         <mark key="'" line="19" column="4" />
         <mark key="[" line="19" column="67" />
@@ -2370,14 +2377,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="772" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="782" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="146" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="65" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/settings/settings_browser.py" />
-      <jump line="80" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_base_stage.py" />
-      <jump line="568" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="53" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="78" column="69" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
@@ -2470,6 +2469,14 @@
       <jump line="84" column="37" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="30" column="28" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="196" column="58" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="0" column="8" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="71" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="73" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="1" column="1" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="3" column="38" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="4" column="38" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchanges_white_list.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2478,8 +2485,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+      <register name="&quot;" type="4">
+        <text>bitfinex</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3021,22 +3028,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>3</text>
+        <text>bitfinex</text>
       </register>
       <register name="/" type="4">
-        <text>5</text>
+        <text>,</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBleGNoYW5nZS5oYXNbJ2ZldGNoVGlja2VycyddOgo=</text>
+        <text encoding="base64">IyBiaWdvbmUsIGJpdGZpbmV4MiwgYml0ZmluZXgsIHFyeXB0b3MsIHF1b2luZXgsIGxpcXVpZCwgc291dGh4Y2hhbmdlLCBiaXR6LCBiaW5hbmNlLCBnYXRlaW8sIGh1b2JpcHJvLCBva2V4LCBrdWNvaW4sCiMgYml0dHJleCwgcG9sb25pZXgsIGhpdGJ0YywgaGl0YnRjMiwgY3J5cHRvcGlhLCBjb2luZXhjaGFuZ2UsIGNyZXgyNCwgeW9iaXQsIGNvaW5tYXJrZXRjYXAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">IFsnYmlnb25lJywgJ2JpdGZpbmV4MicsICdiaXRmaW5leCcsICdxcnlwdG9zJywgJ3F1b2luZXgnLCAnbGlxdWlkJywgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="2" type="8">
+        <text encoding="base64">REVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSAKREVCVUcgLSBjcnlwdG8uc2NyaXB0cy5maW5kX2N5Y2xlc191dGlsczo0MyAtIApERUJVRyAtIGNyeXB0by5zY3JpcHRzLmZpbmRfY3ljbGVzX3V0aWxzOjQzIC0gCkRFQlVHIC0gY3J5cHRvLnNjcmlwdHMuZmluZF9jeWNsZXNfdXRpbHM6NDMgLSA=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3050,10 +3057,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHF1b3RlX3ZvbHVtZSA9IGJhc2Vfdm9sdW1lICogcmF0ZQo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFdlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3121,46 +3128,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhdGUgPSAxCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHF1b3RlX3ZvbHVtZSA9IGJhc2Vfdm9sdW1lICogcmF0ZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFdlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhdGUgPSAxCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHBhc3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGV4Y2hhbmdlcyA9IGV4Y2hhbmdlc1s0OjVdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhc3MK</text>
       </register>
       <register name=":" type="4">
-        <text>733</text>
+        <text>s/,//g</text>
       </register>
     </registers>
     <search>
-      <last-search>5</last-search>
+      <last-search>,</last-search>
       <last-offset />
-      <last-pattern>5</last-pattern>
-      <last-replace>val</last-replace>
-      <last-substitute>train</last-substitute>
+      <last-pattern>,</last-pattern>
+      <last-replace />
+      <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>train</entry>
-        <entry>t_</entry>
-        <entry>start_epoch</entry>
-        <entry>model_</entry>
-        <entry>params</entry>
-        <entry>model</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
-        <entry>cache</entry>
-        <entry>load_m</entry>
-        <entry>td</entry>
-        <entry>fetchM</entry>
         <entry>Vol</entry>
         <entry>has</entry>
         <entry>def vol</entry>
@@ -3170,28 +3166,39 @@
         <entry>pickle</entry>
         <entry>try</entry>
         <entry>5</entry>
+        <entry>^\(.* .* \).*</entry>
+        <entry>^\(.* .*\).*</entry>
+        <entry>^\(.* .*\) .*</entry>
+        <entry>^\(.* \)</entry>
+        <entry encoding="base64">XlwoLipcKTog</entry>
+        <entry>$</entry>
+        <entry>^.*(</entry>
+        <entry>,.*(</entry>
+        <entry>,.*</entry>
+        <entry>'</entry>
+        <entry>,</entry>
       </history-search>
       <history-cmd>
-        <entry>67</entry>
-        <entry>709,718s/base/quote/gc</entry>
-        <entry>91</entry>
-        <entry>54</entry>
-        <entry>60</entry>
-        <entry>612</entry>
-        <entry>58</entry>
-        <entry>731</entry>
-        <entry>s/train/val/gc</entry>
-        <entry>wq</entry>
-        <entry>w</entry>
-        <entry>qa</entry>
-        <entry>65</entry>
-        <entry>233</entry>
         <entry>50</entry>
         <entry>q</entry>
         <entry>36</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>519</entry>
         <entry>733</entry>
+        <entry>%s/^\(.* .* \).*/\1/</entry>
+        <entry>%s/^\(.* .*\).*/\1/</entry>
+        <entry>%s/^\(.* .*\) .*/\1/</entry>
+        <entry>%s/^\(.* \)/'\1'/</entry>
+        <entry>%s/^\(.*\): /'\1': /</entry>
+        <entry>%s/$/,$/</entry>
+        <entry>%s/$/,/</entry>
+        <entry>2,24s/^.*(//g</entry>
+        <entry>2,24s/,.*(/, /g</entry>
+        <entry>2,24s/,.*/, /g</entry>
+        <entry>s/'//</entry>
+        <entry>s/'//g</entry>
+        <entry>/,/g</entry>
+        <entry>s/,//g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
