@@ -190,11 +190,7 @@
         <mark key="^" line="17" column="13" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542344919423">
-        <mark key="'" line="661" column="36" />
-        <mark key="[" line="563" column="0" />
-        <mark key="]" line="563" column="0" />
-        <mark key="." line="563" column="0" />
-        <mark key="^" line="564" column="43" />
+        <mark key="'" line="674" column="36" />
       </file>
       <file name="/" timestamp="1541696812472">
         <mark key="[" line="0" column="0" />
@@ -2086,10 +2082,12 @@
         <mark key="." line="59" column="19" />
         <mark key="^" line="59" column="19" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" timestamp="1542351561484">
-        <mark key="'" line="123" column="17" />
-        <mark key="[" line="123" column="0" />
-        <mark key="]" line="123" column="31" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" timestamp="1542352520332">
+        <mark key="'" line="19" column="20" />
+        <mark key="[" line="101" column="27" />
+        <mark key="]" line="111" column="24" />
+        <mark key="^" line="111" column="24" />
+        <mark key="." line="111" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/random_forest/rc_index.py" timestamp="1516410241154">
         <mark key="'" line="95" column="42" />
@@ -2379,9 +2377,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="126" column="75" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="582" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="622" column="46" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="581" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="546" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="92" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2477,8 +2472,11 @@
       <jump line="312" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="326" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="342" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
       <jump line="123" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
+      <jump line="342" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
+      <jump line="18" column="56" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
+      <jump line="19" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3033,7 +3031,7 @@
         <text>self</text>
       </register>
       <register name="/" type="4">
-        <text>&quot;172.31.56.18&quot;</text>
+        <text>patience</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAiaG9zdCI6ICIxNzIuMzEuNTYuMTgiLAo=</text>
@@ -3149,9 +3147,9 @@
       </register>
     </registers>
     <search>
-      <last-search>&quot;172.31.56.18&quot;</last-search>
+      <last-search>patience</last-search>
       <last-offset />
-      <last-pattern>&quot;172.31.56.18&quot;</last-pattern>
+      <last-pattern>patience</last-pattern>
       <last-replace>[&quot;172.31.56.18&quot;]</last-replace>
       <last-substitute>&quot;172.31.56.18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3159,8 +3157,6 @@
     </search>
     <history>
       <history-search>
-        <entry>train_intervals</entry>
-        <entry encoding="base64">PDw8</entry>
         <entry>X_train</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry>val_start_epoch</entry>
@@ -3179,6 +3175,8 @@
         <entry>tags</entry>
         <entry>172</entry>
         <entry>&quot;172.31.56.18&quot;</entry>
+        <entry>clip</entry>
+        <entry>patience</entry>
       </history-search>
       <history-cmd>
         <entry>2,24s/,.*/, /g</entry>
