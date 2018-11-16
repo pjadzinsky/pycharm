@@ -1834,12 +1834,12 @@
         <mark key="." line="62" column="68" />
         <mark key="^" line="62" column="68" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1542344995026">
-        <mark key="'" line="87" column="20" />
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="0" />
-        <mark key="." line="56" column="0" />
-        <mark key="^" line="84" column="45" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1542347509937">
+        <mark key="'" line="56" column="0" />
+        <mark key="[" line="9" column="30" />
+        <mark key="]" line="9" column="27" />
+        <mark key="." line="9" column="27" />
+        <mark key="^" line="9" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/vis/vis_metric_clustering.py" timestamp="1517868916563">
         <mark key="'" line="10" column="0" />
@@ -2132,6 +2132,9 @@
         <mark key="." line="40" column="14" />
         <mark key="^" line="40" column="14" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" timestamp="1542346737895">
+        <mark key="'" line="174" column="8" />
+      </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/neural_nets/tests/data/data_config.json" timestamp="1512678333709">
         <mark key="'" line="8" column="5" />
         <mark key="[" line="49" column="17" />
@@ -2265,6 +2268,12 @@
         <mark key="^" line="145" column="79" />
         <mark key="." line="145" column="79" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" timestamp="1542346765008">
+        <mark key="[" line="39" column="11" />
+        <mark key="]" line="48" column="31" />
+        <mark key="^" line="48" column="31" />
+        <mark key="." line="48" column="31" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric_clustering.py" timestamp="1513990467019">
         <mark key="'" line="58" column="31" />
         <mark key="[" line="71" column="0" />
@@ -2368,8 +2377,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="391" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="398" column="67" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="109" column="35" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="529" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="460" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
@@ -2468,6 +2475,8 @@
       <jump line="661" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="91" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="90" column="4" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_server.py" />
+      <jump line="174" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3134,7 +3143,7 @@
         <text encoding="base64">ICAgICAgICBzYXZlX2h5cGVydHVuZWRfbW9kZWxzID0gVHJ1ZQo=</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -3170,7 +3179,6 @@
         <entry>post</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/$/,/</entry>
         <entry>2,24s/^.*(//g</entry>
         <entry>2,24s/,.*(/, /g</entry>
         <entry>2,24s/,.*/, /g</entry>
@@ -3188,8 +3196,9 @@
         <entry>744</entry>
         <entry>773</entry>
         <entry>351</entry>
-        <entry>w</entry>
         <entry>wq</entry>
+        <entry>qa</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
