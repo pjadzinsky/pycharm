@@ -1841,12 +1841,12 @@
         <mark key="." line="62" column="68" />
         <mark key="^" line="62" column="68" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1542334179749">
-        <mark key="'" line="142" column="9" />
-        <mark key="[" line="120" column="9" />
-        <mark key="]" line="120" column="9" />
-        <mark key="^" line="138" column="8" />
-        <mark key="." line="120" column="9" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1542335514140">
+        <mark key="'" line="160" column="9" />
+        <mark key="[" line="95" column="30" />
+        <mark key="]" line="95" column="33" />
+        <mark key="^" line="95" column="33" />
+        <mark key="." line="95" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/vis/vis_metric_clustering.py" timestamp="1517868916563">
         <mark key="'" line="10" column="0" />
@@ -2368,7 +2368,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1234" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="102" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="384" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="386" column="88" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2468,6 +2467,7 @@
       <jump line="120" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="124" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="142" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
+      <jump line="160" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2477,7 +2477,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>,</text>
+        <text>uniform</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3019,10 +3019,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>uniform</text>
       </register>
       <register name="/" type="4">
-        <text>host</text>
+        <text>unifo</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAiaG9zdCI6IFsiMTcyLjMxLjU2LjE4Il0K</text>
@@ -3138,9 +3138,9 @@
       </register>
     </registers>
     <search>
-      <last-search>host</last-search>
+      <last-search>unifo</last-search>
       <last-offset />
-      <last-pattern>host</last-pattern>
+      <last-pattern>unifo</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -3148,7 +3148,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def __ha</entry>
         <entry>data</entry>
         <entry>data_range</entry>
         <entry>def interse</entry>
@@ -3168,6 +3167,7 @@
         <entry>model</entry>
         <entry>epochs</entry>
         <entry>host</entry>
+        <entry>unifo</entry>
       </history-search>
       <history-cmd>
         <entry>%s/$/,$/</entry>
