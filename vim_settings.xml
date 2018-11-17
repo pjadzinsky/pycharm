@@ -197,12 +197,12 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542408015732">
-        <mark key="'" line="587" column="44" />
-        <mark key="[" line="1273" column="0" />
-        <mark key="]" line="1274" column="80" />
-        <mark key="." line="1275" column="0" />
-        <mark key="^" line="1274" column="7" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542418393106">
+        <mark key="'" line="312" column="8" />
+        <mark key="[" line="289" column="0" />
+        <mark key="]" line="1268" column="80" />
+        <mark key="." line="1269" column="0" />
+        <mark key="^" line="1268" column="7" />
       </file>
       <file name="/" timestamp="1541696812472">
         <mark key="[" line="0" column="0" />
@@ -480,10 +480,10 @@
         <mark key="^" line="128" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1542411549874">
-        <mark key="[" line="477" column="0" />
-        <mark key="]" line="477" column="0" />
+        <mark key="[" line="460" column="0" />
+        <mark key="]" line="460" column="0" />
         <mark key="^" line="243" column="43" />
-        <mark key="." line="477" column="0" />
+        <mark key="." line="460" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/prediction/prediction_utils.py" timestamp="1518453362231">
         <mark key="'" line="27" column="70" />
@@ -2431,8 +2431,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="312" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
-      <jump line="326" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="342" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="123" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
       <jump line="342" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
@@ -2531,6 +2529,8 @@
       <jump line="99" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
       <jump line="132" column="35" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
       <jump line="159" column="71" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="780" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="312" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3085,7 +3085,7 @@
         <text>predicted_metrics</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>def train</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCBwcmVkaWN0ZWRfbWV0cmljc1swXS52YWx1ZXMuc3RkKCksIHByZWRpY3RlZF9tZXRyaWNzWzBdLnZhbHVlcy5taW4oKSwgcHJlZGljdGVkX21ldHJpY3NbMF0udmFsdWVzLm1heCgpCg==</text>
@@ -3201,9 +3201,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>def train</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>def train</last-pattern>
       <last-replace>[&quot;172.31.56.18&quot;]</last-replace>
       <last-substitute>&quot;172.31.56.18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3222,7 +3222,6 @@
         <entry>model_config</entry>
         <entry>end</entry>
         <entry>seed</entry>
-        <entry>def train</entry>
         <entry>def score</entry>
         <entry>predict</entry>
         <entry>feature</entry>
@@ -3231,6 +3230,7 @@
         <entry>inputs</entry>
         <entry>predicted</entry>
         <entry>pudb</entry>
+        <entry>def train</entry>
       </history-search>
       <history-cmd>
         <entry>271</entry>
