@@ -593,12 +593,12 @@
         <mark key="." line="11" column="0" />
         <mark key="^" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1542477855002">
-        <mark key="'" line="53" column="8" />
-        <mark key="[" line="427" column="0" />
-        <mark key="]" line="427" column="8" />
-        <mark key="^" line="422" column="16" />
-        <mark key="." line="427" column="8" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1542479214967">
+        <mark key="'" line="274" column="44" />
+        <mark key="[" line="279" column="36" />
+        <mark key="]" line="279" column="93" />
+        <mark key="." line="279" column="93" />
+        <mark key="^" line="279" column="93" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/correlation/tests/test_storageClient.py" timestamp="1513006321145">
         <mark key="'" line="0" column="2" />
@@ -2432,15 +2432,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="607" column="72" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="618" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="68" column="39" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="82" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="182" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
-      <jump line="113" column="8" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
-      <jump line="115" column="22" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
-      <jump line="100" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
-      <jump line="568" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="627" column="53" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="69" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="126" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2532,6 +2523,15 @@
       <jump line="496" column="40" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="53" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="49" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="423" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="169" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="245" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="250" column="34" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="253" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="263" column="39" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="266" column="39" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="269" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="274" column="44" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2541,7 +2541,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3083,22 +3083,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>assert</text>
+        <text>'ETH', 'XRP', 'LTC', 'BCH'</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>all_staples</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBleGNoYW5nZS5oYXNbJ2ZldGNoVGlja2VycyddOgo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gc2VsZi5ncmFwaF9wb2xvX2JpdHRfaGl0Yi5hbGxfc3RhcGxlcygyLCBbJ0JUQyddLCBbJ0VUSCcsICdYUlAnLCAnTFRDJywgJ0JDSCddKQogICAgICAgIHN0YXBsZXMgPSBsaXN0KHN0YXBsZXMpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksIDMgKiA0KQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksICkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3112,10 +3112,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGJhc2Vfbm9kZSA9PSBxdW90ZV9ub2RlOgogICAgICAgICAgICAgICAgICAgICMgSSdtIGdldHRpbmcgYSB3ZWlyZCBlcnJvciBpbiBleGNoYW5nZSAnYmlnb25lJy4gQW4gZWRnZSBpcyBjcmVhdGVkIGJldHdlZW4gJ0VUSCcgYW5kICdFVEgnCiAgICAgICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludChzdGFwbGVzKQogICAgICAgIHByaW50KGxlbihzdGFwbGVzKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3183,16 +3183,16 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50KGVkZ2VzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFtlIGZvciBlIGluIGVkZ2VzIGlmIGVbMF0gPT0gZVsxXV0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZXhjZXB0aW9uIGlmIHRoZSBleGNoYW5nZXMgYXJlIGRpZmZlcmVudAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGJhc2Vfbm9kZSA9PSBxdW90ZV9ub2RlOgogICAgICAgICAgICAgICAgICAgICMgSSdtIGdldHRpbmcgYSB3ZWlyZCBlcnJvciBpbiBleGNoYW5nZSAnYmlnb25lJy4gQW4gZWRnZSBpcyBjcmVhdGVkIGJldHdlZW4gJ0VUSCcgYW5kICdFVEgnCiAgICAgICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
@@ -3202,9 +3202,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>all_staples</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>all_staples</last-pattern>
       <last-replace>[&quot;172.31.56.18&quot;]</last-replace>
       <last-substitute>&quot;172.31.56.18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3212,8 +3212,6 @@
     </search>
     <history>
       <history-search>
-        <entry>model_loc</entry>
-        <entry>def __has</entry>
         <entry>model_config</entry>
         <entry>end</entry>
         <entry>seed</entry>
@@ -3232,6 +3230,8 @@
         <entry>clear_order</entry>
         <entry>Bigone</entry>
         <entry>pudb</entry>
+        <entry>class TestGraph</entry>
+        <entry>all_staples</entry>
       </history-search>
       <history-cmd>
         <entry>582</entry>
