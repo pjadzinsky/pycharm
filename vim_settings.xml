@@ -1953,11 +1953,11 @@
         <mark key="." line="65" column="55" />
         <mark key="^" line="65" column="55" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1542414779934">
-        <mark key="'" line="212" column="13" />
-        <mark key="[" line="85" column="0" />
-        <mark key="]" line="85" column="33" />
-        <mark key="." line="85" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1542415945347">
+        <mark key="'" line="158" column="71" />
+        <mark key="[" line="147" column="0" />
+        <mark key="]" line="147" column="0" />
+        <mark key="." line="147" column="0" />
       </file>
       <file name="$USER_HOME$/Testeo/log_market.py" timestamp="1513392990912">
         <mark key="'" line="96" column="52" />
@@ -2431,9 +2431,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="270" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
-      <jump line="284" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
-      <jump line="298" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="312" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="326" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="342" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
@@ -2531,6 +2528,9 @@
       <jump line="146" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
       <jump line="197" column="23" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
       <jump line="211" column="13" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="99" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="132" column="35" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="159" column="71" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2540,7 +2540,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBwcmVkaWN0ZWRfbWV0cmljc1swXS52YWx1ZXMuc3RkKCksIHByZWRpY3RlZF9tZXRyaWNzWzBdLnZhbHVlcy5taW4oKSwgcHJlZGljdGVkX21ldHJpY3NbMF0udmFsdWVzLm1heCgpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3082,22 +3082,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>print</text>
+        <text>predicted_metrics</text>
       </register>
       <register name="/" type="4">
-        <text>inputs</text>
+        <text>pudb</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEB1bml0dGVzdC5leHBlY3RlZEZhaWx1cmUK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBwcmVkaWN0ZWRfbWV0cmljc1swXS52YWx1ZXMuc3RkKCksIHByZWRpY3RlZF9tZXRyaWNzWzBdLnZhbHVlcy5taW4oKSwgcHJlZGljdGVkX21ldHJpY3NbMF0udmFsdWVzLm1heCgpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBwcmVkaWN0ZWRfbWV0cmljc1swXS52YWx1ZXMuc3RkKCksIHByZWRpY3RlZF9tZXRyaWNzWzBdLnZhbHVlcy5taW4oKSwgcHJlZGljdGVkX21ldHJpY3NbMF0udmFsdWVzLm1heCgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKE1lYW5Sb3dTaXplKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJob3N0IjogWyIxNzIuMzEuNTYuMTgiXSwKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3111,10 +3111,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFJvd0NhY2hlSGl0KS8obWVhbihSb3dDYWNoZUhpdCkgKyBtZWFuKFJvd0NhY2hlTWlzcykpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImhvc3QiOiBbIjE3Mi4zMS41Ni4xOCJdLAogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCg==</text>
+        <text encoding="base64">ICAgIHByaW50IHBhcnNlZF9wcmVkaWN0aW9uc1swXS52YWx1ZXMuc3RkKCksIHByZWRpY3RlZF9tZXRyaWNzWzBdLnZhbHVlcy5taW4oKSwgcHJlZGljdGVkX21ldHJpY3NbMF0udmFsdWVzLm1heCgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFJlY2VudEJsb29tRmlsdGVyRmFsc2VSYXRpbykiLAogICAgICAidGFncyI6IHsKICAgICAgICAiaG9zdCI6IFsiMTcyLjMxLjU2LjE4Il0sCiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImhvc3QiLAogICAgICAgICJzY29wZSIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFBlbmRpbmdGbHVzaGVzKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJob3N0IjogWyIxNzIuMzEuNTYuMTgiXSwKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAo=</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3182,28 +3182,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiVmFsdWUvVFA3NVwiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJob3N0IjogWyIxNzIuMzEuNTYuMTgiXSwKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiRXN0aW1hdGVkUm93U2l6ZUhpc3RvZ3JhbSIsCiAgICAgICAgICAiRXN0aW1hdGVkQ29sdW1uQ291bnRIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJWYWx1ZS9UUDUwXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImhvc3QiOiBbIjE3Mi4zMS41Ni4xOCJdLAogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJFc3RpbWF0ZWRSb3dTaXplSGlzdG9ncmFtIiwKICAgICAgICAgICJFc3RpbWF0ZWRDb2x1bW5Db3VudEhpc3RvZ3JhbSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgIm5hbWUiLAogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICJFc3RpbWF0ZWRDb2x1bW5Db3VudEhpc3RvZ3JhbSIK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICJFc3RpbWF0ZWRDb2x1bW5Db3VudEhpc3RvZ3JhbSIK</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKE1lYW5Sb3dTaXplKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJob3N0IjogWyIxNzIuMzEuNTYuMTgiXSwKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiNzV0aFBlcmNlbnRpbGVcIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiaG9zdCI6IFsiMTcyLjMxLjU2LjE4Il0sCiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIlNTVGFibGVzUGVyUmVhZEhpc3RvZ3JhbSIsCiAgICAgICAgICAiVG9tYnN0b25lU2Nhbm5lZEhpc3RvZ3JhbSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgIm5hbWUiLAogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJtZWFzdXJlbWVudCI6ICJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5IiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcIjUwdGhQZXJjZW50aWxlXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImhvc3QiOiBbIjE3Mi4zMS41Ni4xOCJdLAogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJTU1RhYmxlc1BlclJlYWRIaXN0b2dyYW0iLAogICAgICAgICAgIlRvbWJzdG9uZVNjYW5uZWRIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAo=</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFJvd0NhY2hlSGl0KS8obWVhbihSb3dDYWNoZUhpdCkgKyBtZWFuKFJvd0NhY2hlTWlzcykpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImhvc3QiOiBbIjE3Mi4zMS41Ni4xOCJdLAogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICJUb21ic3RvbmVTY2FubmVkSGlzdG9ncmFtIgo=</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFJlY2VudEJsb29tRmlsdGVyRmFsc2VSYXRpbykiLAogICAgICAidGFncyI6IHsKICAgICAgICAiaG9zdCI6IFsiMTcyLjMxLjU2LjE4Il0sCiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImhvc3QiLAogICAgICAgICJzY29wZSIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFBlbmRpbmdGbHVzaGVzKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJob3N0IjogWyIxNzIuMzEuNTYuMTgiXSwKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAo=</text>
       </register>
       <register name=":" type="4">
         <text>369</text>
       </register>
     </registers>
     <search>
-      <last-search>inputs</last-search>
+      <last-search>pudb</last-search>
       <last-offset />
-      <last-pattern>inputs</last-pattern>
+      <last-pattern>pudb</last-pattern>
       <last-replace>[&quot;172.31.56.18&quot;]</last-replace>
       <last-substitute>&quot;172.31.56.18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3211,8 +3211,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def __hash</entry>
-        <entry>self.model_config</entry>
         <entry>hypertu</entry>
         <entry>self.model_params</entry>
         <entry>def __ha</entry>
@@ -3231,6 +3229,8 @@
         <entry>output</entry>
         <entry>test1</entry>
         <entry>inputs</entry>
+        <entry>predicted</entry>
+        <entry>pudb</entry>
       </history-search>
       <history-cmd>
         <entry>271</entry>
