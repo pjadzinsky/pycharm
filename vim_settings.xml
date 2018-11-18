@@ -1252,11 +1252,12 @@
         <mark key="^" line="46" column="26" />
         <mark key="." line="46" column="26" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1542521195571">
-        <mark key="'" line="49" column="8" />
-        <mark key="[" line="82" column="0" />
-        <mark key="]" line="82" column="20" />
-        <mark key="." line="82" column="20" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1542562106316">
+        <mark key="'" line="411" column="14" />
+        <mark key="[" line="885" column="0" />
+        <mark key="]" line="886" column="0" />
+        <mark key="." line="886" column="0" />
+        <mark key="^" line="886" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/debug.json" timestamp="1541440164194">
         <mark key="'" line="107" column="23" />
@@ -2398,12 +2399,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="249" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
-      <jump line="587" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
-      <jump line="1" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-      <jump line="111" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
-      <jump line="85" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
       <jump line="11" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/debug_keras.json" />
       <jump line="18" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/debug_keras.json" />
       <jump line="20" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/debug_keras.json" />
@@ -2498,6 +2493,12 @@
       <jump line="79" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/debug_keras.json" />
       <jump line="128" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/debug_keras.json" />
       <jump line="191" column="2" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
+      <jump line="413" column="105" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="886" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="383" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="409" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="411" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2506,8 +2507,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>,</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtZXNzYWdlKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKG1lc3NhZ2UpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3049,13 +3050,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>BadTickerError</text>
       </register>
       <register name="/" type="4">
-        <text>model</text>
+        <text>OrderBookN</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gc2VsZi5ncmFwaF9wb2xvX2JpdHRfaGl0Yi5hbGxfc3RhcGxlcygyLCBbJ0JUQyddLCBbJ0VUSCcsICdYUlAnLCAnTFRDJywgJ0JDSCddKQogICAgICAgIHN0YXBsZXMgPSBsaXN0KHN0YXBsZXMpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksIDMgKiA0KQo=</text>
+        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtZXNzYWdlKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKG1lc3NhZ2UpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICBbXQo=</text>
@@ -3168,9 +3169,9 @@
       </register>
     </registers>
     <search>
-      <last-search>model</last-search>
+      <last-search>OrderBookN</last-search>
       <last-offset />
-      <last-pattern>model</last-pattern>
+      <last-pattern>OrderBookN</last-pattern>
       <last-replace>[&quot;172.31.56.18&quot;]</last-replace>
       <last-substitute>&quot;172.31.56.18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3178,7 +3179,6 @@
     </search>
     <history>
       <history-search>
-        <entry>predicted</entry>
         <entry>def train</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry>bitf</entry>
@@ -3198,6 +3198,7 @@
         <entry>&quot;host&quot;: [</entry>
         <entry>outputs</entry>
         <entry>model</entry>
+        <entry>OrderBookN</entry>
       </history-search>
       <history-cmd>
         <entry>542</entry>
