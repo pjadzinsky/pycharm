@@ -298,10 +298,12 @@
         <mark key="^" line="41" column="34" />
         <mark key="." line="76" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/filter_exchanges.py" timestamp="1542475383452">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/filter_exchanges.py" timestamp="1542509772936">
+        <mark key="'" line="8" column="0" />
+        <mark key="[" line="0" column="21" />
+        <mark key="]" line="0" column="21" />
+        <mark key="." line="0" column="21" />
+        <mark key="^" line="0" column="21" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/utils.py" timestamp="1515012909972">
         <mark key="'" line="3" column="0" />
@@ -1185,12 +1187,11 @@
         <mark key="." line="41" column="0" />
         <mark key="^" line="41" column="9" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" timestamp="1542122581498">
-        <mark key="'" line="52" column="0" />
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="0" />
-        <mark key="." line="50" column="0" />
-        <mark key="^" line="50" column="32" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" timestamp="1542509767529">
+        <mark key="'" line="94" column="4" />
+        <mark key="[" line="0" column="13" />
+        <mark key="]" line="0" column="14" />
+        <mark key="." line="0" column="13" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/log.py" timestamp="1540672828099">
         <mark key="'" line="61" column="0" />
@@ -1227,12 +1228,12 @@
         <mark key="." line="86" column="0" />
         <mark key="^" line="67" column="30" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1542264892878">
-        <mark key="'" line="84" column="0" />
-        <mark key="[" line="58" column="4" />
-        <mark key="]" line="58" column="4" />
-        <mark key="." line="58" column="4" />
-        <mark key="^" line="58" column="4" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1542509750540">
+        <mark key="'" line="56" column="4" />
+        <mark key="[" line="0" column="3" />
+        <mark key="]" line="0" column="14" />
+        <mark key="." line="0" column="14" />
+        <mark key="^" line="0" column="14" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/cassandra_column_family_importance_selector.py" timestamp="1541616736133">
         <mark key="'" line="22" column="4" />
@@ -2432,9 +2433,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="627" column="53" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="69" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="126" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="624" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="108" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="981" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2532,6 +2530,9 @@
       <jump line="266" column="39" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="269" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="274" column="44" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="56" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="94" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
+      <jump line="8" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/filter_exchanges.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2540,8 +2541,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3083,7 +3084,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'ETH', 'XRP', 'LTC', 'BCH'</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>all_staples</text>
@@ -3092,13 +3093,13 @@
         <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gc2VsZi5ncmFwaF9wb2xvX2JpdHRfaGl0Yi5hbGxfc3RhcGxlcygyLCBbJ0JUQyddLCBbJ0VUSCcsICdYUlAnLCAnTFRDJywgJ0JDSCddKQogICAgICAgIHN0YXBsZXMgPSBsaXN0KHN0YXBsZXMpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksIDMgKiA0KQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
+        <text encoding="base64">IyAvaG9tZS9wYWJsby9lbnZzL2NyeXB0by1lbnYvYmluL3B5dGhvbjMK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksICkK</text>
+        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3112,10 +3113,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksICkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzdGFwbGVzKQogICAgICAgIHByaW50KGxlbihzdGFwbGVzKSkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3183,22 +3184,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChzdGFwbGVzKQogICAgICAgIHByaW50KGxlbihzdGFwbGVzKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGJhc2Vfbm9kZSA9PSBxdW90ZV9ub2RlOgogICAgICAgICAgICAgICAgICAgICMgSSdtIGdldHRpbmcgYSB3ZWlyZCBlcnJvciBpbiBleGNoYW5nZSAnYmlnb25lJy4gQW4gZWRnZSBpcyBjcmVhdGVkIGJldHdlZW4gJ0VUSCcgYW5kICdFVEgnCiAgICAgICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGJhc2Vfbm9kZSA9PSBxdW90ZV9ub2RlOgogICAgICAgICAgICAgICAgICAgICMgSSdtIGdldHRpbmcgYSB3ZWlyZCBlcnJvciBpbiBleGNoYW5nZSAnYmlnb25lJy4gQW4gZWRnZSBpcyBjcmVhdGVkIGJldHdlZW4gJ0VUSCcgYW5kICdFVEgnCiAgICAgICAgICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name=":" type="4">
-        <text>497</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
@@ -3242,18 +3243,18 @@
         <entry>744</entry>
         <entry>773</entry>
         <entry>351</entry>
-        <entry>wq</entry>
         <entry>%s/&quot;172.31.56.18&quot;/[&quot;172.31.56.18&quot;]/ga</entry>
         <entry>%s/&quot;172.31.56.18&quot;/[&quot;172.31.56.18&quot;]/gc</entry>
         <entry encoding="base64">JzwsJz5x</entry>
         <entry>143</entry>
         <entry>107</entry>
         <entry>89</entry>
-        <entry>w</entry>
         <entry>369</entry>
         <entry>qa</entry>
         <entry>q</entry>
         <entry>497</entry>
+        <entry>w</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
