@@ -1685,11 +1685,11 @@
         <mark key="." line="174" column="54" />
         <mark key="^" line="174" column="54" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1542478121012">
-        <mark key="'" line="182" column="0" />
-        <mark key="[" line="89" column="0" />
-        <mark key="]" line="89" column="0" />
-        <mark key="." line="89" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1542517208314">
+        <mark key="'" line="122" column="26" />
+        <mark key="[" line="105" column="0" />
+        <mark key="]" line="105" column="0" />
+        <mark key="." line="105" column="0" />
         <mark key="^" line="44" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_QPS_rnn_with_seasonality.py" timestamp="1516744966841">
@@ -2437,12 +2437,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="798" column="106" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="41" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
-      <jump line="45" column="4" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
-      <jump line="70" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/rebuild_models.py" />
-      <jump line="48" column="41" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
-      <jump line="10" column="68" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
       <jump line="44" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
       <jump line="49" column="30" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
       <jump line="8" column="34" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_rca_processor.py" />
@@ -2537,6 +2531,12 @@
       <jump line="14" column="22" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
       <jump line="19" column="38" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
       <jump line="61" column="9" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
+      <jump line="102" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="10" column="32" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="84" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="86" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="120" column="45" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="122" column="26" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2545,8 +2545,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>test_trash_keys_1_2</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNudCA9IDAgIyBvbmx5IGZvciBkZWJ1Z2dpbmcK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3091,19 +3091,19 @@
         <text>test_trash_keys_1_2</text>
       </register>
       <register name="/" type="4">
-        <text>secret</text>
+        <text>sender</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gc2VsZi5ncmFwaF9wb2xvX2JpdHRfaGl0Yi5hbGxfc3RhcGxlcygyLCBbJ0JUQyddLCBbJ0VUSCcsICdYUlAnLCAnTFRDJywgJ0JDSCddKQogICAgICAgIHN0YXBsZXMgPSBsaXN0KHN0YXBsZXMpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksIDMgKiA0KQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWNyZXQgPSBOb25lCiAgICAgICAgZGVjb2RlZF9iaW5hcnlfc2VjcmV0ID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNudCA9IDAgIyBvbmx5IGZvciBkZWJ1Z2dpbmcK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgWW91ciBjb2RlIGdvZXMgaGVyZS4gCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWNyZXQgPSBOb25lCiAgICAgICAgZGVjb2RlZF9iaW5hcnlfc2VjcmV0ID0gTm9uZQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3117,10 +3117,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IyAgVXNlIHRoaXMgY29kZSBzbmlwcGV0IGluIHlvdXIgYXBwLgo=</text>
+        <text encoding="base64">ICAgICMgWW91ciBjb2RlIGdvZXMgaGVyZS4gCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">IyBodHRwczovL2F3cy5hbWF6b24uY29tL2RldmVsb3BlcnMvZ2V0dGluZy1zdGFydGVkL3B5dGhvbi8K</text>
+        <text encoding="base64">IyAgVXNlIHRoaXMgY29kZSBzbmlwcGV0IGluIHlvdXIgYXBwLgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3188,28 +3188,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyBJZiB5b3UgbmVlZCBtb3JlIGluZm9ybWF0aW9uIGFib3V0IGNvbmZpZ3VyYXRpb25zIG9yIGltcGxlbWVudGluZyB0aGUgc2FtcGxlIGNvZGUsIHZpc2l0IHRoZSBBV1MgZG9jczogICAK</text>
+        <text encoding="base64">IyBodHRwczovL2F3cy5hbWF6b24uY29tL2RldmVsb3BlcnMvZ2V0dGluZy1zdGFydGVkL3B5dGhvbi8K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">IyAvaG9tZS9wYWJsby9lbnZzL2NyeXB0by1lbnYvYmluL3B5dGhvbjMK</text>
+        <text encoding="base64">IyBJZiB5b3UgbmVlZCBtb3JlIGluZm9ybWF0aW9uIGFib3V0IGNvbmZpZ3VyYXRpb25zIG9yIGltcGxlbWVudGluZyB0aGUgc2FtcGxlIGNvZGUsIHZpc2l0IHRoZSBBV1MgZG9jczogICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
+        <text encoding="base64">IyAvaG9tZS9wYWJsby9lbnZzL2NyeXB0by1lbnYvYmluL3B5dGhvbjMK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksICkK</text>
+        <text encoding="base64">ICAgICAgICBzdGFwbGVzID0gbGlzdChzdGFwbGVzKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5hc3NlcnRFcXVhbChsZW4obGlzdChzdGFwbGVzKSksICkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>secret</last-search>
+      <last-search>sender</last-search>
       <last-offset />
-      <last-pattern>secret</last-pattern>
+      <last-pattern>sender</last-pattern>
       <last-replace>[&quot;172.31.56.18&quot;]</last-replace>
       <last-substitute>&quot;172.31.56.18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3217,9 +3217,6 @@
     </search>
     <history>
       <history-search>
-        <entry>end</entry>
-        <entry>seed</entry>
-        <entry>def score</entry>
         <entry>predict</entry>
         <entry>feature</entry>
         <entry>output</entry>
@@ -3237,6 +3234,9 @@
         <entry>class TestGraph</entry>
         <entry>all_staples</entry>
         <entry>secret</entry>
+        <entry>trade</entry>
+        <entry>transactions_trader</entry>
+        <entry>sender</entry>
       </history-search>
       <history-cmd>
         <entry>582</entry>
