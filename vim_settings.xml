@@ -1282,6 +1282,13 @@
         <mark key="^" line="46" column="26" />
         <mark key="." line="46" column="26" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1542604759556">
+        <mark key="'" line="405" column="19" />
+        <mark key="[" line="409" column="70" />
+        <mark key="]" line="409" column="70" />
+        <mark key="." line="409" column="70" />
+        <mark key="^" line="409" column="70" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/debug.json" timestamp="1541440164194">
         <mark key="'" line="107" column="23" />
         <mark key="[" line="106" column="26" />
@@ -2449,10 +2456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="589" column="10" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="590" column="15" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="616" column="20" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="703" column="43" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="40" column="65" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="231" column="23" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="496" column="40" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2549,6 +2552,10 @@
       <jump line="413" column="69" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="177" column="87" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="415" column="30" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="408" column="58" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="11" column="17" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="95" column="15" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="405" column="19" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2558,7 +2565,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>OrderBookNotDeepEnough</text>
+        <text>pd.DataFrame({'Quantity': 0, 'Rate': 0}, index=[0])</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3100,22 +3107,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>OrderBookNotDeepEnough</text>
+        <text>pd.DataFrame({'Quantity': 0, 'Rate': 0}, index=[0])</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>inf</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiB0ZXN0X3NpbXBsZV9idXlfMyhzZWxmKToKICAgICAgICAiIiIgVGVzdCB0aGF0IHdoZW4gd2UgYnV5IHRoZSB3aG9sZSBvcmRlciBib29rIGl0IHdvcmtzIG9rCiAgICAgICAgIiIiCiAgICAgICAgYm9vayA9IHNkay5PcmRlckJvb2soc2VsZi5wb2xvLCBzZGsuVGlja2VyKCdFVEgvQlRDJywgc2VsZi5wb2xvKSwgc2VsZi5idXlfZGYsIHNlbGYuc2VsbF9kZikKICAgICAgICBhbnN3ZXIgPSBib29rLmJ1eV9xdWFudGl0eShbNC40XSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlciwgWyg0LCAxLjIpXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFuc3dlci5hcHBlbmQoT3JkZXJCb29rTm90RGVlcEVub3VnaCgnJykpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBPcmRlckJvb2tOb3REZWVwRW5vdWdoKCdNYXJrZXQgZm9yIHt9IGluIHt9IGlzIG5vdCBiaWcgZW5vdWdoIGZvciBhIGJ1eSBvcmRlciBvZiB7fScuZm9ybWF0KHNlbGYudGlja2VyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5leGNoYW5nZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvc3RzKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFuc3dlci5hcHBlbmQoT3JkZXJCb29rTm90RGVlcEVub3VnaCgnJykpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3129,10 +3136,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnZhbHVlcywgcmF0ZXMudmFsdWVzKSkK</text>
+        <text encoding="base64">ICAgICAgICByYWlzZSBPcmRlckJvb2tOb3REZWVwRW5vdWdoKCdNYXJrZXQgZm9yIHt9IGluIHt9IGlzIG5vdCBiaWcgZW5vdWdoIGZvciBhIGJ1eSBvcmRlciBvZiB7fScuZm9ybWF0KHNlbGYudGlja2VyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5leGNoYW5nZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvc3RzKSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3VtX3F1YW50aXR5LnJlc2V0X2luZGV4KGlucGxhY2U9VHJ1ZSwgZHJvcD1UcnVlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnZhbHVlcywgcmF0ZXMudmFsdWVzKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3200,28 +3207,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmF0ZXMucmVzZXRfaW5kZXgoaW5wbGFjZT1UcnVlLCBkcm9wPVRydWUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3VtX3F1YW50aXR5LnJlc2V0X2luZGV4KGlucGxhY2U9VHJ1ZSwgZHJvcD1UcnVlKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmF0ZXMucmVzZXRfaW5kZXgoaW5wbGFjZT1UcnVlLCBkcm9wPVRydWUpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhbnN3ZXIgPSBib29rLmJ1eV9xdWFudGl0eShbNC40XSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW1wb3J0IHB1ZGI7IHB1ZGIuc2V0X3RyYWNlKCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBbKDQsIDEuMildKQo=</text>
+        <text encoding="base64">ICAgICAgICBhbnN3ZXIgPSBib29rLmJ1eV9xdWFudGl0eShbNC40XSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aGUgd2hvbGUgb3JkZXIgYm9vayBpdCB3b3JrcyBvawo=</text>
+        <text encoding="base64">ICAgICAgICBbKDQsIDEuMildKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>inf</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>inf</last-pattern>
       <last-replace>18&quot;, &quot;172.31.58.64&quot;</last-replace>
       <last-substitute>18&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -3229,7 +3236,6 @@
     </search>
     <history>
       <history-search>
-        <entry>trade</entry>
         <entry>transactions_trader</entry>
         <entry>sender</entry>
         <entry>life_signal</entry>
@@ -3249,6 +3255,7 @@
         <entry encoding="base64">PDw8PDw=</entry>
         <entry>buy_qu</entry>
         <entry>pudb</entry>
+        <entry>inf</entry>
       </history-search>
       <history-cmd>
         <entry>130</entry>
