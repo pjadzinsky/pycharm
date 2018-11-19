@@ -1252,12 +1252,12 @@
         <mark key="^" line="46" column="26" />
         <mark key="." line="46" column="26" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1542587952526">
-        <mark key="'" line="981" column="11" />
-        <mark key="[" line="408" column="39" />
-        <mark key="]" line="408" column="7" />
-        <mark key="^" line="408" column="7" />
-        <mark key="." line="408" column="7" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1542591706049">
+        <mark key="'" line="407" column="22" />
+        <mark key="[" line="410" column="52" />
+        <mark key="]" line="410" column="62" />
+        <mark key="." line="410" column="62" />
+        <mark key="^" line="410" column="62" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/debug.json" timestamp="1541440164194">
         <mark key="'" line="107" column="23" />
@@ -2399,7 +2399,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="703" column="43" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="40" column="65" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="231" column="23" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="496" column="40" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2499,6 +2498,7 @@
       <jump line="78" column="27" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="898" column="55" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="969" column="11" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="405" column="22" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2507,8 +2507,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjb3N0ID0gY29zdHNbMF0K</text>
+      <register name="&quot;" type="4">
+        <text>cost</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3050,7 +3050,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>total</text>
+        <text>cost</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">PDw8PDw=</text>
@@ -3059,13 +3059,13 @@
         <text encoding="base64">ICAgIHJldHVybiB0cmFuc2FjdGlvbnMsIHRyYW5zZmVycywgbm9kZV8xX3F1YW50aXRpZXMK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb3N0ID0gY29zdHNbMF0K</text>
+        <text encoding="base64">ICAgICAgICBzZWFyY2hzb3J0ZWQK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbmRleCA9IDAK</text>
+        <text encoding="base64">ICAgICAgICBkZi5sb2NbOiwgJ2Nvc3QnXSA9IGRmLmN1bXN1bSgpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3079,10 +3079,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmljZSA9IDAK</text>
+        <text encoding="base64">ICAgICAgICBpbmRleCA9IDAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBxdWFudGl0eSA9IDAK</text>
+        <text encoding="base64">ICAgICAgICBjb3N0ID0gY29zdHNbMF0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3150,19 +3150,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhbnN3ZXIgPSBbXQo=</text>
+        <text encoding="base64">ICAgICAgICAjIGNvbXB1dGUgdGhlIHRvdGFsIGNvc3QK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgXywgcm93IGluIGRmLml0ZXJyb3dzKCk6CiAgICAgICAgICAgIGxhc3RfcHJpY2UgPSBwcmljZQogICAgICAgICAgICBwcmljZSArPSByb3dbJ1F1YW50aXR5J10gKiByb3dbJ1JhdGUnXQogICAgICAgICAgICBpZiBjb3N0IDw9IHByaWNlOgogICAgICAgICAgICAgICAgcXVhbnRpdHkgPSBxdWFudGl0eSArIChjb3N0cyAtIGxhc3RfcHJpY2UpIC8gcm93WydSYXRlJ10KICAgICAgICAgICAgICAgIHJldHVybiBxdWFudGl0eSwgcm93WydSYXRlJ10KICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHF1YW50aXR5ICs9IHJvd1snUXVhbnRpdHknXQo=</text>
+        <text encoding="base64">ICAgICAgICBjb3N0ID0gY29zdHNbMF0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB3aGlsZSBpbmRleCA8IGxlbihjb3N0cyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbmRleCA9IDAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY29zdCA8PSAwOgogICAgICAgICAgICAgICAgYW5zd2VyLmFwcGVuZCgoMCwgTm9uZSkpCiAgICAgICAgICAgICAgICBpbmRleCArPSAxCiAgICAgICAgICAgICAgICBjb3N0ID0gY29zdHNbaW5kZXhdCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmljZSA9IDAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgY29zdCBpbiBjb3N0czoK</text>
+        <text encoding="base64">ICAgICAgICBxdWFudGl0eSA9IDAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
