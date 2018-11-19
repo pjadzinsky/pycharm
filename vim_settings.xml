@@ -2114,11 +2114,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/pipeline_values_feature_creator.py" timestamp="1541798568896">
         <mark key="[" line="17" column="66" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" timestamp="1542669028324">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" timestamp="1542669880107">
+        <mark key="'" line="1" column="0" />
         <mark key="[" line="50" column="0" />
-        <mark key="]" line="51" column="28" />
-        <mark key="^" line="51" column="28" />
-        <mark key="." line="51" column="28" />
+        <mark key="]" line="51" column="100" />
+        <mark key="^" line="51" column="100" />
+        <mark key="." line="51" column="100" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/models/model_utils.py" timestamp="1518118887466">
         <mark key="'" line="56" column="4" />
@@ -2446,8 +2447,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="532" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="418" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="522" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="564" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="565" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2546,6 +2545,8 @@
       <jump line="84" column="92" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" />
       <jump line="85" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" />
       <jump line="86" column="72" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" />
+      <jump line="49" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3100,7 +3101,7 @@
         <text>metric</text>
       </register>
       <register name="/" type="4">
-        <text>metric</text>
+        <text>expected</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBtYXBfcGlwZWxpbmVfa2V5c190b19tZXRyaWNzKHNlbGYsIG1ldHJpY3MpOgo=</text>
@@ -3212,13 +3213,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>60</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
-      <last-search>metric</last-search>
+      <last-search>expected</last-search>
       <last-offset />
-      <last-pattern>metric</last-pattern>
+      <last-pattern>expected</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3226,7 +3227,6 @@
     </search>
     <history>
       <history-search>
-        <entry>2000</entry>
         <entry>def _fo</entry>
         <entry>def .*bulk</entry>
         <entry>tags</entry>
@@ -3246,11 +3246,11 @@
         <entry>def score</entry>
         <entry>def map</entry>
         <entry>metric</entry>
+        <entry>expected</entry>
       </history-search>
       <history-cmd>
         <entry>105</entry>
         <entry>%s/18&quot;/18&quot;, &quot;172.31.58.64&quot;/gc</entry>
-        <entry>wq</entry>
         <entry>q</entry>
         <entry>206,233s/_buy_/_sell_/gc</entry>
         <entry>206,233s/buy_quantity/sell_cost/gc</entry>
@@ -3268,6 +3268,7 @@
         <entry>434</entry>
         <entry>44</entry>
         <entry>60</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
