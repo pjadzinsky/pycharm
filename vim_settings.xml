@@ -197,8 +197,8 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542569289185">
-        <mark key="'" line="107" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542655824407">
+        <mark key="'" line="532" column="8" />
         <mark key="[" line="107" column="0" />
         <mark key="]" line="107" column="0" />
         <mark key="^" line="1272" column="7" />
@@ -2470,8 +2470,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/filter_exchanges.py" />
-      <jump line="47" column="23" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
       <jump line="11" column="3" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
       <jump line="9" column="4" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
       <jump line="1" column="0" filename="$USER_HOME$/crypto/crypto/crypto/secrets.py" />
@@ -2570,6 +2568,8 @@
       <jump line="197" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
       <jump line="86" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_1host.json" />
+      <jump line="1084" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="532" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3124,7 +3124,7 @@
         <text>hypertuned_suffix</text>
       </register>
       <register name="/" type="4">
-        <text>epochs</text>
+        <text>hyp</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIDxjb21tb25fcHJlZml4Pi88bW9kZWxfaWQ+XzAvCg==</text>
@@ -3240,9 +3240,9 @@
       </register>
     </registers>
     <search>
-      <last-search>epochs</last-search>
+      <last-search>hyp</last-search>
       <last-offset />
-      <last-pattern>epochs</last-pattern>
+      <last-pattern>hyp</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3250,8 +3250,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8PDw=</entry>
-        <entry>buy_qu</entry>
         <entry>inf</entry>
         <entry>def inte</entry>
         <entry>_buy_</entry>
@@ -3270,6 +3268,8 @@
         <entry>57.169</entry>
         <entry>47</entry>
         <entry>epochs</entry>
+        <entry>def train(</entry>
+        <entry>hyp</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5x</entry>
