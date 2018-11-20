@@ -482,12 +482,6 @@
         <mark key="." line="26" column="20" />
         <mark key="^" line="26" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1542672009688">
-        <mark key="'" line="325" column="8" />
-        <mark key="[" line="475" column="112" />
-        <mark key="]" line="476" column="0" />
-        <mark key="." line="476" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/prediction/prediction_utils.py" timestamp="1518453362231">
         <mark key="'" line="27" column="70" />
         <mark key="[" line="8" column="6" />
@@ -1326,12 +1320,6 @@
         <mark key="." line="66" column="45" />
         <mark key="^" line="66" column="45" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1542664472415">
-        <mark key="'" line="52" column="0" />
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
-      </file>
       <file name="$USER_HOME$/Testeo/choose_currencies.py" timestamp="1517238843720">
         <mark key="'" line="109" column="31" />
         <mark key="[" line="20" column="10" />
@@ -1830,12 +1818,6 @@
         <mark key="." line="19" column="24" />
         <mark key="^" line="19" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1542650242264">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="120" column="0" />
-        <mark key="]" line="120" column="0" />
-        <mark key="." line="120" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/utils/src/main/java/ai/opas/core/utils/DNNClient.java" timestamp="1529093667184">
         <mark key="'" line="98" column="40" />
         <mark key="[" line="133" column="8" />
@@ -1877,6 +1859,9 @@
         <mark key="]" line="62" column="68" />
         <mark key="." line="62" column="68" />
         <mark key="^" line="62" column="68" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1542741415697">
+        <mark key="'" line="102" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/vis/vis_metric_clustering.py" timestamp="1517868916563">
         <mark key="'" line="10" column="0" />
@@ -2427,7 +2412,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1285" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1294" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="53" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
@@ -2527,6 +2511,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_hypertuned.json" />
+      <jump line="102" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3081,7 +3066,7 @@
         <text>-</text>
       </register>
       <register name="/" type="4">
-        <text>model</text>
+        <text>inputs</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHN0YXJ0X3RpbWVzLCBbc2VsZi5zdGFydF9lcG9jaF0gKiAzICsgW3NlbGYuZW5kX2Vwb2NoXSAqIDMpCg==</text>
@@ -3197,9 +3182,9 @@
       </register>
     </registers>
     <search>
-      <last-search>model</last-search>
+      <last-search>inputs</last-search>
       <last-offset />
-      <last-pattern>model</last-pattern>
+      <last-pattern>inputs</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3207,7 +3192,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_trainer</entry>
         <entry>trainer</entry>
         <entry>def _lo</entry>
         <entry>score</entry>
@@ -3227,6 +3211,7 @@
         <entry>r2</entry>
         <entry>np.ran</entry>
         <entry>model</entry>
+        <entry>inputs</entry>
       </history-search>
       <history-cmd>
         <entry>%s/18&quot;/18&quot;, &quot;172.31.58.64&quot;/gc</entry>
