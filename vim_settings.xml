@@ -186,13 +186,6 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542826432530">
-        <mark key="'" line="204" column="60" />
-        <mark key="[" line="105" column="0" />
-        <mark key="]" line="105" column="0" />
-        <mark key="." line="105" column="0" />
-        <mark key="^" line="103" column="35" />
-      </file>
       <file name="/" timestamp="1542820444803">
         <mark key="[" line="0" column="0" />
       </file>
@@ -768,7 +761,7 @@
         <mark key="." line="36" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1542826256538">
-        <mark key="'" line="271" column="27" />
+        <mark key="'" line="278" column="27" />
         <mark key="[" line="250" column="22" />
         <mark key="]" line="250" column="25" />
         <mark key="^" line="250" column="25" />
@@ -829,12 +822,12 @@
         <mark key="^" line="14" column="24" />
         <mark key="." line="14" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/metrics.py" timestamp="1530141747033">
-        <mark key="'" line="64" column="0" />
-        <mark key="[" line="46" column="30" />
-        <mark key="]" line="47" column="3" />
-        <mark key="^" line="47" column="3" />
-        <mark key="." line="47" column="3" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/metrics.py" timestamp="1542829800919">
+        <mark key="'" line="63" column="22" />
+        <mark key="[" line="63" column="10" />
+        <mark key="]" line="63" column="9" />
+        <mark key="^" line="63" column="9" />
+        <mark key="." line="63" column="9" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/simple_cycles.py" timestamp="1534056803803">
         <mark key="'" line="9" column="23" />
@@ -842,6 +835,12 @@
         <mark key="]" line="79" column="52" />
         <mark key="^" line="79" column="52" />
         <mark key="." line="79" column="52" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" timestamp="1542829911947">
+        <mark key="[" line="88" column="36" />
+        <mark key="]" line="88" column="36" />
+        <mark key="^" line="85" column="67" />
+        <mark key="." line="88" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/metric_selector/tests/test_host_selector.py" timestamp="1521746249876">
         <mark key="'" line="28" column="48" />
@@ -1866,9 +1865,6 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1542827170968">
         <mark key="'" line="314" column="8" />
-        <mark key="[" line="303" column="22" />
-        <mark key="]" line="303" column="22" />
-        <mark key="." line="303" column="22" />
         <mark key="^" line="290" column="9" />
       </file>
       <file name="$USER_HOME$/opas/core/training/python/opasml/nnets/demos/demo_autoencoder.py" timestamp="1513291863553">
@@ -2081,13 +2077,6 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/pipeline_values_feature_creator.py" timestamp="1541798568896">
         <mark key="[" line="17" column="66" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" timestamp="1542826946589">
-        <mark key="'" line="69" column="12" />
-        <mark key="[" line="69" column="66" />
-        <mark key="]" line="69" column="67" />
-        <mark key="^" line="70" column="12" />
-        <mark key="." line="69" column="67" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/models/model_utils.py" timestamp="1518118887466">
         <mark key="'" line="56" column="4" />
@@ -2421,7 +2410,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1071" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1131" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1061" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1286" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2521,6 +2509,7 @@
       <jump line="76" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/test_random_forest.test_1.json" />
       <jump line="21" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/test_random_forest.test_1.json" />
       <jump line="69" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" />
+      <jump line="63" column="22" filename="$USER_HOME$/opas/core/python/opasai/nnets/metrics.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2530,7 +2519,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>False</text>
+        <text>(</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3072,7 +3061,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>False</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
         <text>pepi</text>
@@ -3187,7 +3176,7 @@
         <text encoding="base64">XSkK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/'/&quot;/g</text>
+        <text>65</text>
       </register>
     </registers>
     <search>
@@ -3223,7 +3212,6 @@
         <entry>pepi</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>318</entry>
         <entry>319</entry>
         <entry>w</entry>
@@ -3243,6 +3231,7 @@
         <entry>296</entry>
         <entry encoding="base64">JzwsJz5xYQ==</entry>
         <entry>%s/'/&quot;/g</entry>
+        <entry>65</entry>
       </history-cmd>
       <history-expr />
       <history-input />
