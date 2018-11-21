@@ -122,12 +122,12 @@
         <mark key="." line="13" column="10" />
         <mark key="^" line="2" column="66" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1542779936528">
-        <mark key="'" line="633" column="48" />
-        <mark key="[" line="639" column="0" />
-        <mark key="]" line="639" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1542782081634">
+        <mark key="'" line="141" column="64" />
+        <mark key="[" line="677" column="8" />
+        <mark key="]" line="677" column="9" />
         <mark key="^" line="639" column="32" />
-        <mark key="." line="639" column="0" />
+        <mark key="." line="677" column="9" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" timestamp="1539365070464">
         <mark key="'" line="58" column="8" />
@@ -643,11 +643,11 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1542780906320">
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1542782114320">
         <mark key="'" line="26" column="8" />
-        <mark key="[" line="127" column="0" />
-        <mark key="]" line="127" column="37" />
-        <mark key="." line="127" column="0" />
+        <mark key="[" line="147" column="0" />
+        <mark key="]" line="147" column="0" />
+        <mark key="." line="147" column="0" />
         <mark key="^" line="118" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
@@ -2448,9 +2448,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="521" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1062" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1122" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1052" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1143" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="2" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2548,6 +2545,9 @@
       <jump line="621" column="48" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="633" column="48" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="26" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
+      <jump line="116" column="64" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="127" column="64" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="141" column="64" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3102,10 +3102,10 @@
         <text>/Users/lewa/Downloads/</text>
       </register>
       <register name="/" type="4">
-        <text>pudb</text>
+        <text>Stat</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICByZXNwID0gc2VsZi5jdXJzb3IuZXhlY3V0ZSgoIlNFTEVDVCBjb3VudChpZCkgRlJPTSB7fSIuZm9ybWF0KHNlbGYudHJhbnNmZXJzX3RhYmxlKSkpCiAgICAgICAgY250ID0gcmVzcC5mZXRjaGFsbCgpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChjbnQsIFsoMSwpXSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
@@ -3131,7 +3131,7 @@
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3199,28 +3199,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkYl9uYW1lID0gb3MucGF0aC5qb2luKGNvbmZpZy5SRVNVTFRTX0ZPTERFUiwgJ3RyYW5zYWN0aW9uc19tb25pdG9yZWQuZGInKQogICAgICAgIGNvbiA9IGxpdGUuY29ubmVjdChvcy5wYXRoLmFic3BhdGgoZGJfbmFtZSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>145</text>
       </register>
     </registers>
     <search>
-      <last-search>pudb</last-search>
+      <last-search>Stat</last-search>
       <last-offset />
-      <last-pattern>pudb</last-pattern>
+      <last-pattern>Stat</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3228,7 +3228,6 @@
     </search>
     <history>
       <history-search>
-        <entry>__hash__</entry>
         <entry>def __h</entry>
         <entry>def save</entry>
         <entry>model</entry>
@@ -3248,6 +3247,7 @@
         <entry>config</entry>
         <entry>NULL</entry>
         <entry>pudb</entry>
+        <entry>Stat</entry>
       </history-search>
       <history-cmd>
         <entry>476</entry>
