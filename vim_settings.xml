@@ -101,6 +101,12 @@
         <mark key="^" line="52" column="70" />
         <mark key="." line="52" column="70" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1542819433145">
+        <mark key="[" line="98" column="8" />
+        <mark key="]" line="98" column="8" />
+        <mark key="." line="98" column="12" />
+        <mark key="^" line="95" column="12" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/tests/test_clients.py" timestamp="1539470453513">
         <mark key="'" line="83" column="19" />
         <mark key="[" line="49" column="28" />
@@ -1531,7 +1537,7 @@
         <mark key="^" line="144" column="36" />
         <mark key="." line="144" column="36" />
       </file>
-      <file name="/Python Console" timestamp="1542818803772">
+      <file name="/Python Console" timestamp="1542819690950">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1542385943200">
@@ -1864,8 +1870,8 @@
         <mark key="^" line="14" column="80" />
         <mark key="." line="14" column="80" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1542818519568">
-        <mark key="'" line="78" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1542819568450">
+        <mark key="'" line="314" column="8" />
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
@@ -2413,12 +2419,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="149" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="1" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="3" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="150" column="58" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="4" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="151" column="107" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="1290" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="267" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2513,6 +2513,12 @@
       <jump line="577" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="587" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="983" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="305" column="14" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="306" column="32" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="308" column="27" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="269" column="104" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="283" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="314" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2521,8 +2527,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgL29wYXNfbW9kZWwK</text>
+      <register name="&quot;" type="4">
+        <text>self</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3064,10 +3070,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>/</text>
+        <text>self</text>
       </register>
       <register name="/" type="4">
-        <text>model_store</text>
+        <text>val_loss</text>
       </register>
       <register name="0" type="4">
         <text>self.model_store.delete(start_epoch)</text>
@@ -3183,9 +3189,9 @@
       </register>
     </registers>
     <search>
-      <last-search>model_store</last-search>
+      <last-search>val_loss</last-search>
       <last-offset />
-      <last-pattern>model_store</last-pattern>
+      <last-pattern>val_loss</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3193,7 +3199,6 @@
     </search>
     <history>
       <history-search>
-        <entry>train</entry>
         <entry>run</entry>
         <entry>run_once</entry>
         <entry>def loac</entry>
@@ -3213,6 +3218,7 @@
         <entry>def train</entry>
         <entry>def load_fr</entry>
         <entry>model_store</entry>
+        <entry>val_loss</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
