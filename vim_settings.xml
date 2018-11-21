@@ -195,12 +195,12 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542763623532">
-        <mark key="'" line="41" column="0" />
-        <mark key="[" line="545" column="99" />
-        <mark key="]" line="546" column="44" />
-        <mark key="." line="546" column="44" />
-        <mark key="^" line="546" column="44" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1542814491585">
+        <mark key="'" line="545" column="47" />
+        <mark key="[" line="567" column="0" />
+        <mark key="]" line="567" column="0" />
+        <mark key="^" line="566" column="26" />
+        <mark key="." line="567" column="0" />
       </file>
       <file name="/" timestamp="1541696812472">
         <mark key="[" line="0" column="0" />
@@ -253,6 +253,10 @@
         <mark key="]" line="34" column="0" />
         <mark key="^" line="34" column="0" />
         <mark key="." line="34" column="0" />
+      </file>
+      <file name="/opas_base_model.py" timestamp="1542814080771">
+        <mark key="[" line="562" column="12" />
+        <mark key="]" line="562" column="47" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/discrete_information.py" timestamp="1531335619424">
         <mark key="'" line="172" column="0" />
@@ -2448,9 +2452,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1052" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1143" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="2" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1127" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="625" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1146" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2548,6 +2549,9 @@
       <jump line="116" column="64" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="127" column="64" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="141" column="64" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="563" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="686" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="545" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2557,7 +2561,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIGUK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3102,19 +3106,19 @@
         <text>/Users/lewa/Downloads/</text>
       </register>
       <register name="/" type="4">
-        <text>Stat</text>
+        <text>def load_fr</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByZXNwID0gc2VsZi5jdXJzb3IuZXhlY3V0ZSgoIlNFTEVDVCBjb3VudChpZCkgRlJPTSB7fSIuZm9ybWF0KHNlbGYudHJhbnNmZXJzX3RhYmxlKSkpCiAgICAgICAgY250ID0gcmVzcC5mZXRjaGFsbCgpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChjbnQsIFsoMSwpXSkK</text>
+      <register name="0" type="4">
+        <text>self.model_store.delete(start_epoch)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIGUK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3202,25 +3206,25 @@
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>145</text>
       </register>
     </registers>
     <search>
-      <last-search>Stat</last-search>
+      <last-search>def load_fr</last-search>
       <last-offset />
-      <last-pattern>Stat</last-pattern>
+      <last-pattern>def load_fr</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3228,8 +3232,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def __h</entry>
-        <entry>def save</entry>
         <entry>model</entry>
         <entry>train</entry>
         <entry>run</entry>
@@ -3241,13 +3243,15 @@
         <entry encoding="base64">YXMg</entry>
         <entry>metrics</entry>
         <entry>def train(</entry>
-        <entry>def train</entry>
         <entry>test DB</entry>
         <entry>CRYPTO</entry>
         <entry>config</entry>
         <entry>NULL</entry>
         <entry>pudb</entry>
         <entry>Stat</entry>
+        <entry>blew</entry>
+        <entry>def train</entry>
+        <entry>def load_fr</entry>
       </history-search>
       <history-cmd>
         <entry>476</entry>
