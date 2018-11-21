@@ -1472,11 +1472,12 @@
         <mark key="." line="20" column="17" />
         <mark key="^" line="20" column="17" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1542821075624">
-        <mark key="[" line="297" column="36" />
-        <mark key="]" line="297" column="35" />
-        <mark key="^" line="297" column="35" />
-        <mark key="." line="297" column="35" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1542823146914">
+        <mark key="'" line="298" column="0" />
+        <mark key="[" line="296" column="8" />
+        <mark key="]" line="296" column="8" />
+        <mark key="^" line="297" column="7" />
+        <mark key="." line="296" column="8" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/tests/data/utils.py" timestamp="1533581396915">
         <mark key="'" line="33" column="60" />
@@ -2395,7 +2396,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="117" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="114" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="23" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="46" column="80" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
@@ -2495,6 +2495,7 @@
       <jump line="286" column="88" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="256" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="271" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
+      <jump line="298" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2503,8 +2504,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3NhbHQnOiAxICAgICAgICMgd2UgbmVlZCBzYWx0Cg==</text>
+      <register name="&quot;" type="4">
+        <text>self</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3046,10 +3047,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>seasonality_params</text>
+        <text>self</text>
       </register>
       <register name="/" type="4">
-        <text>regul</text>
+        <text>def train</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgJ3NhbHQnOiAxCg==</text>
@@ -3165,9 +3166,9 @@
       </register>
     </registers>
     <search>
-      <last-search>regul</last-search>
+      <last-search>def train</last-search>
       <last-offset />
-      <last-pattern>regul</last-pattern>
+      <last-pattern>def train</last-pattern>
       <last-replace>56.47</last-replace>
       <last-substitute>57.169</last-substitute>
       <last-dir>1</last-dir>
@@ -3185,7 +3186,6 @@
         <entry>pudb</entry>
         <entry>Stat</entry>
         <entry>blew</entry>
-        <entry>def train</entry>
         <entry>def load_fr</entry>
         <entry>model_store</entry>
         <entry>val_loss</entry>
@@ -3195,6 +3195,7 @@
         <entry>def train_model</entry>
         <entry>reset_model</entry>
         <entry>regul</entry>
+        <entry>def train</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
