@@ -1695,8 +1695,12 @@
         <mark key="." line="174" column="54" />
         <mark key="^" line="174" column="54" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1542847694308">
-        <mark key="'" line="154" column="20" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1542848573022">
+        <mark key="'" line="178" column="28" />
+        <mark key="[" line="112" column="0" />
+        <mark key="]" line="115" column="23" />
+        <mark key="^" line="115" column="23" />
+        <mark key="." line="115" column="23" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_QPS_rnn_with_seasonality.py" timestamp="1516744966841">
         <mark key="'" line="46" column="28" />
@@ -2459,8 +2463,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="621" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="700" column="65" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="701" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="89" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="570" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -2556,9 +2558,11 @@
       <jump line="102" column="51" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="108" column="73" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="110" column="55" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
-      <jump line="111" column="59" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
-      <jump line="118" column="39" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="154" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="111" column="74" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="118" column="57" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="127" column="24" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
+      <jump line="175" column="28" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2567,8 +2571,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>cash_difference</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3110,10 +3114,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>cash_difference</text>
       </register>
       <register name="/" type="4">
-        <text>initial_quantity</text>
+        <text>percentage</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAiaG9zdCI6IFsiMTcyLjMxLjU2LjE4Il0sCg==</text>
@@ -3229,9 +3233,9 @@
       </register>
     </registers>
     <search>
-      <last-search>initial_quantity</last-search>
+      <last-search>percentage</last-search>
       <last-offset />
-      <last-pattern>initial_quantity</last-pattern>
+      <last-pattern>percentage</last-pattern>
       <last-replace>&quot;</last-replace>
       <last-substitute>'</last-substitute>
       <last-dir>1</last-dir>
@@ -3239,7 +3243,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def train_model</entry>
         <entry>reset_model</entry>
         <entry>regul</entry>
         <entry>def train</entry>
@@ -3259,6 +3262,7 @@
         <entry>def load</entry>
         <entry>post</entry>
         <entry>initial_quantity</entry>
+        <entry>percentage</entry>
       </history-search>
       <history-cmd>
         <entry>319</entry>
