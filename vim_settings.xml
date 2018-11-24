@@ -131,9 +131,11 @@
         <mark key="." line="13" column="10" />
         <mark key="^" line="2" column="66" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1543082581825">
+      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1543084699633">
         <mark key="e" line="719" column="12" />
         <mark key="'" line="2" column="21" />
+        <mark key="[" line="563" column="0" />
+        <mark key="]" line="577" column="26" />
         <mark key="^" line="190" column="22" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cf_level_nnet.yaml" timestamp="1539888658649">
@@ -750,12 +752,11 @@
         <mark key="^" line="21" column="77" />
         <mark key="." line="21" column="77" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/db.py" timestamp="1543083641986">
-        <mark key="'" line="26" column="7" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
-        <mark key="^" line="10" column="84" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/db.py" timestamp="1543085756426">
+        <mark key="[" line="40" column="39" />
+        <mark key="]" line="40" column="42" />
+        <mark key="^" line="40" column="42" />
+        <mark key="." line="40" column="42" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/residual_feature_creator.py" timestamp="1536299840318">
         <mark key="'" line="19" column="36" />
@@ -2490,6 +2491,12 @@
         <mark key="^" line="12" column="95" />
         <mark key="." line="15" column="0" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_db.py" timestamp="1543085893515">
+        <mark key="[" line="6" column="19" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/scripts/aws_batch_trainer.sh" timestamp="1539809018951">
         <mark key="'" line="210" column="99" />
         <mark key="[" line="65" column="0" />
@@ -2557,7 +2564,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="248" column="36" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="188" column="21" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="18" column="25" filename="$USER_HOME$/crypto/crypto/crypto/transactoins_README.md" />
       <jump line="19" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_monitor.py" />
@@ -2657,6 +2663,7 @@
       <jump line="16" column="14" filename="$USER_HOME$/crypto/crypto/crypto/db.py" />
       <jump line="15" column="14" filename="$USER_HOME$/crypto/crypto/crypto/db.py" />
       <jump line="25" column="7" filename="$USER_HOME$/crypto/crypto/crypto/db.py" />
+      <jump line="7" column="16" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_db.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2665,8 +2672,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>test_db</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3208,13 +3215,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>frequency</text>
+        <text>test_db</text>
       </register>
       <register name="/" type="4">
         <text>lite</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHNlbmRlciA9IGZpbmRfY3ljbGVzX3V0aWxzLmdldF9zZW5kZXIoYXJncy5leGVjdXRlLCAnc2hvcnRlc3Rfc3RhcGxlcycpCg==</text>
+        <text encoding="base64">ICAgICAgICBjdXJzb3IuZXhlY3V0ZSgiU0VMRUNUIG5hbWUgRlJPTSBzcWxpdGVfbWFzdGVyIFdIRVJFIHR5cGU9J3RhYmxlJzsiKQogICAgICAgIHRhYmxlcyA9IGN1cnNvci5mZXRjaGFsbCgpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCh0YWJsZXMsIFtdKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -3223,7 +3230,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZyZXF1ZW5jeSA9IGZyZXF1ZW5jeQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbmFtZSA9IHNlbGYuX2dldF9kYl9uYW1lKHBhdGgpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3237,10 +3244,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gZnJlcXVlbmN5OiAK</text>
+        <text encoding="base64">ICAgICAgICBpZiBub3QgbmFtZToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZGJfcGF0aAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3308,19 +3315,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIGRlZiBzZXRfZGJfbmFtZShzZWxmKToKICAgICAgICBzZWxmLmRiX25hbWUgPSB1dGltZS5kYXRlX3N0cigpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBvcy5wYXRoLmlzZmlsZQo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gJ3t9X3t9Jy5mb3JtYXQocGF0aCwgdXRpbWUuZGF0ZV9zdHIoKSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBTdGFydCAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGF0aCA9IHNlbGYuc2V0X2RiX3BhdGgoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBub3QgcGF0aDoK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
@@ -3331,7 +3338,7 @@
       <last-offset />
       <last-pattern>lite</last-pattern>
       <last-replace>self.summary_writer</last-replace>
-      <last-substitute>self.summary_table_name</last-substitute>
+      <last-substitute>lite</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
