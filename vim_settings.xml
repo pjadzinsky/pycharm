@@ -653,8 +653,8 @@
         <mark key="." line="11" column="0" />
         <mark key="^" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1543106796244">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1543176378079">
+        <mark key="'" line="366" column="6" />
         <mark key="[" line="292" column="0" />
         <mark key="]" line="292" column="0" />
         <mark key="." line="292" column="0" />
@@ -2588,7 +2588,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="52" filename="$USER_HOME$/crypto/crypto/crypto/README.md" />
       <jump line="20" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/s3_utils.py" />
       <jump line="34" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/s3_utils.py" />
       <jump line="66" column="3" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
@@ -2688,6 +2687,7 @@
       <jump line="571" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="589" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="605" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="366" column="6" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3242,7 +3242,7 @@
         <text>9.0020*10-0.180040</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>Ticker</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBjb21wdXRlZCwgZmVlLCBjb21wdXRlZF9jdXJyZW5jeSwgZmVlX2N1cnJlbmN5ID0gc2VsZi50aWNrZXJfZXRoX3VzZHQudHJhZGVfcmVzdWx0cyhzZGsuVHJhbnNhY3Rpb25UeXBlLlNFTExJTkcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcXVhbnRpdHksIHJhdGUsIGlzX3Rha2VyKQo=</text>
@@ -3358,9 +3358,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>Ticker</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>Ticker</last-pattern>
       <last-replace>result_quantity</last-replace>
       <last-substitute>end_quantity</last-substitute>
       <last-dir>1</last-dir>
@@ -3368,7 +3368,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def _pa</entry>
         <entry>BUCK</entry>
         <entry>ticker_quantity</entry>
         <entry encoding="base64">XmRlZiA=</entry>
@@ -3388,6 +3387,7 @@
         <entry>class Trad</entry>
         <entry>class Tick</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>Ticker</entry>
       </history-search>
       <history-cmd>
         <entry>278</entry>
