@@ -708,12 +708,12 @@
         <mark key="^" line="20" column="11" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543198268539">
-        <mark key="'" line="290" column="70" />
-        <mark key="[" line="765" column="0" />
-        <mark key="]" line="765" column="37" />
-        <mark key="." line="765" column="0" />
-        <mark key="^" line="781" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543199499514">
+        <mark key="'" line="765" column="8" />
+        <mark key="[" line="762" column="68" />
+        <mark key="]" line="762" column="68" />
+        <mark key="." line="762" column="68" />
+        <mark key="^" line="762" column="68" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cassandra_empty.yaml" timestamp="1534799660357">
         <mark key="'" line="60" column="5" />
@@ -2588,7 +2588,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/s3_utils.py" />
       <jump line="66" column="3" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="10" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
       <jump line="20" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
@@ -2688,6 +2687,7 @@
       <jump line="605" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="366" column="6" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="625" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="765" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2696,8 +2696,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3239,10 +3239,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>9.0020*10-0.180040</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>def _gain</text>
+        <text>pudb</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBjb21wdXRlZCwgZmVlLCBjb21wdXRlZF9jdXJyZW5jeSwgZmVlX2N1cnJlbmN5ID0gc2VsZi50aWNrZXJfZXRoX3VzZHQudHJhZGVfcmVzdWx0cyhzZGsuVHJhbnNhY3Rpb25UeXBlLlNFTExJTkcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcXVhbnRpdHksIHJhdGUsIGlzX3Rha2VyKQo=</text>
@@ -3358,9 +3358,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def _gain</last-search>
+      <last-search>pudb</last-search>
       <last-offset />
-      <last-pattern>def _gain</last-pattern>
+      <last-pattern>pudb</last-pattern>
       <last-replace>result_quantity</last-replace>
       <last-substitute>end_quantity</last-substitute>
       <last-dir>1</last-dir>
@@ -3368,7 +3368,6 @@
     </search>
     <history>
       <history-search>
-        <entry>BUCK</entry>
         <entry>ticker_quantity</entry>
         <entry encoding="base64">XmRlZiA=</entry>
         <entry>result_quantity</entry>
@@ -3388,6 +3387,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>Ticker</entry>
         <entry>def _gain</entry>
+        <entry>pudb</entry>
       </history-search>
       <history-cmd>
         <entry>278</entry>
