@@ -1378,12 +1378,12 @@
         <mark key="^" line="32" column="40" />
         <mark key="." line="49" column="28" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1543418934578">
+      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1543423681676">
         <mark key="'" line="229" column="4" />
-        <mark key="[" line="191" column="42" />
-        <mark key="]" line="191" column="37" />
-        <mark key="^" line="191" column="37" />
-        <mark key="." line="191" column="37" />
+        <mark key="[" line="191" column="28" />
+        <mark key="]" line="191" column="33" />
+        <mark key="^" line="191" column="33" />
+        <mark key="." line="191" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" timestamp="1539365070464">
         <mark key="'" line="58" column="8" />
@@ -1617,11 +1617,11 @@
         <mark key="^" line="36" column="3" />
         <mark key="." line="36" column="3" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" timestamp="1543419103532">
-        <mark key="[" line="9" column="14" />
-        <mark key="]" line="9" column="19" />
-        <mark key="." line="9" column="19" />
-        <mark key="^" line="9" column="19" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" timestamp="1543423491770">
+        <mark key="[" line="11" column="34" />
+        <mark key="]" line="11" column="35" />
+        <mark key="." line="11" column="35" />
+        <mark key="^" line="11" column="35" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/histogram.py" timestamp="1538495730048">
         <mark key="'" line="31" column="15" />
@@ -1693,12 +1693,12 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="46" column="8" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543418253748">
-        <mark key="'" line="207" column="24" />
-        <mark key="[" line="234" column="108" />
-        <mark key="]" line="235" column="36" />
-        <mark key="." line="235" column="36" />
-        <mark key="^" line="235" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543423737921">
+        <mark key="'" line="235" column="21" />
+        <mark key="[" line="657" column="0" />
+        <mark key="]" line="657" column="37" />
+        <mark key="." line="657" column="0" />
+        <mark key="^" line="228" column="9" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1543384205216" />
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" timestamp="1543350238769">
@@ -2567,8 +2567,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
-      <jump line="86" column="11" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="19" column="39" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="332" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="8" column="86" filename="$USER_HOME$/opas/core/python/README_gitlab.md" />
@@ -2616,7 +2614,6 @@
       <jump line="65" column="35" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="92" column="21" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="773" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
-      <jump line="234" column="43" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="248" column="37" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="294" column="37" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="362" column="56" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
@@ -2667,6 +2664,9 @@
       <jump line="407" column="10" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="229" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="91" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="234" column="8" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
+      <jump line="228" column="9" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
+      <jump line="235" column="21" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2675,8 +2675,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>set_cursor</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3221,19 +3221,19 @@
         <text>set_cursor</text>
       </register>
       <register name="/" type="4">
-        <text>comm</text>
+        <text>pudb</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICByY2Ffc29sdXRpb25fdGFza3MgPSBbcG9vbC5hcHBseV9hc3luYyhzZWxmLmNvbXB1dGVfcm9vdGNhdXNlLCBhcmdzPShrcGlfYW5vbWFseV9wYXJ0LCBrcGlfbmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXVzYXRpb25fc3RhZ2Vfc2V0dGluZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb21tb25fcmNhX3N0YWdlX3NldHRpbmcpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3Iga3BpX2Fub21hbHlfcGFydCBpbiBrcGlfYW5vbWFseV9wYXJ0c10K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNvbm5lY3Rpb24gPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNvbm5lY3Rpb24uY3Vyc29yKCkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3247,10 +3247,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNvbm5lY3Rpb24gPSBjb25uZWN0aW9uCg==</text>
+        <text encoding="base64">PSAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZW5kZXIuY29ubmVjdGlvbi5jb21taXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbm5lY3Rpb24gPSBOb25lCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3318,28 +3318,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbm5lY3Rpb24uY3Vyc29yKCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbm5lY3Rpb24gPSBjb25uZWN0aW9uCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByY2Ffc29sdXRpb25fdGFza3MgPSBbc2VsZi5jb21wdXRlX3Jvb3RjYXVzZShrcGlfYW5vbWFseV9wYXJ0LCBrcGlfbmFtZSwgY2F1c2F0aW9uX3N0YWdlX3NldHRpbmcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbW9uX3JjYV9zdGFnZV9zZXR0aW5nKSBmb3Iga3BpX2Fub21hbHlfcGFydCBpbiBrcGlfYW5vbWFseV9wYXJ0c10KCg==</text>
+        <text encoding="base64">ICAgICAgICBzZW5kZXIuY29ubmVjdGlvbi5jb21taXQoKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IG9zLnBhdGguaXNkaXIobG9jYWxfZm9sZGVyKToK</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name=":" type="4">
-        <text>63</text>
+        <text>229</text>
       </register>
     </registers>
     <search>
-      <last-search>comm</last-search>
+      <last-search>pudb</last-search>
       <last-offset />
-      <last-pattern>comm</last-pattern>
+      <last-pattern>pudb</last-pattern>
       <last-replace>val</last-replace>
       <last-substitute>train</last-substitute>
       <last-dir>1</last-dir>
@@ -3347,7 +3347,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Interface</entry>
         <entry>test__purge</entry>
         <entry>insert_one_row</entry>
         <entry>def set</entry>
@@ -3367,9 +3366,9 @@
         <entry>def add</entry>
         <entry>def set_</entry>
         <entry>comm</entry>
+        <entry>pudb</entry>
       </history-search>
       <history-cmd>
-        <entry>217</entry>
         <entry>375</entry>
         <entry>709</entry>
         <entry>738</entry>
@@ -3389,6 +3388,7 @@
         <entry>153</entry>
         <entry encoding="base64">JzwsJz5x</entry>
         <entry>63</entry>
+        <entry>229</entry>
       </history-cmd>
       <history-expr />
       <history-input />
