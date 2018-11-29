@@ -1959,12 +1959,12 @@
         <mark key="^" line="22" column="26" />
         <mark key="." line="22" column="26" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1543471002188">
-        <mark key="'" line="656" column="7" />
-        <mark key="[" line="1007" column="90" />
-        <mark key="]" line="1007" column="101" />
-        <mark key="." line="1007" column="101" />
-        <mark key="^" line="1007" column="101" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1543472267459">
+        <mark key="'" line="1001" column="55" />
+        <mark key="[" line="631" column="50" />
+        <mark key="]" line="634" column="23" />
+        <mark key="." line="634" column="23" />
+        <mark key="^" line="634" column="23" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/debug.json" timestamp="1541440164194">
         <mark key="'" line="107" column="23" />
@@ -2581,7 +2581,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="407" column="10" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="229" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="91" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="228" column="9" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
@@ -2681,6 +2680,7 @@
       <jump line="651" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="994" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="656" column="7" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="987" column="55" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2689,8 +2689,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>result_quantity</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLCB0aGUgb3JkZXJfcXVhbnRpdHkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3232,22 +3232,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>result_quantity</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>trade_results2</text>
+        <text>class Tick</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gZW5kX3F1YW50aXR5LCBmZWUsIGVuZF9jdXJyZW5jeSwgZW5kX2N1cnJlbmN5Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCB0aGUgb3JkZXJfcXVhbnRpdHkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXNfdGFrZXIgPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdGhlIGZvbGxvd2luZyBhbW91bnRzIGFzc3VtaW5nIHRyYW5zYWN0aW9ucyBpcyBleGVjdXRlZAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3261,10 +3261,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBGSVhNRQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjVE9ETyBjaGVjayB0aGF0IGRpc2NvdW50aW5nIHRoZSBmZWUgYXQgdGhlIGVuZCBpcyBleGNoYW5nZSBpbmRlcGVuZGVudAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXNfdGFrZXIgPSBUcnVlCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3332,28 +3332,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfcXVhbnRpdHkgPSBub2RlXzJfcXVhbnRpdHkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBGSVhNRQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfYm9vayA9IHNlbGYub3JkZXJfYm9vaygpCg==</text>
+        <text encoding="base64">ICAgICAgICAjVE9ETyBjaGVjayB0aGF0IGRpc2NvdW50aW5nIHRoZSBmZWUgYXQgdGhlIGVuZCBpcyBleGNoYW5nZSBpbmRlcGVuZGVudAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfYm9vayA9IHNlbGYub3JkZXJfYm9vaygpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfcXVhbnRpdHkgPSBub2RlXzJfcXVhbnRpdHkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHlwZV8gPSBUcmFuc2FjdGlvblR5cGUuU0VMTElORwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfYm9vayA9IHNlbGYub3JkZXJfYm9vaygpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0X3F1YW50aXR5ID0gbm9kZV8yX3F1YW50aXR5Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfYm9vayA9IHNlbGYub3JkZXJfYm9vaygpCg==</text>
       </register>
       <register name=":" type="4">
         <text>630,648s/ticker/self/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>trade_results2</last-search>
+      <last-search>class Tick</last-search>
       <last-offset />
-      <last-pattern>trade_results2</last-pattern>
+      <last-pattern>class Tick</last-pattern>
       <last-replace>self</last-replace>
       <last-substitute>ticker</last-substitute>
       <last-dir>1</last-dir>
@@ -3361,7 +3361,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def load</entry>
         <entry>def train_model</entry>
         <entry>def load_</entry>
         <entry>def local</entry>
@@ -3381,6 +3380,7 @@
         <entry>FIXME</entry>
         <entry>class Ticker</entry>
         <entry>trade_results2</entry>
+        <entry>class Tick</entry>
       </history-search>
       <history-cmd>
         <entry>656</entry>
