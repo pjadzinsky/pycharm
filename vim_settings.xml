@@ -1959,6 +1959,13 @@
         <mark key="^" line="22" column="26" />
         <mark key="." line="22" column="26" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1543471002188">
+        <mark key="'" line="656" column="7" />
+        <mark key="[" line="1007" column="90" />
+        <mark key="]" line="1007" column="101" />
+        <mark key="." line="1007" column="101" />
+        <mark key="^" line="1007" column="101" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/debug.json" timestamp="1541440164194">
         <mark key="'" line="107" column="23" />
         <mark key="[" line="106" column="26" />
@@ -2574,12 +2581,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1051" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1061" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="260" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
-      <jump line="1052" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="123" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="174" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="407" column="10" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="229" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="91" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
@@ -2674,6 +2675,12 @@
       <jump line="234" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="36" column="8" filename="$USER_HOME$/crypto/crypto/crypto/transactions_monitor.py" />
       <jump line="142" column="19" filename="$USER_HOME$/crypto/crypto/crypto/common/utime.py" />
+      <jump line="620" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="935" column="18" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="629" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="651" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="994" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="656" column="7" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2683,7 +2690,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>1514764800</text>
+        <text>result_quantity</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3225,22 +3232,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>1514764800</text>
+        <text>result_quantity</text>
       </register>
       <register name="/" type="4">
-        <text>transactions</text>
+        <text>trade_results2</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRyYW5zYWN0aW9uc190b19iZV9wbGFjZWQgPSBzZWxmLnRyYW5zYWN0aW9uc190b19iZV9wbGFjZWQuYXBwZW5kKHRyYW5zYWN0aW9uc190b19iZV9wbGFjZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZ25vcmVfaW5kZXg9VHJ1ZSkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gZW5kX3F1YW50aXR5LCBmZWUsIGVuZF9jdXJyZW5jeSwgZW5kX2N1cnJlbmN5Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRlZiBmcm9tX3NxbChzZWxmLCBpbnRlcnZhbD11dGltZS5JbnRlcnZhbCgxNTE0NzY0ODAwLCB1dGltZS5ub3coKSkpOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFkZF90cmFuc2FjdGlvbnModHJhbnNhY3Rpb25zX3RvX2JlX3BsYWNlZCwgdHJhbnNmZXJzX3RvX2JlX3BsYWNlZCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXNfdGFrZXIgPSBUcnVlCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3254,10 +3261,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi50cmFuc2ZlcnNfdG9fYmVfcGxhY2VkID0gc2VsZi50cmFuc2ZlcnNfdG9fYmVfcGxhY2VkLmFwcGVuZCh0cmFuc2ZlcnMsIGlnbm9yZV9pbmRleD1UcnVlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBGSVhNRQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNmZXJzLmxvY1s6LCAndHJhY2tlcl9pZCddID0gdHJhY2tlcl9pZAo=</text>
+        <text encoding="base64">ICAgICAgICAjVE9ETyBjaGVjayB0aGF0IGRpc2NvdW50aW5nIHRoZSBmZWUgYXQgdGhlIGVuZCBpcyBleGNoYW5nZSBpbmRlcGVuZGVudAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3325,40 +3332,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3QgdHJhbnNmZXJzLmVtcHR5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfcXVhbnRpdHkgPSBub2RlXzJfcXVhbnRpdHkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNhY3Rpb25zLmxvY1s6LCAndHJhY2tlcl9pZCddID0gdHJhY2tlcl9pZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfYm9vayA9IHNlbGYub3JkZXJfYm9vaygpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3QgdHJhbnNhY3Rpb25zLmVtcHR5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfYm9vayA9IHNlbGYub3JkZXJfYm9vaygpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuZGVidWcoJ2luc2VydCBzdW1tYXJ5IHdpdGggaWQ6IHt9Jy5mb3JtYXQodHJhY2tlcl9pZCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHlwZV8gPSBUcmFuc2FjdGlvblR5cGUuU0VMTElORwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAxYjk3ODEzZDY2ZmQ5OTlhOGMxYzZhM2YyZTk1Y2RmMTY5YzgyZTBjCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0X3F1YW50aXR5ID0gbm9kZV8yX3F1YW50aXR5Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>s/transactions/transfers/gc</text>
+        <text>630,648s/ticker/self/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>transactions</last-search>
+      <last-search>trade_results2</last-search>
       <last-offset />
-      <last-pattern>transactions</last-pattern>
-      <last-replace>transfers</last-replace>
-      <last-substitute>transactions</last-substitute>
+      <last-pattern>trade_results2</last-pattern>
+      <last-replace>self</last-replace>
+      <last-substitute>ticker</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>chain</entry>
-        <entry encoding="base64">PDw8</entry>
-        <entry>model</entry>
-        <entry>create_model</entry>
-        <entry>def load_internal</entry>
         <entry>def load</entry>
         <entry>def train_model</entry>
         <entry>def load_</entry>
@@ -3374,10 +3376,13 @@
         <entry>insert_summary_row</entry>
         <entry>pudb</entry>
         <entry>transactions</entry>
+        <entry>def _gain</entry>
+        <entry>ticker</entry>
+        <entry>FIXME</entry>
+        <entry>class Ticker</entry>
+        <entry>trade_results2</entry>
       </history-search>
       <history-cmd>
-        <entry>229</entry>
-        <entry>qa</entry>
         <entry>656</entry>
         <entry>23</entry>
         <entry>289</entry>
@@ -3396,6 +3401,8 @@
         <entry>324</entry>
         <entry>q</entry>
         <entry>s/transactions/transfers/gc</entry>
+        <entry>qa</entry>
+        <entry>630,648s/ticker/self/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
