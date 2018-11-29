@@ -211,8 +211,8 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1543449364142">
-        <mark key="'" line="23" column="38" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1543530075382">
+        <mark key="'" line="1063" column="4" />
       </file>
       <file name="/" timestamp="1543334017721">
         <mark key="[" line="0" column="0" />
@@ -2587,10 +2587,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="229" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="91" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
-      <jump line="228" column="9" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
-      <jump line="235" column="21" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="37" column="106" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" />
       <jump line="53" column="8" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" />
       <jump line="54" column="15" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" />
@@ -2687,6 +2683,10 @@
       <jump line="994" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="656" column="7" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="987" column="55" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="738" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1073" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1144" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1063" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -3241,7 +3241,7 @@
         <text>'</text>
       </register>
       <register name="/" type="4">
-        <text>class Tick</text>
+        <text>def load</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIiA6ICJvcGFzYWkudHJhaW5lcnMubm9ybWFsaXplci5vdXRwdXRfbWF4X2NsaXBfbm9ybWFsaXplci5PdXRwdXRNYXhDbGlwTm9ybWFsaXplciIsCiAgICAgICAgInBhcmFtcyIgOiB7CiAgICAgICAgICAib3V0cHV0X21heF9jbGlwIjogNAogICAgICAgIH0KICAgICAgfQo=</text>
@@ -3357,9 +3357,9 @@
       </register>
     </registers>
     <search>
-      <last-search>class Tick</last-search>
+      <last-search>def load</last-search>
       <last-offset />
-      <last-pattern>class Tick</last-pattern>
+      <last-pattern>def load</last-pattern>
       <last-replace>self</last-replace>
       <last-substitute>ticker</last-substitute>
       <last-dir>1</last-dir>
@@ -3367,7 +3367,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def train_model</entry>
         <entry>def load_</entry>
         <entry>def local</entry>
         <entry>local_folder</entry>
@@ -3387,6 +3386,7 @@
         <entry>class Ticker</entry>
         <entry>trade_results2</entry>
         <entry>class Tick</entry>
+        <entry>def load</entry>
       </history-search>
       <history-cmd>
         <entry>656</entry>
