@@ -1710,11 +1710,11 @@
         <mark key="." line="73" column="0" />
         <mark key="^" line="46" column="8" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543705445500">
-        <mark key="[" line="537" column="13" />
-        <mark key="]" line="537" column="30" />
-        <mark key="^" line="537" column="30" />
-        <mark key="." line="537" column="30" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543713803890">
+        <mark key="[" line="588" column="37" />
+        <mark key="]" line="596" column="77" />
+        <mark key="." line="596" column="77" />
+        <mark key="^" line="596" column="77" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1543447569387">
         <mark key="'" line="10" column="39" />
@@ -2656,7 +2656,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="87" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="99" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="129" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
@@ -2756,6 +2755,7 @@
       <jump line="287" column="32" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="288" column="37" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="292" column="51" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="626" column="13" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2764,8 +2764,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>assertEqual</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChjb21wdXRlZF9kZiwgZXhwZWN0ZWRfZGYpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3307,22 +3307,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>assertEqual</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>exchange</text>
       </register>
-      <register name="0" type="4">
-        <text>10*0.998*10*0.998/100</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChzZWxmLnNlbmRlci50cmFuc2FjdGlvbnNfdG9fYmVfcGxhY2VkLCBleHBlY3RlZCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChjb21wdXRlZF9kZiwgZXhwZWN0ZWRfZGYpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIgCiAgICAgICAgVHJhZGVSZXN1bHQob3JkZXJfcmF0ZSwgc3RhcnRfY3VycmVuY3ksIHN0YXJ0X3F1YW50aXR5LCBlbmRfY3VycmVuY3ksIGVuZF9xdWFudGl0eSwgb3JkZXJfcXVhbnRpdHksCiAgICAgICAgICAgICAgICAgdHlwZV8sIGZlZSwgZmVlX2N1cnJlbmN5KToKICAgICAgICAgICAgICAgICAKICAgICAgICBPbGQgY29kZSBpbiBzcGxpdF90cmFuc2FjdGlvbnMgaGFkIHEsIGYsIHFfY3VycmVuY3ksIGZfY3VycmVuY3kgc2V0IHRvOgogICAgICAgICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqCiAgICAgICAgU3RlcCAgMAogICAgICAgIHR5cGU6IFRyYW5zYWN0aW9uVHlwZS5CVVlJTkcsIGN1YW50aXR5OiAxMCwgcmF0ZTogMC4xCiAgICAgICAgZXhwZWN0ZWQgYW1vdW50OiAxLjAgQlRDLCBleHBlY3RlZCBmZWU6IDAuMDIgRVRICiAgICAgICAgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioKICAgICAgICBTdGVwICAxCiAgICAgICAgdHlwZTogVHJhbnNhY3Rpb25UeXBlLlNFTExJTkcsIGN1YW50aXR5OiAxMC4wLCByYXRlOiAxMC4wCiAgICAgICAgZXhwZWN0ZWQgYW1vdW50OiA5OS44IFVTRFQsIGV4cGVjdGVkIGZlZTogMC4yIFVTRFQKICAgICAgICAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKgogICAgICAgIFN0ZXAgIDIKICAgICAgICB0eXBlOiBUcmFuc2FjdGlvblR5cGUuQlVZSU5HLCBjdWFudGl0eTogMTAwLjAsIHJhdGU6IDEwMC4wCiAgICAgICAgZXhwZWN0ZWQgYW1vdW50OiAxMDAwMC4wIFVTRFQsIGV4cGVjdGVkIGZlZTogMC4yIEJUQwo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnNlbmRlci50cmFuc2FjdGlvbnNfdG9fYmVfcGxhY2VkWydmZWUnXS52YWx1ZXMsIGV4cGVjdGVkWydmZWUnXS52YWx1ZXMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3336,10 +3336,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZiA9IHRyLmZlZQo=</text>
+        <text encoding="base64">ICAgICAgICB0ZXN0aW5nLmFzc2VydF9hcnJheV9hbG1vc3RfZXF1YWwoc2VsZi5zZW5kZXIudHJhbnNhY3Rpb25zX3RvX2JlX3BsYWNlZFsnZmVlJ10udmFsdWVzLCBleHBlY3RlZFsnZmVlJ10udmFsdWVzKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHJvd1sndHlwZSddID09IHNkay5UcmFuc2FjdGlvblR5cGUuQlVZSU5HOgoKICAgICAgICAgICAgICAgICAgICAjIGFuZCBmaW5hbGx5IG1vZGlmeSBub3QgcmVhZHkKICAgICAgICAgICAgICAgIGVsaWYgcm93Wyd0eXBlJ10gPT0gc2RrLlRyYW5zYWN0aW9uVHlwZS5TRUxMSU5HOgogICAgICAgICAgICAgICAgICAgICMgaWYgd2UgYXJlIHNlbGxpbmcsIChxLCBxX2N1cnJlbmN5KSBpcyB3aGF0IHdlIEdFVCBwYWlkICh3ZSBjaGFyZ2UpIGFuZAogICAgICAgICAgICAgICAgICAgICMgKHJvd1snb3JkZXJfcXVhbnRpdHknXSwgcm93Wyd0aWNrZXInXS5iYXNlX2N1cnJlbmN5KSBpcyB3aGF0IHdlIHNvbGQgKHJvd1snb3JkZXJfcXVhbnRpdHknXSBpcyB3aGVyZSB3ZSBoYXZlIGJhbGFuY2UpCgoKICAgICAgICAgICAgICAgICAgICAjIGFuZCBmaW5hbGx5IG1vZGlmeSBub3RfcmVhZHkKICAgICAgICAgICAgICAgICAgICAjIE5vIG5lZWQgdG8gc3VidHJhY3QgdGhlIGZlZSwgc2luY2UgdHJhZGVfcmVzdWx0cyBoYXMgYWxyZWFkeSBkb25lIHRoYXQK</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbCgpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3407,22 +3407,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBub3RfcmVhZHlbJ29yZGVyX3F1YW50aXR5J10gLT0gcm93WydvcmRlcl9xdWFudGl0eSddCg==</text>
+        <text encoding="base64">ICAgICAgICB0ZXN0aW5nLmFzc2VydF9hcnJheV9hbG1vc3RfZXF1YWwoY29tcHV0ZWRfZGYsIGV4cGVjdGVkX2RmKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBub3RfcmVhZHlbJ29yZGVyX3F1YW50aXR5J10gLT0gYmFsYW5jZQo=</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChzZWxmLnNlbmRlci50cmFuc2FjdGlvbnNfdG9fYmVfcGxhY2VkLCBleHBlY3RlZCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBub3RfcmVhZHlbJ29yZGVyX3F1YW50aXR5J10gLT0gYmFsYW5jZQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBub3RfcmVhZHlbJ2ZlZSddID0gZiAqICgxIC0gcmF0aW8pCg==</text>
+        <text encoding="base64">ICAgICAgICBucC50ZXMK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBub3RfcmVhZHlbJ2ZlZSddID0gZiAqICgxIC0gcmF0aW8pCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">CiAgICAgICAg</text>
       </register>
       <register name=":" type="4">
-        <text>312</text>
+        <text>622</text>
       </register>
     </registers>
     <search>
@@ -3458,7 +3458,6 @@
         <entry>exchange</entry>
       </history-search>
       <history-cmd>
-        <entry>569</entry>
         <entry>s/ /, /gc</entry>
         <entry>s/,/\r/g</entry>
         <entry>167</entry>
@@ -3478,6 +3477,7 @@
         <entry>801</entry>
         <entry>w</entry>
         <entry>312</entry>
+        <entry>622</entry>
       </history-cmd>
       <history-expr />
       <history-input />
