@@ -1965,12 +1965,12 @@
         <mark key="^" line="46" column="28" />
         <mark key="." line="79" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1543766781914">
-        <mark key="'" line="1086" column="26" />
-        <mark key="[" line="1086" column="12" />
-        <mark key="]" line="1086" column="26" />
-        <mark key="." line="1086" column="26" />
-        <mark key="^" line="1086" column="26" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1543768271370">
+        <mark key="'" line="1092" column="22" />
+        <mark key="[" line="1090" column="57" />
+        <mark key="]" line="1091" column="52" />
+        <mark key="." line="1091" column="52" />
+        <mark key="^" line="1091" column="52" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/debug.json" timestamp="1541440164194">
         <mark key="'" line="107" column="23" />
@@ -2561,9 +2561,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="7" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
-      <jump line="511" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="525" column="9" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="496" column="34" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="22" column="11" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="448" column="12" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -2661,6 +2658,9 @@
       <jump line="1081" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="619" column="3" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1086" column="26" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="623" column="3" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="686" column="79" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="1092" column="22" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2670,7 +2670,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNhY3Rpb24KICAgICAgICBzZWxmLnN0YXJ0X3F1YW50aXR5ID0gc3RhcnRfcXVhbnRpdHkKICAgICAgICBzZWxmLmVuZF9jdXJyZW5jeSA9IGVuZF9jdXJyZW5jeQogICAgICAgIHNlbGYuZW5kX3F1YW50aXR5ID0gZW5kX3F1YW50aXR5CiAgICAgICAgc2VsZi5vcmRlcl9xdWFudGl0eSA9IG9yZGVyX3F1YW50aXR5CiAgICAgICAgc2VsZi50eXBlXyA9IHR5cGVfCiAgICAgICAgc2VsZi5mZWUgPSBmZWUKICAgICAgICBzZWxmLmZlZV9jdXJyZW5jeSA9IGZlZV9jdXJyZW5jeQogICAgICAgICAgICByYXRlID0gdHJhbnNhY3Rpb25fcmVzdWx0c1swXS5vcmRlcl9yYXRlCiAgICAgICAgICAgIHR5cGVfID0gdHJhbnNhY3Rpb25fcmVzdWx0c1swXS50eXBlXwogICAgICAgICAgICBmZWUgPSB0cmFuc2FjdGlvbl9yZXN1bHRzWzBdLmZlZQogICAgICAgICAgICBub2RlXzJfcXVhbnRpdHkgPSB0cmFuc2FjdGlvbl9yZXN1bHRzWzBdLmVuZF9xdWFudGl0eQogICAgICAgICAgICBvcmRlcl9xdWFudGl0eSA9IHRyYW5zYWN0aW9uX3Jlc3VsdHNbMF0ub3JkZXJfcXVhbnRpdHkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyYXRlJzogcmF0ZSwgJ2ZlZSc6IGZlZSwgJ3V1aWQnOiBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3N0YXR1cyc6IFRyYW5zYWN0aW9uU3RhdHVzLk5PVF9QTEFDRUR9KQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -3212,22 +3212,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>fee</text>
+        <text>to_dataframe</text>
       </register>
       <register name="/" type="4">
-        <text>class Tra</text>
+        <text>def to_series</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAncmF0ZSc6IDAuMSwgJ3Jlc3VsdF9xdWFudGl0eSc6IDEqMC4xKmZlZSwK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm9yZGVyX3JhdGUgPSBvcmRlcl9yYXRlCiAgICAgICAgc2VsZi5zdGFydF9jdXJyZW5jeSA9IHN0YXJ0X2N1cnJlbmN5CiAgICAgICAgc2VsZi5zdGFydF9xdWFudGl0eSA9IHN0YXJ0X3F1YW50aXR5CiAgICAgICAgc2VsZi5lbmRfY3VycmVuY3kgPSBlbmRfY3VycmVuY3kKICAgICAgICBzZWxmLmVuZF9xdWFudGl0eSA9IGVuZF9xdWFudGl0eQogICAgICAgIHNlbGYub3JkZXJfcXVhbnRpdHkgPSBvcmRlcl9xdWFudGl0eQogICAgICAgIHNlbGYudHlwZV8gPSB0eXBlXwogICAgICAgIHNlbGYuZmVlID0gZmVlCiAgICAgICAgc2VsZi5mZWVfY3VycmVuY3kgPSBmZWVfY3VycmVuY3kK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNhY3Rpb24KICAgICAgICBzZWxmLnN0YXJ0X3F1YW50aXR5ID0gc3RhcnRfcXVhbnRpdHkKICAgICAgICBzZWxmLmVuZF9jdXJyZW5jeSA9IGVuZF9jdXJyZW5jeQogICAgICAgIHNlbGYuZW5kX3F1YW50aXR5ID0gZW5kX3F1YW50aXR5CiAgICAgICAgc2VsZi5vcmRlcl9xdWFudGl0eSA9IG9yZGVyX3F1YW50aXR5CiAgICAgICAgc2VsZi50eXBlXyA9IHR5cGVfCiAgICAgICAgc2VsZi5mZWUgPSBmZWUKICAgICAgICBzZWxmLmZlZV9jdXJyZW5jeSA9IGZlZV9jdXJyZW5jeQogICAgICAgICAgICByYXRlID0gdHJhbnNhY3Rpb25fcmVzdWx0c1swXS5vcmRlcl9yYXRlCiAgICAgICAgICAgIHR5cGVfID0gdHJhbnNhY3Rpb25fcmVzdWx0c1swXS50eXBlXwogICAgICAgICAgICBmZWUgPSB0cmFuc2FjdGlvbl9yZXN1bHRzWzBdLmZlZQogICAgICAgICAgICBub2RlXzJfcXVhbnRpdHkgPSB0cmFuc2FjdGlvbl9yZXN1bHRzWzBdLmVuZF9xdWFudGl0eQogICAgICAgICAgICBvcmRlcl9xdWFudGl0eSA9IHRyYW5zYWN0aW9uX3Jlc3VsdHNbMF0ub3JkZXJfcXVhbnRpdHkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyYXRlJzogcmF0ZSwgJ2ZlZSc6IGZlZSwgJ3V1aWQnOiBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3N0YXR1cyc6IFRyYW5zYWN0aW9uU3RhdHVzLk5PVF9QTEFDRUR9KQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBwYWJsb190cmFkZV9yZXN1bHRzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdvcmRlcl9xdWFudGl0eSc6IG9yZGVyX3F1YW50aXR5LCAncmVzdWx0X3F1YW50aXR5Jzogbm9kZV8yX3F1YW50aXR5LAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -3241,10 +3241,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICAgICAgICAgIHEsIGYsIHFfY3VycmVuY3ksIGZfY3VycmVuY3kgPSByb3dbJ3RpY2tlciddLnRyYWRlX3Jlc3VsdHMocm93Wyd0eXBlJ10sIHJvd1sncXVhbnRpdHknXSwgcm93WydyYXRlJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNfdGFrZXIpCgogICAgICAgICAgICBwcmludCgnKicqODApCiAgICAgICAgICAgIHByaW50KCdTdGVwICcsIGkpCiAgICAgICAgICAgIHByaW50KCd0eXBlOiB7fSwgY3VhbnRpdHk6IHt9LCByYXRlOiB7fScuZm9ybWF0KHJvd1sndHlwZSddLCByb3dbJ3F1YW50aXR5J10sIHJvd1sncmF0ZSddKSkKICAgICAgICAgICAgcHJpbnQoJ2V4cGVjdGVkIGFtb3VudDoge30ge30sIGV4cGVjdGVkIGZlZToge30ge30nLmZvcm1hdChxLCBxX2N1cnJlbmN5LCBmLCBmX2N1cnJlbmN5KSApCgogICAgICAgICAgICAiIiIKICAgICAgICAgICAgcTogICAgICAgICAgZXhwZWN0ZWQgYW1vdW50IG9mIGN1cnJlbmN5IG9idGFpbmVkCiAgICAgICAgICAgIGY6ICAgICAgICAgIGV4cGVjdGVkIGFtb3VudCBvZiBjdXJyZW5jeSBwYWlkIGluIGZlZXMgdG8gdGhlIGV4Y2hhbmdlCiAgICAgICAgICAgIHFfY3VycmVuY3k6IHRoZSBDdXJyZW5jeSB0aGF0IHdlIG9idGFpbiBhZnRlciB0aGUgdHJhbnNhY3Rpb24KICAgICAgICAgICAgZl9jdXJyZW5jeTogQ3VycmVuY3kgaW4gd2hpY2ggdGhlIGZlZSBpcyBwYWlkCiAgICAgICAgICAgICIiIgo9PT09PT09Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNhY3Rpb24gPSBwZC5TZXJpZXMoeydvcmRlcl8nOiBpLCAndHlwZSc6IHR5cGVfLCAndGlja2VyJzogdGlja2VyLCAnZXhjaGFuZ2UnOiBleGNoYW5nZSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X3F1YW50aXR5ID0gc3RhcnRfcXVhbnRpdHkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -3312,28 +3312,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByb3cgPSBwZC5TZXJpZXMoeyd0eXBlJzpzZGsuVHJhbnNhY3Rpb25UeXBlLkJVWUlORywgJ3RpY2tlcic6IHNkay5UaWNrZXIoJ0VUSC9CVEMnLCBzZWxmLnBvbG8pLAogICAgICAgICAgICAgICAgICAgICAgICAgJ2V4Y2hhbmdlJzogc2VsZi5wb2xvLCAnb3JkZXJfcXVhbnRpdHknOiAxLCAncmF0ZSc6IDAuMSwgJ3Jlc3VsdF9xdWFudGl0eSc6IDEtMC4xLAogICAgICAgICAgICAgICAgICAgICAgICAgJ3V1aWQnOiAnc29tZV91dWlkJywgJ3RyYWNrZXJfaWQnOiAnc29tZV90cmFja2VyX2lkJywgJ2ZlZSc6IDAuMDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAnc3RhdHVzJzogc2RrLlRyYW5zYWN0aW9uU3RhdHVzLk5PVF9QTEFDRUQsICdvcmRlcl8nOiAxfSkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmVuZF9jdXJyZW5jeSA9IGVuZF9jdXJyZW5jeQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAncmF0ZSc6IDAuMSwK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmVuZF9xdWFudGl0eSA9IGVuZF9xdWFudGl0eQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAncmF0ZSc6IDAuMSwK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm9yZGVyX3F1YW50aXR5ID0gb3JkZXJfcXVhbnRpdHkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAncmF0ZSc6IDAuMSwK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X2N1cnJlbmN5ID0gc3RhcnRfY3VycmVuY3kK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm9yZGVyX3JhdGUgPSBvcmRlcl9yYXRlCg==</text>
       </register>
       <register name=":" type="4">
         <text>80</text>
       </register>
     </registers>
     <search>
-      <last-search>class Tra</last-search>
+      <last-search>def to_series</last-search>
       <last-offset />
-      <last-pattern>class Tra</last-pattern>
+      <last-pattern>def to_series</last-pattern>
       <last-replace>second</last-replace>
       <last-substitute>first</last-substitute>
       <last-dir>1</last-dir>
@@ -3341,8 +3341,6 @@
     </search>
     <history>
       <history-search>
-        <entry>side_effect</entry>
-        <entry>trade_result</entry>
         <entry>new_order_qu</entry>
         <entry>as Ticker</entry>
         <entry>class Ticker</entry>
@@ -3361,6 +3359,8 @@
         <entry encoding="base64">PDw8PA==</entry>
         <entry>class TradeR</entry>
         <entry>class Tra</entry>
+        <entry>gain</entry>
+        <entry>def to_series</entry>
       </history-search>
       <history-cmd>
         <entry>qa</entry>
