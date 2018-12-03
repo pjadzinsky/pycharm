@@ -82,14 +82,14 @@
         <mark key="^" line="13" column="58" />
         <mark key="." line="13" column="58" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" timestamp="1543877018861">
+        <mark key="'" line="107" column="13" />
+        <mark key="[" line="119" column="22" />
+        <mark key="]" line="119" column="22" />
+        <mark key="." line="119" column="22" />
+      </file>
       <file name="/" timestamp="1543334017721">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" timestamp="1543858714016">
-        <mark key="[" line="181" column="28" />
-        <mark key="]" line="181" column="29" />
-        <mark key="." line="181" column="29" />
-        <mark key="^" line="181" column="29" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_utils.py" timestamp="1543876058988">
         <mark key="'" line="1" column="7" />
@@ -113,6 +113,13 @@
         <mark key="[" line="71" column="0" />
         <mark key="]" line="71" column="0" />
         <mark key="." line="71" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_fully_connected.py" timestamp="1543877093855">
+        <mark key="'" line="40" column="22" />
+        <mark key="[" line="45" column="66" />
+        <mark key="]" line="45" column="63" />
+        <mark key="^" line="45" column="63" />
+        <mark key="." line="45" column="63" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_s3_utils.py" timestamp="1542903991627">
         <mark key="[" line="20" column="24" />
@@ -264,9 +271,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="179" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="377" column="12" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="797" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
       <jump line="221" column="8" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="508" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="516" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
@@ -364,6 +368,9 @@
       <jump line="44" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="65" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="175" column="57" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
+      <jump line="107" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_fully_connected.py" />
+      <jump line="40" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_fully_connected.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -372,8 +379,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
+      <register name="&quot;" type="4">
+        <text>False</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -915,22 +922,44 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>plot</text>
+        <text>False</text>
       </register>
       <register name="/" type="4">
-        <text>plot</text>
+        <text>False</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzdG9yZV90YWdzLCBtb2RlbF9jb25maWcsIGtwaV9tb2RlbF9zZXR0aW5nLCBrcGlfc2V0dGluZz17fSk6Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
+      <register name="1" type="8">
+        <text>',)
+',)
+',)
+',)
+',)
+',)
+',)
+',)
+',)
+',)
+',)
+',)</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICJwb2ludHNfdG9fcGxvdCI6IDEwMDAwLAo=</text>
+      <register name="2" type="8">
+        <text>('
+('
+('
+('
+('
+('
+('
+('
+('
+('
+('
+('</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -944,10 +973,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICJwb2ludHNfdG9fcGxvdCI6IDEwMDAwLAo=</text>
+        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
+        <text encoding="base64">ICAgICAgICAgICJwb2ludHNfdG9fcGxvdCI6IDEwMDAwLAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1015,12 +1044,18 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHBsb3QgPSBGYWxzZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICJwb2ludHNfdG9fcGxvdCI6IDEwMDAwLAo=</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHBsb3QgPSBGYWxzZQo=</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzdG9yZV90YWdzLCBtb2RlbF9jb25maWcsIGtwaV9tb2RlbF9zZXR0aW5nLCBrcGlfc2V0dGluZz17fSk6Cg==</text>
       </register>
-      <register name="7" type="8">
+      <register name="9" type="8">
         <text>',)
 ',)
 ',)
@@ -1034,31 +1069,14 @@
 ',)
 ',)</text>
       </register>
-      <register name="8" type="8">
-        <text>('
-('
-('
-('
-('
-('
-('
-('
-('
-('
-('
-('</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHBsb3QgPSBGYWxzZQo=</text>
-      </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>plot</last-search>
+      <last-search>False</last-search>
       <last-offset />
-      <last-pattern>plot</last-pattern>
+      <last-pattern>False</last-pattern>
       <last-replace>[&quot;cpu&quot;]</last-replace>
       <last-substitute>&quot;cpu&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1066,7 +1084,6 @@
     </search>
     <history>
       <history-search>
-        <entry>args</entry>
         <entry>class Ticker</entry>
         <entry>cu</entry>
         <entry>sel</entry>
@@ -1086,6 +1103,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>def .*interval</entry>
         <entry>plot</entry>
+        <entry>False</entry>
       </history-search>
       <history-cmd>
         <entry>1134</entry>
