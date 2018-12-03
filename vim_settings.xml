@@ -272,6 +272,9 @@
         <mark key="." line="22" column="61" />
         <mark key="^" line="22" column="61" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1543870634268">
+        <mark key="'" line="65" column="4" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/hyper_tuner.py" timestamp="1543364481034">
         <mark key="[" line="232" column="81" />
         <mark key="]" line="232" column="78" />
@@ -308,12 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="425" column="8" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="444" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="461" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="501" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="624" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="727" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="179" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="377" column="12" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
@@ -408,6 +405,12 @@
       <jump line="896" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="951" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
+      <jump line="397" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="404" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="32" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="44" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -973,7 +976,7 @@
         <text>95thPercentile</text>
       </register>
       <register name="/" type="4">
-        <text>multi_value</text>
+        <text>def .*interval</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIiwK</text>
@@ -1111,9 +1114,9 @@
       </register>
     </registers>
     <search>
-      <last-search>multi_value</last-search>
+      <last-search>def .*interval</last-search>
       <last-offset />
-      <last-pattern>multi_value</last-pattern>
+      <last-pattern>def .*interval</last-pattern>
       <last-replace>[&quot;cpu&quot;]</last-replace>
       <last-substitute>&quot;cpu&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1121,11 +1124,9 @@
     </search>
     <history>
       <history-search>
-        <entry>Shorte</entry>
         <entry>ort</entry>
         <entry>args</entry>
         <entry>class Ticker</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>cu</entry>
         <entry>sel</entry>
         <entry>class Tran</entry>
@@ -1141,6 +1142,8 @@
         <entry>def .*bulk</entry>
         <entry>def post</entry>
         <entry>multi_value</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>def .*interval</entry>
       </history-search>
       <history-cmd>
         <entry>1091</entry>
