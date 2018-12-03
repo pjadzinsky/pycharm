@@ -180,15 +180,21 @@
         <mark key="]" line="80" column="0" />
         <mark key="." line="80" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543808229819">
-        <mark key="'" line="166" column="50" />
-        <mark key="[" line="173" column="63" />
-        <mark key="]" line="173" column="66" />
-        <mark key="." line="173" column="66" />
-        <mark key="^" line="173" column="66" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1543810825492">
+        <mark key="'" line="46" column="0" />
+        <mark key="[" line="71" column="81" />
+        <mark key="]" line="69" column="64" />
+        <mark key="." line="71" column="87" />
+        <mark key="^" line="69" column="64" />
         <mark key="o" line="714" column="82" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_monitor.py" timestamp="1543728029479" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_monitor.py" timestamp="1543810939587">
+        <mark key="'" line="44" column="26" />
+        <mark key="[" line="44" column="27" />
+        <mark key="]" line="44" column="26" />
+        <mark key="^" line="44" column="26" />
+        <mark key="." line="44" column="26" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_kpi_causation_stage.py" timestamp="1543264463025">
         <mark key="[" line="13" column="61" />
         <mark key="]" line="13" column="58" />
@@ -327,9 +333,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="619" column="3" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="1086" column="26" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="623" column="3" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="686" column="79" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1092" column="22" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="205" column="16" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
@@ -427,6 +430,9 @@
       <jump line="228" column="12" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="557" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="598" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="172" column="66" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
+      <jump line="46" column="0" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" />
+      <jump line="44" column="26" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_monitor.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -435,8 +441,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>NOT_PLACED</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbnNfdHJhZGVyLmluc2VydF90cmFuc2FjdGlvbl9yb3dfaW50b19kYihzZWxmLmNvbiwgc2VsZi50cmFuc2FjdGlvbnNfdGFibGUsIHJvdykK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -978,22 +984,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>NOT_PLACED</text>
+        <text>cursor</text>
       </register>
       <register name="/" type="4">
-        <text>def _in</text>
+        <text>'rate'</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBfaW5zZXJ0X3RyYW5zZmVyc19pbnRvX2RiKHNlbGYsIHRyYW5zZmVycyk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbnNfdHJhZGVyLmluc2VydF90cmFuc2FjdGlvbl9yb3dfaW50b19kYihzZWxmLmNvbiwgc2VsZi50cmFuc2FjdGlvbnNfdGFibGUsIHJvdykK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbnNfdHJhZGVyLl9pbnNlcnRfdHJhbnNmZXJzX2ludG9fZGIoc2VsZi5jdXJzb3IsIHNlbGYudHJhbnNmZXJzX3RhYmxlLCByb3dfMikK</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5jdXJzb3IuZXhlY3V0ZSgnREVMRVRFIGZyb20ge30gV0hFUkUgMScuZm9ybWF0KHNlbGYudHJhbnNmZXJzX3RhYmxlKSkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1007,10 +1013,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGVmIF9pbnNlcnRfdHJhbnNmZXJzX2ludG9fZGIoc2VsZiwgdHJhbnNmZXJzKToK</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5jdXJzb3IuZXhlY3V0ZSgiREVMRVRFIGZyb20ge30gV0hFUkUgMSIuZm9ybWF0KHNlbGYudHJhbnNhY3Rpb25zX3RhYmxlKSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNlbmRlci5hZGRfdHJhbnNhY3Rpb25zKGRmLCBwZC5EYXRhRnJhbWUoW10pKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1078,28 +1084,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNlbgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbnNfdHJhZGVyLl9pKHNlbGYuY3Vyc29yLCBzZWxmLnRyYW5zZmVyc190YWJsZSwgcm93XzEpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGlkcywgWzFdKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICBpZHMgPSB0cmFuc2FjdGlvbnNfdHJhZGVyLnJvd19pZHMobmV3X3Jvdywgc2VsZi50cmFuc2ZlcnNfdGFibGUsIHNlbGYuY3Vyc29yKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNfZGYgPSBwZC5EYXRhRnJhbWUoW3Jvd10pCiAgICAgICAgICAgIGFzX2RmLnRvX3NxbChzZWxmLnRyYW5zYWN0aW9uc190YWJsZV9uYW1lLCBzZWxmLmNvbm5lY3Rpb24sIGlmX2V4aXN0cz0nYXBwZW5kJywgaW5kZXg9RmFsc2UpCg==</text>
+        <text encoding="base64">ICAgICAgICAjIHRlc3QgdGhhdCBhZnRlciB1cGRhdGUgdGhlcmUgaXMgYSByb3cgd2l0aCB0aGlzIGRhdGEK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICB0cmFuc2FjdGlvbnNfdHJhZGVyLnVwZGF0ZV9yb3cocm93LCBuZXdfcm93LCBzZWxmLmN1cnNvciwgc2VsZi50cmFuc2ZlcnNfdGFibGUpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>228</text>
+        <text>%s/'rate'/'order_rate'/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>def _in</last-search>
+      <last-search>'rate'</last-search>
       <last-offset />
-      <last-pattern>def _in</last-pattern>
+      <last-pattern>'rate'</last-pattern>
       <last-replace>'order_rate'</last-replace>
       <last-substitute>'rate'</last-substitute>
       <last-dir>1</last-dir>
@@ -1107,7 +1113,6 @@
     </search>
     <history>
       <history-search>
-        <entry>to_sql</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>def sdk_</entry>
         <entry>class Ticker</entry>
@@ -1117,7 +1122,6 @@
         <entry>day</entry>
         <entry>create</entry>
         <entry>rate</entry>
-        <entry>'rate'</entry>
         <entry>self.con,</entry>
         <entry>def _</entry>
         <entry>as_df</entry>
@@ -1127,12 +1131,11 @@
         <entry>def test_qu</entry>
         <entry>def cre</entry>
         <entry>def _in</entry>
+        <entry>def test_inser</entry>
+        <entry>'rate'</entry>
       </history-search>
       <history-cmd>
-        <entry>61</entry>
-        <entry>705</entry>
         <entry>95</entry>
-        <entry>80</entry>
         <entry>1091</entry>
         <entry>1134</entry>
         <entry>78</entry>
@@ -1141,7 +1144,6 @@
         <entry>w</entry>
         <entry>:qa</entry>
         <entry>qa</entry>
-        <entry>%s/'rate'/'order_rate'/gc</entry>
         <entry>379</entry>
         <entry>798</entry>
         <entry>30</entry>
@@ -1149,6 +1151,10 @@
         <entry>224</entry>
         <entry>170</entry>
         <entry>228</entry>
+        <entry>80</entry>
+        <entry>67</entry>
+        <entry>68</entry>
+        <entry>%s/'rate'/'order_rate'/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
