@@ -84,6 +84,7 @@
         <mark key="." line="228" column="12" />
         <mark key="^" line="227" column="34" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1543856426351" />
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_monitor.py" timestamp="1543810939587">
         <mark key="'" line="44" column="26" />
         <mark key="[" line="44" column="27" />
@@ -176,14 +177,14 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" timestamp="1543853784580">
         <mark key="'" line="120" column="28" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1543616973211">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1543855479662">
         <mark key="'" line="183" column="46" />
         <mark key="[" line="159" column="0" />
         <mark key="]" line="159" column="0" />
         <mark key="^" line="159" column="16" />
         <mark key="." line="159" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1543776416925">
+      <file name="/Python Console" timestamp="1543856400864">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -247,7 +248,7 @@
         <mark key="." line="83" column="0" />
         <mark key="^" line="83" column="32" />
       </file>
-      <file name="/Dummy.txt" timestamp="1543853075830">
+      <file name="/Dummy.txt" timestamp="1543855285211">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/__init__.py" timestamp="1543781223557">
@@ -307,20 +308,15 @@
       <file name="$USER_HOME$/opas/core/python/opasai/common/logging.py" timestamp="1540602291198">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1543854152121">
-        <mark key="'" line="83" column="29" />
-        <mark key="[" line="72" column="74" />
-        <mark key="]" line="72" column="96" />
-        <mark key="^" line="72" column="96" />
-        <mark key="." line="72" column="96" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" timestamp="1543856368563">
+        <mark key="'" line="201" column="12" />
+        <mark key="[" line="119" column="0" />
+        <mark key="]" line="119" column="0" />
+        <mark key="^" line="230" column="13" />
+        <mark key="." line="119" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="360" column="82" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="382" column="82" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="499" column="30" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="510" column="14" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="523" column="30" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="528" column="38" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="559" column="57" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="569" column="20" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
@@ -416,6 +412,11 @@
       <jump line="79" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="120" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" />
       <jump line="9" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
+      <jump line="230" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
+      <jump line="60" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
+      <jump line="119" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
+      <jump line="201" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -425,7 +426,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9tZXRyaWNzX3Blcl9waXBlbGluZSIsCiAgICAgICAgInBhcmFtcyI6IHt9Cg==</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKE9uZU1pbnV0ZVJhdGUpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIlJlYWRMYXRlbmN5IiwKICAgICAgICAgICJXcml0ZUxhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCI5NXRoUGVyY2VudGlsZVwiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJTU1RhYmxlc1BlclJlYWRIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJWYWx1ZS9UUDk1XCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIkVzdGltYXRlZFJvd1NpemVIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oS2V5Q2FjaGVIaXRSYXRlKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJtZWFzdXJlbWVudCI6ICJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5IiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihDb21wcmVzc2lvblJhdGlvKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -970,19 +971,19 @@
         <text>[]</text>
       </register>
       <register name="/" type="4">
-        <text>post</text>
+        <text>&quot;cpu&quot;</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9tZXRyaWNzX3Blcl9waXBlbGluZSIsCiAgICAgICAgInBhcmFtcyI6IHt9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGYgPSBkZi5hcHBlbmQocmVzdWx0LnRvX3NlcmllcygpLCBpZ25vcmVfaW5kZXg9VHJ1ZSkK</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKE9uZU1pbnV0ZVJhdGUpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIlJlYWRMYXRlbmN5IiwKICAgICAgICAgICJXcml0ZUxhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCI5NXRoUGVyY2VudGlsZVwiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJTU1RhYmxlc1BlclJlYWRIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJWYWx1ZS9UUDk1XCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIkVzdGltYXRlZFJvd1NpemVIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oS2V5Q2FjaGVIaXRSYXRlKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJtZWFzdXJlbWVudCI6ICJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5IiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihDb21wcmVzc2lvblJhdGlvKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKE9uZU1pbnV0ZVJhdGUpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIlJlYWRMYXRlbmN5IiwKICAgICAgICAgICJXcml0ZUxhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCI5NXRoUGVyY2VudGlsZVwiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJTU1RhYmxlc1BlclJlYWRIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJWYWx1ZS9UUDk1XCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiJChjbHVzdGVyKSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIkVzdGltYXRlZFJvd1NpemVIaXN0b2dyYW0iCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oS2V5Q2FjaGVIaXRSYXRlKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJtZWFzdXJlbWVudCI6ICJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5IiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihDb21wcmVzc2lvblJhdGlvKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0sCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -996,10 +997,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGYgPSBkZi5hcHBlbmQocmVzdWx0LnRvX3NlcmllcygpLCBpZ25vcmVfaW5kZXg9VHJ1ZSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0Cg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1067,38 +1068,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRpY2tlciA9IHNkay5UaWNrZXIuZnJvbV9jb21wb25lbnRzKCdCVEMnLCBjdXJyZW5jeSwgZXhjaGFuZ2UpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRmID0gcGQuRGF0YUZyYW1lKFtdKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8udHJhbnNhY3Rpb25zX3RyYWRlciBpbXBvcnQgVHJhbnNhY3Rpb25zVHJhZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRpY2tlciA9IHNkay5UaWNrZXIuZnJvbV9jb21wb25lbnRzKCdCVEMnLCBjdXJyZW5jeSwgZXhjaGFuZ2UpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8gaW1wb3J0IGNvbmZpZwo=</text>
+        <text encoding="base64">ICAgIGRmID0gcGQuRGF0YUZyYW1lKFtdKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCB1dGlscwo=</text>
+        <text encoding="base64">ZnJvbSBjcnlwdG8udHJhbnNhY3Rpb25zX3RyYWRlciBpbXBvcnQgVHJhbnNhY3Rpb25zVHJhZGVyCg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>%s/&quot;cpu&quot;/[&quot;cpu&quot;]/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>post</last-search>
+      <last-search>&quot;cpu&quot;</last-search>
       <last-offset />
-      <last-pattern>post</last-pattern>
-      <last-replace>'order_rate'</last-replace>
-      <last-substitute>'rate'</last-substitute>
+      <last-pattern>&quot;cpu&quot;</last-pattern>
+      <last-replace>[&quot;cpu&quot;]</last-replace>
+      <last-substitute>&quot;cpu&quot;</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>def _inser</entry>
-        <entry>def test_query</entry>
-        <entry encoding="base64">XmRlZiA=</entry>
         <entry>def test_qu</entry>
         <entry>def cre</entry>
         <entry>def _in</entry>
@@ -1116,9 +1114,11 @@
         <entry>max</entry>
         <entry>pudb</entry>
         <entry>post</entry>
+        <entry>input</entry>
+        <entry>machine</entry>
+        <entry>&quot;cpu&quot;</entry>
       </history-search>
       <history-cmd>
-        <entry>95</entry>
         <entry>1091</entry>
         <entry>1134</entry>
         <entry>78</entry>
@@ -1138,6 +1138,7 @@
         <entry>%s/'rate'/'order_rate'/gc</entry>
         <entry>qa</entry>
         <entry>q</entry>
+        <entry>%s/&quot;cpu&quot;/[&quot;cpu&quot;]/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
