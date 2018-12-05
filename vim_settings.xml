@@ -253,6 +253,13 @@
         <mark key="^" line="402" column="102" />
         <mark key="." line="402" column="102" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1544029738187">
+        <mark key="'" line="35" column="41" />
+        <mark key="[" line="44" column="69" />
+        <mark key="]" line="41" column="0" />
+        <mark key="." line="41" column="0" />
+        <mark key="^" line="44" column="7" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1543780278518">
         <mark key="[" line="83" column="0" />
         <mark key="]" line="83" column="0" />
@@ -386,7 +393,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="255" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all.json" />
       <jump line="196" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
       <jump line="263" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
       <jump line="101" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
@@ -486,6 +492,7 @@
       <jump line="120" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
       <jump line="121" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
       <jump line="85" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
+      <jump line="30" column="41" filename="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -495,7 +502,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1037,7 +1044,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>max_stretch_factor</text>
       </register>
       <register name="/" type="4">
         <text>_2</text>
@@ -1046,13 +1053,13 @@
         <text encoding="base64">ICAgIHBsb3RfMSA9IHBsb3Qoc2NvcmVzX3Blcl9jb2luWzFdKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBfZXhwZWN0ZWRfc2FtcGxlcyhzZWxmKToKICAgICAgICAiIiIKICAgICAgICBDb21wdXRlIHRoZSBudW1iZXIgb2YgJ2V4cGVjdGVkJyB0cmFpbmluZyBzYW1wbGVzCiAgICAgICAgV2hhdCBpcyBleHBlY3RlZCBzYW1wbGVzID8gcGFibG8gcGxlYXNlIGV4cGxhaW4KICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIGlmIG5vdCBzZWxmLmNvbXB1dGVkX2luc2lnaHRzLnN0b3JhZ2Vfc3RhcnRfZXBvY2ggb3Igbm90IHNlbGYuY29tcHV0ZWRfaW5zaWdodHMuc3RvcmFnZV9lbmRfZXBvY2g6CiAgICAgICAgICAgIHJhaXNlIEF0dHJpYnV0ZUVycm9yKCdjb21wdXRlZF9pbnNpZ2h0cyBzaG91bGQgaGF2ZSBhIHZhbGlkIHJhbmdlIGFscmVhZHknKQogICAgICAgIGVsaWYgbm90IHNlbGYuY29tcHV0ZWRfaW5zaWdodHMuaW50ZXJ2YWxfczoKICAgICAgICAgICAgcmFpc2UgQXR0cmlidXRlRXJyb3IoJ2NvbXB1dGVkX2luc2lnaHRzIHNob3VsZCBoYXZlIGEgdmFsaWQgaW50ZXJ2YWxfcyBhbHJlYWR5JykKCiAgICAgICAgbWV0cmljcyA9IHNlbGYuc3RvcmFnZV9jbGllbnQucXVlcnlfYnVsa3NxbChzZWxmLm1ldHJpY19xdWVyaWVzLCBzZWxmLmNvbXB1dGVkX2luc2lnaHRzLnN0b3JhZ2Vfc3RhcnRfZXBvY2gsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLmNvbXB1dGVkX2luc2lnaHRzLnN0b3JhZ2VfZW5kX2Vwb2NoLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5jb21wdXRlZF9pbnNpZ2h0cy5pbnRlcnZhbF9zLCBub2RhdGE9J3RydWUnKQoKICAgICAgICAjIGFzc3VtaW5nIGVhY2ggbWV0cmljIHNwYW5zIHRoZSB3aG9sZSB2YWxpZCByYW5nZSB3aGljaCBpcyBub3QgdHJ1ZSBidXQgaXMgY2hlYXAKICAgICAgICBzYW1wbGVzX3Blcl9tZXRyaWMgPSAoc2VsZi5jb21wdXRlZF9pbnNpZ2h0cy5zdG9yYWdlX2VuZF9lcG9jaCAtIHNlbGYuY29tcHV0ZWRfaW5zaWdodHMuc3RvcmFnZV9zdGFydF9lcG9jaCkgLyBcCiAgICAgICAgICAgIHNlbGYuY29tcHV0ZWRfaW5zaWdodHMuaW50ZXJ2YWxfcwogICAgICAgIHNlbGYuY29tcHV0ZWRfaW5zaWdodHMudG90YWxfc2FtcGxlcyA9IHNhbXBsZXNfcGVyX21ldHJpYyAqIGxlbihtZXRyaWNzKQo=</text>
+        <text encoding="base64">ICAgIHBhZGRpbmdfZmFjdG9yID0gY29tbW9uX3BlcmlvZCAqIDEuMCAvIGludGVydmFsX3MgLyBsZW4oZGF0YSkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1066,10 +1073,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwdWRiOyBwdWRiLnNldF90cmFjZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbWl0IHRoZSBtYXggbnVtYmVyIG9mIHplcm9zIHdlIGFyZSB3aWxsaW5nIHRvIHN0cmV0Y2ggaXQK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1137,16 +1144,16 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGh2Lm91dHB1dChvdmVybGF5LCBmaWxlbmFtZT0nL3RtcC90ZXN0JykK</text>
+        <text encoding="base64">ICAgICMga2VlcCB0aGUgbGFyZ2VzdCBwb3dlciBhdCBlYWNoIGZyZXF1ZW5jeSBhY3Jvc3MgYWxsIHBvd2VyIHNwZWN0cmEK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9zZXJpZXNfZXF1YWwobmV3X20xLnZhbHVlcywgbTIudmFsdWVzKQo=</text>
+        <text encoding="base64">ICAgICMgY2hhbmdlIHNlcmllcyB0byB6c2NvcmVzCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9zZXJpZXNfZXF1YWwobmV3X20yLnZhbHVlcywgbTEudmFsdWVzKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgbmV3X20yLnZhbHVlcyA9PSAK</text>
+        <text encoding="base64">ICAgIGFzc2VydAo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
