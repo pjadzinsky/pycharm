@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1544048324894">
-        <mark key="'" line="340" column="0" />
-        <mark key="[" line="335" column="99" />
-        <mark key="]" line="335" column="96" />
-        <mark key="." line="335" column="96" />
-        <mark key="^" line="335" column="96" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" timestamp="1544049042211">
+        <mark key="'" line="270" column="104" />
+        <mark key="[" line="336" column="32" />
+        <mark key="]" line="336" column="37" />
+        <mark key="." line="336" column="37" />
+        <mark key="^" line="336" column="37" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1543990300383">
         <mark key="'" line="81" column="19" />
@@ -363,11 +363,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="266" column="28" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
-      <jump line="1304" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="53" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/plot_models.py" />
-      <jump line="105" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/ss_stage_causation.json" />
       <jump line="4" column="78" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/tests/data/ss_stage_causation.json" />
       <jump line="40" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_without_seasonality.json" />
@@ -463,6 +458,11 @@
       <jump line="33" column="50" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="5" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_suggestions.py" />
       <jump line="340" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="335" column="96" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="327" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="336" column="38" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="338" column="27" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
+      <jump line="270" column="104" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1017,7 +1017,7 @@
         <text>upload_to_s3</text>
       </register>
       <register name="/" type="4">
-        <text>upload_to_s3</text>
+        <text>val_loss</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBtZXRyaWMgPSBmYWtlX21ldHJpYy5mYWtlX21ldHJpYygxMDAwLCAyMDAwLCAyLCB7J3R5cGUnOiAnZ2F1c3NpYW4nLCAnc3RkJzogMX0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW3sndHlwZSc6ICdzaW51c29pZGFsJywgJ2FtcGxpdHVkZSc6IDIsICdwZXJpb2QnOiAxMH1dKQo=</text>
@@ -1133,9 +1133,9 @@
       </register>
     </registers>
     <search>
-      <last-search>upload_to_s3</last-search>
+      <last-search>val_loss</last-search>
       <last-offset />
-      <last-pattern>upload_to_s3</last-pattern>
+      <last-pattern>val_loss</last-pattern>
       <last-replace>n=n</last-replace>
       <last-substitute>n=1000</last-substitute>
       <last-dir>1</last-dir>
@@ -1143,7 +1143,6 @@
     </search>
     <history>
       <history-search>
-        <entry>holo</entry>
         <entry>pudb</entry>
         <entry>_1</entry>
         <entry>_2</entry>
@@ -1163,6 +1162,7 @@
         <entry encoding="base64">PDw8PDw=</entry>
         <entry>string_types</entry>
         <entry>upload_to_s3</entry>
+        <entry>val_loss</entry>
       </history-search>
       <history-cmd>
         <entry>170</entry>
