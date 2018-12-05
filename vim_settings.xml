@@ -178,7 +178,7 @@
         <mark key="." line="184" column="63" />
         <mark key="^" line="175" column="57" />
       </file>
-      <file name="/Python Console" timestamp="1543973189275">
+      <file name="/Python Console" timestamp="1544031969659">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1543876215927">
@@ -205,6 +205,12 @@
         <mark key="]" line="84" column="60" />
         <mark key="." line="84" column="60" />
         <mark key="^" line="83" column="28" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/test_periodicity.py" timestamp="1544031949896">
+        <mark key="[" line="38" column="92" />
+        <mark key="]" line="38" column="66" />
+        <mark key="." line="38" column="66" />
+        <mark key="^" line="38" column="66" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_sentinel_rows.py" timestamp="1542665186817">
         <mark key="[" line="88" column="16" />
@@ -253,12 +259,11 @@
         <mark key="^" line="402" column="102" />
         <mark key="." line="402" column="102" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1544029738187">
-        <mark key="'" line="35" column="41" />
-        <mark key="[" line="44" column="69" />
-        <mark key="]" line="41" column="0" />
-        <mark key="." line="41" column="0" />
-        <mark key="^" line="44" column="7" />
+      <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1544032294674">
+        <mark key="'" line="1" column="18" />
+        <mark key="[" line="45" column="21" />
+        <mark key="]" line="45" column="21" />
+        <mark key="." line="45" column="21" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" timestamp="1543780278518">
         <mark key="[" line="83" column="0" />
@@ -393,9 +398,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="196" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
-      <jump line="263" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
-      <jump line="101" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
       <jump line="115" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
       <jump line="259" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_all_rf.json" />
@@ -493,6 +495,9 @@
       <jump line="121" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
       <jump line="85" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
       <jump line="30" column="41" filename="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" />
+      <jump line="49" column="34" filename="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" />
+      <jump line="1" column="18" filename="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" />
+      <jump line="9" column="24" filename="$USER_HOME$/opas/core/python/opasai/stats/tests/test_periodicity.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -501,8 +506,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>(len(data) * interval_s // common_period) * common_period + common_period</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1044,22 +1049,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>max_stretch_factor</text>
+        <text>(len(data) * interval_s // common_period) * common_period + common_period</text>
       </register>
       <register name="/" type="4">
-        <text>_2</text>
+        <text>pd</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHBsb3RfMSA9IHBsb3Qoc2NvcmVzX3Blcl9jb2luWzFdKQo=</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X3JvdW5kX2RhdGFfc2l6ZV8xKHNlbGYpOgogICAgICAgICIiIiB0ZXN0IHRoYXQgd2hlbiBkYXRhIG1hdGNoZXMgYWxsIGZyZXF1ZW5jaWVzIHJlcXVlc3RlZCB3ZSBkbyBub3RoaW5nIHRvIGl0CgogICAgICAgIERhdGEgaXMgc2FtcGxlZCBldmVyeSA2MDBzIGFuZCB3ZSBoYXZlIGEgMTAgZGF5cyBvZiBpdAogICAgICAgIFdlIGFzayBmb3IgZnJlcXVlbmNpZXMgbWF0Y2hpbmcgaG91ciAoMS8zNjAwKSBhbmQgZGF5ICgxLzg2NDAwKQogICAgICAgICIiIgogICAgICAgIHN0YXJ0ID0gMTAwMAogICAgICAgIGludGVydmFsX3MgPSA2MDAKICAgICAgICBlbmQgPSBzdGFydCArIGludGVydmFsX3MgKiAxNDQgKiAxMAogICAgICAgIGRhdGEgPSBwZC5TZXJpZXMobnAucmFuZG9tLnJhbmRuKDE0NCAqIDEwKSwgaW5kZXg9cmFuZ2Uoc3RhcnQsIGVuZCwgaW50ZXJ2YWxfcykpCiAgICAgICAgbmV3X2RhdGEgPSBwZXJpb2RpY2l0eS5yb3VuZF9kYXRhX3NpemUoZGF0YSwgWzEuMC8zNjAwLCAxLjAvODY0MDBdLCAxLjEpCgogICAgICAgIHBkLnRlc3RpbmcuYXNzZXJ0X3Nlcmllc19lcXVhbChkYXRhLCBuZXdfZGF0YSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHBhZGRpbmdfZmFjdG9yID0gY29tbW9uX3BlcmlvZCAqIDEuMCAvIGludGVydmFsX3MgLyBsZW4oZGF0YSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1073,10 +1078,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIGNvbW1vbgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbWl0IHRoZSBtYXggbnVtYmVyIG9mIHplcm9zIHdlIGFyZSB3aWxsaW5nIHRvIHN0cmV0Y2ggaXQK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1144,28 +1149,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMga2VlcCB0aGUgbGFyZ2VzdCBwb3dlciBhdCBlYWNoIGZyZXF1ZW5jeSBhY3Jvc3MgYWxsIHBvd2VyIHNwZWN0cmEK</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9zZXJpZXNfZXF1YWwoZGF0YSwgbmV3X2RhdGEpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgY2hhbmdlIHNlcmllcyB0byB6c2NvcmVzCg==</text>
+        <text encoding="base64">ICAgICAgICBuZXdfZGF0YSA9IHBlcmlvZGljaXR5LnJvdW5kX2RhdGFfc2l6ZShkYXRhLCBbMS4wLzYwNDgwMF0sIDEuMSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFydCA9IDEwMDAKICAgICAgICBpbnRlcnZhbF9zID0gNjAwCiAgICAgICAgZW5kID0gc3RhcnQgKyBpbnRlcnZhbF9zICogMTQ0ICogMTAKICAgICAgICBkYXRhID0gcGQuU2VyaWVzKG5wLnJhbmRvbS5yYW5kbigxNDQgKiAxMCksIGluZGV4PXJhbmdlKHN0YXJ0LCBlbmQsIGludGVydmFsX3MpKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFzc2VydAo=</text>
+        <text encoding="base64">ICAgICAgICB3ZSBkbyBub3RoaW5nIHRvIGl0Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/_2/_selling/gc</text>
+        <text>4</text>
       </register>
     </registers>
     <search>
-      <last-search>_2</last-search>
+      <last-search>pd</last-search>
       <last-offset />
-      <last-pattern>_2</last-pattern>
+      <last-pattern>pd</last-pattern>
       <last-replace>_selling</last-replace>
       <last-substitute>_2</last-substitute>
       <last-dir>1</last-dir>
@@ -1173,7 +1178,6 @@
     </search>
     <history>
       <history-search>
-        <entry>path</entry>
         <entry>hash</entry>
         <entry>def.*url</entry>
         <entry encoding="base64">PDw8</entry>
@@ -1193,9 +1197,9 @@
         <entry>pudb</entry>
         <entry>_1</entry>
         <entry>_2</entry>
+        <entry>pd</entry>
       </history-search>
       <history-cmd>
-        <entry>798</entry>
         <entry>30</entry>
         <entry>43</entry>
         <entry>224</entry>
@@ -1215,6 +1219,7 @@
         <entry>wq</entry>
         <entry>%s/_1/_buying/gc</entry>
         <entry>%s/_2/_selling/gc</entry>
+        <entry>4</entry>
       </history-cmd>
       <history-expr />
       <history-input />
