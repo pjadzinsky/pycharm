@@ -41,12 +41,12 @@
         <mark key="^" line="0" column="15" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" timestamp="1544113693243">
-        <mark key="'" line="22" column="5" />
-        <mark key="[" line="26" column="24" />
-        <mark key="]" line="19" column="16" />
-        <mark key="^" line="19" column="16" />
-        <mark key="." line="19" column="16" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" timestamp="1544117423772">
+        <mark key="'" line="51" column="22" />
+        <mark key="[" line="47" column="99" />
+        <mark key="]" line="48" column="1" />
+        <mark key="." line="48" column="1" />
+        <mark key="^" line="48" column="1" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1543972000922">
         <mark key="'" line="47" column="16" />
@@ -146,8 +146,8 @@
         <mark key="^" line="13" column="58" />
         <mark key="." line="13" column="58" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" timestamp="1544113876088">
-        <mark key="'" line="93" column="3" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" timestamp="1544117400786">
+        <mark key="'" line="23" column="34" />
         <mark key="[" line="66" column="0" />
         <mark key="]" line="66" column="0" />
         <mark key="." line="66" column="0" />
@@ -176,7 +176,7 @@
         <mark key="^" line="10" column="30" />
         <mark key="." line="20" column="30" />
       </file>
-      <file name="/Python Console" timestamp="1544113700785">
+      <file name="/Python Console" timestamp="1544117002624">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="33" />
       </file>
@@ -350,11 +350,11 @@
         <mark key="." line="4" column="78" />
         <mark key="^" line="4" column="78" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" timestamp="1544074162573">
-        <mark key="[" line="29" column="12" />
-        <mark key="]" line="32" column="11" />
-        <mark key="." line="32" column="11" />
-        <mark key="^" line="32" column="11" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" timestamp="1544117395592">
+        <mark key="[" line="8" column="20" />
+        <mark key="]" line="8" column="57" />
+        <mark key="." line="8" column="57" />
+        <mark key="^" line="8" column="57" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/summary_IO/summary_IO_interface.py" timestamp="1543015718567">
         <mark key="[" line="9" column="0" />
@@ -374,10 +374,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
-      <jump line="119" column="14" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
-      <jump line="54" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
       <jump line="21" column="26" filename="$USER_HOME$/crypto/crypto/setup.py" />
       <jump line="74" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
       <jump line="120" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/compare_coins.py" />
@@ -474,6 +470,10 @@
       <jump line="87" column="3" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" />
       <jump line="17" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
       <jump line="19" column="5" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
+      <jump line="47" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
+      <jump line="9" column="21" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
+      <jump line="49" column="22" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
+      <jump line="23" column="34" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -482,8 +482,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>summary</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1025,22 +1025,23 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>summary</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1dGlsc1w+</text>
+        <text>te</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBkYl9uYW1lKGV4ZWN1dGUsIHN1ZmZpeCk6Cg==</text>
+        <text encoding="base64">ICAgIHRlc3QoJzIwMTgxMjA0JykK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="4">
+        <text>summary.drop(['exchange_1', 'exchange_2', 'timestamp', 'end_coin', 'start_coin', 'real_end_coins',
+                            'id'], axis=1)</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHQuZGZyYW1lKCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1054,10 +1055,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjVE9ETyAK</text>
+        <text encoding="base64">ICAgIHByaW50KGdyb3VwZWQpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaW50KHN1bW1hcnkuaGVhZCgpKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1124,37 +1125,36 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">J1NFTEVDVCAqIEZST00ge3RhYmxlX25hbWV9IFdIRVJFIHRpbWVzdGFtcD49e3N0YXJ0fSBBTkQgdGltZXN0YW1wPD17ZW5kfScuZm9ybWF0KAogICAgICAgICAgICAgICAgc3RhcnQ9aW50ZXJ2YWwuc3RhcnRfZXBvY2gsIGVuZD1pbnRlcnZhbC5lbmRfZXBvY2gsIHRhYmxlX25hbWU9c2VsZi50YWJsZV9uYW1lKQ==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ZnJvbSBjcnlwdG8uc2NyaXB0cyBpbXBvcnQgZmluZF9jeWNsZXNfdXRpbHMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50KDIpCg==</text>
+        <text encoding="base64">ZnJvbSBjcnlwdG8gaW1wb3J0IGNvbmZpZwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50KDEpCg==</text>
+        <text encoding="base64">ICAgIHRlc3QoJzIwMTgxMjA1JykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRlc3QoJzIwMTgxMjA0JykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRlc3QoJzIwMTgxMjAzJykK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1dGlsc1w+</last-search>
+      <last-search>te</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1dGlsc1w+</last-pattern>
+      <last-pattern>te</last-pattern>
       <last-replace>param</last-replace>
       <last-substitute>parma</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>n=1000</entry>
         <entry>utime</entry>
         <entry encoding="base64">PDw8</entry>
         <entry>s3</entry>
@@ -1174,6 +1174,7 @@
         <entry>ts_s</entry>
         <entry>db_name</entry>
         <entry encoding="base64">XDx1dGlsc1w+</entry>
+        <entry>te</entry>
       </history-search>
       <history-cmd>
         <entry>%s/'rate'/'order_rate'/gc</entry>
