@@ -152,8 +152,12 @@
         <mark key="]" line="113" column="11" />
         <mark key="." line="113" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" timestamp="1544221560372">
-        <mark key="'" line="335" column="12" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" timestamp="1544225441460">
+        <mark key="'" line="145" column="52" />
+        <mark key="[" line="132" column="0" />
+        <mark key="]" line="133" column="46" />
+        <mark key="^" line="133" column="46" />
+        <mark key="." line="133" column="46" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/moments_model.py" timestamp="1544205814219">
         <mark key="'" line="264" column="9" />
@@ -244,8 +248,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="67" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly.py" />
-      <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly.py" />
       <jump line="63" column="10" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly_interface.py" />
       <jump line="73" column="23" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly_interface.py" />
       <jump line="65" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly_interface.py" />
@@ -344,6 +346,8 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
       <jump line="178" column="12" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
       <jump line="335" column="12" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
+      <jump line="177" column="42" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
+      <jump line="145" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -352,8 +356,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBwaXZvdHMgPSBrcGlfc3RhZ2VfdGFzay5rcGlfc2V0dGluZy5nZXRfa3BpKClbJ3Bpdm90cyddCiAgICAgICAgICAgICMgV2h5IGFyZSB3ZSBhc3N1bWluZyB0aGF0IGV2ZXJ5IHBpdm90IGlzIHBhcnQgb2YgcGlwZWxpbmVfZGVmPwogICAgICAgICAgICAjaWYgbGVuKHBpdm90cykgPiAwOgogICAgICAgICAgICAjICAgIHBpcGVsaW5lX2RlZiA9ICdbIicgKyAoJyIsIicuam9pbihwaXZvdHMpKSArICciXScK</text>
+      <register name="&quot;" type="4">
+        <text>anomalies</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -895,10 +899,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>anomalies</text>
       </register>
       <register name="/" type="4">
-        <text>raise</text>
+        <text>def compute_root</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICJjYW1wYWlnbl9qb3VybmV5cyIsCg==</text>
@@ -1014,9 +1018,9 @@
       </register>
     </registers>
     <search>
-      <last-search>raise</last-search>
+      <last-search>def compute_root</last-search>
       <last-offset />
-      <last-pattern>raise</last-pattern>
+      <last-pattern>def compute_root</last-pattern>
       <last-replace>param</last-replace>
       <last-substitute>parma</last-substitute>
       <last-dir>1</last-dir>
@@ -1024,7 +1028,6 @@
     </search>
     <history>
       <history-search>
-        <entry>+</entry>
         <entry>anomaly_static</entry>
         <entry>mean</entry>
         <entry>return</entry>
@@ -1044,6 +1047,7 @@
         <entry>def bulk</entry>
         <entry>def .*bulk</entry>
         <entry>raise</entry>
+        <entry>def compute_root</entry>
       </history-search>
       <history-cmd>
         <entry>4</entry>
