@@ -18,12 +18,12 @@
       <file name="/a.dummy" timestamp="1544071472623">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1544227501982">
-        <mark key="'" line="4" column="35" />
-        <mark key="[" line="173" column="86" />
-        <mark key="]" line="173" column="112" />
-        <mark key="." line="173" column="112" />
-        <mark key="^" line="173" column="112" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1544228853742">
+        <mark key="'" line="137" column="4" />
+        <mark key="[" line="173" column="0" />
+        <mark key="]" line="179" column="107" />
+        <mark key="." line="177" column="110" />
+        <mark key="^" line="177" column="110" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" timestamp="1544117423772">
         <mark key="'" line="51" column="22" />
@@ -63,6 +63,13 @@
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1544071588395">
         <mark key="'" line="604" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_utils.py" timestamp="1544228945286">
+        <mark key="'" line="62" column="42" />
+        <mark key="[" line="85" column="24" />
+        <mark key="]" line="85" column="24" />
+        <mark key="." line="85" column="24" />
+        <mark key="^" line="85" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1544219513690">
         <mark key="'" line="266" column="28" />
@@ -255,10 +262,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly_interface.py" />
-      <jump line="2" column="21" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/static.py" />
-      <jump line="19" column="23" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
-      <jump line="46" column="32" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
       <jump line="47" column="37" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
       <jump line="48" column="15" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
       <jump line="56" column="51" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
@@ -355,6 +358,10 @@
       <jump line="145" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
       <jump line="82" column="36" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="4" column="35" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="82" column="4" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_utils.py" />
+      <jump line="208" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="137" column="4" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="62" column="42" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -363,8 +370,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>orig_pred_metric</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBvcmlnX2Fub21hbGllcywgb3JpZ19wcmVkX2Fub21hbHlfc2NvcmUgPSBhbm9tYWx5X3V0aWxzLmFub21hbGllc19pbl9pbnRlcnZhbChzZWxmLnN0b3JlX3RhZ3MuYWNjb3VudF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVuY2F0ZWRfcHJlZGljdGVkX21ldHJpY3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJ2YWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWVhbj1ub3JtYWxfcHJlZGljdGVkX21lYW5zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZD1ub3JtYWxfcHJlZGljdGVkX3N0ZHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgenNjb3JlPTIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxnb3JpdGhtPSdnYXVzc2lhbicpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -909,19 +916,19 @@
         <text>orig_pred_metric</text>
       </register>
       <register name="/" type="4">
-        <text>rsqu</text>
+        <text>sampling</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhbnlfbm9uZSA9IGZpbHRlcihsYW1iZGEgbTogbS52YWx1ZXMubWVhbigpIGlzIE5vbmUsIHRydW5jYXRlZF9wcmVkaWN0ZWRfbWV0cmljcykK</text>
+        <text encoding="base64">ICAgICAgICBvcmlnX2Fub21hbGllcywgb3JpZ19wcmVkX2Fub21hbHlfc2NvcmUgPSBhbm9tYWx5X3V0aWxzLmFub21hbGllc19pbl9pbnRlcnZhbChzZWxmLnN0b3JlX3RhZ3MuYWNjb3VudF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVuY2F0ZWRfcHJlZGljdGVkX21ldHJpY3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJ2YWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWVhbj1ub3JtYWxfcHJlZGljdGVkX21lYW5zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZD1ub3JtYWxfcHJlZGljdGVkX3N0ZHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgenNjb3JlPTIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxnb3JpdGhtPSdnYXVzc2lhbicpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JpZ19wcmVkX21ldHJpYy52YWx1ZXMubWVhbigpIGlzIE5vbmUgb3Igb3JpZ19wcmVkX21ldHJpYy52YWx1ZXMuc3RkKCkgaXMgTm9uZToK</text>
+        <text encoding="base64">ICAgICAgICBpZiBvcmlnX3ByZWRfbWV0cmljLnZhbHVlcy5tZWFuKCkgaXMgTm9uZSBvciBvcmlnX3ByZWRfbWV0cmljLnZhbHVlcy5zdGQoKSBpcyBOb25lOgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBvcmlnaW5hbF9wcmVkX3N0ZHMgPSBbbS52YWx1ZXMuc3RkKCkgZm9yIG0gaW4gdHJ1bmNhdGVkX3ByZWRpY3RlZF9tZXRyaWNzXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -935,10 +942,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhbnlfbm9uZSA9IGZpbHRlcihsYW1iZGEgbTogbS52YWx1ZXMubWVhbigpIGlzIE5vbmUsIHRydW5jYXRlZF9wcmVkaWN0ZWRfbWV0cmljcykK</text>
+        <text encoding="base64">ICAgIGRlZiByY2FfYXRfdGltZV9tdWx0aXBsZV9vdXRwdXRzKHNlbGYsCiAgICAgICAgICAgICAgICAgICAgaW50ZXJ2YWwsCiAgICAgICAgICAgICAgICAgICAgdHJ1bmNhdGVkX2lucHV0X21ldHJpY3MsCiAgICAgICAgICAgICAgICAgICAgdHJ1bmNhdGVkX291dHB1dF9tZXRyaWNzLAogICAgICAgICAgICAgICAgICAgIHRydW5jYXRlZF9wcmVkaWN0ZWRfbWV0cmljcywKICAgICAgICAgICAgICAgICAgICBub3JtYWxfcHJlZGljdGVkX21lYW5zLAogICAgICAgICAgICAgICAgICAgIG5vcm1hbF9wcmVkaWN0ZWRfc3RkcywKICAgICAgICAgICAgICAgICAgICBub3JtYWxfaW5wdXRzX21lYW5zLAogICAgICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fYWNjdXJhY2llcyk6CiAgICAgICAgIiIiCiAgICAgICAgZm9yIGVhY2ggb3V0cHV0LCBjYWxsIHJjYV9hdF90aW1lLCB0aGVuIG1lcmdlIHRoZSByZXN1bHRzCiAgICAgICAgOnBhcmFtIGludGVydmFsOiBUaGUgcGVyaW9kIGZvciB3aGljaCB0aGUgUkNBIGlzIHRvIGJlIGNvbXB1dGVkCiAgICAgICAgOnBhcmFtIHRydW5jYXRlZF9pbnB1dF9tZXRyaWNzOiBJbnB1dCBtZXRyaWNzIGVhY2ggb2Ygd2hpY2ggYXJlIHRydW5jYXRlZCB0byB0aGUgZ2l2ZW4gaW50ZXJ2YWwKICAgICAgICA6cGFyYW0gdHJ1bmNhdGVkX291dHB1dF9tZXRyaWNzOiBPdXRwdXQgbWV0cmljcyBlYWNoIG9mIHdoaWNoIGFyZSB0cnVuY2F0ZWQgdG8gdGhlIGdpdmVuIGludGVydmFsCiAgICAgICAgOnBhcmFtIHRydW5jYXRlZF9wcmVkaWN0ZWRfbWV0cmljczogUHJlZGljdGVkIG1ldHJpY3MgZWFjaCBvZiB3aGljaCBhcmUgdHJ1bmNhdGVkIHRvIHRoZSBnaXZlbiBpbnRlcnZhbAogICAgICAgIDpwYXJhbSBub3JtYWxfaW5wdXRzX21lYW46IERpY3QgbWFwcGluZyBpbnB1dCBtZXRyaWMga2V5IHRvIG1lYW4gdmFsdWUgZHVyaW5nIG5vcm1hbCBwZXJpb2RzCiAgICAgICAgOnBhcmFtIG5vcm1hbF9wcmVkaWN0ZWRfbWVhbjoKICAgICAgICA6cGFyYW0gbm9ybWFsX3ByZWRpY3RlZF9zdGQ6CiAgICAgICAgOnBhcmFtIHByZWRpY3Rpb25fYWNjdXJhY3k6CiAgICAgICAgOnJldHVybjoKICAgICAgICAiIiIKICAgICAgICBmb3IK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBpc2luc3RhbmNlKHNlbGYubW9kZWwsIENvbWJpbmVkTW9kZWwpOgogICAgICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yKCdDb21iaW5lZE1vZGVscyBzaG91bGQgbm90IGJlIG5lZWRlZCBpbiBzZWxmLXNlcnZlLCB0cnkgdG8gbW9kZWwgdGhlIHByb2JsZW0gYXMgJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdtdWx0aXBsZSBjYXVzYWwgYWxlcnRzJykKCiAgICAgICAgIyBjb21wdXRlIHRoZSBwcmVkaWN0aW9ucyBmb3IgdGhlIGdpdmVuIGlucHV0cwogICAgICAgIHBpcGVsaW5lX3ZhbHVlcyA9IHNlbGYubW9kZWwucGlwZWxpbmUubWFwX3BpcGVsaW5lX3RvX21ldHJpY3ModHJ1bmNhdGVkX291dHB1dF9tZXRyaWNzKS5rZXlzKCkKCgogICAgICAgIGlmIG9yaWdfcHJlZF9tZXRyaWMudmFsdWVzLm1lYW4oKSBpcyBOb25lIG9yIG9yaWdfcHJlZF9tZXRyaWMudmFsdWVzLnN0ZCgpIGlzIE5vbmU6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCdHb3QgaW52YWxpZCBub3JtYWwgdmFsdWVzIGZvciBtZXRyaWMge30uIENhbm5vdCBjb21wdXRlIHJvb3RjYXVzZScuZm9ybWF0KAogICAgICAgICAgICAgICAgdHJ1bmNhdGVkX291dHB1dF9tZXRyaWNzWzBdLmtleSkpCiAgICAgICAgICAgIHJldHVybiBbXQoKICAgICAgICAjIEZpcnN0IGNoZWNrIHRvIHNlZSBpZiB0aGUgbW9kZWwgY2FuIHByZWRpY3QgdGhlIGFub21hbHkuIElmIGl0IGNhbm5vdCwgdGhlbiBmdXJ0aGVyIGFuYWx5c2lzIGlzIG1vb3QKICAgICAgICBvcmlnX2Fub21hbGllcywgb3JpZ19wcmVkX2Fub21hbHlfc2NvcmUgPSBhbm9tYWx5X3V0aWxzLmFub21hbGllc19pbl9pbnRlcnZhbChzZWxmLnN0b3JlX3RhZ3MuYWNjb3VudF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmlnX3ByZWRfbWV0cmljLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGludGVydmFsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1lYW49bm9ybWFsX3ByZWRpY3RlZF9tZWFuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZD1ub3JtYWxfcHJlZGljdGVkX3N0ZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB6c2NvcmU9MiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGdvcml0aG09J2dhdXNzaWFuJykKICAgICAgICBpZiBsZW4ob3JpZ19hbm9tYWxpZXMpID09IDA6CiAgICAgICAgICAgICMgUHJlZGljdGlvbnMgZG8gbm90IHJlcGxpY2F0ZSB0aGUgYW5vbWFsaWVzIGluIHRoaXMgaW50ZXJ2YWwgc28gd2UgY2Fubm90IHJlbGlhYmx5IHJvb3RjYXVzZSB0aGUgYWN0dWFsCiAgICAgICAgICAgICMgYW5vbWFseQogICAgICAgICAgICBsb2dnZXIuaW5mbygnQ291bGRudCBwcmVkaWN0IGFub21hbGllcyBmb3IgbWV0cmljIHt9LiBDYW5ub3QgY29tcHV0ZSByb290Y2F1c2UnLmZvcm1hdCgKICAgICAgICAgICAgICAgIHRydW5jYXRlZF9vdXRwdXRfbWV0cmljc1swXS5rZXkpKQogICAgICAgICAgICByZXR1cm4gW10KCiAgICAgICAgIyBDb21wdXRpbmcgdGhlIGFub21hbHkgc2NvcmUgZm9yIHdoZW4gdGhlIG1ldHJpYyBpcyBub3JtYWwuIEhlcmUgbm9ybWFsIGlzIGFzc3VtZWQgdG8gYmUgdGhlIG1lYW4gb2YgdGhlIG1ldHJpYwogICAgICAgICMgVGhpcyB3aWxsIGJlIHVzZWQgdG8gY29tcHV0ZSB0aGUgcGN0IGNoYW5nZSBpbiB0aGUgYW5vbWFseSBpbiB0aGUgcm9vdGNhdXNlIGNhbGN1bGF0aW9ucwogICAgICAgIG5vcm1hbF9tZXRyaWMgPSBvcmlnX3ByZWRfbWV0cmljLmRlZXBjb3B5KCkKICAgICAgICBub3JtYWxfbWV0cmljLnZhbHVlc1s6XSA9IG5vcm1hbF9wcmVkaWN0ZWRfbWVhbgogICAgICAgIF8sIG5vcm1hbF9wcmVkX2Fub21hbHlfc2NvcmUgPSBhbm9tYWx5X3V0aWxzLmFub21hbGllc19pbl9pbnRlcnZhbChzZWxmLnN0b3JlX3RhZ3MuYWNjb3VudF9pZCwgbm9ybWFsX21ldHJpYywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJ2YWwsIG1lYW49bm9ybWFsX3ByZWRpY3RlZF9tZWFuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGQ9bm9ybWFsX3ByZWRpY3RlZF9zdGQsIHpzY29yZT0yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGdvcml0aG09J2dhdXNzaWFuJykKICAgICAgICByY2FsaXN0ID0gc2VsZi5fY29tcHV0ZV9yY2Eoc2VsZi5tb2RlbC5nZXRfZGVwaXBlbGluZWRfaW5wdXRfbWV0cmljcygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVuY2F0ZWRfaW5wdXRfbWV0cmljcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsX3ByZWRpY3RlZF9tZWFuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub3JtYWxfcHJlZGljdGVkX3N0ZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsX2lucHV0c19tZWFuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnRlcnZhbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3JpZ19wcmVkX21ldHJpYywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3JpZ19wcmVkX2Fub21hbHlfc2NvcmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vcm1hbF9wcmVkX2Fub21hbHlfc2NvcmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBpcGVsaW5lX3ZhbHVlcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJlZGljdGlvbl9hY2N1cmFjeSkKICAgICAgICByY2FsaXN0ID0gc29ydGVkKHJjYWxpc3QsIGtleT1sYW1iZGEgeDogeC5tYXhfa3BpX2NoYW5nZSwgcmV2ZXJzZT1UcnVlKVs6c2VsZi5tYXhfcmNhX3NvbHV0aW9uc19kZXNpcmVkXQogICAgICAgIHJldHVybiByY2FsaXN0Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1006,28 +1013,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNoZWNrIGZvciB0aGUgYW5vbWFseQo=</text>
+        <text encoding="base64">ICAgICAgICBDb21wdXRlcyB0aGUgUkNBIGZvciBhIGdpdmVuIGludGVydmFsLgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIFdlIG5lZWQgdG8gZmluZCB0aGUgbWVhbi9zdGQgZHVyaW5nIHRoZSBub3JtYWwgaW50ZXJ2YWwgb2YgdGhlIG91dHB1dCBtZXRyaWMgd2hpY2ggd2lsbCB0aGVuIGJlIHVzZWQgdG8K</text>
+        <text encoding="base64">ICAgICAgICAjIHdoYXQgZG8gd2UgZG8gaWYgdGhlIG1vZGVsIGNvbiBwcmVkaWN0IHNvbWUgYnV0IG5vdCBhbGwgdGhlIGFub21hbGllcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBvcmlnX3ByZWRfbWV0cmljLmtleS5zYW1wbGVfaW50ZXJ2YWwgPSBzZWxmLm1vZGVsLmludGVydmFsX3MK</text>
+        <text encoding="base64">ICAgIGRldGVjdG9yIHRha2VzIGluIGEgbWFwIG9mIHRoZSB0aW1lc3RhbXAgdG8gdGhlIHZhbHVlIHRvIGNvbXB1dGUgdGhlIGFub21hbHkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBvcmlnX3ByZWRfbWV0cmljID0gdHJ1bmNhdGVkX3ByZWRpY3RlZF9tZXRyaWNzWzBdCg==</text>
+        <text encoding="base64">ICAgIFVzZXMgdGhlIGJpdG1hcCBhbm9tYWx5IGRldGVjdGlvbiBhbGdvcml0aG0gdG8gZmluZCBhbm9tYWxpZXMgZm9yIGEgc3BlY2lmaWMgdGltZXNlcmllcyBzZXF1ZW5jZS4gVGhlIGFub21hbHkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgaWYgbGVuKHRydW5jYXRlZF9vdXRwdXRfbWV0cmljcykgPiAxOgogICAgICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yKCdFbGltaW5hdGVBbm9tYWx5LnJjYV9hdF90aW1lIG9ubHkgd29ya3MgZm9yIG9uZSBLUEkgYXQgYSB0aW1lLiAnCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ291dHB1dF9tZXRyaWNzPXt9Jy5mb3JtYXQobGVuKHRydW5jYXRlZF9vdXRwdXRfbWV0cmljcykpKQo=</text>
+        <text encoding="base64">ICAgICAgICAjUEogaXMgYW5vbWFseV91dGlscy5hbm9tYWxpZXNfaW5faW50ZXJ2YWwgYWx3YXlzIHVzaW5nIGJpdG1hcD8K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>rsqu</last-search>
+      <last-search>sampling</last-search>
       <last-offset />
-      <last-pattern>rsqu</last-pattern>
+      <last-pattern>sampling</last-pattern>
       <last-replace>param</last-replace>
       <last-substitute>parma</last-substitute>
       <last-dir>1</last-dir>
@@ -1035,9 +1042,6 @@
     </search>
     <history>
       <history-search>
-        <entry>mean</entry>
-        <entry>return</entry>
-        <entry>band</entry>
         <entry>moment</entry>
         <entry>plot</entry>
         <entry>Metric</entry>
@@ -1055,6 +1059,9 @@
         <entry>raise</entry>
         <entry>def compute_root</entry>
         <entry>rsqu</entry>
+        <entry>anomalies_in_interval</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>sampling</entry>
       </history-search>
       <history-cmd>
         <entry>4</entry>
