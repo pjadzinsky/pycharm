@@ -6,6 +6,9 @@
       <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" timestamp="1544123808014">
         <mark key="'" line="93" column="15" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1544373799473">
+        <mark key="'" line="97" column="42" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_suggestions.py" timestamp="1544047772376">
         <mark key="'" line="5" column="38" />
       </file>
@@ -232,14 +235,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly.py" />
-      <jump line="15" column="29" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly.py" />
-      <jump line="278" column="43" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
-      <jump line="280" column="29" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
-      <jump line="291" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
-      <jump line="29" column="43" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
-      <jump line="54" column="106" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
       <jump line="53" column="87" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
       <jump line="49" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
       <jump line="36" column="53" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/gaussian.py" />
@@ -332,6 +327,14 @@
       <jump line="86" column="3" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
       <jump line="91" column="75" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
       <jump line="22" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
+      <jump line="23" column="20" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="79" column="56" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="82" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="131" column="13" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="43" column="27" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="127" column="73" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="118" column="50" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="97" column="42" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -886,7 +889,7 @@
         <text>reset_index</text>
       </register>
       <register name="/" type="4">
-        <text>txt</text>
+        <text>execute</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBvcmlnX2Fub21hbGllcywgb3JpZ19wcmVkX2Fub21hbHlfc2NvcmUgPSBhbm9tYWx5X3V0aWxzLmFub21hbGllc19pbl9pbnRlcnZhbChzZWxmLnN0b3JlX3RhZ3MuYWNjb3VudF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVuY2F0ZWRfcHJlZGljdGVkX21ldHJpY3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJ2YWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWVhbj1ub3JtYWxfcHJlZGljdGVkX21lYW5zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZD1ub3JtYWxfcHJlZGljdGVkX3N0ZHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgenNjb3JlPTIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxnb3JpdGhtPSdnYXVzc2lhbicpCg==</text>
@@ -1002,9 +1005,9 @@
       </register>
     </registers>
     <search>
-      <last-search>txt</last-search>
+      <last-search>execute</last-search>
       <last-offset />
-      <last-pattern>txt</last-pattern>
+      <last-pattern>execute</last-pattern>
       <last-replace>param</last-replace>
       <last-substitute>parma</last-substitute>
       <last-dir>1</last-dir>
@@ -1012,7 +1015,6 @@
     </search>
     <history>
       <history-search>
-        <entry>X</entry>
         <entry>host</entry>
         <entry>tags</entry>
         <entry>def bulk</entry>
@@ -1032,6 +1034,7 @@
         <entry>log</entry>
         <entry>plot</entry>
         <entry>txt</entry>
+        <entry>execute</entry>
       </history-search>
       <history-cmd>
         <entry>%s/n=1000/n=n/g</entry>
