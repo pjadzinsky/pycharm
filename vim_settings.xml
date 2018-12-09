@@ -9,8 +9,8 @@
       <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_anomaly_random_forest_with_time_features.json" timestamp="1544123808014">
         <mark key="'" line="93" column="15" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1544375950648">
-        <mark key="'" line="118" column="50" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1544383005316">
+        <mark key="'" line="44" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_suggestions.py" timestamp="1544047772376">
         <mark key="'" line="5" column="38" />
@@ -226,7 +226,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="14" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/moments_model.py" />
       <jump line="191" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/moments_model.py" />
       <jump line="264" column="9" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/moments_model.py" />
       <jump line="19" column="73" filename="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/isolation_forest.py" />
@@ -304,7 +303,6 @@
       <jump line="43" column="55" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="79" column="56" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="82" column="12" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
-      <jump line="97" column="42" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="118" column="50" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="509" column="14" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="512" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
@@ -326,6 +324,8 @@
       <jump line="573" column="3" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="9" column="0" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="12" column="26" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="97" column="67" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="44" column="33" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -880,7 +880,7 @@
         <text>address</text>
       </register>
       <register name="/" type="4">
-        <text>wallets</text>
+        <text>min_daily</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRyYW5zZmVyID0gcGQuU2VyaWVzKHsnb3JkZXJfJzogaSwgJ3R5cGVfJzogdHlwZV8sICdleGNoYW5nZV8xJzogbm9kZV8xLmV4Y2hhbmdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdleGNoYW5nZV8yJzogbm9kZV8yLmV4Y2hhbmdlLCAnY3VycmVuY3knOiBub2RlXzEuY3VycmVuY3ksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3N0YXJ0X3F1YW50aXR5Jzogbm9kZV8xX3F1YW50aXR5LCAnZW5kX3F1YW50aXR5Jzogbm9kZV8yX3F1YW50aXR5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdmZWUnOiBmZWUsICd1dWlkJzogTm9uZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnc3RhdHVzJzogVHJhbnNhY3Rpb25TdGF0dXMuTk9UX1BMQUNFRH0pCg==</text>
@@ -996,9 +996,9 @@
       </register>
     </registers>
     <search>
-      <last-search>wallets</last-search>
+      <last-search>min_daily</last-search>
       <last-offset />
-      <last-pattern>wallets</last-pattern>
+      <last-pattern>min_daily</last-pattern>
       <last-replace>param</last-replace>
       <last-substitute>parma</last-substitute>
       <last-dir>1</last-dir>
@@ -1006,7 +1006,6 @@
     </search>
     <history>
       <history-search>
-        <entry>anomalies_in_interval</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>sampling</entry>
         <entry>ui</entry>
@@ -1026,6 +1025,7 @@
         <entry>def trade</entry>
         <entry>transfer</entry>
         <entry>wallets</entry>
+        <entry>min_daily</entry>
       </history-search>
       <history-cmd>
         <entry>%s/n=1000/n=n/g</entry>
