@@ -145,8 +145,8 @@
         <mark key="]" line="35" column="0" />
         <mark key="." line="35" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1544207665868">
-        <mark key="'" line="74" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1544482204250">
+        <mark key="'" line="78" column="4" />
         <mark key="[" line="111" column="0" />
         <mark key="]" line="111" column="0" />
         <mark key="^" line="99" column="35" />
@@ -176,9 +176,10 @@
         <mark key="^" line="1" column="54" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" timestamp="1544480573296">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
+      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" timestamp="1544482371807">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="109" column="0" />
         <mark key="." line="10" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/hyper_tuner.py" timestamp="1543364481034">
@@ -407,8 +408,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="505" column="21" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="1080" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1083" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1099" column="14" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1105" column="41" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -484,7 +483,6 @@
       <jump line="3" column="7" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_with_seasonality.json" />
       <jump line="4" column="7" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
       <jump line="99" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
       <jump line="3" column="7" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_without_seasonality.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_with_seasonality.json" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_without_seasonality.json" />
@@ -506,7 +504,10 @@
       <jump line="65" column="5" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_with_seasonality.json" />
       <jump line="10" column="22" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_with_seasonality.json" />
       <jump line="57" column="5" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
-      <jump line="10" column="22" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
+      <jump line="78" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
+      <jump line="10" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
+      <jump line="3" column="33" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_without_seasonality.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -515,8 +516,117 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="8">
+        <text>{
+  &quot;classes&quot;: {
+    &quot;global_params&quot;: {
+      &quot;interval_s&quot;: &quot;$(interval)&quot;,
+      &quot;pipeline_def&quot;: [
+        &quot;$(pipeline_def)&quot;
+      ]
+    },
+    &quot;live_trainer&quot;: {
+      &quot;params&quot;: {
+        &quot;window_size_s&quot;: &quot;$(window_size)&quot;,
+        &quot;window_increment_s&quot;: 0
+      }
+    },
+    &quot;normalizers&quot;: [
+      {
+        &quot;path&quot;: &quot;opasai.trainers.normalizer.standardscaler_normalizer.StandardScalerNormalizer&quot;
+      },
+      {
+        &quot;path&quot; : &quot;opasai.trainers.normalizer.output_max_clip_normalizer.OutputMaxClipNormalizer&quot;,
+        &quot;params&quot; : {
+          &quot;output_max_clip&quot;: 30
+        }
+      }
+    ],
+    &quot;preprocessors&quot;: [
+      {
+        &quot;path&quot;: &quot;opasai.trainers.preprocessor.drop_pipeline_when_no_matching_io.DropPipelineWhenNoMatchingIO&quot;
+      },
+      {
+        &quot;path&quot; : &quot;opasai.trainers.preprocessor.pipeline_filler.PipelineFiller&quot;,
+        &quot;params&quot; : {
+          &quot;fill_value&quot;: 0
+        }
+      },
+      {
+        &quot;path&quot;: &quot;opasai.trainers.preprocessor.basic_preprocessor.BasicPreprocessor&quot;,
+        &quot;params&quot;: {
+          &quot;look_ahead&quot;: 5
+        }
+      }
+    ],
+    &quot;feature_creators&quot;: [
+      {
+        &quot;path&quot;: &quot;opasai.trainers.feature_creator.identity_feature_creator.IdentityFeatureCreator&quot;,
+        &quot;params&quot;: {
+          &quot;applies_to_outputs&quot;: true,
+          &quot;applies_to_inputs&quot;: true
+        }
+      },
+      {
+        &quot;path&quot;: &quot;opasai.trainers.feature_creator.pipeline_values_feature_creator.PipelineValuesFeatureCreator&quot;
+      }
+    ],
+    &quot;feature_selectors&quot;: [
+    ],
+    &quot;postprocessors&quot;: [
+      {
+        &quot;path&quot;: &quot;opasai.trainers.post_processors.push_predictions_to_storage.PushPredictionsToStorage&quot;
+      },
+      {
+        &quot;path&quot;: &quot;opasai.trainers.post_processors.sort_metrics_by_excitation.SortMetricsByExcitation&quot;
+      },
+      {
+        &quot;path&quot;: &quot;opasai.trainers.post_processors.push_metrics_per_pipeline.PushMetricsPerPipeline&quot;
+      }
+    ],
+    &quot;model&quot; :{
+      &quot;path&quot; : &quot;opasai.trainers.opas_models.fully_connected.FullyConnected&quot;,
+      &quot;params&quot; : {
+        &quot;model_params&quot;: {
+          &quot;hidden_layers&quot;: {
+            &quot;choose&quot;: [
+              [4, 4, 4, 4],
+              [4, 4, 4, 4, 4],
+              [8, 8, 8, 8]
+            ]
+          },
+          &quot;kernel_regularizer&quot;: {
+            &quot;path&quot;: &quot;keras.regularizers.l1_l2&quot;,
+            &quot;params&quot;: {
+              &quot;l1&quot;: 0.01,
+              &quot;l2&quot;: 0.001
+            }
+          }
+        }
+      }
+    },
+    &quot;trainer&quot; : {
+      &quot;path&quot;: &quot;opasai.trainers.trainer.neural_nets_basic_trainer.NeuralNetsBasicTrainer&quot;,
+      &quot;params&quot;: {
+        &quot;train_fraction&quot;:0.7,
+        &quot;num_epochs&quot;: 2000,
+        &quot;batch_size&quot;: 128,
+        &quot;points_to_plot&quot;: 10000,
+        &quot;validation_mode&quot;: &quot;last&quot;,
+        &quot;loss_function&quot;: &quot;mse&quot;,
+        &quot;train_secs&quot;: 21600,
+        &quot;val_secs&quot;: 5400,
+        &quot;buffer_secs&quot;: 600,
+        &quot;early_stopping&quot;: {
+          &quot;min_delta&quot;: 0,
+          &quot;patience&quot;: 100,
+          &quot;mode&quot;: &quot;min&quot;
+        },
+        &quot;pipelines_first&quot;: true
+      }
+    }
+  }
+}</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1064,7 +1174,7 @@
         <text>comment</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICJwb3N0cHJvY2Vzc29ycyI6IFsKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9wcmVkaWN0aW9uc190b19zdG9yYWdlLlB1c2hQcmVkaWN0aW9uc1RvU3RvcmFnZSIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMuc29ydF9tZXRyaWNzX2J5X2V4Y2l0YXRpb24uU29ydE1ldHJpY3NCeUV4Y2l0YXRpb24iCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMucG9zdF9wcm9jZXNzb3JzLnB1c2hfbWV0cmljc19wZXJfcGlwZWxpbmUuUHVzaE1ldHJpY3NQZXJQaXBlbGluZSIKICAgICAgfQogICAgXSwK</text>
+        <text encoding="base64">ewogICJjbGFzc2VzIjogewogICAgImdsb2JhbF9wYXJhbXMiOiB7CiAgICAgICJpbnRlcnZhbF9zIjogIiQoaW50ZXJ2YWwpIiwKICAgICAgInBpcGVsaW5lX2RlZiI6IFsKICAgICAgICAiJChwaXBlbGluZV9kZWYpIgogICAgICBdCiAgICB9LAogICAgImxpdmVfdHJhaW5lciI6IHsKICAgICAgInBhcmFtcyI6IHsKICAgICAgICAid2luZG93X3NpemVfcyI6ICIkKHdpbmRvd19zaXplKSIsCiAgICAgICAgIndpbmRvd19pbmNyZW1lbnRfcyI6IDAKICAgICAgfQogICAgfSwKICAgICJub3JtYWxpemVycyI6IFsKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5ub3JtYWxpemVyLnN0YW5kYXJkc2NhbGVyX25vcm1hbGl6ZXIuU3RhbmRhcmRTY2FsZXJOb3JtYWxpemVyIgogICAgICB9LAogICAgICB7CiAgICAgICAgInBhdGgiIDogIm9wYXNhaS50cmFpbmVycy5ub3JtYWxpemVyLm91dHB1dF9tYXhfY2xpcF9ub3JtYWxpemVyLk91dHB1dE1heENsaXBOb3JtYWxpemVyIiwKICAgICAgICAicGFyYW1zIiA6IHsKICAgICAgICAgICJvdXRwdXRfbWF4X2NsaXAiOiAzMAogICAgICAgIH0KICAgICAgfQogICAgXSwKICAgICJwcmVwcm9jZXNzb3JzIjogWwogICAgICB7CiAgICAgICAgInBhdGgiOiAib3Bhc2FpLnRyYWluZXJzLnByZXByb2Nlc3Nvci5kcm9wX3BpcGVsaW5lX3doZW5fbm9fbWF0Y2hpbmdfaW8uRHJvcFBpcGVsaW5lV2hlbk5vTWF0Y2hpbmdJTyIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIiA6ICJvcGFzYWkudHJhaW5lcnMucHJlcHJvY2Vzc29yLnBpcGVsaW5lX2ZpbGxlci5QaXBlbGluZUZpbGxlciIsCiAgICAgICAgInBhcmFtcyIgOiB7CiAgICAgICAgICAiZmlsbF92YWx1ZSI6IDAKICAgICAgICB9CiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMucHJlcHJvY2Vzc29yLmJhc2ljX3ByZXByb2Nlc3Nvci5CYXNpY1ByZXByb2Nlc3NvciIsCiAgICAgICAgInBhcmFtcyI6IHsKICAgICAgICAgICJsb29rX2FoZWFkIjogNQogICAgICAgIH0KICAgICAgfQogICAgXSwKICAgICJmZWF0dXJlX2NyZWF0b3JzIjogWwogICAgICB7CiAgICAgICAgInBhdGgiOiAib3Bhc2FpLnRyYWluZXJzLmZlYXR1cmVfY3JlYXRvci5pZGVudGl0eV9mZWF0dXJlX2NyZWF0b3IuSWRlbnRpdHlGZWF0dXJlQ3JlYXRvciIsCiAgICAgICAgInBhcmFtcyI6IHsKICAgICAgICAgICJhcHBsaWVzX3RvX291dHB1dHMiOiB0cnVlLAogICAgICAgICAgImFwcGxpZXNfdG9faW5wdXRzIjogdHJ1ZQogICAgICAgIH0KICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlX2NyZWF0b3IucGlwZWxpbmVfdmFsdWVzX2ZlYXR1cmVfY3JlYXRvci5QaXBlbGluZVZhbHVlc0ZlYXR1cmVDcmVhdG9yIgogICAgICB9CiAgICBdLAogICAgImZlYXR1cmVfc2VsZWN0b3JzIjogWwogICAgXSwKICAgICJwb3N0cHJvY2Vzc29ycyI6IFsKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9wcmVkaWN0aW9uc190b19zdG9yYWdlLlB1c2hQcmVkaWN0aW9uc1RvU3RvcmFnZSIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMuc29ydF9tZXRyaWNzX2J5X2V4Y2l0YXRpb24uU29ydE1ldHJpY3NCeUV4Y2l0YXRpb24iCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMucG9zdF9wcm9jZXNzb3JzLnB1c2hfbWV0cmljc19wZXJfcGlwZWxpbmUuUHVzaE1ldHJpY3NQZXJQaXBlbGluZSIKICAgICAgfQogICAgXSwKICAgICJtb2RlbCIgOnsKICAgICAgInBhdGgiIDogIm9wYXNhaS50cmFpbmVycy5vcGFzX21vZGVscy5mdWxseV9jb25uZWN0ZWQuRnVsbHlDb25uZWN0ZWQiLAogICAgICAicGFyYW1zIiA6IHsKICAgICAgICAibW9kZWxfcGFyYW1zIjogewogICAgICAgICAgImhpZGRlbl9sYXllcnMiOiB7CiAgICAgICAgICAgICJjaG9vc2UiOiBbCiAgICAgICAgICAgICAgWzQsIDQsIDQsIDRdLAogICAgICAgICAgICAgIFs0LCA0LCA0LCA0LCA0XSwKICAgICAgICAgICAgICBbOCwgOCwgOCwgOF0KICAgICAgICAgICAgXQogICAgICAgICAgfSwKICAgICAgICAgICJrZXJuZWxfcmVndWxhcml6ZXIiOiB7CiAgICAgICAgICAgICJwYXRoIjogImtlcmFzLnJlZ3VsYXJpemVycy5sMV9sMiIsCiAgICAgICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAgICAgImwxIjogMC4wMSwKICAgICAgICAgICAgICAibDIiOiAwLjAwMQogICAgICAgICAgICB9CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICB9LAogICAgInRyYWluZXIiIDogewogICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMudHJhaW5lci5uZXVyYWxfbmV0c19iYXNpY190cmFpbmVyLk5ldXJhbE5ldHNCYXNpY1RyYWluZXIiLAogICAgICAicGFyYW1zIjogewogICAgICAgICJ0cmFpbl9mcmFjdGlvbiI6MC43LAogICAgICAgICJudW1fZXBvY2hzIjogMjAwMCwKICAgICAgICAiYmF0Y2hfc2l6ZSI6IDEyOCwKICAgICAgICAicG9pbnRzX3RvX3Bsb3QiOiAxMDAwMCwKICAgICAgICAidmFsaWRhdGlvbl9tb2RlIjogImxhc3QiLAogICAgICAgICJsb3NzX2Z1bmN0aW9uIjogIm1zZSIsCiAgICAgICAgInRyYWluX3NlY3MiOiAyMTYwMCwKICAgICAgICAidmFsX3NlY3MiOiA1NDAwLAogICAgICAgICJidWZmZXJfc2VjcyI6IDYwMCwKICAgICAgICAiZWFybHlfc3RvcHBpbmciOiB7CiAgICAgICAgICAibWluX2RlbHRhIjogMCwKICAgICAgICAgICJwYXRpZW5jZSI6IDEwMCwKICAgICAgICAgICJtb2RlIjogIm1pbiIKICAgICAgICB9LAogICAgICAgICJwaXBlbGluZXNfZmlyc3QiOiB0cnVlCiAgICAgIH0KICAgIH0KICB9Cn0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
