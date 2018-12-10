@@ -18,12 +18,12 @@
       <file name="/a.dummy" timestamp="1544399875094">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1544461473545">
-        <mark key="'" line="200" column="83" />
-        <mark key="[" line="193" column="73" />
-        <mark key="]" line="193" column="93" />
-        <mark key="." line="193" column="93" />
-        <mark key="^" line="193" column="93" />
+      <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1544464556303">
+        <mark key="'" line="202" column="75" />
+        <mark key="[" line="198" column="36" />
+        <mark key="]" line="201" column="50" />
+        <mark key="." line="201" column="50" />
+        <mark key="^" line="201" column="50" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1544415986197">
         <mark key="'" line="222" column="0" />
@@ -282,7 +282,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="7" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="38" column="13" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="15" column="34" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="76" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/analyze_summaries.py" />
@@ -375,13 +374,14 @@
       <jump line="186" column="11" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="190" column="61" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="192" column="59" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="194" column="38" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="152" column="51" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="153" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="154" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="176" column="95" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="177" column="94" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="200" column="83" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="194" column="8" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
+      <jump line="202" column="75" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -390,8 +390,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>d</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -933,22 +933,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>normal_pred_std</text>
       </register>
       <register name="/" type="4">
         <text>,</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgbm90IG9zLnBhdGguaXNmaWxlKHNlbGYuZGJfYWJzX3BhdGgpCg==</text>
+        <text encoding="base64">ICAgICAgICBkbWtfdG9fbm9ybWFsX3ByZWRfbWVhbnMgPSBzZWxmLm1vZGVsLnBpcGVsaW5lLm1hcF9waXBlbGluZV9rZXlzX3RvX21ldHJpY3Mobm9ybWFsX3ByZWRpY3RlZF9tZWFucykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIG0gaW4gdHJ1bmNhdGVkX3ByZWRpY3RlZF9tZXRyaWNzXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbm9ybWFsX3ByZWRfc3RkID0gZG1rX3RvX25vcm1hbF9wcmVkX3N0ZHNbZG1rXQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -962,10 +962,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBub3JtYWxfbWV0cmljcyA9IFttLmRlZXBjb3B5KCkgZm9yIG0gaW4gdHJ1bmNhdGVkX3ByZWRpY3RlZF9tZXRyaWNzXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbm9ybWFsX3ByZWRfbWVhbiA9IGRta190b19ub3JtYWxfcHJlZF9tZWFuc1tkbWtdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5vdyB3ZSBoYXZlIHRvIGRvIGFuIFJDQSBwZXIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHppcCh0cnVuY2F0ZWRfcHJlZGljdGVkX21ldHJpY3MsIG5vcm1hbF9wcmVkaWN0ZWRfbWVhbnMsIG5vcm1hbF9wcmVkaWN0ZWRfc3Rkcyk6Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1033,36 +1033,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNvbXB1dGUgdGhlIHByZWRpY3Rpb25zIGZvciB0aGUgZ2l2ZW4gaW5wdXRzCiAgICAgICAgcGlwZWxpbmVfdmFsdWVzID0gc2VsZi5tb2RlbC5waXBlbGluZS5zb3J0ZWRfcGlwZWxpbmVzKHRydW5jYXRlZF9vdXRwdXRfbWV0cmljcykK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgdHJ1bmNhdGVkX3ByZWRpY3RlZF9tZXRyaWMsIG5vcm1hbF9wcmVkX21lYW4sIG5vcm1hbF9wcmVkX3N0ZCBpbiBcCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNvbXB1dGUgdGhlIHByZWRpY3Rpb25zIGZvciB0aGUgZ2l2ZW4gaW5wdXRzCiAgICAgICAgcGlwZWxpbmVfdmFsdWVzID0gc2VsZi5tb2RlbC5waXBlbGluZS5zb3J0ZWRfcGlwZWxpbmVzKHRydW5jYXRlZF9vdXRwdXRfbWV0cmljcykKCg==</text>
+        <text encoding="base64">ICAgICAgICAjIHBpcGVsaW5lX2RlZiA9IFsnaG9zdCddIGFuZCBwaXZvdHMgPSBbJ2hvc3QnLCAnc2NvcGUnXSB0aGVuIG91dHB1dF9zY29wZV8xIGFuZCBvdXRwdXRfc2NvcGVfMgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIHRvIGJlIHRoZSBtZWFuIG9mIHRoZSBtZXRyaWMuIFRoaXMgd2lsbCBiZSB1c2VkIHRvIGNvbXB1dGUgdGhlIHBjdCBjaGFuZ2UgaW4gdGhlIGFub21hbHkgaW4gdGhlCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBydSltYXBfcGlwZWxpbmVfdG9fbWV0cmljcyh0cnVuY2F0ZWRfb3V0cHV0X21ldHJpY3MpLmtleXMoKQo=</text>
+        <text encoding="base64">ICAgICAgICAjIENvbXB1dGluZyB0aGUgYW5vbWFseSBzY29yZSBmb3Igd2hlbiBlYWNoIG9mIHRoZSBvdXRwdXQgbWV0cmljcyBpcyBub3JtYWwuIEhlcmUgbm9ybWFsIGlzIGFzc3VtZWQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzdW1tYXJ5X3dyaXRlcik6CiAgICAgICAgVHJhbnNhY3Rpb25zVHJhZGVyLl9faW5pdF9fKHN1bW1hcnlfd3JpdGVyKQoK</text>
+        <text encoding="base64">ICAgICAgICAjIHBpcGVsaW5lX2RlZiA9IFsnaG9zdCddIGFuZCBwaXZvdHMgPSBbJ2hvc3QnLCAnc2NvcGUnXSB0aGVuIG91dHB1dF9zY29wZV8xIGFuZCBvdXRwdXRfc2NvcGVfMgo=</text>
       </register>
       <register name=":" type="4">
-        <text>68</text>
+        <text>s/means/stds/g</text>
       </register>
     </registers>
     <search>
       <last-search>,</last-search>
       <last-offset />
       <last-pattern>,</last-pattern>
-      <last-replace>transactions_trader.TRANSACTIONS_TABLE_NAME</last-replace>
-      <last-substitute>'dummy_transactions'</last-substitute>
+      <last-replace>stds</last-replace>
+      <last-substitute>means</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>transfer</entry>
         <entry>wallets</entry>
         <entry>min_daily</entry>
         <entry>dummy_</entry>
@@ -1081,10 +1080,10 @@
         <entry>orig_pred_metric</entry>
         <entry>normal</entry>
         <entry>normal_pred</entry>
+        <entry>means</entry>
         <entry>,</entry>
       </history-search>
       <history-cmd>
-        <entry>83</entry>
         <entry>561</entry>
         <entry>778</entry>
         <entry>qa</entry>
@@ -1104,6 +1103,7 @@
         <entry>47</entry>
         <entry>wq</entry>
         <entry>68</entry>
+        <entry>s/means/stds/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
