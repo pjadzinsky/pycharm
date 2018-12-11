@@ -6,9 +6,6 @@
       <file name="$USER_HOME$/crypto/crypto/crypto/aws_secrets_example.py" timestamp="1544374904168">
         <mark key="'" line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" timestamp="1544383005316">
-        <mark key="'" line="44" column="33" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_suggestions.py" timestamp="1544047772376">
         <mark key="'" line="5" column="38" />
       </file>
@@ -47,6 +44,9 @@
         <mark key="[" line="72" column="0" />
         <mark key="]" line="72" column="0" />
         <mark key="." line="72" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1544552123738">
+        <mark key="'" line="12" column="44" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1544415830467">
         <mark key="'" line="227" column="30" />
@@ -122,6 +122,13 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="21" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_1_rf.json" timestamp="1544552931003">
+        <mark key="'" line="24" column="21" />
+        <mark key="[" line="3" column="20" />
+        <mark key="]" line="3" column="20" />
+        <mark key="." line="3" column="20" />
+        <mark key="^" line="3" column="20" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/summary_analysis/shortest_staples.py" timestamp="1544416815096">
         <mark key="'" line="54" column="0" />
@@ -359,9 +366,6 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="/eliminate_anomaly.py" timestamp="1544460812024">
-        <mark key="'" line="333" column="20" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/drop_sentinel_rows.py" timestamp="1542665186817">
         <mark key="[" line="88" column="16" />
         <mark key="]" line="88" column="30" />
@@ -431,15 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="172" column="8" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="174" column="53" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="181" column="86" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="186" column="11" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="190" column="61" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="192" column="59" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="152" column="51" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="153" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
-      <jump line="154" column="15" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="176" column="95" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="177" column="94" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="200" column="83" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
@@ -531,6 +526,15 @@
       <jump line="175" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_1.json" />
       <jump line="204" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_1.json" />
       <jump line="230" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_1.json" />
+      <jump line="24" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_1_rf.json" />
+      <jump line="56" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="57" column="101" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="66" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="90" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="92" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="96" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="145" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
+      <jump line="12" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -540,7 +544,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>Firefly_Cluster</text>
+        <text>neural_nets_basic_trainer</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1082,22 +1086,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Firefly_Cluster</text>
+        <text>neural_nets_basic_trainer</text>
       </register>
       <register name="/" type="4">
-        <text>Fire</text>
+        <text>n_</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsKICAgICAgICAibWVhc3VyZW1lbnQiOgogICAgICAgICJleHByZXNzaW9uIjoKICAgICAgICAidGFncyI6IHsKICAgICAgICB9LAogICAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgXQogICAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAiY29tbWVudCI6ICIkKGNvbW1lbnQpIiwK</text>
+        <text encoding="base64">ICAgICAgICB9LAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IH0K</text>
+        <text encoding="base64">ICAgICAgICAgICJtb2RlIjogIm1pbiIK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1111,10 +1115,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucGxvdF9wb3N0X3Byb2Nlc3Nvci5QbG90UG9zdFByb2Nlc3NvciIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9tZXRyaWNzX3Blcl9waXBlbGluZS5QdXNoTWV0cmljc1BlclBpcGVsaW5lIgogICAgICB9LAo=</text>
+        <text encoding="base64">ICAgICAgICAgICJwYXRpZW5jZSI6IDEwMCwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICJtaW5fZGVsdGEiOiAwLAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1182,28 +1186,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAicGFyYW1zIjoge30K</text>
+        <text encoding="base64">ICAgICAgICAiZWFybHlfc3RvcHBpbmciOiB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAicGFyYW1zIjoge30K</text>
+        <text encoding="base64">ICAgICAgICAiYnVmZmVyX3NlY3MiOiA2MDAsCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICwK</text>
+        <text encoding="base64">ICAgICAgICAidmFsX3NlY3MiOiA1NDAwLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgICAgICAidHJhaW5fc2VjcyI6IDIxNjAwLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICJpbnB1dHMiOiBbCiAgICAgICAgewogICAgICAgICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICAgICAgICJleHByZXNzaW9uIjogIm1lYW4oT25lTWludXRlUmF0ZSkiLAogICAgICAgICAgICAidGFncyI6IHsKICAgICAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgICAgICJSZWFkTGF0ZW5jeSIsCiAgICAgICAgICAgICAgICAgICAgIldyaXRlTGF0ZW5jeSIKICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgInBpdm90cyI6IFsKICAgICAgICAgICAgICAgICJuYW1lIiwKICAgICAgICAgICAgICAgICJob3N0IiwKICAgICAgICAgICAgICAgICJzY29wZSIKICAgICAgICAgICAgXQogICAgICAgIH0sCiAgICBdLAo=</text>
+        <text encoding="base64">ICAgICAgICAiYmF0Y2hfc2l6ZSI6IDEyOCwK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Fire</last-search>
+      <last-search>n_</last-search>
       <last-offset />
-      <last-pattern>Fire</last-pattern>
+      <last-pattern>n_</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute encoding="base64">IDo=</last-substitute>
       <last-dir>1</last-dir>
@@ -1211,8 +1215,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">IGEg</entry>
-        <entry>model</entry>
         <entry>orig_pred_metric</entry>
         <entry>normal</entry>
         <entry>normal_pred</entry>
@@ -1231,6 +1233,8 @@
         <entry>def .*bulk</entry>
         <entry>$</entry>
         <entry>Fire</entry>
+        <entry>model</entry>
+        <entry>n_</entry>
       </history-search>
       <history-cmd>
         <entry>154</entry>
