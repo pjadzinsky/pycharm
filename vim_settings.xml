@@ -38,8 +38,8 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="4" column="21" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1544659084686">
-        <mark key="'" line="275" column="8" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1544659474985">
+        <mark key="'" line="449" column="26" />
         <mark key="[" line="72" column="0" />
         <mark key="]" line="72" column="0" />
         <mark key="." line="72" column="0" />
@@ -135,7 +135,7 @@
         <mark key="." line="5" column="50" />
         <mark key="^" line="5" column="50" />
       </file>
-      <file name="/Python Console" timestamp="1544657919689">
+      <file name="/Python Console" timestamp="1544660024373">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="23" />
@@ -214,11 +214,11 @@
         <mark key="^" line="22" column="89" />
         <mark key="." line="26" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" timestamp="1544658877190">
-        <mark key="[" line="117" column="0" />
-        <mark key="]" line="117" column="0" />
-        <mark key="^" line="116" column="57" />
-        <mark key="." line="117" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" timestamp="1544660013408">
+        <mark key="[" line="136" column="0" />
+        <mark key="]" line="136" column="0" />
+        <mark key="." line="136" column="0" />
+        <mark key="^" line="135" column="57" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/__init__.py" timestamp="1543781223557">
         <mark key="[" line="4" column="0" />
@@ -598,7 +598,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="153" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="157" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="170" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -698,6 +697,7 @@
       <jump line="195" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/opas_models_utils.py" />
       <jump line="275" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="449" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -706,8 +706,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>queries['not_used'][0]e</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG0ua2V5LnRhZ3NbJ2hvc3QnXSA9IHR1cGxlKG0ua2V5LnRhZ3NbJ2hvc3QnXSkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1252,19 +1252,19 @@
         <text>queries['not_used'][0]e</text>
       </register>
       <register name="/" type="4">
-        <text>update</text>
+        <text>def rep</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBsb2FkKHNlbGYsIGludGVydmFsLCBzdGFydF9lcG9jaD1Ob25lLCBlbmRfZXBvY2g9Tm9uZSwgZHVyYXRpb249Tm9uZSwgZm9yd2FyZF9maWxsPVRydWUsICoqa3dhcmdzKToK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBxLnRhZ3NbJ2NsdXN0ZXInXSA9IChjbHVzdGVyLCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG0ua2V5LnRhZ3NbJ2hvc3QnXSA9IHR1cGxlKG0ua2V5LnRhZ3NbJ2hvc3QnXSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGZvciBxIGluIHF1ZXJpZXNbJ25vdF91c2VkJ106Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1278,10 +1278,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICwgYWNjb3VudF9pZCwgaW5wdXRfZmxhZz1GYWxzZSwgaXNfcHJlZGljdGlvbj1UcnVlKQo=</text>
+        <text encoding="base64">ICAgICAgICBxLnRhZ3NbJ2NsdXN0ZXInXSA9IChjbHVzdGVyLCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGZvcndhcmRfZmlsbD1UcnVlLCAqKmt3YXJncyk6Cg==</text>
+        <text encoding="base64">ICAgIGZvciBxIGluIHF1ZXJpZXNbJ25vdF91c2VkJ106Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1349,28 +1349,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICwgYWNjb3VudF9pZCwgaW5wdXRfZmxhZz1GYWxzZSwgaXNfcHJlZGljdGlvbj1UcnVlKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgIGZvcndhcmRfZmlsbD1UcnVlLCAqKmt3YXJncyk6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcXVlcnkgPSBrZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBxdWVyeSA9IGRtay50b19xdWVyeSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcXVlcnkgPSBrZQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>update</last-search>
+      <last-search>def rep</last-search>
       <last-offset />
-      <last-pattern>update</last-pattern>
+      <last-pattern>def rep</last-pattern>
       <last-replace>pipeline_value</last-replace>
       <last-substitute>pipeline_name</last-substitute>
       <last-dir>1</last-dir>
@@ -1378,7 +1378,6 @@
     </search>
     <history>
       <history-search>
-        <entry>mp</entry>
         <entry>,</entry>
         <entry>def metrics_du</entry>
         <entry>pipeline_name</entry>
@@ -1398,6 +1397,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>class Pi.*V</entry>
         <entry>update</entry>
+        <entry>def rep</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
