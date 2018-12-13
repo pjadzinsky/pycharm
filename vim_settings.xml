@@ -362,9 +362,9 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" timestamp="1544637132506">
         <mark key="[" line="72" column="41" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_3_rf.json" timestamp="1544730477891">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="167" column="10" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_3_rf.json" timestamp="1544730945893">
+        <mark key="'" line="167" column="8" />
+        <mark key="[" line="100" column="42" />
         <mark key="]" line="167" column="8" />
         <mark key="." line="167" column="8" />
         <mark key="^" line="167" column="8" />
@@ -448,7 +448,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="189" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/combined_model.py" />
       <jump line="285" column="3" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
       <jump line="7" column="40" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
@@ -548,6 +547,7 @@
       <jump line="135" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
       <jump line="136" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
       <jump line="141" column="97" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
+      <jump line="167" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_3_rf.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1102,7 +1102,7 @@
         <text>OneMinuteRate</text>
       </register>
       <register name="/" type="4">
-        <text>not_</text>
+        <text>model</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiT25lTWludXRlUmF0ZVwiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgXSwKICAgICAgICAia2V5c3BhY2UiOiBbCiAgICAgICAgICAiZmlyZWZseSIKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIlJlYWRMYXRlbmN5IiwKICAgICAgICAgICJXcml0ZUxhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0K</text>
@@ -1218,9 +1218,9 @@
       </register>
     </registers>
     <search>
-      <last-search>not_</last-search>
+      <last-search>model</last-search>
       <last-offset />
-      <last-pattern>not_</last-pattern>
+      <last-pattern>model</last-pattern>
       <last-replace>pipeline_value</last-replace>
       <last-substitute>pipeline_name</last-substitute>
       <last-dir>1</last-dir>
@@ -1228,7 +1228,6 @@
     </search>
     <history>
       <history-search>
-        <entry>string_utils</entry>
         <entry>ues</entry>
         <entry>def to</entry>
         <entry encoding="base64">ZGVmIA==</entry>
@@ -1248,6 +1247,7 @@
         <entry>featur</entry>
         <entry>not</entry>
         <entry>not_</entry>
+        <entry>model</entry>
       </history-search>
       <history-cmd>
         <entry>68</entry>
