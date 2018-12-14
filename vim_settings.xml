@@ -260,12 +260,12 @@
         <mark key="." line="68" column="90" />
         <mark key="^" line="68" column="90" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query_creator.py" timestamp="1544649863044">
-        <mark key="'" line="75" column="21" />
-        <mark key="[" line="70" column="76" />
-        <mark key="]" line="70" column="77" />
-        <mark key="." line="70" column="76" />
-        <mark key="^" line="70" column="77" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query_creator.py" timestamp="1544760285262">
+        <mark key="'" line="84" column="0" />
+        <mark key="[" line="83" column="67" />
+        <mark key="]" line="83" column="65" />
+        <mark key="." line="83" column="65" />
+        <mark key="^" line="83" column="65" />
       </file>
       <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_fully_connected_with_seasonality.json" timestamp="1544480569210">
         <mark key="[" line="10" column="0" />
@@ -372,7 +372,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="128" column="97" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="130" column="36" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="127" column="35" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" />
       <jump line="152" column="83" filename="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/tests/test_eliminate_anomaly.py" />
@@ -472,6 +471,7 @@
       <jump line="350" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
       <jump line="90" column="61" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="13" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="84" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query_creator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -480,8 +480,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmsxID0gbWV0cmljX2tleS5NZXRyaWNLZXkoJ2YxJywgJ20xJywgeydob3N0JzogKCdob3N0MScsKSwgJ2EnOiAoJ2EnLCl9KQogICAgICAgIHNlbGYuazIgPSBtZXRyaWNfa2V5Lk1ldHJpY0tleSgnZjEnLCAnbTEnLCB7J2hvc3QnOiAoJ2hvc3QxJywpLCAnc2NvcGUnOiAoJ3Njb3BlMScsKSwgJ2EnOiAoJ2EnLCl9KQogICAgICAgIHNlbGYuazMgPSBtZXRyaWNfa2V5Lk1ldHJpY0tleSgnZjEnLCAnbTInLCB7J2hvc3QnOiAoJ2hvc3QxJywpLCAnYSc6ICgnYScsKX0pCg==</text>
+      <register name="&quot;" type="4">
+        <text>mean</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1023,10 +1023,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>hints</text>
+        <text>mean</text>
       </register>
       <register name="/" type="4">
-        <text>def test_sor</text>
+        <text>mean</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmsxID0gbWV0cmljX2tleS5NZXRyaWNLZXkoJ2YxJywgJ20xJywgeydob3N0JzogKCdob3N0MScsKSwgJ2EnOiAoJ2EnLCl9KQogICAgICAgIHNlbGYuazIgPSBtZXRyaWNfa2V5Lk1ldHJpY0tleSgnZjEnLCAnbTEnLCB7J2hvc3QnOiAoJ2hvc3QxJywpLCAnc2NvcGUnOiAoJ3Njb3BlMScsKSwgJ2EnOiAoJ2EnLCl9KQogICAgICAgIHNlbGYuazMgPSBtZXRyaWNfa2V5Lk1ldHJpY0tleSgnZjEnLCAnbTInLCB7J2hvc3QnOiAoJ2hvc3QxJywpLCAnYSc6ICgnYScsKX0pCg==</text>
@@ -1142,9 +1142,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def test_sor</last-search>
+      <last-search>mean</last-search>
       <last-offset />
-      <last-pattern>def test_sor</last-pattern>
+      <last-pattern>mean</last-pattern>
       <last-replace>pipeline_value</last-replace>
       <last-substitute>pipeline_name</last-substitute>
       <last-dir>1</last-dir>
@@ -1152,7 +1152,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ioan</entry>
         <entry>NOT</entry>
         <entry>print</entry>
         <entry>def load</entry>
@@ -1172,6 +1171,7 @@
         <entry>Write</entry>
         <entry>Total</entry>
         <entry>def test_sor</entry>
+        <entry>mean</entry>
       </history-search>
       <history-cmd>
         <entry>s/means/stds/g</entry>
