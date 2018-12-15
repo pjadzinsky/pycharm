@@ -100,12 +100,12 @@
         <mark key="^" line="178" column="24" />
         <mark key="." line="178" column="28" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1544833766939">
-        <mark key="'" line="618" column="97" />
-        <mark key="[" line="642" column="0" />
-        <mark key="]" line="642" column="0" />
-        <mark key="^" line="642" column="18" />
-        <mark key="." line="642" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1544847216128">
+        <mark key="'" line="1398" column="4" />
+        <mark key="[" line="646" column="39" />
+        <mark key="]" line="1404" column="0" />
+        <mark key="^" line="1404" column="0" />
+        <mark key="." line="1404" column="0" />
       </file>
       <file name="/" timestamp="1544824174992">
         <mark key="[" line="0" column="0" />
@@ -120,7 +120,7 @@
         <mark key="." line="215" column="73" />
         <mark key="^" line="215" column="73" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" timestamp="1544821693725">
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" timestamp="1544846352302">
         <mark key="'" line="82" column="0" />
         <mark key="[" line="137" column="82" />
         <mark key="]" line="137" column="82" />
@@ -152,7 +152,7 @@
         <mark key="^" line="14" column="63" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1544832518704">
+      <file name="/Python Console" timestamp="1544847143425">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1544819249550">
@@ -590,10 +590,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="282" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="392" column="88" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="168" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/query_creator.py" />
-      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/query_creator.py" />
       <jump line="127" column="66" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/query_creator.py" />
       <jump line="70" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query_creator.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query_creator.py" />
@@ -690,6 +686,10 @@
       <jump line="536" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="572" column="75" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="618" column="97" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="622" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1402" column="72" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="636" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1398" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -698,8 +698,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwb29sID0gTm9uZQo=</text>
+      <register name="&quot;" type="4">
+        <text>model_pawmrams</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1241,22 +1241,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>identifying</text>
+        <text>model_pawmrams</text>
       </register>
       <register name="/" type="4">
-        <text>pool</text>
+        <text>in</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLm9wYXNfbW9kZWwua3BpX21vZGVsX3NldHRpbmcucHJvZ3Jlc3MoU3RhZ2VTdGF0ZS5UUkFJTklORywgMCwgJ3N0YXJ0aW5nIG5uZXQgdHJhaW5pbmcuLi4nKQo=</text>
+        <text encoding="base64">ICAgIGlucHV0X3NoYXBlID0gcGFyYW1zWydpbnB1dF9zaGFwZSddCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwb29sID0gTm9uZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2NoZWNrcG9pbnRlZCBlcG9jaDoge30ve30gdmFsOiB7Oi4yZn0nLmZvcm1hdChlcG9jaCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLm9wYXNfbW9kZWwudHJhaW5lci4sb2xkX2xvc3MpKQo=</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbHMgPSBbc2VsZi5jcmVhdGVfbW9kZWwoaW5wdXRfc2hhcGUsIG91dHB1dF9zaGFwZSwgcCkgZm9yIHAgaW4gbW9kZWxfcGFyYW1zXQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1270,10 +1270,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5vcGFzX21vZGVsLmtwaV9tb2RlbF9zZXR0aW5nLnByb2dyZXNzKFN0YWdlU3RhdGUuVFJBSU5JTkcsIHByb2dyZXNzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2NoZWNrcG9pbnRlZCBlcG9jaDoge30gdmFsOiB7Oi4yZn0nLmZvcm1hdChlcG9jaCwgbmV3X2xvc3MpKQo=</text>
+        <text encoding="base64">ICAgICAgICBwb29sID0gTm9uZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLm9wYXNfbW9kZWwua3BpX21vZGVsX3NldHRpbmcucHJvZ3Jlc3MoU3RhZ2VTdGF0ZS5UUkFJTklORywgMCwgJ3N0YXJ0aW5nIG5uZXQgdHJhaW5pbmcuLi4nKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2NoZWNrcG9pbnRlZCBlcG9jaDoge30ve30gdmFsOiB7Oi4yZn0nLmZvcm1hdChlcG9jaCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLm9wYXNfbW9kZWwudHJhaW5lci4sb2xkX2xvc3MpKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1341,28 +1341,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBvcGFzX21vZGVsLmsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5vcGFzX21vZGVsLmtwaV9tb2RlbF9zZXR0aW5nLnByb2dyZXNzKFN0YWdlU3RhdGUuVFJBSU5JTkcsIHByb2dyZXNzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2NoZWNrcG9pbnRlZCBlcG9jaDoge30gdmFsOiB7Oi4yZn0nLmZvcm1hdChlcG9jaCwgbmV3X2xvc3MpKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PT09PT09PQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm9wYXNfbW9kZWwua3BpX21vZGVsX3NldHRpbmcucHJvZ3Jlc3MoU3RhZ2VTdGF0ZS5UUkFJTklORywgMCwgJ3N0YXJ0aW5nIG5uZXQgdHJhaW5pbmcuLi4nKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">ICAgICAgICBvcGFzX21vZGVsLmsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
       <register name=":" type="4">
         <text>656</text>
       </register>
     </registers>
     <search>
-      <last-search>pool</last-search>
+      <last-search>in</last-search>
       <last-offset />
-      <last-pattern>pool</last-pattern>
+      <last-pattern>in</last-pattern>
       <last-replace>filter_tags</last-replace>
       <last-substitute>tags</last-substitute>
       <last-dir>1</last-dir>
@@ -1370,8 +1370,6 @@
     </search>
     <history>
       <history-search>
-        <entry>class Sto</entry>
-        <entry>schema</entry>
         <entry>tags</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>Schema</entry>
@@ -1390,6 +1388,8 @@
         <entry>trainer</entry>
         <entry>trainer&quot;</entry>
         <entry>pool</entry>
+        <entry>create_model</entry>
+        <entry>in</entry>
       </history-search>
       <history-cmd>
         <entry>132</entry>
