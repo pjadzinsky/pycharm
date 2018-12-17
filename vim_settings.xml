@@ -77,12 +77,6 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/all_to_load_nnet.yaml" timestamp="1544832478336">
         <mark key="'" line="6" column="10" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1545070508093">
-        <mark key="[" line="497" column="62" />
-        <mark key="]" line="497" column="71" />
-        <mark key="." line="497" column="71" />
-        <mark key="^" line="497" column="71" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/settings/kpi_stage_model_setting.py" timestamp="1544831630968">
         <mark key="'" line="3" column="6" />
       </file>
@@ -130,8 +124,14 @@
         <mark key="." line="290" column="54" />
         <mark key="^" line="290" column="54" />
       </file>
-      <file name="/Python Console" timestamp="1545070513415">
+      <file name="/Python Console" timestamp="1545071601115">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1545071906680">
+        <mark key="[" line="252" column="35" />
+        <mark key="]" line="254" column="11" />
+        <mark key="^" line="254" column="11" />
+        <mark key="." line="254" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_1_rf.json" timestamp="1544564738206">
         <mark key="'" line="102" column="28" />
@@ -270,8 +270,8 @@
         <mark key="." line="102" column="0" />
         <mark key="^" line="86" column="92" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1545068115640">
-        <mark key="'" line="28" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" timestamp="1545071375433">
+        <mark key="'" line="319" column="70" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/all_to_load_nnet.yaml" timestamp="1544501182915">
         <mark key="'" line="8" column="31" />
@@ -434,30 +434,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="57" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
-      <jump line="28" column="57" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" />
-      <jump line="180" column="66" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" />
-      <jump line="181" column="66" filename="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_store.py" />
-      <jump line="100" column="49" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_kpi_causation_stage.py" />
-      <jump line="55" column="39" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_kpi_causation_stage.py" />
-      <jump line="134" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="3" column="6" filename="$USER_HOME$/opas/core/python/opasai/common/settings/kpi_stage_model_setting.py" />
-      <jump line="39" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_model_checkpoint.py" />
-      <jump line="642" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1171" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1173" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1191" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1193" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1313" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="417" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="6" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="15" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="18" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="26" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="29" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="40" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
-      <jump line="43" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
       <jump line="49" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
       <jump line="57" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
       <jump line="64" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_4_rf.yaml" />
@@ -534,6 +510,30 @@
       <jump line="1292" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="247" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
       <jump line="245" column="4" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
+      <jump line="246" column="7" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="200" column="63" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="203" column="64" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="319" column="70" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="497" column="71" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="524" column="34" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="528" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="552" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="553" column="23" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="555" column="60" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="563" column="41" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="568" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="580" column="43" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="587" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="589" column="82" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="621" column="36" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="624" column="107" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="638" column="51" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="655" column="39" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="660" column="80" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="678" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="699" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="742" column="53" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -542,8 +542,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>field</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmZpZ1tQX0lOUFVUU10uZXh0ZW5kKG5ld19pbnB1dHMpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1088,19 +1088,19 @@
         <text>field</text>
       </register>
       <register name="/" type="4">
-        <text>def get_i</text>
+        <text>field</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCgncGFibG86IGxvYWRfZnJvbV9sb2NhbF9mb2xkZXInKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGV4Y2VwdDoKICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmZpZ1tQX0lOUFVUU10uZXh0ZW5kKG5ld19pbnB1dHMpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1114,10 +1114,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIHN0cmluZ191dGlscy52YWxpZGF0ZV9leHByZXNzaW9uKGV4cHJlc3Npb24pCg==</text>
+        <text encoding="base64">ICAgIGV4Y2VwdDoKICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">ICAgIHRyeToK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1185,28 +1185,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChxdWVyeS5fX2RpY3RfXykK</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIHN0cmluZ191dGlscy52YWxpZGF0ZV9leHByZXNzaW9uKGV4cHJlc3Npb24pCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBxdWVyeSA9IFF1ZXJ5KCwK</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpbmdfdXRpbHMuZXhwcmVzc2lvbl90b19maWVsZCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludChxdWVyeS5fX2RpY3RfXykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIFBKLCB0aGlzIGlzIHVwbG9hZGluZyBkaXJlY3RseSB0byBzMyByYXRoZXIgdGhhbiBzYXZpbmcgdG8gYSBsb2NhbCBmb2xkZXIK</text>
+        <text encoding="base64">ICAgICAgICBxdWVyeSA9IFF1ZXJ5KCwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGxheW91dCA9IGh2LkxheW91dCgpCiAgICBmb3IgZSBpbiBbJ3BvbG9uaWV4JywgJ2JpdHRyZXgnLCAnaGl0YnRjMiddOgogICAgICAgIGxheW91dCArPSBzY2F0dGVyLnNlbGVjdChlbmRfZXhjaGFuZ2U9ZSkK</text>
+        <text encoding="base64">ICAgICAgICBzdHJpbmdfdXRpbHMuZXhwcmVzc2lvbl90b19maWVsZCgpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>387</text>
       </register>
     </registers>
     <search>
-      <last-search>def get_i</last-search>
+      <last-search>field</last-search>
       <last-offset />
-      <last-pattern>def get_i</last-pattern>
+      <last-pattern>field</last-pattern>
       <last-replace>filter_tags</last-replace>
       <last-substitute>tags</last-substitute>
       <last-dir>1</last-dir>
@@ -1214,7 +1214,6 @@
     </search>
     <history>
       <history-search>
-        <entry>field</entry>
         <entry>progress</entry>
         <entry>trainer</entry>
         <entry>trainer&quot;</entry>
@@ -1234,10 +1233,9 @@
         <entry>def sav</entry>
         <entry>def add_inputs</entry>
         <entry>def get_i</entry>
+        <entry>field</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/tags/filter_tags/gc</entry>
-        <entry>24</entry>
         <entry>31</entry>
         <entry>83</entry>
         <entry>56</entry>
@@ -1256,6 +1254,8 @@
         <entry>312</entry>
         <entry>qa</entry>
         <entry>w</entry>
+        <entry>69</entry>
+        <entry>387</entry>
       </history-cmd>
       <history-expr />
       <history-input />
