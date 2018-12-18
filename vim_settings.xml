@@ -92,7 +92,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1545087656530">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1545106498682">
+      <file name="/Dummy.txt" timestamp="1545112269888">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/True" timestamp="1544567854857">
@@ -105,8 +105,8 @@
         <mark key="." line="45" column="6" />
         <mark key="^" line="45" column="6" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545109737462">
-        <mark key="'" line="20" column="7" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545112056407">
+        <mark key="'" line="50" column="54" />
         <mark key="[" line="76" column="0" />
         <mark key="]" line="85" column="6" />
         <mark key="." line="75" column="7" />
@@ -175,9 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="78" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
-      <jump line="33" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
-      <jump line="145" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="131" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="162" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="178" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
@@ -256,7 +253,6 @@
       <jump line="144" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="8" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="51" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
-      <jump line="50" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="50" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="40" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="43" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
@@ -267,7 +263,6 @@
       <jump line="61" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="64" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="70" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
-      <jump line="47" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="57" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="59" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="62" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
@@ -275,6 +270,11 @@
       <jump line="71" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="106" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="20" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="23" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="69" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="45" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="47" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="50" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -829,7 +829,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>pre</text>
+        <text>post</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wcmVwcm9jZXNzb3IuZHJvcF9waXBlbGluZXNfc2VsZWN0b3IuRHJvcFBpcGVsaW5lc1NlbGVjdG9yIiwKICAgICAgICAicGFyYW1zIjogewogICAgICAgICAgInBpcGVsaW5lc190b19kcm9wIjogWwogICAgICAgICAgewogICAgICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiAiZTJjNjE4MDItYTU5YS00MDc1LThjM2ItY2ZkNGYzNWI3ZDFiIgogICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgfQo=</text>
@@ -945,9 +945,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pre</last-search>
+      <last-search>post</last-search>
       <last-offset />
-      <last-pattern>pre</last-pattern>
+      <last-pattern>post</last-pattern>
       <last-replace>filter_tags</last-replace>
       <last-substitute>tags</last-substitute>
       <last-dir>1</last-dir>
@@ -964,7 +964,6 @@
         <entry>post_pr</entry>
         <entry>trainer</entry>
         <entry>model</entry>
-        <entry>post</entry>
         <entry>mode</entry>
         <entry>validation_m</entry>
         <entry>depip</entry>
@@ -975,6 +974,7 @@
         <entry>pivots</entry>
         <entry>post_</entry>
         <entry>pre</entry>
+        <entry>post</entry>
       </history-search>
       <history-cmd>
         <entry>43</entry>
