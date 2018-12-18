@@ -105,10 +105,10 @@
         <mark key="." line="45" column="6" />
         <mark key="^" line="45" column="6" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545107836884">
-        <mark key="'" line="116" column="9" />
-        <mark key="[" line="75" column="7" />
-        <mark key="]" line="75" column="7" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545109737462">
+        <mark key="'" line="20" column="7" />
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="85" column="6" />
         <mark key="." line="75" column="7" />
         <mark key="^" line="75" column="7" />
       </file>
@@ -175,7 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="36" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/drop_pipelines_selector.py" />
       <jump line="79" column="78" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="33" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="145" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
@@ -275,6 +274,7 @@
       <jump line="65" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="71" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="106" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="20" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -283,8 +283,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wcmVwcm9jZXNzb3IuZHJvcF9waXBlbGluZXNfc2VsZWN0b3IuRHJvcFBpcGVsaW5lc1NlbGVjdG9yIiwKICAgICAgICAicGFyYW1zIjogewogICAgICAgICAgInBpcGVsaW5lc190b19kcm9wIjogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgfQo=</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wcmVwcm9jZXNzb3IuZHJvcF9waXBlbGluZXNfc2VsZWN0b3IuRHJvcFBpcGVsaW5lc1NlbGVjdG9yIiwKICAgICAgICAicGFyYW1zIjogewogICAgICAgICAgInBpcGVsaW5lc190b19kcm9wIjogWwogICAgICAgICAgewogICAgICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiAiZTJjNjE4MDItYTU5YS00MDc1LThjM2ItY2ZkNGYzNWI3ZDFiIgogICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgfQ==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -832,7 +832,7 @@
         <text>pre</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wcmVwcm9jZXNzb3IuZHJvcF9waXBlbGluZXNfc2VsZWN0b3IuRHJvcFBpcGVsaW5lc1NlbGVjdG9yIiwKICAgICAgICAicGFyYW1zIjogewogICAgICAgICAgInBpcGVsaW5lc190b19kcm9wIjogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wcmVwcm9jZXNzb3IuZHJvcF9waXBlbGluZXNfc2VsZWN0b3IuRHJvcFBpcGVsaW5lc1NlbGVjdG9yIiwKICAgICAgICAicGFyYW1zIjogewogICAgICAgICAgInBpcGVsaW5lc190b19kcm9wIjogWwogICAgICAgICAgewogICAgICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiAiZTJjNjE4MDItYTU5YS00MDc1LThjM2ItY2ZkNGYzNWI3ZDFiIgogICAgICAgICAgfQogICAgICAgICAgXQogICAgICAgIH0KICAgICAgfQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAid2luZG93X3NpemVfcyI6ICIxNzI4MDAwIiwK</text>
