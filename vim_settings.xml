@@ -105,12 +105,12 @@
         <mark key="." line="45" column="6" />
         <mark key="^" line="45" column="6" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545099690391">
-        <mark key="'" line="316" column="7" />
-        <mark key="[" line="330" column="0" />
-        <mark key="]" line="355" column="5" />
-        <mark key="^" line="15" column="31" />
-        <mark key="." line="15" column="31" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545102336212">
+        <mark key="'" line="42" column="6" />
+        <mark key="[" line="42" column="8" />
+        <mark key="]" line="42" column="6" />
+        <mark key="." line="42" column="6" />
+        <mark key="^" line="42" column="6" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1545082011708">
         <mark key="[" line="27" column="0" />
@@ -163,19 +163,18 @@
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/histogram.py" timestamp="1544139093593">
         <mark key="[" line="23" column="54" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1545099256144">
-        <mark key="'" line="370" column="7" />
-        <mark key="[" line="116" column="0" />
-        <mark key="]" line="116" column="0" />
-        <mark key="^" line="357" column="9" />
-        <mark key="." line="116" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1545102360935">
+        <mark key="'" line="367" column="7" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="^" line="354" column="9" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="/None" timestamp="1544823967287">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="160" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" />
       <jump line="59" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.json" />
       <jump line="15" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.json" />
       <jump line="80" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.json" />
@@ -259,7 +258,6 @@
       <jump line="337" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="353" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="369" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
-      <jump line="15" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="104" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="121" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="136" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
@@ -275,6 +273,8 @@
       <jump line="286" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="301" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="316" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="15" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="42" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -284,7 +284,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgInBpdm90cyI6IFtdLAogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJzdW0oXCJjb250cm9sbGVyX251bV9xdWV1ZWRfaW9cIikgLSBzdW0oXCJjb250cm9sbGVyX251bV9xdWV1ZWRfcmVhZF9pb1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInBpdm90cyI6IFtdLAogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJzdW0oXCJjb250cm9sbGVyX251bV9xdWV1ZWRfcmVhZF9pb1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0KICAgICAgfQogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlX2NyZWF0b3IucGlwZWxpbmVfdmFsdWVzX2ZlYXR1cmVfY3JlYXRvci5QaXBlbGluZVZhbHVlc0ZlYXR1cmVDcmVhdG9yIgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -829,19 +829,19 @@
         <text>p</text>
       </register>
       <register name="/" type="4">
-        <text>pivots</text>
+        <text>feature</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgInBpdm90cyI6IFsKICAgICAgICAiZW50aXR5X2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgXSwK</text>
+        <text encoding="base64">ICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlX2NyZWF0b3IucGlwZWxpbmVfdmFsdWVzX2ZlYXR1cmVfY3JlYXRvci5QaXBlbGluZVZhbHVlc0ZlYXR1cmVDcmVhdG9yIgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCg==</text>
+        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlX2NyZWF0b3IucGlwZWxpbmVfdmFsdWVzX2ZlYXR1cmVfY3JlYXRvci5QaXBlbGluZVZhbHVlc0ZlYXR1cmVDcmVhdG9yIgogICAgICB9Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -855,10 +855,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgInBpdm90cyI6IFsK</text>
+        <text encoding="base64">ICAgICAgXSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgInBpdm90cyI6IFtdLAo=</text>
+        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -926,28 +926,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtLmtleS50YWdzWydob3N0J10gbm90IGluIHNlbGYuaG9zdHNdCg==</text>
+        <text encoding="base64">ICAgICAgInBpdm90cyI6IFsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIHBhcmFtc1snaG9zdHMnXSBpcyBhIGxpc3Qgb2YgbGlzdHMsIHdlIG5lZWQgYSBsaXN0IG9mIHR1cGxlcyBidXQganNvbiBjYW4ndCBlbmNvZGUgdHVwbGVzCiAgICAgICAgIyBzbyB3ZSBjb252ZXJ0IHRoZW0gaGVyZS4KICAgICAgICAjIGllLCBwYXJhbXNbJ2hvc3RzJ10gPSBbWydob3N0MSddLCBbJ2hvc3QxJywgJ2hvc3QyJ10sIFsnaG9zdDInXV0KICAgICAgICBhc3NlcnQgaXNpbnN0YW5jZShwYXJhbXNbJ2hvc3RzJ10sIGxpc3QpLCAicGFyYW1zWydob3N0cyddIHNob3VsZCBiZSBhIGxpc3Qgb2YgbGlzdHMgKG9yIGxpc3Qgb2YgdHVwbGVzKSIKICAgICAgICBmb3IgcCBpbiBwYXJhbXNbJ3BpcGVwbGluZXNfdG9fZHJvcCddOgogICAgICAgICAgICBhc3NlcnQgaXNpbnN0YW5jZShwLCAodHVwbGUsIGxpc3QpKQogICAgICAgICAgICBmb3IgaXRlbSBpbiBwOgogICAgICAgICAgICAgICAgYXNzZXJ0IGlzaW5zdGFuY2UoaXRlbSwgc2l4LnN0cmluZ190eXBlcykK</text>
+        <text encoding="base64">ICAgICAgInBpdm90cyI6IFtdLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIHsK</text>
+        <text encoding="base64">ICAgICAgICBtLmtleS50YWdzWydob3N0J10gbm90IGluIHNlbGYuaG9zdHNdCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBbcGlwZWxpbmVzLlBpcGVsaW5lVmFsdWUocCkgZm9yIHAgaW4gcGFyYW1zWydwaXBlbGluZXNfdG9fZHJvcCddXQo=</text>
+        <text encoding="base64">ICAgICAgICAjIHBhcmFtc1snaG9zdHMnXSBpcyBhIGxpc3Qgb2YgbGlzdHMsIHdlIG5lZWQgYSBsaXN0IG9mIHR1cGxlcyBidXQganNvbiBjYW4ndCBlbmNvZGUgdHVwbGVzCiAgICAgICAgIyBzbyB3ZSBjb252ZXJ0IHRoZW0gaGVyZS4KICAgICAgICAjIGllLCBwYXJhbXNbJ2hvc3RzJ10gPSBbWydob3N0MSddLCBbJ2hvc3QxJywgJ2hvc3QyJ10sIFsnaG9zdDInXV0KICAgICAgICBhc3NlcnQgaXNpbnN0YW5jZShwYXJhbXNbJ2hvc3RzJ10sIGxpc3QpLCAicGFyYW1zWydob3N0cyddIHNob3VsZCBiZSBhIGxpc3Qgb2YgbGlzdHMgKG9yIGxpc3Qgb2YgdHVwbGVzKSIKICAgICAgICBmb3IgcCBpbiBwYXJhbXNbJ3BpcGVwbGluZXNfdG9fZHJvcCddOgogICAgICAgICAgICBhc3NlcnQgaXNpbnN0YW5jZShwLCAodHVwbGUsIGxpc3QpKQogICAgICAgICAgICBmb3IgaXRlbSBpbiBwOgogICAgICAgICAgICAgICAgYXNzZXJ0IGlzaW5zdGFuY2UoaXRlbSwgc2l4LnN0cmluZ190eXBlcykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZSA9IHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHt9KQo=</text>
+        <text encoding="base64">ICAgICAgICAgIHsK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>pivots</last-search>
+      <last-search>feature</last-search>
       <last-offset />
-      <last-pattern>pivots</last-pattern>
+      <last-pattern>feature</last-pattern>
       <last-replace>filter_tags</last-replace>
       <last-substitute>tags</last-substitute>
       <last-dir>1</last-dir>
@@ -955,7 +955,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def get_</entry>
         <entry>self.config</entry>
         <entry>deep</entry>
         <entry>str</entry>
@@ -975,6 +974,7 @@
         <entry>prepr</entry>
         <entry>inputs</entry>
         <entry>pivots</entry>
+        <entry>feature</entry>
       </history-search>
       <history-cmd>
         <entry>43</entry>
