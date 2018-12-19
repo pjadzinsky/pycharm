@@ -109,12 +109,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_metrics.py" timestamp="1545169008607">
         <mark key="'" line="3" column="35" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" timestamp="1545184393608">
-        <mark key="'" line="184" column="8" />
-        <mark key="[" line="184" column="0" />
-        <mark key="]" line="184" column="22" />
-        <mark key="." line="184" column="0" />
-        <mark key="^" line="136" column="21" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" timestamp="1545186269971">
+        <mark key="'" line="151" column="0" />
+        <mark key="[" line="142" column="0" />
+        <mark key="]" line="142" column="0" />
+        <mark key="." line="142" column="0" />
+        <mark key="^" line="136" column="17" />
       </file>
       <file name="/Dummy.txt" timestamp="1545184179214">
         <mark key="[" line="0" column="0" />
@@ -198,7 +198,6 @@
       <jump line="8" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="120" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="138" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
-      <jump line="154" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="178" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="197" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="146" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
@@ -240,10 +239,11 @@
       <jump line="39" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="11" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="40" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
-      <jump line="136" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="152" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="168" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
       <jump line="184" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
+      <jump line="136" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
+      <jump line="154" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -253,7 +253,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAiaW5zdGFuY2VfaWQiLAo=</text>
+        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiBbCiAgICAgICAgICAiMGE3MTM4NjgtY2Q1Yi00MzE2LTkwMmMtMzZhMDY3NGZjNTQ3IgogICAgICAgIF0K</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -795,22 +795,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>instance_id</text>
       </register>
       <register name="/" type="4">
-        <text>pivots</text>
+        <text>&quot;instance_id&quot;</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiaW5zdGFuY2VfaWQiLAo=</text>
+        <text encoding="base64">ICAgICAgICAiZW50aXR5X2lkIiwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCg==</text>
+        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiBbCiAgICAgICAgICAiMGE3MTM4NjgtY2Q1Yi00MzE2LTkwMmMtMzZhMDY3NGZjNTQ3IgogICAgICAgIF0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAiZW50aXR5X2lkIiwK</text>
+        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -901,7 +901,7 @@
         <text encoding="base64">ICAgICAgICAiZW50aXR5X2lkIiwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX2lkIjogWwogICAgICAgICAgIjBhNzEzODY4LWNkNWItNDMxNi05MDJjLTM2YTA2NzRmYzU0NyIKICAgICAgICBdLAo=</text>
+        <text encoding="base64">ICAgICAgICAiZW50aXR5X2lkIiwK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX2lkIjogWwogICAgICAgICAgIjBhNzEzODY4LWNkNWItNDMxNi05MDJjLTM2YTA2NzRmYzU0NyIKICAgICAgICBdLAo=</text>
@@ -910,21 +910,20 @@
         <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX2lkIjogWwogICAgICAgICAgIjBhNzEzODY4LWNkNWItNDMxNi05MDJjLTM2YTA2NzRmYzU0NyIKICAgICAgICBdLAo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>%s/&quot;instance_id&quot;/&quot;entity_id&quot;/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>pivots</last-search>
+      <last-search>&quot;instance_id&quot;</last-search>
       <last-offset />
-      <last-pattern>pivots</last-pattern>
-      <last-replace>self</last-replace>
-      <last-substitute>cls</last-substitute>
+      <last-pattern>&quot;instance_id&quot;</last-pattern>
+      <last-replace>&quot;entity_id&quot;</last-replace>
+      <last-substitute>&quot;instance_id&quot;</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>drop_p</entry>
         <entry>def load_fr</entry>
         <entry>epochs</entry>
@@ -944,9 +943,9 @@
         <entry>outputs</entry>
         <entry>inputs</entry>
         <entry>pivots</entry>
+        <entry>&quot;instance_id&quot;</entry>
       </history-search>
       <history-cmd>
-        <entry>82</entry>
         <entry>112</entry>
         <entry>114</entry>
         <entry>81</entry>
@@ -966,6 +965,7 @@
         <entry>qa</entry>
         <entry>q</entry>
         <entry>w</entry>
+        <entry>%s/&quot;instance_id&quot;/&quot;entity_id&quot;/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
