@@ -26,12 +26,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1545087656530">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545176571244">
-        <mark key="'" line="21" column="22" />
-        <mark key="[" line="55" column="6" />
-        <mark key="]" line="55" column="6" />
-        <mark key="." line="55" column="6" />
-        <mark key="^" line="55" column="6" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1545178594159">
+        <mark key="'" line="94" column="13" />
+        <mark key="[" line="4" column="21" />
+        <mark key="]" line="94" column="13" />
+        <mark key="." line="94" column="13" />
+        <mark key="^" line="94" column="13" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1545176446600">
         <mark key="'" line="618" column="4" />
@@ -113,7 +113,7 @@
         <mark key="]" line="30" column="0" />
         <mark key="." line="30" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1545175698577">
+      <file name="/Dummy.txt" timestamp="1545178368118">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/True" timestamp="1544567854857">
@@ -141,7 +141,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="50" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="40" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="43" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
@@ -241,6 +240,7 @@
       <jump line="87" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="10" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
       <jump line="21" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
+      <jump line="94" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -249,8 +249,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAid2luZG93X3NpemVfcyI6ICIxMDAwIiwK</text>
+      <register name="&quot;" type="4">
+        <text>#</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -792,22 +792,27 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>source_instance_uuid</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>postpr</text>
+        <text>inputs</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAid2luZG93X3NpemVfcyI6ICIxNzI4MDAiLAo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAid2luZG93X3NpemVfcyI6ICIxMDAwIiwK</text>
+      <register name="1" type="8">
+        <text>#
+#
+#
+#
+#
+#</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
+        <text encoding="base64">ICAgICAgICAid2luZG93X3NpemVfcyI6ICIxMDAwIiwK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -821,10 +826,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIF0K</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAiZHJvcF9vcl9rZWVwX3NlbGVjdGVkIjogImRyb3AiCg==</text>
+        <text encoding="base64">ICAgICAgICAgIF0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -892,28 +897,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAiZHJvcF9vcl9rZWVwX3NlbGVjdGVkIjogImRyb3AiCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgbm90IHN1cmUgd2h5IGJ1dCBLLnN1bSBhbmQgSy5zcXVhcmUgd29yayBqdXN0IGZpbmUgd2l0aCB5L3lfaGF0IGJ1dCBLLm1lYW4gcmVxdWlyZXMgYSB0ZW5zb3IKICAgICMgYW5kIHBhc3NpbmcgeSBiZWxvdyB3aWxsIGJyZWFrIHNvbWUgdGVzdHMKICAgIHkgPSBLLm1lYW4oeSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgewo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBLLm1lYW4oeSkK</text>
+        <text encoding="base64">ICAgICMgbm90IHN1cmUgd2h5IGJ1dCBLLnN1bSBhbmQgSy5zcXVhcmUgd29yayBqdXN0IGZpbmUgd2l0aCB5L3lfaGF0IGJ1dCBLLm1lYW4gcmVxdWlyZXMgYSB0ZW5zb3IKICAgICMgYW5kIHBhc3NpbmcgeSBiZWxvdyB3aWxsIGJyZWFrIHNvbWUgdGVzdHMKICAgIHkgPSBLLm1lYW4oeSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBLLm1lYW4oeSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBoYXNhdHRyKHksICdiYXNlX2R0eXBlJyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>postpr</last-search>
+      <last-search>inputs</last-search>
       <last-offset />
-      <last-pattern>postpr</last-pattern>
+      <last-pattern>inputs</last-pattern>
       <last-replace>self</last-replace>
       <last-substitute>cls</last-substitute>
       <last-dir>1</last-dir>
@@ -921,7 +926,6 @@
     </search>
     <history>
       <history-search>
-        <entry>self\.trainer</entry>
         <entry>subsample</entry>
         <entry>input_features</entry>
         <entry>split_data</entry>
@@ -941,6 +945,7 @@
         <entry>entity_id</entry>
         <entry>epochs</entry>
         <entry>postpr</entry>
+        <entry>inputs</entry>
       </history-search>
       <history-cmd>
         <entry>82</entry>
