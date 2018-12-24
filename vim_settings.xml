@@ -86,6 +86,9 @@
         <mark key="]" line="192" column="0" />
         <mark key="." line="192" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" timestamp="1545676640124">
+        <mark key="'" line="86" column="12" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1545427662098">
         <mark key="'" line="427" column="22" />
         <mark key="[" line="432" column="0" />
@@ -188,12 +191,12 @@
         <mark key="[" line="190" column="0" />
         <mark key="]" line="190" column="64" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/README_hypertune.md" timestamp="1545674806341">
-        <mark key="'" line="32" column="16" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="26" column="76" />
-        <mark key="^" line="26" column="76" />
-        <mark key="." line="26" column="76" />
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/README_hypertune.md" timestamp="1545676730031">
+        <mark key="'" line="36" column="16" />
+        <mark key="[" line="96" column="7" />
+        <mark key="]" line="96" column="8" />
+        <mark key="." line="96" column="8" />
+        <mark key="^" line="99" column="51" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/README.md" timestamp="1545674110444">
         <mark key="[" line="0" column="0" />
@@ -331,7 +334,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="9" column="35" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="62" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="47" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_utils.py" />
@@ -431,6 +433,7 @@
       <jump line="27" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
       <jump line="28" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
       <jump line="90" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
+      <jump line="86" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -439,8 +442,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8obXNnKQo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -982,7 +985,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>window</text>
@@ -990,14 +993,14 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucGxvdF9wb3N0X3Byb2Nlc3Nvci5QbG90UG9zdFByb2Nlc3NvciIsCiAgICAgICAgInBhcmFtcyI6IHsKICAgICAgICAgICJwbG90X3NjYXR0ZXJzIjogZmFsc2UsCiAgICAgICAgICAibWF4X3RyYWNlcyI6IDIwCiAgICAgICAgfQogICAgICB9Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8obXNnKQo=</text>
+      <register name="1" type="8">
+        <text>the could define what features does each metric create. F</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">cnVuIHN1Z2dlc3Rpb25zIGFuZCBhZGQgdGhlIDUgJ2Jlc3QnIG1ldHJpY3MK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1010,11 +1013,12 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbXNnID0gCg==</text>
+      <register name="3" type="4">
+        <text>(think tuning a
+neural net but not the inputs, the sampling frequency or the pipeline_def)</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAxNgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8obXNnKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1082,22 +1086,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICA4LAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgbXNnID0gCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAxNgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgImNob29zZSI6IFsKICAgICAgICAgICAgICAwLjAwMDAxLAogICAgICAgICAgICAgIDAuMDAwMDAxLAogICAgICAgICAgICAgIDFlLTcKICAgICAgICAgICAgXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICA4LAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9wcmVkaWN0aW9uc190b19zdG9yYWdlLlB1c2hQcmVkaWN0aW9uc1RvU3RvcmFnZSIKICAgICAgfSwKICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMuc29ydF9tZXRyaWNzX2J5X2V4Y2l0YXRpb24uU29ydE1ldHJpY3NCeUV4Y2l0YXRpb24iCiAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -1151,8 +1155,8 @@
         <entry>180</entry>
         <entry>qa</entry>
         <entry>w</entry>
-        <entry>q</entry>
         <entry>wq</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
