@@ -325,8 +325,12 @@
         <mark key="." line="26" column="22" />
         <mark key="^" line="26" column="22" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1545429124002">
-        <mark key="'" line="95" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1545687765610">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="160" column="65" />
+        <mark key="]" line="163" column="42" />
+        <mark key="^" line="163" column="42" />
+        <mark key="." line="163" column="42" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" timestamp="1545531408771">
         <mark key="'" line="5" column="4" />
@@ -343,8 +347,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="193" column="88" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
-      <jump line="185" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="192" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="201" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="224" column="4" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
@@ -443,6 +445,8 @@
       <jump line="52" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="96" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="221" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -997,7 +1001,7 @@
         <text>appeiww</text>
       </register>
       <register name="/" type="4">
-        <text>def _</text>
+        <text>def load</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiB0ZXN0MShzZWxmKToKICAgICAgICAiIiIgVGVzdCB0aGF0IGlmIHdlIGhhdmUgYSAnc2FtcGxlc19hcnJheScgd2hlcmUgZmVhdHVyZXMgZnJvbQogICAgICAgIG1ldHJpY18xIGFyZSBpbiBjb2x1bW5zIDAsIDEKICAgICAgICBtZXRyaWNfMiBhcmUgaW4gY29sdW1ucyAyLCAzLCA0CiAgICAgICAgbWV0cmljXzNfYXJlIGluIGNvbHVtbnMgNSwgNgoKICAgICAgICB3ZSBjYW4gZHJvcCBhbGwgY29sdW1ucyByZWxhdGVkIHRvIG1ldHJpY18yCiAgICAgICAgIiIiCiAgICAgICAgcGFyYW1zID0geydmZWF0dXJlX2RhdGEnOiBzZWxmLmZlYXR1cmVfZGF0YSwKICAgICAgICAgICAgICAgICAgJ3NlbGVjdGVkX2Rta3MnOiBzZWxmLmZlYXR1cmVfZGF0YS5kZXBpcGVsaW5lZF9tZXRyaWNfa2V5c1sxXSwKICAgICAgICAgICAgICAgICAgJ2Ryb3Bfb3Jfa2VlcCc6ICdkcm9wJ30KCiAgICAgICAgaW5wdXRfdHVuZXIgPSBJbnB1dEh5cGVydHVuZXIocGFyYW1zKQogICAgICAgICMgdGhlIEZlYXR1cmVTZWxlY3RvciBzaG91bGQgbm90IHRvdWNoICd5JyBhbmQgd29yayBib3RoIGZvciBpc190cmFpbmluZyA9IEZhbHNlL1RydWUKICAgICAgICB5ID0gTm9uZQogICAgICAgIGlzX3RyYWluaW5nID0gTm9uZQogICAgICAgIG5ld19YID0gaW5wdXRfdHVuZXIucHJvY2VzcyhzZWxmLlguY29weSgpLCBOb25lLCBOb25lKQogICAgICAgIGV4cGVjdGVkID0gbnAuYXJyYXkoWzAsIDEsIDUsIDZdKS5yZXNoYXBlKDEsIDEsIC0xKQogICAgICAgIG5wLnRlc3RpbmcuYXNzZXJ0X2FycmF5X2VxdWFsKG5ld19YLCBleHBlY3RlZCkK</text>
@@ -1113,9 +1117,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def _</last-search>
+      <last-search>def load</last-search>
       <last-offset />
-      <last-pattern>def _</last-pattern>
+      <last-pattern>def load</last-pattern>
       <last-replace>measurement</last-replace>
       <last-substitute>firef</last-substitute>
       <last-dir>1</last-dir>
@@ -1123,7 +1127,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Query</entry>
         <entry>all_inputs</entry>
         <entry>pipline_def</entry>
         <entry>pipeline</entry>
@@ -1143,6 +1146,7 @@
         <entry>window</entry>
         <entry>feature_se</entry>
         <entry>def _</entry>
+        <entry>def load</entry>
       </history-search>
       <history-cmd>
         <entry>46</entry>
