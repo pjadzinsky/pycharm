@@ -44,7 +44,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/losses.py" timestamp="1545248700484">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1545861897079" />
+      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1545866991259" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" timestamp="1545856907883">
         <mark key="'" line="86" column="12" />
       </file>
@@ -60,11 +60,11 @@
         <mark key="." line="24" column="0" />
         <mark key="^" line="99" column="34" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1545866277143">
-        <mark key="'" line="261" column="0" />
-        <mark key="[" line="291" column="0" />
-        <mark key="]" line="291" column="0" />
-        <mark key="." line="291" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1545867383783">
+        <mark key="'" line="544" column="28" />
+        <mark key="[" line="542" column="0" />
+        <mark key="]" line="542" column="0" />
+        <mark key="." line="542" column="0" />
       </file>
       <file name="/" timestamp="1545690770537">
         <mark key="[" line="0" column="0" />
@@ -116,7 +116,7 @@
         <mark key="." line="92" column="9" />
         <mark key="^" line="92" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1545865288542">
+      <file name="/Python Console" timestamp="1545867030048">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="5" />
         <mark key="." line="0" column="53" />
@@ -186,11 +186,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="203" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
-      <jump line="143" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="158" column="19" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="109" column="12" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="159" column="19" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="160" column="43" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="163" column="44" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
@@ -286,6 +281,11 @@
       <jump line="317" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="321" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="340" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="541" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="540" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="546" column="102" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="600" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="544" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -294,8 +294,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBkZWJ1Z19pbnB1dHMgPSBbbS5kZWVwY29weSgpIGZvciBtIGluIGlucHV0X21ldHJpY3NdCiAgICAgICAgZGVidWdfb3V0cHV0cyA9IFttLmRlZXBjb3B5KCkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCiAgICAgICAgc2VsZi5fX2Vuc3VyZV9hbGxfcGlwZWxpbmVzX2hhdmVfc2FtZV9tZXRyaWNzKGRlYnVnX2lucHV0cywgZGVidWdfb3V0cHV0cykKICAgICAgICBpZiBsZW4oZGVidWdfaW5wdXRzKSA9PSAwOgogICAgICAgICAgICBwYXNzCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ICAgICAgICBpbnB1dF9mZWF0dXJlcywgb3V0cHV0X2ZlYXR1cmVzLCBpbnB1dF9tZXRyaWNzLCBvdXRwdXRfbWV0cmljcywgcGlwZWxpbmVfdmFsdWVzID0gXA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -837,10 +837,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>duplicate</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9mZWF0dXJlcywgb3V0cHV0X2ZlYXR1cmVzLCBpbnB1dF9tZXRyaWNzLCBvdXRwdXRfbWV0cmljcywgcGlwZWxpbmVfdmFsdWVzID0gXA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>pipeline_v</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLl9fZW5zdXJlX2FsbF9waXBlbGluZXNfaGF2ZV9zYW1lX21ldHJpY3MoaW5wdXRfbWV0cmljcywgb3V0cHV0X21ldHJpY3MpCg==</text>
@@ -956,9 +956,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>pipeline_v</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>pipeline_v</last-pattern>
       <last-replace>measurement</last-replace>
       <last-substitute>firef</last-substitute>
       <last-dir>1</last-dir>
@@ -966,8 +966,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pivots</entry>
-        <entry>$</entry>
         <entry>\$</entry>
         <entry>windo</entry>
         <entry>60</entry>
@@ -986,6 +984,8 @@
         <entry>migration</entry>
         <entry>pass</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>start</entry>
+        <entry>pipeline_v</entry>
       </history-search>
       <history-cmd>
         <entry>274</entry>
