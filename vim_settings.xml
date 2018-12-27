@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1545945172395">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1545946988476">
         <mark key="'" line="62" column="51" />
         <mark key="[" line="89" column="0" />
         <mark key="]" line="89" column="0" />
@@ -77,17 +77,16 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1545345327742">
         <mark key="'" line="160" column="4" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" timestamp="1545930135462">
-        <mark key="'" line="565" column="7" />
-        <mark key="[" line="28" column="31" />
-        <mark key="]" line="27" column="32" />
-        <mark key="^" line="91" column="21" />
-        <mark key="." line="27" column="32" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" timestamp="1545952999710">
+        <mark key="'" line="578" column="7" />
+        <mark key="[" line="97" column="29" />
+        <mark key="]" line="97" column="26" />
+        <mark key="^" line="97" column="26" />
+        <mark key="." line="97" column="26" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/losses.py" timestamp="1545248700484">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1545866991259" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" timestamp="1545856907883">
         <mark key="'" line="86" column="12" />
       </file>
@@ -206,7 +205,6 @@
       <file name="/fragment.py" timestamp="1545934275296">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1545937589074" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/pipelines_selector.py" timestamp="1545161663599">
         <mark key="'" line="7" column="0" />
         <mark key="[" line="5" column="62" />
@@ -311,7 +309,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="491" column="40" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="497" column="44" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="511" column="72" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="546" column="95" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -411,6 +408,7 @@
       <jump line="416" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="92" column="31" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="165" column="32" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="578" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -965,7 +963,7 @@
         <text>_query_bulk_metrics</text>
       </register>
       <register name="/" type="4">
-        <text>query_metrics</text>
+        <text>model</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBxdWVyeV9tZXRyaWNzKHNlbGYsIG1lYXN1cmVtZW50LCBleHByZXNzaW9uLCB0YWdzLCBwaXZvdHMsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gsIGludGVydmFsX3NlY29uZHMsCiAgICAgICAgICAgICAgICAgICAgICBtaW5fZGVsdGE9MCwgbm9kYXRhPSdmYWxzZScpOgo=</text>
@@ -1081,9 +1079,9 @@
       </register>
     </registers>
     <search>
-      <last-search>query_metrics</last-search>
+      <last-search>model</last-search>
       <last-offset />
-      <last-pattern>query_metrics</last-pattern>
+      <last-pattern>model</last-pattern>
       <last-replace>measurement</last-replace>
       <last-substitute>firef</last-substitute>
       <last-dir>1</last-dir>
@@ -1091,7 +1089,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def _</entry>
         <entry>def load</entry>
         <entry>_fetch</entry>
         <entry>bulk</entry>
@@ -1111,6 +1108,7 @@
         <entry>pivots</entry>
         <entry>kwargs</entry>
         <entry>query_metrics</entry>
+        <entry>model</entry>
       </history-search>
       <history-cmd>
         <entry>s/4/8/gc</entry>
