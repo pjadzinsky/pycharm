@@ -128,11 +128,12 @@
         <mark key="." line="94" column="13" />
         <mark key="^" line="94" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1545867383783">
-        <mark key="'" line="544" column="28" />
-        <mark key="[" line="542" column="0" />
-        <mark key="]" line="542" column="0" />
-        <mark key="." line="542" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1545954654200">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="614" column="47" />
+        <mark key="]" line="615" column="32" />
+        <mark key="." line="615" column="32" />
+        <mark key="^" line="615" column="32" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/shortest_staples.py" timestamp="1545546681542">
         <mark key="'" line="68" column="0" />
@@ -263,7 +264,7 @@
         <mark key="." line="88" column="0" />
         <mark key="^" line="82" column="20" />
       </file>
-      <file name="/Dummy.txt" timestamp="1545941153520">
+      <file name="/Dummy.txt" timestamp="1545954659876">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/True" timestamp="1544567854857">
@@ -315,8 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="497" column="44" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="511" column="72" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="546" column="95" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="548" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="588" column="37" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -366,7 +365,6 @@
       <jump line="321" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="340" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="541" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="540" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="546" column="102" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="600" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="544" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -415,6 +413,9 @@
       <jump line="92" column="31" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="165" column="32" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="578" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
+      <jump line="540" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="615" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -424,7 +425,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>i</text>
+        <text>self.</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +967,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>i</text>
+        <text>self.</text>
       </register>
       <register name="/" type="4">
-        <text>model</text>
+        <text>interval_s</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBxdWVyeV9tZXRyaWNzKHNlbGYsIG1lYXN1cmVtZW50LCBleHByZXNzaW9uLCB0YWdzLCBwaXZvdHMsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gsIGludGVydmFsX3NlY29uZHMsCiAgICAgICAgICAgICAgICAgICAgICBtaW5fZGVsdGE9MCwgbm9kYXRhPSdmYWxzZScpOgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAsIFtta10sICoqa3dhcmdzKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnNhdmVfdG9fbG9jYWxfZm9sZGVyKGxvY2FsX2ZvbGRlcikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBDaGFuZ2luZyAnZmlsZWQnIHRvICdleHByZXNzaW9uJyBpbiBNZXRyaWNLZXksIERlcGlwZWxpbmVkTWV0cmljS2V5IGFuZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAsIFtta10sICoqa3dhcmdzKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -995,10 +996,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PDw8PDw8PCA4MjAwMTZlNzZlODk3MzM0MGNmMjdhMDQ4NTUzMDJjZmZiNDMyZGE1CiAgICAgICAgaWYgaXNpbnN0YW5jZShuZXdfaW5wdXQsIGRpY3QpOgogICAgICAgICAgICBuZXdfZGljdCA9IG5ld19pbnB1dAogICAgICAgIGVsaWYgaXNpbnN0YW5jZShuZXdfaW5wdXQsIFF1ZXJ5KToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgbmV3X2RpY3QgPSB7J21lYXN1cmVtZW50JzogbmV3X2lucHV0Lm1lYXN1cmVtZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2V4cHJlc3Npb24nOiBuZXdfaW5wdXQuZXhwcmVzc2lvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICd0YWdzJzogbmV3X2lucHV0LnRhZ3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAncGl2b3RzJzogbmV3X2lucHV0LnBpdm90cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgcmFpc2UgRXhjZXB0aW9uKCdDYW50IGNyZWF0ZSBkaWN0IGZyb20ge30nLmZvcm1hdChuZXdfaW5wdXQpKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoJ3dlIGRvbnQgc3VwcG9ydCB7fSB5ZXQnLmZvcm1hdCh0eXBlKG5ld19pbnB1dCkpKQo9PT09PT09Cg==</text>
+        <text encoding="base64">Pj4+Pj4+PiBDaGFuZ2luZyAnZmlsZWQnIHRvICdleHByZXNzaW9uJyBpbiBNZXRyaWNLZXksIERlcGlwZWxpbmVkTWV0cmljS2V5IGFuZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgIGlucHV0X2Rta3MgPSBbRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnaW5wdXQnLCB7fSwgcGlwZWxpbmVfZGVmKV0KICAgIGlmIG5vdCBvdXRwdXRfZG1rczoKICAgICAgICBvdXRwdXRfZG1rcyA9IFtEZXBpcGVsaW5lZE1ldHJpY0tleSgnbScsICdvdXRwdXQnLCB7fSwgcGlwZWxpbmVfZGVmKV0KPj4+Pj4+PiBBZGRpbmcgYSB0ZXN0IHRvIHJhbmRvbSBmb3Jlc3QsIG5vdCBhIHJlYWwgdGVzdCB5ZXQgc2luY2UgSSdtIG5vdAo=</text>
+        <text encoding="base64">PDw8PDw8PCA4MjAwMTZlNzZlODk3MzM0MGNmMjdhMDQ4NTUzMDJjZmZiNDMyZGE1CiAgICAgICAgaWYgaXNpbnN0YW5jZShuZXdfaW5wdXQsIGRpY3QpOgogICAgICAgICAgICBuZXdfZGljdCA9IG5ld19pbnB1dAogICAgICAgIGVsaWYgaXNpbnN0YW5jZShuZXdfaW5wdXQsIFF1ZXJ5KToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgbmV3X2RpY3QgPSB7J21lYXN1cmVtZW50JzogbmV3X2lucHV0Lm1lYXN1cmVtZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2V4cHJlc3Npb24nOiBuZXdfaW5wdXQuZXhwcmVzc2lvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICd0YWdzJzogbmV3X2lucHV0LnRhZ3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAncGl2b3RzJzogbmV3X2lucHV0LnBpdm90cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgcmFpc2UgRXhjZXB0aW9uKCdDYW50IGNyZWF0ZSBkaWN0IGZyb20ge30nLmZvcm1hdChuZXdfaW5wdXQpKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IoJ3dlIGRvbnQgc3VwcG9ydCB7fSB5ZXQnLmZvcm1hdCh0eXBlKG5ld19pbnB1dCkpKQo9PT09PT09Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1066,28 +1067,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PDw8PDw8PCA4MjAwMTZlNzZlODk3MzM0MGNmMjdhMDQ4NTUzMDJjZmZiNDMyZGE1Cg==</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgIGlucHV0X2Rta3MgPSBbRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnaW5wdXQnLCB7fSwgcGlwZWxpbmVfZGVmKV0KICAgIGlmIG5vdCBvdXRwdXRfZG1rczoKICAgICAgICBvdXRwdXRfZG1rcyA9IFtEZXBpcGVsaW5lZE1ldHJpY0tleSgnbScsICdvdXRwdXQnLCB7fSwgcGlwZWxpbmVfZGVmKV0KPj4+Pj4+PiBBZGRpbmcgYSB0ZXN0IHRvIHJhbmRvbSBmb3Jlc3QsIG5vdCBhIHJlYWwgdGVzdCB5ZXQgc2luY2UgSSdtIG5vdAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkZWJ1Z19pbnB1dHMgPSBbbS5kZWVwY29weSgpIGZvciBtIGluIGlucHV0X21ldHJpY3NdCiAgICAgICAgZGVidWdfb3V0cHV0cyA9IFttLmRlZXBjb3B5KCkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCiAgICAgICAgc2VsZi5fX2Vuc3VyZV9hbGxfcGlwZWxpbmVzX2hhdmVfc2FtZV9tZXRyaWNzKGRlYnVnX2lucHV0cywgZGVidWdfb3V0cHV0cykKICAgICAgICBpZiBsZW4oZGVidWdfaW5wdXRzKSA9PSAwOgogICAgICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">PDw8PDw8PCA4MjAwMTZlNzZlODk3MzM0MGNmMjdhMDQ4NTUzMDJjZmZiNDMyZGE1Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZW4oaW5wdXRfbWV0cmljcyk9PTA6CiAgICAgICAgICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgICAgICBkZWJ1Z19pbnB1dHMgPSBbbS5kZWVwY29weSgpIGZvciBtIGluIGlucHV0X21ldHJpY3NdCiAgICAgICAgZGVidWdfb3V0cHV0cyA9IFttLmRlZXBjb3B5KCkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCiAgICAgICAgc2VsZi5fX2Vuc3VyZV9hbGxfcGlwZWxpbmVzX2hhdmVfc2FtZV9tZXRyaWNzKGRlYnVnX2lucHV0cywgZGVidWdfb3V0cHV0cykKICAgICAgICBpZiBsZW4oZGVidWdfaW5wdXRzKSA9PSAwOgogICAgICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpZiBsZW4oaW5wdXRfbWV0cmljcyk9PTA6CiAgICAgICAgICAgIHBhc3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbC50cmFpbl9pbnRlcnZhbHMgPSB0cmFpbl9pbnRlcnZhbHMKICAgICAgICBtb2RlbC52YWxfaW50ZXJ2YWxzID0gdmFsX2ludGVydmFscwogICAgICAgIG1vZGVsLmJ1ZmZlcl9pbnRlcnZhbHMgPSBidWZmZXJfaW50ZXJ2YWxzCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZW4oaW5wdXRfbWV0cmljcyk9PTA6CiAgICAgICAgICAgIHBhc3MK</text>
       </register>
       <register name=":" type="4">
         <text>167</text>
       </register>
     </registers>
     <search>
-      <last-search>model</last-search>
+      <last-search>interval_s</last-search>
       <last-offset />
-      <last-pattern>model</last-pattern>
+      <last-pattern>interval_s</last-pattern>
       <last-replace>measurement</last-replace>
       <last-substitute>firef</last-substitute>
       <last-dir>1</last-dir>
@@ -1095,8 +1096,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def load</entry>
-        <entry>_fetch</entry>
         <entry>bulk</entry>
         <entry>mk</entry>
         <entry>class St</entry>
@@ -1115,6 +1114,8 @@
         <entry>kwargs</entry>
         <entry>query_metrics</entry>
         <entry>model</entry>
+        <entry>def hyp</entry>
+        <entry>interval_s</entry>
       </history-search>
       <history-cmd>
         <entry>s/4/8/gc</entry>
