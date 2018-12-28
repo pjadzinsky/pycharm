@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1546038328285">
-        <mark key="'" line="61" column="51" />
-        <mark key="[" line="80" column="20" />
-        <mark key="]" line="80" column="19" />
-        <mark key="." line="80" column="19" />
-        <mark key="^" line="80" column="19" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1546039287867">
+        <mark key="'" line="83" column="10" />
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="88" column="106" />
+        <mark key="." line="88" column="106" />
+        <mark key="^" line="88" column="106" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" timestamp="1545547671506">
         <mark key="'" line="61" column="27" />
@@ -336,10 +336,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="541" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="546" column="102" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="600" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="544" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="165" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" />
       <jump line="247" column="21" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
       <jump line="49" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
@@ -436,6 +432,10 @@
       <jump line="51" column="58" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
       <jump line="26" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/uber_feature_creator.py" />
+      <jump line="10" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="77" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="79" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="82" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -444,8 +444,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>defaultdict</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBucC5yYW5kb20uc2VlZCh1dGltZS5ub3coKSkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -990,19 +990,19 @@
         <text>defaultdict</text>
       </register>
       <register name="/" type="4">
-        <text>reversed</text>
+        <text>random</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGZlYXR1cmVfbWFwcGluZy5tYXBwaW5nWydmZWF0dXJlX2NyZWF0b3JfMSddWydrZXkxJ10sIFswXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGZlYXR1cmVfbWFwcGluZy5tYXBwaW5nWydmZWF0dXJlX2NyZWF0b3JfMSddWydrZXkyJ10sIFsxXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">ICAgICAgICBucC5yYW5kb20uc2VlZCh1dGltZS5ub3coKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1016,10 +1016,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCdpbmZvJykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBudW1fZmVhdHVyZXMgPSBzdW0oW2xlbihzZWxmLmlucHV0X21ldHJpY19mZWF0dXJlX21hcHBpbmdba10pIGZvciBrIGluIHNlbGYuaW5wdXRfbWV0cmljX2ZlYXR1cmVfbWFwcGluZy5rZXlzKCldCg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCdpbmZvJykK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1087,28 +1087,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlX2MK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBudW1fZmVhdHVyZXMgPSBzdW0oW2xlbihzZWxmLmlucHV0X21ldHJpY19mZWF0dXJlX21hcHBpbmdba10pIGZvciBrIGluIHNlbGYuaW5wdXRfbWV0cmljX2ZlYXR1cmVfbWFwcGluZy5rZXlzKCldCg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBmZWF0dXJlX2MK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBtb2NrZWRfbmFtZS5zaWRlX2VmZmVjdCA9IFtbJ25hbWUxJ10gKiAyLCBbJ25hbWUyJ10gKiAyXQo=</text>
+        <text encoding="base64">ICAgICAgICBudW1fZmVhdHVyZXMgPSBzdW0oW2xlbihzZWxmLmlucHV0X21ldHJpY19mZWF0dXJlX21hcHBpbmdba10pIGZvciBrIGluIHNlbGYuaW5wdXRfbWV0cmljX2ZlYXR1cmVfbWFwcGluZy5rZXlzKCldCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlX2NyZWF0b3JfMSA9IE1hZ2ljTW9jayhzcGVjPVsnX19uYW1lX18nXSkK</text>
+        <text encoding="base64">ICAgICAgICBtb2NrZWRfbmFtZS5zaWRlX2VmZmVjdCA9IFtbJ25hbWUxJ10gKiAyLCBbJ25hbWUyJ10gKiAyXQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>reversed</last-search>
+      <last-search>random</last-search>
       <last-offset />
-      <last-pattern>reversed</last-pattern>
+      <last-pattern>random</last-pattern>
       <last-replace>measurement</last-replace>
       <last-substitute>firef</last-substitute>
       <last-dir>1</last-dir>
@@ -1116,7 +1116,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8PA==</entry>
         <entry>inputs</entry>
         <entry>pivots</entry>
         <entry>kwargs</entry>
@@ -1136,6 +1135,7 @@
         <entry>rever</entry>
         <entry>default</entry>
         <entry>reversed</entry>
+        <entry>random</entry>
       </history-search>
       <history-cmd>
         <entry>145</entry>
