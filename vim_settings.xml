@@ -126,12 +126,12 @@
         <mark key="]" line="444" column="0" />
         <mark key="." line="444" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" timestamp="1546459576865">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="113" column="75" />
-        <mark key="]" line="73" column="82" />
-        <mark key="." line="73" column="82" />
-        <mark key="^" line="73" column="82" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" timestamp="1546460310046">
+        <mark key="'" line="107" column="20" />
+        <mark key="[" line="141" column="19" />
+        <mark key="]" line="141" column="23" />
+        <mark key="." line="141" column="23" />
+        <mark key="^" line="141" column="23" />
       </file>
       <file name="/Dummy.txt" timestamp="1546447815167">
         <mark key="[" line="0" column="0" />
@@ -177,16 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="85" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="62" column="87" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="57" column="53" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="58" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="67" column="76" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="68" column="53" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="88" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="16" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="212" column="111" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
-      <jump line="74" column="110" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="87" column="85" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="75" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="39" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
@@ -277,6 +267,16 @@
       <jump line="82" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_metrics_per_pipeline.py" />
       <jump line="149" column="67" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/clustering.py" />
       <jump line="156" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_suggestions.py" />
+      <jump line="109" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="128" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="74" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="88" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="106" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="125" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="10" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="75" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="89" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
+      <jump line="107" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_ica.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -286,7 +286,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>expression_to_field</text>
+        <text>source_dmkexpression</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -828,10 +828,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>expression_to_field</text>
+        <text>source_dmkexpression</text>
       </register>
       <register name="/" type="4">
-        <text>_ica</text>
+        <text>array_to_metrics</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiB0ZXN0X21vZGlmeV9maWVsZF8yKHNlbGYpOgogICAgICAgICIiIiB0ZXN0IHdpdGggYW4gZXh0cmEgc2V0IG9mIHBhcmVudGhlc2lzIHRoYXQgaGF2ZSBtb3JlIHBhcmVudGhlc2lzIGluc2lkZQogICAgICAgICIiIgogICAgICAgIGV4cHJlc3Npb24gPSAneCArIChzdW0oeCkgLyBtZWFuKHkpKSAvIDInCiAgICAgICAgc3VmZml4ID0gJ196JwogICAgICAgIG1vZGlmaWVkX2ZpZWxkID0gc3RyaW5nX3V0aWxzLm1vZGlmeV9maWVsZChleHByZXNzaW9uLCBsYW1iZGEgeDogeCArIHN1ZmZpeCkKICAgICAgICBleHBlY3RlZCA9ICd4ICsgKHN1bSh4X3opIC8gbWVhbih5X3opKSAvIDInCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChtb2RpZmllZF9maWVsZCwgZXhwZWN0ZWQpCg==</text>
@@ -947,9 +947,9 @@
       </register>
     </registers>
     <search>
-      <last-search>_ica</last-search>
+      <last-search>array_to_metrics</last-search>
       <last-offset />
-      <last-pattern>_ica</last-pattern>
+      <last-pattern>array_to_metrics</last-pattern>
       <last-replace>measurement</last-replace>
       <last-substitute>firef</last-substitute>
       <last-dir>1</last-dir>
@@ -957,7 +957,6 @@
     </search>
     <history>
       <history-search>
-        <entry>trainer</entry>
         <entry>storage_host</entry>
         <entry>def run</entry>
         <entry>local_s</entry>
@@ -977,6 +976,7 @@
         <entry>utils\.</entry>
         <entry>metric_u</entry>
         <entry>_ica</entry>
+        <entry>array_to_metrics</entry>
       </history-search>
       <history-cmd>
         <entry>83</entry>
