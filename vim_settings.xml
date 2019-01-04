@@ -97,12 +97,12 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1546550091779">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1546622093309">
         <mark key="'" line="606" column="12" />
-        <mark key="[" line="615" column="8" />
-        <mark key="]" line="615" column="7" />
-        <mark key="." line="615" column="7" />
-        <mark key="^" line="615" column="7" />
+        <mark key="[" line="615" column="32" />
+        <mark key="]" line="615" column="44" />
+        <mark key="." line="615" column="44" />
+        <mark key="^" line="615" column="44" />
       </file>
       <file name="/" timestamp="1546549979994">
         <mark key="[" line="0" column="0" />
@@ -154,12 +154,12 @@
         <mark key="." line="0" column="53" />
         <mark key="^" line="0" column="5" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1546563115098">
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1546621674059">
         <mark key="'" line="11" column="44" />
-        <mark key="[" line="357" column="124" />
-        <mark key="]" line="357" column="124" />
-        <mark key="." line="357" column="124" />
-        <mark key="^" line="357" column="124" />
+        <mark key="[" line="345" column="10" />
+        <mark key="]" line="345" column="23" />
+        <mark key="." line="345" column="23" />
+        <mark key="^" line="345" column="23" />
       </file>
       <file name="/fragment.py" timestamp="1546286207648">
         <mark key="[" line="0" column="0" />
@@ -182,12 +182,12 @@
         <mark key="^" line="12" column="57" />
         <mark key="." line="12" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_purger_script.py" timestamp="1546566517126">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_purger_script.py" timestamp="1546621931645">
         <mark key="'" line="21" column="21" />
-        <mark key="[" line="65" column="25" />
-        <mark key="]" line="65" column="55" />
-        <mark key="^" line="65" column="24" />
-        <mark key="." line="65" column="25" />
+        <mark key="[" line="39" column="60" />
+        <mark key="]" line="40" column="7" />
+        <mark key="." line="40" column="7" />
+        <mark key="^" line="40" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1546562657435">
         <mark key="[" line="101" column="57" />
@@ -352,7 +352,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>len(model_config.get_inputs())</text>
+        <text>#</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -894,15 +894,118 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>len(model_config.get_inputs())</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
         <text>inputs</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZV9kZWYgPSBzZWxmLmNvbmZpZ1snY2xhc3NlcyddWydnbG9iYWxfcGFyYW1zJ11bJ3BpcGVsaW5lX2RlZiddCiAgICAgICAgZm9yIHF1ZXJ5IGluIGFsbF9xdWVyaWVzOgogICAgICAgICAgICBxdWVyeS5yZW1vdmVfdGFncyhwaXBlbGluZV9kZWYpCiAgICAgICAgICAgIHF1ZXJ5LnJlbW92ZV9waXZvdHMocGlwZWxpbmVfZGVmKQo=</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oTE9HX0ZJTEUsICdhK3QnKSBhcyBmOgogICAgICAgICAgICBmLndyaXRlKCd7fS5cdHt9XG4nLmZvcm1hdChpLCBtb2RlbC5tb2RlbC52YWxfbG9zcykpCg==</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGRlbCB2YXJncwo=</text>
+      </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAuZm9ybWF0KGksIG1vZGVsLm1vZGVsLnZhbF9sb3NzKSkK</text>
+      </register>
+      <register name="r" type="4">
+        <keys>
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAjIGJ1dCB0aGlzIG1ldHJpY3MKICAgICAgICAjIHdpbGwgaGF2ZSBwaXBlbGluZV9kZWYgaW4gdGFncywgd2UgaGF2ZSB0byBkZXBpcGVsaW5lIHRoaXMgbWV0cmljcwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAjIGJ1dCB0aGlzIG1ldHJpY3MK</text>
+      </register>
+      <register name="t" type="4">
+        <keys>
+          <key char="65535" code="86" mods="130" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="73" code="0" mods="0" />
+          <key char="35" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="65535" code="86" mods="130" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="120" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="65535" code="127" mods="0" />
+        </keys>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICAjIGlmIGFueSBxdWVyeSBoYXMgYSB0YWcgb3IgcGl2b3QgbWF0Y2hpbmcgcGlwZWxpbmVfZGVmLCByZW1vdmUgdGhhdCB0YWcvcGl2b3QuIFdlIGFyZSBvbmx5IGludGVyZXN0ZWQgaW4KICAgICAgICAjIHF1ZXJpZXMgdGhhdCB3aWxsIGVuZCB1cCBiZWluZyBkbWsgYW5kIGRvd25sb2FkaW5nIDEwIG1ldHJpY3MgdGhhdCBvbmVzIGRlcGlwZWxpbmVkIGFyZSB0aGUgc2FtZSBpcyBqdXN0IGEKICAgICAgICAjIHdhc3RlCiAgICAgICAgcGlwZWxpbmVfZGVmID0gc2VsZi5jb25maWdbJ2NsYXNzZXMnXVsnZ2xvYmFsX3BhcmFtcyddWydwaXBlbGluZV9kZWYnXQogICAgICAgIGZvciBxdWVyeSBpbiBhbGxfcXVlcmllczoKICAgICAgICAgICAgcXVlcnkucmVtb3ZlX3RhZ3MocGlwZWxpbmVfZGVmKQogICAgICAgICAgICBxdWVyeS5yZW1vdmVfcGl2b3RzKHBpcGVsaW5lX2RlZikKICAgICAgICAiIiIK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICA6cmV0dXJuOgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBBZnRlciB3ZSBhcHBseSB0aGlzLCB0aGUgbGVuZ3RoIG9mIGdldF9pbnB1dHMoKSBpcyB0aGUgdG90YWwgbnVtYmVyIG9mIHNlcmllcyB0aGF0IHdvdWxkIGJlIHVzZWQgaW4gdGhlIG1vZGVsCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBzaG91bGQgYmUgdGhlIHNhbWUK</text>
+      </register>
+      <register name="9" type="8">
         <text>#
 #
 #
@@ -1273,109 +1376,6 @@
 #
 #
 #</text>
-      </register>
-      <register name="q" type="4">
-        <text />
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
-      </register>
-      <register name="r" type="4">
-        <keys>
-          <key char="65535" code="27" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="107" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-        </keys>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgcXVlcnkgaW4gYWxsCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZV9kZWYgPSBzZWxmLmNvbmZpZ1snY2xhc3NlcyddWydnbG9iYWxfcGFyYW1zJ11bJ3BpcGVsaW5lX2RlZiddCg==</text>
-      </register>
-      <register name="t" type="4">
-        <keys>
-          <key char="65535" code="86" mods="130" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="73" code="0" mods="0" />
-          <key char="35" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="65535" code="86" mods="130" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="120" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-          <key char="108" code="0" mods="0" />
-          <key char="65535" code="127" mods="0" />
-        </keys>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5xdWVyeSBpbXBvcnQgUXVlcnkK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcyBpbXBvcnQgcGlwZWxpbmVzCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXNldF9tb2RlbCA9IFRydWUK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZXYgPSBUcnVlCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfaW5wdXRzID0gbGlzdChzZXQoYWxsX2lucHV0cykpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
