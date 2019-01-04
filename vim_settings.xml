@@ -206,12 +206,12 @@
         <mark key="^" line="84" column="48" />
         <mark key="." line="84" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/blogs/dependence_metrics/text.md" timestamp="1546452690591">
-        <mark key="'" line="15" column="15" />
-        <mark key="[" line="77" column="56" />
-        <mark key="]" line="77" column="84" />
-        <mark key="." line="77" column="84" />
-        <mark key="^" line="77" column="84" />
+      <file name="$USER_HOME$/opas/core/python/blogs/dependence_metrics/text.md" timestamp="1546643744205">
+        <mark key="'" line="67" column="0" />
+        <mark key="[" line="92" column="99" />
+        <mark key="]" line="92" column="99" />
+        <mark key="." line="92" column="99" />
+        <mark key="^" line="92" column="99" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/__init__.py" timestamp="1546558902707">
         <mark key="[" line="2" column="0" />
@@ -230,8 +230,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
-      <jump line="101" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="122" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="167" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
       <jump line="177" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/tests/test_metrics_ica.py" />
@@ -330,6 +328,8 @@
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
       <jump line="32" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
       <jump line="86" column="2" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/cassandra_5_rf.yaml" />
+      <jump line="59" column="0" filename="$USER_HOME$/opas/core/python/blogs/dependence_metrics/text.md" />
+      <jump line="67" column="0" filename="$USER_HOME$/opas/core/python/blogs/dependence_metrics/text.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -338,8 +338,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAib3V0cHV0cyI6IFsKICAgIHsKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIKICAgICAgXSwKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiOTV0aFBlcmNlbnRpbGVcIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJQcm9kX0NsdXN0ZXIiCiAgICAgICAgXSwKICAgICAgICAia2V5c3BhY2UiOiBbCiAgICAgICAgICAidXNlcl90cmFja2luZ19zZXJ2aWNlIgogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiUmVhZExhdGVuY3kiCiAgICAgICAgXSwKICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAidWN0X3N0YXRzX3RyaWdnZXJfc3RhdHMiCiAgICAgICAgXQogICAgICB9CiAgICB9CiAgXSwK</text>
+      <register name="&quot;" type="4">
+        <text>and</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -881,22 +881,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>debug</text>
+        <text>and</text>
       </register>
       <register name="/" type="4">
-        <text>inputs</text>
+        <text>for</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAidWN0X3N0YXRzX3RyaWdnZXJfc3RhdHMiCiAgICAgICAgXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAib3V0cHV0cyI6IFsKICAgIHsKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIKICAgICAgXSwKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiOTV0aFBlcmNlbnRpbGVcIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJQcm9kX0NsdXN0ZXIiCiAgICAgICAgXSwKICAgICAgICAia2V5c3BhY2UiOiBbCiAgICAgICAgICAidXNlcl90cmFja2luZ19zZXJ2aWNlIgogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiUmVhZExhdGVuY3kiCiAgICAgICAgXSwKICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAidWN0X3N0YXRzX3RyaWdnZXJfc3RhdHMiCiAgICAgICAgXQogICAgICB9CiAgICB9CiAgXSwK</text>
+        <text encoding="base64">dGVtcGVyYXR1cmUgdG8gYmUgODBGCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlbCB2YXJncwo=</text>
+        <text encoding="base64">YW5kIEkgd2FudCB0aGUK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -910,10 +910,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAuZm9ybWF0KGksIG1vZGVsLm1vZGVsLnZhbF9sb3NzKSkK</text>
+        <text encoding="base64">ICAib3V0cHV0cyI6IFsKICAgIHsKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIKICAgICAgXSwKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiOTV0aFBlcmNlbnRpbGVcIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJQcm9kX0NsdXN0ZXIiCiAgICAgICAgXSwKICAgICAgICAia2V5c3BhY2UiOiBbCiAgICAgICAgICAidXNlcl90cmFja2luZ19zZXJ2aWNlIgogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiUmVhZExhdGVuY3kiCiAgICAgICAgXSwKICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAidWN0X3N0YXRzX3RyaWdnZXJfc3RhdHMiCiAgICAgICAgXQogICAgICB9CiAgICB9CiAgXSwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIGJ1dCB0aGlzIG1ldHJpY3MKICAgICAgICAjIHdpbGwgaGF2ZSBwaXBlbGluZV9kZWYgaW4gdGFncywgd2UgaGF2ZSB0byBkZXBpcGVsaW5lIHRoaXMgbWV0cmljcwo=</text>
+        <text encoding="base64">ICAgIGRlbCB2YXJncwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -981,28 +981,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGJ1dCB0aGlzIG1ldHJpY3MK</text>
+        <text encoding="base64">ICAgICAgICAuZm9ybWF0KGksIG1vZGVsLm1vZGVsLnZhbF9sb3NzKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICAjIGlmIGFueSBxdWVyeSBoYXMgYSB0YWcgb3IgcGl2b3QgbWF0Y2hpbmcgcGlwZWxpbmVfZGVmLCByZW1vdmUgdGhhdCB0YWcvcGl2b3QuIFdlIGFyZSBvbmx5IGludGVyZXN0ZWQgaW4KICAgICAgICAjIHF1ZXJpZXMgdGhhdCB3aWxsIGVuZCB1cCBiZWluZyBkbWsgYW5kIGRvd25sb2FkaW5nIDEwIG1ldHJpY3MgdGhhdCBvbmVzIGRlcGlwZWxpbmVkIGFyZSB0aGUgc2FtZSBpcyBqdXN0IGEKICAgICAgICAjIHdhc3RlCiAgICAgICAgcGlwZWxpbmVfZGVmID0gc2VsZi5jb25maWdbJ2NsYXNzZXMnXVsnZ2xvYmFsX3BhcmFtcyddWydwaXBlbGluZV9kZWYnXQogICAgICAgIGZvciBxdWVyeSBpbiBhbGxfcXVlcmllczoKICAgICAgICAgICAgcXVlcnkucmVtb3ZlX3RhZ3MocGlwZWxpbmVfZGVmKQogICAgICAgICAgICBxdWVyeS5yZW1vdmVfcGl2b3RzKHBpcGVsaW5lX2RlZikKICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICAjIGJ1dCB0aGlzIG1ldHJpY3MKICAgICAgICAjIHdpbGwgaGF2ZSBwaXBlbGluZV9kZWYgaW4gdGFncywgd2UgaGF2ZSB0byBkZXBpcGVsaW5lIHRoaXMgbWV0cmljcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICA6cmV0dXJuOgo=</text>
+        <text encoding="base64">ICAgICAgICAjIGJ1dCB0aGlzIG1ldHJpY3MK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBBZnRlciB3ZSBhcHBseSB0aGlzLCB0aGUgbGVuZ3RoIG9mIGdldF9pbnB1dHMoKSBpcyB0aGUgdG90YWwgbnVtYmVyIG9mIHNlcmllcyB0aGF0IHdvdWxkIGJlIHVzZWQgaW4gdGhlIG1vZGVsCg==</text>
+        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICAjIGlmIGFueSBxdWVyeSBoYXMgYSB0YWcgb3IgcGl2b3QgbWF0Y2hpbmcgcGlwZWxpbmVfZGVmLCByZW1vdmUgdGhhdCB0YWcvcGl2b3QuIFdlIGFyZSBvbmx5IGludGVyZXN0ZWQgaW4KICAgICAgICAjIHF1ZXJpZXMgdGhhdCB3aWxsIGVuZCB1cCBiZWluZyBkbWsgYW5kIGRvd25sb2FkaW5nIDEwIG1ldHJpY3MgdGhhdCBvbmVzIGRlcGlwZWxpbmVkIGFyZSB0aGUgc2FtZSBpcyBqdXN0IGEKICAgICAgICAjIHdhc3RlCiAgICAgICAgcGlwZWxpbmVfZGVmID0gc2VsZi5jb25maWdbJ2NsYXNzZXMnXVsnZ2xvYmFsX3BhcmFtcyddWydwaXBlbGluZV9kZWYnXQogICAgICAgIGZvciBxdWVyeSBpbiBhbGxfcXVlcmllczoKICAgICAgICAgICAgcXVlcnkucmVtb3ZlX3RhZ3MocGlwZWxpbmVfZGVmKQogICAgICAgICAgICBxdWVyeS5yZW1vdmVfcGl2b3RzKHBpcGVsaW5lX2RlZikKICAgICAgICAiIiIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzaG91bGQgYmUgdGhlIHNhbWUK</text>
+        <text encoding="base64">ICAgICAgICA6cmV0dXJuOgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>inputs</last-search>
+      <last-search>for</last-search>
       <last-offset />
-      <last-pattern>inputs</last-pattern>
+      <last-pattern>for</last-pattern>
       <last-replace>self</last-replace>
       <last-substitute>cls</last-substitute>
       <last-dir>1</last-dir>
@@ -1010,7 +1010,6 @@
     </search>
     <history>
       <history-search>
-        <entry>40</entry>
         <entry>def test</entry>
         <entry>cls</entry>
         <entry>MIXING</entry>
@@ -1030,6 +1029,7 @@
         <entry>Pending</entry>
         <entry>model</entry>
         <entry>inputs</entry>
+        <entry>for</entry>
       </history-search>
       <history-cmd>
         <entry>180</entry>
