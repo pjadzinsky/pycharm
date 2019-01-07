@@ -68,12 +68,12 @@
         <mark key="]" line="353" column="0" />
         <mark key="." line="353" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1546820019069">
-        <mark key="'" line="560" column="4" />
-        <mark key="[" line="314" column="19" />
-        <mark key="]" line="318" column="19" />
-        <mark key="." line="318" column="19" />
-        <mark key="^" line="318" column="19" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1546827891919">
+        <mark key="'" line="301" column="7" />
+        <mark key="[" line="307" column="56" />
+        <mark key="]" line="307" column="54" />
+        <mark key="." line="307" column="54" />
+        <mark key="^" line="307" column="54" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1546550628360">
         <mark key="'" line="169" column="13" />
@@ -315,7 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1417" column="4" filename="$USER_HOME$/envs/crypto/lib/python3.6/site-packages/ccxt/base/exchange.py" />
       <jump line="1428" column="4" filename="$USER_HOME$/envs/crypto/lib/python3.6/site-packages/ccxt/base/exchange.py" />
       <jump line="1431" column="4" filename="$USER_HOME$/envs/crypto/lib/python3.6/site-packages/ccxt/base/exchange.py" />
       <jump line="1434" column="4" filename="$USER_HOME$/envs/crypto/lib/python3.6/site-packages/ccxt/base/exchange.py" />
@@ -415,6 +414,7 @@
       <jump line="555" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="61" column="39" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
       <jump line="106" column="23" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
+      <jump line="301" column="7" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -424,7 +424,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>following</text>
+        <text>currencies</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +966,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>following</text>
+        <text>currencies</text>
       </register>
       <register name="/" type="4">
-        <text>unlink</text>
+        <text>es</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIGVuc3VyZV9hZGRyZXNzKGV4Y2hhbmdlLCBjdXJyZW5jeSk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCBleGNoYW5nZXM9Tm9uZSk6Cg==</text>
+        <text encoding="base64">ICAgICAgICB3ZSBkbyBoYXZlIGEgd2FsbGV0IGZvciBzdWNoICdleGNoYW5nZScsICdjdXJyZW5jeScK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBoYXZlIHdhbGxldHMgZm9yIGFsbCBleGNoYW5nZXMgaW4gdGhlIHJlcXVlc3RlZCBjdXJyZW5jaWVzCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGUgJ2dyYXBoJyBoYXMgYSBub2RlIGZvciBhIGdpdmVuIGV4Y2hhbmdlLCBjdXJyZW5jeSAod2hlcmUgY3VycmVuY3kgaW4gY3VycmVuY2llcykgdGhlbgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -995,10 +995,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGdyYXBoLCBwYXRocyA9IGdldF9jeWNsZXMoKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLCBleGNoYW5nZXM9Tm9uZSk6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGZyb20gY3J5cHRvLmV4Y2hhbmdlcyBpbXBvcnQgYml0dHJleAogICAgZW5zdXJlX2FkZHJlc3MoYml0dHJleCwgJ0JBVCcpCg==</text>
+        <text encoding="base64">ICAgICAgICBoYXZlIHdhbGxldHMgZm9yIGFsbCBleGNoYW5nZXMgaW4gdGhlIHJlcXVlc3RlZCBjdXJyZW5jaWVzCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1066,28 +1066,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlmIGV4Y2hhbmdlLmhhc1snY3JlYXRlRGVwb3NpdEFkZHJlc3MnXToKICAgICAgICAgICAgZXhjaGFuZ2UuY3JlYXRlX2RlcG9zaXRfYWRkcmVzcyhjdXJyZW5jeSkK</text>
+        <text encoding="base64">ICAgIGdyYXBoLCBwYXRocyA9IGdldF9jeWNsZXMoKQoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlmIGV4Y2hhbmdlLmhhc1snY3JlYXRlRGVwb3NpdEFkZHJlc3MnXToKICAgICAgICAgICAgZXhjaGFuZ2UuY3JlYXRlX2RlcG9zaXRfYWRkcmVzcyhjdXJyZW5jeSkK</text>
+        <text encoding="base64">aWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGZyb20gY3J5cHRvLmV4Y2hhbmdlcyBpbXBvcnQgYml0dHJleAogICAgZW5zdXJlX2FkZHJlc3MoYml0dHJleCwgJ0JBVCcpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIGZvciBiaXR0cmV4LCBwcmV2aW91cyBjb21tYW5kIGFwcGFyZW50bHkgc2VuZCB0aGUgY3JlYXRlIGFkZHJlc3Mgb3JkZXIgYnV0IHdhbGxldCB3YXMgbm90IHJlYWR5IGFuZCByYWlzZWQuCiAgICAgICAgIyBMZXRzIHdhaXQgYSBiaXQgYW5kIHNlZSBpZiB0aGUgd2FsbGV0IHdhcyBhY3R1YWxseSBjcmVhdGVkCg==</text>
+        <text encoding="base64">ICAgICAgICBlbGlmIGV4Y2hhbmdlLmhhc1snY3JlYXRlRGVwb3NpdEFkZHJlc3MnXToKICAgICAgICAgICAgZXhjaGFuZ2UuY3JlYXRlX2RlcG9zaXRfYWRkcmVzcyhjdXJyZW5jeSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIHdpdGggCg==</text>
+        <text encoding="base64">ICAgICAgICBlbGlmIGV4Y2hhbmdlLmhhc1snY3JlYXRlRGVwb3NpdEFkZHJlc3MnXToKICAgICAgICAgICAgZXhjaGFuZ2UuY3JlYXRlX2RlcG9zaXRfYWRkcmVzcyhjdXJyZW5jeSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjIGZvciBiaXR0cmV4LCBwcmV2aW91cyBjb21tYW5kIGFwcGFyZW50bHkgc2VuZCB0aGUgY3JlYXRlIGFkZHJlc3Mgb3JkZXIgYnV0IHdhbGxldCB3YXMgbm90IHJlYWR5IGFuZCByYWlzZWQuCiAgICAgICAgIyBMZXRzIHdhaXQgYSBiaXQgYW5kIHNlZSBpZiB0aGUgd2FsbGV0IHdhcyBhY3R1YWxseSBjcmVhdGVkCg==</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>
       </register>
     </registers>
     <search>
-      <last-search>unlink</last-search>
+      <last-search>es</last-search>
       <last-offset />
-      <last-pattern>unlink</last-pattern>
+      <last-pattern>es</last-pattern>
       <last-replace>self</last-replace>
       <last-substitute>cls</last-substitute>
       <last-dir>1</last-dir>
@@ -1095,7 +1095,6 @@
     </search>
     <history>
       <history-search>
-        <entry>create_summ</entry>
         <entry>cursor</entry>
         <entry encoding="base64">XmRlZiA=</entry>
         <entry>logg</entry>
@@ -1115,6 +1114,7 @@
         <entry>class Node</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>unlink</entry>
+        <entry>es</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
