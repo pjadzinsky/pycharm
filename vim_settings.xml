@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1546561815713">
-        <mark key="'" line="42" column="0" />
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="78" column="38" />
-        <mark key="^" line="42" column="19" />
-        <mark key="." line="17" column="40" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1546886996704">
+        <mark key="'" line="41" column="0" />
+        <mark key="[" line="62" column="18" />
+        <mark key="]" line="62" column="43" />
+        <mark key="." line="62" column="43" />
+        <mark key="^" line="62" column="43" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" timestamp="1546838792935">
         <mark key="[" line="105" column="48" />
@@ -137,6 +137,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="83" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1546886926189">
+        <mark key="[" line="337" column="105" />
+        <mark key="]" line="338" column="7" />
+        <mark key="^" line="338" column="7" />
+        <mark key="." line="338" column="36" />
       </file>
       <file name="/fragment.py" timestamp="1546839194497">
         <mark key="[" line="0" column="0" />
@@ -368,8 +374,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>Exception</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBtb2RlbF9jb25maWcuZXhwYW5kZWRfaW5wdXRfcXVlcmllcygpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -911,7 +917,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Exception</text>
+        <text>get_inputs</text>
       </register>
       <register name="/" type="4">
         <text>wallet</text>
@@ -920,13 +926,13 @@
         <text encoding="base64">ICAgICAgICAgICAgJ3RhZyc6ICcnCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBCQ0gK</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbF9jb25maWcuZXhwYW5kZWRfaW5wdXRfcXVlcmllcygpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3RhZyc6ICcnCg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5kZWJ1ZygnZGVidWdnaW5nJykK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -940,10 +946,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ZmxhZ3MuREVGSU5FX2ludGVnZXIoJ24yJywgTm9uZSwgJ251bWJlciBvZiBtZXRyaWNzIHRvIHN3YXAgZXZlcnkgdGltZSB3ZSByZS10cmFpbiB0aGUgbW9kZWwnKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IG9zCg==</text>
+        <text encoding="base64">ICBCQ0gK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1011,19 +1017,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3RhZyc6ICcnCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgYmVoYXZpb3VyIHNlZW1zIHRvIGJlIGRpZmZlcmVudCBhY3Jvc3MgZXhjaGFuZ2VzLiBGb3IgZXhhbXBsZToKICAgICMgICBoaXRidGMuZmV0Y2hfZGVwb3NpdF9hZGRyZXNzKCdYWFgnKSB3aWxsIGNyZWF0ZSB0aGUgd2FsbGV0IGlmIGl0IGRvZXNuJ3QgZXhpc3QKICAgICMgICBwb2xvbmlleC5mZXRjaF9kZXBvc2l0X2FkZHJlc3MoJ1hYWCcpIHJhaXNlcyBjY3h0LmJhc2UuZXJyb3JzLkludmFsaWRBZGRyZXNzIGlmIGFkZHJlcyBkb2VzIG5vdCBleGlzdAogICAgIyAgICAgICBidXQgcG9sb25pZXguY3JlYXRlX2RlcG9zaXRfYWRkcmVzcygnWFhYJykgY3JlYXRlcyB0aGUgYWRkcmVzcwogICAgIyAgIGJpdHRyZXguZmV0Y2hfZGVwb3NpdF9hZGRyZXNzKCdYWFgnKSB3aWxsIHJhaXNlIGFuIGVycm9yIGlmIGFkZHJlc3MgZG9lcyBub3QgZXhpc3QsIGJ1dCB0aGUgZXJyb3Igc2F5cyB0aGUKICAgICMgICAgICAgJ0FERFJFU1NfR0VORVJBVElORycsIHN1YnNlcXVlbnQgY2FsbCB3aWxsIHJldHVybiB0aGUgYWRkcmVzcy4gV2VpcmRseSBlbm91Z2gsIGFzIG9mIDAxLzA2LzIwMTkKICAgICMgICAgICAgYml0dHJleC5oYXNbJ2NyZWF0ZURlcG9zaXRBZGRyZXNzJ10gcmV0dXJucyBGYWxzZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9zCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGlmIGV4Y2hhbmdlIGluIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">d2FsbGV0cyA9IHsKICAgICdwb2xvbmlleCc6IHsKICAgICAgICAnRkNUJzogJ0ZBMlpOVGVxNUp4Szh6QnFZdm5SRTY2NWl5MW0zcnVIVEJCdloxYWZHNmd6WmdFUXVrNjgnLAogICAgICAgICdCVEMnOiAnMTZDS0VTYXlhSkd0Q0h1Y2t6WWt3OWRQdlNUZk1IdmtTVCcsCiAgICAgICAgJ0RPR0UnOiAnRDg5N1ZORVZickdGRFB3VnpyWEdKR29mWFYxWTdFMUtTaScKICAgIH0sCiAgICAnYml0dHJleCc6IHsKICAgICAgICAnRkNUJzogJ0ZBMmdQTDhtZm1VR2RlU0ZVd3AzZzZDQXZaVXMzbzNGenB3WFA5U1dOekhVVzFzemtzQkInLAogICAgICAgICdCVEMnOiAnMUE3N1JuNlJCbUt5ZzZHSGJYSzJRWDY0WDlKRVhRVGJReCcsCiAgICAgICAgJ0RPR0UnOiAnREpiQVg4cWs2a0NzYWVQaHlZcTJjazhHNW5nUkUyQ2FoSycKICAgIH0sCiAgICAnaGl0YnRjMic6IHsKICAgICAgICAnRE9HRSc6ICdEUDc5Z3ZFVEEyMUg5bkdOMmhyZFBQeldHMjlUQXlUam90JwogICAgfQp9Cg==</text>
+        <text encoding="base64">ICAgICMgYmVoYXZpb3VyIHNlZW1zIHRvIGJlIGRpZmZlcmVudCBhY3Jvc3MgZXhjaGFuZ2VzLiBGb3IgZXhhbXBsZToKICAgICMgICBoaXRidGMuZmV0Y2hfZGVwb3NpdF9hZGRyZXNzKCdYWFgnKSB3aWxsIGNyZWF0ZSB0aGUgd2FsbGV0IGlmIGl0IGRvZXNuJ3QgZXhpc3QKICAgICMgICBwb2xvbmlleC5mZXRjaF9kZXBvc2l0X2FkZHJlc3MoJ1hYWCcpIHJhaXNlcyBjY3h0LmJhc2UuZXJyb3JzLkludmFsaWRBZGRyZXNzIGlmIGFkZHJlcyBkb2VzIG5vdCBleGlzdAogICAgIyAgICAgICBidXQgcG9sb25pZXguY3JlYXRlX2RlcG9zaXRfYWRkcmVzcygnWFhYJykgY3JlYXRlcyB0aGUgYWRkcmVzcwogICAgIyAgIGJpdHRyZXguZmV0Y2hfZGVwb3NpdF9hZGRyZXNzKCdYWFgnKSB3aWxsIHJhaXNlIGFuIGVycm9yIGlmIGFkZHJlc3MgZG9lcyBub3QgZXhpc3QsIGJ1dCB0aGUgZXJyb3Igc2F5cyB0aGUKICAgICMgICAgICAgJ0FERFJFU1NfR0VORVJBVElORycsIHN1YnNlcXVlbnQgY2FsbCB3aWxsIHJldHVybiB0aGUgYWRkcmVzcy4gV2VpcmRseSBlbm91Z2gsIGFzIG9mIDAxLzA2LzIwMTkKICAgICMgICAgICAgYml0dHJleC5oYXNbJ2NyZWF0ZURlcG9zaXRBZGRyZXNzJ10gcmV0dXJucyBGYWxzZQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/Equals/Equal/gc</text>
