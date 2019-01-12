@@ -38,11 +38,6 @@
       <file name="/-1" timestamp="1547054883664">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_inputs.yaml" timestamp="1547074527491">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/BMS_models/suggestions.py" timestamp="1546971739121">
         <mark key="[" line="0" column="0" />
       </file>
@@ -52,11 +47,6 @@
         <mark key="]" line="606" column="20" />
         <mark key="." line="606" column="20" />
         <mark key="^" line="606" column="20" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_model_stage.py" timestamp="1547076724228">
-        <mark key="[" line="223" column="0" />
-        <mark key="]" line="223" column="0" />
-        <mark key="." line="223" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1547233775729">
         <mark key="[" line="23" column="0" />
@@ -109,7 +99,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1547233663347">
         <mark key="'" line="194" column="68" />
       </file>
-      <file name="/Python Console" timestamp="1547316452869">
+      <file name="/Python Console" timestamp="1547318397094">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -165,11 +155,6 @@
         <mark key="." line="55" column="55" />
         <mark key="^" line="55" column="55" />
       </file>
-      <file name="$USER_HOME$/opas/core/run_python_tests.sh" timestamp="1547232560940">
-        <mark key="[" line="58" column="0" />
-        <mark key="]" line="58" column="0" />
-        <mark key="." line="58" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/normalizer/clip_normalizer.py" timestamp="1547224606758">
         <mark key="[" line="14" column="74" />
         <mark key="]" line="14" column="74" />
@@ -207,22 +192,21 @@
       <file name="/True" timestamp="1546706867979">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/json/selfserve/model_templates/model_causal_random_forest_without_seasonality.json" timestamp="1547101707867">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/store/test_s3.py" timestamp="1547243738364">
         <mark key="[" line="36" column="32" />
         <mark key="]" line="36" column="46" />
         <mark key="." line="36" column="46" />
         <mark key="^" line="36" column="46" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/common/tests/test_aws_email.py" timestamp="1547318394037">
+        <mark key="'" line="47" column="4" />
+        <mark key="[" line="84" column="36" />
+        <mark key="]" line="88" column="9" />
+        <mark key="." line="88" column="9" />
+        <mark key="^" line="88" column="9" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="294" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
-      <jump line="279" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
-      <jump line="277" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
       <jump line="256" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
       <jump line="250" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
       <jump line="244" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
@@ -320,6 +304,9 @@
       <jump line="50" column="48" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" />
       <jump line="604" column="15" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
       <jump line="3" column="10" filename="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" />
+      <jump line="82" column="32" filename="$USER_HOME$/crypto/crypto/crypto/common/tests/test_aws_email.py" />
+      <jump line="35" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/tests/test_aws_email.py" />
+      <jump line="47" column="4" filename="$USER_HOME$/crypto/crypto/crypto/common/tests/test_aws_email.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -329,7 +316,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>balances</text>
+        <text>recipient@example.com</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -871,10 +858,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>balances</text>
+        <text>recipient@example.com</text>
       </register>
       <register name="/" type="4">
-        <text>exchange_ut</text>
+        <text>Confi</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHRyYW5zZmVyX3RvX21haW5fYWNjb3VudChleGNoYW5nZXMsIGJhbGFuY2VzPU5vbmUpOgogICAgdHJhbnNmZXJfYmV0d2Vlbl9hY2NvdW50cyhISVRCVEMyX1RPX01BSU4sIGV4Y2hhbmdlcywgYmFsYW5jZXM9YmFsYW5jZXMpCg==</text>
@@ -990,9 +977,9 @@
       </register>
     </registers>
     <search>
-      <last-search>exchange_ut</last-search>
+      <last-search>Confi</last-search>
       <last-offset />
-      <last-pattern>exchange_ut</last-pattern>
+      <last-pattern>Confi</last-pattern>
       <last-replace>Equal</last-replace>
       <last-substitute>Equals</last-substitute>
       <last-dir>1</last-dir>
@@ -1000,7 +987,6 @@
     </search>
     <history>
       <history-search>
-        <entry>feature</entry>
         <entry>storage_host</entry>
         <entry>\.run</entry>
         <entry>Sea</entry>
@@ -1020,6 +1006,7 @@
         <entry>s3</entry>
         <entry>,</entry>
         <entry>exchange_ut</entry>
+        <entry>Confi</entry>
       </history-search>
       <history-cmd>
         <entry>168</entry>
