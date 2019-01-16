@@ -21,12 +21,12 @@
       <file name="/-1" timestamp="1547054883664">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/gradient_boosting_regressor.py" timestamp="1547599290575">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/gradient_boosting_regressor.py" timestamp="1547600635252">
         <mark key="'" line="180" column="8" />
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
-        <mark key="^" line="138" column="31" />
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="68" />
+        <mark key="." line="186" column="35" />
+        <mark key="^" line="186" column="35" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/BMS_models/suggestions.py" timestamp="1546971739121">
         <mark key="[" line="0" column="0" />
@@ -40,8 +40,8 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1547579729371">
-        <mark key="'" line="56" column="15" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1547600520385">
+        <mark key="'" line="573" column="0" />
         <mark key="[" line="589" column="0" />
         <mark key="]" line="589" column="82" />
         <mark key="." line="1289" column="0" />
@@ -73,7 +73,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/cause_and_effect.py" timestamp="1546963970267">
         <mark key="[" line="6" column="38" />
       </file>
-      <file name="/Python Console" timestamp="1547599439159">
+      <file name="/Python Console" timestamp="1547600685815">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1547492435610">
@@ -112,12 +112,12 @@
       <file name="/0" timestamp="1546706867972">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" timestamp="1547599435933">
-        <mark key="'" line="8" column="49" />
-        <mark key="[" line="224" column="29" />
-        <mark key="]" line="224" column="43" />
-        <mark key="." line="224" column="43" />
-        <mark key="^" line="224" column="43" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" timestamp="1547600693972">
+        <mark key="'" line="199" column="42" />
+        <mark key="[" line="233" column="8" />
+        <mark key="]" line="233" column="24" />
+        <mark key="." line="233" column="24" />
+        <mark key="^" line="233" column="24" />
       </file>
       <file name="/True" timestamp="1546706867979">
         <mark key="[" line="0" column="0" />
@@ -149,10 +149,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/feature_creator_interface.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
-      <jump line="41" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
-      <jump line="55" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
       <jump line="40" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
       <jump line="38" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
       <jump line="54" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/basic_preprocessor.py" />
@@ -249,6 +245,10 @@
       <jump line="63" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/gradient_boosting_regressor.py" />
       <jump line="138" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/gradient_boosting_regressor.py" />
       <jump line="180" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/gradient_boosting_regressor.py" />
+      <jump line="228" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" />
+      <jump line="227" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" />
+      <jump line="199" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" />
+      <jump line="573" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -258,7 +258,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>iwt</text>
+        <text>print</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -800,22 +800,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>iwt</text>
+        <text>print</text>
       </register>
       <register name="/" type="4">
-        <text>_describe</text>
+        <text>def crea</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZV9kZWYgPSBbXQogICAgICAgIHBhcmFtcyA9IHsKICAgICAgICAgICAgJ3BpcGVsaW5lX2RlZic6IHBpcGVsaW5lX2RlZiwKICAgICAgICAgICAgJ2ludGVydmFsX3MnOiBpbnRlcnZhbCwKICAgICAgICAgICAgJ21vZGVsX3BhcmFtcyc6IHsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBtb2RlbCA9IEdyYWRpZW50Qm9vc3RpbmdSZWdyZXNzb3IocGFyYW1zKQogICAgICAgIG1vZGVsLnNldF90cmFpbmVyKEJhc2VUcmFpbmVyKHsndHJhaW5fZnJhY3Rpb24nOiAwLjcsICd2YWxpZGF0aW9uX21vZGUnOiAnbGFzdCd9KSkKICAgICAgICBtb2RlbC5zZXRfZmVhdHVyZV9jcmVhdG9ycyhbCiAgICAgICAgICAgIElkZW50aXR5RmVhdHVyZUNyZWF0b3IoewogICAgICAgICAgICAgICAgJ2FwcGxpZXNfdG9fb3V0cHV0cyc6IFRydWUsCiAgICAgICAgICAgICAgICAnYXBwbGllc190b19pbnB1dHMnOiBUcnVlLAogICAgICAgICAgICAgICAgJ3BpcGVsaW5lX2RlZic6IFtdLAogICAgICAgICAgICB9KSwKICAgICAgICBdKQogICAgICAgIGNvbmZpZ19pZCA9IE1vZGVsQ29uZmlnSWQoJ3VuaXR0ZXN0L3NvbWVfY29uZmlnX2lkJykKICAgICAgICBzdG9yZV90YWdzID0gTW9kZWxTdG9yZVRhZ3MoJ3VuaXR0ZXN0JywgJ3NvbWVfYWNjb3VudCcsICdzb21lX2NsdXN0ZXInLCBjb25maWdfaWQpCiAgICAgICAgbW9kZWwuc3RvcmVfdGFncyA9IHN0b3JlX3RhZ3MKICAgICAgICBtb2RlbC5tb2RlbF9zdG9yZSA9IE1vZGVsU3RvcmVJdGVtKHN0b3JlX3RhZ3MsICdzb21lX21vZGVsX2lkJykKICAgICAgICBtb2RlbC5rcGlfbW9kZWxfc2V0dGluZyA9IEtwaVN0YWdlTW9kZWxTZXR0aW5nKCkKICAgICAgICB0cmFpbl9lbmQgPSAoZW5kIC0gc3RhcnQpICogMC43ICsgc3RhcnQKICAgICAgICBtb2RlbC50cmFpbl9pbnRlcnZhbHMgPSBbdXRpbWUuSW50ZXJ2YWwoc3RhcnQsIHRyYWluX2VuZCldCiAgICAgICAgbW9kZWwudmFsX2ludGVydmFscyA9IFt1dGltZS5JbnRlcnZhbCh0cmFpbl9lbmQsIGVuZCldCiAgICAgICAgbW9kZWwuZGF0YV9pbnRlcnZhbCA9ICgxMCwgMjApCiAgICAgICAgcmVzZXRfbW9kZWwgPSBUcnVlCiAgICAgICAgbG9nc19wYXRoID0gJy90bXAnCgogICAgICAgICMgdHJhaW4gYW5kIHByZWRpY3QKICAgICAgICBtb2RlbC50cmFpbihpbnB1dHMsIG91dHB1dHMsIHN0YXJ0LCBlbmQsIHJlc2V0X21vZGVsLCBsb2dzX3BhdGgpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBjcmVhdGVfbW9kZWwoc2VsZiwgaW5wdXRfc2hhcGUsIG91dHB1dF9zaGFwZSwgbW9kZWxfcGFyYW1zKToK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbF9kZXNjcmlwdGlvbiA9IHNlbGYuX2Rlc2NyaWJlKCkKICAgICAgICBsb2dnZXIuaW5mbygne30nLmZvcm1hdChtb2RlbF9kZXNjcmlwdGlvbikpCg==</text>
+        <text encoding="base64">ICAgICAgICBwYXJhbXMgPSBpd3RyYQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2xvc3MnOiBzZWxmLmxvc3MsCg==</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbF9kZXNjcmlwdGlvbiA9IHNlbGYuX2Rlc2NyaWJlKCkKICAgICAgICBsb2dnZXIuaW5mbygne30nLmZvcm1hdChtb2RlbF9kZXNjcmlwdGlvbikpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -829,10 +829,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ21vZGVsX3BhcmFtcyc6IHsKICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ2xvc3MnOiBzZWxmLmxvc3MsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ21vZGVsX3BhcmFtcyc6IHsKICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -900,28 +900,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">OnJldHVybjoK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">OnBhcmFtIG1ldHJpY3M6Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ClBvc3NpYmxlIE1vZGVsczoKICAgIDEpIFRoZSBtb3N0IGNvbXBsZXggbW9kZWwgd2UgY2FuIGJ1aWxkLCB0aGUgb25lIHdlIHNob3VsZCBkZWZhdWx0IHRvIGluIHRoZSBhYnNlbmNlIG9mIGFueSBjdXN0b21lciBpbnNpZ2h0CiAgICAgYW5kIG9yIGRhdGEsIGlzIHBpcGVsaW5lX2RlZiA9IFtdOyBtX2ksPGE+OiBtZXRyaWMgaXRoLCB2YWx1ZSA8YT4gb2YgdGFnICdBJwoKaW5wdXRzICAgTW9kZWwKICAgICAgICAgKy0tLSsKbV8xLDEgLT4gfCAgIHwKLi4uCm1fbiwxIC0+IHwgICB8IC0+IG91dHB1dCxhMQptXzEsMiAtPiB8ICAgfCAtPiBvdXRwdXQsYTIgICh3ZSBtaWdodCBoYXZlIGp1c3Qgb25lIG91dHB1dCBpZiB0YWcgJ0EnIGlzIG5vdCBwcmVzZW50IGluIHRoZSBvdXRwdXQpCi4uLgptX24sMiAtPiB8ICAgfAorLS0tKwoKMikgTm93IGFzc3VtZSB0aGF0IHRoZSBtb2RlbCBhYm92ZSBjYW4gYmUgZGl2aWRlZCBpbnRvIHN1Ym1vZGVscyB0aGF0IGRvbid0IHRhbGsgdG8gZWFjaCBvdGhlciBhcyBpbgorLS0tKwptXzEsMSAtPiB8ICAgfAouLi4KbV9uLDEgLT4gfCAgIHwgLT4gb3V0cHV0LGExCisrKysrCm1fMSwyIC0+IHwgICB8IC0+IG91dHB1dCxhMgouLi4KbV9uLDIgLT4gfCAgIHwKKy0tLSsKClRoaXMgbGVhZHMgdG8gb3VyIGludGVybWVkaWF0ZSBtb2RlbCwgcGlwZWxpbmVfZGVmID0gWydBJ10uCm1vZGVsIGhhcyBQaXBlbGluZVZhbHVlRmVhdHVyZUNyZWF0b3IgcmVwcmVzZW50ZWQgYnkgJ2EnIGFzIGFuIGlucHV0IGJlbG93CgppbnB1dHMgICBNb2RlbAorLS0tKwptXzEsYSAtPiB8ICAgfAouLi4gICAtPiB8ICAgfCAtPiBvdXRwdXQsYQptX24sYSAtPiB8ICAgfAphICAgICAtPiB8ICAgfAorLS0tKwoKMykgQW5kIGlmIHRoZSBtb2RlbCBpbiAyIGlzIGluZGVwZW5kZW50IG9uICdhJywgd2UgY2FuIG1ha2UgdGhlIHNpbXBsZXN0IG1vZGVsIG9mIGFsbApwaXBlbGluZV9kZWYgPSBbJ0EnXSwgbW9kZWwgZG9lcyBub3QgaGF2ZSBQaXBlbGluZVZhbHVlRmVhdHVyZUNyZWF0b3IKCmlucHV0cyAgIE1vZGVsCiAgICAgICAgICstLS0rCm1fMSAgIC0+IHwgICB8Ci4uLiAgIC0+IHwgICB8IC0+IG91dHB1dAptX24gICAtPiB8ICAgfAorLS0tKwoKOnBhcmFtIG1ldHJpY3M6CjpyZXR1cm46Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">IiIiCg==</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">OnJldHVybjoK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">OnBhcmFtIG1ldHJpY3M6Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ClBvc3NpYmxlIE1vZGVsczoKICAgIDEpIFRoZSBtb3N0IGNvbXBsZXggbW9kZWwgd2UgY2FuIGJ1aWxkLCB0aGUgb25lIHdlIHNob3VsZCBkZWZhdWx0IHRvIGluIHRoZSBhYnNlbmNlIG9mIGFueSBjdXN0b21lciBpbnNpZ2h0CiAgICAgYW5kIG9yIGRhdGEsIGlzIHBpcGVsaW5lX2RlZiA9IFtdOyBtX2ksPGE+OiBtZXRyaWMgaXRoLCB2YWx1ZSA8YT4gb2YgdGFnICdBJwoKaW5wdXRzICAgTW9kZWwKICAgICAgICAgKy0tLSsKbV8xLDEgLT4gfCAgIHwKLi4uCm1fbiwxIC0+IHwgICB8IC0+IG91dHB1dCxhMQptXzEsMiAtPiB8ICAgfCAtPiBvdXRwdXQsYTIgICh3ZSBtaWdodCBoYXZlIGp1c3Qgb25lIG91dHB1dCBpZiB0YWcgJ0EnIGlzIG5vdCBwcmVzZW50IGluIHRoZSBvdXRwdXQpCi4uLgptX24sMiAtPiB8ICAgfAorLS0tKwoKMikgTm93IGFzc3VtZSB0aGF0IHRoZSBtb2RlbCBhYm92ZSBjYW4gYmUgZGl2aWRlZCBpbnRvIHN1Ym1vZGVscyB0aGF0IGRvbid0IHRhbGsgdG8gZWFjaCBvdGhlciBhcyBpbgorLS0tKwptXzEsMSAtPiB8ICAgfAouLi4KbV9uLDEgLT4gfCAgIHwgLT4gb3V0cHV0LGExCisrKysrCm1fMSwyIC0+IHwgICB8IC0+IG91dHB1dCxhMgouLi4KbV9uLDIgLT4gfCAgIHwKKy0tLSsKClRoaXMgbGVhZHMgdG8gb3VyIGludGVybWVkaWF0ZSBtb2RlbCwgcGlwZWxpbmVfZGVmID0gWydBJ10uCm1vZGVsIGhhcyBQaXBlbGluZVZhbHVlRmVhdHVyZUNyZWF0b3IgcmVwcmVzZW50ZWQgYnkgJ2EnIGFzIGFuIGlucHV0IGJlbG93CgppbnB1dHMgICBNb2RlbAorLS0tKwptXzEsYSAtPiB8ICAgfAouLi4gICAtPiB8ICAgfCAtPiBvdXRwdXQsYQptX24sYSAtPiB8ICAgfAphICAgICAtPiB8ICAgfAorLS0tKwoKMykgQW5kIGlmIHRoZSBtb2RlbCBpbiAyIGlzIGluZGVwZW5kZW50IG9uICdhJywgd2UgY2FuIG1ha2UgdGhlIHNpbXBsZXN0IG1vZGVsIG9mIGFsbApwaXBlbGluZV9kZWYgPSBbJ0EnXSwgbW9kZWwgZG9lcyBub3QgaGF2ZSBQaXBlbGluZVZhbHVlRmVhdHVyZUNyZWF0b3IKCmlucHV0cyAgIE1vZGVsCiAgICAgICAgICstLS0rCm1fMSAgIC0+IHwgICB8Ci4uLiAgIC0+IHwgICB8IC0+IG91dHB1dAptX24gICAtPiB8ICAgfAorLS0tKwoKOnBhcmFtIG1ldHJpY3M6CjpyZXR1cm46Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">IiIiCg==</text>
+      </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>186</text>
       </register>
     </registers>
     <search>
-      <last-search>_describe</last-search>
+      <last-search>def crea</last-search>
       <last-offset />
-      <last-pattern>_describe</last-pattern>
+      <last-pattern>def crea</last-pattern>
       <last-replace />
       <last-substitute>cls.</last-substitute>
       <last-dir>1</last-dir>
@@ -929,7 +929,6 @@
     </search>
     <history>
       <history-search>
-        <entry>replace</entry>
         <entry>self.sentinel</entry>
         <entry>Grad</entry>
         <entry>RandomForest</entry>
@@ -943,15 +942,15 @@
         <entry>9</entry>
         <entry>copy</entry>
         <entry>original_params</entry>
-        <entry>params</entry>
         <entry>train</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>Dep</entry>
         <entry>&quot;&quot;&quot;</entry>
         <entry>_describe</entry>
+        <entry>params</entry>
+        <entry>def crea</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/$/ tags: {},}/gc</entry>
         <entry>%s/tags/'tags'/g</entry>
         <entry>%s{}/''/gc</entry>
         <entry>%s/{}/''/gc</entry>
@@ -971,6 +970,7 @@
         <entry>%s/RandomForest/GradientBoostingRegressor/g</entry>
         <entry>%s/cls.//</entry>
         <entry>q</entry>
+        <entry>186</entry>
       </history-cmd>
       <history-expr />
       <history-input />
