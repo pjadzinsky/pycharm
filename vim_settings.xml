@@ -9,6 +9,12 @@
         <mark key="^" line="12" column="36" />
         <mark key="." line="16" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1547666870949">
+        <mark key="[" line="66" column="0" />
+        <mark key="]" line="66" column="76" />
+        <mark key="^" line="93" column="14" />
+        <mark key="." line="93" column="14" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1547664701043">
         <mark key="'" line="535" column="20" />
         <mark key="[" line="649" column="57" />
@@ -16,12 +22,48 @@
         <mark key="." line="649" column="55" />
         <mark key="^" line="649" column="55" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1547659895201">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="29" />
+        <mark key="." line="53" column="0" />
+        <mark key="^" line="52" column="27" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet2.yaml" timestamp="1547659932535">
+        <mark key="[" line="58" column="22" />
+        <mark key="]" line="58" column="27" />
+        <mark key="." line="58" column="27" />
+        <mark key="^" line="58" column="27" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/datastax_table_model.yaml" timestamp="1547659940681">
+        <mark key="[" line="69" column="22" />
+        <mark key="]" line="69" column="27" />
+        <mark key="." line="69" column="27" />
+        <mark key="^" line="69" column="27" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/bands_estimator.py" timestamp="1547527544025">
         <mark key="'" line="127" column="8" />
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="33" />
         <mark key="." line="9" column="0" />
         <mark key="^" line="1" column="10" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_client_request_model.yaml" timestamp="1547659921532">
+        <mark key="[" line="49" column="22" />
+        <mark key="]" line="49" column="22" />
+        <mark key="." line="49" column="22" />
+        <mark key="^" line="49" column="18" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1547659950702">
+        <mark key="[" line="58" column="22" />
+        <mark key="]" line="58" column="25" />
+        <mark key="." line="58" column="25" />
+        <mark key="^" line="58" column="25" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1547667402669">
+        <mark key="'" line="55" column="8" />
+        <mark key="[" line="359" column="0" />
+        <mark key="]" line="359" column="0" />
+        <mark key="." line="359" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/normalizer/clip_normalizer.py" timestamp="1547665673937">
         <mark key="'" line="13" column="48" />
@@ -37,6 +79,12 @@
         <mark key="^" line="42" column="0" />
         <mark key="." line="42" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_plot_post_processor.py" timestamp="1547659874295">
+        <mark key="[" line="111" column="0" />
+        <mark key="]" line="111" column="0" />
+        <mark key="." line="111" column="0" />
+        <mark key="^" line="110" column="20" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" timestamp="1547643555112">
         <mark key="'" line="233" column="24" />
         <mark key="[" line="113" column="15" />
@@ -50,6 +98,12 @@
         <mark key="]" line="90" column="23" />
         <mark key="." line="90" column="23" />
         <mark key="^" line="90" column="23" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_table.yaml" timestamp="1547659959007">
+        <mark key="[" line="70" column="22" />
+        <mark key="]" line="70" column="27" />
+        <mark key="." line="70" column="27" />
+        <mark key="^" line="70" column="27" />
       </file>
     </filemarks>
     <jumps>
@@ -162,7 +216,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBtb2NrLnBhdGNoKCdvcGFzYWkudHJhaW5lcnMub3Bhc19tb2RlbHMucmFuZG9tX2ZvcmVzdC5SYW5kb21Gb3Jlc3QudHJhaW4nKQogICAgZGVmIHRlc3RfMTAoc2VsZiwgbW9ja2VkX3RyYWluKToKICAgICAgICByZiA9IFJhbmRvbUZvcmVzdCh7J3BpcGVsaW5lX2RlZic6IFtdLCAnaW50ZXJ2YWxfcyc6IDB9KQogICAgICAgIG1vY2tlZF90cmFpbi5zaWRlX2VmZmVjdCA9IFs1LCAxLCAyLCAzLCA0XQogICAgICAgIHByaW50IHJmLnRyYWluKDEsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMSwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbigxLCAyLCAzLCA0LCA1LCA2KQogICAgICAgIHByaW50IHJmLnRyYWluKDEsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMSwgMiwgMywgNCwgNSwgNikKCiAgICBAbW9jay5wYXRjaCgnb3Bhc2FpLnRyYWluZXJzLm9wYXNfbW9kZWxzLnJhbmRvbV9mb3Jlc3QuUmFuZG9tRm9yZXN0LnRyYWluJykKICAgIGRlZiB0ZXN0XzExKHNlbGYsIG1vY2tlZF90cmFpbik6CiAgICAgICAgcmYgPSBSYW5kb21Gb3Jlc3QoeydwaXBlbGluZV9kZWYnOiBbXSwgJ2ludGVydmFsX3MnOiAwfSkKCiAgICAgICAgZGVmIHRlc3QoYSwgYiwgYywgZCwgZSwgZik6CiAgICAgICAgICAgIHJldHVybiBhCgogICAgICAgIG1vY2tlZF90cmFpbi5zaWRlX2VmZmVjdCA9IHRlc3QKCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMiwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbigyLCAyLCAzLCA0LCA1LCA2KQogICAgICAgIHByaW50IHJmLnRyYWluKDIsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMiwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbig0LCAyLCAzLCA0LCA1LCA2KQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -710,16 +764,16 @@
         <text>tt</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMucG9zdF9wcm9jZXNzb3JzLnNvcnRfbWV0cmljc19ieV9leGNpdGF0aW9uLlNvcnRNZXRyaWNzQnlFeGNpdGF0aW9uIgogICAgICB9LAogICAgICB7Cg==</text>
+        <text encoding="base64">ICAgIEBtb2NrLnBhdGNoKCdvcGFzYWkudHJhaW5lcnMub3Bhc19tb2RlbHMucmFuZG9tX2ZvcmVzdC5SYW5kb21Gb3Jlc3QudHJhaW4nKQogICAgZGVmIHRlc3RfMTAoc2VsZiwgbW9ja2VkX3RyYWluKToKICAgICAgICByZiA9IFJhbmRvbUZvcmVzdCh7J3BpcGVsaW5lX2RlZic6IFtdLCAnaW50ZXJ2YWxfcyc6IDB9KQogICAgICAgIG1vY2tlZF90cmFpbi5zaWRlX2VmZmVjdCA9IFs1LCAxLCAyLCAzLCA0XQogICAgICAgIHByaW50IHJmLnRyYWluKDEsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMSwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbigxLCAyLCAzLCA0LCA1LCA2KQogICAgICAgIHByaW50IHJmLnRyYWluKDEsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMSwgMiwgMywgNCwgNSwgNikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBtb2NrLnBhdGNoKCdvcGFzYWkudHJhaW5lcnMub3Bhc19tb2RlbHMucmFuZG9tX2ZvcmVzdC5SYW5kb21Gb3Jlc3QudHJhaW4nKQogICAgZGVmIHRlc3RfMTAoc2VsZiwgbW9ja2VkX3RyYWluKToKICAgICAgICByZiA9IFJhbmRvbUZvcmVzdCh7J3BpcGVsaW5lX2RlZic6IFtdLCAnaW50ZXJ2YWxfcyc6IDB9KQogICAgICAgIG1vY2tlZF90cmFpbi5zaWRlX2VmZmVjdCA9IFs1LCAxLCAyLCAzLCA0XQogICAgICAgIHByaW50IHJmLnRyYWluKDEsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMSwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbigxLCAyLCAzLCA0LCA1LCA2KQogICAgICAgIHByaW50IHJmLnRyYWluKDEsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMSwgMiwgMywgNCwgNSwgNikKCiAgICBAbW9jay5wYXRjaCgnb3Bhc2FpLnRyYWluZXJzLm9wYXNfbW9kZWxzLnJhbmRvbV9mb3Jlc3QuUmFuZG9tRm9yZXN0LnRyYWluJykKICAgIGRlZiB0ZXN0XzExKHNlbGYsIG1vY2tlZF90cmFpbik6CiAgICAgICAgcmYgPSBSYW5kb21Gb3Jlc3QoeydwaXBlbGluZV9kZWYnOiBbXSwgJ2ludGVydmFsX3MnOiAwfSkKCiAgICAgICAgZGVmIHRlc3QoYSwgYiwgYywgZCwgZSwgZik6CiAgICAgICAgICAgIHJldHVybiBhCgogICAgICAgIG1vY2tlZF90cmFpbi5zaWRlX2VmZmVjdCA9IHRlc3QKCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMiwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbigyLCAyLCAzLCA0LCA1LCA2KQogICAgICAgIHByaW50IHJmLnRyYWluKDIsIDIsIDMsIDQsIDUsIDYpCiAgICAgICAgcHJpbnQgcmYudHJhaW4oMiwgMiwgMywgNCwgNSwgNikKICAgICAgICBwcmludCByZi50cmFpbig0LCAyLCAzLCA0LCA1LCA2KQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBkZW5vcm1hbGl6ZShzZWxmLCBmZWF0dXJlcywgaXNfaW5wdXQpOgogICAgICAgIG5wLmV4cChmZWF0dXJlcywgb3V0PWZlYXR1cmVzKQo=</text>
+        <text encoding="base64">ICAgIGRlZiB0cmFpbl9tb2RlbChzZWxmLCBtb2RlbCwgWF90cmFpbiwgWF92YWwsIHlfdHJhaW4sIHlfdmFsLCBsb2dzX3BhdGgpOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -733,10 +787,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgewo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIGRlZiBkZW5vcm1hbGl6ZShzZWxmLCBmZWF0dXJlcywgaXNfaW5wdXQpOgogICAgICAgIG5wLmV4cChmZWF0dXJlcywgb3V0PWZlYXR1cmVzKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -804,19 +858,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cAo=</text>
+        <text encoding="base64">ICAgICAgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvc3MgPSB2YWxfbG9zcwo=</text>
+        <text encoding="base64">cAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvc3MgPSB0cmFpbl9sb3NzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0cmFpbl9sb3NzID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvc3MgPSB2YWxfbG9zcwo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
