@@ -70,13 +70,6 @@
         <mark key="." line="58" column="27" />
         <mark key="^" line="58" column="27" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1547659836111">
-        <mark key="'" line="75" column="0" />
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="40" column="33" />
-        <mark key="^" line="34" column="27" />
-        <mark key="." line="40" column="33" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/datastax_table_model.yaml" timestamp="1547659940681">
         <mark key="[" line="69" column="22" />
         <mark key="]" line="69" column="27" />
@@ -126,11 +119,11 @@
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/bitmap.py" timestamp="1544139045000">
         <mark key="[" line="15" column="53" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1547660013726">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1547662256732">
         <mark key="'" line="55" column="8" />
-        <mark key="[" line="354" column="73" />
-        <mark key="]" line="354" column="52" />
-        <mark key="." line="354" column="73" />
+        <mark key="[" line="354" column="70" />
+        <mark key="]" line="354" column="70" />
+        <mark key="." line="354" column="70" />
         <mark key="^" line="354" column="52" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/utils/file_utils.py" timestamp="1546454578681">
@@ -190,7 +183,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="185" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
       <jump line="618" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1371" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -290,6 +282,7 @@
       <jump line="73" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="75" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="55" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" />
+      <jump line="96" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -299,7 +292,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>)</text>
+        <text>/</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -841,10 +834,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
-        <text>plot_dir</text>
+        <text>base</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICJiYXNlX2RpciI6ICcvdG1wJywK</text>
@@ -960,9 +953,9 @@
       </register>
     </registers>
     <search>
-      <last-search>plot_dir</last-search>
+      <last-search>base</last-search>
       <last-offset />
-      <last-pattern>plot_dir</last-pattern>
+      <last-pattern>base</last-pattern>
       <last-replace>base_dir</last-replace>
       <last-substitute>plot_dir</last-substitute>
       <last-dir>1</last-dir>
@@ -970,7 +963,6 @@
     </search>
     <history>
       <history-search>
-        <entry>original_params</entry>
         <entry>train</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>Dep</entry>
@@ -990,6 +982,7 @@
         <entry>def local</entry>
         <entry>base_dir</entry>
         <entry>plot_dir</entry>
+        <entry>base</entry>
       </history-search>
       <history-cmd>
         <entry>%s/'a/\r'a/</entry>
