@@ -97,7 +97,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/cause_and_effect.py" timestamp="1546963970267">
         <mark key="[" line="6" column="38" />
       </file>
-      <file name="/Python Console" timestamp="1547847239242">
+      <file name="/Python Console" timestamp="1547848836044">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="11" />
         <mark key="." line="0" column="11" />
@@ -105,8 +105,8 @@
       <file name="/fragment.py" timestamp="1547841741442">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1547846347372">
-        <mark key="'" line="201" column="46" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1547848682765">
+        <mark key="'" line="1025" column="0" />
         <mark key="[" line="221" column="82" />
         <mark key="]" line="223" column="68" />
         <mark key="." line="223" column="68" />
@@ -126,6 +126,13 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/linear_model.py" timestamp="1547664004045">
         <mark key="[" line="24" column="15" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" timestamp="1547848834460">
+        <mark key="'" line="774" column="16" />
+        <mark key="[" line="708" column="52" />
+        <mark key="]" line="709" column="24" />
+        <mark key="^" line="709" column="24" />
+        <mark key="." line="709" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/histogram.py" timestamp="1544139093593">
         <mark key="[" line="23" column="54" />
@@ -253,7 +260,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="43" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/hyper_parameter_tuning/choose_parameters.py" />
       <jump line="1358" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="35" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="525" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -353,6 +359,7 @@
       <jump line="241" column="100" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="182" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="73" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/rebuild_models.py" />
+      <jump line="1025" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -362,7 +369,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>input</text>
+        <text>, 'opas_added_during_inflation': ('B',)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -904,13 +911,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>input</text>
+        <text>, 'opas_added_during_inflation': ('B',)</text>
       </register>
       <register name="/" type="4">
-        <text>ts</text>
+        <text>def .*inf</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmFrZV9tZXRyaWMuZmFrZV9tZXRyaWMoc3RhcnQsIGVuZCwgaW50ZXJ2YWwsIGRpc3RfcGFyYW1zLCBzZWFzb25hbGl0eV9wYXJhbXMsIGtleT1ta18yKQo=</text>
+      <register name="0" type="4">
+        <text>{'A': ('A',), 'B': ('B',), 'opas_added_during_inflation': ('B',)}</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
@@ -1019,13 +1026,13 @@
         <text encoding="base64">ICAgICAgICAjIHRoaXMgaXMgdGhlIGJ1ZywgdGhpcyAnaWYnIHN0YXRlbWVudCBoYXMgdG8gZ28KICAgICAgICBpZiBpc190cmFpbmluZzoK</text>
       </register>
       <register name=":" type="4">
-        <text>222</text>
+        <text>710</text>
       </register>
     </registers>
     <search>
-      <last-search>ts</last-search>
+      <last-search>def .*inf</last-search>
       <last-offset />
-      <last-pattern>ts</last-pattern>
+      <last-pattern>def .*inf</last-pattern>
       <last-replace>#&quot;source_instance</last-replace>
       <last-substitute>metric_insi</last-substitute>
       <last-dir>1</last-dir>
@@ -1033,7 +1040,6 @@
     </search>
     <history>
       <history-search>
-        <entry>tags</entry>
         <entry>G4</entry>
         <entry>preprocessors</entry>
         <entry>pipeline_values</entry>
@@ -1053,9 +1059,9 @@
         <entry>inflation</entry>
         <entry>us</entry>
         <entry>ts</entry>
+        <entry>def .*inf</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/\( *}\)/\0,/gc</entry>
         <entry>609</entry>
         <entry>544</entry>
         <entry>w</entry>
@@ -1075,6 +1081,7 @@
         <entry>q</entry>
         <entry>wq</entry>
         <entry>222</entry>
+        <entry>710</entry>
       </history-cmd>
       <history-expr />
       <history-input />
