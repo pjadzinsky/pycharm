@@ -7,7 +7,7 @@
       <file name="/a.dummy" timestamp="1547589111869">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/normalizer/log_normalizer.py" timestamp="1547666016821">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/normalizer/log_normalizer.py" timestamp="1547859616077">
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
         <mark key="^" line="12" column="36" />
@@ -49,8 +49,8 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1547846074644">
-        <mark key="'" line="241" column="100" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1547859628921">
+        <mark key="'" line="432" column="75" />
         <mark key="[" line="618" column="0" />
         <mark key="]" line="618" column="0" />
         <mark key="." line="618" column="0" />
@@ -252,6 +252,7 @@
         <mark key="^" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/seasonality_feature_creator.py" timestamp="1547846058782" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/normalizer/standardscaler_normalizer.py" timestamp="1547859608796" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_table.yaml" timestamp="1547659959007">
         <mark key="[" line="70" column="22" />
         <mark key="]" line="70" column="27" />
@@ -260,8 +261,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1358" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="35" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="525" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="535" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="112" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/pdf.py" />
@@ -360,6 +359,8 @@
       <jump line="182" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="73" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/rebuild_models.py" />
       <jump line="1025" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" />
+      <jump line="352" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="432" column="75" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -914,7 +915,7 @@
         <text>, 'opas_added_during_inflation': ('B',)</text>
       </register>
       <register name="/" type="4">
-        <text>def .*inf</text>
+        <text>normalizer</text>
       </register>
       <register name="0" type="4">
         <text>{'A': ('A',), 'B': ('B',), 'opas_added_during_inflation': ('B',)}</text>
@@ -1030,9 +1031,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def .*inf</last-search>
+      <last-search>normalizer</last-search>
       <last-offset />
-      <last-pattern>def .*inf</last-pattern>
+      <last-pattern>normalizer</last-pattern>
       <last-replace>#&quot;source_instance</last-replace>
       <last-substitute>metric_insi</last-substitute>
       <last-dir>1</last-dir>
@@ -1040,7 +1041,6 @@
     </search>
     <history>
       <history-search>
-        <entry>G4</entry>
         <entry>preprocessors</entry>
         <entry>pipeline_values</entry>
         <entry>pipeline_v</entry>
@@ -1060,6 +1060,7 @@
         <entry>us</entry>
         <entry>ts</entry>
         <entry>def .*inf</entry>
+        <entry>normalizer</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
