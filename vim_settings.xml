@@ -113,10 +113,10 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1547931143360">
-        <mark key="[" line="0" column="7" />
-        <mark key="]" line="0" column="7" />
-        <mark key="." line="0" column="7" />
+      <file name="/Python Console" timestamp="1547933637740">
+        <mark key="[" line="0" column="3" />
+        <mark key="]" line="0" column="16" />
+        <mark key="." line="0" column="16" />
       </file>
       <file name="/fragment.py" timestamp="1547912063911">
         <mark key="[" line="0" column="0" />
@@ -191,11 +191,11 @@
         <mark key="." line="9" column="100" />
         <mark key="^" line="9" column="100" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" timestamp="1547931205823">
-        <mark key="[" line="17" column="7" />
-        <mark key="]" line="18" column="3" />
-        <mark key="." line="18" column="3" />
-        <mark key="^" line="18" column="3" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" timestamp="1547934416028">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="0" />
+        <mark key="." line="29" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" timestamp="1547852605011">
         <mark key="'" line="52" column="19" />
@@ -227,6 +227,12 @@
         <mark key="]" line="58" column="25" />
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1547667402669">
+        <mark key="'" line="55" column="8" />
+        <mark key="[" line="359" column="0" />
+        <mark key="]" line="359" column="0" />
+        <mark key="." line="359" column="0" />
       </file>
       <file name="/None" timestamp="1544823967287">
         <mark key="[" line="0" column="0" />
@@ -296,10 +302,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="244" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="156" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="236" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="162" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="165" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="16" column="90" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="586" column="55" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -396,6 +398,10 @@
       <jump line="175" column="9" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="170" column="4" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
+      <jump line="20" column="22" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
+      <jump line="23" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
+      <jump line="11" column="14" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -404,8 +410,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>_</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHdpdGggYSBuZXcgb25lIGFuZCB1cGRhdGUgc2VjcmV0IGluIGF3cyB0byBtYXRjaCBGSUxFTkFNRQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -947,22 +953,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>key</text>
       </register>
       <register name="/" type="4">
-        <text>secret</text>
+        <text>fil</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VjcmV0ID0gdXRpbHMuZ2V0X3NlY3JldCgncXVpbG1lcycsICd1cy13ZXN0LTInKQo=</text>
+        <text encoding="base64">ICAgICAgICBmID0gb3BlbihGSUxFTkFNRSwgJ3cnKQogICAgICAgIGtleSA9IEZlcm5ldC5nZW5lcmF0ZV9rZXkoKS5kZWNvZGUoJ3V0Zi04JykKICAgICAgICBmLndyaXRlKGtleSkKICAgICAgICBmLmNsb3NlKCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHBhc3MK</text>
+        <text encoding="base64">ICAgIHdpdGggYSBuZXcgb25lIGFuZCB1cGRhdGUgc2VjcmV0IGluIGF3cyB0byBtYXRjaCBGSUxFTkFNRQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHdpdGggYSBuZXcgb25lCg==</text>
+        <text encoding="base64">ICAgIHdpdGggb3BlbihGSUxFTkFNRSwgJ3cnKSBhcyBmOgogICAgICAgIHNlY3JldCA9IEZlcm5ldC5nZW5lcmF0ZV9rZXkoKS5kZWNvZGUoJ3V0Zi04JykKICAgICAgICBmLndyaXRlKHNlY3JldCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -976,10 +982,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X3NlY3JldChzZWxmKToKICAgICAgICAiIiIgVGVzdCB0aGF0IHdlIGNhbiByZXRyaWV2ZSBzZWNyZXRzIAogICAgICAgICIiIgo=</text>
+        <text encoding="base64">ICAgIHdpdGggb3BlbihGSUxFTkFNRSwgJ3cnKSBhcyBmOgogICAgICAgIHNlY3JldCA9IEZlcm5ldC5nZW5lcmF0ZV9rZXkoKS5kZWNvZGUoJ3V0Zi04JykKICAgICAgICBmLndyaXRlKHNlY3JldCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHNlY3JldCA9IGpzb24ubG9hZChGSUxFTkFNRSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1047,37 +1053,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkZWNvZGVkX2JpbmFyeV9zZWNyZXQgPSBkZWNvZGVkX2JpbmFyeV9zZWNyZXQudmFsdWVzKClbMF0K</text>
+        <text encoding="base64">ICAgIGYuY2xvc2UoKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGZpeG1lIG5vdCBjbGVhciB3aHkgSSJtIGRvaW5nIHRoaXMK</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlY29kZWRfYmluYXJ5X3NlY3JldCA9IE5vbmUK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHNlc3Npb24gPSBib3RvMy5zZXNzaW9uLlNlc3Npb24ocHJvZmlsZV9uYW1lPSdleGVjdXRpdmUtdXNlcicpCg==</text>
+        <text encoding="base64">ICAgIGoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICwgKipzZXNzaW9uX3BhcmFtcykK</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>%s/key/secret/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>secret</last-search>
+      <last-search>fil</last-search>
       <last-offset />
-      <last-pattern>secret</last-pattern>
-      <last-replace>#&quot;source_instance</last-replace>
-      <last-substitute>metric_insi</last-substitute>
+      <last-pattern>fil</last-pattern>
+      <last-replace>secret</last-replace>
+      <last-substitute>key</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>set_model_metadata</entry>
-        <entry>inflation</entry>
         <entry>us</entry>
         <entry>ts</entry>
         <entry>def .*inf</entry>
@@ -1096,9 +1100,10 @@
         <entry>decoded</entry>
         <entry>decoded_bin</entry>
         <entry>secret</entry>
+        <entry>key</entry>
+        <entry>fil</entry>
       </history-search>
       <history-cmd>
-        <entry>w</entry>
         <entry>1286</entry>
         <entry>%s/RandomForest/GradientBoostingRegressor/g</entry>
         <entry>%s/cls.//</entry>
@@ -1118,6 +1123,7 @@
         <entry>163</entry>
         <entry>q</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>%s/key/secret/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
