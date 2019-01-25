@@ -146,9 +146,10 @@
       <file name="/None" timestamp="1544823967287">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1548455786191">
-        <mark key="[" line="120" column="0" />
-        <mark key="]" line="178" column="3" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1548456512964">
+        <mark key="'" line="121" column="0" />
+        <mark key="[" line="121" column="0" />
+        <mark key="]" line="177" column="5" />
         <mark key="." line="36" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_plot_post_processor.py" timestamp="1547659874295">
@@ -289,7 +290,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/new_metric_key.py" />
       <jump line="492" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="694" column="12" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="330" column="12" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -389,6 +389,7 @@
       <jump line="569" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="413" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="403" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -398,7 +399,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAiaW5wdXRzIjogWwogICAgewogICAgICAjIHRoaXMgaXMgdGhlIHRvdGFsIHF1ZXVlZCBJTyBwZXIgZW50aXR5CiAgICAgICJtZWFzdXJlbWVudCI6ICJ2bV9zdGF0cyIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJjb250cm9sbGVyX251bV9xdWV1ZWRfaW9cIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJudXRhbml4IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9jbHVzdGVyX3JhY2thYmxlX3VuaXRfbW9kZWwiOiBbCiAgICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgICBdLAogICAgICAgICJjb25zdW1lcl92ZXJzaW9uIjogWwogICAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImVudGl0eV9pZCIsCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIgogICAgICBdCiAgICB9LAogICAgewogICAgICAjIHRoaXMgaXMgdGhlIHRvdGFsIHF1ZXVlZCBJTyBwZXIgc291cmNlX2luc3RhbmVfdXVpZAogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJzdW0oXCJjb250cm9sbGVyX251bV9xdWV1ZWRfaW9cIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJudXRhbml4IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9jbHVzdGVyX3JhY2thYmxlX3VuaXRfbW9kZWwiOiBbCiAgICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgICBdLAogICAgICAgICJjb25zdW1lcl92ZXJzaW9uIjogWwogICAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIgogICAgICBdCiAgICB9LAogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJzdW0oXCJjb250cm9sbGVyX3RvdGFsX2lvX3NpemVfa2J5dGVzXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfQogIF0K</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIGVudGl0eQogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJlbnRpdHlfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIHNvdXJjZV9pbnN0YW5lX3V1aWQKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlc1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0KICAgIH0K</text>
       </register>
       <register name="b" type="4">
         <keys>
