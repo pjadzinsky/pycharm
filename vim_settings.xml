@@ -27,6 +27,12 @@
       <file name="/a.dummy" timestamp="1548350782568">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/__init__.py" timestamp="1548532163138">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="3" column="38" />
+        <mark key="^" line="3" column="38" />
+        <mark key="." line="3" column="38" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_transations_trader.py" timestamp="1548520298194" />
       <file name="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" timestamp="1548520422201">
         <mark key="'" line="7" column="0" />
@@ -299,7 +305,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBrZXk6CiAgICAgICAgd2l0aCBvcGVuKEZJTEVOQU1FKSBhcyBmOgogICAgICAgICAgICBrZXkgPSBmLnJlYWQoKQo=</text>
+        <text encoding="base64">cHJpbnQoJ2hvbGEnKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -846,17 +852,17 @@
       <register name="/" type="4">
         <text>execute</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBrZXk6CiAgICAgICAgd2l0aCBvcGVuKEZJTEVOQU1FKSBhcyBmOgogICAgICAgICAgICBrZXkgPSBmLnJlYWQoKQo=</text>
+      <register name="0" type="4">
+        <text>os.path.join(os.path.dirname(__file__), '..', '..')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHJpbnQoJ2hvbGEnKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCB1dGlscwpmcm9tIGNyeXB0byBpbXBvcnQgY29uZmlnCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -870,10 +876,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dHJ5Ogo=</text>
+        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCB1dGlscwpmcm9tIGNyeXB0byBpbXBvcnQgY29uZmlnCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50KDEpCg==</text>
+        <text encoding="base64">dHJ5Ogo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -941,22 +947,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCB1dGlscwo=</text>
+        <text encoding="base64">ICAgIHByaW50KDEpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCBxdWlsbWVzCg==</text>
+        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCB1dGlscwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHBwcmludAo=</text>
+        <text encoding="base64">ZnJvbSBjcnlwdG8uY29tbW9uIGltcG9ydCBxdWlsbWVzCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAKfQo=</text>
+        <text encoding="base64">aW1wb3J0IHBwcmludAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QklUVFJFWF9FTkNSWVBURURfS0VZOiAhIWJpbmFyeSB8Cg==</text>
+        <text encoding="base64">ICAKfQo=</text>
       </register>
       <register name=":" type="4">
-        <text>641</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
@@ -992,7 +998,6 @@
         <entry>execute</entry>
       </history-search>
       <history-cmd>
-        <entry>qa</entry>
         <entry>317</entry>
         <entry>s/inp/outp/gc</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
@@ -1012,6 +1017,7 @@
         <entry>w</entry>
         <entry>%s/ = b'/: !!binary |/gc</entry>
         <entry>641</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
