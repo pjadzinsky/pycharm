@@ -117,8 +117,8 @@
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548712070076">
-        <mark key="'" line="302" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548716762232">
+        <mark key="'" line="833" column="54" />
         <mark key="[" line="1041" column="79" />
         <mark key="]" line="1041" column="90" />
         <mark key="^" line="1041" column="90" />
@@ -204,7 +204,7 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1548712107602">
+      <file name="/Python Console" timestamp="1548717326553">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="1" />
@@ -281,6 +281,13 @@
         <mark key="^" line="23" column="91" />
         <mark key="." line="23" column="91" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1548717269318">
+        <mark key="'" line="32" column="45" />
+        <mark key="[" line="89" column="14" />
+        <mark key="]" line="89" column="49" />
+        <mark key="." line="89" column="49" />
+        <mark key="^" line="89" column="49" />
+      </file>
       <file name="/Dummy.txt" timestamp="1548705491797">
         <mark key="[" line="0" column="0" />
       </file>
@@ -348,14 +355,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="106" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
-      <jump line="110" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
-      <jump line="296" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="293" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="292" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="291" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="287" column="72" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="286" column="50" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="285" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="283" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="282" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -448,6 +447,14 @@
       <jump line="179" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="57" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
+      <jump line="93" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
+      <jump line="76" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
+      <jump line="655" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="657" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="833" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="86" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
+      <jump line="101" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
+      <jump line="32" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -456,8 +463,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIGVudGl0eQogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJlbnRpdHlfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIHNvdXJjZV9pbnN0YW5lX3V1aWQKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlc1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0KICAgIH0K</text>
+      <register name="&quot;" type="4">
+        <text>self</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -999,22 +1006,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>credentials</text>
+        <text>self</text>
       </register>
       <register name="/" type="4">
-        <text>inputs</text>
+        <text>max_pipe</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIGVudGl0eQogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJlbnRpdHlfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIHNvdXJjZV9pbnN0YW5lX3V1aWQKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlc1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0KICAgIH0KICBdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGltaXRfbWV0cmljcyhvdXRwdXRfbWV0cmljcywgbWV0cmljc19oYXRfdHJhaW4sIG1ldHJpY3NfaGF0X3ZhbCwgbWV0cmljc19oYXRfYnVmZmVyKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gbWVhc3VyZW1lbnQ6IAogICAgICAgIDpwYXJhbSBleHByZXNzaW9uOiAKICAgICAgICA6cGFyYW0gdGFnczogCiAgICAgICAgOnBhcmFtIHNhbXBsZV9pbnRlcnZhbDogCiAgICAgICAgOnBhcmFtIHF1ZXJ5OiAKICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnBpcGVsaW5lcyA9IHBhcmFtc1sncGlwZWxpbmVzJ10K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBBZGRpbmcgcXVlcnkgYXMgaW5wdXQuIEluIHRoZSBmdXR1cmUsIHdlIG1pZ2h0IAo=</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1027,17 +1034,11 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="3" type="4">
-        <text>logger.debug('insert summary with id: {}'.format(tracker_id))
-        if not transactions.empty:
-            transactions.loc[:, 'tracker_id'] = tracker_id
-            self.transactions_to_be_placed = self.transactions_to_be_placed.append(transactions, ignore_index=True)
-        if not transfers.empty:
-            transfers.loc[:, 'tracker_id'] = tracker_id
-            self.transfers_to_be_placed = self.transfers_to_be_placed.append(transfers, ignore_index=True)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLnBpcGVsaW5lX2RlZiA9IHBhcmFtcy5nZXQoJ3BpcGVsaW5lX2RlZicpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQodHJhbnNhY3Rpb25zKQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCh0cmFuc2ZlcnMpCiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KHNlbmRlcikK</text>
+        <text encoding="base64">ICAgIHBpcGVsaW5lcyA9IAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1105,37 +1106,41 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdzdGFydGluZyBtYWluJykK</text>
+        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gbWVhc3VyZW1lbnQ6IAogICAgICAgIDpwYXJhbSBleHByZXNzaW9uOiAKICAgICAgICA6cGFyYW0gdGFnczogCiAgICAgICAgOnBhcmFtIHNhbXBsZV9pbnRlcnZhbDogCiAgICAgICAgOnBhcmFtIHF1ZXJ5OiAKICAgICAgICAiIiIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdnZXR0aW5nIGN5Y2xlcyBET05FJykK</text>
+        <text encoding="base64">ICAgICAgICBBZGRpbmcgcXVlcnkgYXMgaW5wdXQuIEluIHRoZSBmdXR1cmUsIHdlIG1pZ2h0IAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdnZXR0aW5nIGN5Y2xlcycpCg==</text>
+      <register name="7" type="4">
+        <text>logger.debug('insert summary with id: {}'.format(tracker_id))
+        if not transactions.empty:
+            transactions.loc[:, 'tracker_id'] = tracker_id
+            self.transactions_to_be_placed = self.transactions_to_be_placed.append(transactions, ignore_index=True)
+        if not transfers.empty:
+            transfers.loc[:, 'tracker_id'] = tracker_id
+            self.transfers_to_be_placed = self.transfers_to_be_placed.append(transfers, ignore_index=True)</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdwYXJzaW5nIGFydWdtZW50cyBET05FJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQodHJhbnNhY3Rpb25zKQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCh0cmFuc2ZlcnMpCiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KHNlbmRlcikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdwYXJzaW5nIGFydWdtZW50cycpCg==</text>
+        <text encoding="base64">ICAgIHByaW50KCdzdGFydGluZyBtYWluJykK</text>
       </register>
       <register name=":" type="4">
-        <text>343</text>
+        <text>%s/max_pipe/max_num_pipe/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>inputs</last-search>
+      <last-search>max_pipe</last-search>
       <last-offset />
-      <last-pattern>inputs</last-pattern>
-      <last-replace>: !!binary |</last-replace>
-      <last-substitute encoding="base64">ID0gYic=</last-substitute>
+      <last-pattern>max_pipe</last-pattern>
+      <last-replace>max_num_pipe</last-replace>
+      <last-substitute>max_pipe</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>pd</entry>
-        <entry>input_</entry>
         <entry>data</entry>
         <entry>input</entry>
         <entry>BITTREX</entry>
@@ -1154,9 +1159,10 @@
         <entry>print</entry>
         <entry>def train</entry>
         <entry>inputs</entry>
+        <entry>pipeline</entry>
+        <entry>max_pipe</entry>
       </history-search>
       <history-cmd>
-        <entry>562</entry>
         <entry>s/input_//g</entry>
         <entry>s/input/output/g</entry>
         <entry>114</entry>
@@ -1176,6 +1182,7 @@
         <entry>w</entry>
         <entry>543</entry>
         <entry>343</entry>
+        <entry>%s/max_pipe/max_num_pipe/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
