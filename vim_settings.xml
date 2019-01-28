@@ -120,7 +120,8 @@
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548698810162">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548707664189">
+        <mark key="'" line="302" column="0" />
         <mark key="[" line="1041" column="79" />
         <mark key="]" line="1041" column="90" />
         <mark key="^" line="1041" column="90" />
@@ -138,11 +139,11 @@
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/bitmap.py" timestamp="1544139045000">
         <mark key="[" line="15" column="53" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" timestamp="1548432803896">
-        <mark key="[" line="111" column="0" />
-        <mark key="]" line="111" column="0" />
-        <mark key="^" line="108" column="39" />
-        <mark key="." line="111" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" timestamp="1548707539010">
+        <mark key="'" line="156" column="10" />
+        <mark key="]" line="10" column="15" />
+        <mark key="." line="10" column="15" />
+        <mark key="^" line="10" column="15" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" timestamp="1548453373662">
         <mark key="[" line="176" column="0" />
@@ -352,8 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
-      <jump line="21" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
       <jump line="34" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
       <jump line="55" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
       <jump line="95" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
@@ -452,6 +451,8 @@
       <jump line="58" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="106" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
+      <jump line="156" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
+      <jump line="302" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -460,8 +461,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>credentials</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gbWVhc3VyZW1lbnQ6IAogICAgICAgIDpwYXJhbSBleHByZXNzaW9uOiAKICAgICAgICA6cGFyYW0gdGFnczogCiAgICAgICAgOnBhcmFtIHNhbXBsZV9pbnRlcnZhbDogCiAgICAgICAgOnBhcmFtIHF1ZXJ5OiAKICAgICAgICAiIiIK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1006,25 +1007,19 @@
         <text>credentials</text>
       </register>
       <register name="/" type="4">
-        <text>print</text>
+        <text>def train</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAoJ2NyeXB0bycsIFsnY3JlZGVudGlhbHMueWFtbCddKQo=</text>
       </register>
-      <register name="1" type="4">
-        <text>logger.debug('insert summary with id: {}'.format(tracker_id))
-        if not transactions.empty:
-            transactions.loc[:, 'tracker_id'] = tracker_id
-            self.transactions_to_be_placed = self.transactions_to_be_placed.append(transactions, ignore_index=True)
-        if not transfers.empty:
-            transfers.loc[:, 'tracker_id'] = tracker_id
-            self.transfers_to_be_placed = self.transfers_to_be_placed.append(transfers, ignore_index=True)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gbWVhc3VyZW1lbnQ6IAogICAgICAgIDpwYXJhbSBleHByZXNzaW9uOiAKICAgICAgICA6cGFyYW0gdGFnczogCiAgICAgICAgOnBhcmFtIHNhbXBsZV9pbnRlcnZhbDogCiAgICAgICAgOnBhcmFtIHF1ZXJ5OiAKICAgICAgICAiIiIK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQodHJhbnNhY3Rpb25zKQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCh0cmFuc2ZlcnMpCiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KHNlbmRlcikK</text>
+        <text encoding="base64">ICAgICAgICBBZGRpbmcgcXVlcnkgYXMgaW5wdXQuIEluIHRoZSBmdXR1cmUsIHdlIG1pZ2h0IAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1037,11 +1032,17 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdzdGFydGluZyBtYWluJykK</text>
+      <register name="3" type="4">
+        <text>logger.debug('insert summary with id: {}'.format(tracker_id))
+        if not transactions.empty:
+            transactions.loc[:, 'tracker_id'] = tracker_id
+            self.transactions_to_be_placed = self.transactions_to_be_placed.append(transactions, ignore_index=True)
+        if not transfers.empty:
+            transfers.loc[:, 'tracker_id'] = tracker_id
+            self.transfers_to_be_placed = self.transfers_to_be_placed.append(transfers, ignore_index=True)</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdnZXR0aW5nIGN5Y2xlcyBET05FJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQodHJhbnNhY3Rpb25zKQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCh0cmFuc2ZlcnMpCiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KHNlbmRlcikK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1109,28 +1110,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdnZXR0aW5nIGN5Y2xlcycpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdwYXJzaW5nIGFydWdtZW50cyBET05FJykK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdwYXJzaW5nIGFydWdtZW50cycpCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgIHByaW50KCdzdGFydGluZyBtYWluJykK</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHByaW50KCdnZXR0aW5nIGN5Y2xlcyBET05FJykK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHByaW50KCdnZXR0aW5nIGN5Y2xlcycpCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHByaW50KCdwYXJzaW5nIGFydWdtZW50cyBET05FJykK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50KCdEb25lJykK</text>
+        <text encoding="base64">ICAgIHByaW50KCdwYXJzaW5nIGFydWdtZW50cycpCg==</text>
       </register>
       <register name=":" type="4">
         <text>343</text>
       </register>
     </registers>
     <search>
-      <last-search>print</last-search>
+      <last-search>def train</last-search>
       <last-offset />
-      <last-pattern>print</last-pattern>
+      <last-pattern>def train</last-pattern>
       <last-replace>: !!binary |</last-replace>
       <last-substitute encoding="base64">ID0gYic=</last-substitute>
       <last-dir>1</last-dir>
@@ -1138,7 +1139,6 @@
     </search>
     <history>
       <history-search>
-        <entry>in</entry>
         <entry>inp</entry>
         <entry>pd</entry>
         <entry>input_</entry>
@@ -1158,6 +1158,7 @@
         <entry>credentials</entry>
         <entry>BI</entry>
         <entry>print</entry>
+        <entry>def train</entry>
       </history-search>
       <history-cmd>
         <entry>562</entry>
