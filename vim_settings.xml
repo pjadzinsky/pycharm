@@ -183,8 +183,8 @@
       <file name="/None" timestamp="1544823967287">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1548693965197">
-        <mark key="'" line="106" column="6" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" timestamp="1548712790067">
+        <mark key="'" line="121" column="0" />
         <mark key="[" line="121" column="0" />
         <mark key="]" line="177" column="5" />
         <mark key="." line="36" column="0" />
@@ -348,9 +348,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
-      <jump line="95" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
-      <jump line="99" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
       <jump line="106" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
       <jump line="110" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" />
       <jump line="296" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -443,11 +440,14 @@
       <jump line="49" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="52" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="58" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
-      <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="106" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
       <jump line="156" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="302" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="40" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
+      <jump line="133" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
+      <jump line="179" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
+      <jump line="57" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
+      <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -457,7 +457,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gbWVhc3VyZW1lbnQ6IAogICAgICAgIDpwYXJhbSBleHByZXNzaW9uOiAKICAgICAgICA6cGFyYW0gdGFnczogCiAgICAgICAgOnBhcmFtIHNhbXBsZV9pbnRlcnZhbDogCiAgICAgICAgOnBhcmFtIHF1ZXJ5OiAKICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIGVudGl0eQogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJlbnRpdHlfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIHNvdXJjZV9pbnN0YW5lX3V1aWQKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlc1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0KICAgIH0K</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1002,10 +1002,10 @@
         <text>credentials</text>
       </register>
       <register name="/" type="4">
-        <text>def train</text>
+        <text>inputs</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAoJ2NyeXB0bycsIFsnY3JlZGVudGlhbHMueWFtbCddKQo=</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIGVudGl0eQogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJlbnRpdHlfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIyB0aGlzIGlzIHRoZSB0b3RhbCBxdWV1ZWQgSU8gcGVyIHNvdXJjZV9pbnN0YW5lX3V1aWQKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl9udW1fcXVldWVkX2lvXCIpIiwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXQogICAgfSwKICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAic3VtKFwiY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlc1wiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0KICAgICAgfSwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0KICAgIH0KICBdCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gbWVhc3VyZW1lbnQ6IAogICAgICAgIDpwYXJhbSBleHByZXNzaW9uOiAKICAgICAgICA6cGFyYW0gdGFnczogCiAgICAgICAgOnBhcmFtIHNhbXBsZV9pbnRlcnZhbDogCiAgICAgICAgOnBhcmFtIHF1ZXJ5OiAKICAgICAgICAiIiIK</text>
@@ -1124,9 +1124,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def train</last-search>
+      <last-search>inputs</last-search>
       <last-offset />
-      <last-pattern>def train</last-pattern>
+      <last-pattern>inputs</last-pattern>
       <last-replace>: !!binary |</last-replace>
       <last-substitute encoding="base64">ID0gYic=</last-substitute>
       <last-dir>1</last-dir>
@@ -1134,7 +1134,6 @@
     </search>
     <history>
       <history-search>
-        <entry>inp</entry>
         <entry>pd</entry>
         <entry>input_</entry>
         <entry>data</entry>
@@ -1154,6 +1153,7 @@
         <entry>BI</entry>
         <entry>print</entry>
         <entry>def train</entry>
+        <entry>inputs</entry>
       </history-search>
       <history-cmd>
         <entry>562</entry>
