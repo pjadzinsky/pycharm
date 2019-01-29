@@ -130,12 +130,12 @@
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548791601988">
-        <mark key="'" line="568" column="29" />
-        <mark key="[" line="567" column="17" />
-        <mark key="]" line="567" column="62" />
-        <mark key="." line="567" column="17" />
-        <mark key="^" line="568" column="56" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548795587660">
+        <mark key="'" line="562" column="32" />
+        <mark key="[" line="346" column="40" />
+        <mark key="]" line="346" column="47" />
+        <mark key="." line="346" column="47" />
+        <mark key="^" line="346" column="47" />
       </file>
       <file name="$USER_HOME$/home/pablo/BMSpy/bms/blocks/tests/test_nonlinear.py" timestamp="1547674071234">
         <mark key="[" line="22" column="0" />
@@ -220,7 +220,7 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1548791606598">
+      <file name="/Python Console" timestamp="1548795594743">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="1" />
@@ -360,7 +360,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="24" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="7" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
       <jump line="69" column="49" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
       <jump line="73" column="41" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
@@ -460,6 +459,7 @@
       <jump line="18" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
       <jump line="24" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
       <jump line="568" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="562" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -469,7 +469,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>pd.MultiIndex.from_arrays([times, pipelines])</text>
+        <text>values</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1011,22 +1011,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>pd.MultiIndex.from_arrays([times, pipelines])</text>
+        <text>values</text>
       </register>
       <register name="/" type="4">
-        <text>pd</text>
+        <text>PERF</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtZWFzdXJlbWVudCwgZXhwcmVzc2lvbiwgdGFncywgc2FtcGxlX2ludGVydmFsPU5vbmUsIHF1ZXJ5PU5vbmUsIGV4dHJhX3RhZ3M9Tm9uZSk6Cg==</text>
+      <register name="0" type="4">
+        <text>m</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgaW5wdXRfdGltZXMsIGlucHV0X3NhbXBsZXMsIGlucHV0X3BpcGVsaW5lcyA9IGNvbWJpbmVfbWFwKGlucHV0X2ZlYXR1cmVfZGF0YV9tYXApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEZMQUdTLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X2RmID0gdG9fRmVhdHVyZURhdGEob3V0cHV0X3RpbWVzLCBvdXRwdXRfc2FtcGxlcywgb3V0cHV0X3BpcGVsaW5lcykK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1040,10 +1040,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGZpbGVfaGFuZGxlciA9IGxvZ2dpbmcuRmlsZUhhbmRsZXIobG9nX2RpcmVjdG9yeSArICcvJyArIGxvZ19maWxlKQogICAgbG9nX2Zvcm1hdHRlciA9IGxvZ2dpbmcuRm9ybWF0dGVyKCclKGFzY3RpbWUpcyAtICUobmFtZSlzIC0gJShsZXZlbG5hbWUpcyAtICUobWVzc2FnZSlzJykKICAgIGZpbGVfaGFuZGxlci5zZXRGb3JtYXR0ZXIobG9nX2Zvcm1hdHRlcikKCg==</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9kZiA9IHRvX0ZlYXR1cmVEYXRhKGlucHV0X3RpbWVzLCBpbnB1dF9zYW1wbGVzLCBpbnB1dF9waXBlbGluZXMsIGRta3MsIG1ldHJpY19mZWF0dXJlX21hcHBpbmcpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGZpbGVfaGFuZGxlci5zZXRGb3JtYXR0ZXIobG9nX2Zvcm1hdHRlcikK</text>
+        <text encoding="base64">ICAgICAgICBkZWYgdG9fRmVhdHVyZURhdGEodGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcyk6CiAgICAgICAgICAgIHQwID0gdGltZS50aW1lKCkKICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKCJQRVJGOiBjb21wdXRpbmcgTXVsdGlJbmRleCB7fSBzXG5cbiIuZm9ybWF0KCh0aW1lLnRpbWUoKS10MCkpKQogICAgICAgICAgICByZXR1cm4gZmVhdHVyZV9kYXRhCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1111,28 +1111,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxvZ19mb3JtYXR0ZXIgPSBsb2dnaW5nLkZvcm1hdHRlcignJShhc2N0aW1lKXMgLSAlKG5hbWUpcyAtICUobGV2ZWxuYW1lKXMgLSAlKG1lc3NhZ2UpcycpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZG1rcwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZpbGVfaGFuZGxlciA9IGxvZ2dpbmcuRmlsZUhhbmRsZXIobG9nX2RpcmVjdG9yeSArICcvJyArIGxvZ19maWxlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUodGltZXMpKQogICAgICAgICAgICBzYW1wbGVzID0gbnAuY29uY2F0ZW5hdGUoc2FtcGxlcywgYXhpcz0wKQogICAgICAgICAgICBwaXBlbGluZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUocGlwZWxpbmVzKSkKCiAgICAgICAgICAgIHNhbXBsZXMgPSBzYW1wbGVzLnNxdWVlemUoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcywgZG1rcywgbWV0cmljX2ZlYXR1cmVfbWFwcGluZwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGxvZ19maWxlID0gRkxBR1MubG9nZmlsZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVhdHVyZV9kYXRhID0gdWJlcl9mZWF0dXJlX2NyZWF0b3IuRmVhdHVyZURhdGEodGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcywgZG1rcywgbWV0cmljX2ZlYXR1cmVfbWFwcGluZykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">bG9nLmdldF9sb2dnZXIoKQo=</text>
+        <text encoding="base64">ICAgICAgICBkbWtzID0gCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/field/expression(m)/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>pd</last-search>
+      <last-search>PERF</last-search>
       <last-offset />
-      <last-pattern>pd</last-pattern>
+      <last-pattern>PERF</last-pattern>
       <last-replace>expression(m)</last-replace>
       <last-substitute>field</last-substitute>
       <last-dir>1</last-dir>
@@ -1140,7 +1140,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>FILENAME</entry>
         <entry>class Tr</entry>
         <entry>commit</entry>
@@ -1160,6 +1159,7 @@
         <entry>logger</entry>
         <entry>log</entry>
         <entry>pd</entry>
+        <entry>PERF</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
