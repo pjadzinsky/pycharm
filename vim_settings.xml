@@ -130,10 +130,12 @@
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548790294340">
-        <mark key="[" line="568" column="0" />
-        <mark key="]" line="569" column="89" />
-        <mark key="." line="568" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548791601988">
+        <mark key="'" line="568" column="29" />
+        <mark key="[" line="567" column="17" />
+        <mark key="]" line="567" column="62" />
+        <mark key="." line="567" column="17" />
+        <mark key="^" line="568" column="56" />
       </file>
       <file name="$USER_HOME$/home/pablo/BMSpy/bms/blocks/tests/test_nonlinear.py" timestamp="1547674071234">
         <mark key="[" line="22" column="0" />
@@ -218,7 +220,7 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1548789949201">
+      <file name="/Python Console" timestamp="1548791606598">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="1" />
@@ -358,7 +360,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="8" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="27" column="24" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="7" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
       <jump line="69" column="49" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
@@ -458,6 +459,7 @@
       <jump line="8" column="26" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
       <jump line="18" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
       <jump line="24" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
+      <jump line="568" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -466,8 +468,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgaW5wdXRfdGltZXMsIGlucHV0X3NhbXBsZXMsIGlucHV0X3BpcGVsaW5lcyA9IGNvbWJpbmVfbWFwKGlucHV0X2ZlYXR1cmVfZGF0YV9tYXApCg==</text>
+      <register name="&quot;" type="4">
+        <text>pd.MultiIndex.from_arrays([times, pipelines])</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1009,10 +1011,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>INFO</text>
+        <text>pd.MultiIndex.from_arrays([times, pipelines])</text>
       </register>
       <register name="/" type="4">
-        <text>log</text>
+        <text>pd</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtZWFzdXJlbWVudCwgZXhwcmVzc2lvbiwgdGFncywgc2FtcGxlX2ludGVydmFsPU5vbmUsIHF1ZXJ5PU5vbmUsIGV4dHJhX3RhZ3M9Tm9uZSk6Cg==</text>
@@ -1128,9 +1130,9 @@
       </register>
     </registers>
     <search>
-      <last-search>log</last-search>
+      <last-search>pd</last-search>
       <last-offset />
-      <last-pattern>log</last-pattern>
+      <last-pattern>pd</last-pattern>
       <last-replace>expression(m)</last-replace>
       <last-substitute>field</last-substitute>
       <last-dir>1</last-dir>
@@ -1138,7 +1140,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def decr</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>FILENAME</entry>
         <entry>class Tr</entry>
@@ -1158,6 +1159,7 @@
         <entry encoding="base64">ZXhwcmVzc2lvbiA9IA==</entry>
         <entry>logger</entry>
         <entry>log</entry>
+        <entry>pd</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
