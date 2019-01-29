@@ -130,8 +130,8 @@
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548800844709">
-        <mark key="'" line="562" column="32" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548802687901">
+        <mark key="'" line="556" column="45" />
         <mark key="[" line="550" column="42" />
         <mark key="]" line="556" column="83" />
         <mark key="." line="556" column="83" />
@@ -143,7 +143,7 @@
         <mark key="." line="22" column="0" />
         <mark key="^" line="22" column="46" />
       </file>
-      <file name="/" timestamp="1548121396124">
+      <file name="/" timestamp="1548803862272">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/bitmap.py" timestamp="1544139045000">
@@ -251,6 +251,12 @@
       <file name="$USER_HOME$/opas/core/python/scripts/README_training_models.md" timestamp="1544553566502">
         <mark key="[" line="3" column="92" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1548803844952">
+        <mark key="[" line="8" column="62" />
+        <mark key="]" line="8" column="59" />
+        <mark key="^" line="8" column="59" />
+        <mark key="." line="8" column="59" />
+      </file>
       <file name="$USER_HOME$/home/pablo/BMSpy/bms/blocks/nonlinear.py" timestamp="1547674272810">
         <mark key="[" line="49" column="19" />
         <mark key="]" line="61" column="69" />
@@ -292,11 +298,6 @@
         <mark key="]" line="23" column="92" />
         <mark key="^" line="23" column="91" />
         <mark key="." line="23" column="91" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1548799132340">
-        <mark key="[" line="75" column="61" />
-        <mark key="]" line="75" column="61" />
-        <mark key="." line="75" column="61" />
       </file>
       <file name="/Dummy.txt" timestamp="1548797748710">
         <mark key="[" line="0" column="0" />
@@ -366,9 +367,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" />
-      <jump line="69" column="49" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
-      <jump line="73" column="41" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
       <jump line="12" column="8" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
       <jump line="11" column="97" filename="$USER_HOME$/crypto/crypto/crypto/opportunity_finders/analyze_path.py" />
       <jump line="21" column="0" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/__init__.py" />
@@ -466,6 +464,9 @@
       <jump line="24" column="8" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/self_serve_trainer_app.py" />
       <jump line="568" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="562" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="518" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="555" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="556" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -475,7 +476,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>max_num_pipelines</text>
+        <text>exclussion_tags</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1017,10 +1018,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>max_num_pipelines</text>
+        <text>exclussion_tags</text>
       </register>
       <register name="/" type="4">
-        <text>PERF</text>
+        <text>split</text>
       </register>
       <register name="0" type="4">
         <text>m</text>
@@ -1032,7 +1033,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X2RmID0gdG9fRmVhdHVyZURhdGEob3V0cHV0X3RpbWVzLCBvdXRwdXRfc2FtcGxlcywgb3V0cHV0X3BpcGVsaW5lcykK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1046,10 +1047,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpbnB1dF9kZiA9IHRvX0ZlYXR1cmVEYXRhKGlucHV0X3RpbWVzLCBpbnB1dF9zYW1wbGVzLCBpbnB1dF9waXBlbGluZXMsIGRta3MsIG1ldHJpY19mZWF0dXJlX21hcHBpbmcpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgdG9fRmVhdHVyZURhdGEodGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcyk6CiAgICAgICAgICAgIHQwID0gdGltZS50aW1lKCkKICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKCJQRVJGOiBjb21wdXRpbmcgTXVsdGlJbmRleCB7fSBzXG5cbiIuZm9ybWF0KCh0aW1lLnRpbWUoKS10MCkpKQogICAgICAgICAgICByZXR1cm4gZmVhdHVyZV9kYXRhCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X2RmID0gdG9fRmVhdHVyZURhdGEob3V0cHV0X3RpbWVzLCBvdXRwdXRfc2FtcGxlcywgb3V0cHV0X3BpcGVsaW5lcykK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1117,28 +1118,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZG1rcwo=</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9kZiA9IHRvX0ZlYXR1cmVEYXRhKGlucHV0X3RpbWVzLCBpbnB1dF9zYW1wbGVzLCBpbnB1dF9waXBlbGluZXMsIGRta3MsIG1ldHJpY19mZWF0dXJlX21hcHBpbmcpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUodGltZXMpKQogICAgICAgICAgICBzYW1wbGVzID0gbnAuY29uY2F0ZW5hdGUoc2FtcGxlcywgYXhpcz0wKQogICAgICAgICAgICBwaXBlbGluZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUocGlwZWxpbmVzKSkKCiAgICAgICAgICAgIHNhbXBsZXMgPSBzYW1wbGVzLnNxdWVlemUoKQo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgdG9fRmVhdHVyZURhdGEodGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcyk6CiAgICAgICAgICAgIHQwID0gdGltZS50aW1lKCkKICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKCJQRVJGOiBjb21wdXRpbmcgTXVsdGlJbmRleCB7fSBzXG5cbiIuZm9ybWF0KCh0aW1lLnRpbWUoKS10MCkpKQogICAgICAgICAgICByZXR1cm4gZmVhdHVyZV9kYXRhCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcywgZG1rcywgbWV0cmljX2ZlYXR1cmVfbWFwcGluZwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZG1rcwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmVhdHVyZV9kYXRhID0gdWJlcl9mZWF0dXJlX2NyZWF0b3IuRmVhdHVyZURhdGEodGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcywgZG1rcywgbWV0cmljX2ZlYXR1cmVfbWFwcGluZykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUodGltZXMpKQogICAgICAgICAgICBzYW1wbGVzID0gbnAuY29uY2F0ZW5hdGUoc2FtcGxlcywgYXhpcz0wKQogICAgICAgICAgICBwaXBlbGluZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUocGlwZWxpbmVzKSkKCiAgICAgICAgICAgIHNhbXBsZXMgPSBzYW1wbGVzLnNxdWVlemUoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkbWtzID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZXMsIHNhbXBsZXMsIHBpcGVsaW5lcywgZG1rcywgbWV0cmljX2ZlYXR1cmVfbWFwcGluZwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>PERF</last-search>
+      <last-search>split</last-search>
       <last-offset />
-      <last-pattern>PERF</last-pattern>
+      <last-pattern>split</last-pattern>
       <last-replace>expression(m)</last-replace>
       <last-substitute>field</last-substitute>
       <last-dir>1</last-dir>
@@ -1146,7 +1147,6 @@
     </search>
     <history>
       <history-search>
-        <entry>FILENAME</entry>
         <entry>class Tr</entry>
         <entry>commit</entry>
         <entry>def dec</entry>
@@ -1166,6 +1166,7 @@
         <entry>log</entry>
         <entry>pd</entry>
         <entry>PERF</entry>
+        <entry>split</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
