@@ -113,6 +113,13 @@
         <mark key="." line="44" column="3" />
         <mark key="^" line="44" column="3" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query.py" timestamp="1548873991439">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="14" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/samples/features.py" timestamp="1548279849793">
         <mark key="[" line="36" column="74" />
         <mark key="]" line="36" column="73" />
@@ -301,10 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="76" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="655" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="657" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="833" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="86" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="32" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
@@ -401,6 +404,10 @@
       <jump line="4" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="5" column="33" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="11" column="47" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
+      <jump line="100" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query.py" />
+      <jump line="99" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_query.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -410,7 +417,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleGNsdXNzaW9uX3RhZ3MK</text>
+        <text encoding="base64">aW1wb3J0IHRpbWUK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -961,7 +968,7 @@
         <text encoding="base64">ICAgIGRlZiB0ZXN0X3NvbWVtZXRyaWNzX2Ryb3BwZWRfd2hlbl90aHJlc2hvbGRfaXNfaW5fdGhlX21pZGRsZShzZWxmKToKICAgICAgICAiIiIKICAgICAgICBUZXN0IHRoYXQgd2l0aCBhIHRocmVzaG9sZCBvZiAwLjMsIG9uZSBkbWsgaXMgZHJvcHBlZCBhbmQgb25lIGtlcHQKICAgICAgICAiIiIKICAgICAgICBwcm9jZXNzb3IgPSBDb3JyZWxhdGlvbnNQcmVwcm9jZXNzb3IoeydwaXBlbGluZV9kZWYnOiBbJ0InXSwgJ2RpcmVjdGlvbl90aHJlc2hvbGQnOiAwLjN9KQogICAgICAgIGlzX3RyYWluaW5nID0gVHJ1ZQogICAgICAgIHByb2Nlc3Nvci5wcmVwcm9jZXNzKHNlbGYuaW5wdXRfbWV0cmljcywgc2VsZi5vdXRwdXRfbWV0cmljcywgaXNfdHJhaW5pbmcpCgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKHNlbGYuaW5wdXRfbWV0cmljcyksIDIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleGNsdXNzaW9uX3RhZ3MK</text>
+        <text encoding="base64">aW1wb3J0IHRpbWUK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -981,10 +988,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ2V4dHJhX3RhZ3MnOiAK</text>
+        <text encoding="base64">aW1wb3J0IG9zCmltcG9ydCB1bml0dGVzdAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZiwgcXVlcnksIGV4dHJhX3RhZ3MgPSB2YXJncwo=</text>
+        <text encoding="base64">aW1wb3J0IG9wYXNhaS5tZXRyaWNzLnF1ZXJ5Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1052,22 +1059,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5tZXRyaWNfa2V5IGltcG9ydCBNZXRyaWNLZXkKZnJvbSBvcGFzYWkubWV0cmljcy5tZXRyaWMgaW1wb3J0IE1ldHJpYwpmcm9tIG9wYXNhaS5tZXRyaWNzLnF1ZXJ5IGltcG9ydCBRdWVyeQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZSwK</text>
+        <text encoding="base64">aWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHVuaXR0ZXN0Lm1haW4oKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZSwK</text>
+        <text encoding="base64">IyEvdXNyL2Jpbi9weXRob24K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhbGwgaW5wdXQgbWV0cmljcyBhcmUgZHJvcHBlZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleGNsdXNzaW9uX3RhZ3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBGYWxzZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zb3J0</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -1121,8 +1128,8 @@
         <entry>63</entry>
         <entry>q</entry>
         <entry>%s/field/expression(m)/gc</entry>
-        <entry>w</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
