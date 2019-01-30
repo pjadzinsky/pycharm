@@ -30,12 +30,12 @@
         <mark key="^" line="31" column="59" />
         <mark key="." line="31" column="59" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1548810666475">
-        <mark key="'" line="17" column="13" />
-        <mark key="[" line="363" column="68" />
-        <mark key="]" line="366" column="8" />
-        <mark key="." line="366" column="8" />
-        <mark key="^" line="362" column="25" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1548812762396">
+        <mark key="'" line="365" column="7" />
+        <mark key="[" line="380" column="46" />
+        <mark key="]" line="380" column="46" />
+        <mark key="." line="380" column="46" />
+        <mark key="^" line="380" column="29" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix_temp/model_causal_random_forest_without_seasonality.json" timestamp="1548718055066">
         <mark key="'" line="89" column="1" />
@@ -132,11 +132,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1547664659192">
         <mark key="[" line="302" column="15" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/correllations_preprocessor.py" timestamp="1548810603369">
-        <mark key="'" line="46" column="26" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/correllations_preprocessor.py" timestamp="1548814444217">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="23" column="24" />
+        <mark key="." line="23" column="24" />
+        <mark key="^" line="23" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/samples/samples.py" timestamp="1548351173425">
         <mark key="[" line="7" column="11" />
@@ -291,10 +292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_multiple_exchanges.py" />
-      <jump line="69" column="35" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
-      <jump line="31" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
-      <jump line="49" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="52" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="58" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/find_cycles_per_exchange.py" />
       <jump line="106" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_rf.yaml" />
@@ -390,7 +387,11 @@
       <jump line="336" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="112" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="516" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="17" column="13" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
+      <jump line="364" column="40" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
+      <jump line="17" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
+      <jump line="365" column="7" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
+      <jump line="33" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/correllations_preprocessor.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/correllations_preprocessor.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -399,8 +400,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>sorting_dict</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaW5wdXRzID0gW10KICAgICAgICAgICAgb3V0cHV0cyA9IFtdCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -942,22 +943,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>sorting_dict</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>sorting_dict</text>
+        <text>pd</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRfbWV0cmljcyhzb3J0aW5nX2RpY3QsIGlucHV0X21ldHJpY3MsIGlzX2lucHV0PVRydWUpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBtZXRyaWNzX2J5X3BpcGVsaW5lKHNlbGYsIG1ldHJpY3MsIGlzX2lucHV0KToKICAgICAgICAiIiIgQWRkIG1ldHJpY3MgdG8gc29ydGluZ19kaWN0IChhIG5lc3RlZCBkaWN0IG9mIGRpY3RzKQogICAgICAgIHNvcnRpbmdfZGljdFtwaXBlbGluZV92YWx1ZV1bZG1rXSA9IG1ldHJpYwogICAgICAgIHBpcGVsaW5lLAogICAgICAgICIiIgogICAgICAgIHNvcnRlZF9tZXRyaWNzID0gZGVmYXVsdGRpY3QoZGljdCkKICAgICAgICBmb3IgbWV0cmljIGluIG1ldHJpY3M6CiAgICAgICAgICAgIGRtaywgcGlwZWxpbmVfdmFsdWUgPSBzZWxmLmRlcGlwZWxpbmUobWV0cmljKQogICAgICAgICAgICBzb3J0ZWRfbWV0cmljc1twaXBlbGluZV92YWx1ZV1bZG1rXSA9IG1ldHJpYwogICAgICAgIHJldHVybiBzb3J0ZWRfbWV0cmljcwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgYWRkX21ldHJpY3MocGlwZWxpbmUsIHNvcnRpbmdfZGljdCwgaW5wdXRfbWV0cmljcywgaXNfaW5wdXQpOgogICAgICAgICAgICAiIiIgQWRkIG1ldHJpY3MgdG8gc29ydGluZ19kaWN0IHN1Y2ggd2UgY2FuIHJldHJpZXZlIHRoZW0gYnkKICAgICAgICAgICAgcGlwZWxpbmUsIAogICAgICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5wdXRzID0gW10KICAgICAgICAgICAgb3V0cHV0cyA9IFtdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcCA9IFBpcGVsaW5lKHNlbGYucGlwZWxpbmVfZGVmKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBvdXRwdXRzIG9ubHkgaGF2ZSAxIGRtaywgd2UgZG9uJ3QgbmVlZCB0byBtYWtlIGEgZGljdCBvZiBkaWN0IGluIHRoYXQgY2FzZQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -971,10 +972,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0cyA9IG91dHB1cwo=</text>
+        <text encoding="base64">aW1wb3J0IHBhbmRhcyBhcyBwZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dHB1dAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1042,28 +1043,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dHB1dCA9IG91dHB1dHNfbWFwW10K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0c19tYXAK</text>
+        <text encoding="base64">ICAgICAgICBwID0gUGlwZWxpbmUoc2VsZi5waXBlbGluZV9kZWYpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRpbWVfb2Zmc2V0Cg==</text>
+        <text encoding="base64">ICAgICAgICBzb3J0aW5nX2RpY3QgPSB7fQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9tYXAgPSBwLnNvcnRlZF9tZXRyaWNzX2J5X3BpcGVsaW5lKGlucHV0X21ldHJpY3MpCiAgICAgICAgb3V0cHV0X21hcCA9IHAuc29ydGVkX21ldHJpY3NfYnlfcGlwZWxpbmUob3V0cHV0X21ldHJpY3MpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBhZGRfbWV0cmljcyhwLCBzb3J0aW5nX2RpY3QsIGlucHV0X21ldHJpY3MsIGlzX2lucHV0PVRydWUpCiAgICAgICAgYWRkX21ldHJpY3MocCwgc29ydGluZ19kaWN0LCBpbnB1dF9tZXRyaWNzLCBpc19pbnB1dD1GYWxzZSkKICAgICAgICBmb3IgbWV0cmljIGluIGlucHV0X21ldHJpY3M6CiAgICAgICAgICAgICsgb3V0cHV0X21ldHJpY3M6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>sorting_dict</last-search>
+      <last-search>pd</last-search>
       <last-offset />
-      <last-pattern>sorting_dict</last-pattern>
+      <last-pattern>pd</last-pattern>
       <last-replace>expression(m)</last-replace>
       <last-substitute>field</last-substitute>
       <last-dir>1</last-dir>
@@ -1085,12 +1086,12 @@
         <entry encoding="base64">ZXhwcmVzc2lvbiA9IA==</entry>
         <entry>logger</entry>
         <entry>log</entry>
-        <entry>pd</entry>
         <entry>PERF</entry>
         <entry>split</entry>
         <entry>inpu</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>sorting_dict</entry>
+        <entry>pd</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
