@@ -347,10 +347,10 @@
         <mark key="." line="111" column="0" />
         <mark key="^" line="110" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix_instance_load.py" timestamp="1548901825014">
-        <mark key="'" line="3" column="39" />
-        <mark key="[" line="39" column="43" />
-        <mark key="]" line="39" column="57" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix_instance_load.py" timestamp="1548953617226">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="59" column="25" />
         <mark key="." line="39" column="57" />
         <mark key="^" line="39" column="57" />
       </file>
@@ -438,11 +438,12 @@
         <mark key="^" line="42" column="7" />
         <mark key="." line="27" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" timestamp="1548953366540">
-        <mark key="[" line="15" column="21" />
-        <mark key="]" line="15" column="21" />
-        <mark key="." line="15" column="21" />
-        <mark key="^" line="15" column="21" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" timestamp="1548956332098">
+        <mark key="'" line="113" column="51" />
+        <mark key="[" line="54" column="22" />
+        <mark key="]" line="55" column="30" />
+        <mark key="." line="55" column="30" />
+        <mark key="^" line="55" column="30" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_table.yaml" timestamp="1547659959007">
         <mark key="[" line="70" column="22" />
@@ -459,14 +460,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="516" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="364" column="40" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="365" column="7" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="33" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/correllations_preprocessor.py" />
-      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/correllations_preprocessor.py" />
-      <jump line="11" column="79" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_correlations_preprocessor.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="16" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="62" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="26" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_correlations_preprocessor.py" />
@@ -559,6 +552,14 @@
       <jump line="825" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/identity_feature_creator.py" />
       <jump line="37" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/identity_feature_creator.py" />
+      <jump line="10" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix_instance_load.py" />
+      <jump line="22" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="72" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="3" column="39" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="81" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="119" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="110" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -568,7 +569,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICA0LiBpcyBub3QgYmVpbgo=</text>
+        <text encoding="base64">ICAgICAgICAjIGRmLnN0YWNrKCkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1110,16 +1111,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>sum_metriwc</text>
+        <text>new_metric</text>
       </register>
       <register name="/" type="4">
-        <text>def train(</text>
+        <text>pd</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlcihJZGVudGl0eUZlYXR1cmVDcmVhdG9yLCBzZWxmKS5fX2luaXRfXyhwYXJhbXMpCiAgICAgICAgc2VsZi5waXBlbGluZV9kZWYgPSBwYXJhbXNbJ3BpcGVsaW5lX2RlZiddCg==</text>
+        <text encoding="base64">ZGVmIHN1bV9mZWF0dXJlKG1ldHJpY3NfbWFwKToKICAgICIiIgogICAgcmV0dXJuIGEgbmV3IG1hcCwgaW5kZXhlZCBsaWtlIG1ldHJpY3NfbWFwIHdoZXJlIHRoZSB2YWx1ZXMgYXJlIHRoZSBzdW0gb2YgdGhlIGdpdmVuIG1ldHJpY3MKICAgIAogICAgOnBhcmFtIG1ldHJpY3NfbWFwOiBkaWN0IG1hcHBpbmcgc29tZSBrZXkgdG8gYSBwZC5TZXJpZXMgb2YgZmVhdHVyZXMKICAgIAogICAgOnJldHVybjogCiAgICAiIiIKICAgIGZpbmFsX21hcCA9IHt9CiAgICBmb3IgcGlwZWxpbmUsIG1ldHJpY3MgaW4gbWV0cmljc19tYXAuaXRlbXMoKToKICAgICAgICB2YWx1ZXMgPSBbbS52YWx1ZXMgZm9yIG0gaW4gbWV0cmljc10KICAgICAgICBmaW5hbF9tYXBbcGlwZWxpbmVdID0gcGQuc3VtKHZhbHVlcykKCiAgICByZXR1cm4gZmluYWxfbWFwCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICA0LiBpcyBub3QgYmVpbgo=</text>
+        <text encoding="base64">ICAgICAgICAjIGRmLnN0YWNrKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -1139,10 +1140,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IHBpcGVsaW5lX2RlZiA9PSBbJ3NvdXJjZV9pbnN0YW5jZV91dWlkJ10K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBtZXRyaWNzWzBdLmtleS5leHByZXNzaW9uOgogICAgICAgIGlucHV0c19tYXAgPQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1210,28 +1211,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgImxhYmVsIjogInF1ZXJ5X2F0dHJpYnV0ZXMubWlzYWxpZ25lZF9yZWFkcyIsCiAgICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcImNvbnRyb2xsZXJfbWlzYWxpZ25lZF9vZmZzZXRfcmVhZHNcIikgZnJvbSBcInZtX3N0YXRzXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfbWlzYWxpZ25lZF9vZmZzZXRfcmVhZHMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9taXNhbGlnbmVkX29mZnNldF9yZWFkc1wiKSIsCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImVudGl0eV9pZCIsCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIgogICAgICBdLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJudXRhbml4IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9jbHVzdGVyX3JhY2thYmxlX3VuaXRfbW9kZWwiOiBbCiAgICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgICBdLAogICAgICAgICJjb25zdW1lcl92ZXJzaW9uIjogWwogICAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6IFsKICAgICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCiAgICAgICAgXQogICAgICB9LAogICAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICAgIH0sCiAgICB7CiAgICAgICJsYWJlbCI6ICJpbnRlcm5hbC5yZWFkX3NvdXJjZSIsCiAgICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfZHJhbV9ieXRlc1wiKSBmcm9tIFwidm1fc3RhdHNcIiB3aGVyZSAkKHN0YXJ0KSA8PSB0aW1lIEFORCB0aW1lIDw9ICQoZW5kKSBHUk9VUCBCWSB0aW1lKCckKHVuaXQpJykgJChwaXZvdCkiLAogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZmllbGQiOiAiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9jYWNoZV9kcmFtX2J5dGVzIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfZHJhbV9ieXRlc1wiKSIsCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImluc3RhbmNlX2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogWwogICAgICAgICAgImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwKICAgIHsKICAgICAgImxhYmVsIjogImludGVybmFsLnJlYWRfc291cmNlIiwKICAgICAgInF1ZXJ5IjogInNlbGVjdCBtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9jYWNoZV9zc2RfYnl0ZXNcIikgZnJvbSBcInZtX3N0YXRzXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfc3NkX2J5dGVzIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfc3NkX2J5dGVzXCIpIiwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaW5zdGFuY2VfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXSwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiBbCiAgICAgICAgICAiZTJjNjE4MDItYTU5YS00MDc1LThjM2ItY2ZkNGYzNWI3ZDFiIgogICAgICAgIF0KICAgICAgfSwKICAgICAgImV4Y2l0YXRpb25fZGlyZWN0aW9uIjogInNhbWUiCiAgICB9LAogICAgewogICAgICAibGFiZWwiOiAiaW50ZXJuYWwucmVhZF9zb3VyY2UiLAogICAgICAicXVlcnkiOiAic2VsZWN0IG1lYW4oXCJjb250cm9sbGVyX3JlYWRfc291cmNlX2VzdG9yZV9oZGRfbG9jYWxfYnl0ZXNcIikgZnJvbSBcInZtX3N0YXRzXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfZXN0b3JlX2hkZF9sb2NhbF9ieXRlcyIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJjb250cm9sbGVyX3JlYWRfc291cmNlX2VzdG9yZV9oZGRfbG9jYWxfYnl0ZXNcIikiLAogICAgICAicGl2b3RzIjogWwogICAgICAgICJpbnN0YW5jZV9pZCIsCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIgogICAgICBdLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJudXRhbml4IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9jbHVzdGVyX3JhY2thYmxlX3VuaXRfbW9kZWwiOiBbCiAgICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgICBdLAogICAgICAgICJjb25zdW1lcl92ZXJzaW9uIjogWwogICAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6IFsKICAgICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCiAgICAgICAgXQogICAgICB9LAogICAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICAgIH0sCiAgICB7CiAgICAgICJsYWJlbCI6ICJpbnRlcm5hbC5yZWFkX3NvdXJjZSIsCiAgICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfZXN0b3JlX2hkZF9yZW1vdGVfYnl0ZXNcIikgZnJvbSBcInZtX3N0YXRzXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfZXN0b3JlX2hkZF9yZW1vdGVfYnl0ZXMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9lc3RvcmVfaGRkX3JlbW90ZV9ieXRlc1wiKSIsCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImluc3RhbmNlX2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogWwogICAgICAgICAgImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgImxhYmVsIjogImludGVybmFsLnJlYWRfc291cmNlIiwKICAgICAgInF1ZXJ5IjogInNlbGVjdCBtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9lc3RvcmVfc3NkX3JlbW90ZV9ieXRlc1wiKSBmcm9tIFwidm1fc3RhdHNcIiB3aGVyZSAkKHN0YXJ0KSA8PSB0aW1lIEFORCB0aW1lIDw9ICQoZW5kKSBHUk9VUCBCWSB0aW1lKCckKHVuaXQpJykgJChwaXZvdCkiLAogICAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgICAiZmllbGQiOiAiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9lc3RvcmVfc3NkX3JlbW90ZV9ieXRlcyIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJjb250cm9sbGVyX3JlYWRfc291cmNlX2VzdG9yZV9zc2RfcmVtb3RlX2J5dGVzXCIpIiwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaW5zdGFuY2VfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXSwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAibnV0YW5peCIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICAgIk5YLTYwMzUtRzQiCiAgICAgICAgXSwKICAgICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAgICJlbDcuMy1kYmctbWFzdGVyLWUyODVjNWYwMDFjZTYxMzBhYzNlZGIwZDJiOWM5OTgzNzgzNDM0OGUiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiBbCiAgICAgICAgICAiZTJjNjE4MDItYTU5YS00MDc1LThjM2ItY2ZkNGYzNWI3ZDFiIgogICAgICAgIF0KICAgICAgfSwKICAgICAgImV4Y2l0YXRpb25fZGlyZWN0aW9uIjogInNhbWUiCiAgICB9LAogICAgewogICAgICAibGFiZWwiOiAiaW50ZXJuYWwucmVhZF9zb3VyY2UiLAogICAgICAicXVlcnkiOiAic2VsZWN0IG1lYW4oXCJjb250cm9sbGVyX3JlYWRfc291cmNlX2VzdG9yZV96ZXJvX2J5dGVzXCIpIGZyb20gXCJ2bV9zdGF0c1wiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCiAgICAgICJtZWFzdXJlbWVudCI6ICJ2bV9zdGF0cyIsCiAgICAgICJmaWVsZCI6ICJjb250cm9sbGVyX3JlYWRfc291cmNlX29wbG9nX2J5dGVzIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfZXN0b3JlX3plcm9fYnl0ZXNcIikiLAogICAgICAicGl2b3RzIjogWwogICAgICAgICJpbnN0YW5jZV9pZCIsCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIgogICAgICBdLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJudXRhbml4IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9jbHVzdGVyX3JhY2thYmxlX3VuaXRfbW9kZWwiOiBbCiAgICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgICBdLAogICAgICAgICJjb25zdW1lcl92ZXJzaW9uIjogWwogICAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6IFsKICAgICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCiAgICAgICAgXQogICAgICB9LAogICAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICAgIH0sCiAgICB7CiAgICAgICJsYWJlbCI6ICJpbnRlcm5hbC5yZWFkX3NvdXJjZSIsCiAgICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2Vfb3Bsb2dfYnl0ZXNcIikgZnJvbSBcInZtX3N0YXRzXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2Vfb3Bsb2dfYnl0ZXMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9vcGxvZ19ieXRlc1wiKSIsCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImluc3RhbmNlX2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogWwogICAgICAgICAgImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwKICAgIHsKICAgICAgImxhYmVsIjogImludGVybmFsLnJlYWRfc291cmNlIiwKICAgICAgInF1ZXJ5IjogInNlbGVjdCBtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9vcGxvZ196ZXJvX2J5dGVzXCIpIGZyb20gXCJ2bV9zdGF0c1wiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCiAgICAgICJtZWFzdXJlbWVudCI6ICJ2bV9zdGF0cyIsCiAgICAgICJmaWVsZCI6ICJjb250cm9sbGVyX3JlYWRfc291cmNlX29wbG9nX2J5dGVzIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2Vfb3Bsb2dfemVyb19ieXRlc1wiKSIsCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImluc3RhbmNlX2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIm51dGFuaXgiCiAgICAgICAgXSwKICAgICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAgICJOWC02MDM1LUc0IgogICAgICAgIF0sCiAgICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogWwogICAgICAgICAgImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbmV3X21ldHJpYyA9IE1ldHJpYyhNZXRyaWNLZXkoaW9fbWV0cmljLmtleS5tZWFzdXJlbWVudCwgJ3N1bShpb19tZXRyaWMqaW9fc2l6ZSknLCBpb19tZXRyaWMua2V5LnRhZ3MpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEsIGlvX21ldHJpYy5zdGFydCwgaW9fbWV0cmljLmVuZCwgaW9fbWV0cmljLmludGVydmFsKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgImxhYmVsIjogImludGVybmFsLmNvbiIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGF0YSAqPSBpb19zaXplLnZhbHVlcwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICJsYWJlbCI6ICJpbnRlcm5hbC5yZWFkX3NvdXJjZSIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGF0YSA9IGlvX21ldHJpYy52YWx1ZXMuY29weSgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICB7CiAgICAibGFiZWwiOiAiaW50ZXJuYWwucmVhZF9zb3VyY2UiLAogICAgInF1ZXJ5IjogInNlbGVjdCBtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9vcGxvZ196ZXJvX2J5dGVzXCIpIGZyb20gXCJ2bV9zdGF0c1wiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCiAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2Vfb3Bsb2dfYnl0ZXMiLAogICAgImV4cHJlc3Npb24iOiAibWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2Vfb3Bsb2dfemVyb19ieXRlc1wiKSIsCiAgICAicGl2b3RzIjogWwogICAgICAiaW5zdGFuY2VfaWQiLAogICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICBdLAogICAgInRhZ3MiOiB7CiAgICAgICJjbHVzdGVyIjogWwogICAgICAgICJudXRhbml4IgogICAgICBdLAogICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgXSwKICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgXSwKICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogWwogICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCiAgICAgIF0KICAgIH0sCiAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>def train(</last-search>
+      <last-search>pd</last-search>
       <last-offset />
-      <last-pattern>def train(</last-pattern>
+      <last-pattern>pd</last-pattern>
       <last-replace>expression(m)</last-replace>
       <last-substitute>field</last-substitute>
       <last-dir>1</last-dir>
@@ -1241,7 +1242,6 @@
       <history-search>
         <entry>inpu</entry>
         <entry>sorting_dict</entry>
-        <entry>pd</entry>
         <entry>out</entry>
         <entry>Quer</entry>
         <entry>as</entry>
@@ -1259,6 +1259,7 @@
         <entry>pipeline_def</entry>
         <entry>instance_id</entry>
         <entry>def train(</entry>
+        <entry>pd</entry>
       </history-search>
       <history-cmd>
         <entry>218</entry>
