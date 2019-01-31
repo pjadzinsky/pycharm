@@ -111,11 +111,10 @@
         <mark key="]" line="421" column="0" />
         <mark key="." line="421" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1548970430353">
-        <mark key="[" line="1113" column="0" />
-        <mark key="]" line="1115" column="51" />
-        <mark key="^" line="1115" column="51" />
-        <mark key="." line="1115" column="51" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1548974876432">
+        <mark key="[" line="1106" column="0" />
+        <mark key="]" line="1106" column="0" />
+        <mark key="." line="1106" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/samples/seasonal_features.py" timestamp="1548350806040">
         <mark key="[" line="4" column="21" />
@@ -278,6 +277,12 @@
         <mark key="." line="39" column="57" />
         <mark key="^" line="39" column="57" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/tests/test_complementary_load.py" timestamp="1548976811320">
+        <mark key="[" line="10" column="11" />
+        <mark key="]" line="10" column="10" />
+        <mark key="^" line="10" column="10" />
+        <mark key="." line="10" column="10" />
+      </file>
       <file name="$USER_HOME$/crypto_Testeo/exchanges/poloniex_utils.py" timestamp="1548258680396">
         <mark key="[" line="211" column="38" />
         <mark key="]" line="212" column="17" />
@@ -333,12 +338,11 @@
         <mark key="[" line="115" column="0" />
         <mark key="]" line="115" column="120" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" timestamp="1548970437777">
-        <mark key="'" line="2" column="38" />
-        <mark key="[" line="125" column="62" />
-        <mark key="]" line="125" column="12" />
-        <mark key="^" line="125" column="12" />
-        <mark key="." line="125" column="12" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" timestamp="1548976511225">
+        <mark key="'" line="45" column="4" />
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_table.yaml" timestamp="1547659959007">
         <mark key="[" line="70" column="22" />
@@ -355,7 +359,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="87" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="98" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="102" column="57" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="131" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -455,6 +458,7 @@
       <jump line="959" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
       <jump line="792" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
       <jump line="848" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
+      <jump line="45" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -464,7 +468,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>product</text>
+        <text>key_</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1006,22 +1010,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>product</text>
+        <text>key_</text>
       </register>
       <register name="/" type="4">
         <text>m0_0</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lX2ZpcnN0ID0gVHJ1ZQogICAgICAgIGRmID0gZnJvbV9tZXRyaWNzLnRvX2RhdGFmcmFtZShzZWxmLnAsIFtzZWxmLm1fZXhwMF9hMCwgc2VsZi5tX2V4cDBfYTEsIHNlbGYubV9leHAxX2EwLCBzZWxmLm1fZXhwMV9hMV0sIHRpbWVfZmlyc3QpCgogICAgICAgICMgd2hlbiB3ZSBsaW1pdCBkZiB0byByb3dzIHdpdGggdmFsdWUgJ2EwJyBvZiAnQScgd2UgYXJlIGxpbWl0aW5nIGl0IHRvIHRoZSByb3dzIGNvcnJlc3BvbmRpbmcgdG8gbWV0cmljCiAgICAgICAgIyBtX2V4cDBfYTAgYW5kIG1fZXhwMV9hMAogICAgICAgIHByb2R1Y3QxID0gZGYueHMoJ2EwJywgbGV2ZWw9J0EnKS51bnN0YWNrKGxldmVsPSdkbWsnKS5wcm9kdWN0KGF4aXM9MSkKCiAgICAgICAgIyB3aGVuIHdlIGxpbWl0IGRmIHRvIHJvd3Mgd2l0aCB2YWx1ZSAnYTEnIG9mICdBJyB3ZSBhcmUgbGltaXRpbmcgdG8gdGhlIHJvd3MgY29ycmVzcG9uZGluZyB0byBtZXRyaWMKICAgICAgICAjIG1fZXhwMF9hMSBhbmQgbV9leHAxX2ExCiAgICAgICAgcHJvZHVjdDIgPSBkZi54cygnYTEnLCBsZXZlbD0nQScpLnVuc3RhY2sobGV2ZWw9J2RtaycpLnByb2R1Y3QoYXhpcz0xKQoKICAgICAgICBucC50ZXN0aW5nLmFzc2VydF9hcnJheV9lcXVhbChwcm9kdWN0MS52YWx1ZXMsIHNlbGYubV9leHAwX2EwLnZhbHVlcyAqIHNlbGYubV9leHAxX2EwLnZhbHVlcykKICAgICAgICBucC50ZXN0aW5nLmFzc2VydF9hcnJheV9lcXVhbChwcm9kdWN0Mi52YWx1ZXMsIHNlbGYubV9leHAwX2ExLnZhbHVlcyAqIHNlbGYubV9leHAxX2ExLnZhbHVlcykK</text>
+        <text encoding="base64">ICAgICAgICBpb19rZXlfZTEgPSBNZXRyaWNLZXkoJ20nLCAnY29udHJvbGxlcl9udW1faW8nLCB7J2VudGl0eV9pZCc6ICdlMScsICdzb3VyY2VfaW5zdGFuY2VfdXVpZCc6ICdzMSd9KQogICAgICAgIGlvX2tleV9lMiA9IE1ldHJpY0tleSgnbScsICdjb250cm9sbGVyX251bV9pbycsIHsnZW50aXR5X2lkJzogJ2UyJywgJ3NvdXJjZV9pbnN0YW5jZV91dWlkJzogJ3MxJ30pCiAgICAgICAgaW9fa2V5X2UzID0gTWV0cmljS2V5KCdtJywgJ2NvbnRyb2xsZXJfbnVtX2lvJywgeydlbnRpdHlfaWQnOiAnZTMnLCAnc291cmNlX2luc3RhbmNlX3V1aWQnOiAnczInfSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkbWswLCBwaXBlbGluZV92YWx1ZV8wID0gc2VsZi5wLmRlcGlwZWxpbmUoc2VsZi5tX2V4cDBfYTApCiAgICAgICAgZG1rMywgcGlwZWxpbmVfdmFsdWVfMyA9IHNlbGYucC5kZXBpcGVsaW5lKHNlbGYubV9leHAxX2EwKQo=</text>
+        <text encoding="base64">ICAgICAgICBpb19rZXlfZTEgPSBNZXRyaWNLZXkoJ20nLCAnY29udHJvbGxlcl9udW1faW8nLCB7J2VudGl0eV9pZCc6ICdlMScsICdzb3VyY2VfaW5zdGFuY2VfdXVpZCc6ICdzMSd9KQogICAgICAgIGlvX2tleV9lMiA9IE1ldHJpY0tleSgnbScsICdjb250cm9sbGVyX251bV9pbycsIHsnZW50aXR5X2lkJzogJ2UyJywgJ3NvdXJjZV9pbnN0YW5jZV91dWlkJzogJ3MxJ30pCiAgICAgICAgaW9fa2V5X2UzID0gTWV0cmljS2V5KCdtJywgJ2NvbnRyb2xsZXJfbnVtX2lvJywgeydlbnRpdHlfaWQnOiAnZTMnLCAnc291cmNlX2luc3RhbmNlX3V1aWQnOiAnczEnfSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydHByb2R1Y3QxCg==</text>
+        <text encoding="base64">ICAgICAgICBNZXRyaWNLZXkoJ20nLCAnY29udHJvbGxlcl9udW1faW8nLCB7J2VudGl0eV9pZCc6ICdlMScsICdzb3VyY2VfaW5zdGFuY2VfdXVpZCc6ICdzMSd9KQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1035,10 +1039,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2UK</text>
+        <text encoding="base64">CgoKCgoKCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
+        <text encoding="base64">JycnCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1106,22 +1110,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZGVmIHRvX2RhdGFmcmFtZShwaXBlbGluZSwgbWV0cmljcywgdGltZV9maXJzdCwgKiprd2FyZ3MpOgo=</text>
+        <text encoding="base64">ICAgICAgICAjIDQuIGZvciBlYWNoIGVudGl0eV9pZCwgY3JlYXRlIGV4dGVybmFsX2xvYWRfdG9fZW50aXR5X2lkOgogICAgICAgICMgICBleHRlcm5hbF9sb2FkX3RvX2VudGl0eV9pZCA9IHRvdGFsX3NvdXJjZV9pZGVudGl0eV9sb2FkIC0gZW50aXR5X2lkX2xvYWQgCg==</text>
       </register>
-      <register name="6" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBlbnRpdHlfaWRfbG9hZAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICMgaGVyZSBpcyB3aGVyZSB3ZSBkZWZpbmUgdGhlIG1lYW5pbmcgb2YgImxvYWQiLiB3ZSBjYW4gY2hhbmdlIHRoZSBjb21wdXRhdGlvbiwgYWRkL2RlbGV0ZSBtZXRyaWNzLAogICAgIyBtaWdodCBiZSBuZWVkZWQgdG8gbWFrZSBhIGxpYnJhcnkgd2l0aCBkaWZmZXJlbnQgdmVyc2lvbnMgb2YgdGhpcyBjb21wdXRhdGlvbgogICAgIyB0aGUgYXNzdW1wdGlvbiBoZXJlIGlzIHRoYXQgd2UgaGF2ZSBvbmx5IHR3byBtZXRyaWNzLCBvbmUgd2l0aCBjb250cm9sbGVyX251bV9pbyBhbmQgdGhlIG90aGVyIHdpdGgKICAgICMgY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlcwo=</text>
+        <text encoding="base64">ICAgICAgICAjIDMuIGZvciBlYWNoIHNvdXJjZV9pZCwgc3VtIHRoZSBwZXJfZW50aXR5X2lkIGxvYWQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIGhlcmUgaXMgd2hlcmUgd2UgZGVmaW5lIHRoZSBtZWFuaW5nIG9mICJsb2FkIi4gd2UgY2FuIGNoYW5nZSB0aGUgY29tcHV0YXRpb24sIGFkZC9kZWxldGUgbWV0cmljcywKICAgICAgICAjIG1pZ2h0IGJlIG5lZWRlZCB0byBtYWtlIGEgbGlicmFyeSB3aXRoIGRpZmZlcmVudCB2ZXJzaW9ucyBvZiB0aGlzIGNvbXB1dGF0aW9uCiAgICAgICAgIyB0aGUgYXNzdW1wdGlvbiBoZXJlIGlzIHRoYXQgd2UgaGF2ZSBvbmx5IHR3byBtZXRyaWNzLCBvbmUgd2l0aCBjb250cm9sbGVyX251bV9pbyBhbmQgdGhlIG90aGVyIHdpdGgKICAgICAgICAjIGNvbnRyb2xsZXJfdG90YWxfaW9fc2l6ZV9rYnl0ZXMK</text>
+        <text encoding="base64">ICAgICAgICAjIGxvYWQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBIZXJlIGlzIHdoZXJlIHdlIGRlZmluZSB0aGUgbWVhbmluZyBvZiAibG9hZCIuIFdlIGNhbiBjaGFuZ2UgdGhlIGNvbXB1dGF0aW9uLCBhZGQvZGVsZXRlIG1ldHJpY3MsCiAgICAgICAgICAgICMgbWlnaHQgYmUgbmVlZGVkIHRvIG1ha2UgYSBsaWJyYXJ5IHdpdGggZGlmZmVyZW50IHZlcnNpb25zIG9mIHRoaXMgY29tcHV0YXRpb24KICAgICAgICAgICAgIyBUaGUgYXNzdW1wdGlvbiBoZXJlIGlzIHRoYXQgd2UgaGF2ZSBvbmx5IHR3byBtZXRyaWNzLCBvbmUgd2l0aCBjb250cm9sbGVyX251bV9pbyBhbmQgdGhlIG90aGVyIHdpdGgKICAgICAgICAgICAgIyBjb250cm9sbGVyX3RvdGFsX2lvX3NpemVfa2J5dGVzCg==</text>
+        <text encoding="base64">ICAgICAgICAjICAgdGhlIHByb2R1Y3Qgb2YgdGhlIDIgZG1rcyB0aGF0IEknbSBhc3N1bWluZyB3ZSBhcmUgcGFzc2luZyBudW1faW8gYW5kIHRvdGFsX2lvX3NpemUK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/m0_0/m_exp0_a0/g</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -1157,7 +1161,6 @@
         <entry>m0_0</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/np_testing/np.testing/g</entry>
         <entry>%s/self\.p\([^(]*\)(/\1(self.p, /gc</entry>
         <entry>%s/self\.p\.\([^(]*\)(/from_metrics.\1(self.p, /gc</entry>
         <entry>%s/self\.p\.to_dataframe(/from_metrics.to_dataframe(self.p, /gc</entry>
@@ -1177,6 +1180,7 @@
         <entry>%s/m0_1/m_exp1_a0/g</entry>
         <entry>%s/m1_1/m_exp1_a1/g</entry>
         <entry>%s/m0_0/m_exp0_a0/g</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
