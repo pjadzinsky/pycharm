@@ -56,6 +56,9 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="6" column="35" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/preprocessor_interface.py" timestamp="1548902030766">
+        <mark key="'" line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/new_metric_key.py" timestamp="1548358248752">
         <mark key="[" line="18" column="71" />
         <mark key="]" line="19" column="23" />
@@ -146,8 +149,8 @@
         <mark key="." line="58" column="25" />
         <mark key="^" line="58" column="25" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548897966531">
-        <mark key="'" line="425" column="8" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1548902389513">
+        <mark key="'" line="825" column="0" />
         <mark key="[" line="662" column="57" />
         <mark key="]" line="662" column="57" />
         <mark key="." line="662" column="57" />
@@ -264,7 +267,7 @@
       <file name="/fragment.py" timestamp="1548879202285">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix_instance_load.py" timestamp="1548901076564">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix_instance_load.py" timestamp="1548901825014">
         <mark key="'" line="3" column="39" />
         <mark key="[" line="39" column="43" />
         <mark key="]" line="39" column="57" />
@@ -440,8 +443,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="285" column="24" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="315" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="336" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="112" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="516" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -540,6 +541,8 @@
       <jump line="31" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/nutanix_kpi_2.yaml" />
       <jump line="30" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/nutanix_kpi_2.yaml" />
       <jump line="78" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/nutanix_kpi_2.yaml" />
+      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/preprocessor_interface.py" />
+      <jump line="825" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1094,7 +1097,7 @@
         <text>sum_metriwc</text>
       </register>
       <register name="/" type="4">
-        <text>instance_id</text>
+        <text>def train(</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBkYXRhID0gaW9fbWV0cmljLnZhbHVlcy5jb3B5KCkKICAgICAgICBkYXRhICo9IGlvX3NpemUudmFsdWVzCgogICAgICAgIG5ld19tZXRyaWMgPSBNZXRyaWMoTWV0cmljS2V5KGlvX21ldHJpYy5rZXkubWVhc3VyZW1lbnQsICdzdW0oaW9fbWV0cmljKmlvX3NpemUpJywgaW9fbWV0cmljLmtleS50YWdzKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEsIGlvX21ldHJpYy5zdGFydCwgaW9fbWV0cmljLmVuZCwgaW9fbWV0cmljLmludGVydmFsKQo=</text>
@@ -1206,13 +1209,13 @@
         <text encoding="base64">ICB7CiAgICAibGFiZWwiOiAiaW50ZXJuYWwucmVhZF9zb3VyY2UiLAogICAgInF1ZXJ5IjogInNlbGVjdCBtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9jYWNoZV9kcmFtX2J5dGVzXCIpIGZyb20gXCJ2bV9zdGF0c1wiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCiAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfZHJhbV9ieXRlcyIsCiAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl9yZWFkX3NvdXJjZV9jYWNoZV9kcmFtX2J5dGVzXCIpIiwKICAgICJwaXZvdHMiOiBbCiAgICAgICJpbnN0YW5jZV9pZCIsCiAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgIF0sCiAgICAidGFncyI6IHsKICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgIm51dGFuaXgiCiAgICAgIF0sCiAgICAgICJzb3VyY2VfY2x1c3Rlcl9yYWNrYWJsZV91bml0X21vZGVsIjogWwogICAgICAgICJOWC02MDM1LUc0IgogICAgICBdLAogICAgICAiY29uc3VtZXJfdmVyc2lvbiI6IFsKICAgICAgICAiZWw3LjMtZGJnLW1hc3Rlci1lMjg1YzVmMDAxY2U2MTMwYWMzZWRiMGQyYjljOTk4Mzc4MzQzNDhlIgogICAgICBdLAogICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOiBbCiAgICAgICAgImUyYzYxODAyLWE1OWEtNDA3NS04YzNiLWNmZDRmMzViN2QxYiIKICAgICAgXQogICAgfSwKICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogIH0sCiAgewogICAgImxhYmVsIjogImludGVybmFsLnJlYWRfc291cmNlIiwKICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfc3NkX2J5dGVzXCIpIGZyb20gXCJ2bV9zdGF0c1wiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCiAgICAibWVhc3VyZW1lbnQiOiAidm1fc3RhdHMiLAogICAgImZpZWxkIjogImNvbnRyb2xsZXJfcmVhZF9zb3VyY2VfY2FjaGVfc3NkX2J5dGVzIiwKICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJjb250cm9sbGVyX3JlYWRfc291cmNlX2NhY2hlX3NzZF9ieXRlc1wiKSIsCiAgICAicGl2b3RzIjogWwogICAgICAiaW5zdGFuY2VfaWQiLAogICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICBdLAogICAgInRhZ3MiOiB7CiAgICAgICJjbHVzdGVyIjogWwogICAgICAgICJudXRhbml4IgogICAgICBdLAogICAgICAic291cmNlX2NsdXN0ZXJfcmFja2FibGVfdW5pdF9tb2RlbCI6IFsKICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgXSwKICAgICAgImNvbnN1bWVyX3ZlcnNpb24iOiBbCiAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgXSwKICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjogWwogICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCiAgICAgIF0KICAgIH0sCiAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICB9LAo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>instance_id</last-search>
+      <last-search>def train(</last-search>
       <last-offset />
-      <last-pattern>instance_id</last-pattern>
+      <last-pattern>def train(</last-pattern>
       <last-replace>expression(m)</last-replace>
       <last-substitute>field</last-substitute>
       <last-dir>1</last-dir>
@@ -1228,7 +1231,6 @@
         <entry>as</entry>
         <entry>self.sc</entry>
         <entry>def query.*bulk</entry>
-        <entry>def train(</entry>
         <entry>def .*bulk</entry>
         <entry>Query</entry>
         <entry encoding="base64">ZGVmIA==</entry>
@@ -1240,6 +1242,7 @@
         <entry>field</entry>
         <entry>pipeline_def</entry>
         <entry>instance_id</entry>
+        <entry>def train(</entry>
       </history-search>
       <history-cmd>
         <entry>218</entry>
@@ -1260,8 +1263,8 @@
         <entry>464</entry>
         <entry>qa</entry>
         <entry>581</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
