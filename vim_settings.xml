@@ -127,7 +127,7 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1548978827287">
+      <file name="/Python Console" timestamp="1548979072033">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="18" />
@@ -194,13 +194,6 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/linear_model.py" timestamp="1547664004045">
         <mark key="[" line="24" column="15" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" timestamp="1548974510618">
-        <mark key="'" line="848" column="0" />
-        <mark key="[" line="975" column="59" />
-        <mark key="]" line="975" column="59" />
-        <mark key="." line="975" column="61" />
-        <mark key="^" line="971" column="61" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1548957902911">
         <mark key="[" line="373" column="38" />
@@ -392,12 +385,12 @@
         <mark key="[" line="115" column="0" />
         <mark key="]" line="115" column="120" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" timestamp="1548978612866">
-        <mark key="'" line="55" column="8" />
-        <mark key="[" line="60" column="110" />
-        <mark key="]" line="60" column="109" />
-        <mark key="." line="60" column="109" />
-        <mark key="^" line="60" column="109" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" timestamp="1548979270815">
+        <mark key="'" line="50" column="76" />
+        <mark key="[" line="63" column="65" />
+        <mark key="]" line="66" column="105" />
+        <mark key="." line="66" column="105" />
+        <mark key="^" line="66" column="105" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_table.yaml" timestamp="1547659959007">
         <mark key="[" line="70" column="22" />
@@ -414,7 +407,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="213" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="236" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="240" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="245" column="34" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -514,6 +506,7 @@
       <jump line="54" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
       <jump line="60" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
       <jump line="55" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
+      <jump line="50" column="76" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -523,7 +516,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>external_load_entity_id.loc[idx[:, 'e1']]</text>
+        <text>entity_id_load</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1065,7 +1058,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>external_load_entity_id.loc[idx[:, 'e1']]</text>
+        <text>entity_id_load</text>
       </register>
       <register name="/" type="4">
         <text>external_load_entity_id</text>
