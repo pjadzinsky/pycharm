@@ -58,11 +58,11 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/tests/BMS_models/suggestions.py" timestamp="1546971739121">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1548999224760">
-        <mark key="[" line="209" column="15" />
-        <mark key="]" line="209" column="18" />
-        <mark key="." line="209" column="18" />
-        <mark key="^" line="209" column="18" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1549057267163">
+        <mark key="[" line="604" column="25" />
+        <mark key="]" line="604" column="32" />
+        <mark key="." line="604" column="32" />
+        <mark key="^" line="604" column="32" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/nuanix_kpi_1.yaml" timestamp="1548897648732">
         <mark key="[" line="96" column="0" />
@@ -147,9 +147,9 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1549054727883">
+      <file name="/Python Console" timestamp="1549056917134">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="48" />
+        <mark key="." line="0" column="3" />
       </file>
       <file name="/fragment.py" timestamp="1548977927975">
         <mark key="[" line="0" column="0" />
@@ -332,10 +332,11 @@
         <mark key="^" line="27" column="7" />
         <mark key="." line="27" column="7" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" timestamp="1548999500915">
-        <mark key="[" line="59" column="57" />
-        <mark key="]" line="60" column="103" />
-        <mark key="." line="60" column="103" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" timestamp="1549057444990">
+        <mark key="'" line="50" column="19" />
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="12" />
+        <mark key="." line="57" column="12" />
         <mark key="^" line="60" column="103" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/nutanixvm_nnet.yaml" timestamp="1547659950702">
@@ -520,10 +521,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="776" column="5" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
-      <jump line="960" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
-      <jump line="954" column="19" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
-      <jump line="948" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
       <jump line="958" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
       <jump line="953" column="82" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
       <jump line="949" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_from_metrics.py" />
@@ -620,6 +617,10 @@
       <jump line="86" column="50" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" />
       <jump line="2" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" />
       <jump line="108" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/feature_creator_utils.py" />
+      <jump line="59" column="38" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" />
+      <jump line="57" column="57" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" />
+      <jump line="56" column="16" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" />
+      <jump line="50" column="19" filename="$USER_HOME$/crypto/crypto/crypto/exchanges/exchange_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -628,8 +629,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFRydWUobnAuYWxsKGNvbXB1dGVkX3BpcGVsaW5lcywgZXhwZWN0ZWQpKQo=</text>
+      <register name="&quot;" type="4">
+        <text>exchange_1</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1171,10 +1172,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>print</text>
+        <text>exchange_1</text>
       </register>
       <register name="/" type="4">
-        <text>^def</text>
+        <text>quantities</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHJlaW5kZXhfd2l0aF9waXBlbGluZV92YWx1ZXMoZGYpOgo=</text>
@@ -1293,13 +1294,13 @@
         <text encoding="base64">ICAgICAgICBwcmludCByZWluZGV4X2RmLmluZGV4Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>s/self/cls/g</text>
+        <text>64</text>
       </register>
     </registers>
     <search>
-      <last-search>^def</last-search>
+      <last-search>quantities</last-search>
       <last-offset />
-      <last-pattern>^def</last-pattern>
+      <last-pattern>quantities</last-pattern>
       <last-replace>cls</last-replace>
       <last-substitute>self</last-substitute>
       <last-dir>1</last-dir>
@@ -1307,7 +1308,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def train(</entry>
         <entry>def _.*data</entry>
         <entry>_prepare_training_data</entry>
         <entry>input_metrics</entry>
@@ -1327,9 +1327,9 @@
         <entry encoding="base64">PDw8PA==</entry>
         <entry>self</entry>
         <entry>^def</entry>
+        <entry>quantities</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/m2_0/m_exp0_a2/g</entry>
         <entry>%s/m0_1/m_exp1_a0/g</entry>
         <entry>%s/m1_1/m_exp1_a1/g</entry>
         <entry>%s/m0_0/m_exp0_a0/g</entry>
@@ -1349,6 +1349,7 @@
         <entry>w</entry>
         <entry>q</entry>
         <entry>s/self/cls/g</entry>
+        <entry>64</entry>
       </history-cmd>
       <history-expr />
       <history-input />
