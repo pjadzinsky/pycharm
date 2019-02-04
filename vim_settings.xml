@@ -165,7 +165,7 @@
         <mark key="^" line="155" column="39" />
         <mark key="." line="155" column="75" />
       </file>
-      <file name="/Python Console" timestamp="1549247941945">
+      <file name="/Python Console" timestamp="1549249832920">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="26" />
@@ -366,12 +366,12 @@
         <mark key="^" line="1" column="90" />
         <mark key="." line="1" column="90" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" timestamp="1549247813006">
-        <mark key="'" line="16" column="46" />
-        <mark key="[" line="16" column="5" />
-        <mark key="]" line="15" column="11" />
-        <mark key="^" line="15" column="11" />
-        <mark key="." line="16" column="11" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" timestamp="1549249782204">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="137" column="113" />
+        <mark key="]" line="137" column="107" />
+        <mark key="." line="137" column="107" />
+        <mark key="^" line="137" column="107" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" timestamp="1548889742508">
         <mark key="'" line="40" column="0" />
@@ -484,7 +484,7 @@
         <mark key="^" line="23" column="91" />
         <mark key="." line="23" column="91" />
       </file>
-      <file name="/Dummy.txt" timestamp="1549247478160">
+      <file name="/Dummy.txt" timestamp="1549250087016">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/0" timestamp="1546706867972">
@@ -520,6 +520,12 @@
         <mark key="." line="8" column="28" />
         <mark key="^" line="8" column="28" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" timestamp="1549249649052">
+        <mark key="[" line="9" column="100" />
+        <mark key="]" line="9" column="117" />
+        <mark key="." line="9" column="117" />
+        <mark key="^" line="9" column="117" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/dev/datastax_table.yaml" timestamp="1547659959007">
         <mark key="[" line="70" column="22" />
         <mark key="]" line="70" column="27" />
@@ -535,7 +541,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="4" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="32" column="4" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="40" column="10" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="43" column="4" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
@@ -617,7 +622,6 @@
       <jump line="40" column="30" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="154" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="91" column="73" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
-      <jump line="107" column="42" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="129" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="86" column="9" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="85" column="18" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
@@ -635,6 +639,8 @@
       <jump line="65" column="26" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="125" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="16" column="46" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="107" column="60" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -643,9 +649,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="8">
-        <text>strategy.
-strategy.</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">YXMgb2Ygbm93LCA=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1187,23 +1192,22 @@ strategy.</text>
         </keys>
       </register>
       <register name="-" type="4">
-        <text>strategy</text>
+        <text encoding="base64">YXMgb2Ygbm93LCA=</text>
       </register>
       <register name="/" type="4">
-        <text>Shortest</text>
+        <text>graph</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBncmFwaCwgcGF0aHMgPSBnZXRfcGF0aHMoKQogICAgICAgIHdyaXRlciA9IFNob3J0ZXN0U3RhcGxlcygpCiAgICAgICAgZXhlY3V0ZV9mbiA9IHNob3J0ZXN0X3BhdGguYW5hbHl6ZV9wYXRoCiAgICAgICAgcGFyYW1zID0geydwYXRocyc6IHBhdGhzfQogICAgICAgIHN0cmF0ZWd5ID0gU3RyYXRlZ3koc3RyYXRlZ3lfbmFtZSwgd3JpdGVyLCBleGVjdXRlX2ZuLCBncmFwaCwgcGFyYW1zKQo=</text>
       </register>
-      <register name="1" type="8">
-        <text>strategy.
-strategy.</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBncmFwaC5jbGVhcl9vcmRlcl9ib29rX2NhY2hlKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCiAgICAgICAgICAgIHN0cmF0ZWd5LnBhcmFtc1snbWluX2dhaW4nXSA9IGFyZ3MubWluX2dhaW4KICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydleGVjdXRlJ10gPSBhcmdzLmV4ZWN1dGUK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmdyYXBoID0gZ3JhcGgK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1223,11 +1227,12 @@ strategy.</text>
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCg==</text>
+      <register name="3" type="8">
+        <text>strategy.
+strategy.</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2hvcnRlc3RfcGF0aC5hbmFseXplX3BhdGgoYXJncy5zZWVkX2NvaW4sIHBhdGhzLCBzZW5kZXIsIG1pbl9nYWluPWFyZ3MubWluX2dhaW4sIGV4ZWN1dGU9YXJncy5leGVjdXRlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCiAgICAgICAgICAgIHN0cmF0ZWd5LnBhcmFtc1snbWluX2dhaW4nXSA9IGFyZ3MubWluX2dhaW4KICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydleGVjdXRlJ10gPSBhcmdzLmV4ZWN1dGUK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1295,28 +1300,28 @@ strategy.</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2hvcnRlc3RfcGF0aC5hbmFseXplX3BhdGgoYXJncy5zZWVkX2NvaW4sIHBhdGhzLCBzZW5kZXIsIG1pbl9nYWluPWFyZ3MubWluX2dhaW4sIGV4ZWN1dGU9YXJncy5leGVjdXRlKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBOZXh0IGxpbmUgaXMgc3BlY2lmaWMgdG8gdGhpcyBzdHJhdGVneQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJhdGVneSA9IFN0cmF0ZWd5KHN0cmF0ZWd5X25hbWUsIHdyaXRlciwgZXhlY3V0ZV9mbiwgZ3JhcGgsIHBhcmFtcyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBOZXh0IGxpbmUgaXMgc3BlY2lmaWMgdG8gdGhpcyBzdHJhdGVneQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Shortest</last-search>
+      <last-search>graph</last-search>
       <last-offset />
-      <last-pattern>Shortest</last-pattern>
+      <last-pattern>graph</last-pattern>
       <last-replace>self.sender.summary_writer.transactions_table_name</last-replace>
       <last-substitute>transactions_trader.TRANSACTIONS_TABLE_NAME</last-substitute>
       <last-dir>1</last-dir>
@@ -1324,7 +1329,6 @@ strategy.</text>
     </search>
     <history>
       <history-search>
-        <entry>Sum</entry>
         <entry>transaction_trader\.</entry>
         <entry>transaction</entry>
         <entry>transactions_trader\.</entry>
@@ -1344,6 +1348,7 @@ strategy.</text>
         <entry>Str</entry>
         <entry>sender</entry>
         <entry>Shortest</entry>
+        <entry>graph</entry>
       </history-search>
       <history-cmd>
         <entry>64</entry>
