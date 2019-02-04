@@ -116,6 +116,12 @@
         <mark key="." line="22" column="0" />
         <mark key="^" line="22" column="46" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/setup.py" timestamp="1549220836090">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="24" column="23" />
+        <mark key="]" line="24" column="25" />
+        <mark key="." line="24" column="25" />
+      </file>
       <file name="/" timestamp="1548862608743">
         <mark key="[" line="0" column="0" />
       </file>
@@ -320,12 +326,11 @@
         <mark key="." line="16" column="0" />
         <mark key="^" line="1" column="42" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" timestamp="1549065030850">
-        <mark key="'" line="22" column="0" />
-        <mark key="[" line="144" column="53" />
-        <mark key="]" line="144" column="54" />
-        <mark key="." line="144" column="54" />
-        <mark key="^" line="144" column="54" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" timestamp="1549256251962">
+        <mark key="'" line="74" column="8" />
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="54" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/summary_writers/cycles_in_one_exchange.py" timestamp="1549153782083">
         <mark key="'" line="90" column="2" />
@@ -541,7 +546,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="4" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="40" column="10" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="43" column="4" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
       <jump line="51" column="10" filename="$USER_HOME$/crypto/crypto/crypto/summary_writers/summary_writer_interface.py" />
@@ -641,6 +645,7 @@
       <jump line="16" column="46" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="107" column="60" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="74" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -649,8 +654,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">YXMgb2Ygbm93LCA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1195,19 +1200,19 @@
         <text encoding="base64">YXMgb2Ygbm93LCA=</text>
       </register>
       <register name="/" type="4">
-        <text>graph</text>
+        <text>test_pipelines_2</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBncmFwaCwgcGF0aHMgPSBnZXRfcGF0aHMoKQogICAgICAgIHdyaXRlciA9IFNob3J0ZXN0U3RhcGxlcygpCiAgICAgICAgZXhlY3V0ZV9mbiA9IHNob3J0ZXN0X3BhdGguYW5hbHl6ZV9wYXRoCiAgICAgICAgcGFyYW1zID0geydwYXRocyc6IHBhdGhzfQogICAgICAgIHN0cmF0ZWd5ID0gU3RyYXRlZ3koc3RyYXRlZ3lfbmFtZSwgd3JpdGVyLCBleGVjdXRlX2ZuLCBncmFwaCwgcGFyYW1zKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBncmFwaC5jbGVhcl9vcmRlcl9ib29rX2NhY2hlKCkK</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmdyYXBoID0gZ3JhcGgK</text>
+        <text encoding="base64">ICAgICAgICBncmFwaC5jbGVhcl9vcmRlcl9ib29rX2NhY2hlKCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1227,12 +1232,12 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="8">
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmdyYXBoID0gZ3JhcGgK</text>
+      </register>
+      <register name="4" type="8">
         <text>strategy.
 strategy.</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCiAgICAgICAgICAgIHN0cmF0ZWd5LnBhcmFtc1snbWluX2dhaW4nXSA9IGFyZ3MubWluX2dhaW4KICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydleGVjdXRlJ10gPSBhcmdzLmV4ZWN1dGUK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1300,28 +1305,28 @@ strategy.</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCiAgICAgICAgICAgIHN0cmF0ZWd5LnBhcmFtc1snbWluX2dhaW4nXSA9IGFyZ3MubWluX2dhaW4KICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydleGVjdXRlJ10gPSBhcmdzLmV4ZWN1dGUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2hvcnRlc3RfcGF0aC5hbmFseXplX3BhdGgoYXJncy5zZWVkX2NvaW4sIHBhdGhzLCBzZW5kZXIsIG1pbl9nYWluPWFyZ3MubWluX2dhaW4sIGV4ZWN1dGU9YXJncy5leGVjdXRlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RyYXRlZ3kucGFyYW1zWydzZWVkX2NvaW4nXSA9IGFyZ3Muc2VlZF9jb2luCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2hvcnRlc3RfcGF0aC5hbmFseXplX3BhdGgoYXJncy5zZWVkX2NvaW4sIHBhdGhzLCBzZW5kZXIsIG1pbl9nYWluPWFyZ3MubWluX2dhaW4sIGV4ZWN1dGU9YXJncy5leGVjdXRlKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBOZXh0IGxpbmUgaXMgc3BlY2lmaWMgdG8gdGhpcyBzdHJhdGVneQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>graph</last-search>
+      <last-search>test_pipelines_2</last-search>
       <last-offset />
-      <last-pattern>graph</last-pattern>
+      <last-pattern>test_pipelines_2</last-pattern>
       <last-replace>self.sender.summary_writer.transactions_table_name</last-replace>
       <last-substitute>transactions_trader.TRANSACTIONS_TABLE_NAME</last-substitute>
       <last-dir>1</last-dir>
@@ -1329,7 +1334,6 @@ strategy.</text>
     </search>
     <history>
       <history-search>
-        <entry>transaction_trader\.</entry>
         <entry>transaction</entry>
         <entry>transactions_trader\.</entry>
         <entry>transactions_trader.TRANFERS_TABLE_NAME</entry>
@@ -1349,6 +1353,7 @@ strategy.</text>
         <entry>sender</entry>
         <entry>Shortest</entry>
         <entry>graph</entry>
+        <entry>test_pipelines_2</entry>
       </history-search>
       <history-cmd>
         <entry>64</entry>
