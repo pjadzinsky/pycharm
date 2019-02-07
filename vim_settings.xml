@@ -140,6 +140,13 @@
         <mark key="^" line="2" column="68" />
         <mark key="." line="3" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1549497111259">
+        <mark key="'" line="40" column="30" />
+        <mark key="[" line="120" column="46" />
+        <mark key="]" line="120" column="100" />
+        <mark key="." line="120" column="100" />
+        <mark key="^" line="120" column="100" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1549328234691">
         <mark key="[" line="173" column="30" />
         <mark key="]" line="173" column="20" />
@@ -154,10 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/complementary_load.py" />
-      <jump line="252" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/feature_creator_utils.py" />
-      <jump line="27" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_pipeline_values_feature_creator.py" />
-      <jump line="21" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_identity_feature_creator.py" />
       <jump line="29" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_pipeline_values_feature_creator.py" />
       <jump line="106" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_pipeline_values_feature_creator.py" />
       <jump line="34" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/pipeline_values_feature_creator.py" />
@@ -254,6 +257,10 @@
       <jump line="26" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
       <jump line="27" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
       <jump line="30" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
+      <jump line="94" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
+      <jump line="113" column="94" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
+      <jump line="61" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
+      <jump line="40" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -263,7 +270,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>two</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -805,22 +812,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>two</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ICA=</text>
+        <text>iti</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbm90ZSB0aGF0IHRoZSBsZW5ndGggb2YgdGhlIHJlc3VsdCBtaWdodCBub3QgYmUgbGVuKHRzKSArIDEsIGZvciBleGFtcGxlCiAgICAgICAgICAgIAogICAgICAgICAgICBpbnRlcnZhbCAgICAgICAgICAgICAgICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgICAgICAgIHRzICAgICAgICAgICAgICAgIHwgfCAgICAgICAgICAgICAgICAgfAogICAgICAgICAgICByZXR1cm5zCiAgICAgICAgICAgICBpbnRlcnZhbDEgICAgICAgICAgICAgIC0tLS0tLS0tLS0tLS0tCiAgICAgICAgICAgICBpbnRlcnZhbDIgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0K</text>
+        <text encoding="base64">ICAgICAgICB0cmFpbmluZ19zYW1wbGVzID0gc3BsaXRfZGZzWyd0J11bJ2RhdGFmcmFtZSddLnNoYXBlWzBdCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb21wdXRlZF9waXBlbGluZXMuKCkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnZhbGlkYXRpb25fbW9kZSA9IHBhcmFtc1sndmFsaWRhdGlvbl9tb2RlJ10K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAjID0gcGFyYW1zLmdldCgndHJhaW5fZnJhY3Rpb25fbWF4X2Vycm9yJywgMC4xKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -841,10 +848,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBbc2VsZi5yZXZlcnNlZF9tYXBwaW5nW2ldIGZvciBpIGluIHJhbmdlKGxlbihzZWxmLnJldmVyc2VkX21hcHBpbmcpKV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi50cmFpbl9mcmFjdGlvbiA9IHNlbGYudHJhaW5fc2VjcyAvIChzZWxmLnRyYWluX3NlY3MgKyBzZWxmLnZhbF9zZWNzICsgMiAqIHNlbGYuYnVmZmVyX3NlY3MpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -912,28 +919,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBxMSA9IFF1ZXJ5KCdtJywgJ2UoMSknLCB7fSwgWydBJ10pCiAgICAgICAgZG1rID0gRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZSgxKScsIHt9LCBbJ0EnXSwgcXVlcnk9cTEpCiAgICAgICAgbWkgPSBwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChbcmFuZ2UoMyksIFsnYScsICdiJ10sIFtkbWtdXSwgbmFtZXM9Wyd0aW1lJywgJ0EnLCAnZG1rJ10pCiAgICAgICAgZGYgPSBwZC5EYXRhRnJhbWUocmFuZ2UoNiksIGluZGV4PW1pKQo=</text>
+        <text encoding="base64">ICAgICAgICBjb21wdXRlZF9waXBlbGluZXMuKCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBxMSA9IFF1ZXJ5KCdtJywgJ2UoMSknLCB7fSwgWydBJ10pCiAgICAgICAgZG1rID0gRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZSgxKScsIHt9LCBbJ0EnXSwgcXVlcnk9cTEpCiAgICAgICAgbWkgPSBwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChbcmFuZ2UoMyksIFsnYScsICdiJ10sIFtkbWtdXSwgbmFtZXM9Wyd0aW1lJywgJ0EnLCAnZG1rJ10pCiAgICAgICAgZGYgPSBwZC5EYXRhRnJhbWUocmFuZ2UoNiksIGluZGV4PW1pKQo=</text>
+        <text encoding="base64">ICAgICAgICBbc2VsZi5yZXZlcnNlZF9tYXBwaW5nW2ldIGZvciBpIGluIHJhbmdlKGxlbihzZWxmLnJldmVyc2VkX21hcHBpbmcpKV0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAodG8gY29udmVydCAnYTEnIHRvIHRoZSBpbmRleAogICAgICAgIGludG8gdGhlIG11bHRpLWluZGV4IG1pLmxldmVscyAwIHdoaWNoIGlzIHdoYXQgaXMgYWN0dWxsYXkgcHJlc2VudCBpbiBtaS5jb2Rlcwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBxMSA9IFF1ZXJ5KCdtJywgJ2UoMSknLCB7fSwgWydBJ10pCiAgICAgICAgZG1rID0gRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZSgxKScsIHt9LCBbJ0EnXSwgcXVlcnk9cTEpCiAgICAgICAgbWkgPSBwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChbcmFuZ2UoMyksIFsnYScsICdiJ10sIFtkbWtdXSwgbmFtZXM9Wyd0aW1lJywgJ0EnLCAnZG1rJ10pCiAgICAgICAgZGYgPSBwZC5EYXRhRnJhbWUocmFuZ2UoNiksIGluZGV4PW1pKQo=</text>
       </register>
       <register name=":" type="4">
         <text>53</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ICA=</last-search>
+      <last-search>iti</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ICA=</last-pattern>
+      <last-pattern>iti</last-pattern>
       <last-replace encoding="base64">Pj0=</last-replace>
       <last-substitute>==</last-substitute>
       <last-dir>1</last-dir>
@@ -941,7 +948,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8</entry>
         <entry encoding="base64">Pj4+Pg==</entry>
         <entry>pipe</entry>
         <entry encoding="base64">XDwxXD4=</entry>
@@ -961,6 +967,7 @@
         <entry>q1</entry>
         <entry>q2</entry>
         <entry encoding="base64">ICA=</entry>
+        <entry>iti</entry>
       </history-search>
       <history-cmd>
         <entry>131</entry>
