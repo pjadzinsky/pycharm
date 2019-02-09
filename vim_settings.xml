@@ -3,12 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1549649204979">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="26" />
-        <mark key="^" line="0" column="1" />
-      </file>
       <file name="/a.dummy" timestamp="1549561279571">
         <mark key="[" line="0" column="0" />
       </file>
@@ -216,11 +210,12 @@
         <mark key="." line="50" column="33" />
         <mark key="^" line="50" column="33" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" timestamp="1549690678836">
-        <mark key="[" line="95" column="7" />
-        <mark key="]" line="63" column="39" />
-        <mark key="." line="63" column="39" />
-        <mark key="^" line="63" column="39" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" timestamp="1549692767324">
+        <mark key="'" line="107" column="13" />
+        <mark key="[" line="140" column="0" />
+        <mark key="]" line="140" column="29" />
+        <mark key="." line="140" column="0" />
+        <mark key="^" line="132" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_log_normalizer.py" timestamp="1549565388538">
         <mark key="[" line="28" column="64" />
@@ -262,8 +257,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="297" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="20" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
       <jump line="264" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
       <jump line="122" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/tests/test_utime.py" />
       <jump line="67" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
@@ -362,6 +355,8 @@
       <jump line="182" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="76" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="5" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_stress.py" />
+      <jump line="127" column="3" filename="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" />
+      <jump line="110" column="13" filename="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -371,7 +366,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZm9ybWF0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoZWNrX2F2YWlsYWJsZV9mdW5kcyh0cmFuc2FjdGlvbnMsIHRyYW5zZmVycywgc2VuZGVyKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygnKicgKiAxMCkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -913,22 +908,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>values</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>life_sign</text>
+        <text>mm</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBuZWVkZWRfcXVhbnRpdHkgPSB0clt0clsnb3JkZXJfJ10gPT0gcm93WydvcmRlcl8nXSArIDFdICMgbm8gY2hlY2tpbmcgb2YgdHJhY2tlcl9pZCwgc2luY2Ugc29tZXRpbWVzIGl0IGlzIG5vdCB5ZXQgYXZhaWxhYmxlCg==</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygnKicgKiAxMCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZm9ybWF0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoZWNrX2F2YWlsYWJsZV9mdW5kcyh0cmFuc2FjdGlvbnMsIHRyYW5zZmVycywgc2VuZGVyKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAjIGJhc2ljIG51bWJlcnMgdGhhdCB3ZW50IGludG8gdGhlIGNvbXB1dGF0aW9uCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oc2VuZGVyKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -949,10 +944,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBubyBjaGVja2luZyBvZiB0cmFja2VyX2lkLCBzaW5jZSBzb21ldGltZXMgaXQgaXMgbm90IHlldCBhdmFpbGFibGUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCdicmVha2luZywgY2hlY2tfYXZhaWxhYmxlX2Z1bmRzIHJldHVybmVkOiBGYWxzZScpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbyh0cmFuc2FjdGlvbnMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbyh0cmFuc2ZlcnMpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICMgVE9ETyBubyByZWFzb24gZm9yIG5leHQgbGluZSB0byBiZSBpbnNpZGUgbG9vcAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnbmVlZGVkX3F1YW50aXR5OiB7fVxuJwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1020,28 +1015,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRPRE8gbm8gcmVhc29uIGZvciBuZXh0IGxpbmUgdG8gYmUgaW5zaWRlIGxvb3AKICAgICAgICB0ciA9IHRyYW5zYWN0aW9ucwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgMy4gSG93IG11Y2ggZG8gd2UgYWxyZWFkeSBoYXZlIGNvbW1pdHRlZCBpbiB0aGUgc2VuZGVyIChvcmRlcnMgdGhhdCB3ZXJlIG5vdCB5ZXQgcGxhY2VkIGJ1dCBjb3VsZCBnZXQgcGxhY2VkIHNvb24pCiAgICAjIGZvciBjdXJyZW5jeUIgaW4gZXhjaGFuZ2UyPwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgMi4gSG93IG11Y2ggZG8gd2UgYWxyZWFkeSBoYXZlIHRoYXQgaXMgJ2ZyZWUnIGFuZCByZWFkeSB0byBiZSB0cmFuc2FjdGVkCiAgICAjIDMuIEhvdyBtdWNoIGRvIHdlIGFscmVhZHkgaGF2ZSBjb21taXR0ZWQgaW4gdGhlIHNlbmRlciAob3JkZXJzIHRoYXQgd2VyZSBub3QgeWV0IHBsYWNlZCBidXQgY291bGQgZ2V0IHBsYWNlZCBzb29uKQogICAgIyBmb3IgY3VycmVuY3lCIGluIGV4Y2hhbmdlMj8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByb3dfaGFzX25hbiA9IGZlYXR1cmVzX2RmLmlzbmEoKS5zdW0oYXhpcz0xKQo=</text>
+        <text encoding="base64">ICAgIGFzc2VydCBsZW4odHJhbnNmZXJzKSA9PSAxCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlc19kZi5pbG9jWzAsIDBdID0gbnAubmFuICMgdGhpcyBpcyBpbiAoJ25vdF90ZXN0X2ZjJywgMCkgY29sdW1uCiAgICAgICAgZmVhdHVyZXNfZGYuaWxvY1sxLCAxXSA9IG5wLm5hbiAjIHRoaXMgaXMgaW4gKCd0ZXN0X2ZjJywgMCkgY29sdW1uCg==</text>
+        <text encoding="base64">ICAgIHRyID0gdHJhbnNhY3Rpb25zCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>life_sign</last-search>
+      <last-search>mm</last-search>
       <last-offset />
-      <last-pattern>life_sign</last-pattern>
+      <last-pattern>mm</last-pattern>
       <last-replace encoding="base64">Pj0=</last-replace>
       <last-substitute>==</last-substitute>
       <last-dir>1</last-dir>
@@ -1049,8 +1044,6 @@
     </search>
     <history>
       <history-search>
-        <entry>levels</entry>
-        <entry>split</entry>
         <entry>int</entry>
         <entry>anoh</entry>
         <entry encoding="base64">ZGVmIA==</entry>
@@ -1069,6 +1062,8 @@
         <entry>stds</entry>
         <entry>uber</entry>
         <entry>life_sign</entry>
+        <entry>xx</entry>
+        <entry>mm</entry>
       </history-search>
       <history-cmd>
         <entry>90</entry>
