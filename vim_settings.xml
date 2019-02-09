@@ -178,8 +178,8 @@
         <mark key="^" line="25" column="97" />
         <mark key="." line="25" column="97" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" timestamp="1549643648467">
-        <mark key="'" line="76" column="4" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" timestamp="1549694474121">
+        <mark key="'" line="127" column="9" />
         <mark key="[" line="181" column="56" />
         <mark key="]" line="181" column="71" />
         <mark key="." line="181" column="71" />
@@ -257,8 +257,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="264" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/utils/split_data.py" />
-      <jump line="122" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/tests/test_utime.py" />
       <jump line="67" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
       <jump line="63" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
       <jump line="72" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
@@ -350,13 +348,15 @@
       <jump line="35" column="77" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_uber_feature_creator.py" />
       <jump line="13" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_uber_feature_creator.py" />
       <jump line="91" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
-      <jump line="127" column="9" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="173" column="47" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
-      <jump line="182" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="76" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="5" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_stress.py" />
       <jump line="127" column="3" filename="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" />
       <jump line="110" column="13" filename="$USER_HOME$/crypto/crypto/crypto/strategies/opportunity_finders/shortest_path.py" />
+      <jump line="181" column="71" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="182" column="17" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="55" column="33" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="127" column="9" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -911,7 +911,7 @@
         <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>mm</text>
+        <text>life_signal</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygnKicgKiAxMCkK</text>
@@ -1034,9 +1034,9 @@
       </register>
     </registers>
     <search>
-      <last-search>mm</last-search>
+      <last-search>life_signal</last-search>
       <last-offset />
-      <last-pattern>mm</last-pattern>
+      <last-pattern>life_signal</last-pattern>
       <last-replace encoding="base64">Pj0=</last-replace>
       <last-substitute>==</last-substitute>
       <last-dir>1</last-dir>
@@ -1044,7 +1044,6 @@
     </search>
     <history>
       <history-search>
-        <entry>int</entry>
         <entry>anoh</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>time</entry>
@@ -1064,6 +1063,7 @@
         <entry>life_sign</entry>
         <entry>xx</entry>
         <entry>mm</entry>
+        <entry>life_signal</entry>
       </history-search>
       <history-cmd>
         <entry>90</entry>
