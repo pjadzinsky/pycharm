@@ -23,11 +23,11 @@
         <mark key="." line="109" column="74" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/common/quilmes.py" timestamp="1549829852339" />
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1549906307361">
-        <mark key="[" line="375" column="60" />
-        <mark key="]" line="372" column="0" />
-        <mark key="^" line="373" column="11" />
-        <mark key="." line="372" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1549907537588">
+        <mark key="[" line="395" column="11" />
+        <mark key="]" line="390" column="7" />
+        <mark key="." line="390" column="7" />
+        <mark key="^" line="390" column="7" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1549817321673">
         <mark key="'" line="626" column="0" />
@@ -100,15 +100,15 @@
         <mark key="^" line="28" column="107" />
         <mark key="." line="28" column="107" />
       </file>
-      <file name="/Python Console" timestamp="1549905217894">
+      <file name="/Python Console" timestamp="1549907421955">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1549905215135">
-        <mark key="'" line="433" column="71" />
-        <mark key="[" line="448" column="63" />
-        <mark key="]" line="436" column="56" />
-        <mark key="^" line="436" column="56" />
-        <mark key="." line="436" column="56" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1549907318080">
+        <mark key="'" line="1" column="26" />
+        <mark key="[" line="448" column="36" />
+        <mark key="]" line="448" column="48" />
+        <mark key="^" line="448" column="48" />
+        <mark key="." line="448" column="48" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_moments_feature_creator.py" timestamp="1549572354464">
         <mark key="'" line="36" column="13" />
@@ -174,8 +174,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="338" column="34" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
       <jump line="43" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
       <jump line="81" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
       <jump line="108" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
@@ -274,6 +272,8 @@
       <jump line="375" column="45" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="424" column="11" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="425" column="71" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="445" column="70" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="1" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -283,7 +283,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfID0gW3NvcnRlZF9bJ3RpbWUnXSwgc29ydGVkX1snZG1rJ11dICsgW3NvcnRlZF9ba2V5XSBmb3Iga2V5IGluIHNlbGYucGlwZWxpbmVfZGVmXQo=</text>
+        <text encoding="base64">CiAgICAgICAgbGV2ZWxzID0gZGVmYXVsdGRpY3QobGlzdCkKICAgICAgICBmb3IgbSBpbiBtZXRyaWNzOgogICAgICAgICAgICBsZXZlbHNbJ3RpbWUnXS5hcHBlbmQobS52YWx1ZXMuaW5kZXgpCiAgICAgICAgICAgIGRtaywgcGlwZWxpbmVfdmFsdWUgPSBzZWxmLmRlcGlwZWxpbmUobSkKICAgICAgICAgICAgbGV2ZWxzWydkbWsnXS5hcHBlbmQoZG1rKQogICAgICAgICAgICBmb3IgaywgdiBpbiBwaXBlbGluZV92YWx1ZS5pdGVtcygpOgogICAgICAgICAgICAgICAgbGV2ZWxzW2tdLmFwcGVuZCh2KQoKICAgICAgICBzb3J0ZWRfID0gewogICAgICAgICAgICAndGltZSc6IHNvcnRlZChzZXQoY2hhaW4uZnJvbV9pdGVyYWJsZShsZXZlbHNbJ3RpbWUnXSkpKSwKICAgICAgICAgICAgJ2Rtayc6IHNvcnRlZChzZXQobGV2ZWxzWydkbWsnXSkpCiAgICAgICAgfQogICAgICAgIGZvciBrZXkgaW4gcGlwZWxpbmVfdmFsdWU6CiAgICAgICAgICAgIHNvcnRlZF9ba2V5XSA9IHNvcnRlZChzZXQobGV2ZWxzW2tleV0pKQoKCiAgICAgICAgbWkgPSBwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChvcmRlcl8sIG5hbWVzPW5hbWVzKQogICAgICAgIHJldHVybiBtaQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -825,22 +825,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>dmks_and_pipeline_values</text>
+        <text>'</text>
       </register>
       <register name="/" type="4">
-        <text>da</text>
+        <text>chain</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBkbWsxLCBfID0gcC5kZXBpcGVsaW5lKG0xKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1pID0gcGQuTXVsdGlJbmRleC51bmlvbihwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChbdGltZXNdICsgcGlwZWxpbmVfdmFsdWUudmFsdWVzKCkgKyBbZG1rXSkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfID0gW3NvcnRlZF9bJ3RpbWUnXSwgc29ydGVkX1snZG1rJ11dICsgW3NvcnRlZF9ba2V5XSBmb3Iga2V5IGluIHNlbGYucGlwZWxpbmVfZGVmXQo=</text>
+        <text encoding="base64">CiAgICAgICAgbGV2ZWxzID0gZGVmYXVsdGRpY3QobGlzdCkKICAgICAgICBmb3IgbSBpbiBtZXRyaWNzOgogICAgICAgICAgICBsZXZlbHNbJ3RpbWUnXS5hcHBlbmQobS52YWx1ZXMuaW5kZXgpCiAgICAgICAgICAgIGRtaywgcGlwZWxpbmVfdmFsdWUgPSBzZWxmLmRlcGlwZWxpbmUobSkKICAgICAgICAgICAgbGV2ZWxzWydkbWsnXS5hcHBlbmQoZG1rKQogICAgICAgICAgICBmb3IgaywgdiBpbiBwaXBlbGluZV92YWx1ZS5pdGVtcygpOgogICAgICAgICAgICAgICAgbGV2ZWxzW2tdLmFwcGVuZCh2KQoKICAgICAgICBzb3J0ZWRfID0gewogICAgICAgICAgICAndGltZSc6IHNvcnRlZChzZXQoY2hhaW4uZnJvbV9pdGVyYWJsZShsZXZlbHNbJ3RpbWUnXSkpKSwKICAgICAgICAgICAgJ2Rtayc6IHNvcnRlZChzZXQobGV2ZWxzWydkbWsnXSkpCiAgICAgICAgfQogICAgICAgIGZvciBrZXkgaW4gcGlwZWxpbmVfdmFsdWU6CiAgICAgICAgICAgIHNvcnRlZF9ba2V5XSA9IHNvcnRlZChzZXQobGV2ZWxzW2tleV0pKQoKCiAgICAgICAgbWkgPSBwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChvcmRlcl8sIG5hbWVzPW5hbWVzKQogICAgICAgIHJldHVybiBtaQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfID0gW3NvcnRlZF9bJ3RpbWUnXV0gKyBbc29ydGVkX1trZXldIGZvciBrZXkgaW4gc2VsZi5waXBlbGluZV9kZWZdICsgW3NvcnRlZF9bJ2RtayddXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5leHRfbWkgPSBwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChbdGltZXNdICsgW3BpcGVsaW5lX3ZhbHVlLnZhbHVlcygpXSArIFtbZG1rXV0pCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -861,10 +861,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiB0aW1lX2ZpcnN0OgogICAgICAgICAgICBvcmRlcl8gPSBbc29ydGVkX1sndGltZSddXSArIFtzb3J0ZWRfW2tleV0gZm9yIGtleSBpbiBzZWxmLnBpcGVsaW5lX2RlZl0gKyBbc29ydGVkX1snZG1rJ11dCiAgICAgICAgICAgIG5hbWVzID0gWyd0aW1lJ10gKyBzZWxmLnBpcGVsaW5lX2RlZiArIFsnZG1rJ10KICAgICAgICBlbHNlOgogICAgICAgICAgICBvcmRlcl8gPSBbc29ydGVkX1sndGltZSddLCBzb3J0ZWRfWydkbWsnXV0gKyBbc29ydGVkX1trZXldIGZvciBrZXkgaW4gc2VsZi5waXBlbGluZV9kZWZdCiAgICAgICAgICAgIG5hbWVzID0gWyd0aW1lJywgJ2RtayddICsgc2VsZi5waXBlbGluZV9kZWYK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG1pID0gcGQuTXVsdGlJbmRleC51bmlvbihwZC5NdWx0aUluZGV4LmZyb21fcHJvZHVjdChbdGltZXNdICsgcGlwZWxpbmVfdmFsdWUudmFsdWVzKCkgKyBbZG1rXSkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkbWtzID0gW2RlcGlwZWxpbmVkX21ldHJpY19rZXkuRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZl8wJywge30sIFsnQSddKSwKICAgICAgICAgICAgICAgIGRlcGlwZWxpbmVkX21ldHJpY19rZXkuRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZl8xJywge30sIFsnQSddKV0K</text>
+        <text encoding="base64">ICAgICAgICBwZC5NdWx0aUluZGV4LmZyb21fYXJyYXlzKFtdLCBuYW1lcz1uYW1lcykK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -932,28 +932,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwaXBlbGluZV92YWx1ZXMgPSBbCiAgICAgICAgICAgIHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHsnQSc6ICgnYV8wJywpfSksCiAgICAgICAgICAgIHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHsnQSc6ICgnYV8xJywpfSksCiAgICAgICAgICAgIHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHsnQSc6ICgnYV8yJywpfSkKICAgICAgICBdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfID0gW3NvcnRlZF9bJ3RpbWUnXSwgc29ydGVkX1snZG1rJ11dICsgW3NvcnRlZF9ba2V5XSBmb3Iga2V5IGluIHNlbGYucGlwZWxpbmVfZGVmXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBtMyA9IG0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JkZXJfID0gW3NvcnRlZF9bJ3RpbWUnXV0gKyBbc29ydGVkX1trZXldIGZvciBrZXkgaW4gc2VsZi5waXBlbGluZV9kZWZdICsgW3NvcnRlZF9bJ2RtayddXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBtMiA9IG0K</text>
+        <text encoding="base64">ICAgICAgICBpZiB0aW1lX2ZpcnN0OgogICAgICAgICAgICBvcmRlcl8gPSBbc29ydGVkX1sndGltZSddXSArIFtzb3J0ZWRfW2tleV0gZm9yIGtleSBpbiBzZWxmLnBpcGVsaW5lX2RlZl0gKyBbc29ydGVkX1snZG1rJ11dCiAgICAgICAgICAgIG5hbWVzID0gWyd0aW1lJ10gKyBzZWxmLnBpcGVsaW5lX2RlZiArIFsnZG1rJ10KICAgICAgICBlbHNlOgogICAgICAgICAgICBvcmRlcl8gPSBbc29ydGVkX1sndGltZSddLCBzb3J0ZWRfWydkbWsnXV0gKyBbc29ydGVkX1trZXldIGZvciBrZXkgaW4gc2VsZi5waXBlbGluZV9kZWZdCiAgICAgICAgICAgIG5hbWVzID0gWyd0aW1lJywgJ2RtayddICsgc2VsZi5waXBlbGluZV9kZWYK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkYXRhID0gemlwKDEwLCkK</text>
+        <text encoding="base64">ICAgICAgICBkbWtzID0gW2RlcGlwZWxpbmVkX21ldHJpY19rZXkuRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZl8wJywge30sIFsnQSddKSwKICAgICAgICAgICAgICAgIGRlcGlwZWxpbmVkX21ldHJpY19rZXkuRGVwaXBlbGluZWRNZXRyaWNLZXkoJ20nLCAnZl8xJywge30sIFsnQSddKV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwaXBlbGluZV92YWx1ZXMgPSBbCiAgICAgICAgICAgIHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHsnQSc6ICgnYV8wJywpfSksCiAgICAgICAgICAgIHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHsnQSc6ICgnYV8xJywpfSksCiAgICAgICAgICAgIHBpcGVsaW5lcy5QaXBlbGluZVZhbHVlKHsnQSc6ICgnYV8yJywpfSkKICAgICAgICBdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>da</last-search>
+      <last-search>chain</last-search>
       <last-offset />
-      <last-pattern>da</last-pattern>
+      <last-pattern>chain</last-pattern>
       <last-replace />
       <last-substitute>REAL,</last-substitute>
       <last-dir>1</last-dir>
@@ -961,7 +961,6 @@
     </search>
     <history>
       <history-search>
-        <entry>INTEGER</entry>
         <entry>CHAR[100],</entry>
         <entry>CHAR\[100\],</entry>
         <entry>char\[100\],</entry>
@@ -981,6 +980,7 @@
         <entry>+</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>da</entry>
+        <entry>chain</entry>
       </history-search>
       <history-cmd>
         <entry>298</entry>
