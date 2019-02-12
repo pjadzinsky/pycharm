@@ -35,10 +35,10 @@
       <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1549994662108">
         <mark key="'" line="505" column="18" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/uber_feature_creator.py" timestamp="1550011758089">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/uber_feature_creator.py" timestamp="1550014496762">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1550009890555">
         <mark key="[" line="168" column="98" />
@@ -125,12 +125,12 @@
         <mark key="^" line="62" column="5" />
         <mark key="." line="88" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1550012490328">
-        <mark key="'" line="844" column="49" />
-        <mark key="[" line="836" column="0" />
-        <mark key="]" line="836" column="0" />
-        <mark key="." line="836" column="0" />
-        <mark key="^" line="842" column="66" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1550014159720">
+        <mark key="'" line="496" column="8" />
+        <mark key="[" line="900" column="75" />
+        <mark key="]" line="900" column="80" />
+        <mark key="^" line="900" column="80" />
+        <mark key="." line="900" column="80" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/identity_feature_creator.py" timestamp="1549567976748">
         <mark key="[" line="25" column="94" />
@@ -165,7 +165,7 @@
         <mark key="." line="172" column="94" />
         <mark key="^" line="172" column="94" />
       </file>
-      <file name="/Python Console" timestamp="1550012491570">
+      <file name="/Python Console" timestamp="1550013853178">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="25" />
@@ -265,11 +265,11 @@
         <mark key="^" line="9" column="9" />
         <mark key="." line="9" column="9" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1549997689696">
-        <mark key="[" line="81" column="37" />
-        <mark key="]" line="81" column="23" />
-        <mark key="." line="81" column="23" />
-        <mark key="^" line="81" column="23" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1550014954287">
+        <mark key="[" line="48" column="49" />
+        <mark key="]" line="48" column="49" />
+        <mark key="." line="48" column="49" />
+        <mark key="^" line="48" column="49" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1549328234691">
         <mark key="[" line="173" column="30" />
@@ -304,8 +304,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="785" column="7" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="430" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="794" column="48" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="795" column="41" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="838" column="23" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
@@ -404,6 +402,8 @@
       <jump line="836" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="843" column="63" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="845" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="459" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="496" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -413,7 +413,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpc190cmFpbmluZyA9IFRydWUK</text>
+        <text encoding="base64">ICAgICAgICAjIHNlbGYuZ2VuZXJhdGVkX2ZlYXR1cmVzOiB0aGlzIGlzIHRoZSBwZC5NdWx0aUluZGV4IGNvcnJlc3BvbmRpbmcgdG8gZmVhdHVyZXNfZGYuY29sdW1ucyBnZW5lcmF0ZWQgZHVyaW5nCiAgICAgICAgIyB0cmFpbmluZwo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -955,22 +955,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>is_training</text>
+        <text>validation</text>
       </register>
       <register name="/" type="4">
-        <text>is_training</text>
+        <text>def split</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgbWV0cmljc1snaW5wdXRzJ11bJ3RyYWluaW5nJ10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZGljdGVkX3ZhbF9tZXRyaWNzID0gc2VsZi5wcmVkaWN0X25ldyhtZXRyaWNzWydpbnB1dHMnXVsndmFsaWRhdGlvbiddLCBwdXNoX3RvX3N0b3JhZ2U9RmFsc2UpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpc190cmFpbmluZyA9IFRydWUK</text>
+        <text encoding="base64">ICAgICAgICAjIHNlbGYuZ2VuZXJhdGVkX2ZlYXR1cmVzOiB0aGlzIGlzIHRoZSBwZC5NdWx0aUluZGV4IGNvcnJlc3BvbmRpbmcgdG8gZmVhdHVyZXNfZGYuY29sdW1ucyBnZW5lcmF0ZWQgZHVyaW5nCiAgICAgICAgIyB0cmFpbmluZwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHNpeAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVhdHVyZV9wb3N0cHJvY2Vzc29yLnByb2Nlc3MoY29tYmluZWRfZmVhdHVyZXNfZGYsIEZhbHNlKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -994,7 +994,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy51dGlscyBpbXBvcnQgbWV0cmljX3V0aWxzCg==</text>
+        <text encoding="base64">ICAgICAgICAjIEdldCB0aGUgc3BsaXRzIGZyb20gdGhlIGRhdGFmcmFtZS4gSW4gY2FzZSBvZiB0cmFpbmluZywgd2UgZ2V0IDMgc2V0cyBvZiBzcGxpdHMuIER1cmluZyBpbmZlcmVuY2UsIGFsbCB0aGUKICAgICAgICAjIGRhdGEgaXMgaW4gYSB2YWxpZGF0aW9uIHNwbGl0CiAgICAgICAgIiIiCiAgICAgICAgZmVhdHVyZV9kYXRhX3NwbGl0cyA9IHNlbGYudHJhaW5lci5nZXRfZGF0YWZyYW1lX3NwbGl0cyhjb21iaW5lZF9mZWF0dXJlc19kZiwgaXNfdHJhaW5pbmcpCiAgICAgICAgbG9nZ2VyLmRlYnVnKCdQRVJGOiAuX3Byb2Nlc3NfZGF0YV9uZXc6IGdldF9zcGxpdHMgezouMWZ9Jy5mb3JtYXQoKHRpbWUudGltZSgpIC0gcykpKQogICAgICAgIGZlYXR1cmVfZGF0YV9zcGxpdHMgPSBzZWxmLnRyYWluZXIuZmFrZV9zcGxpdHMoY29tYmluZWRfZmVhdHVyZXNfZGYpCiAgICAgICAgIiIiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1062,28 +1062,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X21ldHJpY3NbOl0gPSBbbSBmb3IgbSBpbiBvdXRwdXRfbWV0cmljcyBpZiBub3QgZHJvcF9tZXRyaWMobSldCg==</text>
+        <text encoding="base64">ICAgICAgICBpc190cmFpbmluZyA9IFRydWUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IHNpeAo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgbmV3X3BpcGVsaW5lIGluIHBhcmFtc1sncGlwZWxpbmVzX3RvX2Ryb3AnXToKICAgICAgICAgICAgcGlwZWxpbmUgPSBwaXBlbGluZXMuUGlwZWxpbmVWYWx1ZSh7fSkKICAgICAgICAgICAgZm9yIGssIHYgaW4gbmV3X3BpcGVsaW5lLml0ZW1zKCk6CiAgICAgICAgICAgICAgICBwaXBlbGluZS51cGRhdGUobWV0cmljX3V0aWxzLnNvcnRfYW5kX25vcm1hbGl6ZV90YWdfdmFsdWVzKHtrOiB2fSkpCgogICAgICAgICAgICBzZWxmLnBpcGVsaW5lc190b19kcm9wLmFwcGVuZChwaXBlbGluZSkKCg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy51dGlscyBpbXBvcnQgbWV0cmljX3V0aWxzCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBpcGVsaW5lc190b19kcm9wID0gW10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X21ldHJpY3NbOl0gPSBbbSBmb3IgbSBpbiBvdXRwdXRfbWV0cmljcyBpZiBub3QgZHJvcF9tZXRyaWMobSldCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/instance_id/entity_id/g</text>
       </register>
     </registers>
     <search>
-      <last-search>is_training</last-search>
+      <last-search>def split</last-search>
       <last-offset />
-      <last-pattern>is_training</last-pattern>
+      <last-pattern>def split</last-pattern>
       <last-replace>entity_id</last-replace>
       <last-substitute>instance_id</last-substitute>
       <last-dir>1</last-dir>
@@ -1091,8 +1091,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def train</entry>
-        <entry>def set_</entry>
         <entry>training</entry>
         <entry>=</entry>
         <entry>split_X</entry>
@@ -1111,6 +1109,8 @@
         <entry>consumer_version</entry>
         <entry>consumer_ver</entry>
         <entry>is_training</entry>
+        <entry encoding="base64">WF92YWwgPSA=</entry>
+        <entry>def split</entry>
       </history-search>
       <history-cmd>
         <entry>332,360s/CHAR\[10\],//g</entry>
