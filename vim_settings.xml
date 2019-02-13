@@ -133,9 +133,9 @@
         <mark key="." line="195" column="53" />
         <mark key="^" line="195" column="53" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/postprocessors_interface.py" timestamp="1549645638057">
-        <mark key="[" line="15" column="76" />
-        <mark key="]" line="15" column="97" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/postprocessors_interface.py" timestamp="1550100001690">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="48" />
         <mark key="." line="15" column="97" />
         <mark key="^" line="15" column="97" />
       </file>
@@ -168,6 +168,12 @@
         <mark key="]" line="35" column="0" />
         <mark key="." line="35" column="0" />
         <mark key="^" line="34" column="68" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/nutanix/complementary_load.py" timestamp="1550100733885">
+        <mark key="[" line="52" column="77" />
+        <mark key="]" line="52" column="76" />
+        <mark key="^" line="52" column="76" />
+        <mark key="." line="52" column="76" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_identity_feature_creator.py" timestamp="1549572402477">
         <mark key="'" line="20" column="0" />
@@ -262,12 +268,12 @@
         <mark key="^" line="5" column="13" />
         <mark key="." line="5" column="13" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_1.yaml" timestamp="1550097635314">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_1.yaml" timestamp="1550097664796">
         <mark key="'" line="170" column="0" />
-        <mark key="[" line="114" column="47" />
-        <mark key="]" line="132" column="0" />
-        <mark key="^" line="113" column="5" />
-        <mark key="." line="132" column="0" />
+        <mark key="[" line="133" column="5" />
+        <mark key="]" line="132" column="5" />
+        <mark key="^" line="132" column="5" />
+        <mark key="." line="132" column="5" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/utils/tests/test_split_data.py" timestamp="1549473399275">
         <mark key="'" line="4" column="10" />
@@ -393,10 +399,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="404" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
-      <jump line="533" column="36" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="454" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="644" column="28" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="900" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="111" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" />
       <jump line="115" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" />
@@ -493,6 +495,10 @@
       <jump line="129" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_1.yaml" />
       <jump line="141" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_1.yaml" />
       <jump line="149" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_1.yaml" />
+      <jump line="92" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/nutanix/complementary_load.py" />
+      <jump line="34" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/nutanix/complementary_load.py" />
+      <jump line="52" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/nutanix/complementary_load.py" />
+      <jump line="53" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/nutanix/complementary_load.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -502,7 +508,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBkbWsxID0gRGVwaXBlbGluZWRNZXRyaWNLZXkoJ3ZtX3N0YXRzJywgJ21lYW4oY29udHJvbGxlcl9udW1fcXVldWVkX2lvKScsIHt9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbJ2VudGl0eV9pZCcsICdzb3VyY2VfaW5zdGFuY2VfdXVpZCddKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1044,22 +1050,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>stds_df</text>
+        <text>dataframe</text>
       </register>
       <register name="/" type="4">
         <text>source_instance</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfdG90YWxfaW9fc2l6ZV9rYnl0ZXMiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiY29udHJvbGxlcl90b3RhbF9pb19zaXplX2tieXRlc1wiKSIsCiAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgImVudGl0eV9pZCIsCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIgogICAgICBdLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJudXRhbml4IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9jbHVzdGVyX3JhY2thYmxlX3VuaXRfbW9kZWwiOiBbCiAgICAgICAgICAiTlgtNjAzNS1HNCIKICAgICAgICBdLAogICAgICAgICJjb25zdW1lcl92ZXJzaW9uIjogWwogICAgICAgICAgImVsNy4zLWRiZy1tYXN0ZXItZTI4NWM1ZjAwMWNlNjEzMGFjM2VkYjBkMmI5Yzk5ODM3ODM0MzQ4ZSIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgo=</text>
+        <text encoding="base64">ICAgIGRlZiBwcm9jZXNzKHNlbGYsIGZlYXR1cmVzX2RmLCBpc190cmFpbmluZyk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBkbWsxID0gRGVwaXBlbGluZWRNZXRyaWNLZXkoJ3ZtX3N0YXRzJywgJ21lYW4oY29udHJvbGxlcl9udW1fcXVldWVkX2lvKScsIHt9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbJ2VudGl0eV9pZCcsICdzb3VyY2VfaW5zdGFuY2VfdXVpZCddKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6IFsKICAgICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBtZXRyaWMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1080,10 +1086,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6IFsKICAgICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCg==</text>
+        <text encoding="base64">ICAgIG1ldHJpYyA9IG1ldHJpY1swXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6IFsKICAgICAgICAgICJlMmM2MTgwMi1hNTlhLTQwNzUtOGMzYi1jZmQ0ZjM1YjdkMWIiCg==</text>
+        <text encoding="base64">ICAgIGFzc2VydCBsZW4obWV0cmljKSA9PSAxCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1151,19 +1157,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwID0gUGlwZWxpbmUoc2VsZi5waXBlbGluZV9kZWYpCg==</text>
+        <text encoding="base64">ICAgIG1ldHJpYyA9IFttIGZvciBtIGluIG1ldHJpY3MgaWYgZXhwcmVzc2lvbl9zdHIgaW4gbS5rZXkuZXhwcmVzc2lvbl0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBpcGVsaW5lX2RlZiA9IHBhcmFtc1sncGlwZWxpbmVfZGVmJ10K</text>
+        <text encoding="base64">ICAgICAgICBpZiBzZWxmLm5lZWRzX3Byb2Nlc3MoaXNfaW5wdXQpOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdGRzX2RmLndoZXJlKHN0ZHNfZGY+MCwgb3RoZXI9MSwgaW5wbGFjZT1UcnVlKQo=</text>
+        <text encoding="base64">ICAgIGRlZiBmZWF0dXJlc19mcm9tX21ldHJpY3Moc2VsZiwgbWV0cmljcywgaXNfaW5wdXQsIGlzX3RyYWluaW5nKToK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzdGRzX2RmLmNvbWJpbmUobnAub25lc19saWtlKHN0ZHNfZGYpLCBsYW1iZGEgeCwgeTogeCBvciB5KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyAxLiBnZXQgYSBEYXRhRnJhbWUgaW5kZXhlZCBieSB0aW1lLCBlbnRpdHlfaWQsIHNvdXJjZV9pbnN0YW5jZV9pZCwgZG1rCiAgICAgICAgICAgIGRmID0gcGlwZWxpbmUudG9fZGF0YWZyYW1lKG1ldHJpY3MsIHRpbWVfZmlyc3QsIHNvcnQ9VHJ1ZSkK</text>
       </register>
       <register name=":" type="4">
         <text>68,86s/self.//gc</text>
