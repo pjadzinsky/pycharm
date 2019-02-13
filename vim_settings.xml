@@ -63,12 +63,12 @@
         <mark key="^" line="562" column="92" />
         <mark key="." line="562" column="92" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" timestamp="1550026223538">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/tests/test_feature_creator_utils.py" timestamp="1550027635232">
         <mark key="'" line="42" column="28" />
-        <mark key="[" line="59" column="64" />
-        <mark key="]" line="59" column="64" />
+        <mark key="[" line="48" column="72" />
+        <mark key="]" line="48" column="72" />
         <mark key="^" line="51" column="7" />
-        <mark key="." line="59" column="64" />
+        <mark key="." line="48" column="72" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/drop_dmks_not_trained_on.py" timestamp="1550012174563">
         <mark key="[" line="0" column="0" />
@@ -136,12 +136,12 @@
       <file name="/fragment.py" timestamp="1549915320417">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1550021993135">
-        <mark key="'" line="719" column="8" />
-        <mark key="[" line="451" column="9" />
-        <mark key="]" line="451" column="36" />
-        <mark key="." line="451" column="36" />
-        <mark key="^" line="451" column="36" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1550028099508">
+        <mark key="'" line="533" column="36" />
+        <mark key="[" line="17" column="96" />
+        <mark key="]" line="17" column="96" />
+        <mark key="." line="17" column="96" />
+        <mark key="^" line="136" column="66" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/test_summary_writer_interface.py" timestamp="1549816822340">
         <mark key="[" line="30" column="0" />
@@ -212,7 +212,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="166" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="183" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="192" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -312,6 +311,7 @@
       <jump line="101" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="387" column="41" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
       <jump line="404" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_server.py" />
+      <jump line="533" column="36" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -866,19 +866,23 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>(.*,)</text>
+        <text>(\([a-zA-Z0-9_]*\),)</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIG5vdCBzdXJlIHdoeSBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChkZjIsIGRmKSBkb2VzIG5vdCB3b3JrLiBTb21lIHByb3BlcnR5IG9mIHRoZSBkYXRhZnJhbWVzIGlzIGRpZmZlcmVudAogICAgICAgIHBkLnRlc3RpbmcuYXNzZXJ0X2luZGV4X2VxdWFsKGRmMi5jb2x1bW5zLCBkZi5jb2x1bW5zKQogICAgICAgIHBkLnRlc3RpbmcuYXNzZXJ0X2luZGV4X2VxdWFsKGRmMi5pbmRleCwgZGYuaW5kZXgpCiAgICAgICAgbnAudGVzdGluZy5hc3NlcnRfYXJyYXlfZXF1YWwoZGYyLnZhbHVlcywgZGYudmFsdWVzKQo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKHZhbHVlLCAodHVwbGUsIGxpc3QpKToKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9ICh2YWx1ZSwpCg==</text>
+      <register name="1" type="8">
+        <text>,)
+,)
+,)</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbVtrZXldID0gKG1ba2V5XSwpCg==</text>
+      <register name="2" type="8">
+        <text>(
+(
+(</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -898,11 +902,14 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAga2V5ID0gbS5rZXlzKClbMF0K</text>
+      <register name="3" type="8">
+        <text>,)
+,)</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShtLnZhbHVlcygpWzBdLCAodHVwbGUsIGxpc3QpKToK</text>
+      <register name="4" type="8">
+        <text>,)
+,)
+,)</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -969,29 +976,43 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShtLnZhbHVlcygpWzBdLCAodHVwbGUsIGxpc3QpKToK</text>
+      <register name="5" type="8">
+        <text>(
+(
+(</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChkZl8xLCBkZl8yKQo=</text>
+      <register name="6" type="8">
+        <text>,)
+,)
+,)
+,)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9pbmRleF9lcXVhbChkZjIuaW5kZXgsIGRmLmluZGV4KQo=</text>
+      <register name="7" type="8">
+        <text>(
+(
+(
+(</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChkZjIsIGRmKQo=</text>
+      <register name="8" type="8">
+        <text>,)
+,)
+,)
+,)</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFzIG9mIDAyLTEyLTIwMTkgaW5kZXggaXMgbm90IHNvcnRlZCBieSBkZWZhdWx0CiAgICAgICAgZGYuc29ydF9pbmRleChpbnBsYWNlPVRydWUpCg==</text>
+      <register name="9" type="8">
+        <text>(
+(
+(
+(</text>
       </register>
       <register name=":" type="4">
         <text>%s/(\([a-zA-Z0-9_]*\),)/\1/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>(.*,)</last-search>
+      <last-search>(\([a-zA-Z0-9_]*\),)</last-search>
       <last-offset />
-      <last-pattern>(.*,)</last-pattern>
+      <last-pattern>(\([a-zA-Z0-9_]*\),)</last-pattern>
       <last-replace>\1</last-replace>
       <last-substitute>(\([a-zA-Z0-9_]*\),)</last-substitute>
       <last-dir>1</last-dir>
@@ -1017,8 +1038,8 @@
         <entry>([a-zA-Z0-9_]*)</entry>
         <entry>([a-zA-Z0-9_]*,)</entry>
         <entry>\(([a-zA-Z0-9_]*),\)</entry>
-        <entry>(\([a-zA-Z0-9_]*\),)</entry>
         <entry>(.*,)</entry>
+        <entry>(\([a-zA-Z0-9_]*\),)</entry>
       </history-search>
       <history-cmd>
         <entry>520</entry>
