@@ -33,12 +33,12 @@
         <mark key="." line="91" column="0" />
         <mark key="^" line="14" column="30" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1550169978864">
-        <mark key="'" line="353" column="28" />
-        <mark key="[" line="362" column="81" />
-        <mark key="]" line="363" column="24" />
-        <mark key="." line="363" column="24" />
-        <mark key="^" line="363" column="24" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1550173455429">
+        <mark key="'" line="309" column="0" />
+        <mark key="[" line="406" column="46" />
+        <mark key="]" line="439" column="50" />
+        <mark key="." line="439" column="50" />
+        <mark key="^" line="439" column="50" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/uber_feature_creator.py" timestamp="1550161923723">
         <mark key="'" line="2" column="16" />
@@ -201,19 +201,19 @@
         <mark key="." line="280" column="33" />
         <mark key="^" line="280" column="33" />
       </file>
-      <file name="/Python Console" timestamp="1550172167442">
+      <file name="/Python Console" timestamp="1550173621553">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="66" />
       </file>
       <file name="/fragment.py" timestamp="1549915320417">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1550172142622">
-        <mark key="'" line="686" column="7" />
-        <mark key="[" line="683" column="53" />
-        <mark key="]" line="684" column="12" />
-        <mark key="." line="684" column="12" />
-        <mark key="^" line="684" column="12" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1550173616627">
+        <mark key="'" line="685" column="20" />
+        <mark key="[" line="692" column="0" />
+        <mark key="]" line="692" column="0" />
+        <mark key="^" line="691" column="77" />
+        <mark key="." line="692" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_moments_feature_creator.py" timestamp="1549572354464">
         <mark key="'" line="36" column="13" />
@@ -369,15 +369,11 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="302" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="459" column="42" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="14" column="38" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="602" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="619" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="636" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="659" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="680" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="709" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="909" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="479" column="12" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -469,6 +465,10 @@
       <jump line="361" column="28" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="27" column="85" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="670" column="7" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="680" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="216" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
+      <jump line="310" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
+      <jump line="685" column="20" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -477,8 +477,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRmLnNoYXBlLCAoMzAsIDEpKQogICAgICAgIGV4cGVjdGVkX21pID0gcGQuTXVsdGlJbmRleC5mcm9tX3R1cGxlcyhbCiAgICAgICAgICAgIHppcChyYW5nZSgxMCksIFsoJ2EwJywpXSAqIDEwLCBbZG1rXzFdICogMTApICsKICAgICAgICAgICAgemlwKHJhbmdlKDEwKSwgWygnYTEnLCldICogMTAsIFtkbWtfMV0gKiAxMCkgKwogICAgICAgICAgICB6aXAocmFuZ2UoMTApLCBbTm9uZV0gKiAxMCwgW2Rta18yXSAqIDEwKQogICAgICAgICAgICBdLCBuYW1lcz1bJ3RpbWUnLCAnQScsICdkbWsnXSkKICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9pbmRleF9lcXVhbChkZi5pbmRleCwgZXhwZWN0ZWRfbWkpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1020,22 +1020,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>self..m_exp0_a1</text>
       </register>
       <register name="/" type="4">
-        <text>to_dataframe</text>
+        <text>sor</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdDAgJ2ExJyBkbWsxICAgdjEK</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9mcmFtZV9lcXVhbChwaXBlbGluZXNfZGZzWygnQScsKV0sIGV4cGVjdGVkX2Zvcl9BKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBkZgo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRmLnNoYXBlLCAoMzAsIDEpKQogICAgICAgIGV4cGVjdGVkX21pID0gcGQuTXVsdGlJbmRleC5mcm9tX3R1cGxlcyhbCiAgICAgICAgICAgIHppcChyYW5nZSgxMCksIFsoJ2EwJywpXSAqIDEwLCBbZG1rXzFdICogMTApICsKICAgICAgICAgICAgemlwKHJhbmdlKDEwKSwgWygnYTEnLCldICogMTAsIFtkbWtfMV0gKiAxMCkgKwogICAgICAgICAgICB6aXAocmFuZ2UoMTApLCBbTm9uZV0gKiAxMCwgW2Rta18yXSAqIDEwKQogICAgICAgICAgICBdLCBuYW1lcz1bJ3RpbWUnLCAnQScsICdkbWsnXSkKICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9pbmRleF9lcXVhbChkZi5pbmRleCwgZXhwZWN0ZWRfbWkpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3RlZF9taSA9IAo=</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBkbWtfMSwgXyA9IHNlbGYucC5kZXBpcGVsaW5lKHNlbGYubV9leHAwX2EwKQogICAgICAgIGRta18yLCBfID0gc2VsZi5wLmRlcGlwZWxpbmUobm9fdGFnX21ldHJpYykKCiAgICAgICAgcHJpbnQgZGYK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1056,10 +1056,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBbXTogcGQuRGF0YUZyYW1lIHdpdGggZGF0YSBmcm9tIG02Cg==</text>
+        <text encoding="base64">ICAgICAgICBwaXBlbGluZWRfZGZzID0gCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1127,28 +1127,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBbJ0InXTogcGQuRGF0YUZyYW1lIHdpdGggZGF0YSBmcm9tIG01Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBbJ0EnXTogcGQuRGF0YUZyYW1lIHdpdGggZGF0YSBmcm9tIG0zLzQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBbJ0EnLCAnQiddOiBwZC5EYXRhRnJhbWUgd2l0aCBkYXRhIGZyb20gbTEvMgo=</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNfa2V5ID0gbWV0cmljX29yX2tleQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBtNSwgY29ycmVzcG9uZHMgdG8gJ21lYXN1cmVtZW50JywgJ2V4cHJlc3Npb24nLCB7J0InOiAnYjEnfSkK</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBtNCwgY29ycmVzcG9uZHMgdG8gJ21lYXN1cmVtZW50JywgJ2V4cHJlc3Npb24nLCB7J0EnOiAnYTInfSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljX2tleSA9IG1ldHJpY19vcl9rZXkK</text>
       </register>
       <register name=":" type="4">
         <text>363,369s/_key = MetricKey(/, corresponds to /gc</text>
       </register>
     </registers>
     <search>
-      <last-search>to_dataframe</last-search>
+      <last-search>sor</last-search>
       <last-offset />
-      <last-pattern>to_dataframe</last-pattern>
+      <last-pattern>sor</last-pattern>
       <last-replace encoding="base64">LCBjb3JyZXNwb25kcyB0byA=</last-replace>
       <last-substitute>_key = MetricKey(</last-substitute>
       <last-dir>1</last-dir>
@@ -1156,8 +1156,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8PA==</entry>
-        <entry>sort_</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>self</entry>
         <entry>self.</entry>
@@ -1176,6 +1174,8 @@
         <entry>pipelines</entry>
         <entry>_key = MetricKey(</entry>
         <entry>to_dataframe</entry>
+        <entry>^clas</entry>
+        <entry>sor</entry>
       </history-search>
       <history-cmd>
         <entry>/(testing)/\1/gc</entry>
