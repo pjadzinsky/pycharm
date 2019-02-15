@@ -95,7 +95,7 @@
         <mark key="." line="280" column="33" />
         <mark key="^" line="280" column="33" />
       </file>
-      <file name="/Python Console" timestamp="1550259807661">
+      <file name="/Python Console" timestamp="1550260559637">
         <mark key="'" line="0" column="28" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -132,12 +132,12 @@
         <mark key="^" line="132" column="5" />
         <mark key="." line="132" column="5" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" timestamp="1550259636464">
-        <mark key="'" line="12" column="8" />
-        <mark key="[" line="12" column="51" />
-        <mark key="]" line="11" column="57" />
-        <mark key="." line="12" column="57" />
-        <mark key="^" line="11" column="57" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" timestamp="1550260555539">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="54" column="8" />
+        <mark key="]" line="54" column="62" />
+        <mark key="." line="54" column="62" />
+        <mark key="^" line="54" column="62" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1550096560794">
         <mark key="'" line="83" column="14" />
@@ -177,9 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="27" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
-      <jump line="46" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="24" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="6" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
       <jump line="28" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" />
@@ -277,6 +274,9 @@
       <jump line="13" column="55" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" />
       <jump line="11" column="58" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" />
       <jump line="12" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" />
+      <jump line="53" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" />
+      <jump line="52" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/tests/test_complementary_load.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -285,8 +285,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRta19pbmRleCA9IG1ldHJpY3NfZGYuY29sdW1ucy5uYW1lcy5pbmRleCgnZG1rJykK</text>
+      <register name="&quot;" type="4">
+        <text>self</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -828,7 +828,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>query</text>
+        <text>self</text>
       </register>
       <register name="/" type="4">
         <text>io</text>
@@ -837,13 +837,13 @@
         <text encoding="base64">ICAgICAgICMgY29sdW1uIDEgb2YgZmVhdHVyZXNfZGYgcmVwcmVzbmV0cyBjb2RlICcxJyBpbiAnQSc=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRta19pbmRleCA9IG1ldHJpY3NfZGYuY29sdW1ucy5uYW1lcy5pbmRleCgnZG1rJykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lX2ZpcnN0ID0gVHJ1ZQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBmZWF0dXJlcwo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -863,13 +863,11 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="8">
-        <text>*10
-*10
-*10</text>
+      <register name="3" type="2">
+        <text encoding="base64">aW1wb3J0IG51bQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIHJhbmdlKHN0YXJ0LCBlbmQpCg==</text>
+        <text encoding="base64">ICAgICAgICBpcyAxKjAuMQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -937,22 +935,21 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpbnRlcnZhbCA9IDEK</text>
+        <text encoding="base64">ICAgICAgICBpc19pbnB1dCA9IFRydWUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbmQgPSAyMAo=</text>
+        <text encoding="base64">ICAgIGRta19pbmRleCA9IG1ldHJpY3NfZGYuY29sdW1ucy5uYW1lcy5pbmRleCgnZG1rJykK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydCA9IDEwCg==</text>
+        <text encoding="base64">ICAgICAgICB0aW1lX2ZpcnN0ID0gVHJ1ZQo=</text>
       </register>
       <register name="8" type="8">
-        <text>*2
-*2
-*2
-*2</text>
+        <text>*10
+*10
+*10</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0XzEoc2VsZik6CiAgICAgICAgIiIiCiAgICAgICAgRmFrZSBhIG1ldHJpY3NfZGYgcmVwcmVzZW50aW5nIGEgc2luZ2xlIG1ldHJpYyBhbmQgcGlwZWxpbmUgJ0EnOiAnYTEnCiAgICAgICAgV2UgY3JlYXRlIHRoZSBpZGVudGl0eV9mZWF0dXJlIGZvciBpdAogICAgICAgIDpyZXR1cm46CiAgICAgICAgIiIiCiAgICAgICAgc3RhcnQgPSAxMDAKICAgICAgICBlbmQgPSAxMTAKICAgICAgICBpbnRlcnZhbCA9IDEKICAgICAgICB0aW1lcyA9IHJhbmdlKHN0YXJ0LCBlbmQsIGludGVydmFsKQogICAgICAgIHBpcGVsaW5lX2RlZiA9IFsnQSddCiAgICAgICAgcTEgPSBRdWVyeSgnbScsICdtZWFuKHExKScsIHt9LCBwaXBlbGluZV9kZWYpCiAgICAgICAgcTIgPSBRdWVyeSgnbScsICdtZWFuKHEyKScsIHsnQic6ICdiMSd9LCBwaXBlbGluZV9kZWYpCiAgICAgICAgZG1rcyA9IFtEZXBpcGVsaW5lZE1ldHJpY0tleShxMS5tZWFzdXJlbWVudCwgcTEuZXhwcmVzc2lvbiwgcTEudGFncywgcGlwZWxpbmVfZGVmLCBxdWVyeT1xMSksCiAgICAgICAgICAgICAgICBEZXBpcGVsaW5lZE1ldHJpY0tleShxMi5tZWFzdXJlbWVudCwgcTIuZXhwcmVzc2lvbiwgcTIudGFncywgcGlwZWxpbmVfZGVmLCBxdWVyeT1xMildCiAgICAgICAgcGlwZWxpbmVzID0gW1BpcGVsaW5lVmFsdWUoeydBJzogJ2ExJ30pXQoKICAgICAgICBudW1fbWV0cmljcyA9IGxlbihkbWtzKSAqIGxlbihwaXBlbGluZXMpCiAgICAgICAgbnVtX3RpbWVfcG50cyA9IChlbmQgLSBzdGFydCkgLyBpbnRlcnZhbAoKICAgICAgICBtaSA9IHBkLk11bHRpSW5kZXguZnJvbV9wcm9kdWN0KFt0aW1lcywgWydhMSddLCBkbWtzXSwgbmFtZXM9Wyd0aW1lJywgJ0EnLCAnZG1rJ10pCiAgICAgICAgbWV0cmljc19kZiA9IHBkLkRhdGFGcmFtZShyYW5nZShudW1fbWV0cmljcyAqIG51bV90aW1lX3BudHMpLCBpbmRleD1taSkKCiAgICAgICAgcGFyYW1zID0geydwaXBlbGluZV9kZWYnOiBwaXBlbGluZV9kZWYsCiAgICAgICAgICAgICAgICAgICdhcHBsaWVzX3RvX3F1ZXJpZXMnOiBbcTFdfQogICAgICAgIGZlYXR1cmVfY3JlYXRvciA9IElkZW50aXR5RmVhdHVyZUNyZWF0b3IocGFyYW1zKQogICAgICAgIGZlYXR1cmVzX2RmID0gZmVhdHVyZV9jcmVhdG9yLmZlYXR1cmVzX2Zyb21fbWV0cmljc19kZihtZXRyaWNzX2RmLCBpc190cmFpbmluZz1UcnVlKQoKICAgICAgICAjIGluZGV4LmNvZGVzWzBdIHJlZmVycyB0byB0aW1lcywgYnV0IHRoZXNlIGFyZSB0aGUgaW5kZXhlcyBpbnRvIGluZGV4LmxldmVsc1swXSwgdGhhdCdzIHdoeSB0aGV5IHN0YXJ0CiAgICAgICAgIyBmcm9tIDAgYW5kIGdvIHVwIHRvIDkgKDAgbWVhbnMgMTAwIGFuZCA5IG1lYW5zIDEwOSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGZlYXR1cmVzX2RmLmluZGV4LmNvZGVzWzBdLnRvbGlzdCgpLCByYW5nZSgxMCkpCiAgICAgICAgIyBpZGVtIGZvciBpbmRleC5jb2Rlc1sxXSwgdGhlc2UgYXJlIGFsbCAwIGJlY2F1c2UgdGhlIG9ubHkgdGhpbmcgaW4gdGhlIGluZGV4IGlzICdhMScKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGZlYXR1cmVzX2RmLmluZGV4LmNvZGVzWzFdLnRvbGlzdCgpLCBbMF0qMTApCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChmZWF0dXJlc19kZi5pbmRleC5nZXRfbGV2ZWxfdmFsdWVzKGxldmVsPSdBJykudG9saXN0KCksIFsnYTEnXSoxMCkKCiAgICAgICAgcGQudGVzdGluZy5hc3NlcnRfaW5kZXhfZXF1YWwoZmVhdHVyZXNfZGYuY29sdW1ucywgcGQuTXVsdGlJbmRleC5mcm9tX3R1cGxlcyhbKCdpZGVudGl0eScsIDApXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWVzPVsnZmNfbmFtZScsICdzdWJfZmMnXSkpCgo=</text>
+        <text encoding="base64">ICAgICAgICAjIHJhbmdlKHN0YXJ0LCBlbmQpCg==</text>
       </register>
       <register name=":" type="4">
         <text>451</text>
