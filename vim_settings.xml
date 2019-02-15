@@ -259,6 +259,12 @@
         <mark key="^" line="9" column="9" />
         <mark key="." line="9" column="9" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/config.py" timestamp="1550201748563">
+        <mark key="'" line="21" column="4" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1549328234691">
         <mark key="[" line="173" column="30" />
         <mark key="]" line="173" column="20" />
@@ -297,9 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="804" column="27" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="839" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="422" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="453" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="732" column="46" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="733" column="68" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
@@ -397,6 +400,9 @@
       <jump line="563" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="525" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="686" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="16" column="0" filename="$USER_HOME$/crypto/crypto/crypto/config.py" />
+      <jump line="17" column="4" filename="$USER_HOME$/crypto/crypto/crypto/config.py" />
+      <jump line="22" column="4" filename="$USER_HOME$/crypto/crypto/crypto/config.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -405,8 +411,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+      <register name="&quot;" type="4">
+        <text>l</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -948,22 +954,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0.5=, 3.2, 4.4, 6.0</text>
+        <text>l</text>
       </register>
       <register name="/" type="4">
-        <text>try</text>
+        <text>ERRORS_BUCKET</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBib29rID0gc2RrLk9yZGVyQm9vayhzZWxmLnBvbG8sIHNkay5UaWNrZXIoJ0VUSC9CVEMnLCBzZWxmLnBvbG8pLCBzZWxmLmJ1eV9kZiwgc2VsZi5zZWxsX2RmKQogICAgICAgIGFuc3dlciA9IGxpc3QoYm9vay5idXlfcXVhbnRpdHkoWzAuNSwgMy4yLCA0LjQsIDYuMF0pKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoYW5zd2VyWzBdLCAoMC41LCAxLjApKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoYW5zd2VyWzFdLCAoMywgMS4xKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclsyXSwgKDQsIDEuMikpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChhbnN3ZXJbM10sICgwLCAxLjIpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">aWYgYXdzX3Byb2ZpbGVfbmFtZSBpbiBbJ3BhYmxvX2luX2Fkcmlhbl9hY2NvdW50JywgJ2V4ZWN1dGl2ZS11c2VyJ106Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -984,10 +990,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdDoKICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1055,28 +1061,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgcXVhbnRpdGllc190b19zZWxsWzBdID4gMCwgIlF1YW50aXRpZXM6IHt9Ii5mb3JtYXQocXVhbnRpdGllc190b19zZWxsKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeToK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclszXSwgKDAsIDEuMikpCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgcXVhbnRpdGllc190b19zZWxsWzBdID4gMCwgIlF1YW50aXRpZXM6IHt9Ii5mb3JtYXQocXVhbnRpdGllc190b19zZWxsKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclsyXSwgKDQsIDEuMikpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclszXSwgKDAsIDEuMikpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclsxXSwgKDMsIDEuMSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclsyXSwgKDQsIDEuMikpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyAwIGJlaW5nIAo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGFuc3dlclsxXSwgKDMsIDEuMSkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>451</text>
       </register>
     </registers>
     <search>
-      <last-search>try</last-search>
+      <last-search>ERRORS_BUCKET</last-search>
       <last-offset />
-      <last-pattern>try</last-pattern>
+      <last-pattern>ERRORS_BUCKET</last-pattern>
       <last-replace>test_to_dataframe_same_tags</last-replace>
       <last-substitute>test_to_dataframe</last-substitute>
       <last-dir>1</last-dir>
@@ -1084,7 +1090,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pipeline</entry>
         <entry>entity_id</entry>
         <entry>source_instance</entry>
         <entry>0</entry>
@@ -1104,6 +1109,7 @@
         <entry>to_dataframe</entry>
         <entry>test_to_dataframe</entry>
         <entry>try</entry>
+        <entry>ERRORS_BUCKET</entry>
       </history-search>
       <history-cmd>
         <entry>%s/(testing)/\1/gc</entry>
