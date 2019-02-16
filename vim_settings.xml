@@ -75,24 +75,24 @@
         <mark key="." line="36" column="76" />
         <mark key="^" line="36" column="76" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests/test_summary_writer_interface.py" timestamp="1550344307137">
-        <mark key="'" line="2" column="24" />
-        <mark key="[" line="89" column="39" />
-        <mark key="]" line="89" column="36" />
-        <mark key="." line="89" column="36" />
-        <mark key="^" line="89" column="36" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests/test_summary_writer_interface.py" timestamp="1550345406967">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="91" column="30" />
+        <mark key="]" line="91" column="33" />
+        <mark key="." line="91" column="33" />
+        <mark key="^" line="91" column="33" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests_writter.py" timestamp="1550344214722">
         <mark key="[" line="52" column="0" />
         <mark key="]" line="52" column="0" />
         <mark key="." line="52" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" timestamp="1550344126888">
-        <mark key="'" line="7" column="30" />
-        <mark key="[" line="63" column="37" />
-        <mark key="]" line="63" column="42" />
-        <mark key="^" line="63" column="42" />
-        <mark key="." line="63" column="42" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" timestamp="1550344692445">
+        <mark key="'" line="55" column="39" />
+        <mark key="[" line="58" column="11" />
+        <mark key="]" line="60" column="22" />
+        <mark key="^" line="60" column="22" />
+        <mark key="." line="60" column="22" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/postprocessors_interface.py" timestamp="1550101484383">
         <mark key="[" line="24" column="0" />
@@ -158,6 +158,11 @@
         <mark key="." line="49" column="73" />
         <mark key="^" line="49" column="73" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/common/utime.py" timestamp="1550344984371">
+        <mark key="'" line="6" column="1" />
+        <mark key="[" line="140" column="0" />
+        <mark key="]" line="140" column="36" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1550091920955">
         <mark key="'" line="103" column="65" />
         <mark key="[" line="263" column="87" />
@@ -165,7 +170,7 @@
         <mark key="." line="280" column="33" />
         <mark key="^" line="280" column="33" />
       </file>
-      <file name="/Python Console" timestamp="1550343171311">
+      <file name="/Python Console" timestamp="1550345225011">
         <mark key="'" line="0" column="28" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -298,11 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="543" column="13" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="552" column="20" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="609" column="10" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="611" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
-      <jump line="737" column="60" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" />
       <jump line="11" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_identity_feature_creator.py" />
       <jump line="65" column="46" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_identity_feature_creator.py" />
       <jump line="361" column="28" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -398,6 +398,11 @@
       <jump line="7" column="30" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
       <jump line="87" column="14" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests/test_summary_writer_interface.py" />
       <jump line="2" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests/test_summary_writer_interface.py" />
+      <jump line="55" column="39" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/summary_writer_interface.py" />
+      <jump line="149" column="6" filename="$USER_HOME$/crypto/crypto/crypto/common/utime.py" />
+      <jump line="91" column="7" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests/test_summary_writer_interface.py" />
+      <jump line="6" column="1" filename="$USER_HOME$/crypto/crypto/crypto/common/utime.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/tests/test_summary_writer_interface.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -407,7 +412,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>unittest</text>
+        <text>datetime</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -949,22 +954,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>unittest</text>
+        <text>datetime</text>
       </register>
       <register name="/" type="4">
         <text>utime</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfZGJfbmFtZSA9IHN0cmF0ZWd5LndyaXRlci5kYl9uYW1lKHV0aW1lLmRhdGVfc3RyKHRpbWU9RmFsc2UpICsgYXJncy5kYl9zdWZmaXgsIGFyZ3MuZXhlY3V0ZSkKICAgICAgICBpZiBkYl9uYW1lICE9IG5ld19kYl9uYW1lOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBvcy51bmxpbmsoZGJfbmFtZSkKICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICBkYl9uYW1lID0gbmV3X2RiX25hbWUKICAgICAgICAgICAgc3RyYXRlZ3kud3JpdGVyLnNldF9kYihkYl9uYW1lKQoKICAgICAgICBpZiB1dGltZS5ub3coKSAtIGxhc3RfZGJfdXBkYXRlID4gYXJncy5kYl91cGxvYWRfc2Vjb25kczoKICAgICAgICAgICAgbGFzdF9kYl91cGRhdGUgPSB1dGltZS5ub3coKQogICAgICAgICAgICBmaW5kX2N5Y2xlc191dGlscy51cGxvYWRfZGIoZGJfbmFtZSkK</text>
+        <text encoding="base64">ICAgIGRhdGUgPSBkYXRldGltZS5ub3codHo9cHl0ei51dGMpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB1dGltZS5mcm9tX2lzb2Zvcm1hdCgnMjAxOC0wMS0wMVQwMC0wOCcpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBkYl9uYW1lKHNlbGYsIGV4ZWN1dGUsIHN1ZmZpeD1Ob25lKToKICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gZXhlY3V0ZToKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIGlmIGV4ZWN1dGU6CiAgICAgICAgICAgIGZpbGVuYW1lID0gc2VsZi50cmFuc2FjdGlvbnNfZGJfcHJlZml4ICsgIl8iICsgc3VmZml4CiAgICAgICAgZWxzZToKICAgICAgICAgICAgZmlsZW5hbWUgPSBzZWxmLnRyYW5zYWN0aW9uX21vbml0b3JpbmdfZGJfcHJlZml4ICsgIl8iICsgc3VmZml4CgogICAgICAgIGlmIG5vdCBmaWxlbmFtZS5lbmRzd2l0aCgnZGInKToKICAgICAgICAgICAgZmlsZW5hbWUgKz0gIi5kYiIKCiAgICAgICAgcmV0dXJuIGZpbGVuYW1lCg==</text>
+        <text encoding="base64">ICAgICAgICBpbXBvcnQgcHVkYjsgcHVkYi5zZXRfdHJhY2UoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -985,10 +990,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gc2VsZi50cmFuc2FjdGlvbl9tb25pdG9yaW5nX2RiX3ByZWZpeAo=</text>
+        <text encoding="base64">ICAgICAgICBmaWxlbmFtZSA9ICdfJy5qb2luKFtwcmVmaXgsIGRhdGUsIHNvY2tldC5nZXRob3N0bmFtZSgpLCBzdWZmaXhdKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1056,22 +1061,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gc2VsZi50cmFuc2FjdGlvbnNfZGJfcHJlZml4Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBkYl9uYW1lKHNlbGYsIGV4ZWN1dGUsIHN1ZmZpeD1Ob25lKToKICAgICAgICAiIiIKICAgICAgICA6cGFyYW0gZXhlY3V0ZToKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIGlmIGV4ZWN1dGU6CiAgICAgICAgICAgIGZpbGVuYW1lID0gc2VsZi50cmFuc2FjdGlvbnNfZGJfcHJlZml4ICsgIl8iICsgc3VmZml4CiAgICAgICAgZWxzZToKICAgICAgICAgICAgZmlsZW5hbWUgPSBzZWxmLnRyYW5zYWN0aW9uX21vbml0b3JpbmdfZGJfcHJlZml4ICsgIl8iICsgc3VmZml4CgogICAgICAgIGlmIG5vdCBmaWxlbmFtZS5lbmRzd2l0aCgnZGInKToKICAgICAgICAgICAgZmlsZW5hbWUgKz0gIi5kYiIKCiAgICAgICAgcmV0dXJuIGZpbGVuYW1lCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gc2VsZi50cmFuc2FjdGlvbl9tb25pdG9yaW5nX2RiX3ByZWZpeAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHRyYW5zYWN0aW9uX21vbml0b3JpbmdfZGJfcHJlZml4ID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRiX3RyYW5zZmVycy5zaGFwZSwgKDEsIDE2KSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gc2VsZi50cmFuc2FjdGlvbnNfZGJfcHJlZml4Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text encoding="base64">JzwsJz5zb3J0</text>
       </register>
     </registers>
     <search>
@@ -1125,8 +1130,8 @@
         <entry>%s/summary_writer/writer</entry>
         <entry>69,84s/transactions/transfers/g</entry>
         <entry>69,85s/transactions/transfers/g</entry>
-        <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>q</entry>
+        <entry encoding="base64">JzwsJz5zb3J0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
