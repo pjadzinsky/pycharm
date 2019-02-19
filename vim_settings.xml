@@ -10,12 +10,12 @@
         <mark key="^" line="64" column="95" />
         <mark key="." line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1550541198892">
-        <mark key="'" line="4" column="14" />
-        <mark key="[" line="47" column="59" />
-        <mark key="]" line="47" column="60" />
-        <mark key="." line="47" column="60" />
-        <mark key="^" line="46" column="59" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1550558540405">
+        <mark key="'" line="56" column="8" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="^" line="61" column="26" />
+        <mark key="." line="52" column="0" />
       </file>
       <file name="/a.dummy" timestamp="1550442955869">
         <mark key="[" line="0" column="0" />
@@ -34,10 +34,10 @@
         <mark key="^" line="28" column="32" />
         <mark key="." line="28" column="32" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1550557678198">
-        <mark key="'" line="541" column="0" />
-        <mark key="[" line="1107" column="0" />
-        <mark key="]" line="1107" column="47" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1550558365444">
+        <mark key="'" line="641" column="8" />
+        <mark key="[" line="337" column="0" />
+        <mark key="]" line="338" column="30" />
         <mark key="." line="1109" column="85" />
         <mark key="^" line="1109" column="80" />
       </file>
@@ -179,7 +179,7 @@
         <mark key="." line="280" column="33" />
         <mark key="^" line="280" column="33" />
       </file>
-      <file name="/Python Console" timestamp="1550535836324">
+      <file name="/Python Console" timestamp="1550558950908">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -239,12 +239,12 @@
         <mark key="." line="54" column="62" />
         <mark key="^" line="54" column="62" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1550557727855">
-        <mark key="'" line="139" column="6" />
-        <mark key="[" line="138" column="34" />
-        <mark key="]" line="138" column="34" />
-        <mark key="." line="138" column="34" />
-        <mark key="^" line="138" column="34" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1550558947383">
+        <mark key="'" line="162" column="0" />
+        <mark key="[" line="151" column="24" />
+        <mark key="]" line="151" column="33" />
+        <mark key="^" line="151" column="33" />
+        <mark key="." line="151" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/utils/tests/test_split_data.py" timestamp="1549473399275">
         <mark key="'" line="4" column="10" />
@@ -321,10 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="371" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="9" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="177" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="191" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="205" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="214" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="219" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -421,6 +417,10 @@
       <jump line="564" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="771" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="541" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="39" column="48" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="641" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="57" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="157" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -429,8 +429,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBub2RlXzEgPSBobwo=</text>
+      <register name="&quot;" type="4">
+        <text>end_currencies</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -972,22 +972,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>end_currencies</text>
       </register>
       <register name="/" type="4">
-        <text>tran</text>
+        <text>curreny</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIF9nYWluKGN5Y2xlLCBub2RlXzFfcXVhbnRpdHksIGNhY2hlZD1UcnVlKToK</text>
+        <text encoding="base64">ICAgICAgICBob3JzZV9zaG9lXzEgPSBzZGsuUGF0aChbc2RrLk5vZGUoJ0JUQycsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ0VUSCcsIHBvbG9uaWV4KV0pCiAgICAgICAgaG9yc2Vfc2hvZV8yID0gc2RrLlBhdGgoW3Nkay5Ob2RlKCdCVEMnLCBwb2xvbmlleCksIHNkay5Ob2RlKCdMVEMnLCBwb2xvbmlleCksIHNkay5Ob2RlKCdFVEgnLCBwb2xvbmlleCldKQogICAgICAgIGhvcnNlX3Nob2VfMyA9IHNkay5QYXRoKFtzZGsuTm9kZSgnQlRDJywgcG9sb25pZXgpLCBzZGsuTm9kZSgnVVNEVCcsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ0VUSCcsIHBvbG9uaWV4KV0pCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBub2RlXzEgPSBobwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBicmlkZ2VfcXVhbnRpdGllcy5sb2NbYnJpZGdlXzFfY3VycmVuY3ldCg==</text>
+        <text encoding="base64">ZGVmIGFuYWx5emVfaG9yc2Vfc2hvZXMoaG9yc2Vfc2hvZXMsIGJyaWRnZV9xdWFudGl0aWVzKToK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1008,10 +1008,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBicmlkZ2VfMV9jdXJyZW5jeSA9IGhvcnNlX3Nob2UuY3VycmVuY3kK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBub2RlXzEK</text>
+        <text encoding="base64">ICAgICAgICBkZiA9IHBkLkRhdGFGcmFtZShbXSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1079,38 +1079,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGRmID0gcGQuRGF0YUZyYW1lKFtdKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZW50ZXJpbmcgaW50byBhbiBleGNoYW5nZSB0aHJvdWdoIGEgYnJpZGdlLWNvaW4gYW5kIAo=</text>
+        <text encoding="base64">ICAgIGRmLmluZGV4Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICJtYXhfcGlwZWxpbmVzIjogMjAK</text>
+        <text encoding="base64">ICAgICAgICBicmlkZ2VfcXVhbnRpdGllcy5sb2NbYnJpZGdlXzFfY3VycmVuY3ldCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOgogICAgICAgIFsKICAgICAgICAgICIyZmRlNDI1MC0yN2NjLTQzYjgtYTdkNS0xNjUzMjNjOWQyZDgiLAogICAgICAgICAgICAiMzUwODAwNzgtNjdhMi00ZWM1LWE5MjktNGJkMzFkYjkzMDFjIgogICAgICAgIF0K</text>
+        <text encoding="base64">ICAgICAgICBicmlkZ2VfMV9jdXJyZW5jeSA9IGhvcnNlX3Nob2UuY3VycmVuY3kK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiOgogICAgICAgIFsKICAgICAgICAgICIyZmRlNDI1MC0yN2NjLTQzYjgtYTdkNS0xNjUzMjNjOWQyZDgiLAogICAgICAgICAgICAiMzUwODAwNzgtNjdhMi00ZWM1LWE5MjktNGJkMzFkYjkzMDFjIgogICAgICAgIF0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>58,60s/poloniex/bittrex/g</text>
       </register>
     </registers>
     <search>
-      <last-search>tran</last-search>
+      <last-search>curreny</last-search>
       <last-offset />
-      <last-pattern>tran</last-pattern>
-      <last-replace>self</last-replace>
-      <last-substitute>cls</last-substitute>
+      <last-pattern>curreny</last-pattern>
+      <last-replace>bittrex</last-replace>
+      <last-substitute>poloniex</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>load</entry>
-        <entry>unit_model</entry>
-        <entry>inputs</entry>
         <entry>consumer_vers</entry>
         <entry>uber_fea</entry>
         <entry>def .*train_new</entry>
@@ -1128,9 +1125,11 @@
         <entry>transaction_results</entry>
         <entry>class Node</entry>
         <entry>tran</entry>
+        <entry>class Pa</entry>
+        <entry>poloniex</entry>
+        <entry>curreny</entry>
       </history-search>
       <history-cmd>
-        <entry>520</entry>
         <entry>451</entry>
         <entry>718</entry>
         <entry>21</entry>
@@ -1150,6 +1149,7 @@
         <entry>w</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>q</entry>
+        <entry>58,60s/poloniex/bittrex/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
