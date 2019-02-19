@@ -34,8 +34,8 @@
         <mark key="^" line="28" column="32" />
         <mark key="." line="28" column="32" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1550542667723">
-        <mark key="'" line="564" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1550557678198">
+        <mark key="'" line="541" column="0" />
         <mark key="[" line="1107" column="0" />
         <mark key="]" line="1107" column="47" />
         <mark key="." line="1109" column="85" />
@@ -239,11 +239,12 @@
         <mark key="." line="54" column="62" />
         <mark key="^" line="54" column="62" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1550542600665">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1550557727855">
         <mark key="'" line="139" column="6" />
-        <mark key="[" line="149" column="0" />
-        <mark key="]" line="149" column="0" />
-        <mark key="." line="149" column="0" />
+        <mark key="[" line="138" column="34" />
+        <mark key="]" line="138" column="34" />
+        <mark key="." line="138" column="34" />
+        <mark key="^" line="138" column="34" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/utils/tests/test_split_data.py" timestamp="1549473399275">
         <mark key="'" line="4" column="10" />
@@ -320,7 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="295" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="371" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="9" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="177" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -415,11 +415,12 @@
       <jump line="1107" column="10" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="596" column="29" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="681" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="771" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="797" column="22" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1124" column="41" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1125" column="33" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="564" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="771" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="541" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -974,7 +975,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>transaction_results</text>
+        <text>tran</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIF9nYWluKGN5Y2xlLCBub2RlXzFfcXVhbnRpdHksIGNhY2hlZD1UcnVlKToK</text>
@@ -1097,9 +1098,9 @@
       </register>
     </registers>
     <search>
-      <last-search>transaction_results</last-search>
+      <last-search>tran</last-search>
       <last-offset />
-      <last-pattern>transaction_results</last-pattern>
+      <last-pattern>tran</last-pattern>
       <last-replace>self</last-replace>
       <last-substitute>cls</last-substitute>
       <last-dir>1</last-dir>
@@ -1107,8 +1108,6 @@
     </search>
     <history>
       <history-search>
-        <entry>field</entry>
-        <entry>source_inst</entry>
         <entry>load</entry>
         <entry>unit_model</entry>
         <entry>inputs</entry>
@@ -1127,6 +1126,8 @@
         <entry>node_1_qu</entry>
         <entry>cycle</entry>
         <entry>transaction_results</entry>
+        <entry>class Node</entry>
+        <entry>tran</entry>
       </history-search>
       <history-cmd>
         <entry>520</entry>
