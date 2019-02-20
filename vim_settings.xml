@@ -63,12 +63,6 @@
         <mark key="." line="9" column="14" />
         <mark key="^" line="9" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1550528721784">
-        <mark key="[" line="40" column="54" />
-        <mark key="]" line="40" column="54" />
-        <mark key="." line="40" column="54" />
-        <mark key="^" line="41" column="54" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" timestamp="1550533692891" />
       <file name="$USER_HOME$/crypto/crypto/crypto/transactions_trader.py" timestamp="1549987056718">
         <mark key="'" line="593" column="4" />
@@ -122,6 +116,13 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
         <mark key="^" line="89" column="17" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix/per_instance_load.py" timestamp="1550682398546">
+        <mark key="'" line="6" column="9" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="17" column="46" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_uber_feature_creator.py" timestamp="1550261702291">
         <mark key="'" line="121" column="4" />
@@ -369,8 +370,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="209" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="232" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="255" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="278" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="301" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -469,6 +468,8 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/setup.py" />
       <jump line="24" column="13" filename="$USER_HOME$/opas/core/python/setup.py" />
       <jump line="60" column="66" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="9" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix/per_instance_load.py" />
+      <jump line="6" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/nutanix/per_instance_load.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -478,7 +479,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGZvciBiIGluIGJyaWRnZToK</text>
+        <text encoding="base64">ICAgICAgICAjIHB0byB1c2UgcGQuRGF0YUZyYW1lcyB3aXRoCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1026,16 +1027,16 @@
         <text>XRP</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBob3JzZV9zaG9lcyA9IFtob3JzZV9zaG9lXzEsIGhvcnNlX3Nob2VfMiwgaG9yc2Vfc2hvZV8zLCBob3JzZV9zaG9lXzQsIGhvcnNlX3Nob2VfNSwgaG9yc2Vfc2hvZV82LAo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnBpcGVsaW5lX2RlZiA9IHBhcmFtcy5nZXQoJ3BpcGVsaW5lX2RlZicpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGZvciBiIGluIGJyaWRnZToK</text>
+        <text encoding="base64">ICAgICAgICAjIHB0byB1c2UgcGQuRGF0YUZyYW1lcyB3aXRoCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnBpcGVsaW5lX2RlZiA9IHBhcmFtcy5nZXQoJ3BpcGVsaW5lX2RlZicpCiAgICAgICAgbG8K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1056,10 +1057,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwYXRoXzcgPSBzZGsuUGF0aChbc2RrLk5vZGUoJ0JUQycsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ1hSUCcsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ0VUSCcsIHBvbG9uaWV4KV0pCg==</text>
+        <text encoding="base64">ICAgIGZvciBiIGluIGJyaWRnZToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwYXRoXzEwID0gc2RrLlBhdGgoW3Nkay5Ob2RlKCdCVEMnLCBiaXR0cmV4KSwgc2RrLk5vZGUoJ1hSUCcsIGJpdHRyZXgpLCBzZGsuTm9kZSgnRVRIJywgYml0dHJleCldKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1127,19 +1128,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludChkZikK</text>
+        <text encoding="base64">ICAgICAgICBwYXRoXzcgPSBzZGsuUGF0aChbc2RrLk5vZGUoJ0JUQycsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ1hSUCcsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ0VUSCcsIHBvbG9uaWV4KV0pCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEhvcnNlLVNob2U6IGEgcGF0aCBjb2ludGFpbmVkIHdpdGhpbiBhIHNpbmdsZSBleGNoYW5nZSBhbmQgdHdvIGJyaWRnZSBjb2lucwo=</text>
+        <text encoding="base64">ICAgICAgICBwYXRoXzEwID0gc2RrLlBhdGgoW3Nkay5Ob2RlKCdCVEMnLCBiaXR0cmV4KSwgc2RrLk5vZGUoJ1hSUCcsIGJpdHRyZXgpLCBzZGsuTm9kZSgnRVRIJywgYml0dHJleCldKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">SG9yc2UtU2hvZTogYSBwYXRoIGNvaW50YWluZWQgd2l0aGluIGEgc2luZ2xlIGV4Y2hhbmdlIGFuZCB0d28gYnJpZGdlIGNvaW5zCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludChkZikK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICA=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIEhvcnNlLVNob2U6IGEgcGF0aCBjb2ludGFpbmVkIHdpdGhpbiBhIHNpbmdsZSBleGNoYW5nZSBhbmQgdHdvIGJyaWRnZSBjb2lucwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBob3JzZV9zaG9lcyA9IFtoIGZvciBoIGluIGhvcnNlX3Nob2VzIGlmIF0K</text>
+        <text encoding="base64">SG9yc2UtU2hvZTogYSBwYXRoIGNvaW50YWluZWQgd2l0aGluIGEgc2luZ2xlIGV4Y2hhbmdlIGFuZCB0d28gYnJpZGdlIGNvaW5zCg==</text>
       </register>
       <register name=":" type="4">
         <text>55</text>
