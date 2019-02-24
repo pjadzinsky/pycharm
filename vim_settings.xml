@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1550988181074">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1551031584445">
         <mark key="'" line="22" column="41" />
         <mark key="[" line="124" column="100" />
         <mark key="]" line="125" column="17" />
@@ -194,7 +194,7 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1550988063398">
+      <file name="/Python Console" timestamp="1551032491395">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -246,12 +246,12 @@
         <mark key="^" line="90" column="75" />
         <mark key="." line="90" column="75" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1550987989376">
-        <mark key="'" line="248" column="12" />
-        <mark key="[" line="252" column="0" />
-        <mark key="]" line="252" column="0" />
-        <mark key="^" line="251" column="29" />
-        <mark key="." line="252" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1551033675461">
+        <mark key="'" line="212" column="4" />
+        <mark key="[" line="236" column="106" />
+        <mark key="]" line="228" column="109" />
+        <mark key="." line="228" column="109" />
+        <mark key="^" line="228" column="109" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/cpa/tests/test_reconcile.py" timestamp="1550340652921">
         <mark key="[" line="19" column="58" />
@@ -312,8 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="181" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="210" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="242" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="246" column="4" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
       <jump line="261" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
@@ -412,6 +410,8 @@
       <jump line="271" column="11" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="332" column="33" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="248" column="12" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="206" column="91" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="212" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -963,10 +963,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>path</text>
+        <text>quawntity_A_start</text>
       </register>
       <register name="/" type="4">
-        <text>reverse</text>
+        <text>def analyze_1</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2NhbF9mb2xkZXIgPSBzZWxmLmxvY2FsX2ZvbGRlcihzZWxmLnRyYWluX2ludGVydmFsc1swXS5zdGFydF9lcG9jaCwgc2VsZi5fX2hhc2hfXygpKQo=</text>
@@ -978,7 +978,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiByZXZlcnNlKHNlbGYpOgogICAgICAgICIiIgogICAgICAgICIiIgogICAgICAgIGZvciBpIGluIHJhbmdlKGxlbihzZWxmKSk6CiAgICAgICAgICAgIG5ld19sYXN0ID0gc2VsZi5wb3AoKQogICAgICAgICAgICBzZWxmLmluc2VydChpLCBuZXdfbGFzdCkKCiAgICAgICAgcmV0dXJuIHBhdGgK</text>
+        <text encoding="base64">ICAgICAgICBUaGVyZWZvcjoKICAgICAgICAgZXN0aW1hdGVkX3F1YW50aXR5X0JfZW5kID0gcXVhbnRpdHlfQV9zdGFydCAqIHF1YW50aXR5X0JfZW5kIC8gYnJpZGdlX3F1YW50aXRpZXMubG9jW0IsIHF1YW50aXR5X0Ffc3RhcnRdCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -999,10 +999,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KGZvdW5kX2N5Y2xlcykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBpbnBsYWNlOgogICAgICAgICAgICBwYXRoID0gc2VsZgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBhdGggPSBzZWxmLmNvcHkoKQo=</text>
+        <text encoding="base64">ICAgIHByaW50KGRmKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1070,28 +1070,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhdGggPSBwYXRoLnJldmVyc2UoaW5wbGFjZT1GYWxzZSkK</text>
+        <text encoding="base64">ICAgIHByaW50KHN0YXJ0X3F1YW50aXRpZXMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGRlZiByZXZlcnNlKHNlbGYpOgogICAgICAgICIiIgogICAgICAgICIiIgogICAgICAgIGZvciBpIGluIHJhbmdlKGxlbihzZWxmKSk6CiAgICAgICAgICAgIG5ld19sYXN0ID0gc2VsZi5wb3AoKQogICAgICAgICAgICBzZWxmLmluc2VydChpLCBuZXdfbGFzdCkKCiAgICAgICAgcmV0dXJuIHBhdGgK</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBueC5leGNlcAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygnKicqODApCiAgICAgICAgbG9nZ2VyLmluZm8oJyonKjc0KQogICAgICAgIGxvZ2dlci5pbmZvKCcqJyo3MCkK</text>
+        <text encoding="base64">ICAgICAgICBpZiBpbnBsYWNlOgogICAgICAgICAgICBwYXRoID0gc2VsZgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBhdGggPSBzZWxmLmNvcHkoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>reverse</last-search>
+      <last-search>def analyze_1</last-search>
       <last-offset />
-      <last-pattern>reverse</last-pattern>
+      <last-pattern>def analyze_1</last-pattern>
       <last-replace>00055676-10e1-519b-0000-0000000173e1</last-replace>
       <last-substitute>nutanix</last-substitute>
       <last-dir>1</last-dir>
@@ -1099,7 +1099,6 @@
     </search>
     <history>
       <history-search>
-        <entry>model</entry>
         <entry>40</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>metrics_df</entry>
@@ -1119,6 +1118,7 @@
         <entry>folder</entry>
         <entry>def .*model_id</entry>
         <entry>reverse</entry>
+        <entry>def analyze_1</entry>
       </history-search>
       <history-cmd>
         <entry>220</entry>
