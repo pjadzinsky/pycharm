@@ -271,7 +271,7 @@
         <mark key="." line="106" column="28" />
         <mark key="^" line="106" column="28" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551056968764">
+      <file name="/Dummy.txt" timestamp="1551136704243">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" timestamp="1550708701561">
@@ -294,18 +294,15 @@
         <mark key="^" line="60" column="41" />
         <mark key="." line="48" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1550875426372">
-        <mark key="'" line="37" column="69" />
-        <mark key="[" line="37" column="67" />
-        <mark key="]" line="37" column="69" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1551136695011">
+        <mark key="'" line="7" column="20" />
+        <mark key="[" line="132" column="11" />
+        <mark key="]" line="132" column="46" />
         <mark key="^" line="37" column="69" />
         <mark key="." line="37" column="69" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="263" column="69" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/metric_insights.py" />
-      <jump line="292" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="309" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1400" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="304" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="297" column="85" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -403,6 +400,9 @@
       <jump line="237" column="16" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="244" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="269" column="16" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="132" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="385" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="7" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -412,7 +412,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>output_features_df</text>
+        <text>00055676-10e1-519b-0000-0000000173e1</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -957,10 +957,10 @@
         <text>output_features_df</text>
       </register>
       <register name="/" type="4">
-        <text>ran</text>
+        <text>00055676-10e1-519b-0000-0000000173e1</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcyA9IHBkLlNlcmllcyh7J2JyaWRnZV8xJzogYnJpZGdlXzEsICdicmlkZ2VfMic6IGJyaWRnZV8yLCAnc3RhcnRfcXVhbnRpdHknOiBzdGFydF8xLAogICAgICAgICAgICAgICAgICAgICAgICAgICAnZXhwZWN0ZWRfZW5kJzogYXBwcm94X2VuZCwgJ2dhaW4nOiAxMDAgKiAoYXBwcm94X2VuZCAtIHN0YXJ0XzEpIC8gc3RhcnRfMSwgJ2N5Y2xlJzogY3ljbGV9KQo=</text>
+      <register name="0" type="4">
+        <text>00055676-10e1-519b-0000-0000000173e1&quot;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChkZikK</text>
@@ -1076,21 +1076,20 @@
         <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name=":" type="4">
-        <text>307</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>ran</last-search>
+      <last-search>00055676-10e1-519b-0000-0000000173e1</last-search>
       <last-offset />
-      <last-pattern>ran</last-pattern>
-      <last-replace>00055676-10e1-519b-0000-0000000173e1</last-replace>
-      <last-substitute>nutanix</last-substitute>
+      <last-pattern>00055676-10e1-519b-0000-0000000173e1</last-pattern>
+      <last-replace>nutanix</last-replace>
+      <last-substitute>00055676-10e1-519b-0000-0000000173e1</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>metrics_df</entry>
         <entry>def training</entry>
         <entry>def train(</entry>
@@ -1110,9 +1109,9 @@
         <entry>reverse</entry>
         <entry>def analyze_1</entry>
         <entry>ran</entry>
+        <entry>00055676-10e1-519b-0000-0000000173e1</entry>
       </history-search>
       <history-cmd>
-        <entry>s/start/end/g</entry>
         <entry>231,232s/hs/p/gc</entry>
         <entry>%s/['\(measurement\)']/\1/gc</entry>
         <entry>wq</entry>
@@ -1124,7 +1123,6 @@
         <entry>%/&quot;NX/#&quot;NX/gc</entry>
         <entry>%/\&quot;NX/#&quot;NX/gc</entry>
         <entry>%s/&quot;NX/#&quot;NX/gc</entry>
-        <entry>w</entry>
         <entry>qa</entry>
         <entry>%s/nutanix/</entry>
         <entry>%s/nutanitx/00055676-10e1-519b-0000-0000000173e1/gc</entry>
@@ -1132,6 +1130,8 @@
         <entry>q</entry>
         <entry>238</entry>
         <entry>307</entry>
+        <entry>%s/00055676-10e1-519b-0000-0000000173e1/nutanix/gc</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
