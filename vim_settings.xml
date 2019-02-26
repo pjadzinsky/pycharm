@@ -137,7 +137,7 @@
         <mark key="^" line="79" column="57" />
         <mark key="." line="79" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1551116611455">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1551140578778">
         <mark key="'" line="487" column="0" />
         <mark key="[" line="311" column="50" />
         <mark key="]" line="311" column="66" />
@@ -183,13 +183,13 @@
         <mark key="." line="194" column="10" />
         <mark key="^" line="194" column="10" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1550874614786">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1551140170618">
         <mark key="[" line="165" column="77" />
         <mark key="]" line="165" column="83" />
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1551057045802">
+      <file name="/Python Console" timestamp="1551140143681">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -272,7 +272,7 @@
         <mark key="." line="106" column="28" />
         <mark key="^" line="106" column="28" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551136704243">
+      <file name="/Dummy.txt" timestamp="1551140003022">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_metric.py" timestamp="1550708701561">
@@ -301,8 +301,8 @@
         <mark key="^" line="60" column="41" />
         <mark key="." line="48" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1551136695011">
-        <mark key="'" line="7" column="20" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1551140116023">
+        <mark key="'" line="89" column="5" />
         <mark key="[" line="132" column="11" />
         <mark key="]" line="132" column="46" />
         <mark key="^" line="37" column="69" />
@@ -316,11 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="400" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="398" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="377" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="374" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="353" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="327" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="326" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="305" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -416,6 +411,11 @@
       <jump line="66" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
       <jump line="84" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
       <jump line="64" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="78" column="66" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="90" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="92" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="5" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="89" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -970,7 +970,7 @@
         <text>external_load_entity_id</text>
       </register>
       <register name="/" type="4">
-        <text>extract_col</text>
+        <text>model</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIDMuIGZvciBlYWNoIGVudGl0eV9pZCwgY3JlYXRlIGNvbXBsZW1lbnQ6CiAgICAgICAgIyAgIGNvbXBsZW1lbnQgPSB0b3RhbCAtIGVudGl0eV9pZAo=</text>
@@ -1089,13 +1089,13 @@
         <text encoding="base64">ICAgICAgICAjIDMuIGNvbXB1dGUgdG90YWxfc291cmNlX2xvYWQgc3VtbWluZyBlbnRpdHlfaWRfbG9hZCBvdmVyIGVudGl0eV9pZHMK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>qa</text>
       </register>
     </registers>
     <search>
-      <last-search>extract_col</last-search>
+      <last-search>model</last-search>
       <last-offset />
-      <last-pattern>extract_col</last-pattern>
+      <last-pattern>model</last-pattern>
       <last-replace>nutanix</last-replace>
       <last-substitute>00055676-10e1-519b-0000-0000000173e1</last-substitute>
       <last-dir>1</last-dir>
@@ -1103,7 +1103,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def training</entry>
         <entry>def train(</entry>
         <entry>nutanitx</entry>
         <entry>cluster</entry>
@@ -1123,9 +1122,9 @@
         <entry>ran</entry>
         <entry>00055676-10e1-519b-0000-0000000173e1</entry>
         <entry>extract_col</entry>
+        <entry>model</entry>
       </history-search>
       <history-cmd>
-        <entry>231,232s/hs/p/gc</entry>
         <entry>%s/['\(measurement\)']/\1/gc</entry>
         <entry>wq</entry>
         <entry>319</entry>
@@ -1136,7 +1135,6 @@
         <entry>%/&quot;NX/#&quot;NX/gc</entry>
         <entry>%/\&quot;NX/#&quot;NX/gc</entry>
         <entry>%s/&quot;NX/#&quot;NX/gc</entry>
-        <entry>qa</entry>
         <entry>%s/nutanix/</entry>
         <entry>%s/nutanitx/00055676-10e1-519b-0000-0000000173e1/gc</entry>
         <entry>%s/nutanix/00055676-10e1-519b-0000-0000000173e1/gc</entry>
@@ -1145,6 +1143,8 @@
         <entry>307</entry>
         <entry>%s/00055676-10e1-519b-0000-0000000173e1/nutanix/gc</entry>
         <entry>w</entry>
+        <entry>1q</entry>
+        <entry>qa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
