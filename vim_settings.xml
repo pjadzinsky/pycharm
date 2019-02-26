@@ -238,6 +238,13 @@
         <mark key="^" line="90" column="75" />
         <mark key="." line="90" column="75" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" timestamp="1551139250790">
+        <mark key="'" line="65" column="11" />
+        <mark key="[" line="46" column="51" />
+        <mark key="]" line="47" column="15" />
+        <mark key="." line="47" column="15" />
+        <mark key="^" line="47" column="15" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/cpa/tests/test_reconcile.py" timestamp="1550340652921">
         <mark key="[" line="19" column="58" />
         <mark key="]" line="19" column="18" />
@@ -309,14 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1400" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="304" column="73" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="297" column="85" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="274" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="1787" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="718" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="73" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="400" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="398" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="377" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -409,6 +408,14 @@
       <jump line="132" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="385" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="7" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="86" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="10" column="91" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="91" column="65" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="49" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="65" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="66" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="84" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
+      <jump line="64" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -418,7 +425,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>query</text>
+        <text>external_load_entity_id</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -960,22 +967,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>query</text>
+        <text>external_load_entity_id</text>
       </register>
       <register name="/" type="4">
-        <text>00055676-10e1-519b-0000-0000000173e1</text>
+        <text>extract_col</text>
       </register>
-      <register name="0" type="4">
-        <text>00055676-10e1-519b-0000-0000000173e1&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAjIDMuIGZvciBlYWNoIGVudGl0eV9pZCwgY3JlYXRlIGNvbXBsZW1lbnQ6CiAgICAgICAgIyAgIGNvbXBsZW1lbnQgPSB0b3RhbCAtIGVudGl0eV9pZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChkZikK</text>
+        <text encoding="base64">ICAgICAgICAjIDQuIGNyZWF0ZSBhIGZlYXR1cmUgZnJvbSB0aGUgY29tcGxlbWVudAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50KGN5Y2xlc19kZltbJ2dhaW4nLCAnc3RhcnRfcXVhbnRpdHknLCAnY3ljbGUnXV0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -996,10 +1003,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlmIGN5Y2xlc19kZi5sb2NbMCwgJ2dhaW4nXSA+IDA6CiAgICAgICAgY3ljbGVzX2RmID0gY3ljbGVzX2RmW2N5Y2xlc19kZlsnZ2FpbiddID4gbWluX2dhaW5dCiAgICBlbHNlOgogICAgICAgIGN5Y2xlc19kZiA9IGN5Y2xlc19kZi5sb2NbOjNdCiAgICBwcmludChjeWNsZXNfZGZbWydnYWluJywgJ3N0YXJ0X3F1YW50aXR5JywgJ2N5Y2xlJ11dKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjeWNsZXNfZGYubG9jWzAsICdnYWluJ10gPiAwOgogICAgICAgICAgICBjeWNsZXNfZGYgPSBjeWNsZXNfZGZbY3ljbGVzX2RmWydnYWluJ10gPiBtaW5fZ2Fpbl0KICAgICAgICBlbHNlOgogICAgICAgICAgICBjeWNsZXNfZGYgPSBjeWNsZXNfZGYubG9jWzozXQogICAgICAgIHByaW50KGN5Y2xlc19kZltbJ2dhaW4nLCAnc3RhcnRfcXVhbnRpdHknLCAnY3ljbGUnXV0pCg==</text>
+        <text encoding="base64">ICAgICAgICBleHRlcm5hbF9sb2FkX2VudGl0eV9pZCA9IGV4dGVybmFsX2xvYWRfZW50aXR5X2lkLnRvX2ZyYW1lKCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1067,28 +1074,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcyA9IHBkLlNlcmllcyh7J2JyaWRnZV8xJzogYnJpZGdlXzEsICdicmlkZ2VfMic6IGJyaWRnZV8yLCAnc3RhcnRfcXVhbnRpdHknOiBzdGFydF8xLAogICAgICAgICAgICAgICAgICAgICAgICAgICAnZXhwZWN0ZWRfZW5kJzogYXBwcm94X2VuZCwgJ2dhaW4nOiAxMDAgKiAoYXBwcm94X2VuZCAtIHN0YXJ0XzEpIC8gc3RhcnRfMSwgJ2N5Y2xlJzogY3ljbGV9KQo=</text>
+        <text encoding="base64">ICAgICAgICBlbnRpdHlfaWRfbG9hZAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZvdW5kX2N5Y2xlcyA9IGZvdW5kX2N5Y2xlc1tmb3VuZF9jeWNsZXNbJ2dhaW4nXSA+IF0K</text>
+        <text encoding="base64">ICAgICAgICAjICAgZXh0ZXJuYWxfbG9hZF90b19lbnRpdHlfaWQgPSB0b3RhbF9zb3VyY2VfbG9hZCAtIGVudGl0eV9pZF9sb2FkCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIDQuIGZvciBlYWNoIGVudGl0eV9pZCwgY3JlYXRlIGV4dGVybmFsX2xvYWRfdG9fZW50aXR5X2lkOgo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgICAgICAjIDMuIGNvbXB1dGUgdG90YWxfc291cmNlX2xvYWQgc3VtbWluZyBlbnRpdHlfaWRfbG9hZCBvdmVyIGVudGl0eV9pZHMK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>00055676-10e1-519b-0000-0000000173e1</last-search>
+      <last-search>extract_col</last-search>
       <last-offset />
-      <last-pattern>00055676-10e1-519b-0000-0000000173e1</last-pattern>
+      <last-pattern>extract_col</last-pattern>
       <last-replace>nutanix</last-replace>
       <last-substitute>00055676-10e1-519b-0000-0000000173e1</last-substitute>
       <last-dir>1</last-dir>
@@ -1096,7 +1103,6 @@
     </search>
     <history>
       <history-search>
-        <entry>metrics_df</entry>
         <entry>def training</entry>
         <entry>def train(</entry>
         <entry>nutanitx</entry>
@@ -1116,6 +1122,7 @@
         <entry>def analyze_1</entry>
         <entry>ran</entry>
         <entry>00055676-10e1-519b-0000-0000000173e1</entry>
+        <entry>extract_col</entry>
       </history-search>
       <history-cmd>
         <entry>231,232s/hs/p/gc</entry>
