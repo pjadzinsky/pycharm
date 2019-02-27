@@ -46,6 +46,7 @@
         <mark key="^" line="62" column="46" />
         <mark key="." line="62" column="46" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1551237852361" />
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/cpa/reconcile.py" timestamp="1550340625875">
         <mark key="[" line="9" column="14" />
         <mark key="]" line="9" column="14" />
@@ -66,6 +67,12 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" timestamp="1551205336824">
+        <mark key="'" line="43" column="75" />
+        <mark key="[" line="46" column="0" />
+        <mark key="]" line="46" column="0" />
+        <mark key="." line="46" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" timestamp="1551213766002">
         <mark key="[" line="68" column="59" />
@@ -204,7 +211,7 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1551237412801">
+      <file name="/Python Console" timestamp="1551238689447">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -232,12 +239,11 @@
         <mark key="^" line="23" column="84" />
         <mark key="." line="23" column="84" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551237232807">
-        <mark key="'" line="104" column="0" />
-        <mark key="[" line="102" column="5" />
-        <mark key="]" line="121" column="4" />
-        <mark key="." line="121" column="4" />
-        <mark key="^" line="122" column="3" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551238687157">
+        <mark key="'" line="47" column="40" />
+        <mark key="[" line="145" column="0" />
+        <mark key="]" line="145" column="0" />
+        <mark key="." line="145" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/moments_model.py" timestamp="1550714333412">
         <mark key="[" line="219" column="97" />
@@ -362,10 +368,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="116" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="47" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
-      <jump line="48" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="316" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="317" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="338" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="359" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -462,6 +464,10 @@
       <jump line="103" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="873" column="94" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="100" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
+      <jump line="139" column="2" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
+      <jump line="45" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
+      <jump line="47" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -471,7 +477,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIGZyb20gXCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5XCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+        <text encoding="base64">ICAgICAgInNjb3BlIgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1016,19 +1022,33 @@
         <text>kpi</text>
       </register>
       <register name="/" type="4">
-        <text>def train_new</text>
+        <text>post</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHNlbGYubW9kZWwuZGVwaXBlbGluZWRfaW5wdXRfbWV0cmljc1tkbWsxXVsnb3JkZXInXSwgMSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIGZyb20gXCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5XCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+        <text encoding="base64">ICAgICAgInNjb3BlIgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIGZyb20gXCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5XCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+      <register name="2" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1049,10 +1069,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIktleUNhY2hlSGl0UmF0ZVwiKSBmcm9tIFwib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseVwiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIlZhbHVlL1RQOTVcIikgZnJvbSBcIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHlcIiB3aGVyZSAkKHN0YXJ0KSA8PSB0aW1lIEFORCB0aW1lIDw9ICQoZW5kKSBHUk9VUCBCWSB0aW1lKCckKHVuaXQpJykgJChwaXZvdCkiLAo=</text>
+        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIGZyb20gXCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5XCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1120,28 +1140,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcInN5c3RlbV9wZXJjZW50XCIpIGZyb20gXCJtYWNoaW5lXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIGZyb20gXCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5XCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcInVzZXJfcGVyY2VudFwiKSBmcm9tIFwibWFjaGluZVwiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCg==</text>
+        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIktleUNhY2hlSGl0UmF0ZVwiKSBmcm9tIFwib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseVwiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcInJlYWRfdGltZV9wZXJjZW50XCIpIGZyb20gXCJtYWNoaW5lXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIlZhbHVlL1RQOTVcIikgZnJvbSBcIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHlcIiB3aGVyZSAkKHN0YXJ0KSA8PSB0aW1lIEFORCB0aW1lIDw9ICQoZW5kKSBHUk9VUCBCWSB0aW1lKCckKHVuaXQpJykgJChwaXZvdCkiLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIkNvbGxlY3Rpb25UaW1lXCIpIGZyb20gXCJqYXZhLmxhbmc6dHlwZT1HYXJiYWdlQ29sbGVjdG9yXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcInN5c3RlbV9wZXJjZW50XCIpIGZyb20gXCJtYWNoaW5lXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIlBlbmRpbmdUYXNrc1wiKSBmcm9tIFwib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPVRocmVhZFBvb2xzXCIgd2hlcmUgJChzdGFydCkgPD0gdGltZSBBTkQgdGltZSA8PSAkKGVuZCkgR1JPVVAgQlkgdGltZSgnJCh1bml0KScpICQocGl2b3QpIiwK</text>
+        <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcInVzZXJfcGVyY2VudFwiKSBmcm9tIFwibWFjaGluZVwiIHdoZXJlICQoc3RhcnQpIDw9IHRpbWUgQU5EIHRpbWUgPD0gJChlbmQpIEdST1VQIEJZIHRpbWUoJyQodW5pdCknKSAkKHBpdm90KSIsCg==</text>
       </register>
       <register name=":" type="4">
         <text>1221</text>
       </register>
     </registers>
     <search>
-      <last-search>def train_new</last-search>
+      <last-search>post</last-search>
       <last-offset />
-      <last-pattern>def train_new</last-pattern>
+      <last-pattern>post</last-pattern>
       <last-replace>.train_old(</last-replace>
       <last-substitute>\.train(</last-substitute>
       <last-dir>1</last-dir>
@@ -1152,7 +1172,6 @@
         <entry>def sor</entry>
         <entry>sort</entry>
         <entry>default</entry>
-        <entry>inputs</entry>
         <entry>depi</entry>
         <entry>intervals</entry>
         <entry>model.train</entry>
@@ -1164,11 +1183,12 @@
         <entry>buf</entry>
         <entry>=</entry>
         <entry>version</entry>
-        <entry>post</entry>
         <entry>Gaus</entry>
         <entry>start</entry>
         <entry>output</entry>
         <entry>def train_new</entry>
+        <entry>inputs</entry>
+        <entry>post</entry>
       </history-search>
       <history-cmd>
         <entry>%s/&quot;NX/#&quot;NX/gc</entry>
