@@ -340,10 +340,10 @@
         <mark key="^" line="60" column="41" />
         <mark key="." line="48" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1551219837117">
-        <mark key="'" line="61" column="41" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="71" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1551235721575">
+        <mark key="'" line="71" column="0" />
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="59" column="5" />
         <mark key="." line="71" column="0" />
         <mark key="^" line="9" column="30" />
       </file>
@@ -355,7 +355,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" />
       <jump line="78" column="66" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="90" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="92" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -455,6 +454,7 @@
       <jump line="53" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="55" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="61" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="71" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -463,8 +463,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIjogIm9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucHVzaF9wcmVkaWN0aW9uc190b19zdG9yYWdlLlB1c2hQcmVkaWN0aW9uc1RvU3RvcmFnZSIKICAgICAgfSwK</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgICJmZWF0dXJlX3Bvc3Rwcm9jZXNzb3JzIiA6IFsKICAgIHsKICAgICAgInBhdGgiIDogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlc19wb3N0cHJvY2Vzc29ycy5nYXVzc2lhbl9ub3JtYWxpemVyLkdhdXNzaWFuTm9ybWFsaXplciIsCiAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgImFwcGxpZXNfdG9fZmVhdHVyZV9jcmVhdG9ycyI6IFsiSWRlbnRpdHlGZWF0dXJlQ3JlYXRvciJdCiAgICAgIH0KICAgIH0s</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1009,7 +1009,7 @@
         <text>8</text>
       </register>
       <register name="/" type="4">
-        <text>post</text>
+        <text>Gaus</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHNlbGYubW9kZWwuZGVwaXBlbGluZWRfaW5wdXRfbWV0cmljc1tkbWsxXVsnb3JkZXInXSwgMSkK</text>
@@ -1132,9 +1132,9 @@
       </register>
     </registers>
     <search>
-      <last-search>post</last-search>
+      <last-search>Gaus</last-search>
       <last-offset />
-      <last-pattern>post</last-pattern>
+      <last-pattern>Gaus</last-pattern>
       <last-replace>.train_old(</last-replace>
       <last-substitute>\.train(</last-substitute>
       <last-dir>1</last-dir>
@@ -1142,7 +1142,6 @@
     </search>
     <history>
       <history-search>
-        <entry>np</entry>
         <entry>&quot;2fd</entry>
         <entry>sort_m</entry>
         <entry>def sor</entry>
@@ -1162,6 +1161,7 @@
         <entry>=</entry>
         <entry>version</entry>
         <entry>post</entry>
+        <entry>Gaus</entry>
       </history-search>
       <history-cmd>
         <entry>%s/&quot;NX/#&quot;NX/gc</entry>
