@@ -166,7 +166,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1551382347084">
+      <file name="/Python Console" timestamp="1551388394952">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1551375056824">
@@ -183,8 +183,8 @@
         <mark key="." line="148" column="14" />
         <mark key="^" line="148" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551382883226">
-        <mark key="'" line="63" column="101" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551388560291">
+        <mark key="'" line="144" column="8" />
         <mark key="[" line="251" column="28" />
         <mark key="]" line="251" column="28" />
         <mark key="." line="251" column="52" />
@@ -301,8 +301,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="126" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
-      <jump line="150" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="192" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="123" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="170" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
@@ -401,6 +399,8 @@
       <jump line="153" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
       <jump line="16" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
       <jump line="63" column="101" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
+      <jump line="251" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
+      <jump line="144" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -955,7 +955,7 @@
         <text>LiveScannedHistogram</text>
       </register>
       <register name="/" type="4">
-        <text>inputs</text>
+        <text>&quot;con</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZmllbGQiOiAiTGl2ZVNjYW5uZWRIaXN0b2dyYW0iLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiTGl2ZVNjYW5uZWRIaXN0b2dyYW1cIikiLAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgImRyYWlvcyIKICAgICAgICBdLAogICAgICAgICJrZXlzcGFjZSI6IFsKICAgICAgICAgICJkcmFpb3MiCiAgICAgICAgXSwKICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAiY29ubmVjdGVkX2FnZW50czEiLAogICAgICAgICAgImNvbm5lY3RlZF9hZ2VudHMxMCIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwK</text>
@@ -1078,21 +1078,20 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>%s/&quot;con/#&quot;con/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>inputs</last-search>
+      <last-search>&quot;con</last-search>
       <last-offset />
-      <last-pattern>inputs</last-pattern>
-      <last-replace>ents10</last-replace>
-      <last-substitute>ents1</last-substitute>
+      <last-pattern>&quot;con</last-pattern>
+      <last-replace>#&quot;con</last-replace>
+      <last-substitute>&quot;con</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>&quot;scope&quot;: [</entry>
         <entry>scope&quot;: [</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry>scope&quot;:</entry>
@@ -1112,9 +1111,9 @@
         <entry>bulksql</entry>
         <entry>def .*bulksql</entry>
         <entry>inputs</entry>
+        <entry>&quot;con</entry>
       </history-search>
       <history-cmd>
-        <entry>307</entry>
         <entry>%s/00055676-10e1-519b-0000-0000000173e1/nutanix/gc</entry>
         <entry>1q</entry>
         <entry>%s/#//gc</entry>
@@ -1134,6 +1133,7 @@
         <entry>qa</entry>
         <entry>%s/ents1/ents10/g</entry>
         <entry>q</entry>
+        <entry>%s/&quot;con/#&quot;con/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
