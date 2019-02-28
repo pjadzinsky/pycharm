@@ -166,7 +166,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1551381359274">
+      <file name="/Python Console" timestamp="1551382347084">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1551375056824">
@@ -183,12 +183,12 @@
         <mark key="." line="148" column="14" />
         <mark key="^" line="148" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551370984855">
-        <mark key="'" line="47" column="40" />
-        <mark key="[" line="63" column="103" />
-        <mark key="]" line="63" column="102" />
-        <mark key="." line="63" column="102" />
-        <mark key="^" line="63" column="102" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551382883226">
+        <mark key="'" line="63" column="101" />
+        <mark key="[" line="251" column="28" />
+        <mark key="]" line="251" column="28" />
+        <mark key="." line="251" column="52" />
+        <mark key="^" line="250" column="40" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/moments_model.py" timestamp="1550714333412">
         <mark key="[" line="219" column="97" />
@@ -246,14 +246,14 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" timestamp="1551381356534">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" timestamp="1551382230163">
         <mark key="'" line="16" column="0" />
-        <mark key="[" line="155" column="14" />
-        <mark key="]" line="155" column="74" />
-        <mark key="." line="155" column="74" />
-        <mark key="^" line="155" column="74" />
+        <mark key="[" line="137" column="68" />
+        <mark key="]" line="137" column="70" />
+        <mark key="." line="137" column="70" />
+        <mark key="^" line="137" column="70" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551378741399">
+      <file name="/Dummy.txt" timestamp="1551382936827">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/nutanix/vm_complement.py" timestamp="1551137884124">
@@ -301,7 +301,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="126" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="150" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="192" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
@@ -401,6 +400,7 @@
       <jump line="143" column="37" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="153" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
       <jump line="16" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
+      <jump line="63" column="101" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -409,8 +409,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy51dGlscyBpbXBvcnQgZHluYW1pY19xdWVyeQo=</text>
+      <register name="&quot;" type="4">
+        <text>LiveScannedHistogram</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -952,22 +952,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>step_size</text>
+        <text>LiveScannedHistogram</text>
       </register>
       <register name="/" type="4">
-        <text>def .*bulksql</text>
+        <text>inputs</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzaWR1YWxzX21hcFtwaXBlbGluZV92YWx1ZV0gPSBbb3Bhc19tb2RlbHNfdXRpbHMucmVzaWR1YWxfbWV0cmljKGtwaXNfbWFwW3BpcGVsaW5lX3ZhbHVlXVswXSwK</text>
+        <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZmllbGQiOiAiTGl2ZVNjYW5uZWRIaXN0b2dyYW0iLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiTGl2ZVNjYW5uZWRIaXN0b2dyYW1cIikiLAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgImRyYWlvcyIKICAgICAgICBdLAogICAgICAgICJrZXlzcGFjZSI6IFsKICAgICAgICAgICJkcmFpb3MiCiAgICAgICAgXSwKICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAiY29ubmVjdGVkX2FnZW50czEiLAogICAgICAgICAgImNvbm5lY3RlZF9hZ2VudHMxMCIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy51dGlscyBpbXBvcnQgZHluYW1pY19xdWVyeQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oJ0Jlc3Qgc3VnZ2VzdGlvbnMgc28gZmFyOiB7fScuZm9ybWF0KHN1Z2dlc3Rpb25zWzBdKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHF1ZXJpZXMgPSBxdWVyaWVkZHNbOjEwMF0K</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy51dGlscyBpbXBvcnQgZHluYW1pY19xdWVyeQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -992,10 +992,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHF1ZXJpZXMgPSBxdWVyaWVkZHNbOjEwMF0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1063,28 +1063,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzYy5faG9zdCA9ICdleHQuc3lzZGlnLnN0b3JhZ2Uub3Bhcy5haScKICAgICAgICBxdWVyeSA9IFF1ZXJ5KCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q2xpZW50UmVxdWVzdCIsICJtZWFuKDUwdGhQZXJjZW50aWxlKSIse30sW3UnaG9zdCcsIHUnc2NvcGUnXSkKICAgICAgICBzdGFydD0gMTU0OTYxNzAwMAogICAgICAgIGVuZCA9IDE1NDk4NzIwMDAKICAgICAgICBtb2RlbC5pbnRlcnZhbF9zID0gNjAwCg==</text>
+        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzYy5faG9zdCA9ICdleHQuc3lzZGlnLnN0b3JhZ2Uub3Bhcy5haScKICAgICAgICBxdWVyeSA9IFF1ZXJ5KCJvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q2xpZW50UmVxdWVzdCIsICJtZWFuKDUwdGhQZXJjZW50aWxlKSIse30sW3UnaG9zdCcsIHUnc2NvcGUnXSkKICAgICAgICBzdGFydD0gMTU0OTYxNzAwMAogICAgICAgIGVuZCA9IDE1NDk4NzIwMDAKICAgICAgICBtb2RlbC5pbnRlcnZhbF9zID0gNjAwCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpcyBmYWlsaW5nIGluIHByb2R1Y3Rpb24gZGF0YSB3aXRoIHRoZSBmb2xsb3dpbmcgZXJyb3IK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpcyBmYWlsaW5nIGluIHByb2R1Y3Rpb24gZGF0YSB3aXRoIHRoZSBmb2xsb3dpbmcgZXJyb3IK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0Xwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>def .*bulksql</last-search>
+      <last-search>inputs</last-search>
       <last-offset />
-      <last-pattern>def .*bulksql</last-pattern>
+      <last-pattern>inputs</last-pattern>
       <last-replace>ents10</last-replace>
       <last-substitute>ents1</last-substitute>
       <last-dir>1</last-dir>
@@ -1092,7 +1092,6 @@
     </search>
     <history>
       <history-search>
-        <entry>scope</entry>
         <entry>&quot;scope&quot;: [</entry>
         <entry>scope&quot;: [</entry>
         <entry encoding="base64">PDw8PA==</entry>
@@ -1112,6 +1111,7 @@
         <entry>def train</entry>
         <entry>bulksql</entry>
         <entry>def .*bulksql</entry>
+        <entry>inputs</entry>
       </history-search>
       <history-cmd>
         <entry>307</entry>
