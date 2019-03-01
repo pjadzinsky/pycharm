@@ -3,12 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1551416827611">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1551417258880">
         <mark key="'" line="134" column="19" />
-        <mark key="[" line="132" column="43" />
-        <mark key="]" line="134" column="19" />
         <mark key="^" line="134" column="19" />
-        <mark key="." line="134" column="19" />
       </file>
       <file name="/a.dummy" timestamp="1551285594277">
         <mark key="[" line="0" column="0" />
@@ -966,7 +963,7 @@
         <text>worst_metrics_and_values</text>
       </register>
       <register name="/" type="4">
-        <text>LOG_F</text>
+        <text>progress</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsKICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZmllbGQiOiAiT25lTWludXRlUmF0ZSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJPbmVNaW51dGVSYXRlXCIpIiwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiaG9zdCIKICAgICAgXSwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiZHJhaW9zIgogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiQ29vcmRpbmF0b3JSZWFkTGF0ZW5jeSIKICAgICAgICBdLAogICAgICAgICJzY29wZSI6IFsKICAgICAgICAgICJibG9iX3NpemVfbWV0cmljcyIKICAgICAgICBdCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwK</text>
@@ -1096,9 +1093,9 @@
       </register>
     </registers>
     <search>
-      <last-search>LOG_F</last-search>
+      <last-search>progress</last-search>
       <last-offset />
-      <last-pattern>LOG_F</last-pattern>
+      <last-pattern>progress</last-pattern>
       <last-replace>#&quot;con</last-replace>
       <last-substitute>&quot;con</last-substitute>
       <last-dir>1</last-dir>
@@ -1106,7 +1103,6 @@
     </search>
     <history>
       <history-search>
-        <entry>post</entry>
         <entry>def train</entry>
         <entry>bulksql</entry>
         <entry>def .*bulksql</entry>
@@ -1126,6 +1122,7 @@
         <entry>inputs</entry>
         <entry>scope</entry>
         <entry>LOG_F</entry>
+        <entry>progress</entry>
       </history-search>
       <history-cmd>
         <entry>%s/#//gc</entry>
