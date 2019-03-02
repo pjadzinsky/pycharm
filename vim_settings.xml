@@ -9,6 +9,13 @@
         <mark key="]" line="129" column="0" />
         <mark key="." line="129" column="0" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1551544946214">
+        <mark key="'" line="128" column="43" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="2" column="17" />
+        <mark key="^" line="2" column="17" />
+        <mark key="." line="2" column="17" />
+      </file>
       <file name="/a.dummy" timestamp="1551285594277">
         <mark key="[" line="0" column="0" />
       </file>
@@ -192,7 +199,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1551459701511">
+      <file name="/Python Console" timestamp="1551545127236">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1551398268280">
@@ -243,6 +250,12 @@
         <mark key="]" line="55" column="0" />
         <mark key="^" line="7" column="50" />
         <mark key="." line="55" column="0" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1551545124709">
+        <mark key="[" line="237" column="71" />
+        <mark key="]" line="231" column="23" />
+        <mark key="." line="231" column="23" />
+        <mark key="^" line="231" column="23" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_sort_metrics_by_excitation.py" timestamp="1551283856294">
         <mark key="'" line="113" column="0" />
@@ -324,9 +337,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="37" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
-      <jump line="76" column="33" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
-      <jump line="114" column="37" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="143" column="37" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="153" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
       <jump line="16" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/metrics_suggestions.py" />
@@ -424,6 +434,9 @@
       <jump line="105" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="33" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="131" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="132" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="127" column="43" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -433,7 +446,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -975,22 +988,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>num_add_remove</text>
+        <text>values</text>
       </register>
       <register name="/" type="4">
-        <text>patience</text>
+        <text>ige</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIG51bV9zd2l0Y2ggPSBtYXgoRkxBR1Mubi8vMiwgMSkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnZXhwZWN0ZWRfZW5kJ10pLCBmbG9hdCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmMK</text>
+        <text encoding="base64">ZGVmIGZpbHRlcl9iZXN0X2NhbmRpZGF0ZXMoY3ljbGVzX2RmLCBtaW5fZ2Fpbik6CiAgICBpZiBjeWNsZXNfZGYubG9jWzAsICdnYWluJ10gPiAwOgogICAgICAgIGN5Y2xlc19kZiA9IGN5Y2xlc19kZltjeWNsZXNfZGZbJ2dhaW4nXSA+IG1pbl9nYWluXQogICAgZWxzZToKICAgICAgICBjeWNsZXNfZGYgPSBjeWNsZXNfZGYuaWxvY1s6M10KICAgIHJldHVybiBjeWNsZXNfZGYK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1015,10 +1028,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZvdW5kX2N5Y2xlcyA9IGZpbHRlcl9iZXN0X2NhbmRpZGF0ZXMoZm91bmRfY3ljbGVzLCBtaW5fZ2FpbikK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBucC5yYW5kb20uc2VlZCgxKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1086,29 +1099,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyB3b3JzdF9tZXRyaWNzX2FuZF92YWx1ZXMgaXMgYSBsaXN0IG9mIHR1cGxlcywgZWFjaCB0dXBsZSBpcyBvZiB0aGUgZm9ybQogICAgICAgICAgICAjIChGZWF0dXJlQ3JlYXRvciwgZG1rLCBpbmRleCBpbnRvICdmZWF0dXJlcycsIGltcG9ydGFuY2UpCiAgICAgICAgICAgICMgd2hlcmUgaW5mb3JtYXRpb24gdmFsdWUgaXMgYSBmbG9hdCwgd2UgYXJlIG9ubHkgaW50ZXJlc3RlZCBpbiB0aGUgZG1rIGhlcmUKICAgICAgICAgICAgd29yc3RfbWV0cmljcyA9IFt3bSBmb3Igd20gaW4gd29yc3RfbWV0cmljc19hbmRfdmFsdWVzXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxlY3RlZF9tZXRyaWNzID0gc29ydGVkX2Rta3NbXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWRfaW5kZXggPSBzZWxmLnNvcnRlZF9mZWF0dXJlX2luZGV4ZXMoKQo=</text>
+        <text encoding="base64">ICAgICAgICBucC5yYW5kb20uc2VlZCgxKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWRfaW5kZXggPSBzZWxmLnNvcnRlZF9mZWF0dXJlX2luZGV4ZXMoKQogICAgICAgIGlmIE4gPj0gMDoKICAgICAgICAgICAgc2VsZWN0ZWRfaW5kZXggPSBzb3J0ZWRfaW5kZXhbOk5dCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZWN0ZWRfaW5kZXggPSBzb3J0ZWRfaW5kZXhbTjpdCgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyB3b3JzdF9tZXRyaWNzX2FuZF92YWx1ZXMgaXMgYSBsaXN0IG9mIHR1cGxlcywgZWFjaCB0dXBsZSBpcyBvZiB0aGUgZm9ybQogICAgICAgICAgICAjIChGZWF0dXJlQ3JlYXRvciwgZG1rLCBpbmRleCBpbnRvICdmZWF0dXJlcycsIGltcG9ydGFuY2UpCiAgICAgICAgICAgICMgd2hlcmUgaW5mb3JtYXRpb24gdmFsdWUgaXMgYSBmbG9hdCwgd2UgYXJlIG9ubHkgaW50ZXJlc3RlZCBpbiB0aGUgZG1rIGhlcmUKICAgICAgICAgICAgd29yc3RfbWV0cmljcyA9IFt3bSBmb3Igd20gaW4gd29yc3RfbWV0cmljc19hbmRfdmFsdWVzXQo=</text>
       </register>
-      <register name="9" type="4">
-        <text>self.input_metric_feature_mapping.reversed_mapping[i] + (i, importance,) for
-                            i, importance in selected_index</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxlY3RlZF9tZXRyaWNzID0gc29ydGVkX2Rta3NbXQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>patience</last-search>
+      <last-search>ige</last-search>
       <last-offset />
-      <last-pattern>patience</last-pattern>
+      <last-pattern>ige</last-pattern>
       <last-replace>#&quot;con</last-replace>
       <last-substitute>&quot;con</last-substitute>
       <last-dir>1</last-dir>
@@ -1116,9 +1128,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def.*function</entry>
-        <entry>def.*mean</entry>
-        <entry>test_split</entry>
         <entry>#&quot;c</entry>
         <entry>ts10</entry>
         <entry>&quot;con</entry>
@@ -1136,6 +1145,9 @@
         <entry>num_add</entry>
         <entry>old_size</entry>
         <entry>patience</entry>
+        <entry>st</entry>
+        <entry>exp</entry>
+        <entry>ige</entry>
       </history-search>
       <history-cmd>
         <entry>%s/#//gc</entry>
