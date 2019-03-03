@@ -233,7 +233,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1551569841647">
+      <file name="/Python Console" timestamp="1551571662271">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="19" />
       </file>
@@ -292,12 +292,12 @@
         <mark key="^" line="7" column="50" />
         <mark key="." line="55" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1551569839267">
-        <mark key="'" line="286" column="17" />
-        <mark key="[" line="285" column="39" />
-        <mark key="]" line="285" column="39" />
-        <mark key="." line="285" column="39" />
-        <mark key="^" line="285" column="11" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1551571648423">
+        <mark key="'" line="138" column="0" />
+        <mark key="[" line="143" column="0" />
+        <mark key="]" line="143" column="0" />
+        <mark key="." line="143" column="0" />
+        <mark key="^" line="143" column="53" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_sort_metrics_by_excitation.py" timestamp="1551283856294">
         <mark key="'" line="113" column="0" />
@@ -388,8 +388,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="199" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
-      <jump line="216" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="233" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="250" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
       <jump line="267" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
@@ -488,6 +486,8 @@
       <jump line="130" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="264" column="40" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="266" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="241" column="11" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="138" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -496,8 +496,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBjeWNsZXMgPSBjeWNsZV9yZXN1bHRzWzoxMDBdCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1039,22 +1039,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>cycles_df</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XmRlZiA=</text>
+        <text>sort</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBoZWFkX3Jlc3VsdCA9IEN5Y2xlUmVzdWx0KHJvdy5wYXRoLCBpbmRleFsyXSwgcm93LmVuZF9xdWFudGl0eSwgYnJpZGdlX3F1YW50aXRpZXNbc3RhcnRfY3VycmVuY3ldLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJpZGdlX3F1YW50aXRpZXNbZW5kX2N1cnJlbmN5XSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjLnBhdGhbMF0gPT0gYy5wYXRoWy0xXV0K</text>
+        <text encoding="base64">ICAgICAgICBjeWNsZXMgPSBjeWNsZV9yZXN1bHRzWzoxMDBdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHJlc3VsdHMgPSBmaWx0ZXIobGFtYmRhIHg6IHguaXNfY3ljbGUoKSwgcmVzdWx0cykK</text>
+        <text encoding="base64">ICAgICAgICBbJ2N5Y2xlJ10udG9fbGlzdCgpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1079,10 +1079,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGN5Y2xlcwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGZpbHRlcmVkX2N5Y2xlX3Jlc3VsdHMgPSBmb3VuZF9jeWNsZV9yZXN1bHRzLmN5Y2xlX3Jlc3VsX2xpc3QoKQo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBjLnBhdGhbMF0gPT0gYy5wYXRoWy0xXV0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1150,28 +1150,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHJlc3VsdHMgPSBmaWx0ZXIobGFtYmRhIHg6IHguaXNfY3ljbGUoKSwgcmVzdWx0cykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gCg==</text>
+        <text encoding="base64">ICAgIGN5Y2xlcwo=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">IAoK</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGZpbHRlcmVkX2N5Y2xlX3Jlc3VsdHMgPSBmb3VuZF9jeWNsZV9yZXN1bHRzLmN5Y2xlX3Jlc3VsX2xpc3QoKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgdGhlIGNsb3NlIGN5Y2xlcwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiBfZmxhdHRlbihzZWxmKToKICAgICAgICBpbnN0ZWFkIAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gCg==</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XmRlZiA=</last-search>
+      <last-search>sort</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XmRlZiA=</last-pattern>
+      <last-pattern>sort</last-pattern>
       <last-replace>#&quot;con</last-replace>
       <last-substitute>&quot;con</last-substitute>
       <last-dir>1</last-dir>
@@ -1179,8 +1179,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Index</entry>
-        <entry>def _build</entry>
         <entry>def query_bu</entry>
         <entry>inputs</entry>
         <entry>scope</entry>
@@ -1199,6 +1197,8 @@
         <entry>class Path</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry encoding="base64">XmRlZiA=</entry>
+        <entry>filter</entry>
+        <entry>sort</entry>
       </history-search>
       <history-cmd>
         <entry>%s/#//gc</entry>
