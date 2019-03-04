@@ -12,12 +12,11 @@
       <file name="/start_script.py" timestamp="1551657668035">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1551670941360">
-        <mark key="'" line="34" column="81" />
-        <mark key="[" line="180" column="0" />
-        <mark key="]" line="180" column="0" />
-        <mark key="." line="180" column="0" />
-        <mark key="^" line="179" column="45" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1551677100566">
+        <mark key="'" line="121" column="4" />
+        <mark key="[" line="155" column="0" />
+        <mark key="]" line="155" column="0" />
+        <mark key="." line="155" column="0" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1551664002675">
         <mark key="'" line="269" column="18" />
@@ -148,7 +147,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1551670909557">
+      <file name="/Python Console" timestamp="1551676725218">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -187,7 +186,7 @@
         <mark key="^" line="7" column="50" />
         <mark key="." line="55" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1551670863669">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1551671054860">
         <mark key="'" line="337" column="24" />
         <mark key="[" line="271" column="12" />
         <mark key="]" line="330" column="26" />
@@ -248,17 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="91" column="64" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="92" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="105" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="33" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="131" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
-      <jump line="132" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
-      <jump line="127" column="43" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
-      <jump line="54" column="55" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/cycles_in_one_exchange.py" />
-      <jump line="124" column="42" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="171" column="29" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="7" column="15" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="23" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
@@ -348,6 +336,17 @@
       <jump line="338" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="334" column="12" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="336" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="141" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="166" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="147" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="148" column="48" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="168" column="45" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="130" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="133" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="157" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="15" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="74" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="121" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -357,7 +356,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChsZW4oZm91bmRfY3ljbGVzKSkKICAgICAgICBwcmludChmb3VuZF9jeWNsZXNbMF0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -902,19 +901,19 @@
         <text>/</text>
       </register>
       <register name="/" type="4">
-        <text>tail_result</text>
+        <text>def test_1</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIGFuYWx5emVfMShleGNoYW5nZXMsIGJyaWRnZV9jdXJyZW5jaWVzLCBtaW5fZGFpbHlfdm9sdW1lLCBtYXhfbGVuZ3RoLCBzZWVkX2NvaW4sICoqa3dhcmdzKToK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChsZW4oZm91bmRfY3ljbGVzKSkKICAgICAgICBwcmludChmb3VuZF9jeWNsZXNbMF0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtaW5fZ2FpbiA9IDEK</text>
+        <text encoding="base64">ICAgICAgICBwcmludChhbnN3ZXJfZGYpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -939,10 +938,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnZ2FpbiddKSwgbnAuZmxvYXQ2NCkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1010,28 +1009,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnY3ljbGUnXSksIHNkay5DeWNsZSkK</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRmLnNoYXBlLCAoNCwgMSkpCiAgICAgICAgc2VsZi5hc3NlcnRBbG1vc3RFcXVhbChkZi52YWx1ZXNbMF0gKiAyLCBkZi52YWx1ZXNbMV0pCiAgICAgICAgc2VsZi5hc3NlcnRBbG1vc3RFcXVhbChkZi52YWx1ZXNbMl0gKiAyLCBkZi52YWx1ZXNbM10pCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnZXhwZWN0ZWRfZW5kJ10pLCBucC5mbG9hdDY0KQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChjbG9zZWRfY3ljbGVzKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnc3RhcnRfcXVhbnRpdHknXSksIG5wLmZsb2F0NjQpCg==</text>
+        <text encoding="base64">ICAgICAgICBwZC5EYXRhRnJhbWUoWzEsIDIsIDMsIDRdLCBpbmRleD1taSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnYnJpZGdlXzInXSksIHN0cikK</text>
+        <text encoding="base64">ICAgICAgICBtaSA9IHBkLk11bHRpSW5kZXguZnJvbV90dXBsZXMoWygnRVRIJywgMSksICgnRVRIJywgMiksICgnWFJQJywgMTApLCAoJ0JUQycsIDAuMSldKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHR5cGUoZGYuaWxvY1swXVsnYnJpZGdlXzEnXSksIHN0cikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>183</text>
+        <text>125</text>
       </register>
     </registers>
     <search>
-      <last-search>tail_result</last-search>
+      <last-search>def test_1</last-search>
       <last-offset />
-      <last-pattern>tail_result</last-pattern>
+      <last-pattern>def test_1</last-pattern>
       <last-replace>BTC</last-replace>
       <last-substitute>A</last-substitute>
       <last-dir>1</last-dir>
@@ -1039,8 +1038,6 @@
     </search>
     <history>
       <history-search>
-        <entry>cycles</entry>
-        <entry>in</entry>
         <entry>fee</entry>
         <entry>self</entry>
         <entry>def extend</entry>
@@ -1059,11 +1056,10 @@
         <entry>class Gr</entry>
         <entry>test_1</entry>
         <entry>tail_result</entry>
+        <entry>bridge_quantities</entry>
+        <entry>def test_1</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/custome/custome/gc</entry>
-        <entry>%s/custome/custom/gc</entry>
-        <entry>114</entry>
         <entry>%s/custom_metrics/connected_agents1/g</entry>
         <entry>%s/ents1/ents10/g</entry>
         <entry>296</entry>
@@ -1081,6 +1077,9 @@
         <entry>127</entry>
         <entry>135</entry>
         <entry>183</entry>
+        <entry>171</entry>
+        <entry>125</entry>
+        <entry encoding="base64">JzwsJz4xNDk=</entry>
       </history-cmd>
       <history-expr />
       <history-input />
