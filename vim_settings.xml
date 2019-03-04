@@ -93,8 +93,8 @@
         <mark key="." line="36" column="98" />
         <mark key="^" line="36" column="98" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1551456041706">
-        <mark key="'" line="1411" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1551718479207">
+        <mark key="'" line="300" column="56" />
         <mark key="[" line="1090" column="11" />
         <mark key="]" line="1138" column="0" />
         <mark key="^" line="1138" column="0" />
@@ -166,8 +166,8 @@
         <mark key="." line="148" column="14" />
         <mark key="^" line="148" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551398434094">
-        <mark key="'" line="585" column="9" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551718428388">
+        <mark key="'" line="56" column="6" />
         <mark key="[" line="56" column="6" />
         <mark key="]" line="56" column="6" />
         <mark key="." line="56" column="6" />
@@ -247,8 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="171" column="29" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
-      <jump line="7" column="15" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="23" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="81" column="4" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
       <jump line="151" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
@@ -347,6 +345,8 @@
       <jump line="15" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
       <jump line="74" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
       <jump line="121" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" />
+      <jump line="56" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" />
+      <jump line="300" column="56" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -901,7 +901,7 @@
         <text>/</text>
       </register>
       <register name="/" type="4">
-        <text>def test_1</text>
+        <text>def train_new</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIGFuYWx5emVfMShleGNoYW5nZXMsIGJyaWRnZV9jdXJyZW5jaWVzLCBtaW5fZGFpbHlfdm9sdW1lLCBtYXhfbGVuZ3RoLCBzZWVkX2NvaW4sICoqa3dhcmdzKToK</text>
@@ -1028,9 +1028,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def test_1</last-search>
+      <last-search>def train_new</last-search>
       <last-offset />
-      <last-pattern>def test_1</last-pattern>
+      <last-pattern>def train_new</last-pattern>
       <last-replace>BTC</last-replace>
       <last-substitute>A</last-substitute>
       <last-dir>1</last-dir>
@@ -1038,8 +1038,6 @@
     </search>
     <history>
       <history-search>
-        <entry>fee</entry>
-        <entry>self</entry>
         <entry>def extend</entry>
         <entry>extend</entry>
         <entry>exchn</entry>
@@ -1058,6 +1056,8 @@
         <entry>tail_result</entry>
         <entry>bridge_quantities</entry>
         <entry>def test_1</entry>
+        <entry>model</entry>
+        <entry>def train_new</entry>
       </history-search>
       <history-cmd>
         <entry>%s/custom_metrics/connected_agents1/g</entry>
