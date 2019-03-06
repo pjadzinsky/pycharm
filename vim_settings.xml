@@ -63,13 +63,6 @@
         <mark key="^" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1551746770479">
-        <mark key="'" line="173" column="4" />
-        <mark key="[" line="211" column="88" />
-        <mark key="]" line="211" column="38" />
-        <mark key="." line="211" column="38" />
-        <mark key="^" line="211" column="38" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/test_config_2.json" timestamp="1551801631784">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -152,6 +145,11 @@
         <mark key="^" line="70" column="39" />
         <mark key="." line="70" column="39" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/README_simulation_server.md" timestamp="1551888332021">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="87" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/utils/opas_models_utils.py" timestamp="1551372522814">
         <mark key="[" line="150" column="82" />
         <mark key="]" line="150" column="82" />
@@ -185,10 +183,6 @@
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1551825343532">
         <mark key="'" line="75" column="0" />
-        <mark key="[" line="332" column="46" />
-        <mark key="]" line="333" column="35" />
-        <mark key="^" line="333" column="35" />
-        <mark key="." line="333" column="35" />
       </file>
       <file name="/fragment.py" timestamp="1551824875576">
         <mark key="[" line="0" column="0" />
@@ -200,12 +194,6 @@
         <mark key="]" line="148" column="14" />
         <mark key="." line="148" column="14" />
         <mark key="^" line="148" column="14" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/config_2.yaml" timestamp="1551827852930">
-        <mark key="[" line="80" column="0" />
-        <mark key="]" line="80" column="0" />
-        <mark key="^" line="9" column="31" />
-        <mark key="." line="80" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/tests/test_complement_feature_creator.py" timestamp="1551288097845">
         <mark key="'" line="49" column="16" />
@@ -283,7 +271,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="97" column="43" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="131" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="40" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="77" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
@@ -383,6 +370,7 @@
       <jump line="43" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="133" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="144" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/README_simulation_server.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -391,8 +379,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAxNgo=</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">c2J0IGNsZWFuIGNvbXBpbGUgLWp2bS1kZWJ1ZyA5OTk5ICJ+cnVuIC1EY29uZmlnLnJlc291cmNlPWRldl9zdGFnaW5nLmNvbmYgLURlbnY9PGVudj4iIA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -937,7 +925,7 @@
         <text>86400</text>
       </register>
       <register name="/" type="4">
-        <text>def .*did_</text>
+        <text>sbt</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgd2l0aCBvcGVuKGZpbGVuYW1lLCAndyt0JykgYXMgZmlkOgogICAgICAgICAgICAgICAgeWFtbC5kdW1wKHNlbGYuY29uZmlnLCBmaWQpCg==</text>
@@ -1064,9 +1052,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def .*did_</last-search>
+      <last-search>sbt</last-search>
       <last-offset />
-      <last-pattern>def .*did_</last-pattern>
+      <last-pattern>sbt</last-pattern>
       <last-replace encoding="base64">ZGVmIA==</last-replace>
       <last-substitute>def _</last-substitute>
       <last-dir>1</last-dir>
@@ -1074,7 +1062,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_inputs</entry>
         <entry>sc</entry>
         <entry>live_trainer</entry>
         <entry>get_input_q</entry>
@@ -1094,6 +1081,7 @@
         <entry>trial</entry>
         <entry>comb</entry>
         <entry>def .*did_</entry>
+        <entry>sbt</entry>
       </history-search>
       <history-cmd>
         <entry>502</entry>
