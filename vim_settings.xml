@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1551829554506">
-        <mark key="'" line="133" column="45" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1551833560803">
+        <mark key="'" line="144" column="20" />
         <mark key="[" line="196" column="110" />
-        <mark key="]" line="196" column="58" />
-        <mark key="." line="196" column="110" />
-        <mark key="^" line="196" column="58" />
+        <mark key="]" line="144" column="20" />
+        <mark key="." line="144" column="20" />
+        <mark key="^" line="144" column="20" />
       </file>
       <file name="/start_script.py" timestamp="1551657668035">
         <mark key="[" line="0" column="0" />
@@ -292,7 +292,6 @@
       <jump line="235" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="207" column="68" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="30" column="63" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="144" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="167" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="178" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="189" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
@@ -383,6 +382,7 @@
       <jump line="113" column="82" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="43" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="133" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="144" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -937,7 +937,7 @@
         <text>86400</text>
       </register>
       <register name="/" type="4">
-        <text>comb</text>
+        <text>def .*did_</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgd2l0aCBvcGVuKGZpbGVuYW1lLCAndyt0JykgYXMgZmlkOgogICAgICAgICAgICAgICAgeWFtbC5kdW1wKHNlbGYuY29uZmlnLCBmaWQpCg==</text>
@@ -1064,9 +1064,9 @@
       </register>
     </registers>
     <search>
-      <last-search>comb</last-search>
+      <last-search>def .*did_</last-search>
       <last-offset />
-      <last-pattern>comb</last-pattern>
+      <last-pattern>def .*did_</last-pattern>
       <last-replace encoding="base64">ZGVmIA==</last-replace>
       <last-substitute>def _</last-substitute>
       <last-dir>1</last-dir>
@@ -1074,7 +1074,6 @@
     </search>
     <history>
       <history-search>
-        <entry>inputs</entry>
         <entry>get_inputs</entry>
         <entry>sc</entry>
         <entry>live_trainer</entry>
@@ -1094,6 +1093,7 @@
         <entry>salt</entry>
         <entry>trial</entry>
         <entry>comb</entry>
+        <entry>def .*did_</entry>
       </history-search>
       <history-cmd>
         <entry>502</entry>
