@@ -70,12 +70,12 @@
         <mark key="^" line="68" column="62" />
         <mark key="." line="68" column="62" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" timestamp="1552066303377">
-        <mark key="'" line="134" column="54" />
-        <mark key="[" line="142" column="56" />
-        <mark key="]" line="142" column="62" />
-        <mark key="." line="142" column="62" />
-        <mark key="^" line="142" column="62" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" timestamp="1552068013774">
+        <mark key="'" line="124" column="30" />
+        <mark key="[" line="145" column="5" />
+        <mark key="]" line="145" column="6" />
+        <mark key="." line="145" column="6" />
+        <mark key="^" line="145" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/seasonality_feature_creator.py" timestamp="1551913755851">
         <mark key="'" line="68" column="18" />
@@ -172,7 +172,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552004082381">
+      <file name="/Python Console" timestamp="1552068021033">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="2" />
         <mark key="^" line="0" column="2" />
@@ -307,11 +307,6 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/correlations.py" timestamp="1552004066416" />
     </filemarks>
     <jumps>
-      <jump line="182" column="20" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_to_storage_configs/correlations_1.yaml" />
-      <jump line="199" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_to_storage_configs/correlations_1.yaml" />
-      <jump line="216" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_to_storage_configs/correlations_1.yaml" />
-      <jump line="233" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_to_storage_configs/correlations_1.yaml" />
-      <jump line="206" column="23" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
       <jump line="72" column="4" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
       <jump line="178" column="17" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
       <jump line="179" column="20" filename="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" />
@@ -353,7 +348,6 @@
       <jump line="39" column="36" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="40" column="83" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="41" column="38" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
-      <jump line="53" column="24" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="57" column="87" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="58" column="45" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="59" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
@@ -407,6 +401,12 @@
       <jump line="87" column="17" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="21" column="58" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
       <jump line="127" column="54" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="49" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="50" column="17" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="51" column="16" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="53" column="48" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="52" column="14" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="124" column="30" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -416,7 +416,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>load_dataset_1</text>
+        <text>seasonality_params</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -958,13 +958,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>load_dataset_1</text>
+        <text>seasonality_params</text>
       </register>
       <register name="/" type="4">
-        <text>constn</text>
+        <text>measurement</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0cywgaW5wdXRzLCBpbnRlcnZhbF9zLCB0aW1ld2luZG93LCBkbmFtZSA9IGRhdGFzZXRfZm4oKQo=</text>
+        <text encoding="base64">ICAgIG01LmtleS5tZWFzdXJlbWVudCA9ICdtKHJhbmRvbSBleGNlcHQgZHVyaW5nIGFub21hbHkpJwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBvdXRwdXRzLCBpbnB1dHMsIGludGVydmFsX3MsIHRpbWV3aW5kb3cgPSBsb2FkX2RhdGFzZXRfMSgpCg==</text>
@@ -1084,23 +1084,21 @@
         <text encoding="base64">ICAgICAgICBjbHMuYWMgPSBBbm9tYWx5Q29ycmVsYXRvcignY29ycmVsYXRpb25zJykKICAgICAgICB5YW1sX3BhdGggPSBvcy5wYXRoLmpvaW4ob3MucGF0aC5kaXJuYW1lKF9fZmlsZV9fKSwgJ2RhdGEvY29ycmVsYXRpb25zXzEueWFtbCcpCiAgICAgICAgbG9hZGVyID0gTG9hZGVyLmZyb21fcGF0aF90b19xdWVyaWVzKHlhbWxfcGF0aCwgJ2NvcnJlbGF0aW9ucycsIHN0b3JhZ2VfaG9zdD0nbG9jYWxob3N0JykKICAgICAgICBjbHMuaW50ZXJ2YWxfcyA9IDM2MDAKICAgICAgICBzdGFydCA9IDE1NDk0NDAwMDAgICMoMDIvMDYvMjAxOSAwMDowMFQtMDgpCiAgICAgICAgZW5kID0gMTU1MTg1OTIwMCAgICAjKDAzLzA2LzIwMTkgMDA6MDBULTA4KQogICAgICAgIG1ldHJpY3MgPSBsb2FkZXIubG9hZChjbHMuaW50ZXJ2YWxfcywgc3RhcnQsIGVuZCkKICAgICAgICBidWZmZXIgPSB1dGltZS5PTkVIT1VSICogMjAKICAgICAgICBhbm9tYWx5X3N0YXJ0ID0gdXRpbWUuZnJvbV9pc29mb3JtYXQoJzAzLzA0LzIwMTlUMTI6MDA6MDAtMDgnKSAtIGJ1ZmZlcgogICAgICAgIGFub21hbHlfZW5kID0gYW5vbWFseV9zdGFydCArIHV0aW1lLk9ORUhPVVIgKiAyICsgYnVmZmVyCiAgICAgICAgY2xzLnRpbWV3aW5kb3cgPSAoYW5vbWFseV9zdGFydCwgYW5vbWFseV9lbmQpCiAgICAgICAgY2xzLm91dHB1dHMgPSBbbSBmb3IgbSBpbiBtZXRyaWNzIGlmIG0ua2V5LnF1ZXJ5LnNob3J0X25hbWUgPT0gJ28wJ10KICAgICAgICBjbHMuaW5wdXRzID0gW20gZm9yIG0gaW4gbWV0cmljcyBpZiAobS5rZXkucXVlcnkuc2hvcnRfbmFtZSAhPSAnbzAnIGFuZCBtLnZhbHVlcy5pbG9jWzBdICE9IC0xKV0K</text>
       </register>
       <register name=":" type="4">
-        <text>%s/self.//gc</text>
+        <text>126,150s/measurement/expression/</text>
       </register>
     </registers>
     <search>
-      <last-search>constn</last-search>
+      <last-search>measurement</last-search>
       <last-offset />
-      <last-pattern>constn</last-pattern>
-      <last-replace />
-      <last-substitute>self.</last-substitute>
+      <last-pattern>measurement</last-pattern>
+      <last-replace>expression</last-replace>
+      <last-substitute>measurement</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>ues</entry>
         <entry>vdi</entry>
-        <entry>kpi</entry>
         <entry>metric</entry>
         <entry>val</entry>
         <entry>def in</entry>
@@ -1118,9 +1116,10 @@
         <entry>self.</entry>
         <entry>fake_dat</entry>
         <entry>constn</entry>
+        <entry>kpi</entry>
+        <entry>measurement</entry>
       </history-search>
       <history-cmd>
-        <entry>168</entry>
         <entry>104</entry>
         <entry>112,118s/X/time_features_df/gc</entry>
         <entry>w</entry>
@@ -1140,6 +1139,7 @@
         <entry>21,33s/cls/self/g</entry>
         <entry>65,77s/self.//g</entry>
         <entry>%s/self.//gc</entry>
+        <entry>126,150s/measurement/expression/</entry>
       </history-cmd>
       <history-expr />
       <history-input />
