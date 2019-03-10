@@ -15,12 +15,12 @@
       <file name="/start_script.py" timestamp="1551996223217">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1552186208579">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_cycles.py" timestamp="1552188796227">
         <mark key="'" line="247" column="11" />
-        <mark key="[" line="253" column="0" />
-        <mark key="]" line="253" column="0" />
-        <mark key="." line="253" column="0" />
-        <mark key="^" line="253" column="7" />
+        <mark key="[" line="204" column="84" />
+        <mark key="]" line="204" column="84" />
+        <mark key="." line="204" column="84" />
+        <mark key="^" line="204" column="65" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/test_config_4.yaml" timestamp="1551813636049">
         <mark key="'" line="6" column="5" />
@@ -247,7 +247,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552187265750">
+      <file name="/Python Console" timestamp="1552188942229">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="1" />
@@ -260,7 +260,7 @@
         <mark key="^" line="335" column="25" />
         <mark key="." line="339" column="8" />
       </file>
-      <file name="/fragment.py" timestamp="1552165268041">
+      <file name="/fragment.py" timestamp="1552188569228">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -326,12 +326,12 @@
         <mark key="." line="55" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/algorithms/anomaly_interface.py" timestamp="1551995201955" />
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1552185839655">
-        <mark key="'" line="162" column="48" />
-        <mark key="[" line="507" column="69" />
-        <mark key="]" line="507" column="80" />
-        <mark key="^" line="507" column="80" />
-        <mark key="." line="507" column="80" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1552188984505">
+        <mark key="'" line="311" column="79" />
+        <mark key="[" line="352" column="0" />
+        <mark key="]" line="353" column="0" />
+        <mark key="^" line="353" column="0" />
+        <mark key="." line="353" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_sort_metrics_by_excitation.py" timestamp="1551915556403">
         <mark key="'" line="113" column="0" />
@@ -435,14 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="33" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="96" column="32" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="136" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="156" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="157" column="20" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="5" column="44" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="102" column="4" filename="$USER_HOME$/opas/core/python/opasai/stats/discrete_information.py" />
       <jump line="153" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="60" column="30" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="78" column="0" filename="$USER_HOME$/opas/core/python/opasai/stats/correlations.py" />
@@ -535,6 +527,14 @@
       <jump line="1084" column="27" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="6" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="606" column="7" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="329" column="11" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="353" column="25" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="340" column="45" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="339" column="84" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="330" column="35" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="324" column="11" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="312" column="21" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="311" column="79" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -543,8 +543,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>selfassertEqual</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICNkZWYgX19pbml0X18oc2VsZiwgcGF0aCwgc3RhcnRfYnRjLCBzdGFydF9xdWFudGl0eSwgZW5kX3F1YW50aXR5LCBzdGFydF9jb252ZXJzaW9uX3JhdGUsIGVuZF9jb252ZXJzaW9uX3JhdGUpOgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1086,22 +1086,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>selfassertEqual</text>
+        <text>bridge_quantities</text>
       </register>
       <register name="/" type="4">
-        <text>class M</text>
+        <text>bridge</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHNlbGYucmVhbF9tcy50aW1lc3RhbXAsIHJlYWRfbXMudGltZXN0YW1wKQo=</text>
+        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwYXRoLCBzdGFydF9idGMsIHN0YXJ0X3F1YW50aXR5LCBlbmRfcXVhbnRpdHksIHN0YXJ0X2NvbnZlcnNpb25fcmF0ZSwgZW5kX2NvbnZlcnNpb25fcmF0ZSk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmaWxlbmFtZSA9ICJtYXJrZXRfc3VtbWFyeV97fV97fS5jc3YiLmZvcm1hdChzZWxmLmV4Y2hhbmdlLmlkLCBzZWxmLnRpbWVzdGFtcCkK</text>
+        <text encoding="base64">ICAgICNkZWYgX19pbml0X18oc2VsZiwgcGF0aCwgc3RhcnRfYnRjLCBzdGFydF9xdWFudGl0eSwgZW5kX3F1YW50aXR5LCBzdGFydF9jb252ZXJzaW9uX3JhdGUsIGVuZF9jb252ZXJzaW9uX3JhdGUpOgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUpIGFzIGZpZDoK</text>
+        <text encoding="base64">ICAgICAgICBzdGFydF9jdXJyZW5jeSA9IHJvdy5wYXRoWzBdLmN1cnJlbmN5CiAgICAgICAgZW5kX2N1cnJlbmN5ID0gcm93LnBhdGhbLTFdLmN1cnJlbmN5Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1126,10 +1126,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oVGVtcG9yYXJ5RmlsZSgndyt0JykpIGFzIGZpZDoK</text>
+        <text encoding="base64">ICAgIHN0YXJ0X2N1cnJlbmN5ID0gJ0JUQycK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1197,28 +1197,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ZGVmIGxvYWRfbWFya2V0X3N1bW1hcmllcygpOgogICAgZm9yIGV4Y2hhbmdlIGluIFtwb2xvbmlleCwgYml0dHJleCwgaGl0YnRjMl06CiAgICAgICAgbXMgPSBzZGsuTWFya2V0U3VtbWFyeS5mcm9tX2V4Y2hhbmdlKGV4Y2hhbmdlKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBmaWxlbmFtZSA9ICJtYXJrZXRfc3VtbWFyeV97fV97fS5jc3YiLmZvcm1hdChzZWxmLmV4Y2hhbmdlLmlkLCBzZWxmLnRpbWVzdGFtcCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUpIGFzIGZpZDoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oVGVtcG9yYXJ5RmlsZSgndyt0JykpIGFzIGZpZDoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiB0b19maWxlKHNlbGYsIHBhdGgpOgogICAgICAgIGZpbGVuYW1lID0gIm1hcmtldF9zdW1tYXJ5X3t9X3t9LmNzdiIuZm9ybWF0KHNlbGYuZXhjaGFuZ2UuaWQsIHNlbGYudGltZXN0YW1wKQogICAgICAgIGZpbGVuYW1lID0gb3MucGF0aC5qb2luKHBhdGgsIGZpbGVuYW1lKQogICAgICAgIHNlbGYuZGF0YS50b19jc3YoZmlsZW5hbWUpCiAgICAgICAgCiAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>34</text>
       </register>
     </registers>
     <search>
-      <last-search>class M</last-search>
+      <last-search>bridge</last-search>
       <last-offset />
-      <last-pattern>class M</last-pattern>
+      <last-pattern>bridge</last-pattern>
       <last-replace>metric_key_</last-replace>
       <last-substitute>key_metric_</last-substitute>
       <last-dir>1</last-dir>
@@ -1226,7 +1226,6 @@
     </search>
     <history>
       <history-search>
-        <entry>fake_dat</entry>
         <entry>constn</entry>
         <entry>kpi</entry>
         <entry>measurement</entry>
@@ -1246,6 +1245,7 @@
         <entry>^class</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>class M</entry>
+        <entry>bridge</entry>
       </history-search>
       <history-cmd>
         <entry>57</entry>
