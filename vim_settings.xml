@@ -116,12 +116,12 @@
         <mark key="^" line="68" column="62" />
         <mark key="." line="68" column="62" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" timestamp="1552338858647">
-        <mark key="'" line="93" column="4" />
-        <mark key="[" line="61" column="50" />
-        <mark key="]" line="61" column="58" />
-        <mark key="." line="61" column="58" />
-        <mark key="^" line="61" column="58" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" timestamp="1552339685703">
+        <mark key="'" line="84" column="58" />
+        <mark key="[" line="86" column="72" />
+        <mark key="]" line="86" column="76" />
+        <mark key="." line="86" column="76" />
+        <mark key="^" line="86" column="76" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/seasonality_feature_creator.py" timestamp="1551913755851">
         <mark key="'" line="68" column="18" />
@@ -225,12 +225,12 @@
         <mark key="." line="25" column="32" />
         <mark key="^" line="25" column="32" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" timestamp="1552338834834">
-        <mark key="'" line="202" column="17" />
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
-        <mark key="^" line="334" column="38" />
-        <mark key="." line="83" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" timestamp="1552339363934">
+        <mark key="'" line="203" column="17" />
+        <mark key="[" line="80" column="58" />
+        <mark key="]" line="81" column="28" />
+        <mark key="." line="81" column="28" />
+        <mark key="^" line="81" column="28" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1551755889171">
         <mark key="'" line="158" column="24" />
@@ -245,7 +245,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552338862351">
+      <file name="/Python Console" timestamp="1552339686900">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="1" />
@@ -437,8 +437,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1062" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
-      <jump line="1069" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1100" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="1084" column="27" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="6" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
@@ -537,6 +535,8 @@
       <jump line="270" column="39" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="98" column="98" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="218" column="17" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="49" column="12" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="84" column="58" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -546,7 +546,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>metric_key_2</text>
+        <text>]</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1088,22 +1088,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>metric_key_2</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
-        <text>peak</text>
+        <text>1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGFub21hbGllc19mZWF0dXJlcyA9IGNvbXB1dGVfYW5vbWFsaWVzX2ZlYXR1cmVzKGtwaV9tZXRyaWMsIGlucHV0X21ldHJpY3MsIGFub21hbHlfaXRuZXRlcnZhbHMpOgogICAgY29ycl9yZXN1bHRzID0gZGVmYXVsdGRpY3QobGlzdCkKICAgIGZvciBpbnB1dF9tZXRyaWMgaW4gaW5wdXRfbWV0cmljczoKICAgICAgICBsdF9jb3JyX3dfYW5vID0gX2xvbmdfdGVybV9jb3JyZWxhdGlvbihrcGlfbWV0cmljLCBpbnB1dF9tZXRyaWMsIGludGVydmFsX3MsIGFub21hbHlfaW50ZXJ2YWxzLCBUcnVlKQogICAgICAgIGx0X2NvcnJfd29fYW5vID0gX2xvbmdfdGVybV9jb3JyZWxhdGlvbihrcGlfbWV0cmljLCBpbnB1dF9tZXRyaWMsIGludGVydmFsX3MsIGFub21hbHlfaW50ZXJ2YWxzLCBGYWxzZSkKICAgICAgICBzaG9ydF9jb3JyID0gX3Nob3J0X3Rlcm1fY29ycmVsYXRpb24oa3BpX21ldHJpYywgaW5wdXRfbWV0cmljLCBpbnRlcnZhbF9zLCBhbm9tYWx5X2ludGVydmFscykKICAgICAgICBnbWkgPSBfaW5mb3JtYXRpb25fYWJvdXRfZ2VuZXJhbF9hbm9tYWx5X2xvY2F0aW9uKGtwaV9tZXRyaWMsIGlucHV0X21ldHJpYywgYW5vbWFseV9pbnRlcnZhbHMpCiAgICAgICAgc21pID0gX2luZm9ybWF0aW9uX2Fib3V0X3NwZWNpZmljX2Fub21hbHlfbG9jYXRpb24oa3BpX21ldHJpYywgaW5wdXRfbWV0cmljLCBhbm9tYWx5X2ludGVydmFscykKCiAgICAgICAgZm9yIGludGVydmFsIGluIGFub21hbHlfaW50ZXJ2YWxzOgogICAgICAgICAgICBjb3JyZWxhdGlvbl9yZXN1bHQgPSBBbm9tYWx5RmVhdHVyZXMoa3BpX21ldHJpYy5rZXksIGlucHV0X21ldHJpYy5rZXksIGx0X2NvcnJfd19hbm8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsdF9jb3JyX3dvX2Fubywgc2hvcnRfY29ycltpbnRlcnZhbF0sIGdtaSwgc21pW2ludGVydmFsXSkKICAgICAgICAgICAgY29ycl9yZXN1bHRzW2ludGVydmFsXS5hcHBlbmQoZm4oY29ycmVsYXRpb25fcmVzdWx0LCAqKmt3YXJncykpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYW5vbWFseV93aW5kb3cgPSBhbm9tYWx5X3dpbmRvd3NbMF0KICAgICAgICAgICAgYW5vbWFseV9mZWF0dXJlcyA9IGNvcnJfcmVzdWx0c1thbm9tYWx5X3dpbmRvd10K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNvcnQoY29ycl9yZXN1bHRzKQo=</text>
+        <text encoding="base64">ICAgICAgICBjb3JyX3Jlc3VsdC5wZWFrX3RpbWUK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGNvbnZlcnQgYW5vbWFseV93aW5kb3dzIGluIHV0aW1lLkludGVydmFsIG9iamVjdHMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1128,10 +1128,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBzb3J0KHNlbGYsIGNvcnJlbGF0aW9uX3Jlc3VsdHMpOgogICAgICAgICIiIgoKICAgICAgICA6cGFyYW0gY29ycmVsYXRpb25fcmVzdWx0czogZGljdGlvbmFyeSBtYXBwaW5nIGFub21hbHlfaW50ZXJ2YWwgdG8gYSBsaXN0IG9mIENvcnJlbGF0aW9uUmVzdXRscwogICAgICAgIDpyZXR1cm46IGRpY3QgbGlrZSBjb3JyZWxhdGlvbl9yZXN1bHRzIGJ1dCBlYWNoIHZhbHVlIGlzIGEgc29ydGVkIGxpc3QKICAgICAgICAiIiIKICAgICAgICBmb3IgYW5vbWFseV9pbnRlcnZhbCBpbiBjb3JyZWxhdGlvbl9yZXN1bHRzOgogICAgICAgICAgICBzZWxmLnNvcnRfcmVzdWx0c19mb3Jfc2luZ2xlX2Fub21hbHkoY29ycmVsYXRpb25fcmVzdWx0c1thbm9tYWx5X2ludGVydmFsXSkKCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnNvcnQoY29ycl9yZXN1bHRzKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZiBzb3J0X3Jlc3VsdHNfZm9yX3NpbmdsZV9hbm9tYWx5KHNlbGYsIGNvcnJlbGF0aW9uX3Jlc3VsdHMpOgogICAgICAgICIiIiBpbiBwbGFjZQogICAgICAgICIiIgogICAgICAgIGNvcnJlbGF0aW9uX3Jlc3VsdHMuc29ydChrZXk9bGFtYmRhIHg6IC1ucC5pbmYgaWYgbnAuaXNuYW4oeC5wZWFrX2NvcnJlbGF0aW9uKSBlbHNlIGFicyh4LnBlYWtfY29ycmVsYXRpb24pLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXZlcnNlPVRydWUpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1199,28 +1199,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHNob3J0X3BlYWtfdGltZSwgc2hvcnRfcGVhawo=</text>
+        <text encoding="base64">ICAgIGRlZiBzb3J0KHNlbGYsIGNvcnJlbGF0aW9uX3Jlc3VsdHMpOgogICAgICAgICIiIgoKICAgICAgICA6cGFyYW0gY29ycmVsYXRpb25fcmVzdWx0czogZGljdGlvbmFyeSBtYXBwaW5nIGFub21hbHlfaW50ZXJ2YWwgdG8gYSBsaXN0IG9mIENvcnJlbGF0aW9uUmVzdXRscwogICAgICAgIDpyZXR1cm46IGRpY3QgbGlrZSBjb3JyZWxhdGlvbl9yZXN1bHRzIGJ1dCBlYWNoIHZhbHVlIGlzIGEgc29ydGVkIGxpc3QKICAgICAgICAiIiIKICAgICAgICBmb3IgYW5vbWFseV9pbnRlcnZhbCBpbiBjb3JyZWxhdGlvbl9yZXN1bHRzOgogICAgICAgICAgICBzZWxmLnNvcnRfcmVzdWx0c19mb3Jfc2luZ2xlX2Fub21hbHkoY29ycmVsYXRpb25fcmVzdWx0c1thbm9tYWx5X2ludGVydmFsXSkKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG9uZ19wZWFrX3RpbWUsIGxvbmdfcGVhawo=</text>
+        <text encoding="base64">ICAgIGRlZiBzb3J0X3Jlc3VsdHNfZm9yX3NpbmdsZV9hbm9tYWx5KHNlbGYsIGNvcnJlbGF0aW9uX3Jlc3VsdHMpOgogICAgICAgICIiIiBpbiBwbGFjZQogICAgICAgICIiIgogICAgICAgIGNvcnJlbGF0aW9uX3Jlc3VsdHMuc29ydChrZXk9bGFtYmRhIHg6IC1ucC5pbmYgaWYgbnAuaXNuYW4oeC5wZWFrX2NvcnJlbGF0aW9uKSBlbHNlIGFicyh4LnBlYWtfY29ycmVsYXRpb24pLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXZlcnNlPVRydWUpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHNob3J0X3BlYWtfdGltZSwgc2hvcnRfcGVhawo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG9uZ19wZWFrX3RpbWUsIGxvbmdfcGVhawo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIF9jb21wdXRlX2NvcnJlbGF0aW9uc192TihrcGlfbWV0cmljLCBpbnB1dF9tZXRyaWMsICoqa3dhcmdzKToKICAgICIiIiBDb3B5IHBhc3RlIHRoaXMgdG8gc3RhcnQgYSBuZXcgdmVyc2lvbgogICAgIiIiCiAgICB0aW1lID0gbnAucmFuZG9tLnJhbmRuKCkKICAgIHBlYWsgPSBucC5yYW5kb20ucmFuZG4oKQogICAgcmV0dXJuIGNvcgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>peak</last-search>
+      <last-search>1</last-search>
       <last-offset />
-      <last-pattern>peak</last-pattern>
+      <last-pattern>1</last-pattern>
       <last-replace>long_peak_w_ano_time, long_peak_w_ano</last-replace>
       <last-substitute>ltcorr=</last-substitute>
       <last-dir>1</last-dir>
@@ -1228,8 +1228,6 @@
     </search>
     <history>
       <history-search>
-        <entry>time</entry>
-        <entry>def _inf</entry>
         <entry>intervals</entry>
         <entry>def _com</entry>
         <entry>timewindow</entry>
@@ -1248,6 +1246,8 @@
         <entry>strength</entry>
         <entry>def _.*corr</entry>
         <entry>peak</entry>
+        <entry>ows</entry>
+        <entry>1</entry>
       </history-search>
       <history-cmd>
         <entry>qa</entry>
