@@ -116,12 +116,12 @@
         <mark key="^" line="68" column="62" />
         <mark key="." line="68" column="62" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" timestamp="1552084842793">
-        <mark key="'" line="53" column="0" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
-        <mark key="^" line="50" column="53" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" timestamp="1552329183259">
+        <mark key="'" line="106" column="40" />
+        <mark key="[" line="104" column="51" />
+        <mark key="]" line="104" column="51" />
+        <mark key="." line="104" column="51" />
+        <mark key="^" line="104" column="51" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/seasonality_feature_creator.py" timestamp="1551913755851">
         <mark key="'" line="68" column="18" />
@@ -225,12 +225,11 @@
         <mark key="." line="25" column="32" />
         <mark key="^" line="25" column="32" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" timestamp="1552321219703">
-        <mark key="'" line="216" column="77" />
-        <mark key="[" line="199" column="4" />
-        <mark key="]" line="200" column="36" />
-        <mark key="." line="200" column="36" />
-        <mark key="^" line="200" column="36" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" timestamp="1552329046782">
+        <mark key="'" line="155" column="102" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="." line="71" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1551755889171">
         <mark key="'" line="158" column="24" />
@@ -431,16 +430,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="124" column="90" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
-      <jump line="228" column="78" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="52" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
-      <jump line="83" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="100" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="102" column="85" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="106" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="119" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="129" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="140" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
@@ -531,6 +520,16 @@
       <jump line="92" column="8" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="218" column="1" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="202" column="77" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="97" column="102" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="114" column="99" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="133" column="100" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="143" column="78" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="154" column="102" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="21" column="48" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="173" column="40" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="171" column="4" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
+      <jump line="106" column="40" filename="$USER_HOME$/opas/core/python/opasai/anomaly/tests/test_anomaly_correlator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -539,8 +538,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>metric</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1082,22 +1081,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>metric</text>
+        <text>True</text>
       </register>
       <register name="/" type="4">
-        <text>intervals</text>
+        <text>anomaly_windows</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIF9pbmZvcm1hdGlvbl9hYm91dF9nZW5lcmFsX2Fub21hbHlfbG9jYXRpb24oa3BpX21ldHJpYywgaW5wdXRfbWV0cmljLCB0aW1ld2luZG93X2ludGVydmFsKToKICAgICMgY29tcHV0ZSBtdXR1YWwgaW5mb3JtYXRpb24gYmV0d2VlbiBpbnB1dF9tZXRyaWMgYW5kIHRoZSB0aW1lIG9mIHRoZSBhbm9tYWx5CiAgICBhbm9tYWx5X3NlcmllcyA9IGtwaV9tZXRyaWMudmFsdWVzLmNvcHkoKQogICAgYW5vbWFseV9zZXJpZXNbOl0gPSAwCiAgICBhbm9tYWx5X3Nlcmllcy52YWx1ZXNbdGltZXdpbmRvd19pbnRlcnZhbC5zdGFydF9lcG9jaDp0aW1ld2luZG93X2ludGVydmFsLmVuZF9lcG9jaF0gPSAxCiAgICAjIGV2ZW4gdGhvdWdoIHRoZXJlIGlzIG9ubHkgMSBiaXQgaW4gYW5vbWFseV9zZXJpZXMsIHdlIG5lZWQgdG8gdXNlIG1vcmUgdGhhbiAxIGJpdCBpbiBkaXNjcmV0aXppbmcgdGhlIGlucHV0X21ldHJpYwogICAgIyB0aGlzIGlzIGJlY2F1c2UgZGlnaXRpemVfMWQgZHluYW1pY2FsbHkgYWxsb2NhdGVzIHRoZSB0aHJlc2hvbGRzIGJldGV3ZWVuIHRoZSBiaW5zLiBJZiB3ZSBoYWQgOTUlIG9mIHRoZQogICAgIyBkYXRhIGJlZm9yZSB0aGUgYW5vbWFseSBhbmQgNSUgZHVyaW5nIHRoZSBhbm9tYWx5ICh2ZXJ5IGRpZmZlcmVudCB2YWx1ZXMpIHRoZSB0aHJlc2hvbGQgd2l0aCBqdXN0IDEgYml0IHdvdWxkIGJlCiAgICAjIHBsYWNlZCBzb21ld2hhdCBhcm91bmQgdGhlIG1pZGRsZSBvZiB0aGUgbm9ybWFsIGRhdGEsIGFuZCB0aGVuIHRoZXJlIHdpbGwgYmUgdmVyeSBsaXR0bGUgaW5mb3JtYXRpb24KICAgICMgYmV0d2VlbiB0aGUgYW5vbWFseSBhbmQgdGhlIGRhdGEKICAgIGRpZ2l0aXplZF9tZXRyaWMgPSBkaXNjcmV0ZV9pbmZvcm1hdGlvbi5kaWdpdGl6ZV8xZChpbnB1dF9tZXRyaWMudmFsdWVzLCAzMikKICAgIGlmIGRpZ2l0aXplZF9tZXRyaWMubWF4KCkgPT0gZGlnaXRpemVkX21ldHJpYy5taW4oKToKICAgICAgICBtaW5fID0gaW5wdXRfbWV0cmljLnZhbHVlcy5taW4oKQogICAgICAgIG1heF8gPSBpbnB1dF9tZXRyaWMudmFsdWVzLm1heCgpCiAgICAgICAgZGlnaXRpemVkX21ldHJpYyA9IG5wLmRpZ2l0aXplKGlucHV0X21ldHJpYy52YWx1ZXMsIFsobWF4XyArIG1pbl8pLzIuMF0pCgogICAgbWkgPSBkaXNjcmV0ZV9pbmZvcm1hdGlvbi5taShhbm9tYWx5X3NlcmllcywgZGlnaXRpemVkX21ldHJpYykKICAgIHJldHVybiBtaQo=</text>
+        <text encoding="base64">ICAgICAgICBsdF9jb3JyX3dfYW5vID0gX2xvbmdfdGVybV9jb3JyZWxhdGlvbihrcGlfbWV0cmljLCBpbnB1dF9tZXRyaWMsIGludGVydmFsX3MsIGFub21hbHlfaW50ZXJ2YWxzLCBUcnVlKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGFmdGVyIHN1YnRyYWN0aW5nIGZyb20gYm90aCBhbGwgdGhlIHRpbWVzCiAgICB3aXRoIGFub21hbGllcwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGlmIHRpbWV3aW5kb3dfaW50ZXJ2YWwuZHVyYXRpb24oKSAvIGludGVydmFsX3MgPCBNSU5fUE9JTlRTX0ZPUl9DT1JSRUxBVElPTjoKICAgICAgICB0aW1ld2luZG93X2ludGVydmFsLnN0YXJ0X2Vwb2NoID0gdGltZXdpbmRvd19pbnRlcnZhbC5lbmRfZXBvY2ggLSBNSU5fUE9JTlRTX0ZPUl9DT1JSRUxBVElPTiAqIGludGVydmFsX3MK</text>
+        <text encoding="base64">ICAgIGt3YXJnc1sndmVyc2lvbiddID09IHZlcnNpb24K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1122,10 +1121,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIE1JTl9QT0lOVFNfRk9SX0NPUlJFTEFUSU9OID0gMTAK</text>
+        <text encoding="base64">ICAgICAgICBpbmNsdWRlX2Fub21hbGllcyA9IEZhbHNlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRpbWV3aW5kb3dfaW50ZXJ2YWwgPSB1dGltZS5JbnRlcnZhbChhbm9tYWx5X2ludGVydmFsc1swXSwgYW5vbWFseV9pbnRlcnZhbHNbMV0pCg==</text>
+        <text encoding="base64">ICAgIGluY2x1ZGVfYW5vbWFsaWVzID0gRmFsc2UK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1193,41 +1192,38 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7J0JUQy97fScuZm9ybWF0KHNlbGYucGF0aFstMV0uY3VycmVuY3kpOiBzZWxmLmVuZF9jb252ZXJzaW9uX3JhdGV9KQo=</text>
+        <text encoding="base64">ICAgICNGSVhNRSBleHBhbmQgdG8gd29yayB3aXRoIG11bHRpcGxlIHRpbWV3aW5kb3dzIGF0IG9uY2UK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kX2J0Y192YWx1ZSA9IGN1cnJlbmN5X3RvX2J0YyhzZWxmLnBhdGhbLTFdLmN1cnJlbmN5LCBzZWxmLmVuZF9xdWFudGl0eSwK</text>
+        <text encoding="base64">ICAgIGFmdGVyIHN1YnRyYWN0aW5nIGZyb20gYm90aCBhbGwgdGhlIHRpbWVzCiAgICB3aXRoIGFub21hbGllcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ2FpbiA9IC1ucC5pbmYK</text>
+        <text encoding="base64">ICAgIGlmIHRpbWV3aW5kb3dfaW50ZXJ2YWwuZHVyYXRpb24oKSAvIGludGVydmFsX3MgPCBNSU5fUE9JTlRTX0ZPUl9DT1JSRUxBVElPTjoKICAgICAgICB0aW1ld2luZG93X2ludGVydmFsLnN0YXJ0X2Vwb2NoID0gdGltZXdpbmRvd19pbnRlcnZhbC5lbmRfZXBvY2ggLSBNSU5fUE9JTlRTX0ZPUl9DT1JSRUxBVElPTiAqIGludGVydmFsX3MK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgIE1JTl9QT0lOVFNfRk9SX0NPUlJFTEFUSU9OID0gMTAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwYXRoXzEgPSBzZGsuUGF0aChbc2RrLk5vZGUoJ0JUQycsIHBvbG9uaWV4KSwgc2RrLk5vZGUoJ0VUSCcsIHBvbG9uaWV4KV0pCiAgICAgICAgcGF0aF8yID0gc2RrLlBhdGgoW3Nkay5Ob2RlKCdFVEgnLCBiaXR0cmV4KSwgc2RrLk5vZGUoJ0JUQycsIGJpdHRyZXgpXSkKICAgICAgICBmaXJzdCA9IGN5Y2xlcy5JbnRlcm1lZGlhdGVQYXRoUmVzdWx0KHBhdGhfMSwgMSwgMTAsIDEwKQogICAgICAgIHNlY29uZCA9IGN5Y2xlcy5JbnRlcm1lZGlhdGVQYXRoUmVzdWx0KHBhdGhfMiwgMTAsIDEsIC4xKQo=</text>
+        <text encoding="base64">ICAgIHRpbWV3aW5kb3dfaW50ZXJ2YWwgPSB1dGltZS5JbnRlcnZhbChhbm9tYWx5X2ludGVydmFsc1swXSwgYW5vbWFseV9pbnRlcnZhbHNbMV0pCg==</text>
       </register>
       <register name=":" type="4">
-        <text>34</text>
+        <text>%s/timewindow/anomaly_windows/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>intervals</last-search>
+      <last-search>anomaly_windows</last-search>
       <last-offset />
-      <last-pattern>intervals</last-pattern>
-      <last-replace>metric_key_</last-replace>
-      <last-substitute>key_metric_</last-substitute>
+      <last-pattern>anomaly_windows</last-pattern>
+      <last-replace>anomaly_windows</last-replace>
+      <last-substitute>timewindow</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>copy</entry>
-        <entry>times</entry>
         <entry>constant</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry>key_metric_</entry>
-        <entry>timewindow</entry>
         <entry>class Node</entry>
         <entry>order_book</entry>
         <entry>start_btc</entry>
@@ -1242,9 +1238,11 @@
         <entry>time</entry>
         <entry>def _inf</entry>
         <entry>intervals</entry>
+        <entry>def _com</entry>
+        <entry>timewindow</entry>
+        <entry>anomaly_windows</entry>
       </history-search>
       <history-cmd>
-        <entry>57</entry>
         <entry>144</entry>
         <entry>38</entry>
         <entry>s/metric/kpi/g</entry>
@@ -1264,6 +1262,7 @@
         <entry>%s/key_metric_/metric_key_/gc</entry>
         <entry>q</entry>
         <entry>34</entry>
+        <entry>%s/timewindow/anomaly_windows/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
