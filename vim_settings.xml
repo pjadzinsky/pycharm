@@ -225,12 +225,11 @@
         <mark key="." line="25" column="32" />
         <mark key="^" line="25" column="32" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" timestamp="1552332546293">
-        <mark key="'" line="185" column="72" />
-        <mark key="[" line="84" column="38" />
-        <mark key="]" line="84" column="35" />
-        <mark key="." line="84" column="35" />
-        <mark key="^" line="84" column="35" />
+      <file name="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" timestamp="1552333478621">
+        <mark key="'" line="324" column="4" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1551755889171">
         <mark key="'" line="158" column="24" />
@@ -245,7 +244,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552332566473">
+      <file name="/Python Console" timestamp="1552332662718">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="1" />
@@ -431,8 +430,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="15" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
-      <jump line="28" column="75" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="40" column="52" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="46" column="40" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="47" column="11" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
@@ -531,6 +528,8 @@
       <jump line="142" column="70" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="154" column="70" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="181" column="72" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="71" column="21" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
+      <jump line="312" column="4" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -539,8 +538,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>assert</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1082,22 +1081,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>assert</text>
+        <text>corr_results</text>
       </register>
       <register name="/" type="4">
         <text>ltcorr=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIF9jb21wdXRlX2NvcnJlbGF0aW9uc192MihrcGlfbWV0cmljLCBpbnB1dF9tZXRyaWMsIGxvbmdfY29yciwgc2hvcnRfY29yciwgZ2VuZXJhbF9taSwgc3BlY2lmaWMsICoqa3dhcmdzKToK</text>
+        <text encoding="base64">ZGVmIF9maWx0ZXJfY29ycmVsYXRpb25zX3NpbmdsZV9hbm9tYWx5KGFjY291bnRfaWQsIGNvcnJlbGF0aW9uX3Jlc3VsdHMsIGNhbmRpZGF0ZV9jb3JyZWxhdGlvbl9tZXRyaWNzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5vbWFseV9pbnRlcnZhbCwgKiprd2FyZ3MpOgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGx0X2NvcnJfd29fYW5vCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGx0X2NvcnJfd29fYW5vCg==</text>
+        <text encoding="base64">ICAgICAgICBrd2FyZ3NbJ3RpbWV3aW5kb3cnXSA9IGFub21hbHlfaW50ZXJ2YWxzWzBdCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1122,10 +1121,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjZm4oa3BpX21ldHJpYywgaW5wdXRfbWV0cmljLCBsb25nX2NvcnIsIHNob3J0X2NvcnIsIGdlbmVyYWxfbWksIHNwZWNpZmljLCAqKmt3YXJncyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZW4oYW5vbWFseV9pbnRlcnZhbHMpICE9IDE6CiAgICAgICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIGNvcnJlbGF0aW9uX21ldHJpY19tYXAgPSB7bS5rZXk6IG0gZm9yIG0gaW4gY2FuZGlkYXRlX2NvcnJlbGF0aW9uX21ldHJpY3N9Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1193,22 +1192,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgY29tcHV0ZSBtdXR1YWwgaW5mb3JtYXRpb24gYmV0d2VlbiBpbnB1dF9tZXRyaWMgYW5kIHRoZSB0aW1lIG9mIHRoZSBhbm9tYWx5Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZWYgX2ZpbHRlcl9jb3JyZWxhdGlvbnNfc2luZ2xlX2Fub21hbHkoYWNjb3VudF9pZCwgY29ycmVsYXRpb25fcmVzdWx0cywgY2FuZGlkYXRlX2NvcnJlbGF0aW9uX21ldHJpY3MsICoqa3dhcmdzKQogICAgICAgIGZvciBjb3JyZWxhdGlvbl9yZXN1bHQgaW4gY29ycmVsYXRpb25fcmVzdWx0czoKICAgICAgICAgICAgaWYgY29ycmVsYXRpb25fcmVzdWx0Lm1ldHJpY19rZXlfMiBpbiBjb3JyZWxhdGlvbl9tZXRyaWNfbWFwOgogICAgICAgICAgICAgICAgY29ycmVsYXRpb25fbWV0cmljID0gY29ycmVsYXRpb25fbWV0cmljX21hcFtjb3JyZWxhdGlvbl9yZXN1bHQubWV0cmljX2tleV8yXQogICAgICAgICAgICAgICAgaWYgX2lzX21ldHJpY19hbm9tYWxvdXMoYWNjb3VudF9pZCwgY29ycmVsYXRpb25fbWV0cmljLCBhbm9tYWx5X2ludGVydmFsKToKICAgICAgICAgICAgICAgICAgICBmaWx0ZXJlZF9jb3JyZWxhdGlvbnNbYW5vbWFseV9pbnRlcnZhbF0uYXBwZW5kKGNvcnJlbGF0aW9uX3Jlc3VsdCkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGZpbHRlcmVkX2NvcnJlbGF0aW9uc1thbm9tYWx5X2ludGVydmFsXS5hcHBlbmQoY29ycmVsYXRpb25fcmVzdWx0KQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgY29tcHV0ZSBtdXR1YWwgaW5mb3JtYXRpb24gYmV0d2VlbiBpbnB1dF9tZXRyaWMgYW5kIHRoZSB0aW1lIG9mIHRoZSBhbm9tYWx5Cg==</text>
+        <text encoding="base64">ICAgIGFub21hbHlfaW50ZXJ2YWwgPSB1dGltZS5JbnRlcnZhbCh0aW1ld2luZG93WzBdLCB0aW1ld2luZG93WzFdKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGFub21hbHlfc2VyaWVzID0ga3BpX21ldHJpYy52YWx1ZXMuY29weSgpCiAgICBhbm9tYWx5X3Nlcmllc1s6XSA9IDAKICAgIGFub21hbHlfc2VyaWVzLnZhbHVlc1thbm9tYWx5X2ludGVydmFscy5zdGFydF9lcG9jaDphbm9tYWx5X2ludGVydmFscy5lbmRfZXBvY2hdID0gMQogICAgIyBldmVuIHRob3VnaCB0aGVyZSBpcyBvbmx5IDEgYml0IGluIGFub21hbHlfc2VyaWVzLCB3ZSBuZWVkIHRvIHVzZSBtb3JlIHRoYW4gMSBiaXQgaW4gZGlzY3JldGl6aW5nIHRoZSBpbnB1dF9tZXRyaWMKICAgICMgdGhpcyBpcyBiZWNhdXNlIGRpZ2l0aXplXzFkIGR5bmFtaWNhbGx5IGFsbG9jYXRlcyB0aGUgdGhyZXNob2xkcyBiZXRld2VlbiB0aGUgYmlucy4gSWYgd2UgaGFkIDk1JSBvZiB0aGUKICAgICMgZGF0YSBiZWZvcmUgdGhlIGFub21hbHkgYW5kIDUlIGR1cmluZyB0aGUgYW5vbWFseSAodmVyeSBkaWZmZXJlbnQgdmFsdWVzKSB0aGUgdGhyZXNob2xkIHdpdGgganVzdCAxIGJpdCB3b3VsZCBiZQogICAgIyBwbGFjZWQgc29tZXdoYXQgYXJvdW5kIHRoZSBtaWRkbGUgb2YgdGhlIG5vcm1hbCBkYXRhLCBhbmQgdGhlbiB0aGVyZSB3aWxsIGJlIHZlcnkgbGl0dGxlIGluZm9ybWF0aW9uCiAgICAjIGJldHdlZW4gdGhlIGFub21hbHkgYW5kIHRoZSBkYXRhCiAgICBkaWdpdGl6ZWRfbWV0cmljID0gZGlzY3JldGVfaW5mb3JtYXRpb24uZGlnaXRpemVfMWQoaW5wdXRfbWV0cmljLnZhbHVlcywgMzIpCiAgICBpZiBkaWdpdGl6ZWRfbWV0cmljLm1heCgpID09IGRpZ2l0aXplZF9tZXRyaWMubWluKCk6CiAgICAgICAgbWluXyA9IGlucHV0X21ldHJpYy52YWx1ZXMubWluKCkKICAgICAgICBtYXhfID0gaW5wdXRfbWV0cmljLnZhbHVlcy5tYXgoKQogICAgICAgIGRpZ2l0aXplZF9tZXRyaWMgPSBucC5kaWdpdGl6ZShpbnB1dF9tZXRyaWMudmFsdWVzLCBbKG1heF8gKyBtaW5fKS8yLjBdKQoKICAgIG1pID0gZGlzY3JldGVfaW5mb3JtYXRpb24ubWkoYW5vbWFseV9zZXJpZXMsIGRpZ2l0aXplZF9tZXRyaWMpCiAgICByZXR1cm4gbWkK</text>
+        <text encoding="base64">ICAgIGx0X2NvcnJfd29fYW5vCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGVmIF9pbmZvcm1hdGlvbl9hYm91dF9zcGVjaWZpY19hbm9tYWx5X2xvY2F0aW9uKGtwaV9tZXRyaWMsIGlucHV0X21ldHJpYywgYW5vbWFseV9pbnRlcnZhbHMpOgogICAgIyBjb21wdXRlIG11dHVhbCBpbmZvcm1hdGlvbiBiZXR3ZWVuIGlucHV0X21ldHJpYyBhbmQgdGhlIHRpbWUgb2YgdGhlIGFub21hbHkKICAgIGFub21hbHlfc2VyaWVzID0ga3BpX21ldHJpYy52YWx1ZXMuY29weSgpCiAgICBhbm9tYWx5X3Nlcmllc1s6XSA9IDAKICAgIGFub21hbHlfc2VyaWVzLnZhbHVlc1thbm9tYWx5X2ludGVydmFscy5zdGFydF9lcG9jaDphbm9tYWx5X2ludGVydmFscy5lbmRfZXBvY2hdID0gMQogICAgIyBldmVuIHRob3VnaCB0aGVyZSBpcyBvbmx5IDEgYml0IGluIGFub21hbHlfc2VyaWVzLCB3ZSBuZWVkIHRvIHVzZSBtb3JlIHRoYW4gMSBiaXQgaW4gZGlzY3JldGl6aW5nIHRoZSBpbnB1dF9tZXRyaWMKICAgICMgdGhpcyBpcyBiZWNhdXNlIGRpZ2l0aXplXzFkIGR5bmFtaWNhbGx5IGFsbG9jYXRlcyB0aGUgdGhyZXNob2xkcyBiZXRld2VlbiB0aGUgYmlucy4gSWYgd2UgaGFkIDk1JSBvZiB0aGUKICAgICMgZGF0YSBiZWZvcmUgdGhlIGFub21hbHkgYW5kIDUlIGR1cmluZyB0aGUgYW5vbWFseSAodmVyeSBkaWZmZXJlbnQgdmFsdWVzKSB0aGUgdGhyZXNob2xkIHdpdGgganVzdCAxIGJpdCB3b3VsZCBiZQogICAgIyBwbGFjZWQgc29tZXdoYXQgYXJvdW5kIHRoZSBtaWRkbGUgb2YgdGhlIG5vcm1hbCBkYXRhLCBhbmQgdGhlbiB0aGVyZSB3aWxsIGJlIHZlcnkgbGl0dGxlIGluZm9ybWF0aW9uCiAgICAjIGJldHdlZW4gdGhlIGFub21hbHkgYW5kIHRoZSBkYXRhCiAgICBkaWdpdGl6ZWRfbWV0cmljID0gZGlzY3JldGVfaW5mb3JtYXRpb24uZGlnaXRpemVfMWQoaW5wdXRfbWV0cmljLnZhbHVlcywgMzIpCiAgICBpZiBkaWdpdGl6ZWRfbWV0cmljLm1heCgpID09IGRpZ2l0aXplZF9tZXRyaWMubWluKCk6CiAgICAgICAgbWluXyA9IGlucHV0X21ldHJpYy52YWx1ZXMubWluKCkKICAgICAgICBtYXhfID0gaW5wdXRfbWV0cmljLnZhbHVlcy5tYXgoKQogICAgICAgIGRpZ2l0aXplZF9tZXRyaWMgPSBucC5kaWdpdGl6ZShpbnB1dF9tZXRyaWMudmFsdWVzLCBbKG1heF8gKyBtaW5fKS8yLjBdKQoKICAgIG1pID0gZGlzY3JldGVfaW5mb3JtYXRpb24ubWkoYW5vbWFseV9zZXJpZXMsIGRpZ2l0aXplZF9tZXRyaWMpCiAgICByZXR1cm4gbWkKCgo=</text>
+        <text encoding="base64">ICAgIGx0X2NvcnJfd29fYW5vCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBtaQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjZm4oa3BpX21ldHJpYywgaW5wdXRfbWV0cmljLCBsb25nX2NvcnIsIHNob3J0X2NvcnIsIGdlbmVyYWxfbWksIHNwZWNpZmljLCAqKmt3YXJncyk6Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/long_peak_time, long_peak/long_peak_w_ano_time, long_peak_w_ano/gc</text>
+        <text>73</text>
       </register>
     </registers>
     <search>
@@ -1244,7 +1243,6 @@
         <entry>ltcorr=</entry>
       </history-search>
       <history-cmd>
-        <entry>s/metric/kpi/g</entry>
         <entry>qa</entry>
         <entry>1q</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
@@ -1264,6 +1262,7 @@
         <entry>%s/timewindow/anomaly_windows/gc</entry>
         <entry>%s/long_corr/lt_corr_w_ano, lt_corr_wo_ano/gc</entry>
         <entry>%s/long_peak_time, long_peak/long_peak_w_ano_time, long_peak_w_ano/gc</entry>
+        <entry>73</entry>
       </history-cmd>
       <history-expr />
       <history-input />
