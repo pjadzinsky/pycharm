@@ -30,12 +30,12 @@
         <mark key="[" line="332" column="0" />
         <mark key="]" line="344" column="15" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552347221478">
-        <mark key="'" line="47" column="3" />
-        <mark key="[" line="35" column="80" />
-        <mark key="]" line="38" column="29" />
-        <mark key="." line="38" column="29" />
-        <mark key="^" line="38" column="29" />
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552349788694">
+        <mark key="'" line="49" column="3" />
+        <mark key="[" line="38" column="64" />
+        <mark key="]" line="39" column="7" />
+        <mark key="." line="39" column="7" />
+        <mark key="^" line="39" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -108,7 +108,7 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1552343336741">
+      <file name="/Python Console" timestamp="1552350251121">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="1" />
@@ -364,7 +364,7 @@
         <mark key="." line="5" column="32" />
         <mark key="^" line="5" column="32" />
       </file>
-      <file name="/Dummy.txt" timestamp="1551994831927">
+      <file name="/Dummy.txt" timestamp="1552350151779">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" timestamp="1552078914772">
@@ -513,8 +513,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Li9weXRob24vc2NyaXB0cy9tZXRyaWNfc3VnZ2VzdGlvbnNfZmlyc3RfcGFzcy5weSBcCiAgIC0tYWNjb3VudF9pZCBibHVlc2hpZnQgXAogICAtLXN0YXJ0IDE1NDYyODI4MDAgXAogICAtLWVuZCAxNTQ5NjI4NjQwMCBcCiAgIC0ta3BpX21lYXN1cmVtZW50IG9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkgXAogICAtLWtwaV9leHByZXNzaW9uIG1lYW4oIjk1dGhQZXJjZW50aWxlIikK</text>
+      <register name="&quot;" type="4">
+        <text>\</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1056,7 +1056,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>\</text>
       </register>
       <register name="/" type="4">
         <text>outputs</text>
@@ -1064,14 +1064,14 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgIm1lYXN1cmVtZW50IjogIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHkiLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKFwiOTV0aFBlcmNlbnRpbGVcIikiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICIkKGNsdXN0ZXIpIgogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiUmVhZExhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCg==</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IAogCiAKIAogCiAKIA==</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIC0taw==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLCBGTEFHUy5zdGFydCwgRkxBR1MuZW5kLCBtZXRyaWNfZmlsdGVyPSdjYXNzYW5kcmEnCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1095,17 +1095,14 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#</text>
+      <register name="3" type="4">
+        <text>'ext.{}.storage.opas.ai'.format(FLAGS.account_id),
+                              FLAGS.start,
+                              FLAGS.end,
+                              metric_filter='cassandra'</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">IiIiCg==</text>
+      <register name="4" type="8">
+        <text encoding="base64">IAogCiAKIAogCiAKIA==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1172,20 +1169,26 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">InRhZ3MiOiB7CiAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgIlJlYWRMYXRlbmN5IgogICAgICAgICAgICBdCiAgICAgICAgfSwKInBpdm90cyI6IFsKICAgICJob3N0IiwKICAgICJzY29wZSIK</text>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgIC0taw==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">InRhZ3MiOiB7CiAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgIlJlYWRMYXRlbmN5IgogICAgICAgICAgICBdCiAgICAgICAgfSwKInBpdm90cyI6IFsKICAgICJob3N0IiwKICAgICJzY29wZSIK</text>
+      <register name="6" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IyAgICAtLWtwaV9tZWFzdXJlbWVudCBvcmcuYXBhY2hlLmNhc3NhbmRyYS5tZXRyaWNzOnR5cGU9Q29sdW1uRmFtaWx5IFwK</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">LS0gc3RhcnQgPSAxNTQ2MjgyODAwCg==</text>
+        <text encoding="base64">InRhZ3MiOiB7CiAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgIlJlYWRMYXRlbmN5IgogICAgICAgICAgICBdCiAgICAgICAgfSwKInBpdm90cyI6IFsKICAgICJob3N0IiwKICAgICJzY29wZSIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">InRhZ3MiOiB7CiAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgIlJlYWRMYXRlbmN5IgogICAgICAgICAgICBdCiAgICAgICAgfSwKInBpdm90cyI6IFsKICAgICJob3N0IiwKICAgICJzY29wZSIK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
