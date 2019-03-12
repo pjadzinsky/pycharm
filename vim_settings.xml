@@ -30,12 +30,12 @@
         <mark key="[" line="332" column="0" />
         <mark key="]" line="344" column="15" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552362628679">
-        <mark key="'" line="40" column="7" />
-        <mark key="[" line="74" column="50" />
-        <mark key="]" line="74" column="50" />
-        <mark key="." line="74" column="50" />
-        <mark key="^" line="73" column="18" />
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552364276492">
+        <mark key="'" line="43" column="7" />
+        <mark key="[" line="16" column="41" />
+        <mark key="]" line="16" column="41" />
+        <mark key="." line="16" column="41" />
+        <mark key="^" line="45" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -53,7 +53,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552354486965" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552363553215" />
       <file name="$USER_HOME$/opas/core/python/README_localstorage.md" timestamp="1551985610048">
         <mark key="'" line="44" column="21" />
         <mark key="[" line="49" column="7" />
@@ -106,7 +106,7 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1552362633785">
+      <file name="/Python Console" timestamp="1552364320083">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="1" />
@@ -353,7 +353,7 @@
         <mark key="." line="5" column="32" />
         <mark key="^" line="5" column="32" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552362517201">
+      <file name="/Dummy.txt" timestamp="1552364215199">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" timestamp="1552078914772">
@@ -500,7 +500,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>start_epoch=start_epoch, end_epoch=end_epoch, metric_filter=metric_filter,</text>
+        <text>comma</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1042,7 +1042,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>start_epoch=start_epoch, end_epoch=end_epoch, metric_filter=metric_filter,</text>
+        <text>comma</text>
       </register>
       <register name="/" type="4">
         <text>outputs</text>
@@ -1051,13 +1051,13 @@
         <text encoding="base64">ICAgIG1ldHJpY3MgPSBzYy5xdWVyeV9hbGwoaG9zdD1zdG9yYWdlX2hvc3QsIHN0YXJ0X2Vwb2NoPXN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2g9ZW5kX2Vwb2NoLCBtZXRyaWNfZmlsdGVyPW1ldHJpY19maWx0ZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbl9pbnRlcnZhbD1taW5faW50ZXJ2YWwpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNzID0gc2MucXVlcnlfYWxsKGhvc3Q9c3RvcmFnZV9ob3N0LCBtaW5faW50ZXJ2YWw9bWluX2ludGVydmFsKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCBGTEFHUy5zdGFydCwgRkxBR1MuZW5kLCBtZXRyaWNfZmlsdGVyPSdjYXNzYW5kcmEnCg==</text>
+        <text encoding="base64">ICAgIGlmIG5vdCBtZXRyaWNzOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1081,14 +1081,11 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="4">
-        <text>'ext.{}.storage.opas.ai'.format(FLAGS.account_id),
-                              FLAGS.start,
-                              FLAGS.end,
-                              metric_filter='cassandra'</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">IAogCiAKIAogCiAKIA==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLCBGTEFHUy5zdGFydCwgRkxBR1MuZW5kLCBtZXRyaWNfZmlsdGVyPSdjYXNzYW5kcmEnCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1155,10 +1152,19 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgIC0taw==</text>
+      <register name="5" type="4">
+        <text>'ext.{}.storage.opas.ai'.format(FLAGS.account_id),
+                              FLAGS.start,
+                              FLAGS.end,
+                              metric_filter='cassandra'</text>
       </register>
       <register name="6" type="8">
+        <text encoding="base64">IAogCiAKIAogCiAKIA==</text>
+      </register>
+      <register name="7" type="8">
+        <text encoding="base64">ICAgIC0taw==</text>
+      </register>
+      <register name="8" type="8">
         <text>#
 #
 #
@@ -1167,14 +1173,8 @@
 #
 #</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">IiIiCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">InRhZ3MiOiB7CiAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgIlJlYWRMYXRlbmN5IgogICAgICAgICAgICBdCiAgICAgICAgfSwKInBpdm90cyI6IFsKICAgICJob3N0IiwKICAgICJzY29wZSIK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">InRhZ3MiOiB7CiAgICAgICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgICAgICAgIiQoY2x1c3RlcikiCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuYW1lIjogWwogICAgICAgICAgICAgICAgIlJlYWRMYXRlbmN5IgogICAgICAgICAgICBdCiAgICAgICAgfSwKInBpdm90cyI6IFsKICAgICJob3N0IiwKICAgICJzY29wZSIK</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
