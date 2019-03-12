@@ -81,6 +81,10 @@
         <mark key="^" line="667" column="69" />
         <mark key="." line="667" column="69" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/setup.py" timestamp="1552426955941">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="32" column="30" />
+      </file>
       <file name="/" timestamp="1552239004901">
         <mark key="[" line="0" column="0" />
       </file>
@@ -178,6 +182,12 @@
         <mark key="." line="202" column="45" />
         <mark key="^" line="202" column="45" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/integrations/fileimport/tests/test_file_import.py" timestamp="1552427050953">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="49" />
+        <mark key="." line="22" column="49" />
+        <mark key="^" line="22" column="49" />
+      </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1552187256032">
         <mark key="[" line="614" column="8" />
         <mark key="]" line="614" column="8" />
@@ -235,7 +245,7 @@
         <mark key="." line="52" column="48" />
         <mark key="^" line="52" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" timestamp="1552426160362">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" timestamp="1552426882386">
         <mark key="'" line="297" column="14" />
         <mark key="[" line="3" column="29" />
         <mark key="]" line="3" column="37" />
@@ -302,7 +312,7 @@
         <mark key="]" line="46" column="30" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552422723513">
+      <file name="/Dummy.txt" timestamp="1552427160105">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" timestamp="1552078914772">
@@ -340,7 +350,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="187" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="199" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="205" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
       <jump line="212" column="0" filename="$USER_HOME$/opas/core/python/opasai/anomaly/anomaly_correlator.py" />
@@ -440,6 +449,7 @@
       <jump line="295" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="662" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1129" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/setup.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -994,7 +1004,7 @@
         <text>blob_size_metrics</text>
       </register>
       <register name="/" type="4">
-        <text>def predict</text>
+        <text>rrd</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICJibG9iX3NpemVfbWV0cmljcyIK</text>
@@ -1117,13 +1127,13 @@
         <text encoding="base64">ICAgICJxdWVyeSI6ICJzZWxlY3QgbWVhbihcIlZhbHVlL1RQOTVcIikgZnJvbSBcIm9yZy5hcGFjaGUuY2Fzc2FuZHJhLm1ldHJpY3M6dHlwZT1Db2x1bW5GYW1pbHlcIiB3aGVyZSAkKHN0YXJ0KSA8PSB0aW1lIEFORCB0aW1lIDw9ICQoZW5kKSBHUk9VUCBCWSB0aW1lKCckKHVuaXQpJykgJChwaXZvdCkiLAo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
-      <last-search>def predict</last-search>
+      <last-search>rrd</last-search>
       <last-offset />
-      <last-pattern>def predict</last-pattern>
+      <last-pattern>rrd</last-pattern>
       <last-replace>custom</last-replace>
       <last-substitute>custome</last-substitute>
       <last-dir>1</last-dir>
@@ -1131,7 +1141,6 @@
     </search>
     <history>
       <history-search>
-        <entry>1</entry>
         <entry>9</entry>
         <entry>of</entry>
         <entry>def f</entry>
@@ -1151,13 +1160,13 @@
         <entry>query</entry>
         <entry>outputs</entry>
         <entry>def predict</entry>
+        <entry>rrd</entry>
       </history-search>
       <history-cmd>
         <entry>21,33s/cls/self/g</entry>
         <entry>65,77s/self.//g</entry>
         <entry>%s/self.//gc</entry>
         <entry>126,150s/measurement/expression/</entry>
-        <entry>wq</entry>
         <entry>113</entry>
         <entry>%s/key_metric_/metric_key_/gc</entry>
         <entry>34</entry>
@@ -1173,6 +1182,7 @@
         <entry>%s/blob_size_/custome_/gc</entry>
         <entry>%s/custome/custom/g</entry>
         <entry>q</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
