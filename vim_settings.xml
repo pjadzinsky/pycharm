@@ -30,12 +30,12 @@
         <mark key="[" line="332" column="0" />
         <mark key="]" line="344" column="15" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552501486308">
-        <mark key="'" line="294" column="75" />
-        <mark key="[" line="119" column="60" />
-        <mark key="]" line="119" column="75" />
-        <mark key="^" line="119" column="75" />
-        <mark key="." line="119" column="75" />
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552502957068">
+        <mark key="'" line="258" column="0" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="126" column="36" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -155,7 +155,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552501566746">
+      <file name="/Python Console" timestamp="1552502863210">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="^" line="0" column="1" />
@@ -481,7 +481,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="259" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="281" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="265" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="283" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
@@ -581,6 +580,7 @@
       <jump line="10" column="17" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="55" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="293" column="75" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
+      <jump line="259" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -590,7 +590,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGtwaXMgPSBzYy5xdWVyeV9idWxrc3FsKFtxdWVyeV0sIEZMQUdTLnN0YXJ0LCBGTEFHUy5lbmQsIEZMQUdTLmludGVydmFsX3NlY29uZHMpCg==</text>
+        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1132,22 +1132,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>kpis</text>
+        <text>concat</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDwjXD4=</text>
+        <text>metric_ut</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRpc2NyZXRlX2twaV9kZiA9IHBpcGVsaW5lLnRvX2RhdGFmcmFtZShrcGlzLCB0aW1lX2ZpcnN0PVRydWUpCg==</text>
+        <text encoding="base64">ICAgIGlmIEZMQUdTLmhvc3Q6CiAgICAgICAgdGFnc1snaG9zdCddID0gRkxBR1MuaG9zdAogICAgdGFnc1snc2NvcGUnXSA9IFsnYmxvYl9zaXplX21ldHJpY3MnLCAnY3VzdG9tX21ldHJpY3MnXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGtwaXMgPSBzYy5xdWVyeV9idWxrc3FsKFtxdWVyeV0sIEZMQUdTLnN0YXJ0LCBGTEFHUy5lbmQsIEZMQUdTLmludGVydmFsX3NlY29uZHMpCg==</text>
+        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9zCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1172,10 +1172,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlzY3JldGVfbWV0cmljID0gbnAuY29uY2F0ZW5hdGUoW2Rpc2NyZXRpemVkX21ldHJpY1toXSBmb3IgaCBpbiBzb3J0ZWRfaG9zdHNdLCBheGlzPTApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlzY3JldGVfa3BpID0gbnAuY29uY2F0ZW5hdGUoW2Rpc2NyZXRpemVkX2twaVtoXSBmb3IgaCBpbiBzb3J0ZWRfaG9zdHNdLCBheGlzPTApCg==</text>
+        <text encoding="base64">ICAgICAgICBkeW5hbWljX3F1ZXJpZXMK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1243,36 +1243,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjb25jYXRlbmF0ZSB0b2dldGhlciBhbGwgdGhlICd2YWx1ZXMnIGFzc29jaWF0ZWQgd2l0aCBrcGkgKGFuZCBtZXRyaWNzKQo=</text>
+        <text encoding="base64">ICAgIGtwaXMgPSBzYy5xdWVyeV9idWxrc3FsKFtxdWVyeV0sIEZMQUdTLnN0YXJ0LCBGTEFHUy5lbmQsIEZMQUdTLmludGVydmFsX3NlY29uZHMpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGlzY3JldGVfbWV0cmljID0gbnAuY29uY2F0ZW5hdGUoW2Rpc2NyZXRpemVkX21ldHJpY1toXSBmb3IgaCBpbiBzb3J0ZWRfaG9zdHNdLCBheGlzPTApCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IHNvcnRlZF9ob3N0czoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGlzY3JldGVfa3BpID0gbnAuY29uY2F0ZW5hdGUoW2Rpc2NyZXRpemVkX2twaVtoXSBmb3IgaCBpbiBzb3J0ZWRfaG9zdHNdLCBheGlzPTApCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc29ydGVkX2hvc3RzID0gc29ydGVkKFtoIGZvciBoIGluIGRpc2NyZXRpemVkX21ldHJpYy5rZXlzKCkgaWYgaCBpbiBkaXNjcmV0aXplZF9rcGldKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBjb25jYXRlbmF0ZSB0b2dldGhlciBhbGwgdGhlICd2YWx1ZXMnIGFzc29jaWF0ZWQgd2l0aCBrcGkgKGFuZCBtZXRyaWNzKQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/aggregate_tags/all_tags/g</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDwjXD4=</last-search>
+      <last-search>metric_ut</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDwjXD4=</last-pattern>
+      <last-pattern>metric_ut</last-pattern>
       <last-replace>all_tags</last-replace>
       <last-substitute>aggregate_tags</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>from_sch</entry>
         <entry>def to_q</entry>
         <entry>def query_</entry>
         <entry>interval_seconds</entry>
@@ -1292,6 +1291,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>pd</entry>
         <entry encoding="base64">XDwjXD4=</entry>
+        <entry>metric_ut</entry>
       </history-search>
       <history-cmd>
         <entry>113</entry>
