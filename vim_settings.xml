@@ -30,12 +30,12 @@
         <mark key="[" line="332" column="0" />
         <mark key="]" line="344" column="15" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552505777772">
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552511772782">
         <mark key="'" line="271" column="0" />
         <mark key="[" line="98" column="39" />
-        <mark key="]" line="98" column="37" />
-        <mark key="." line="98" column="37" />
-        <mark key="^" line="98" column="37" />
+        <mark key="]" line="101" column="1" />
+        <mark key="." line="101" column="1" />
+        <mark key="^" line="101" column="1" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -104,9 +104,9 @@
         <mark key="." line="52" column="59" />
         <mark key="^" line="52" column="59" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" timestamp="1552494739258">
-        <mark key="[" line="48" column="33" />
-        <mark key="]" line="48" column="40" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" timestamp="1552511769557">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="78" />
         <mark key="." line="48" column="40" />
         <mark key="^" line="48" column="40" />
       </file>
@@ -125,11 +125,11 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1552511490957">
+      <file name="/Python Console" timestamp="1552512570077">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="55" />
         <mark key="^" line="0" column="1" />
-        <mark key="." line="0" column="55" />
+        <mark key="." line="0" column="17" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1552423078816">
         <mark key="'" line="75" column="0" />
@@ -363,11 +363,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="32" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/tests/test_dynamic_query.py" timestamp="1552511438849">
-        <mark key="[" line="28" column="35" />
-        <mark key="]" line="28" column="9" />
-        <mark key="^" line="28" column="9" />
-        <mark key="." line="28" column="9" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/tests/test_dynamic_query.py" timestamp="1552512581845">
+        <mark key="'" line="84" column="8" />
+        <mark key="[" line="133" column="47" />
+        <mark key="]" line="132" column="63" />
+        <mark key="." line="132" column="63" />
+        <mark key="^" line="132" column="63" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_sort_metrics_by_excitation.py" timestamp="1551915556403">
         <mark key="'" line="113" column="0" />
@@ -433,8 +434,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="281" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
-      <jump line="265" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="283" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="103" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
       <jump line="123" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" />
@@ -533,6 +532,8 @@
       <jump line="55" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="293" column="75" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="259" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
+      <jump line="36" column="12" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/tests/test_dynamic_query.py" />
+      <jump line="84" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/tests/test_dynamic_query.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -541,8 +542,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>add_tag('A', 'a1').tags</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1084,22 +1085,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'cluster': 'Firefly_Cluster'</text>
+        <text>add_tag('A', 'a1').tags</text>
       </register>
       <register name="/" type="4">
-        <text>Dynamic</text>
+        <text>A</text>
       </register>
-      <register name="0" type="4">
-        <text>sc.dynamic_queries_from_schema(start_epoch, end_epoch, {'cluster': 'Firefly_Cluster'})</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X3RoYXRfd2VfY2FuX2FkZF90YWdzKHNlbGYpOgogICAgICAgICIiIgogICAgICAgIFRlc3QgdGhhdCB3ZSBjYW4gYWRkIHRhZ3MgYW5kIG9yZGVyIG9mIGFkZGl0aW9uIGlzIGlycmVsZXZhbnQKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIG1lYXN1cmVtZW50ID0gJ20nCiAgICAgICAgZXhwcmVzc2lvbiA9ICdlKCknCiAgICAgICAgdGFncyA9IHt9CiAgICAgICAgcGl2b3RzID0gW10KICAgICAgICBhbGxfdGFncyA9IHsnQSc6IFsnYTEnLCAnYTInLCAnYTMnXSwKICAgICAgICAgICAgICAgICAgICAnQic6IFsnYjEnXQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICBkcSA9IGR5bmFtaWNfcXVlcnkuRHluYW1pY1F1ZXJ5KG1lYXN1cmVtZW50LCBleHByZXNzaW9uLCB0YWdzLCBwaXZvdHMsIGFsbF90YWdzKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoZHEuYWRkX3RhZygnQScsICdhMScpLmFkZF90YWcoJ0InLCAnYjEnKS50YWdzLCB7J0EnOiAoJ2ExJywpLCAnQic6ICgnYjEnLCl9KQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoZHEuYWRkX3RhZygnQicsICdiMScpLmFkZF90YWcoJ0EnLCAnYTEnKS50YWdzLCB7J0EnOiAoJ2ExJywpLCAnQic6ICgnYjEnLCl9KQoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzIGFuZCBvcmRlciBvZiBhZGRpdGlvbiBpcyBpcnJlbGV2YW50Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChkcXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnQyc6IFsnYzEnLCAnYzInXX0K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1124,10 +1125,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihkcXMpLCAyNikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnQyc6IFsnYzEnLCAnYzInXX0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnQyc6IFsnYzEnLCAnYzInXX0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1195,28 +1196,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnQyc6IFsnYzEnLCAnYzInXX0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRvIGVuc3VyZSBkYXRhIGlzIHNvbWV3aGF0IGZyZXNoIHdlIGxvb2sgYXQgZGF0YSBmcm9tIDIgZGF5cyBhZ28uCiAgICAgICAgIyB0byBpbXByb3ZpbmcgY2FjaGluZywgd2UgZml4ICdzdGFydF9lcG9jaCcgdG8gdGhlIHN0YXJ0IG9mIHRoZSBkYXkKICAgICAgICBjbHMuaW50ZXJ2YWwgPSAzNjAKICAgICAgICBjbHMuYWJzcGF0aCA9IGN1cmRpcgogICAgICAgIHZhbGlkX3RhZ3MgPSBjbHMuc2MucXVlcnlfdmFsaWRfdGFncyhbJ2hvc3QnXSwgdGFncz0nY2x1c3Rlcj1Qcm9kX0NsdXN0ZXInLCBzdGFydF9lcG9jaD1jbHMuc3RhcnRfZXBvY2gsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZF9lcG9jaD1jbHMuZW5kX2Vwb2NoKQogICAgICAgIGNscy5ob3N0cyA9IHZhbGlkX3RhZ3NbJ2hvc3QnXQo=</text>
+        <text encoding="base64">ICAgICAgICAnWydBJywgJ0InXSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzYy5keW5hbWljX3F1ZXJpZXNfZnJvbV9zY2hlbWEoc3RhcnQpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRxLmFkZF9waXZvdCgnQicpLmFkZF9waXZvdCgnQScpLnBpdm90cywgWydBJywgJ0InXSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjbHMuc3RhcnRfZXBvY2ggPSAxNTM3NTY5NzY3IC0gMyo4NjQwMAogICAgICAgIGNscy5lbmRfZXBvY2ggPSBjbHMuc3RhcnRfZXBvY2ggKyB1dGltZS5PTkVIT1VSCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjbHMuZGIgPSAnYmx1ZXNoaWZ0Jwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/aggregate_tags/all_tags/g</text>
       </register>
     </registers>
     <search>
-      <last-search>Dynamic</last-search>
+      <last-search>A</last-search>
       <last-offset />
-      <last-pattern>Dynamic</last-pattern>
+      <last-pattern>A</last-pattern>
       <last-replace>all_tags</last-replace>
       <last-substitute>aggregate_tags</last-substitute>
       <last-dir>1</last-dir>
@@ -1224,8 +1225,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def query_</entry>
-        <entry>interval_seconds</entry>
         <entry>fwrite</entry>
         <entry>def query</entry>
         <entry>query</entry>
@@ -1244,6 +1243,8 @@
         <entry encoding="base64">XDwjXD4=</entry>
         <entry>metric_ut</entry>
         <entry>Dynamic</entry>
+        <entry>pro</entry>
+        <entry>A</entry>
       </history-search>
       <history-cmd>
         <entry>113</entry>
