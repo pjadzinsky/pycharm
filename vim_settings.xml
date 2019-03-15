@@ -33,12 +33,12 @@
         <mark key="]" line="6" column="34" />
         <mark key="." line="19" column="21" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552678235072">
-        <mark key="'" line="377" column="0" />
-        <mark key="[" line="106" column="37" />
-        <mark key="]" line="106" column="41" />
-        <mark key="." line="106" column="41" />
-        <mark key="^" line="106" column="41" />
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552681684581">
+        <mark key="'" line="500" column="0" />
+        <mark key="[" line="148" column="14" />
+        <mark key="]" line="148" column="19" />
+        <mark key="." line="148" column="19" />
+        <mark key="^" line="148" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -162,7 +162,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552678237494">
+      <file name="/Python Console" timestamp="1552681679142">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -204,12 +204,12 @@
         <mark key="]" line="274" column="0" />
         <mark key="." line="274" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1552671693067">
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1552679276122">
         <mark key="'" line="9" column="8" />
-        <mark key="[" line="5" column="12" />
-        <mark key="]" line="5" column="17" />
-        <mark key="^" line="5" column="17" />
-        <mark key="." line="5" column="17" />
+        <mark key="[" line="23" column="8" />
+        <mark key="]" line="23" column="40" />
+        <mark key="^" line="23" column="40" />
+        <mark key="." line="23" column="40" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/vm_complement.py" timestamp="1551293433096">
         <mark key="[" line="55" column="0" />
@@ -234,7 +234,7 @@
         <mark key="^" line="12" column="26" />
         <mark key="." line="12" column="63" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552676316713">
+      <file name="/Dummy.txt" timestamp="1552682197841">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -274,7 +274,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="13" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="86" column="15" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="87" column="32" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="106" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
@@ -374,6 +373,7 @@
       <jump line="460" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="377" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="3" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" />
+      <jump line="491" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -382,8 +382,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRlZiBleHBlY3RlZF9udW1iZXJfb2ZfdHJhY2VzKHNlbGYpOgo=</text>
+      <register name="&quot;" type="4">
+        <text>query</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -925,22 +925,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>FLAGS.pipeline_def</text>
+        <text>query</text>
       </register>
       <register name="/" type="4">
-        <text>def .*num</text>
+        <text>cache</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBleHBlY3RlZF9udW1iZXJfb2ZfdHJhY2VzKHNlbGYpOgo=</text>
+        <text encoding="base64">ICAgICAgICBkeW5hbWljX3F1ZXJpZXMgPSBnZXRfcXVlcmllc19mcm9tX3NjaGVtYShzYykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlbWEgPSBzZWxmLnF1ZXJ5X3NjaGVtYShzdGFydF9lcG9jaCwgZW5kX2Vwb2NoKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAxNTMwNTcxNjAwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbyhkbWspCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -965,10 +965,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzCg==</text>
+        <text encoding="base64">ICAgIGZvciBkcSBpbiBkcXM6CiAgICAgICAgcHJpbnQgZHEuZXhwZWN0ZWRfbnVtYmVyX29mX3RyYWNlcygpLCBkcQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PT09PT09PQogICAgaWYgJygnIGluIGZpZWxkIGFuZCAnKScgaW4gZmllbGQ6CiAgICAgICAgcmV0dXJuIGZpZWxkCiAgICBleHByZXNzaW9uID0gJ3t9KHt9KScuZm9ybWF0KGZuLCBmaWVsZCkKPj4+Pj4+PiBNSSBvZiBrcGkgYW5kIGFsbCBtZXRyaWNzIGluIHN0b3JhZ2U6cHl0aG9uL29wYXNhaS9jb21tb24vc3RyaW5nX3V0aWxzLnB5Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgW2RxLnRhZ3MuZ2V0KCdob3N0JyknKCdob3N0JzogaG9zdCkgZm9yIGRxIGluIGR5bmFtaWNfcXVlcmllc10K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1036,28 +1036,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PDw8PDw8PCAwZjU4Nzc1ZmNlYzI1MjEwMzY2NTYxYjczZjdhODFjNGFjNjRiMTU5OnB5dGhvbi9vcGFzYWkvY29tbW9uL3N0cmluZ191dGlscy5weQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IE1JIG9mIGtwaSBhbmQgYWxsIG1ldHJpY3MgaW4gc3RvcmFnZQo=</text>
+        <text encoding="base64">ICAgICAgICBmb3IgaG9zdCBpbiBGTEFHUy5ob3N0Ogo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PDw8PDw8PCAwZjU4Nzc1ZmNlYzI1MjEwMzY2NTYxYjczZjdhODFjNGFjNjRiMTU5Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBNSSBvZiBrcGkgYW5kIGFsbCBtZXRyaWNzIGluIHN0b3JhZ2UK</text>
+        <text encoding="base64">ICAgIGZvciBxIGluIHF1ZXJpZXM6CiAgICAgICAgaWR4ID0gcS5waXZvdHMuaW5kZXgoJ2hvc3QnKQogICAgICAgIHEucGl2b3RzLnBvcChpZHgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCBlYzNjNGU3MTVmNDUwOWVhZDJjMzk5N2NmMDhhMjAxNmFiYjkwZDRlCj09PT09PT0K</text>
+        <text encoding="base64">ICAgIGlmIEZMQUdTLmFjY291bnRfaWQgPT0gJ2Fkb2JlJzoKICAgICAgICAjIHBhc3MgZWFjaCBkeW5hbWljIHF1ZXJ5IHJlcHJlc2VudHMgYSBzaW5nbGUgdHJhY2UKICAgIGVsc2U6CiAgICAgICAgIyBsaW1pdCBxdWVyaWVzIHRvIHRoZSBzcGVjaWZpZWQgaG9zdHMK</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>
       </register>
     </registers>
     <search>
-      <last-search>def .*num</last-search>
+      <last-search>cache</last-search>
       <last-offset />
-      <last-pattern>def .*num</last-pattern>
+      <last-pattern>cache</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>df2</last-substitute>
       <last-dir>1</last-dir>
@@ -1065,7 +1065,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def load</entry>
         <entry>def query</entry>
         <entry>classmethod</entry>
         <entry>nodata</entry>
@@ -1085,6 +1084,7 @@
         <entry>dynamic</entry>
         <entry>def.*queries</entry>
         <entry>def .*num</entry>
+        <entry>cache</entry>
       </history-search>
       <history-cmd>
         <entry>%s/timewindow/anomaly_windows/gc</entry>
