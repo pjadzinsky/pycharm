@@ -25,12 +25,12 @@
       <file name="/a.dummy" timestamp="1552335573124">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552623703931">
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552658916720">
         <mark key="'" line="141" column="3" />
         <mark key="[" line="141" column="25" />
-        <mark key="]" line="143" column="0" />
-        <mark key="." line="143" column="0" />
-        <mark key="^" line="142" column="72" />
+        <mark key="]" line="141" column="30" />
+        <mark key="." line="141" column="30" />
+        <mark key="^" line="141" column="30" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -54,12 +54,8 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552624817042">
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552658773918">
         <mark key="'" line="432" column="4" />
-        <mark key="[" line="508" column="0" />
-        <mark key="]" line="508" column="105" />
-        <mark key="^" line="599" column="63" />
-        <mark key="." line="600" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/README_localstorage.md" timestamp="1552513377143">
         <mark key="'" line="49" column="6" />
@@ -182,12 +178,12 @@
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/cycles_in_one_exchange.py" timestamp="1551547567792">
         <mark key="'" line="54" column="55" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552624940078">
-        <mark key="'" line="22" column="0" />
-        <mark key="[" line="206" column="13" />
-        <mark key="]" line="206" column="14" />
-        <mark key="." line="206" column="14" />
-        <mark key="^" line="206" column="14" />
+      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552658900176">
+        <mark key="'" line="82" column="5" />
+        <mark key="[" line="93" column="0" />
+        <mark key="]" line="93" column="66" />
+        <mark key="." line="208" column="83" />
+        <mark key="^" line="208" column="83" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/correlations.py" timestamp="1552338459358">
         <mark key="'" line="118" column="4" />
@@ -390,11 +386,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="27" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="426" column="30" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="354" column="25" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="433" column="20" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="335" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="336" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="735" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="528" column="59" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -490,6 +481,11 @@
       <jump line="375" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="410" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="432" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="208" column="83" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="60" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="65" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="82" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -498,8 +494,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>+</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gY2xzKHF1ZXJpZXMsIGFjY291bnRfaWQsIHN0b3JhZ2VfaG9zdD1zdG9yYWdlX2hvc3QpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1044,19 +1040,19 @@
         <text>+</text>
       </register>
       <register name="/" type="4">
-        <text>def query</text>
+        <text>classmethod</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljcyA9IHNlbGYucXVlcnlfbWV0cmljcyhrZXksIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gsIGludGVydmFsX3NlY29uZHMsIDAsIG5vZGF0YT0ndHJ1ZScpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gY2xzKHF1ZXJpZXMsIGFjY291bnRfaWQsIHN0b3JhZ2VfaG9zdD1zdG9yYWdlX2hvc3QpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgbWV0cmljIGluIG1ldHJpY3M6Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBwb2ludHNfcGVyX3F1ZXJ5KHNlbGYsIHN0YXJ0LCBlbmQsIGludGVydmFsKToKICAgICAgICBxdWVyeV90b19wbnRzID0gZGVmYXVsdGRpY3QoaW50KQogICAgICAgIHBudHMgPSAoZW5kIC0gc3RhcnQpIC8gaW50ZXJ2YWwKICAgICAgICBmb3IgcXVlcnkgaW4gc2VsZi5tZXRyaWNfa2V5czoKICAgICAgICAgICAgbWV0cmljcyA9IHNlbGYuc2MucXVlcnlfbWV0cmljcyhxdWVyeSwgc3RhcnQsIGVuZCwgaW50ZXJ2YWwsIDAsIG5vZGF0YT0ndHJ1ZScpCgogICAgICAgICAgICBxdWVyeV90b19wbnRzW3F1ZXJ5XSA9IHBudHMgKiBsZW4obWV0cmljcykKCiAgICAgICAgcmV0dXJuIHF1ZXJ5X3RvX3BudHMKCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwbnRzID0gKGVuZCAtIHN0YXJ0KSAvIGludGVydmFsCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgbWV0cmljIGluIG1ldHJpY3M6Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1081,10 +1077,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgbWV0cmljIGluIHNlbGYubWV0cmljczoK</text>
+        <text encoding="base64">ICAgICAgICBwbnRzID0gKGVuZCAtIHN0YXJ0KSAvIGludGVydmFsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZiBsb2FkX3F1ZXJpZXMoc2VsZiwgc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgaW50ZXJ2YWwsIGFjdGl2aXR5X3N0YXJ0LCBhY3Rpdml0eV9lbmQsIGFjdGl2aXR5X21pbl9zYW1wbGVzLAogICAgICAgICAgICAgICAgICAgICBmb3J3YXJkX2ZpbGw9VHJ1ZSk6CiAgICAgICAgIiIiCiAgICAgICAgTG9hZCBkYXRhIGZvciB0aGUgcXVlcmllcy4KICAgICAgICBpZiBzdGFydF9lcG9jaCBhbmQgZW5kX2Vwb2NoIGFyZSBnaXZlbiBpdCBsb2FkcyBkYXRhIGluIHRoZSBkZXNpcmVkIHRpbWUgd2luZG93CiAgICAgICAgaWYgc3RhcnRfZXBvY2ggYW5kIGR1cmF0aW9uIGFyZSBnaXZlbiwgdGhlbiBlbmRfZXBvY2ggPSBzdGFydF9lcG9jaCArIGR1cmF0aW9uCiAgICAgICAgaWYgZW5kX2Vwb2NoIGFuZCBkdXJhdGlvbiBhcmUgZ2l2ZW4sIHRoZW4gc3RhcnRfZXBvY2ggPSBlbmRfZXBvY2ggLSBkdXJhdGlvbgogICAgICAgIGlmIGp1c3QgZHVyYXRpb24gaXMgZ2l2ZW4sIHRoZW4gZW5kX2Vwb2NoID0gbm93KCkgYW5kIHN0YXJ0X2Vwb2NoID0gZW5kX2Vwb2NoIC0gZHVyYXRpb24KICAgICAgICBhbnl0aGluZyBlbHNlIHJhaXNlcyBhbiBleGNlcHRpb24KICAgICAgICA6cGFyYW0gc3RhcnRfZXBvY2hfZXBvY2g6IAogICAgICAgIDpwYXJhbSBlbmRfZXBvY2g6IAogICAgICAgIDpwYXJhbSBkdXJhdGlvbjogCiAgICAgICAgOnJldHVybjogCiAgICAgICAgIiIiCiAgICAgICAgZm9yIHF1ZXJ5IGluIHNlbGYubWV0cmljX2tleXM6CiAgICAgICAgICAgICMgZmlndXJlIG91dCBob3cgbWFueSBwb2ludHMgZWFjaCBxdWVyeSB3aWxsIHJldHVybgogICAgICAgIGxvYWRfd2luZG93cyA9IHNlbGYuX2dldF9sb2FkX3dpbmRvd3Moc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgaW50ZXJ2YWwsIGFjdGl2aXR5X3N0YXJ0LCBhY3Rpdml0eV9lbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eV9taW5fc2FtcGxlcykKICAgICAgICAjIFRvIGVuc3VyZSB0aGF0IHRvbyBtdWNoIGRhdGEgaXMgbm90IHJlcXVlc3RlZCBpbiBvbmUgZ28sIHdlIHNwbGl0IHRoZSByZXF1ZXN0cyBpbnRvIHNtYWxsZXIgd2luZG93cyBhbmQgc3VibWl0CiAgICAgICAgIyB0aGVtIHNlcmlhbGx5LiBDdXJyZW50bHkgYWxsIHRoZSBkYXRhIGlzIHN0b3JlZCBpbiBtZW1vcnkgYW5kIHJldHVybmVkIHRvIHRoZSBjbGllbnQuIFdlIG1heSB3YW50IHRvIGltcGxlbWVudAogICAgICAgICMgYW4gYWRkaXRpb25hbCBiYXRjaGluZy9jYWNoaW5nIGxheWVyIGhlcmUgZm9yIGJldHRlciBwZXJmb3JtYW5jZQogICAgICAgICMgVE9ETyB2aW5lc2ggLSBhZGQgY2FjaGluZyBoZXJlCiAgICAgICAgbWV0cmljcyA9IGxpc3QoKQogICAgICAgIGZvciBsb2FkX3dpbmRvdyBpbiBsb2FkX3dpbmRvd3M6CiAgICAgICAgICAgIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2ggPSBsb2FkX3dpbmRvdwogICAgICAgICAgICBwYXJ0X21ldHJpY3MgPSBzZWxmLl9xdWVyeV9idWxrX21ldHJpY3Moc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgaW50ZXJ2YWwsIGFjdGl2aXR5X3N0YXJ0LCBhY3Rpdml0eV9lbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eV9taW5fc2FtcGxlcykKICAgICAgICAgICAgbWV0cmljcyA9IG1ldHJpY191dGlscy5leHRlbmRfbWV0cmljcyhwYXJ0X21ldHJpY3MsIG1ldHJpY3MpCiAgICAgICAgaWYgZm9yd2FyZF9maWxsOgogICAgICAgICAgICAjIGlzIHRoZSAiaWYiIG5lZWRlZCBvciBjYW4gd2UgYXNzdW1lIGlzIGFsd2F5cyBUcnVlPyBXaWxsIHdlIGV2ZXIgdXNlIHRoaXMgd2l0aG91dCBmb3J3YXJkIGZpbGxpbmc/CiAgICAgICAgICAgIFttLmZvcndhcmRfZmlsbChpbnBsYWNlPVRydWUpIGZvciBtIGluIG1ldHJpY3NdCgogICAgICAgIHJldHVybiBtZXRyaWNzCiAgICAK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgbWV0cmljIGluIHNlbGYubWV0cmljczoK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1152,28 +1148,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBudW1fbWV0cmljcyA9IDEK</text>
+        <text encoding="base64">ICAgIGRlZiBsb2FkX3F1ZXJpZXMoc2VsZiwgc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgaW50ZXJ2YWwsIGFjdGl2aXR5X3N0YXJ0LCBhY3Rpdml0eV9lbmQsIGFjdGl2aXR5X21pbl9zYW1wbGVzLAogICAgICAgICAgICAgICAgICAgICBmb3J3YXJkX2ZpbGw9VHJ1ZSk6CiAgICAgICAgIiIiCiAgICAgICAgTG9hZCBkYXRhIGZvciB0aGUgcXVlcmllcy4KICAgICAgICBpZiBzdGFydF9lcG9jaCBhbmQgZW5kX2Vwb2NoIGFyZSBnaXZlbiBpdCBsb2FkcyBkYXRhIGluIHRoZSBkZXNpcmVkIHRpbWUgd2luZG93CiAgICAgICAgaWYgc3RhcnRfZXBvY2ggYW5kIGR1cmF0aW9uIGFyZSBnaXZlbiwgdGhlbiBlbmRfZXBvY2ggPSBzdGFydF9lcG9jaCArIGR1cmF0aW9uCiAgICAgICAgaWYgZW5kX2Vwb2NoIGFuZCBkdXJhdGlvbiBhcmUgZ2l2ZW4sIHRoZW4gc3RhcnRfZXBvY2ggPSBlbmRfZXBvY2ggLSBkdXJhdGlvbgogICAgICAgIGlmIGp1c3QgZHVyYXRpb24gaXMgZ2l2ZW4sIHRoZW4gZW5kX2Vwb2NoID0gbm93KCkgYW5kIHN0YXJ0X2Vwb2NoID0gZW5kX2Vwb2NoIC0gZHVyYXRpb24KICAgICAgICBhbnl0aGluZyBlbHNlIHJhaXNlcyBhbiBleGNlcHRpb24KICAgICAgICA6cGFyYW0gc3RhcnRfZXBvY2hfZXBvY2g6IAogICAgICAgIDpwYXJhbSBlbmRfZXBvY2g6IAogICAgICAgIDpwYXJhbSBkdXJhdGlvbjogCiAgICAgICAgOnJldHVybjogCiAgICAgICAgIiIiCiAgICAgICAgZm9yIHF1ZXJ5IGluIHNlbGYubWV0cmljX2tleXM6CiAgICAgICAgICAgICMgZmlndXJlIG91dCBob3cgbWFueSBwb2ludHMgZWFjaCBxdWVyeSB3aWxsIHJldHVybgogICAgICAgIGxvYWRfd2luZG93cyA9IHNlbGYuX2dldF9sb2FkX3dpbmRvd3Moc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgaW50ZXJ2YWwsIGFjdGl2aXR5X3N0YXJ0LCBhY3Rpdml0eV9lbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eV9taW5fc2FtcGxlcykKICAgICAgICAjIFRvIGVuc3VyZSB0aGF0IHRvbyBtdWNoIGRhdGEgaXMgbm90IHJlcXVlc3RlZCBpbiBvbmUgZ28sIHdlIHNwbGl0IHRoZSByZXF1ZXN0cyBpbnRvIHNtYWxsZXIgd2luZG93cyBhbmQgc3VibWl0CiAgICAgICAgIyB0aGVtIHNlcmlhbGx5LiBDdXJyZW50bHkgYWxsIHRoZSBkYXRhIGlzIHN0b3JlZCBpbiBtZW1vcnkgYW5kIHJldHVybmVkIHRvIHRoZSBjbGllbnQuIFdlIG1heSB3YW50IHRvIGltcGxlbWVudAogICAgICAgICMgYW4gYWRkaXRpb25hbCBiYXRjaGluZy9jYWNoaW5nIGxheWVyIGhlcmUgZm9yIGJldHRlciBwZXJmb3JtYW5jZQogICAgICAgICMgVE9ETyB2aW5lc2ggLSBhZGQgY2FjaGluZyBoZXJlCiAgICAgICAgbWV0cmljcyA9IGxpc3QoKQogICAgICAgIGZvciBsb2FkX3dpbmRvdyBpbiBsb2FkX3dpbmRvd3M6CiAgICAgICAgICAgIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2ggPSBsb2FkX3dpbmRvdwogICAgICAgICAgICBwYXJ0X21ldHJpY3MgPSBzZWxmLl9xdWVyeV9idWxrX21ldHJpY3Moc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCwgaW50ZXJ2YWwsIGFjdGl2aXR5X3N0YXJ0LCBhY3Rpdml0eV9lbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eV9taW5fc2FtcGxlcykKICAgICAgICAgICAgbWV0cmljcyA9IG1ldHJpY191dGlscy5leHRlbmRfbWV0cmljcyhwYXJ0X21ldHJpY3MsIG1ldHJpY3MpCiAgICAgICAgaWYgZm9yd2FyZF9maWxsOgogICAgICAgICAgICAjIGlzIHRoZSAiaWYiIG5lZWRlZCBvciBjYW4gd2UgYXNzdW1lIGlzIGFsd2F5cyBUcnVlPyBXaWxsIHdlIGV2ZXIgdXNlIHRoaXMgd2l0aG91dCBmb3J3YXJkIGZpbGxpbmc/CiAgICAgICAgICAgIFttLmZvcndhcmRfZmlsbChpbnBsYWNlPVRydWUpIGZvciBtIGluIG1ldHJpY3NdCgogICAgICAgIHJldHVybiBtZXRyaWNzCiAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGUK</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBudW1fbWV0cmljcyA9IDEK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgcXVlcnkgaW4gc2VsZi5tZXRyaWNfa2V5czoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBxdWVyeToK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgcXVlcnkgaW4gc2VsZi5tZXRyaWNfa2V5czoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpZiBxdWVyeToK</text>
       </register>
       <register name=":" type="4">
         <text>128,138s/df2/df/g</text>
       </register>
     </registers>
     <search>
-      <last-search>def query</last-search>
+      <last-search>classmethod</last-search>
       <last-offset />
-      <last-pattern>def query</last-pattern>
+      <last-pattern>classmethod</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>df2</last-substitute>
       <last-dir>1</last-dir>
@@ -1181,7 +1177,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def build</entry>
         <entry>def.*build</entry>
         <entry>defaultdict</entry>
         <entry>gt</entry>
@@ -1201,6 +1196,7 @@
         <entry>class</entry>
         <entry>def load</entry>
         <entry>def query</entry>
+        <entry>classmethod</entry>
       </history-search>
       <history-cmd>
         <entry>%s/key_metric_/metric_key_/gc</entry>
