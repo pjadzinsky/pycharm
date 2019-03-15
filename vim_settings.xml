@@ -33,12 +33,12 @@
         <mark key="]" line="6" column="34" />
         <mark key="." line="19" column="21" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552681684581">
-        <mark key="'" line="500" column="0" />
-        <mark key="[" line="148" column="14" />
-        <mark key="]" line="148" column="19" />
-        <mark key="." line="148" column="19" />
-        <mark key="^" line="148" column="19" />
+      <file name="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" timestamp="1552688102361">
+        <mark key="'" line="129" column="25" />
+        <mark key="[" line="159" column="43" />
+        <mark key="]" line="159" column="56" />
+        <mark key="^" line="159" column="56" />
+        <mark key="." line="159" column="56" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1551919429455">
         <mark key="[" line="66" column="59" />
@@ -155,7 +155,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552681679142">
+      <file name="/Python Console" timestamp="1552687983256">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -227,7 +227,7 @@
         <mark key="^" line="12" column="26" />
         <mark key="." line="12" column="63" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552682197841">
+      <file name="/Dummy.txt" timestamp="1552688304396">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -267,8 +267,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="106" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="127" column="4" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="114" column="4" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="34" column="32" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="133" column="37" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
@@ -367,6 +365,8 @@
       <jump line="150" column="13" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" />
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" />
       <jump line="0" column="21" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/dynamic_query.py" />
+      <jump line="58" column="42" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
+      <jump line="129" column="25" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -376,7 +376,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihkcXMpLCAzKQo=</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUsICd3K3QnKSBhcyBmaWQ6CiAgICAgICAgICAgIGZpZC53cml0ZSgne30se31cbicuZm9ybWF0KCdtaScsICdkbWsnKSkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -921,19 +921,19 @@
         <text>queries</text>
       </register>
       <register name="/" type="4">
-        <text>copy</text>
+        <text>def sort</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihkcXMpLCAzKQo=</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUsICd3K3QnKSBhcyBmaWQ6CiAgICAgICAgICAgIGZpZC53cml0ZSgne30se31cbicuZm9ybWF0KCdtaScsICdkbWsnKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUsICd3K3QnKSBhcyBmaWQ6CiAgICAgICAgICAgIGZpZC53cml0ZSgne30se31cbicuZm9ybWF0KCdtaScsICdkbWsnKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFJhaXNlcyhBc3NlcnRpb25FcnJvciwgZHEuc3BsaXRfYnlfdGFnLCAnQycpCiAgICAgICAgZHEgPSBkcS5hZGRfdGFnKCdBJywgJ2ExJykuYWRkX3RhZygnQScsICdhMicpLmFkZF90YWcoJ0InLCAnYjEnKS5hZGRfdGFnKCdCJywgJ2IyJykuYWRkX3Bpdm90KCdCJykKICAgICAgICBuID0gZHEuZXhwZWN0ZWRfbnVtYmVyX29mX3RyYWNlcygpCiAgICAgICAgIyB3ZSBwaXZvdCBieSBCIGJ1dCBCIGlzIGxpbWl0ZWQgdG8gJ2IxJyBhbmQgJ2IyJwogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobiwgMiAqIDIpCg==</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oZmlsZW5hbWUsICd3K3QnKSBhcyBmaWQ6CiAgICAgICAgICAgIGZpZC53cml0ZSgne30se31cbicuZm9ybWF0KCdtaScsICdkbWsnKSkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -958,10 +958,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRxLmV4cGVjdGVkX251bWJlcl9vZl90cmFjZXMoKSwgMSkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdDJzogWydjMSddfSkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFJhaXNlcyhBc3NlcnRpb25FcnJvciwgZHEuc3BsaXRfYnlfdGFnLCAnQycpCiAgICAgICAgZHEgPSBkcS5hZGRfdGFnKCdBJywgJ2ExJykuYWRkX3RhZygnQScsICdhMicpLmFkZF90YWcoJ0InLCAnYjEnKS5hZGRfdGFnKCdCJywgJ2IyJykuYWRkX3Bpdm90KCdCJykKICAgICAgICBuID0gZHEuZXhwZWN0ZWRfbnVtYmVyX29mX3RyYWNlcygpCiAgICAgICAgIyB3ZSBwaXZvdCBieSBCIGJ1dCBCIGlzIGxpbWl0ZWQgdG8gJ2IxJyBhbmQgJ2IyJwogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobiwgMiAqIDIpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1029,28 +1029,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkcXMgPSBbc2VsZi5hZGRdCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGRxLmV4cGVjdGVkX251bWJlcl9vZl90cmFjZXMoKSwgMSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBjb3B5IGltcG9ydCBkZWVwY29weQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdDJzogWydjMSddfSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkcXMgPSBbc2VsZi5hZGRdCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ZnJvbSBjb3B5IGltcG9ydCBkZWVwY29weQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbyhkbWspCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>
       </register>
     </registers>
     <search>
-      <last-search>copy</last-search>
+      <last-search>def sort</last-search>
       <last-offset />
-      <last-pattern>copy</last-pattern>
+      <last-pattern>def sort</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>df2</last-substitute>
       <last-dir>1</last-dir>
@@ -1058,8 +1058,6 @@
     </search>
     <history>
       <history-search>
-        <entry>classmethod</entry>
-        <entry>nodata</entry>
         <entry>def query_for</entry>
         <entry>MAX</entry>
         <entry>query_for_q</entry>
@@ -1078,6 +1076,8 @@
         <entry>def .*num</entry>
         <entry>cache</entry>
         <entry>copy</entry>
+        <entry>pipeline</entry>
+        <entry>def sort</entry>
       </history-search>
       <history-cmd>
         <entry>%s/timewindow/anomaly_windows/gc</entry>
