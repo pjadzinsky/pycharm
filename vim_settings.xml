@@ -54,8 +54,8 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552658773918">
-        <mark key="'" line="432" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552662587648">
+        <mark key="'" line="617" column="15" />
       </file>
       <file name="$USER_HOME$/opas/core/python/README_localstorage.md" timestamp="1552513377143">
         <mark key="'" line="49" column="6" />
@@ -116,7 +116,7 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1552625010643">
+      <file name="/Python Console" timestamp="1552662972914">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -178,12 +178,12 @@
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/writers/cycles_in_one_exchange.py" timestamp="1551547567792">
         <mark key="'" line="54" column="55" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552658900176">
+      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552662894320">
         <mark key="'" line="82" column="5" />
-        <mark key="[" line="93" column="0" />
-        <mark key="]" line="93" column="66" />
-        <mark key="." line="208" column="83" />
-        <mark key="^" line="208" column="83" />
+        <mark key="[" line="217" column="90" />
+        <mark key="]" line="216" column="36" />
+        <mark key="." line="216" column="36" />
+        <mark key="^" line="216" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/correlations.py" timestamp="1552338459358">
         <mark key="'" line="118" column="4" />
@@ -386,8 +386,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="336" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="735" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="528" column="59" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="537" column="64" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="427" column="0" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
@@ -486,6 +484,8 @@
       <jump line="60" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="65" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="82" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
+      <jump line="615" column="31" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="617" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1040,7 +1040,7 @@
         <text>+</text>
       </register>
       <register name="/" type="4">
-        <text>classmethod</text>
+        <text>nodata</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gY2xzKHF1ZXJpZXMsIGFjY291bnRfaWQsIHN0b3JhZ2VfaG9zdD1zdG9yYWdlX2hvc3QpCg==</text>
@@ -1167,9 +1167,9 @@
       </register>
     </registers>
     <search>
-      <last-search>classmethod</last-search>
+      <last-search>nodata</last-search>
       <last-offset />
-      <last-pattern>classmethod</last-pattern>
+      <last-pattern>nodata</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>df2</last-substitute>
       <last-dir>1</last-dir>
@@ -1177,7 +1177,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def.*build</entry>
         <entry>defaultdict</entry>
         <entry>gt</entry>
         <entry>FLAGS</entry>
@@ -1197,6 +1196,7 @@
         <entry>def load</entry>
         <entry>def query</entry>
         <entry>classmethod</entry>
+        <entry>nodata</entry>
       </history-search>
       <history-cmd>
         <entry>%s/key_metric_/metric_key_/gc</entry>
