@@ -52,11 +52,6 @@
         <mark key="^" line="916" column="75" />
         <mark key="." line="916" column="75" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1552676019847">
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="55" column="0" />
-        <mark key="." line="55" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1551989089315">
         <mark key="'" line="36" column="91" />
         <mark key="[" line="45" column="20" />
@@ -128,6 +123,9 @@
         <mark key="^" line="30" column="49" />
         <mark key="." line="30" column="49" />
       </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" timestamp="1552757778547">
+        <mark key="'" line="168" column="40" />
+      </file>
       <file name="/" timestamp="1552239004901">
         <mark key="[" line="0" column="0" />
       </file>
@@ -157,10 +155,11 @@
         <mark key="^" line="165" column="83" />
         <mark key="." line="165" column="83" />
       </file>
-      <file name="/Python Console" timestamp="1552752594241">
+      <file name="/Python Console" timestamp="1552758292238">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="]" line="0" column="11" />
+        <mark key="." line="0" column="11" />
+        <mark key="^" line="0" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1552698489863">
         <mark key="'" line="75" column="0" />
@@ -200,7 +199,7 @@
         <mark key="." line="427" column="0" />
         <mark key="^" line="9" column="32" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1552750082739">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" timestamp="1552757654569">
         <mark key="[" line="175" column="19" />
         <mark key="]" line="177" column="75" />
         <mark key="." line="177" column="75" />
@@ -213,12 +212,13 @@
         <mark key="^" line="142" column="78" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/staples.py" timestamp="1552750719907">
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="0" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/staples.py" timestamp="1552757942007">
+        <mark key="[" line="54" column="16" />
+        <mark key="]" line="54" column="24" />
+        <mark key="." line="54" column="24" />
+        <mark key="^" line="54" column="24" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552757279021">
+      <file name="/Dummy.txt" timestamp="1552758295866">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -251,12 +251,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="410" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="432" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="208" column="83" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="60" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="65" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="82" column="5" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
       <jump line="615" column="31" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="617" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -351,6 +345,12 @@
       <jump line="365" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="382" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="385" column="4" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
+      <jump line="103" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="144" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="146" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="165" column="8" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="166" column="0" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
+      <jump line="168" column="40" filename="$USER_HOME$/crypto/crypto/crypto/scripts/execute_strategy.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -360,7 +360,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>0</text>
+        <text>100</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -902,10 +902,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>100</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>sender</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGFuYWx5emVfcGF0aChzZWVkX2NvaW4sIHBhdGgsIHNlbmRlciwgbWluX2dhaW49MCwgdGVzdF9hdmFpbGFibGVfZnVuZHNfZmxhZz1UcnVlLCBleGVjdXRlPUZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICp2YXJncywgKiprd2FyZ3MpOgo=</text>
@@ -1032,9 +1032,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>sender</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>sender</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>df2</last-substitute>
       <last-dir>1</last-dir>
@@ -1042,7 +1042,6 @@
     </search>
     <history>
       <history-search>
-        <entry>schema</entry>
         <entry>dynamic</entry>
         <entry>def.*queries</entry>
         <entry>def .*num</entry>
@@ -1062,6 +1061,7 @@
         <entry>max_gain</entry>
         <entry>class Path</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>sender</entry>
       </history-search>
       <history-cmd>
         <entry>%s/long_peak_time, long_peak/long_peak_w_ano_time, long_peak_w_ano/gc</entry>
