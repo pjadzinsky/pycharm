@@ -93,10 +93,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" timestamp="1552927114083">
-        <mark key="[" line="410" column="0" />
-        <mark key="]" line="410" column="0" />
-        <mark key="." line="410" column="0" />
+      <file name="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" timestamp="1552928807427">
+        <mark key="'" line="469" column="0" />
+        <mark key="[" line="413" column="8" />
+        <mark key="]" line="413" column="11" />
+        <mark key="." line="413" column="11" />
+        <mark key="^" line="413" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" timestamp="1551919676686">
         <mark key="'" line="15" column="8" />
@@ -131,7 +133,9 @@
         <mark key="." line="52" column="48" />
         <mark key="^" line="52" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552927975612" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1552928024871">
+        <mark key="'" line="631" column="11" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/README_localstorage.md" timestamp="1552513377143">
         <mark key="'" line="49" column="6" />
         <mark key="[" line="49" column="7" />
@@ -282,7 +286,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1552927521628">
+      <file name="/Python Console" timestamp="1552928493265">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="1" />
@@ -448,9 +452,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="461" column="12" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="373" column="74" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
-      <jump line="379" column="50" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="381" column="50" filename="$USER_HOME$/opas/core/python/scripts/metric_suggestions_first_pass.py" />
       <jump line="533" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="19" column="26" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -548,6 +549,9 @@
       <jump line="53" column="22" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
       <jump line="409" column="19" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
       <jump line="59" column="58" filename="$USER_HOME$/opas/core/python/opasai/common/tests/test_string_utils.py" />
+      <jump line="631" column="11" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="149" column="0" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
+      <jump line="469" column="0" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -557,7 +561,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgzICogbWVhbih4KSkgLyBtZWFuKCIzeCIpJwo=</text>
+        <text encoding="base64">ICAgIGV4cHJlc3Npb24gPSBzdHJpbmdfdXRpbHMucXVvdGVfZXhwcmVzc2lvbihGTEFHUy5rcGlfZXhwcmVzc2lvbikK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1102,19 +1106,19 @@
         <text>mean</text>
       </register>
       <register name="/" type="4">
-        <text>inputs</text>
+        <text>def get_tags</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgzICogbWVhbih4KSkgLyBtZWFuKCIzeCIpJwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgzICogbWVhbih4KSkgLyBtZWFuKCIzeCIpJwo=</text>
+        <text encoding="base64">ICAgIGV4cHJlc3Npb24gPSBzdHJpbmdfdXRpbHMucXVvdGVfZXhwcmVzc2lvbihGTEFHUy5rcGlfZXhwcmVzc2lvbikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3RlZCA9ICdtZWFuKFgpIC0gbWVhbigiM1kiKSArIHN1bSgiMiIpICogc3VtKHgzeSknCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgZHEgaW4gZHluYW1pY19xdWVyaWVzOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1139,10 +1143,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3RlZCA9ICdtZWFuKFgpIC0gbWVhbigiM1kiKSArIHN1bSgiMyAqIG1lYW4oeCkiKSAvIG1lYW4oIjN4IiknCg==</text>
+        <text encoding="base64">ICAgICAgICAjIGVhY2ggZHluYW1pYyBxdWVyeSByZXByZXNlbnRzIGEgc2luZ2xlIHRyYWNlIGFscmVhZHkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgyKSAqIHN1bSh4M3kpJwo=</text>
+        <text encoding="base64">ICAgIGlmIEZMQUdTLmFjY291bnRfaWQgPT0gJ2Fkb2JlJzoKICAgICAgICAjIGVhY2ggZHluYW1pYyBxdWVyeSByZXByZXNlbnRzIGEgc2luZ2xlIHRyYWNlIGFscmVhZHkKICAgICAgICBwYXNzCiAgICBlbHNlOgogICAgICAgICMgbGltaXQgcXVlcmllcyB0byB0aGUgc3BlY2lmaWVkIGhvc3RzCiAgICAgICAgZm9yIGRxIGluIGR5bmFtaWNfcXVlcmllczoKICAgICAgICAgICAgZHEudGFnc1snaG9zdCddID0gbWV0cmljX3V0aWxzLm5vcm1hbGl6ZV90YWdfdmFsdWUoRkxBR1MuaG9zdCkKCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1210,28 +1214,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGV4cHJlc3Npb24gPSBzdHJpbmdfdXRpbHMucXVvdGVfZXhwcmVzc2lvbihGTEFHUy5rcGlfZXhwcmVzc2lvbikK</text>
+        <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgzICogbWVhbih4KSkgLyBtZWFuKCIzeCIpJwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEB1bml0dGVzdC5leHBlY3RlZEZhaWx1cmUK</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3RlZCA9ICdtZWFuKFgpIC0gbWVhbigiM1kiKSArIHN1bSgiMiIpICogc3VtKHgzeSknCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBjb21wdXRlZAo=</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3RlZCA9ICdtZWFuKFgpIC0gbWVhbigiM1kiKSArIHN1bSgiMyAqIG1lYW4oeCkiKSAvIG1lYW4oIjN4IiknCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgzICogbWVhbih4KSknCg==</text>
+        <text encoding="base64">ICAgICAgICBleHByZXNzaW9uID0gJ21lYW4oWCkgLSBtZWFuKDNZKSArIHN1bSgyKSAqIHN1bSh4M3kpJwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBjb21wdXRlZAo=</text>
+        <text encoding="base64">ICAgIGV4cHJlc3Npb24gPSBzdHJpbmdfdXRpbHMucXVvdGVfZXhwcmVzc2lvbihGTEFHUy5rcGlfZXhwcmVzc2lvbikK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>inputs</last-search>
+      <last-search>def get_tags</last-search>
       <last-offset />
-      <last-pattern>inputs</last-pattern>
+      <last-pattern>def get_tags</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>df2</last-substitute>
       <last-dir>1</last-dir>
@@ -1239,7 +1243,6 @@
     </search>
     <history>
       <history-search>
-        <entry>gt</entry>
         <entry>http_get_requests</entry>
         <entry>everest.*m1_rate</entry>
         <entry>everest.*domain.*m1_rate</entry>
@@ -1259,6 +1262,7 @@
         <entry>we work</entry>
         <entry>post</entry>
         <entry>inputs</entry>
+        <entry>def get_tags</entry>
       </history-search>
       <history-cmd>
         <entry>73</entry>
@@ -1271,7 +1275,6 @@
         <entry>%s/filter_tags/tags/g</entry>
         <entry>%s/aggregate_tags/all_tags/g</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
-        <entry>q</entry>
         <entry>128,138s/df2/df/g</entry>
         <entry>115</entry>
         <entry>110</entry>
@@ -1281,6 +1284,7 @@
         <entry>wq</entry>
         <entry>21</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
