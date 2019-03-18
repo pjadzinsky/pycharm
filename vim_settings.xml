@@ -35,7 +35,7 @@
         <mark key="." line="513" column="31" />
         <mark key="^" line="513" column="31" />
       </file>
-      <file name="/a.dummy" timestamp="1552922892218">
+      <file name="/a.dummy" timestamp="1552945946781">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1551907606519">
@@ -93,8 +93,8 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" timestamp="1552943850412">
-        <mark key="'" line="73" column="0" />
+      <file name="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" timestamp="1552945879881">
+        <mark key="'" line="64" column="15" />
         <mark key="k" line="77" column="0" />
         <mark key="[" line="63" column="44" />
         <mark key="]" line="64" column="15" />
@@ -186,10 +186,10 @@
         <mark key="^" line="27" column="35" />
         <mark key="." line="27" column="35" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_from_dmk_csv_file.py" timestamp="1552934159169">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_from_dmk_csv_file.py" timestamp="1552945891279">
         <mark key="'" line="24" column="15" />
-        <mark key="[" line="2" column="75" />
-        <mark key="]" line="9" column="102" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="9" column="103" />
         <mark key="^" line="9" column="102" />
         <mark key="." line="9" column="102" />
       </file>
@@ -290,6 +290,12 @@
         <mark key="]" line="45" column="0" />
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/scripts/README_learn_inputs.md" timestamp="1552946053864">
+        <mark key="[" line="3" column="31" />
+        <mark key="]" line="3" column="30" />
+        <mark key="." line="3" column="30" />
+        <mark key="^" line="3" column="30" />
       </file>
       <file name="/Python Console" timestamp="1552943162508">
         <mark key="[" line="0" column="0" />
@@ -457,7 +463,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="120" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/config_1.yaml" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="9" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/config_1.yaml" />
       <jump line="24" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/config_1.yaml" />
@@ -557,6 +562,7 @@
       <jump line="114" column="29" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
       <jump line="53" column="12" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
       <jump line="69" column="0" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
+      <jump line="64" column="15" filename="$USER_HOME$/opas/core/python/scripts/single_metric_information.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -566,7 +572,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZHluYW1pY19xdWVyaWVzKQo=</text>
+        <text encoding="base64">IyBSZWFkIGEgZmlsZSB3aGVyZSBlYWNoIGxpbmUgcmVwcmVzbmV0cyBhIGRtay5fX3JlcHJfXygpIGFuZCBjb252ZXJ0IGl0IGJhY2sgdG8gYSBqc29uIHF1ZXJ5CiMgdGhpcyBpcyBtZWFudCB0byBiZSB1c2VkIG1hbnVhbGx5IChmb3IgdGhlIHRpbWUgYmVpbmcpLiBTdGVwcyBhcmUgcm91Z2hseToKIyAxLiBSdW4gc2luZ2xlX21ldHJpY19pbmZvcm1hdGlvbi5weQojIDIuIFByZXZpb3VzIHN0ZXAgcHJvZHVjZXMgYSBmaWxlIHdpdGggMiBjb2x1bW5zLCAxc3Qgd2l0aCBTaGFubm9uJ3MgbXV0dWFsIGluZm9ybWF0aW9uIGFuZCAybmQgd2l0aCBkbWsKIyAzLiBDbGVhbiBwcmV2aW91cyBmaWxlIGJ5OgojICAgcmVtb3ZpbmcgbGluZXMgd2l0aCBtaSBiZWxvdyBhIGNlcnRhaW4gdGhyZXNob2xkCiMgICByZW1vdmluZyBrcGkgKGlmIHByZXNlbnQgZnJvbSBkbWtzKQojICAgcmVtb3ZpbmcgcmVkdW5kYW50IGtwaXMKIyA0LiB0aGVuIHRoZSBmaWxlIGlzIHJlYWR5IHRvIGJlIHBhc3NlZCB0byB0aGlzIHNjcmlwdC4gSXQgd2lsbCBjb252ZXJ0IHRoZSBkbWtzIGJhY2sgaW50byBqc29uIGZvcm1hdAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1114,7 +1120,7 @@
         <text>cache</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIFthZGRfaG9zdHNfdGFnc190b19keW5hbWljX3F1ZXJ5KGR5bmFtaWNfcXVlcnkpIGZvciBkeW5hbWljX3F1ZXJ5IGluIGR5bmFtaWNfcXVlcmllc10K</text>
+        <text encoding="base64">IyBSZWFkIGEgZmlsZSB3aGVyZSBlYWNoIGxpbmUgcmVwcmVzbmV0cyBhIGRtay5fX3JlcHJfXygpIGFuZCBjb252ZXJ0IGl0IGJhY2sgdG8gYSBqc29uIHF1ZXJ5CiMgdGhpcyBpcyBtZWFudCB0byBiZSB1c2VkIG1hbnVhbGx5IChmb3IgdGhlIHRpbWUgYmVpbmcpLiBTdGVwcyBhcmUgcm91Z2hseToKIyAxLiBSdW4gc2luZ2xlX21ldHJpY19pbmZvcm1hdGlvbi5weQojIDIuIFByZXZpb3VzIHN0ZXAgcHJvZHVjZXMgYSBmaWxlIHdpdGggMiBjb2x1bW5zLCAxc3Qgd2l0aCBTaGFubm9uJ3MgbXV0dWFsIGluZm9ybWF0aW9uIGFuZCAybmQgd2l0aCBkbWsKIyAzLiBDbGVhbiBwcmV2aW91cyBmaWxlIGJ5OgojICAgcmVtb3ZpbmcgbGluZXMgd2l0aCBtaSBiZWxvdyBhIGNlcnRhaW4gdGhyZXNob2xkCiMgICByZW1vdmluZyBrcGkgKGlmIHByZXNlbnQgZnJvbSBkbWtzKQojICAgcmVtb3ZpbmcgcmVkdW5kYW50IGtwaXMKIyA0LiB0aGVuIHRoZSBmaWxlIGlzIHJlYWR5IHRvIGJlIHBhc3NlZCB0byB0aGlzIHNjcmlwdC4gSXQgd2lsbCBjb252ZXJ0IHRoZSBkbWtzIGJhY2sgaW50byBqc29uIGZvcm1hdAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZHluYW1pY19xdWVyaWVzKQo=</text>
