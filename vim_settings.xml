@@ -123,7 +123,7 @@
         <mark key="." line="46" column="0" />
         <mark key="^" line="46" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553123788169">
+      <file name="/Python Console" timestamp="1553124416781">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="1" />
@@ -319,12 +319,12 @@
         <mark key="'" line="96" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/tests/test_dynamic_query.py" timestamp="1553110857800" />
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" timestamp="1553123786810">
-        <mark key="'" line="52" column="74" />
-        <mark key="[" line="53" column="71" />
-        <mark key="]" line="54" column="11" />
-        <mark key="." line="54" column="11" />
-        <mark key="^" line="54" column="11" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" timestamp="1553124407947">
+        <mark key="'" line="84" column="58" />
+        <mark key="[" line="105" column="77" />
+        <mark key="]" line="105" column="77" />
+        <mark key="." line="105" column="77" />
+        <mark key="^" line="105" column="59" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" timestamp="1553110097603" />
       <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/staples.py" timestamp="1552784610152">
@@ -360,10 +360,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="170" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="223" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="18" column="99" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
-      <jump line="269" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1328" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1331" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1341" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -460,6 +456,10 @@
       <jump line="257" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="28" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="155" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
+      <jump line="78" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
+      <jump line="65" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
+      <jump line="79" column="51" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
+      <jump line="84" column="58" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -469,7 +469,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text>dmk_digitized_metrics</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1011,10 +1011,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>dmk_digitized_metrics</text>
       </register>
       <register name="/" type="4">
-        <text>expected</text>
+        <text>storage_client</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHRyYWluaW5nX3RpbWVzdGFtcCA9IDE1NDYyODI4MDAK</text>
@@ -1146,9 +1146,9 @@ FLAGS.</text>
       </register>
     </registers>
     <search>
-      <last-search>expected</last-search>
+      <last-search>storage_client</last-search>
       <last-offset />
-      <last-pattern>expected</last-pattern>
+      <last-pattern>storage_client</last-pattern>
       <last-replace />
       <last-substitute>FLAGS</last-substitute>
       <last-dir>1</last-dir>
@@ -1156,7 +1156,6 @@ FLAGS.</text>
     </search>
     <history>
       <history-search>
-        <entry>ICF</entry>
         <entry>def predict_with</entry>
         <entry>predict_with_mo</entry>
         <entry>predict_metric</entry>
@@ -1176,6 +1175,7 @@ FLAGS.</text>
         <entry>tags</entry>
         <entry>def query_bu</entry>
         <entry>expected</entry>
+        <entry>storage_client</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
