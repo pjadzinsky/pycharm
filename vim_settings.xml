@@ -57,7 +57,7 @@
         <mark key="." line="57" column="8" />
         <mark key="^" line="57" column="8" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/uber_feature_creator.py" timestamp="1551909009240">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/uber_feature_creator.py" timestamp="1553286322836">
         <mark key="[" line="17" column="61" />
         <mark key="]" line="21" column="0" />
         <mark key="^" line="21" column="0" />
@@ -93,6 +93,12 @@
         <mark key="]" line="68" column="62" />
         <mark key="^" line="68" column="62" />
         <mark key="." line="68" column="62" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/seasonality_feature_creator.py" timestamp="1553286689443">
+        <mark key="[" line="122" column="45" />
+        <mark key="]" line="124" column="24" />
+        <mark key="." line="124" column="24" />
+        <mark key="^" line="124" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1553190341394">
         <mark key="'" line="544" column="21" />
@@ -133,12 +139,12 @@
         <mark key="]" line="35" column="0" />
         <mark key="." line="35" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" timestamp="1553284203248">
-        <mark key="'" line="183" column="4" />
-        <mark key="[" line="118" column="17" />
-        <mark key="]" line="118" column="14" />
-        <mark key="." line="118" column="14" />
-        <mark key="^" line="118" column="14" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" timestamp="1553286595264">
+        <mark key="'" line="116" column="18" />
+        <mark key="[" line="105" column="0" />
+        <mark key="]" line="105" column="0" />
+        <mark key="." line="105" column="0" />
+        <mark key="^" line="3" column="22" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/postprocessors_interface.py" timestamp="1553027347495">
         <mark key="[" line="17" column="44" />
@@ -146,7 +152,7 @@
         <mark key="^" line="17" column="57" />
         <mark key="." line="17" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1553276491442">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1553284600228">
         <mark key="'" line="82" column="13" />
         <mark key="[" line="952" column="0" />
         <mark key="]" line="954" column="71" />
@@ -254,7 +260,7 @@
         <mark key="." line="46" column="0" />
         <mark key="^" line="46" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553284384471">
+      <file name="/Python Console" timestamp="1553286289212">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -465,9 +471,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="283" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="42" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="55" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="83" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="103" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="128" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
@@ -565,6 +568,9 @@
       <jump line="118" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
       <jump line="184" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
       <jump line="183" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
+      <jump line="3" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
+      <jump line="105" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
+      <jump line="116" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1116,10 +1122,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>36</text>
+        <text>host</text>
       </register>
       <register name="/" type="4">
-        <text>pivots&quot;: \[\]</text>
+        <text>&quot;host&quot;</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgImhvc3QiCg==</text>
@@ -1131,7 +1137,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBjb25maWcuZ2V0X2dsb2JhbF9wYXJhbXMoKQo=</text>
+        <text encoding="base64">ICAgIGRmLmluZGV4ID0gcGQuTXVsdGlJbmRleC5mcm9tX2FycmF5cyhbdGltZXNdLCBuYW1lcz1bJ3RpbWUnXSkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1156,10 +1162,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBpc2luc3RhbmNlKG1ldHJpY3NfZGYuaW5kZXgsIHBkLk11bHRpSW5kZXgpOgogICAgICAgICAgICB0aW1lX2l4ID0gbWV0cmljc19kZi5pbmRleC5uYW1lcy5pbmRleCgndGltZScpCiAgICAgICAgICAgIHRpbWVzID0gbWV0cmljc19kZi5pbmRleC5sZXZlbHNbbWV0cmljc19kZi5pbmRleC5jb2Rlc1t0aW1lX2l4XV0KICAgICAgICBlbHNlOgogICAgICAgICAgICB0aW1lcyA9IG1ldHJpY3NfZGYuaW5kZXgudmFsdWVzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBpc2luc3RhbmNlKG1ldHJpY3NfZGYuaW5kZXgsIHBkLk11bHRpSW5kZXgpOgogICAgICAgICAgICB0aW1lX2l4ID0gbWV0cmljc19kZi5pbmRleC5uYW1lcy5pbmRleCgndGltZScpCiAgICAgICAgICAgIHRpbWVzID0gbWV0cmljc19kZi5pbmRleC5sZXZlbHNbbWV0cmljc19kZi5pbmRleC5jb2Rlc1t0aW1lX2l4XV0KICAgICAgICBlbHNlOgogICAgICAgICAgICB0aW1lcyA9IG1ldHJpY3NfZGYuaW5kZXgudmFsdWVzCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1227,38 +1233,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzCg==</text>
+        <text encoding="base64">ICAgICAgICB0aW1lX2ZlYXR1cmVzX2RmLmluZGV4ID0gbWV0cmljc19kZi5pbmRleAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydE5vdEVxdWFsKG9yaWdpbmFsX2hhc2gsIG5ld19oYXNoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgImhvc3QiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGNvbmZpZy5nZXRfZ2xvYmFsX3BhcmFtcygpLmdldCgnaW50ZXJ2YWxfcycpLCAxMDAwKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCBjb25maWcuZ2V0X2dsb2JhbF9wYXJhbXMoKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGNvbmZpZy5nZXRfZ2xvYmFsX3BhcmFtcygpLmdldCgnaW50ZXJ2YWxfcycpLCA2MDApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/pivots&quot;: \[\]/pivots&quot;: [&quot;host&quot;]/gc</text>
+        <text>%s/&quot;host&quot;//gc</text>
       </register>
     </registers>
     <search>
-      <last-search>pivots&quot;: \[\]</last-search>
+      <last-search>&quot;host&quot;</last-search>
       <last-offset />
-      <last-pattern>pivots&quot;: \[\]</last-pattern>
-      <last-replace>pivots&quot;: [&quot;host&quot;]</last-replace>
-      <last-substitute>pivots&quot;: \[\]</last-substitute>
+      <last-pattern>&quot;host&quot;</last-pattern>
+      <last-replace />
+      <last-substitute>&quot;host&quot;</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>timestamp</entry>
-        <entry>def dep</entry>
-        <entry>depip</entry>
         <entry>get_de</entry>
         <entry>depipelined_metric</entry>
         <entry>depipelined</entry>
@@ -1276,9 +1279,11 @@
         <entry>pivots&quot;: {}</entry>
         <entry>pivots&quot;: []/pivots&quot;: [&quot;host&quot;]</entry>
         <entry>pivots&quot;: \[\]</entry>
+        <entry encoding="base64">PDw8</entry>
+        <entry>host</entry>
+        <entry>&quot;host&quot;</entry>
       </history-search>
       <history-cmd>
-        <entry>55</entry>
         <entry>383</entry>
         <entry>183</entry>
         <entry>15</entry>
@@ -1288,7 +1293,6 @@
         <entry>28</entry>
         <entry>%s/FLAGS</entry>
         <entry>56</entry>
-        <entry>q</entry>
         <entry>176,189s/metric\.key/query/gc</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>wq</entry>
@@ -1298,6 +1302,8 @@
         <entry>%s/pivots&quot;: {}/pivots&quot;: {&quot;host&quot;}/gc</entry>
         <entry>%s/pivots&quot;: []/pivots&quot;: [&quot;host&quot;]/gc</entry>
         <entry>%s/pivots&quot;: \[\]/pivots&quot;: [&quot;host&quot;]/gc</entry>
+        <entry>q</entry>
+        <entry>%s/&quot;host&quot;//gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
