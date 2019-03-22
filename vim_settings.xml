@@ -2,15 +2,16 @@
   <component name="VimSettings">
     <state version="4" enabled="true" />
     <globalmarks>
-      <mark key="A" line="171" column="39" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" protocol="file" />
+      <mark key="A" line="175" column="39" filename="$USER_HOME$/opas/core/python/opasai/metrics/query.py" protocol="file" />
     </globalmarks>
     <filemarks>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1553271761739">
-        <mark key="'" line="175" column="81" />
-        <mark key="[" line="210" column="77" />
-        <mark key="]" line="200" column="87" />
-        <mark key="^" line="200" column="87" />
-        <mark key="." line="200" column="87" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1553275586706">
+        <mark key="'" line="71" column="13" />
+        <mark key="[" line="283" column="71" />
+        <mark key="]" line="285" column="39" />
+        <mark key="." line="285" column="39" />
+        <mark key="^" line="285" column="39" />
+        <mark key="o" line="158" column="16" />
       </file>
       <file name="/start_script.py" timestamp="1553031078098">
         <mark key="[" line="0" column="0" />
@@ -210,7 +211,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553271557571">
+      <file name="/Python Console" timestamp="1553275124332">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -274,6 +275,12 @@
         <mark key="[" line="27" column="0" />
         <mark key="]" line="27" column="0" />
         <mark key="." line="27" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1553272348241">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="156" column="0" />
+        <mark key="]" line="156" column="0" />
+        <mark key="." line="156" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_purger_script.py" timestamp="1553020200999">
         <mark key="'" line="96" column="24" />
@@ -385,11 +392,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="27" column="62" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="92" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="270" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
-      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="279" column="60" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="177" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="282" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
@@ -485,6 +487,11 @@
       <jump line="952" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="23" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="82" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="165" column="61" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="146" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="194" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="305" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="71" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -493,8 +500,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>selfpatience</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1036,22 +1043,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>selfpatience</text>
+        <text>all_inputs</text>
       </register>
       <register name="/" type="4">
-        <text>get_de</text>
+        <text>queries_not_used</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbG9jYWxfZm9sZGVyID0gc2VsZi5sb2NhbF9mb2xkZXIoKQogICAgICAgICAgICBzZWxmLnNhdmVfdG9fbG9jYWxfZm9sZGVyKGxvY2FsX2ZvbGRlcikKICAgICAgICAgICAgc2VsZi51cGxvYWRfbW9kZWxfZm9sZGVyKGxvY2FsX2ZvbGRlciwgbG9nc19wYXRoPWxvZ3NfcGF0aCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVuKGludChsZW4oc2VsZi5iZXN0X2lucHV0c19zZXQpKSkpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgICAgICAjIGlmIGl0IGlzIHRoZSAxc3QgdGltZSB3aXRoaW4gb3VyICdwYXRpZW5jZScgdGhhdCB3ZSBhcmUgdHJ5aW5nIHRvIHJlbW92ZSBtZXRyaWNzLCB0cnkgcmVtb3ZpbmcKICAgICAgICAgICAgICAgICAgICAjIHRoZSAnd29yc3QnIG1ldHJpY3MKICAgICAgICAgICAgICAgICAgICBpZiBzZWxmLnBhdGllbmNlID09IHNlbGYudG90YWxfcGF0aWVuY2U6CiAgICAgICAgICAgICAgICAgICAgICAgIGRta3NfdG9fcmVtb3ZlID0gbW9kZWwuYmVzdF9OX2ZlYXR1cmVzKC1zZWxmLm51bV9hZGRfcmVtb3ZlKQogICAgICAgICAgICAgICAgICAgICAgICBxdWVyaWVzX3RvX3JlbW92ZSA9IFtkbWsucXVlcnkgZm9yIGRtayBpbiBkbWtzX3RvX3JlbW92ZV0KICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICIiIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgVGhlIHRhcmdldCBudW1iZXIgb2YgbWV0cmljcyBpcyB0aGUgbWluaW11bSBiZXR3ZWVuIGxlbihzZWxmLmFsbF9pbnB1dHMpIGFuZAogICAgICAgICAgICAgICAgIyBsZW4oc2VsZi5iZXN0X2lucHV0X3NldCkgKyBzZWxmLm51bV9hZGRfcmVtb3ZlCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1076,10 +1083,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuZGVidWcoJ05ldyB2YWxfbG9zczogezouM2Z9Jy5mb3JtYXQoaXRlcmF0aW9uX2xvc3MpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG9sZF9zaXplID0gY29uZmlnLm51bV9xdWVyaWVzKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuZGVidWcoJ051bWJlciBvZiBtZXRyaWNzIGlzOiB7fScuZm9ybWF0KGxlbihzZWxmLm1vZGVsX2NvbmZpZy5nZXRfaW5wdXRfcXVlcmllcygpKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdoaWxlIGNvbmZpZy5udW1fcXVlcmllcygpIDwgdGFyZ2V0Ogo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1147,28 +1154,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLnRvdGFsX3BhdGllbmNlKSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCA9IG1pbihzZWxmLm51bV9hZGRfcmVtb3ZlICsgb2xkX3NpemUsIGxlbihzZWxmLmFsbF9pbnB1dHMpKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfYmVzdF9tb2RlbC51cAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgdW50aWwgc2l6ZSBpbmNyZWFzZXMgYnkgbnVtX2FkZF9yZW1vdmUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIERPIE5PVCBNRVJHRSBORVhUIExJTkUsIG5lZWRzIHRvIGJlIHVuY29tbWVudGVkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMganVzdCBieSBjaGFuY2UgY2hvc2VuIG1ldHJpYyBtaWdodCBhbHJlYWR5IGJlIGluIHRoZSBpbnB1dHMsIHRoYXQncyB3aHkgd2UgaGF2ZSB0aGUgbG9vcAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsb2NhbF9mb2xkZXIgPSBzZWxmLmxvY2FsX2ZvbGRlcigpCiAgICAgICAgc2VsZi5zYXZlX3RvX2xvY2FsX2ZvbGRlcihsb2NhbF9mb2xkZXIpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3ZSB1cGxvYWQgb25seSB0aGUgYmVzdCBtb2RlbAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vdF9pbmNsdWRlZCA9IHNldChzZWxmLmFsbF9pbnB1dHMpLmRpZmZlcmVuY2Uoc2VsZi5iZXN0X2lucHV0c19zZXQpCg==</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>
       </register>
     </registers>
     <search>
-      <last-search>get_de</last-search>
+      <last-search>queries_not_used</last-search>
       <last-offset />
-      <last-pattern>get_de</last-pattern>
+      <last-pattern>queries_not_used</last-pattern>
       <last-replace>query</last-replace>
       <last-substitute>metric\.key</last-substitute>
       <last-dir>1</last-dir>
@@ -1176,9 +1183,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PA==</entry>
-        <entry>self</entry>
-        <entry>LOG_FILE</entry>
         <entry>config</entry>
         <entry>http_get</entry>
         <entry>http_</entry>
@@ -1196,6 +1200,9 @@
         <entry>def dep</entry>
         <entry>depip</entry>
         <entry>get_de</entry>
+        <entry>depipelined_metric</entry>
+        <entry>depipelined</entry>
+        <entry>queries_not_used</entry>
       </history-search>
       <history-cmd>
         <entry>%s/tags&quot;: {}/tags&quot;: {10.0.1.17&quot;, &quot;10.0.1.34&quot;, &quot;10.0.1.38&quot;, &quot;10.0.1.46&quot;, &quot;10.0.1.47&quot;}/gc</entry>
