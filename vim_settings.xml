@@ -27,12 +27,12 @@
         <mark key="^" line="322" column="73" />
         <mark key="." line="322" column="73" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" timestamp="1553534114463">
-        <mark key="'" line="27" column="0" />
-        <mark key="[" line="18" column="11" />
-        <mark key="]" line="19" column="80" />
-        <mark key="." line="19" column="80" />
-        <mark key="^" line="19" column="80" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" timestamp="1553535081878">
+        <mark key="'" line="29" column="61" />
+        <mark key="[" line="32" column="15" />
+        <mark key="]" line="32" column="19" />
+        <mark key="." line="32" column="19" />
+        <mark key="^" line="32" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1553053769866">
         <mark key="[" line="69" column="0" />
@@ -438,7 +438,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="182" column="81" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="906" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="75" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="722" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -538,6 +537,7 @@
       <jump line="1" column="21" filename="$USER_HOME$/opas/core/python/opasai/simulation/simulation.py" />
       <jump line="18" column="60" filename="$USER_HOME$/opas/core/python/opasai/simulation/simulation.py" />
       <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" />
+      <jump line="25" column="61" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -546,8 +546,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub2lzZSA8IDAK</text>
+      <register name="&quot;" type="4">
+        <text>table</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1089,7 +1089,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>noise</text>
+        <text>table</text>
       </register>
       <register name="/" type="4">
         <text>num_add</text>
