@@ -67,6 +67,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/utils.py" timestamp="1553549802953">
+        <mark key="[" line="2" column="7" />
+        <mark key="]" line="2" column="4" />
+        <mark key="^" line="2" column="4" />
+        <mark key="." line="2" column="4" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/test_config_1.json" timestamp="1553112401554">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -409,12 +415,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553548009159">
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553549707031">
         <mark key="'" line="14" column="41" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
-        <mark key="^" line="21" column="11" />
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="0" />
+        <mark key="." line="83" column="0" />
+        <mark key="^" line="82" column="41" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552951744638">
         <mark key="'" line="114" column="114" />
@@ -559,8 +565,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1102,22 +1108,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>m</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>mm</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGF0ZW5jeV9wZXJfcXBzID0gc2VsZi50YWJsZV9wYXJhbXNbJ2xhdGVuY3lfcGVyX3FwcyddCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0cyA9IChvdXRwdXRfcXVlcmllcywgb3V0cHV0X2NwdSwgb3V0cHV0X21lbSwgcDUwLCBwOTUpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmxpc3Rfb2ZfcGFyYW1zID0gbGlzdF9vZl9wYXJhbXMK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBvdXRwdXRfdmFyaWFibGUgPSBpbnB1dF92YXJpYWJsZSAqIChsYXRlbmN5X3Blcl9xcHMgKyBucC5yYW5kb20ucmFuZG4oKSpub2lzZSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1142,10 +1148,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiB0aGUgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnV2UgZ290IHt9IGFuZCB7fScuZm9ybWF0KE4sIGxlbihsaXN0X29mX3BhcmFtcykpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBvdXRwdXQgdmFyaWFibGUgKGxhdGVuY3kpCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgbGVuKHRhYmxlX25hbWVzKSA9PSBOLCAndGFibGVfbmFtZXMgc2hvdWxkIGhhdmUgdGhlIHNhbWUgc2l6ZSBhcyBsaXN0X29mX3BhcmFtcy4gJyBcCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1213,19 +1219,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiB2ZXJzaW9uID09IDA6CiAgICAgICAgICAgICMgdGhpcyB3YXMgdGhlIGZpcnN0IHZlcnNpb24sIAogICAgICAgICAgICBsYXRlbmN5X3Blcl9xcHMgPSBzZWxmLnRhYmxlX3BhcmFtc1snbGF0ZW5jeV9wZXJfcXBzJ10KICAgICAgICAgICAgbGF0ZW5jeV9wZXJfcXBzID0gc2VsZi50YWJsZV9wYXJhbXNbJ2xhdGVuY3lfcGVyX3FwcyddCiAgICAgICAgICAgIGxhdGVuY3kgPSBzZWxmLmlucHV0c1swXS5fdmFsdWVzW2l0XSAqIChzZWxmLmxhdGVuY3lfcGVyX3FwcyArIG5wLnJhbmRvbS5yYW5kbigpICogc2VsZi5ub2lzZV9zdGQpCiAgICAgICAgICAgIG91dHB1dHMgPSBbbGF0ZW5jeV0K</text>
+        <text encoding="base64">ICAgICAgICBOID0gbGVuKGlucHV0X3ZhcmlhYmxlcykK</text>
       </register>
-      <register name="6" type="8">
-        <text>self.table_params.</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gbm9pc2Vfc3RkX3Blcl9xcHM6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gbGlzdF9vZl9wYXJhbXM6IGxpc3Qgb2YgZGljdGlvbmFyaWVzLCBvbmUgZGljdGlvbmFyeSBwZXIgdGFibGVfbmFtZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gbm9pc2U6Cg==</text>
+        <text encoding="base64">ICAgICAgICBfbmFtZXM6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gbGF0ZW5jeV9wZXJfcXBzOgo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm5vaXNlX3N0ZCA9IG5vaXNlX3N0ZF9wZXJfcXBzCg==</text>
       </register>
       <register name=":" type="4">
         <text>37</text>
