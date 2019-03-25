@@ -415,11 +415,11 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553553810540">
-        <mark key="'" line="102" column="11" />
-        <mark key="[" line="81" column="0" />
-        <mark key="]" line="81" column="0" />
-        <mark key="." line="81" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553554543619">
+        <mark key="'" line="109" column="12" />
+        <mark key="[" line="115" column="12" />
+        <mark key="]" line="118" column="0" />
+        <mark key="." line="118" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552951744638">
         <mark key="'" line="114" column="114" />
@@ -456,8 +456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="90" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
-      <jump line="18" column="82" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/p95_all_get_requests.yaml" />
       <jump line="275" column="4" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
       <jump line="196" column="16" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
       <jump line="212" column="4" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
@@ -556,6 +554,8 @@
       <jump line="9" column="41" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="79" column="7" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="97" column="11" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="107" column="27" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="108" column="12" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -565,7 +565,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1107,22 +1107,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>albe</text>
+        <text>50</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0cyA9IChvdXRwdXRfcXVlcmllcywgb3V0cHV0X2NwdSwgb3V0cHV0X21lbSwgcDUwLCBwOTUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3A1MCA9IHV0aWxzLnBpY2sob3V0cHV0X3ZhcmlhYmxlcywgdGFibGVfbmFtZS5yZXBsYWNlKCd0YWJsZScsICdvdXRwdXRfcDUwJykpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBvdXRwdXRfY3B1ID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBlYWNoIHRhCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1147,10 +1147,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5vdCB0aGF0IGluIHRoZSBuZXh0IGxpbmUsIGxlbmd0aCBvZiB6aXAgb3V0cHV0IGlzIE4sIG5vdCBOKzEK</text>
+        <text encoding="base64">ICAgICAgICAjIG5vdyBjb25uZWN0IAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmxpc3Rfb2ZfcGFyYW1zID0gbGlzdF9vZl9wYXJhbXMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1221,25 +1221,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnV2UgZ290IHt9IGFuZCB7fScuZm9ybWF0KE4sIGxlbihsaXN0X29mX3BhcmFtcykpCg==</text>
+        <text encoding="base64">ICAgICAgICBpbnRlcm1lZGlhdGVfY3B1cyA9IFtdCiAgICAgICAgaW50ZXJtZWRpYXRlX21lbXMgPSBbXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgbGVuKHRhYmxlX25hbWVzKSA9PSBOLCAndGFibGVfbmFtZXMgc2hvdWxkIGhhdmUgdGhlIHNhbWUgc2l6ZSBhcyBsaXN0X29mX3BhcmFtcy4gJyBcCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJtZWRpYXRlX21lbXMuYXBwZW5kKGludGVybWVkaWF0ZV9tZW0pCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBOID0gbGVuKGlucHV0X3ZhcmlhYmxlcykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJtZWRpYXRlX2NwdXMuYXBwZW5kKGludGVybWVkaWF0ZV9jcHUpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gbm9pc2Vfc3RkX3Blcl9xcHM6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJtZWRpYXRlX21lbXMuYXBwZW5kKCkK</text>
       </register>
       <register name=":" type="4">
         <text>37</text>
       </register>
     </registers>
     <search>
-      <last-search>albe</last-search>
+      <last-search>50</last-search>
       <last-offset />
-      <last-pattern>albe</last-pattern>
+      <last-pattern>50</last-pattern>
       <last-replace />
       <last-substitute>&quot;host&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1247,8 +1247,6 @@
     </search>
     <history>
       <history-search>
-        <entry>&quot;host&quot;</entry>
-        <entry>seed</entry>
         <entry>patience</entry>
         <entry>exponent</entry>
         <entry>num_add_remove</entry>
@@ -1267,6 +1265,8 @@
         <entry>ps2</entry>
         <entry>mm</entry>
         <entry>albe</entry>
+        <entry>cpu</entry>
+        <entry>50</entry>
       </history-search>
       <history-cmd>
         <entry>183</entry>
