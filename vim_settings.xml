@@ -138,12 +138,12 @@
         <mark key="^" line="17" column="57" />
         <mark key="." line="17" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553575261089">
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553612619713">
         <mark key="'" line="65" column="7" />
-        <mark key="[" line="67" column="42" />
-        <mark key="]" line="69" column="19" />
-        <mark key="." line="69" column="19" />
-        <mark key="^" line="69" column="19" />
+        <mark key="[" line="80" column="44" />
+        <mark key="]" line="80" column="44" />
+        <mark key="." line="80" column="44" />
+        <mark key="^" line="80" column="72" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1553284600228">
         <mark key="'" line="82" column="13" />
@@ -257,7 +257,7 @@
         <mark key="." line="46" column="0" />
         <mark key="^" line="46" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553571782143">
+      <file name="/Python Console" timestamp="1553612733723">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -422,8 +422,8 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553575208666">
-        <mark key="'" line="129" column="29" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553612729424">
+        <mark key="'" line="41" column="23" />
         <mark key="[" line="129" column="15" />
         <mark key="]" line="129" column="29" />
         <mark key="^" line="129" column="29" />
@@ -464,10 +464,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="266" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
-      <jump line="275" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
-      <jump line="283" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
-      <jump line="123" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="127" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="129" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="136" column="64" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
@@ -558,12 +554,16 @@
       <jump line="24" column="31" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="25" column="74" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="26" column="108" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="41" column="12" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="52" column="80" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="54" column="29" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="126" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="65" column="7" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="129" column="29" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="29" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="33" column="15" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="36" column="26" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="38" column="28" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="41" column="23" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -573,7 +573,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>lat_1, lat_2, total_lat</text>
+        <text>'table_1', 'table_2'</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1115,22 +1115,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>lat_1, lat_2, total_lat</text>
+        <text>'table_1', 'table_2'</text>
       </register>
       <register name="/" type="4">
-        <text>50</text>
+        <text>table_params</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHA1MF8xID0gYm1zLlZhcmlhYmxlKCdwNTBfMScpCiAgICBwNTBfMiA9IGJtcy5WYXJpYWJsZSgncDUwXzInKQo=</text>
+        <text encoding="base64">ICAgICAgICAndGFibGVfMSc6IHsnY3B1X3Blcl9xdWVyeSc6IDFFLTcsCiAgICAgICAgICAgICAgICAgICAgJ21lbV9wZXJfcXVlcnknOiAxRS03LAogICAgICAgICAgICAgICAgICAgICdsYXRlbmN5X3Blcl9xdWVyeSc6IDFFLTcKICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAndGFibGVfMic6IHt9Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHRvdGFsX2xhdCA9IGJtcy5WYXJpYWJsZSgndG90YWxfbGF0ZW5jeScpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9LAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1155,10 +1155,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxhdF8yID0gYm1zLlZhcmlhYmxlKCdsYXRfMicpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxhdF8xID0gYm1zLlZhcmlhYmxlKCdsYXRfMScpCg==</text>
+        <text encoding="base64">ICAgIHRvdGFsX2xhdCA9IGJtcy5WYXJpYWJsZSgndG90YWxfbGF0ZW5jeScpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1226,28 +1226,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGZvciB0YWJsZSBpbiAK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgIGxhdF8yID0gYm1zLlZhcmlhYmxlKCdsYXRfMicpCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIGxhdF8xID0gYm1zLlZhcmlhYmxlKCdsYXRfMScpCg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGZvciB0YWJsZSBpbiAK</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsYXRlbmNpZXMgPSB0YWJsZV9sYXRlbmNpZXMgKyBbdG90YWxfbGF0ZW5jeV0K</text>
+        <text encoding="base64">ICAgIGxhdF8yID0gYm1zLlZhcmlhYmxlKCdsYXRfMicpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0b3RhbF9sYXRlbmN5ID0gc3VtKHRhYmxlX2xhdGVuY2llcykK</text>
+        <text encoding="base64">ICAgIGxhdF8xID0gYm1zLlZhcmlhYmxlKCdsYXRfMScpCg==</text>
       </register>
       <register name=":" type="4">
         <text>37</text>
       </register>
     </registers>
     <search>
-      <last-search>50</last-search>
+      <last-search>table_params</last-search>
       <last-offset />
-      <last-pattern>50</last-pattern>
+      <last-pattern>table_params</last-pattern>
       <last-replace />
       <last-substitute>&quot;host&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1255,8 +1255,6 @@
     </search>
     <history>
       <history-search>
-        <entry>num_add_remove</entry>
-        <entry>patience_factor</entry>
         <entry>guess</entry>
         <entry>time</entry>
         <entry>tiem</entry>
@@ -1275,6 +1273,8 @@
         <entry>memory</entry>
         <entry>input_</entry>
         <entry>50</entry>
+        <entry>tale_params</entry>
+        <entry>table_params</entry>
       </history-search>
       <history-cmd>
         <entry>183</entry>
