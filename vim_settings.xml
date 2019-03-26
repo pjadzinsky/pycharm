@@ -99,12 +99,12 @@
         <mark key="^" line="17" column="57" />
         <mark key="." line="17" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553636846982">
-        <mark key="'" line="124" column="4" />
-        <mark key="[" line="45" column="13" />
-        <mark key="]" line="45" column="11" />
-        <mark key="^" line="45" column="11" />
-        <mark key="." line="45" column="11" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553639310280">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="37" column="8" />
+        <mark key="]" line="37" column="8" />
+        <mark key="." line="37" column="8" />
+        <mark key="^" line="36" column="8" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/identity_feature_creator.py" timestamp="1551919838677">
         <mark key="[" line="27" column="26" />
@@ -197,7 +197,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553636837458">
+      <file name="/Python Console" timestamp="1553639330326">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -294,7 +294,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553636254930">
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553638703782">
         <mark key="'" line="162" column="11" />
         <mark key="[" line="187" column="11" />
         <mark key="]" line="187" column="16" />
@@ -315,8 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="21" filename="$USER_HOME$/opas/core/python/opasai/simulation/simulation.py" />
-      <jump line="18" column="60" filename="$USER_HOME$/opas/core/python/opasai/simulation/simulation.py" />
       <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" />
       <jump line="25" column="61" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" />
       <jump line="49" column="87" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
@@ -415,6 +413,8 @@
       <jump line="29" column="47" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="123" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="124" column="4" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
+      <jump line="134" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -424,7 +424,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>service</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +966,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>service</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>plot_qps</text>
+        <text>qps</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHNlcnZpY2VzID0gW2kgZm9yIGkgaW4gaW5wdXRzIGlmIGkubmFtZS5zdGFydHN3aXRoKCdzZXJ2aWNlJyldCg==</text>
+        <text encoding="base64">ICAgIG92ZXJsYXkgPSBodi5PdmVybGF5KCkKICAgIGZvciBzZXJ2aWNlIGluIHNlcnZpY2VzOgogICAgICAgIG92ZXJsYXkgKj0gaHYuQ3VydmUoc2VydmljZS52YWx1ZXMsIGxhYmVsPXNlcnZpY2UubmFtZSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHNlcnZpY2VfdG9fcXBzIC89Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHNlcnZpY2VfdG9fcXBzID0gbnAucmFuZG9tLnJhbmRpbnQobWluX3FwcywgbWF4X3Fwcywgc2l6ZT0obl90YWJsZXMsIG5fdGFibGVzKSkK</text>
+        <text encoding="base64">ICAgIGxheW91dCArPSBodi5UZXh0KDAsIDAsICdzZXJ2aWNlX3RvX3FwcyAqIHNlcnZpY2UgPSBxcHMnKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1006,10 +1006,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlmIHNlcnZpY2VfdG9fcXBzIGlzIE5vbmU6Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBvdmVybGF5ID0gaHYuT3ZlcmxheSgpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1077,28 +1077,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIGZvciBxcHNfIGluIHFwczoKICAgICAgICBvdmVybGF5ID0gaHYuT3ZlcmxheSgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICd0YWJsZV8xJzogeyd2ZXJzaW9uJzogMSwKICAgICAgICAgICAgICAgICAgICAnY3B1X3Blcl9xdWVyeSc6IDFFLTMsCiAgICAgICAgICAgICAgICAgICAgJ21lbV9wZXJfcXVlcnknOiAxRS0zLAogICAgICAgICAgICAgICAgICAgICdsYXRlbmN5X3Blcl9xdWVyeSc6IDFFLTMK</text>
+        <text encoding="base64">ICAgIGZvciBzZXJ2aWNlIGluIHNlcnZpY2VzOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnY3B1X3Blcl9xdWVyeSc6IDFFLTIsCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICp2YXJncykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnbGF0ZW5jeV9wZXJfcXVlcnknOiAxRS0yCg==</text>
+        <text encoding="base64">ICAgIHZhcmdzID0gcmFuZ2UobGVuKHNlcnZpY2VfdG9fcXBzKSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>plot_qps</last-search>
+      <last-search>qps</last-search>
       <last-offset />
-      <last-pattern>plot_qps</last-pattern>
+      <last-pattern>qps</last-pattern>
       <last-replace>3E-1</last-replace>
       <last-substitute>1E-2</last-substitute>
       <last-dir>1</last-dir>
@@ -1106,7 +1106,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Cassandra</entry>
         <entry>max_input_order</entry>
         <entry>max_order</entry>
         <entry>max_.*order</entry>
@@ -1126,6 +1125,7 @@
         <entry>service</entry>
         <entry>service_to</entry>
         <entry>plot_qps</entry>
+        <entry>qps</entry>
       </history-search>
       <history-cmd>
         <entry>16</entry>
