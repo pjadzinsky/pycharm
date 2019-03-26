@@ -138,12 +138,12 @@
         <mark key="^" line="17" column="57" />
         <mark key="." line="17" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553557668086">
-        <mark key="'" line="21" column="45" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="10" column="43" />
-        <mark key="." line="24" column="33" />
-        <mark key="^" line="24" column="33" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553575261089">
+        <mark key="'" line="65" column="7" />
+        <mark key="[" line="67" column="42" />
+        <mark key="]" line="69" column="19" />
+        <mark key="." line="69" column="19" />
+        <mark key="^" line="69" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1553284600228">
         <mark key="'" line="82" column="13" />
@@ -257,7 +257,7 @@
         <mark key="." line="46" column="0" />
         <mark key="^" line="46" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553557638226">
+      <file name="/Python Console" timestamp="1553571782143">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -422,11 +422,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553567240661">
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553575208666">
+        <mark key="'" line="129" column="29" />
         <mark key="[" line="129" column="15" />
-        <mark key="]" line="129" column="15" />
-        <mark key="^" line="128" column="60" />
-        <mark key="." line="129" column="15" />
+        <mark key="]" line="129" column="29" />
+        <mark key="^" line="129" column="29" />
+        <mark key="." line="129" column="29" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1552951744638">
         <mark key="'" line="114" column="114" />
@@ -463,8 +464,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="0" filename="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" />
-      <jump line="285" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
       <jump line="266" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="275" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="283" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
@@ -563,6 +562,8 @@
       <jump line="52" column="80" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="54" column="29" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="126" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="65" column="7" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
+      <jump line="129" column="29" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -572,7 +573,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>latencies</text>
+        <text>lat_1, lat_2, total_lat</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1114,22 +1115,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>latencies</text>
+        <text>lat_1, lat_2, total_lat</text>
       </register>
       <register name="/" type="4">
-        <text>input_</text>
+        <text>50</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3A1MCA9IHV0aWxzLnBpY2sob3V0cHV0X3ZhcmlhYmxlcywgdGFibGVfbmFtZS5yZXBsYWNlKCd0YWJsZScsICdvdXRwdXRfcDUwJykpCg==</text>
+        <text encoding="base64">ICAgIHA1MF8xID0gYm1zLlZhcmlhYmxlKCdwNTBfMScpCiAgICBwNTBfMiA9IGJtcy5WYXJpYWJsZSgncDUwXzInKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsYXRlbmNpZXMgPSB0YWJsZV9sYXRlbmNpZXMgKyBbdG90YWxfbGF0ZW5jeV0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0b3RhbF9sYXRlbmN5ID0gc3VtKHRhYmxlX2xhdGVuY2llcykK</text>
+        <text encoding="base64">ICAgIHRvdGFsX2xhdCA9IGJtcy5WYXJpYWJsZSgndG90YWxfbGF0ZW5jeScpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1154,10 +1155,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlcyA9IFtDYXNzYW5kcmFUYWJsZShxcHMsIGxhdGVuY3ksIHRhYmxlX25hbWUsIGxhdGVuY3lfcGVyX3Fwcywgbm9pc2Vfc3RkKSBmb3IKICAgICAgICAgICAgICAgICAgICAgICBxcHMsIGxhdGVuY3ksIHRhYmxlX25hbWUsIGxhdGVuY3lfcGVyX3Fwcywgbm9pc2Vfc3RkIGluCiAgICAgICAgICAgICAgICAgICAgICAgemlwKGlucHV0X3ZhcmlhYmxlcywgb3V0cHV0X3ZhcmlhYmxlcywgdGFibGVfbmFtZXMsIGxhdGVuY2llc19wZXJfcXBzLCBub2lzZV9zdGRfcGVyX3FwcyldCg==</text>
+        <text encoding="base64">ICAgIGxhdF8yID0gYm1zLlZhcmlhYmxlKCdsYXRfMicpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxhdF8xID0gYm1zLlZhcmlhYmxlKCdsYXRfMScpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1225,28 +1226,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyB1cGRhdGUgcXBzLCBjcHUgYW5kIG1lbQo=</text>
+        <text encoding="base64">ICAgIGZvciB0YWJsZSBpbiAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3Fwc188c3VmZml4Pgo=</text>
+        <text encoding="base64">ICAgIGxhdF8yID0gYm1zLlZhcmlhYmxlKCdsYXRfMicpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgaXQgPCBsZW4K</text>
+        <text encoding="base64">ICAgIGxhdF8xID0gYm1zLlZhcmlhYmxlKCdsYXRfMScpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3FwcyA9IHV0aWxzLnBpY2sob3V0cHV0X3ZhcmlhYmxlcywgdGFibGVfbmFtZS5yZXBsYWNlKCd0YWJsZScsICdvdXRwdXRfcXBzJykpCg==</text>
+        <text encoding="base64">ICAgICAgICBsYXRlbmNpZXMgPSB0YWJsZV9sYXRlbmNpZXMgKyBbdG90YWxfbGF0ZW5jeV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW50ZXJtZWRpYXRlX3FwcyA9IFZhcmlhYmxlKHRhYmxlX25hbWUucmVwbGFjZSgndGFibGUnLCAnaW50ZXJtZWRpYXRlX3FwcycpKQogICAgICAgICAgICBpbnRlcm1lZGlhdGVfY3B1ID0gVmFyaWFibGUodGFibGVfbmFtZS5yZXBsYWNlKCd0YWJsZScsICdpbnRlcm1lZGlhdGVfY3B1JykpCiAgICAgICAgICAgIGludGVybWVkaWF0ZV9tZW0gPSBWYXJpYWJsZSh0YWJsZV9uYW1lLnJlcGxhY2UoJ3RhYmxlJywgJ2ludGVybWVkaWF0ZV9tZW0nKSkKCg==</text>
+        <text encoding="base64">ICAgICAgICB0b3RhbF9sYXRlbmN5ID0gc3VtKHRhYmxlX2xhdGVuY2llcykK</text>
       </register>
       <register name=":" type="4">
         <text>37</text>
       </register>
     </registers>
     <search>
-      <last-search>input_</last-search>
+      <last-search>50</last-search>
       <last-offset />
-      <last-pattern>input_</last-pattern>
+      <last-pattern>50</last-pattern>
       <last-replace />
       <last-substitute>&quot;host&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1271,9 +1272,9 @@
         <entry>mm</entry>
         <entry>albe</entry>
         <entry>cpu</entry>
-        <entry>50</entry>
         <entry>memory</entry>
         <entry>input_</entry>
+        <entry>50</entry>
       </history-search>
       <history-cmd>
         <entry>183</entry>
