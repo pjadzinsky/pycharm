@@ -294,12 +294,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553716598326">
-        <mark key="'" line="48" column="8" />
-        <mark key="[" line="156" column="16" />
-        <mark key="]" line="156" column="31" />
-        <mark key="." line="156" column="31" />
-        <mark key="^" line="156" column="31" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553718601999">
+        <mark key="'" line="167" column="7" />
+        <mark key="[" line="167" column="0" />
+        <mark key="]" line="167" column="12" />
+        <mark key="." line="167" column="12" />
+        <mark key="^" line="163" column="19" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/pipeline_values_feature_creator.py" timestamp="1551913167308">
         <mark key="[" line="55" column="81" />
@@ -315,9 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="46" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="18" column="37" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="23" column="83" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="24" column="31" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="25" column="74" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="26" column="108" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
@@ -406,7 +403,6 @@
       <jump line="149" column="83" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="150" column="42" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="153" column="49" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="156" column="31" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="158" column="83" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="159" column="42" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="162" column="17" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
@@ -415,6 +411,10 @@
       <jump line="140" column="20" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="48" column="8" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="73" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
+      <jump line="127" column="56" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="146" column="4" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="166" column="4" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="156" column="7" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -424,7 +424,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>parallel_cassandra</text>
+        <text>cpu_needed_per_table</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +966,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>parallel_cassandra</text>
+        <text>cpu_needed_per_table</text>
       </register>
       <register name="/" type="4">
-        <text>plot</text>
+        <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBMYWJlbChzZWxmKToKICAgICAgICByZXR1cm4gJ3BhcmFsbGVsX2Nhc3NhbmRyYScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgQXQgZXZlcnkgaXRlcmF0aW9uIHN0ZXAsIHRoZSB0YWJsZSBwcm9jZXNzZXMgYXMgbWFueSBxdWVyaWVzIGFzIHBvc3NpYmxlLgogICAgICAgICAgICBFYWNoIHF1ZXJ5IHRha2VzIHNvbWUgcmVzb3VyY2VzIGFuZCBhZGRzIHByZXNzdXJlIHRvIHRoZSBjcHUgYW5kIHRoZSBtZW0uCiAgICAgICAgICAgIE5laXRoZXIgY3B1IG5vciBtZW0gY2FuIGV4Y2VlZCAxMDAlIGF0IGEgc2luZ2xlIHRpbWUgc3RlcC4KICAgICAgICAgICAgVGhlIG51bWJlciBvZiBpbnB1dF9xcHMgcHJvY2Vzc2VkIGlzIGxpbWl0ZWQgYnkgdGhlIGNwdSBhbmQgbWVtCiAgICAgICAgICAgIElmIHdlIGNhbid0IHByb2Nlc3MgYWxsIHRoZSBpbnB1dF9xcHMsIG91dHB1dF9xcHMgd2lsbCBiZSBub256ZXJvIChwcm9jZXNzZWRfcXBzICsgb3V0cHV0X3FwcyA9IGlucHV0X3FwcykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgaWYgc2VsZi5jcHUuX3ZhbHVlc1tpdF0gPiAxOgogICAgICAgICAgICBzZWxmLmNwdS5fdmFsdWVzW2l0XSA9IDEKICAgICAgICBpZiBzZWxmLm1lbS5fdmFsdWVzW2l0XSA+IDE6CiAgICAgICAgICAgIHNlbGYubWVtLl92YWx1ZXNbaXRdID0gMQo=</text>
+        <text encoding="base64">ICAgICAgICByZXNvdXJjZS5fdmFsdWVzW2l0XQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBFdmFsdWF0ZShzZWxmKToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1006,10 +1006,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBMYWJlbChzZWxmKToKICAgICAgICByZXR1cm4gJ2Nhc3NhbmRyYScK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmxhc3RfaXQgPT0gaXQ6CiAgICAgICAgICAgIHJldHVybiBbXQogICAgICAgIHNlbGYubGFzdF9pdCA9IGl0CgogICAgICAgICMgZmlyc3Qgd2UgY29tcHV0ZSBob3cgbXVjaCByZXNvdXJjZXMgd2UgbmVlZCB0byBwcm9jZXNzIGFsbCB0aGUgcXBzLiBXZSBzdG9yZSBpdCBpbiB0aGUgb3JpZ2luYWwgaW5wdXQKICAgICAgICAjIHBvaW50ZWQgYXQgYnkgc2VsZi5jcHUvbWVtIGZvciBlYWNoIHRhYmxlIHRvIGtub3cgaG93IG11Y2ggaXMgbmVlZGVkIGFuZCB3aGF0IGZyYWN0aW9uIGlzIHBvc3NpYmxlLgogICAgICAgICMgb25jZSBlYWNoIHRhYmxlIGhhcyBjb21wdXRlZCwgd2UgY2xpcCBzZWxmLmNwdS9tZW0gdG8gYSBtYXggdmFsdWUgb2YgMQogICAgICAgIHNlbGYuY3B1Ll92YWx1ZXNbaXRdID0gc2VsZi5jcHVfbmVlZGVkKGl0KQogICAgICAgIHNlbGYubWVtLl92YWx1ZXNbaXRdID0gc2VsZi5tZW1fbmVlZGVkKGl0KQogICAgICAgIHRhYmxlX2xhdGVuY2llcyA9IFt0YWJsZS5FdmFsdWF0ZShpdCwgdHMpIGZvciB0YWJsZSBpbiBzZWxmLnRhYmxlc10KICAgICAgICB0YWJsZV9sYXRlbmNpZXMgPSBsaXN0KGNoYWluLmZyb21faXRlcmFibGUodGFibGVfbGF0ZW5jaWVzKSkKCiAgICAgICAgaWYgc2VsZi5jcHUuX3ZhbHVlc1tpdF0gPiAxOgogICAgICAgICAgICBzZWxmLmNwdS5fdmFsdWVzW2l0XSA9IDEKICAgICAgICBpZiBzZWxmLm1lbS5fdmFsdWVzW2l0XSA+IDE6CiAgICAgICAgICAgIHNlbGYubWVtLl92YWx1ZXNbaXRdID0gMQoKICAgICAgICByZXR1cm4gdGFibGVfbGF0ZW5jaWVzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgSW4gdGhpcyBhcHByb3hpbWF0aW9uLCB3ZSBtb2RlbCBhIFRhYmxlIGFzIHNvbWV0aGluZyB0aGF0IGhhcyBhczoKICAgICAgICAgICAgICAgIGlucHV0X3FwcywgY3B1IGFuZCBtZW0KICAgICAgICAgICAgdGhlIG91dHB1dHMgYXJlOgogICAgICAgICAgICAgICAgb3V0cHV0X3FwcywgcDUwLCBwOTUK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1077,28 +1077,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpbnB1dF92YXJpYWJsZXMsIG91dHB1dF92YXJpYWJsZXMsIHRhYmxlc19wYXJhbXMpOgogICAgICAgICIiIgogICAgICAgIEluIHRoaXMgZmlyc3QgYXBwcm94aW1hdGlvbiwgd2UgbW9kZWwgYSBDYXNzYW5kcmEgc2VydmVyIGFzIGp1c3QgYSBncm91cCBvZiB0YWJsZXMuIEkgYW0gbm90IHN1cmUgaG93CiAgICAgICAgdG8gbW9kZWwgdGhpcyBzbyBJJ20gZG9pbmcgdGhlIGZpcnN0IHRoaW5nIHRoYXQgY29tZXMgdG8gbWluZCwgYSBjbHVzdGVyIGlzIGEgc2V0IG9mIHRhYmxlcyBpbiBzZXJpZXMKICAgICAgICAoaW4gY29udHJhc3QgdG8gYmVpbmcgaW4gcGFyYWxsZWwpLiBUaGVyZWZvciB0aGUgY3B1IGFuZCBtZW0gYXZhaWxhYmxlIHRvIGVhY2ggdGFibGUgaXMgbW9kaWZpZWQgYnkgdGhlCiAgICAgICAgY3B1IGFuZCBtZW0gY29uc3VtZWQgYnkgcHJldmlvdXMgdGFibGVzLiBUaGUgbGFzdCB0YWJsZSBpbiB0aGlzIGZyYW1ld29yayBpcyB0aGUgb25lIHRoYXQgd2lsbCBzdWZmZXIKICAgICAgICB0aGUgbW9zdCBwcmVzc3VyZS4gSSdtIG1ha2luZyBzZXZlcmFsIGFzc3VtcHRpb25zIHJlZ2FyZGluZyBpbnB1dF92YXJpYWJsZXMKICAgICAgICAxLiBjcHUgZXhpc3RzCiAgICAgICAgMi4gbWVtIGV4aXN0cwogICAgICAgIDMuIGlucHV0X3FwcyBhcmUgbGFiZWxlZCBhZnRlciB0aGVpciB0YWJsZXMgYXMgcXBzXzxzdWZmaXg+ICh0YWJsZXMgYXJlIG5hbWVkIHRhYmxlXzxzdWZmaXg+KS4KICAgICAgICAgICAgVGFibGVzIGFyZSBwcm9jZXNzZWQgb25lIGF0IGEgdGltZSBhY2NvcmRpbmcgdG8gaG93IHRoZWlyIG5hbWVzIHNvcnQuCiAgICAgICAgNC4gb3V0cHV0cyBhcmUgYWxzbyBuYW1lZCBhZnRlciB0aGUgdGFibGVzLCB3ZSBuZWVkCiAgICAgICAgICAgIG91dHB1dF9wNTBfPHN1ZmZpeD4KICAgICAgICAgICAgb3V0cHV0X3A5NV88c3VmZml4PgoKICAgICAgICA6cGFyYW0gaW5wdXRfdmFyaWFibGVzOgogICAgICAgIDpwYXJhbSBvdXRwdXRfdmFyaWFibGVzOgogICAgICAgIDpwYXJhbSB0YWJsZXNfcGFyYW1zOiBkaWN0LCBtYXBwaW5nIChzdHIpIHRhYmxlX25hbWUgdG86CiAgICAgICAgICAgIGlucHV0X25hbWU6IHN0ciAobmFtZSBvZiBpbnB1dCB2YXJpYWJsZSB0byBiZSB1c2VkIGFzIHFwcyBmb3IgdGhpcyB0YWJsZSkKICAgICAgICAgICAgcGFyYW1zOiBkaWN0IHdpdGggYWxsIHBhcmFtZXRlcnMgbmVlZGVkIHRvIGRlZmluZSB0aGlzIHRhYmxlJ3MgYmVoYXZpb3IKICAgICAgICAiIiIKCiAgICAgICAgc3VwZXIoQ2Fzc2FuZHJhLCBzZWxmKS5fX2luaXRfXyhpbnB1dF92YXJpYWJsZXMsIG91dHB1dF92YXJpYWJsZXMsIDEsIDApCiAgICAgICAgc2VsZi50YWJsZV9uYW1lcyA9IHNvcnRlZCh0YWJsZXNfcGFyYW1zLmtleXMoKSkKICAgICAgICBzZWxmLnRhYmxlcyA9IFtdCgogICAgICAgIHNlbGYuY3B1ID0gYm1zX3V0aWxzLnBpY2soaW5wdXRfdmFyaWFibGVzLCAnY3B1JykKICAgICAgICBzZWxmLm1lbSA9IGJtc191dGlscy5waWNrKGlucHV0X3ZhcmlhYmxlcywgJ21lbScpCiAgICAgICAgc2VsZi5xcHMgPSBbaXYgZm9yIGl2IGluIGlucHV0X3ZhcmlhYmxlcyBpZiBpdi5uYW1lLnN0YXJ0c3dpdGgoJ3Fwc18nKV0KICAgICAgICBzZWxmLmxhc3RfaXQgPSAtMSAgICMgdG8gZGVhbCB3aXRoIGEgYnVnIGluIGJtcywgRXZhbHVhdGUgaXMgY2FsbGVkIG9uY2UgcGVyIG91dHB1dAoKICAgICAgICBmb3IgaSwgdGFibGVfbmFtZSBpbiBlbnVtZXJhdGUoc2VsZi50YWJsZV9uYW1lcyk6CiAgICAgICAgICAgIGlucHV0X3FwcyA9IGJtc191dGlscy5waWNrKHNlbGYucXBzLCB0YWJsZV9uYW1lLnJlcGxhY2UoJ3RhYmxlJywgJ3FwcycpKQoKICAgICAgICAgICAgb3V0cHV0X3A1MCA9IGJtc191dGlscy5waWNrKG91dHB1dF92YXJpYWJsZXMsIHRhYmxlX25hbWUucmVwbGFjZSgndGFibGUnLCAncDUwJykpCiAgICAgICAgICAgIG91dHB1dF9wOTUgPSBibXNfdXRpbHMucGljayhvdXRwdXRfdmFyaWFibGVzLCB0YWJsZV9uYW1lLnJlcGxhY2UoJ3RhYmxlJywgJ3A5NScpKQoKICAgICAgICAgICAgdGFibGVfYmxvY2sgPSBDYXNzYW5kcmFUYWJsZShbaW5wdXRfcXBzLCBzZWxmLmNwdSwgc2VsZi5tZW1dLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFtvdXRwdXRfcDUwLCBvdXRwdXRfcDk1XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWJsZV9uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhYmxlc19wYXJhbXNbdGFibGVfbmFtZV0pCgogICAgICAgICAgICBzZWxmLnRhYmxlcy5hcHBlbmQodGFibGVfYmxvY2spCgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBxcHMgPSBzZWxmLmlucHV0c1swXS5fdmFsdWVzW10K</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNwdV9uZWVkZWRfID0gMAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGF5b3V0ICs9IHBsb3RfdGFibGUodGFibGVfbmFtZSwgcXBzLCBwNTAsIHA5NSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwbG90ID0gaHYuQ3VydmUoKG1vZGVsLnQsIHFwcy52YWx1ZXMpLCBsYWJlbD0ncXBzJywgZ3JvdXA9dGFibGVfbmFtZSkgKiBcCiAgICAgICAgICAgICAgIGh2LkN1cnZlKChtb2RlbC50LCBwNTAudmFsdWVzKSwgbGFiZWw9J3A1MCcsIGdyb3VwPXRhYmxlX25hbWUpICogXAogICAgICAgICAgICAgICBodi5DdXJ2ZSgobW9kZWwudCwgcDk1LnZhbHVlcyksIGxhYmVsPSdwOTUnLCBncm91cD10YWJsZV9uYW1lKQo=</text>
+        <text encoding="base64">ICAgIGRlZiBFdmFsdWF0ZShzZWxmLCBpdCwgdHMpOgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcGxvdAo=</text>
+        <text encoding="base64">Y2xhc3MgUGFyYWxsZWxDYXNzYW5kcmEoQ2Fzc2FuZHJhQmFzZSk6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>s/cpu/mem/g</text>
       </register>
     </registers>
     <search>
-      <last-search>plot</last-search>
+      <last-search encoding="base64">ZGVmIA==</last-search>
       <last-offset />
-      <last-pattern>plot</last-pattern>
+      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
       <last-replace>mem</last-replace>
       <last-substitute>cpu</last-substitute>
       <last-dir>1</last-dir>
@@ -1109,7 +1109,6 @@
         <entry>wy</entry>
         <entry>_1</entry>
         <entry>inputs</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>50</entry>
         <entry>bms</entry>
         <entry>get_i</entry>
@@ -1126,6 +1125,7 @@
         <entry>def Eval</entry>
         <entry>cpu</entry>
         <entry>plot</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
         <entry>%s/FLAGS</entry>
