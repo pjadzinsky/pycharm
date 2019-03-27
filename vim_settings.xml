@@ -294,12 +294,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553638703782">
-        <mark key="'" line="162" column="11" />
-        <mark key="[" line="187" column="11" />
-        <mark key="]" line="187" column="16" />
-        <mark key="." line="187" column="16" />
-        <mark key="^" line="187" column="16" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553708568201">
+        <mark key="'" line="123" column="0" />
+        <mark key="[" line="5" column="27" />
+        <mark key="]" line="123" column="0" />
+        <mark key="." line="123" column="0" />
+        <mark key="^" line="165" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/pipeline_values_feature_creator.py" timestamp="1551913167308">
         <mark key="[" line="55" column="81" />
@@ -315,11 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" />
-      <jump line="25" column="61" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra.py" />
-      <jump line="49" column="87" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="48" column="61" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="23" column="49" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="30" column="17" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="42" column="81" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="35" column="22" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
@@ -339,7 +334,6 @@
       <jump line="42" column="12" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="43" column="12" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="50" column="46" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="18" column="37" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="23" column="83" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="24" column="31" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
@@ -415,6 +409,12 @@
       <jump line="124" column="4" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="134" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/services.py" />
+      <jump line="163" column="38" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="192" column="41" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="159" column="11" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="16" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="123" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -423,8 +423,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBzb3J0ZWRfdGFibGVzID0gc29ydGVkKHRhYmxlc19wYXJhbXMua2V5cygpKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +966,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>the</text>
       </register>
       <register name="/" type="4">
-        <text>qps</text>
+        <text>class</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIG92ZXJsYXkgPSBodi5PdmVybGF5KCkKICAgIGZvciBzZXJ2aWNlIGluIHNlcnZpY2VzOgogICAgICAgIG92ZXJsYXkgKj0gaHYuQ3VydmUoc2VydmljZS52YWx1ZXMsIGxhYmVsPXNlcnZpY2UubmFtZSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHNlcnZpY2VfdG9fcXBzIC89Cg==</text>
+        <text encoding="base64">ICAgICAgICBzb3J0ZWRfdGFibGVzID0gc29ydGVkKHRhYmxlc19wYXJhbXMua2V5cygpKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxheW91dCArPSBodi5UZXh0KDAsIDAsICdzZXJ2aWNlX3RvX3FwcyAqIHNlcnZpY2UgPSBxcHMnKQo=</text>
+        <text encoding="base64">ICAgICAgICA6cmV0dXJuOiAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1006,10 +1006,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0YWJsZSB1bnRpbCB3ZWFyZSBhdCB3aGF0ZXZlciBsZXZlbCB0aGV5IGFyZSAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBvdmVybGF5ID0gaHYuT3ZlcmxheSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBvciBjb250aW51ZSB0byBhZGQgcXBzIGZvciBlYWNoCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1076,29 +1076,31 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGZvciBxcHNfIGluIHFwczoKICAgICAgICBvdmVybGF5ID0gaHYuT3ZlcmxheSgpCg==</text>
+      <register name="5" type="4">
+        <text>mem, qps):
+        &quot;&quot;&quot;
+        At the start</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZvciBzZXJ2aWNlIGluIHNlcnZpY2VzOgo=</text>
+        <text encoding="base64">ICAgIHNlcnZpY2VfdG9fcXBzIC89Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGxheW91dCArPSBodi5UZXh0KDAsIDAsICdzZXJ2aWNlX3RvX3FwcyAqIHNlcnZpY2UgPSBxcHMnKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICp2YXJncykK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHZhcmdzID0gcmFuZ2UobGVuKHNlcnZpY2VfdG9fcXBzKSkK</text>
+        <text encoding="base64">ICAgICAgICBvdmVybGF5ID0gaHYuT3ZlcmxheSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>qps</last-search>
+      <last-search>class</last-search>
       <last-offset />
-      <last-pattern>qps</last-pattern>
+      <last-pattern>class</last-pattern>
       <last-replace>3E-1</last-replace>
       <last-substitute>1E-2</last-substitute>
       <last-dir>1</last-dir>
@@ -1106,8 +1108,6 @@
     </search>
     <history>
       <history-search>
-        <entry>max_input_order</entry>
-        <entry>max_order</entry>
         <entry>max_.*order</entry>
         <entry>cpu</entry>
         <entry>1E-7</entry>
@@ -1126,6 +1126,8 @@
         <entry>service_to</entry>
         <entry>plot_qps</entry>
         <entry>qps</entry>
+        <entry>value</entry>
+        <entry>class</entry>
       </history-search>
       <history-cmd>
         <entry>16</entry>
