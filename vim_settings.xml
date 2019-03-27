@@ -99,11 +99,11 @@
         <mark key="^" line="17" column="57" />
         <mark key="." line="17" column="57" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553708808017">
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/services.py" timestamp="1553711429731">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="35" column="75" />
-        <mark key="]" line="36" column="48" />
-        <mark key="." line="36" column="48" />
+        <mark key="[" line="50" column="13" />
+        <mark key="]" line="50" column="13" />
+        <mark key="." line="50" column="13" />
         <mark key="^" line="36" column="48" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/identity_feature_creator.py" timestamp="1551919838677">
@@ -197,7 +197,7 @@
         <mark key="^" line="44" column="54" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1553640107216">
+      <file name="/Python Console" timestamp="1553712011156">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -209,7 +209,7 @@
         <mark key="." line="10" column="7" />
         <mark key="^" line="10" column="7" />
       </file>
-      <file name="/fragment.py" timestamp="1553633071739">
+      <file name="/fragment.py" timestamp="1553712026626">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1553362419944">
@@ -294,12 +294,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553709494275">
-        <mark key="'" line="162" column="17" />
-        <mark key="[" line="139" column="45" />
-        <mark key="]" line="140" column="44" />
-        <mark key="." line="140" column="44" />
-        <mark key="^" line="140" column="44" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553712022320">
+        <mark key="'" line="72" column="61" />
+        <mark key="[" line="69" column="37" />
+        <mark key="]" line="69" column="39" />
+        <mark key="." line="69" column="39" />
+        <mark key="^" line="69" column="39" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/pipeline_values_feature_creator.py" timestamp="1551913167308">
         <mark key="[" line="55" column="81" />
@@ -315,7 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="16" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="40" column="23" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="42" column="12" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="43" column="12" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
@@ -415,6 +414,7 @@
       <jump line="158" column="83" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="159" column="42" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
       <jump line="162" column="17" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
+      <jump line="72" column="61" filename="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -423,8 +423,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>qps</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +966,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>qps</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
-        <text>mem</text>
+        <text>cpu</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBjcHVfY29udGluZ2VuY3koc2VsZiwgaXQsIGNwdSwgcXBzKToKICAgICAgICAiIiIKICAgICAgICBBdCB0aGUgc3RhcnQgb2YgYSBnaXZlbiBpdGVyYXRpb24gd2UgaGF2ZSBzb21lIGNwdS4gV2UnbGwgY29tcHV0ZSBob3cgbXVjaCBjcHUgaXMgbmVlZGVkIHRvIHByb2Nlc3MgYWxsCiAgICAgICAgdGhlIHFwcyByZXF1ZXN0ZWQuIDEgaXMgdGhlIHRvdGFsIGNwdSBhdmFpbGJsZS4gaWYgdGhlIGFuc3dlciBpcyBsZXNzIHRoYW4gMSB0aGVyZSBpcyBubyBjb250aW5nZW5jeS4KICAgICAgICBJZiB0aGUgYW5zd2VyIGlzIG1vcmUgdGhhbiAxIHRoZW4gdGhlcmUgaXMgY29udGluZ2VuY3kuCiAgICAgICAgIiIiCiAgICAgICAgZXhwZWN0ZWRfY3B1ID0gc2VsZi5fY29udGluZ2VuY3koaXQsIGNwdSwgcXBzLCAnY3B1X3Blcl9xcHMnKQogICAgICAgIHJldHVybiBleHBlY3RlZF9jcHUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBvc3NpYmxlX2NwdV9xdWVyaWVzID0gaW50KGlucHV0X3FwcyAqIDEgLyBjcHUpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwb3NzaWJsZV9jcHVfcXVlcmllcyA9IGlucHV0X3Fwcwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcXBzX3RoaXNfdGFibGUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1006,10 +1006,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3IK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBvc3NpYmxlX21lbV9xdWVyaWVzID0gaW5wdXRfcXBzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlc19wYXJhbXMgPSBbdGFibGVzX3BhcmFtc1t0YWJsZV9uYW1lXSBmb3IgdGFibGVfbmFtZSBpbiBzZWxmLnRhYmxlX25hbWVzXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBvc3NpYmxlX2NwdV9xdWVyaWVzID0gaW5wdXRfcXBzCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1077,28 +1077,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlc19wYXJhbXMgPSB0YWJsZXNfcGFyYW1zCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3B1X3Blcl9xdWVyeSA9IHNlbGYudGFibGVfcGFyYW1zLmdldCgnY3B1X3Blcl9xdWVyeScpCiAgICAgICAgICAgIG1lbV9wZXJfcXVlcnkgPSBzZWxmLnRhYmxlX3BhcmFtcy5nZXQoJ21lbV9wZXJfcXVlcnknKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlX25hbWVzID0gc29ydGVkKHRhYmxlc19wYXJhbXMua2V5cygpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5pbnB1dHNbMl0uX3ZhbHVlc1tpdF0gKz0gdXNlZF9tZW0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgc28K</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5pbnB1dHNbMV0uX3ZhbHVlc1tpdF0gKz0gdXNlZF9jcHUK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWRfdGFibGVzID0gc29ydGVkKHRhYmxlc19wYXJhbXMua2V5cygpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyB0byByZWZsZWN0IHRoZSBxdWVyaWVzIHdlIGFyZSBwcm9jZXNzaW5nLCBpbiB0aGlzIHN0ZXAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>mem</last-search>
+      <last-search>cpu</last-search>
       <last-offset />
-      <last-pattern>mem</last-pattern>
+      <last-pattern>cpu</last-pattern>
       <last-replace>3E-1</last-replace>
       <last-substitute>1E-2</last-substitute>
       <last-dir>1</last-dir>
@@ -1124,8 +1124,8 @@
         <entry>value</entry>
         <entry>class</entry>
         <entry>res</entry>
-        <entry>cpu</entry>
         <entry>mem</entry>
+        <entry>cpu</entry>
       </history-search>
       <history-cmd>
         <entry>16</entry>
