@@ -294,12 +294,11 @@
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553718601999">
-        <mark key="'" line="167" column="7" />
-        <mark key="[" line="167" column="0" />
-        <mark key="]" line="167" column="12" />
-        <mark key="." line="167" column="12" />
-        <mark key="^" line="163" column="19" />
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/cassandra.py" timestamp="1553720390589">
+        <mark key="[" line="75" column="23" />
+        <mark key="]" line="75" column="25" />
+        <mark key="^" line="75" column="25" />
+        <mark key="." line="75" column="25" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/pipeline_values_feature_creator.py" timestamp="1551913167308">
         <mark key="[" line="55" column="81" />
@@ -424,7 +423,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>cpu_needed_per_table</text>
+        <text>inputs</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -966,22 +965,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>cpu_needed_per_table</text>
+        <text>inputs</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQXQgZXZlcnkgaXRlcmF0aW9uIHN0ZXAsIHRoZSB0YWJsZSBwcm9jZXNzZXMgYXMgbWFueSBxdWVyaWVzIGFzIHBvc3NpYmxlLgogICAgICAgICAgICBFYWNoIHF1ZXJ5IHRha2VzIHNvbWUgcmVzb3VyY2VzIGFuZCBhZGRzIHByZXNzdXJlIHRvIHRoZSBjcHUgYW5kIHRoZSBtZW0uCiAgICAgICAgICAgIE5laXRoZXIgY3B1IG5vciBtZW0gY2FuIGV4Y2VlZCAxMDAlIGF0IGEgc2luZ2xlIHRpbWUgc3RlcC4KICAgICAgICAgICAgVGhlIG51bWJlciBvZiBpbnB1dF9xcHMgcHJvY2Vzc2VkIGlzIGxpbWl0ZWQgYnkgdGhlIGNwdSBhbmQgbWVtCiAgICAgICAgICAgIElmIHdlIGNhbid0IHByb2Nlc3MgYWxsIHRoZSBpbnB1dF9xcHMsIG91dHB1dF9xcHMgd2lsbCBiZSBub256ZXJvIChwcm9jZXNzZWRfcXBzICsgb3V0cHV0X3FwcyA9IGlucHV0X3FwcykK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm1lbSA9IGJtc191dGlscy5waWNrKGlucHV0cywgJ21lbScpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXNvdXJjZS5fdmFsdWVzW2l0XQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGF0ZW5jeV9wZXJfcXVlcnkgPSBzZWxmLnRhYmxlX3BhcmFtcy5nZXQoJ2xhdGVuY3lfcGVyX3F1ZXJ5JykKICAgICAgICAgICAgcDUwID0gbGF0ZW5jeV9wZXJfcXVlcnkgKiAoMSArIGNwdV9jb250ZW50aW9uICsgbWVtX2NvbnRlbnRpb24pCiAgICAgICAgICAgIHA5NSA9IHA1MCAqICgxICsgY3B1X2NvbnRlbnRpb24gKyBtZW1fY29udGVudGlvbikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1006,10 +1005,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWVtX2NvbnRlbnRpb24gPSBtYXgoMCwgbWVtIC0gMSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSW4gdGhpcyBhcHByb3hpbWF0aW9uLCB3ZSBtb2RlbCBhIFRhYmxlIGFzIHNvbWV0aGluZyB0aGF0IGhhcyBhczoKICAgICAgICAgICAgICAgIGlucHV0X3FwcywgY3B1IGFuZCBtZW0KICAgICAgICAgICAgdGhlIG91dHB1dHMgYXJlOgogICAgICAgICAgICAgICAgb3V0cHV0X3FwcywgcDUwLCBwOTUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3B1X2NvbnRlbnRpb24gPSBtYXgoMCwgY3B1IC0gMSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1077,19 +1076,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNwdV9uZWVkZWRfID0gMAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbWVtX2NvbnRlbnRpb24gPSBtYXgoMCwgbWVtIC0gMSkK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY3B1X2NvbnRlbnRpb24gPSBtYXgoMCwgY3B1IC0gMSkK</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBFdmFsdWF0ZShzZWxmLCBpdCwgdHMpOgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGF0ZW5jeV9wZXJfcXVlcnkgPSBzZWxmLnRhYmxlX3BhcmFtcy5nZXQoJ2xhdGVuY3lfcGVyX3F1ZXJ5JykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Y2xhc3MgUGFyYWxsZWxDYXNzYW5kcmEoQ2Fzc2FuZHJhQmFzZSk6Cg==</text>
+        <text encoding="base64">ICAgICAgICBwOTUgPSBwNTAgKiAoMSArIGNwdV9jb250ZW50aW9uICsgbWVtX2NvbnRlbnRpb24pCg==</text>
       </register>
       <register name=":" type="4">
         <text>s/cpu/mem/g</text>
