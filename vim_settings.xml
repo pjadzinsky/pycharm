@@ -58,8 +58,8 @@
         <mark key="^" line="68" column="62" />
         <mark key="." line="68" column="62" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1553796194124">
-        <mark key="'" line="534" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" timestamp="1553797014072">
+        <mark key="'" line="517" column="4" />
         <mark key="[" line="876" column="0" />
         <mark key="]" line="876" column="0" />
         <mark key="." line="876" column="0" />
@@ -147,7 +147,7 @@
         <mark key="^" line="116" column="39" />
         <mark key="." line="116" column="39" />
       </file>
-      <file name="/Python Console" timestamp="1553796218043">
+      <file name="/Python Console" timestamp="1553797072347">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="34" />
@@ -203,12 +203,12 @@
         <mark key="[" line="32" column="0" />
         <mark key="]" line="32" column="81" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1553794750902">
+      <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1553797067698">
         <mark key="'" line="114" column="114" />
-        <mark key="[" line="122" column="24" />
-        <mark key="]" line="122" column="24" />
+        <mark key="[" line="155" column="49" />
+        <mark key="]" line="155" column="50" />
         <mark key="^" line="122" column="24" />
-        <mark key="." line="122" column="24" />
+        <mark key="." line="155" column="50" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/drop_rows_with_nans.py" timestamp="1553027320445">
         <mark key="[" line="16" column="46" />
@@ -379,9 +379,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="424" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="460" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
-      <jump line="474" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="497" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="10" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
@@ -479,6 +476,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/inputs.json" />
       <jump line="125" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/cassandra_services_1/config_1.yaml" />
       <jump line="116" column="39" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/services.py" />
+      <jump line="481" column="2" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="498" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
+      <jump line="517" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -487,8 +487,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBtZXRyaWNfc3RyCg==</text>
+      <register name="&quot;" type="4">
+        <text>5</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1030,10 +1030,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>folder</text>
+        <text>5</text>
       </register>
       <register name="/" type="4">
-        <text>]</text>
+        <text>def query_.*bulk</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">WwogICAgewogICAgICAgICJwaXZvdHMiOiBbXSwgCiAgICAgICAgInRhZ3MiOiB7CiAgICAgICAgICAgICJzaW11bGF0aW9uIjogWwogICAgICAgICAgICAgICAgInNpbV8xIgogICAgICAgICAgICBdCiAgICAgICAgfSwgCiAgICAgICAgImV4cHJlc3Npb24iOiAibWVhbihjcHUpIiwgCiAgICAgICAgIm1lYXN1cmVtZW50IjogIm1hY2hpbmUiCiAgICB9LCAKICAgIHsKICAgICAgICAicGl2b3RzIjogW10sIAogICAgICAgICJ0YWdzIjogewogICAgICAgICAgICAic2ltdWxhdGlvbiI6IFsKICAgICAgICAgICAgICAgICJzaW1fMSIKICAgICAgICAgICAgXQogICAgICAgIH0sIAogICAgICAgICJleHByZXNzaW9uIjogIm1lYW4obWVtKSIsIAogICAgICAgICJtZWFzdXJlbWVudCI6ICJtYWNoaW5lIgogICAgfSwgCiAgICB7CiAgICAgICAgInBpdm90cyI6IFtdLCAKICAgICAgICAidGFncyI6IHsKICAgICAgICAgICAgInRhYmxlIjogWwogICAgICAgICAgICAgICAgInRhYmxlXzAiCiAgICAgICAgICAgIF0sIAogICAgICAgICAgICAic2ltdWxhdGlvbiI6IFsKICAgICAgICAgICAgICAgICJzaW1fMSIKICAgICAgICAgICAgXQogICAgICAgIH0sIAogICAgICAgICJleHByZXNzaW9uIjogIm1lYW4ocXBzXzApIiwgCiAgICAgICAgIm1lYXN1cmVtZW50IjogIkNvbHVtbkZhbWlseSIKICAgIH0sIAogICAgewogICAgICAgICJwaXZvdHMiOiBbXSwgCiAgICAgICAgInRhZ3MiOiB7CiAgICAgICAgICAgICJ0YWJsZSI6IFsKICAgICAgICAgICAgICAgICJ0YWJsZV8xIgogICAgICAgICAgICBdLCAKICAgICAgICAgICAgInNpbXVsYXRpb24iOiBbCiAgICAgICAgICAgICAgICAic2ltXzEiCiAgICAgICAgICAgIF0KICAgICAgICB9LCAKICAgICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKHFwc18xKSIsIAogICAgICAgICJtZWFzdXJlbWVudCI6ICJDb2x1bW5GYW1pbHkiCiAgICB9LCAKICAgIHsKICAgICAgICAicGl2b3RzIjogW10sIAogICAgICAgICJ0YWdzIjogewogICAgICAgICAgICAidGFibGUiOiBbCiAgICAgICAgICAgICAgICAidGFibGVfMiIKICAgICAgICAgICAgXSwgCiAgICAgICAgICAgICJzaW11bGF0aW9uIjogWwogICAgICAgICAgICAgICAgInNpbV8xIgogICAgICAgICAgICBdCiAgICAgICAgfSwgCiAgICAgICAgImV4cHJlc3Npb24iOiAibWVhbihxcHNfMikiLCAKICAgICAgICAibWVhc3VyZW1lbnQiOiAiQ29sdW1uRmFtaWx5IgogICAgfSwgCiAgICB7CiAgICAgICAgInBpdm90cyI6IFtdLCAKICAgICAgICAidGFncyI6IHsKICAgICAgICAgICAgInRhYmxlIjogWwogICAgICAgICAgICAgICAgInRhYmxlXzAiCiAgICAgICAgICAgIF0sIAogICAgICAgICAgICAic2ltdWxhdGlvbiI6IFsKICAgICAgICAgICAgICAgICJzaW1fMSIKICAgICAgICAgICAgXQogICAgICAgIH0sIAogICAgICAgICJleHByZXNzaW9uIjogIm1lYW4ocDUwXzApIiwgCiAgICAgICAgIm1lYXN1cmVtZW50IjogIkNvbHVtbkZhbWlseSIKICAgIH0sIAogICAgewogICAgICAgICJwaXZvdHMiOiBbXSwgCiAgICAgICAgInRhZ3MiOiB7CiAgICAgICAgICAgICJ0YWJsZSI6IFsKICAgICAgICAgICAgICAgICJ0YWJsZV8wIgogICAgICAgICAgICBdLCAKICAgICAgICAgICAgInNpbXVsYXRpb24iOiBbCiAgICAgICAgICAgICAgICAic2ltXzEiCiAgICAgICAgICAgIF0KICAgICAgICB9LCAKICAgICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKHA5NV8wKSIsIAogICAgICAgICJtZWFzdXJlbWVudCI6ICJDb2x1bW5GYW1pbHkiCiAgICB9LCAKICAgIHsKICAgICAgICAicGl2b3RzIjogW10sIAogICAgICAgICJ0YWdzIjogewogICAgICAgICAgICAidGFibGUiOiBbCiAgICAgICAgICAgICAgICAidGFibGVfMSIKICAgICAgICAgICAgXSwgCiAgICAgICAgICAgICJzaW11bGF0aW9uIjogWwogICAgICAgICAgICAgICAgInNpbV8xIgogICAgICAgICAgICBdCiAgICAgICAgfSwgCiAgICAgICAgImV4cHJlc3Npb24iOiAibWVhbihwNTBfMSkiLCAKICAgICAgICAibWVhc3VyZW1lbnQiOiAiQ29sdW1uRmFtaWx5IgogICAgfSwgCiAgICB7CiAgICAgICAgInBpdm90cyI6IFtdLCAKICAgICAgICAidGFncyI6IHsKICAgICAgICAgICAgInRhYmxlIjogWwogICAgICAgICAgICAgICAgInRhYmxlXzEiCiAgICAgICAgICAgIF0sIAogICAgICAgICAgICAic2ltdWxhdGlvbiI6IFsKICAgICAgICAgICAgICAgICJzaW1fMSIKICAgICAgICAgICAgXQogICAgICAgIH0sIAogICAgICAgICJleHByZXNzaW9uIjogIm1lYW4ocDk1XzEpIiwgCiAgICAgICAgIm1lYXN1cmVtZW50IjogIkNvbHVtbkZhbWlseSIKICAgIH0sIAogICAgewogICAgICAgICJwaXZvdHMiOiBbXSwgCiAgICAgICAgInRhZ3MiOiB7CiAgICAgICAgICAgICJ0YWJsZSI6IFsKICAgICAgICAgICAgICAgICJ0YWJsZV8yIgogICAgICAgICAgICBdLCAKICAgICAgICAgICAgInNpbXVsYXRpb24iOiBbCiAgICAgICAgICAgICAgICAic2ltXzEiCiAgICAgICAgICAgIF0KICAgICAgICB9LCAKICAgICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKHA1MF8yKSIsIAogICAgICAgICJtZWFzdXJlbWVudCI6ICJDb2x1bW5GYW1pbHkiCiAgICB9LCAKICAgIHsKICAgICAgICAicGl2b3RzIjogW10sIAogICAgICAgICJ0YWdzIjogewogICAgICAgICAgICAidGFibGUiOiBbCiAgICAgICAgICAgICAgICAidGFibGVfMiIKICAgICAgICAgICAgXSwgCiAgICAgICAgICAgICJzaW11bGF0aW9uIjogWwogICAgICAgICAgICAgICAgInNpbV8xIgogICAgICAgICAgICBdCiAgICAgICAgfSwgCiAgICAgICAgImV4cHJlc3Npb24iOiAibWVhbihwOTVfMikiLCAKICAgICAgICAibWVhc3VyZW1lbnQiOiAiQ29sdW1uRmFtaWx5IgogICAgfQpdCg==</text>
@@ -1160,9 +1160,9 @@
       </register>
     </registers>
     <search>
-      <last-search>]</last-search>
+      <last-search>def query_.*bulk</last-search>
       <last-offset />
-      <last-pattern>]</last-pattern>
+      <last-pattern>def query_.*bulk</last-pattern>
       <last-replace>mem</last-replace>
       <last-substitute>cpu</last-substitute>
       <last-dir>1</last-dir>
@@ -1170,8 +1170,6 @@
     </search>
     <history>
       <history-search>
-        <entry>plot</entry>
-        <entry>table_names</entry>
         <entry>st</entry>
         <entry>to_stor</entry>
         <entry>te</entry>
@@ -1190,6 +1188,8 @@
         <entry>json</entry>
         <entry>inputs</entry>
         <entry>]</entry>
+        <entry>def query_.*</entry>
+        <entry>def query_.*bulk</entry>
       </history-search>
       <history-cmd>
         <entry>56</entry>
