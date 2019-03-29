@@ -22,12 +22,12 @@
         <mark key="." line="32" column="19" />
         <mark key="^" line="32" column="19" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" timestamp="1553816960228">
-        <mark key="'" line="4" column="0" />
-        <mark key="[" line="86" column="47" />
-        <mark key="]" line="96" column="26" />
-        <mark key="." line="96" column="26" />
-        <mark key="^" line="96" column="26" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" timestamp="1553820425671">
+        <mark key="'" line="67" column="15" />
+        <mark key="[" line="11" column="12" />
+        <mark key="]" line="11" column="13" />
+        <mark key="." line="11" column="13" />
+        <mark key="^" line="11" column="13" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/complement_feature_creator.py" timestamp="1553053769866">
         <mark key="[" line="69" column="0" />
@@ -431,8 +431,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="45" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/services.py" />
-      <jump line="96" column="45" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/services.py" />
       <jump line="136" column="16" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/services.py" />
       <jump line="78" column="73" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/services.py" />
       <jump line="97" column="70" filename="$USER_HOME$/opas/core/python/opasai/simulation/cassandra_services_1/services.py" />
@@ -531,6 +529,8 @@
       <jump line="92" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" />
       <jump line="89" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" />
       <jump line="4" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" />
+      <jump line="53" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" />
+      <jump line="67" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/rnn_test.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -539,8 +539,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICBsYXlvdXQgPSBodi5MYXlvdXQoKQogICAgZm9yIGJhdGNoIGluIHJhbmdlKGJhdGNoX3NpemUpOgogICAgICAgIGxheW91dCArPSBodi5DdXJ2ZSgoeV92YWxbXSkpCg==</text>
+      <register name="&quot;" type="4">
+        <text>1</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1082,22 +1082,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>categorical_crossentropy</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
-        <text>timesteps</text>
+        <text>get_model</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHlfdHJhaW4gPSB5WzpjdXRvZmZdCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBsYXlvdXQgPSBodi5MYXlvdXQoKQogICAgZm9yIGJhdGNoIGluIHJhbmdlKGJhdGNoX3NpemUpOgogICAgICAgIGxheW91dCArPSBodi5DdXJ2ZSgoeV92YWxbXSkpCg==</text>
+        <text encoding="base64">ICAgIGJhdGNoX3NpemUgPSAzMgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">CiAgICBsYXlvdXQgPSBodi5MYXlvdXQoKQogICAgZm9yIGJhdGNoIGluIHJhbmdlKGJhdGNoX3NpemUpOgogICAgICAgIGxheW91dCArPSBodi5DdXJ2ZSgoeV92YWxbXSkpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1122,10 +1122,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGhvbG92aWV3cyBhcyBodgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHkgPSB5LnJlc2hhcGUoLTEsIFRJTUVTVEVQUykK</text>
+        <text encoding="base64">aW1wb3J0IGhvbG92aWV3cyBhcyBodgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1193,28 +1193,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgbWV0cmljcz1bJ2FjY3VyYWN5J10pCg==</text>
+        <text encoding="base64">ICAgIHkgPSB5LnJlc2hhcGUoLTEsIFRJTUVTVEVQUykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG51bV9jbGFzc2VzID0gMTAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgbWV0cmljcz1bJ2FjY3VyYWN5J10pCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGJhdGNoX3NpemUgPSBsZW4obWV0cmljcykK</text>
+        <text encoding="base64">ICAgIG51bV9jbGFzc2VzID0gMTAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5waXBlbGluZXMgaW1wb3J0IFBpcGVsaW5lCmZyb20gb3Bhc2FpLm1ldHJpY3MgaW1wb3J0IGZyb21fbWV0cmljcwo=</text>
+        <text encoding="base64">ICAgIGJhdGNoX3NpemUgPSBsZW4obWV0cmljcykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkubWV0cmljcy5waXBlbGluZXMgaW1wb3J0IFBpcGVsaW5lCmZyb20gb3Bhc2FpLm1ldHJpY3MgaW1wb3J0IGZyb21fbWV0cmljcwo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>timesteps</last-search>
+      <last-search>get_model</last-search>
       <last-offset />
-      <last-pattern>timesteps</last-pattern>
+      <last-pattern>get_model</last-pattern>
       <last-replace>mem</last-replace>
       <last-substitute>cpu</last-substitute>
       <last-dir>1</last-dir>
@@ -1222,7 +1222,6 @@
     </search>
     <history>
       <history-search>
-        <entry>database</entry>
         <entry>json</entry>
         <entry>]</entry>
         <entry>def query_.*</entry>
@@ -1242,6 +1241,7 @@
         <entry>def train_new</entry>
         <entry>pipelines</entry>
         <entry>timesteps</entry>
+        <entry>get_model</entry>
       </history-search>
       <history-cmd>
         <entry>56</entry>
