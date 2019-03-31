@@ -43,12 +43,12 @@
         <mark key="^" line="0" column="181" />
         <mark key="." line="0" column="181" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1553993077761">
+      <file name="$USER_HOME$/crypto/crypto/crypto/sdk.py" timestamp="1553996113749">
         <mark key="'" line="362" column="4" />
-        <mark key="[" line="81" column="44" />
-        <mark key="]" line="81" column="49" />
-        <mark key="^" line="81" column="49" />
-        <mark key="." line="81" column="49" />
+        <mark key="[" line="672" column="53" />
+        <mark key="]" line="672" column="56" />
+        <mark key="^" line="672" column="56" />
+        <mark key="." line="672" column="56" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
@@ -193,7 +193,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1553995239376">
+      <file name="/Python Console" timestamp="1553996028580">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="15" />
@@ -275,12 +275,12 @@
         <mark key="^" line="242" column="30" />
         <mark key="." line="242" column="30" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1553993174552">
-        <mark key="'" line="491" column="21" />
-        <mark key="[" line="486" column="54" />
-        <mark key="]" line="486" column="111" />
-        <mark key="." line="486" column="111" />
-        <mark key="^" line="486" column="111" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" timestamp="1553996008880">
+        <mark key="'" line="64" column="21" />
+        <mark key="[" line="175" column="45" />
+        <mark key="]" line="178" column="75" />
+        <mark key="." line="178" column="75" />
+        <mark key="^" line="178" column="75" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/rootcause/whatif/eliminate_anomaly.py" timestamp="1551907606519">
         <mark key="[" line="321" column="109" />
@@ -510,11 +510,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="640" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="707" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="765" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="802" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="823" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="857" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="880" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="909" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -610,6 +605,11 @@
       <jump line="512" column="21" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="630" column="15" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="13" column="15" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="486" column="111" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="503" column="25" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="504" column="25" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="505" column="25" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
+      <jump line="64" column="21" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -618,8 +618,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCAnTk1SJywgJ01PTkEnLCAnVEhDJywgJ0lPUCcsICdDT0InLCAnWEVNJywgJ0JVUlNUJywgJ1hOSycsICdSVk4nLCAnU1dUJywgJ0JMSycsCiAgICAgICAgICAgICdSTEMnLCAnU1BIUicsICdBUksnLCAnQlNEJywgJ1RXSU5TJywgJ01PQycsICdNT0JJJywgJ1BJVlgnLCAnVElYJywgJ09LJywgJ1NVTicsICdQT1QnLAogICAgICAgICAgICAnQkNQVCcsICdTVE9STScsICdSREMnLCAnUkFEUycsICdJSFQnLCAnU1RRJywgJ0VERycsICdOQVYnLCAnV1hDJywgJ0JMT0NLJywgJ0JBVCcsICdQT0xZJywKICAgICAgICAgICAgJ0tNRCcsICdMT09NJywgJ1RVU0QnLCAnTFRDJywgJ0RHQicsICdTT0xWRScsICdOWFMnLCAnR09MT1MnLCAnQlRNJywgJ0lUTCcsICdEQVNIJywgJ1dHUicsCiAgICAgICAgICAgICdFVEgnLCAnRE5UJywgJ0xCQScsICdWRUUnLCAnU1BDJywgJ1FUVU0nLCAnUFBDJywgJ0JDSCcsICdQQVJUJywgJ1NOVCcsICdVS0cnLCAnTkxDMicsCiAgICAgICAgICAgICdLSUNLJywgJ1dBVkVTJywgJ0RUQScsICdOU1QnLCAnWFJQJywgJ1JWUicsICdTTUFSVCcsICdSRlInLCAnQlNWJywgJ1BBTCcsICdGQ1QnLCAnVFgnLAogICAgICAgICAgICAnRVhPJywgJ0VNQzInLCAnQ0xPQUsnLCAnQ1JXJywgJ0JOVCcsICdYTE0nLCAnRVRDJywgJ0VYQ0wnLCAnTVVFJywgJ1RIWCcsICdTTFMnLCAnUkREJywKICAgICAgICAgICAgJ0RNVCcsICdUUlgnLCAnVVNEQycsICdBTVAnLCAnU05MJywgJ0hZRFJPJywgJ1hIVicsICdCVEMnLCAnQk9YWCcsICdBTlQnLCAnRU5KJywgJ0lHTklTJywKICAgICAgICAgICAgJ1NDJywgJ1VQJywgJ0ZYVCcsICdYTVInLCAnUFRPWScsICdNTE4nLCAnQlRTJywgJ1pSWCcsICdBREEnLCAnQ01DVCcsICdTVE9SSicsICdNQ08nLAogICAgICAgICAgICAnTVVTSUMnLCAnU0lOUycsICdNRU1FJywgJ1pFTicsICdBT0cnLCAnVVROUCcsICdSQzIwJywgJ0dCWVRFJywgJ0FEWCcsICdUSFInLCAnVFZTJywgJ1hDUCcsCiAgICAgICAgICAgICdYWkMnLCAnR1RPJywgJ05FT1MnLCAnU1lTJywgJ0NWQycsICdOWFQnLCAnUEFZJywgJ1BTQycsICdGTE8nLCAnVVNEUycsICdSRVAnLCAnREFJJywgJ0RNRCcsCiAgICAgICAgICAgICdVUFAnLCAnRVZPUycsICdMU0snLCAnR0FTJywgJ0RDUicsICdWSUInLCAnU1RSQVQnLCAnTkVPJywgJ1hCTScsICdJTksnLCAnR1VTRCcsICdDT1ZBTCcsCiAgICAgICAgICAgICdHVVAnLCAnTkdDJywgJ1VTRFQnLCAnRE9QRScsICdTWU5YJywgJ0NPTlNUJywgJ0hXQycsICdEWU4nLCAnQktYJywgJ0dOVCcsICdBUkRSJywgJ1FSTCcsCiAgICAgICAgICAgICdPQ04nLCAnRENUJywgJ0xVTicsICdTUERSJywgJ01LUicsICdHQU1FJywgJ0FEVCcsICdWUkMnLCAnR1JTJywgJ01UTCcsICdNVFMnLCAnQlRHJywgJ1BNQScsCiAgICAgICAgICAgICdET0dFJywgJ1NQTkQnLCAnQkNIU1YnLCAnUFJPJywgJ1dBWCcsICdWR1cnLCAnU0JEJywgJ0VNQycsICdHUkMnLCAnR08nLCAnWFZHJywgJ0ZTVCcsICdOU0QnLAogICAgICAgICAgICAnU0lCJywgJ1NSTicsICdLT1JFJywgJ01OWCcsICdCTFQnLCAnUE9XUicsICdaRUMnLCAnWkNMJywgJ0JBWScsICdQQ1InLCAnQklUQicsICdNRlQnLCAnVUJRJywKICAgICAgICAgICAgJ0hCJywgJ01BTkEnLCAnRVNCQycsICdBSUQnLCAnWEVMJywgJ1ZUQycsICdJT04nLCAnU0FMVCcsICdXSU5HUycsICdSQ04nLCAnT01HJywgJ01JQU1JJywKICAgICAgICAgICAgJ1ZJQScsICdESVZJJywgJ0NSVUlaRScsICdTVEVFTScsICdOTEcnLCAnRU5HJywgJ0VEUicsICdMUkMnLCAnR05PJywgJ0ZUQyddCg==</text>
+      <register name="&quot;" type="4">
+        <text>ticker</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1161,10 +1161,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>ticker</text>
       </register>
       <register name="/" type="4">
-        <text>buil</text>
+        <text>class .*Node</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBleGNoYW5nZXMsIGJhc2VfY3VycmVuY2llcywgcXVvdGVfY3VycmVuY2llcywgZ3JhcGgpOgo=</text>
@@ -1291,9 +1291,9 @@
       </register>
     </registers>
     <search>
-      <last-search>buil</last-search>
+      <last-search>class .*Node</last-search>
       <last-offset />
-      <last-pattern>buil</last-pattern>
+      <last-pattern>class .*Node</last-pattern>
       <last-replace>a4</last-replace>
       <last-substitute>a1</last-substitute>
       <last-dir>1</last-dir>
@@ -1301,8 +1301,6 @@
     </search>
     <history>
       <history-search>
-        <entry>self.trainer</entry>
-        <entry>batch_size</entry>
         <entry>uber_feature</entry>
         <entry>NewUber</entry>
         <entry>a1</entry>
@@ -1321,6 +1319,8 @@
         <entry>build_per</entry>
         <entry>def _</entry>
         <entry>buil</entry>
+        <entry>Node</entry>
+        <entry>class .*Node</entry>
       </history-search>
       <history-cmd>
         <entry>%s/pivots&quot;: {}/pivots&quot;: {&quot;host&quot;}/gc</entry>
