@@ -424,12 +424,12 @@
         <mark key="." line="9" column="66" />
         <mark key="^" line="9" column="66" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1553958296868">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="125" column="98" />
-        <mark key="]" line="125" column="32" />
-        <mark key="." line="125" column="32" />
-        <mark key="^" line="125" column="32" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1554133122954">
+        <mark key="'" line="113" column="15" />
+        <mark key="[" line="124" column="26" />
+        <mark key="]" line="124" column="27" />
+        <mark key="." line="124" column="27" />
+        <mark key="^" line="122" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/anomaly/rca_processor.py" timestamp="1552007163802">
         <mark key="[" line="49" column="1" />
@@ -507,10 +507,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="909" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="925" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
-      <jump line="149" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
-      <jump line="151" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
       <jump line="7" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
       <jump line="154" column="35" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
       <jump line="6" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
@@ -607,6 +603,10 @@
       <jump line="64" column="21" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="501" column="23" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
       <jump line="18" column="41" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/cycles.py" />
+      <jump line="107" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
+      <jump line="112" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
+      <jump line="114" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
+      <jump line="113" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -616,7 +616,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBleGNoYW5nZQogICAgICAgIGZlZSA9IGZpcnN0LnBhdGhbLTFdLmV4Y2hhbmdlLmN1cnJlbmNpZXNbdHJhbnNmZXJfY3VycmVuY3ldWydmZWUnXQo=</text>
+        <text encoding="base64">ICAgICAgICAjICAgdDEwIHQxMSB0MTIgdDEzCiAgICAgICAgIyAgIHQyMCB0MjEgdDIyIHQyMwo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1158,22 +1158,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>m</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>Excha</text>
+        <text>,</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmVlID0gZmlyc3QucGF0aFstMV0uZXhjaGFuZ2UuY3VycmVuY2llc1t0cmFuc2Zlcl9jdXJyZW5jeV1bJ2ZlZSddCg==</text>
+        <text encoding="base64">ICAgICAgICAjICAgdDEwIHQxMSB0MTIgdDEzCiAgICAgICAgIyAgIHQyMCB0MjEgdDIyIHQyMwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBleGNoYW5nZQogICAgICAgIGZlZSA9IGZpcnN0LnBhdGhbLTFdLmV4Y2hhbmdlLmN1cnJlbmNpZXNbdHJhbnNmZXJfY3VycmVuY3ldWydmZWUnXQo=</text>
+        <text encoding="base64">ICAgICAgICAjICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1198,10 +1198,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIElmIHdlIGhhdmUgYSBsYXJnZXIgdHJhaW5pbmcgYmF0Y2hfc2l6ZSB0aGFuIGR1cmluZyBpbmZlcmVuY2UsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjIGhvdyBhcmUgd2UgZ29pbmcgdG8gaW5mZXIgd2hlbiB3ZSBoYXZlIG51bV9waXBlbGluZXMgIT0gYmF0Y2hfc2l6ZT8gRm9yIGV4YW1wbGUgaWYgd2UgaGF2ZSAxIHBpcGVsaW5lIHRvIGluZmVyLCBJIHNlZQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1269,37 +1269,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByYWlzZSBzZGsuQmFkVGlja2VyRXJyb3IoJ0JhZCB0aWNrZXIgZnJvbSBub2RlcyB7fSBhbmQge30nLmZvcm1hdChzdGFydF9ub2RlLCBuZXh0X25vZGUpKQo=</text>
+        <text encoding="base64">ICAgIGlmIG5vdCBleGNoYW5nZQogICAgICAgIGZlZSA9IGZpcnN0LnBhdGhbLTFdLmV4Y2hhbmdlLmN1cnJlbmNpZXNbdHJhbnNmZXJfY3VycmVuY3ldWydmZWUnXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCAnTk1SJywgJ01PTkEnLCAnVEhDJywgJ0lPUCcsICdDT0InLCAnWEVNJywgJ0JVUlNUJywgJ1hOSycsICdSVk4nLCAnU1dUJywgJ0JMSycsCiAgICAgICAgICAgICdSTEMnLCAnU1BIUicsICdBUksnLCAnQlNEJywgJ1RXSU5TJywgJ01PQycsICdNT0JJJywgJ1BJVlgnLCAnVElYJywgJ09LJywgJ1NVTicsICdQT1QnLAogICAgICAgICAgICAnQkNQVCcsICdTVE9STScsICdSREMnLCAnUkFEUycsICdJSFQnLCAnU1RRJywgJ0VERycsICdOQVYnLCAnV1hDJywgJ0JMT0NLJywgJ0JBVCcsICdQT0xZJywKICAgICAgICAgICAgJ0tNRCcsICdMT09NJywgJ1RVU0QnLCAnTFRDJywgJ0RHQicsICdTT0xWRScsICdOWFMnLCAnR09MT1MnLCAnQlRNJywgJ0lUTCcsICdEQVNIJywgJ1dHUicsCiAgICAgICAgICAgICdFVEgnLCAnRE5UJywgJ0xCQScsICdWRUUnLCAnU1BDJywgJ1FUVU0nLCAnUFBDJywgJ0JDSCcsICdQQVJUJywgJ1NOVCcsICdVS0cnLCAnTkxDMicsCiAgICAgICAgICAgICdLSUNLJywgJ1dBVkVTJywgJ0RUQScsICdOU1QnLCAnWFJQJywgJ1JWUicsICdTTUFSVCcsICdSRlInLCAnQlNWJywgJ1BBTCcsICdGQ1QnLCAnVFgnLAogICAgICAgICAgICAnRVhPJywgJ0VNQzInLCAnQ0xPQUsnLCAnQ1JXJywgJ0JOVCcsICdYTE0nLCAnRVRDJywgJ0VYQ0wnLCAnTVVFJywgJ1RIWCcsICdTTFMnLCAnUkREJywKICAgICAgICAgICAgJ0RNVCcsICdUUlgnLCAnVVNEQycsICdBTVAnLCAnU05MJywgJ0hZRFJPJywgJ1hIVicsICdCVEMnLCAnQk9YWCcsICdBTlQnLCAnRU5KJywgJ0lHTklTJywKICAgICAgICAgICAgJ1NDJywgJ1VQJywgJ0ZYVCcsICdYTVInLCAnUFRPWScsICdNTE4nLCAnQlRTJywgJ1pSWCcsICdBREEnLCAnQ01DVCcsICdTVE9SSicsICdNQ08nLAogICAgICAgICAgICAnTVVTSUMnLCAnU0lOUycsICdNRU1FJywgJ1pFTicsICdBT0cnLCAnVVROUCcsICdSQzIwJywgJ0dCWVRFJywgJ0FEWCcsICdUSFInLCAnVFZTJywgJ1hDUCcsCiAgICAgICAgICAgICdYWkMnLCAnR1RPJywgJ05FT1MnLCAnU1lTJywgJ0NWQycsICdOWFQnLCAnUEFZJywgJ1BTQycsICdGTE8nLCAnVVNEUycsICdSRVAnLCAnREFJJywgJ0RNRCcsCiAgICAgICAgICAgICdVUFAnLCAnRVZPUycsICdMU0snLCAnR0FTJywgJ0RDUicsICdWSUInLCAnU1RSQVQnLCAnTkVPJywgJ1hCTScsICdJTksnLCAnR1VTRCcsICdDT1ZBTCcsCiAgICAgICAgICAgICdHVVAnLCAnTkdDJywgJ1VTRFQnLCAnRE9QRScsICdTWU5YJywgJ0NPTlNUJywgJ0hXQycsICdEWU4nLCAnQktYJywgJ0dOVCcsICdBUkRSJywgJ1FSTCcsCiAgICAgICAgICAgICdPQ04nLCAnRENUJywgJ0xVTicsICdTUERSJywgJ01LUicsICdHQU1FJywgJ0FEVCcsICdWUkMnLCAnR1JTJywgJ01UTCcsICdNVFMnLCAnQlRHJywgJ1BNQScsCiAgICAgICAgICAgICdET0dFJywgJ1NQTkQnLCAnQkNIU1YnLCAnUFJPJywgJ1dBWCcsICdWR1cnLCAnU0JEJywgJ0VNQycsICdHUkMnLCAnR08nLCAnWFZHJywgJ0ZTVCcsICdOU0QnLAogICAgICAgICAgICAnU0lCJywgJ1NSTicsICdLT1JFJywgJ01OWCcsICdCTFQnLCAnUE9XUicsICdaRUMnLCAnWkNMJywgJ0JBWScsICdQQ1InLCAnQklUQicsICdNRlQnLCAnVUJRJywKICAgICAgICAgICAgJ0hCJywgJ01BTkEnLCAnRVNCQycsICdBSUQnLCAnWEVMJywgJ1ZUQycsICdJT04nLCAnU0FMVCcsICdXSU5HUycsICdSQ04nLCAnT01HJywgJ01JQU1JJywKICAgICAgICAgICAgJ1ZJQScsICdESVZJJywgJ0NSVUlaRScsICdTVEVFTScsICdOTEcnLCAnRU5HJywgJ0VEUicsICdMUkMnLCAnR05PJywgJ0ZUQyddCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICdFVEgnLCAnUlVCJ10K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAnRVVSJywgJ0VPUycsICdEQUknLCAnVVNEVCcsICdMVEMnLCAnSlBZJywgJ0RPR0UnLCAnQkNIJywgJ0NOWScsICdEQVNIJywgJ1VTRCcsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBleGNoYW5nZS5oYXNbJ2ZldGNoQ3VycmVuY2llcyddCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByYWlzZSBzZGsuQmFkVGlja2VyRXJyb3IoJ0JhZCB0aWNrZXIgZnJvbSBub2RlcyB7fSBhbmQge30nLmZvcm1hdChzdGFydF9ub2RlLCBuZXh0X25vZGUpKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>s/,//g</text>
       </register>
     </registers>
     <search>
-      <last-search>Excha</last-search>
+      <last-search>,</last-search>
       <last-offset />
-      <last-pattern>Excha</last-pattern>
-      <last-replace>a4</last-replace>
-      <last-substitute>a1</last-substitute>
+      <last-pattern>,</last-pattern>
+      <last-replace />
+      <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>NewUber</entry>
-        <entry>a1</entry>
         <entry>15</entry>
         <entry>Time</entry>
         <entry>self.train_inter</entry>
@@ -1318,10 +1316,10 @@
         <entry>Node</entry>
         <entry>class .*Node</entry>
         <entry>Excha</entry>
+        <entry>pass</entry>
+        <entry>,</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/pivots&quot;: {}/pivots&quot;: {&quot;host&quot;}/gc</entry>
-        <entry>%s/pivots&quot;: []/pivots&quot;: [&quot;host&quot;]/gc</entry>
         <entry>%s/pivots&quot;: \[\]/pivots&quot;: [&quot;host&quot;]/gc</entry>
         <entry>%s/&quot;host&quot;//gc</entry>
         <entry>37</entry>
@@ -1340,6 +1338,8 @@
         <entry>s/a1/a4/g</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>q</entry>
+        <entry>s/,//</entry>
+        <entry>s/,//g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
