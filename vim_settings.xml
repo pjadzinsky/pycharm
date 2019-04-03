@@ -242,12 +242,12 @@
         <mark key="^" line="108" column="15" />
         <mark key="." line="108" column="15" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality/rnn_input_to_input.yaml" timestamp="1554258312197">
-        <mark key="'" line="71" column="22" />
-        <mark key="[" line="71" column="24" />
-        <mark key="]" line="71" column="22" />
-        <mark key="." line="71" column="22" />
-        <mark key="^" line="71" column="22" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality/rnn_input_to_input.yaml" timestamp="1554304940476">
+        <mark key="'" line="99" column="0" />
+        <mark key="[" line="71" column="23" />
+        <mark key="]" line="33" column="25" />
+        <mark key="." line="33" column="25" />
+        <mark key="^" line="33" column="25" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_config.py" timestamp="1553282089734">
         <mark key="'" line="202" column="92" />
@@ -545,7 +545,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="248" column="66" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="250" column="66" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="256" column="59" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
@@ -645,6 +644,7 @@
       <jump line="823" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="880" column="92" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="71" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality/rnn_input_to_input.yaml" />
+      <jump line="99" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality/rnn_input_to_input.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1199,7 +1199,7 @@
         <text>expiry_mellric</text>
       </register>
       <register name="/" type="4">
-        <text>def .*post_metric</text>
+        <text>time</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzYW1wbGVzX3Blcl9waXBlbGluZSwgYmF0Y2hlc19wZXJfcGlwZWxpbmUsIG51bV9waXBlbGluZXMsIG51bV9iYXRjaGVzLCBudW1fZmVhdHVyZXMgPSBzZWxmLl9jb21wdXRlX3NpemVzKAogICAgICAgICAgICBpbnB1dF9vcl9vdXRwdXRfZGYKICAgICAgICApCg==</text>
@@ -1326,9 +1326,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def .*post_metric</last-search>
+      <last-search>time</last-search>
       <last-offset />
-      <last-pattern>def .*post_metric</last-pattern>
+      <last-pattern>time</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1336,7 +1336,6 @@
     </search>
     <history>
       <history-search>
-        <entry>=</entry>
         <entry encoding="base64">PDw8</entry>
         <entry>tags</entry>
         <entry>bisect</entry>
@@ -1356,6 +1355,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>post_metric</entry>
         <entry>def .*post_metric</entry>
+        <entry>time</entry>
       </history-search>
       <history-cmd>
         <entry>%s/1E-2/3E-1/g</entry>
