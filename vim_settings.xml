@@ -410,11 +410,11 @@
         <mark key="." line="33" column="25" />
         <mark key="^" line="4" column="20" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" timestamp="1554347332588">
-        <mark key="'" line="33" column="25" />
-        <mark key="[" line="72" column="24" />
-        <mark key="]" line="72" column="25" />
-        <mark key="." line="72" column="25" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" timestamp="1554348671656">
+        <mark key="'" line="74" column="4" />
+        <mark key="[" line="33" column="24" />
+        <mark key="]" line="33" column="26" />
+        <mark key="." line="33" column="26" />
         <mark key="^" line="72" column="25" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1554240443170">
@@ -838,7 +838,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="744" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="757" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="761" column="64" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="765" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -938,6 +937,7 @@
       <jump line="356" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="26" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="33" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
+      <jump line="74" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1492,7 +1492,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>epochs</text>
+        <text>shift</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAiQSIK</text>
@@ -1619,9 +1619,9 @@
       </register>
     </registers>
     <search>
-      <last-search>epochs</last-search>
+      <last-search>shift</last-search>
       <last-offset />
-      <last-pattern>epochs</last-pattern>
+      <last-pattern>shift</last-pattern>
       <last-replace>_1</last-replace>
       <last-substitute>_2</last-substitute>
       <last-dir>1</last-dir>
@@ -1629,7 +1629,6 @@
     </search>
     <history>
       <history-search>
-        <entry>seasonal_sim</entry>
         <entry>start_epoch</entry>
         <entry>end_epoch</entry>
         <entry>interval_s</entry>
@@ -1649,6 +1648,7 @@
         <entry>10</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>epochs</entry>
+        <entry>shift</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
