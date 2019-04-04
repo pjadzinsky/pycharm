@@ -263,12 +263,12 @@
         <mark key="]" line="292" column="119" />
         <mark key="." line="163" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/stepwise_rnn.yaml" timestamp="1554397879694">
-        <mark key="'" line="35" column="0" />
-        <mark key="[" line="39" column="33" />
-        <mark key="]" line="39" column="31" />
-        <mark key="." line="39" column="31" />
-        <mark key="^" line="39" column="31" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/stepwise_rnn.yaml" timestamp="1554408294826">
+        <mark key="'" line="66" column="12" />
+        <mark key="[" line="9" column="27" />
+        <mark key="]" line="9" column="27" />
+        <mark key="^" line="9" column="27" />
+        <mark key="." line="9" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/utils/tests/test_string_utils.py" timestamp="1551304453975">
         <mark key="[" line="45" column="0" />
@@ -290,7 +290,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1554403566045">
+      <file name="/Python Console" timestamp="1554408524206">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="15" />
@@ -495,12 +495,12 @@
         <mark key="^" line="90" column="2" />
         <mark key="." line="27" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_stepwise_rnn.py" timestamp="1554398789359">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_stepwise_rnn.py" timestamp="1554409078459">
         <mark key="'" line="9" column="0" />
-        <mark key="[" line="41" column="34" />
-        <mark key="]" line="41" column="12" />
-        <mark key="." line="41" column="12" />
-        <mark key="^" line="41" column="12" />
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+        <mark key="^" line="36" column="87" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/drop_rows_with_nans.py" timestamp="1553027320445">
         <mark key="[" line="16" column="46" />
@@ -848,7 +848,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1553721533309">
         <mark key="[" line="34" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1554398974245">
+      <file name="/Dummy.txt" timestamp="1554408224153">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -953,7 +953,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="17" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_0/simulate.py" />
       <jump line="49" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
       <jump line="65" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
       <jump line="96" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
@@ -1053,6 +1052,7 @@
       <jump line="35" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/stepwise_rnn.py" />
       <jump line="75" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/stepwise_rnn.py" />
       <jump line="66" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/stepwise_rnn.py" />
+      <jump line="66" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/stepwise_rnn.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1061,8 +1061,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>0</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBvdXRwdXRfbWV0cmljcyA9IFttIGZvciBtIGluIG91dHB1dF9tZXRyaWNzIGlmIG0ua2V5LnRhZ3NbJ0EnXVswXSA9PSAnYTEnXQogICAgICAgIHByZWRpY3RlZF9tZXRyaWNzID0gW20gZm9yIG0gaW4gcHJlZGljdGVkX21ldHJpY3MgaWYgbS5rZXkudGFnc1snQSddWzBdID09ICdhMSddCiAgICAgICAgb3V0cHV0X21ldHJpY3NbMF0ucGxvdCgpCiAgICAgICAgZm9yIHAgaW4gcHJlZGljdGVkX21ldHJpY3M6CiAgICAgICAgICAgIHAucGxvdCgpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1604,22 +1604,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>mean(input_1)</text>
       </register>
       <register name="/" type="4">
         <text>for i</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGFiZWxzID0gZGVmYXVsdAo=</text>
+        <text encoding="base64">ICAgICAgImZpZWxkIjogIjk1dGhQZXJjZW50aWxlIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcIjk1dGhQZXJjZW50aWxlXCIpIiwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGFzcwo=</text>
+        <text encoding="base64">ICAgICAgICBvdXRwdXRfbWV0cmljcyA9IFttIGZvciBtIGluIG91dHB1dF9tZXRyaWNzIGlmIG0ua2V5LnRhZ3NbJ0EnXVswXSA9PSAnYTEnXQogICAgICAgIHByZWRpY3RlZF9tZXRyaWNzID0gW20gZm9yIG0gaW4gcHJlZGljdGVkX21ldHJpY3MgaWYgbS5rZXkudGFnc1snQSddWzBdID09ICdhMSddCiAgICAgICAgb3V0cHV0X21ldHJpY3NbMF0ucGxvdCgpCiAgICAgICAgZm9yIHAgaW4gcHJlZGljdGVkX21ldHJpY3M6CiAgICAgICAgICAgIHAucGxvdCgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKGlucHV0XzEpIiwK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1644,10 +1644,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAiZmllbGQiOiAiaW5wdXRfMSIsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgICAibWVhc3VyZW1lbnQiOiAic2Vhc29uYWxfc2ltdWxhdGlvbl8wIiwK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1715,19 +1715,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmIGxhYmVsX2tleToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGFzcwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmxhYmVsX2tleSA9IHBhcmFtcy5nZXQoJ2xhYmVsX2tleScpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmIGxhYmVsX2tleSBpcyBwYXNzZWQsIHdlIGV4dHJhY3QgdGhlIHZhbHVlIGFzc29jaWF0ZWQgd2l0aCB0aGF0IGtleSBmcm9tIGV2ZXJ5IG1ldHJpYyBhbmQgdXNlIGl0IGFzIGEgbGFiZWwK</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsYWJlbF9rZXk6CiAgICAgICAgICAgIGxhYmVscyA9IFsneV92YWxfe30nLmZvcm1hdChtLmtleS50YWdzW2xhYmVsX2tleV1bMF0pIGZvciBtIGluIG1ldHJpY3NfaGF0X3ZhbF0KICAgICAgICBlbHNlOgogICAgICAgICAgICBsYWJlbHMgPSAneV92YWwnCg==</text>
+        <text encoding="base64">ICAgIHRyeToK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsYWJlbF9rZXk6Cg==</text>
+        <text encoding="base64">ICAgIGlmIGxhYmVsX2tleToK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
