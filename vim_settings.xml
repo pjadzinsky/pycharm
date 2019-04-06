@@ -8,6 +8,9 @@
       <file name="/start_script.py" timestamp="1554475524153">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" timestamp="1554509648473">
+        <mark key="'" line="63" column="0" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_2/random_forest_inputs_to_output.yaml" timestamp="1554310340882">
         <mark key="'" line="3" column="25" />
         <mark key="[" line="4" column="19" />
@@ -577,6 +580,13 @@
         <mark key="." line="25" column="0" />
         <mark key="^" line="25" column="0" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" timestamp="1554510400725">
+        <mark key="'" line="81" column="24" />
+        <mark key="[" line="43" column="24" />
+        <mark key="]" line="43" column="24" />
+        <mark key="." line="43" column="24" />
+        <mark key="^" line="81" column="24" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_to_storage_copy.py" timestamp="1554227987347">
         <mark key="[" line="112" column="48" />
         <mark key="]" line="112" column="45" />
@@ -696,12 +706,12 @@
         <mark key="." line="9" column="66" />
         <mark key="^" line="9" column="66" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1554418307682">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1554510742589">
         <mark key="'" line="73" column="64" />
-        <mark key="[" line="71" column="18" />
-        <mark key="]" line="71" column="18" />
-        <mark key="." line="71" column="20" />
-        <mark key="^" line="73" column="20" />
+        <mark key="[" line="71" column="77" />
+        <mark key="]" line="71" column="76" />
+        <mark key="." line="71" column="76" />
+        <mark key="^" line="71" column="76" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1554403438204">
         <mark key="[" line="324" column="0" />
@@ -769,7 +779,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1553721533309">
         <mark key="[" line="34" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1554423103456">
+      <file name="/Dummy.txt" timestamp="1554509654691">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -862,9 +872,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="155" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
-      <jump line="172" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
-      <jump line="176" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="187" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="194" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="225" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
@@ -962,6 +969,9 @@
       <jump line="43" column="13" filename="$USER_HOME$/home/pablo/time_series/example_1.py" />
       <jump line="47" column="26" filename="$USER_HOME$/home/pablo/time_series/example_1.py" />
       <jump line="4" column="76" filename="$USER_HOME$/home/pablo/time_series/example_1.py" />
+      <jump line="63" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
+      <jump line="90" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
+      <jump line="81" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -970,8 +980,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>None</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJQcm9kX0NsdXN0ZXIiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJDb29yZGluYXRvclJlYWRMYXRlbmN5IgogICAgICAgIF0sCiAgICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAgICJjYW1wYWlnbl9qb3VybmV5cyIKICAgICAgICBdLAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1516,19 +1526,19 @@
         <text>None</text>
       </register>
       <register name="/" type="4">
-        <text>Lambda</text>
+        <text>-1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBtb2RlbAo=</text>
+        <text encoding="base64">ICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIkNvb3JkaW5hdG9yUmVhZExhdGVuY3kiCiAgICAgICAgXQogICAgICAgICJzY29wZSI6IFsKICAgICAgICAgICJjYW1wYWlnbl9qb3VybmV5cyIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG1vZGVsLmFkZAo=</text>
+        <text encoding="base64">ICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJQcm9kX0NsdXN0ZXIiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJDb29yZGluYXRvclJlYWRMYXRlbmN5IgogICAgICAgIF0sCiAgICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAgICJjYW1wYWlnbl9qb3VybmV5cyIKICAgICAgICBdLAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICNtb2RlbC5hZGQoUmVzaGFwZSgoTm9uZSwgMSwpKSkK</text>
+        <text encoding="base64">ICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICJQcm9kX0NsdXN0ZXIiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJDb29yZGluYXRvclJlYWRMYXRlbmN5IgogICAgICAgIF0sCiAgICAgICAgInNjb3BlIjogWwogICAgICAgICAgImNhbXBhaWduX2pvdXJuZXlzIgogICAgICAgIF0K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1553,10 +1563,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBtb2RlbAo=</text>
+        <text encoding="base64">ICAgIG1vZGVsLmFkZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG1vZGVsLmNvbXBpbGUobG9zcz0nbXNlJywgb3B0aW1pemVyPSdhZGFtJykKICAgIHByaW50KG1vZGVsLnN1bW1hcnkoKSkK</text>
+        <text encoding="base64">ICAgICNtb2RlbC5hZGQoUmVzaGFwZSgoTm9uZSwgMSwpKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1624,28 +1634,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG1vZGVsID0gU2VxdWVudGlhbCgpCiAgICBtb2RlbC5jb21waWxlKGxvc3M9J21zZScsIG9wdGltaXplcj0nYWRhbScpCiAgICBwcmludChtb2RlbC5zdW1tYXJ5KCkpCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBtb2RlbAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG1vZGVsID0gU2VxdWVudGlhbCgpCg==</text>
+        <text encoding="base64">ICAgIG1vZGVsLmNvbXBpbGUobG9zcz0nbXNlJywgb3B0aW1pemVyPSdhZGFtJykKICAgIHByaW50KG1vZGVsLnN1bW1hcnkoKSkK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgIG1vZGVsID0gU2VxdWVudGlhbCgpCiAgICBtb2RlbC5jb21waWxlKGxvc3M9J21zZScsIG9wdGltaXplcj0nYWRhbScpCiAgICBwcmludChtb2RlbC5zdW1tYXJ5KCkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG1vZGVsLmNvbXBpbGUobG9zcz0nbXNlJywgb3B0aW1pemVyPSdhZGFtJykKICAgIHByaW50KG1vZGVsLnN1bW1hcnkoKSkK</text>
+        <text encoding="base64">ICAgIG1vZGVsID0gU2VxdWVudGlhbCgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHN5cy5leGl0KDApCg==</text>
+        <text encoding="base64">ICAgIG1vZGVsID0gU2VxdWVudGlhbCgpCiAgICBtb2RlbC5jb21waWxlKGxvc3M9J21zZScsIG9wdGltaXplcj0nYWRhbScpCiAgICBwcmludChtb2RlbC5zdW1tYXJ5KCkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>Lambda</last-search>
+      <last-search>-1</last-search>
       <last-offset />
-      <last-pattern>Lambda</last-pattern>
+      <last-pattern>-1</last-pattern>
       <last-replace>steps</last-replace>
       <last-substitute>shift_pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1653,8 +1663,6 @@
     </search>
     <history>
       <history-search>
-        <entry>uni</entry>
-        <entry>steps</entry>
         <entry>push</entry>
         <entry>storage</entry>
         <entry>def co</entry>
@@ -1673,6 +1681,8 @@
         <entry>period_pnts</entry>
         <entry>Batch</entry>
         <entry>Lambda</entry>
+        <entry>epochs</entry>
+        <entry>-1</entry>
       </history-search>
       <history-cmd>
         <entry>s/train/val/g</entry>
