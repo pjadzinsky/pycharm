@@ -108,12 +108,12 @@
         <mark key="." line="105" column="0" />
         <mark key="^" line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_0/simulate.py" timestamp="1554763156680">
+      <file name="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_0/simulate.py" timestamp="1554765076232">
         <mark key="'" line="42" column="38" />
-        <mark key="[" line="60" column="18" />
-        <mark key="]" line="60" column="17" />
-        <mark key="." line="60" column="17" />
-        <mark key="^" line="60" column="17" />
+        <mark key="[" line="30" column="38" />
+        <mark key="]" line="30" column="33" />
+        <mark key="." line="30" column="33" />
+        <mark key="^" line="30" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1554753484057">
         <mark key="'" line="1833" column="0" />
@@ -297,12 +297,12 @@
         <mark key="." line="33" column="26" />
         <mark key="^" line="33" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" timestamp="1554763007165">
-        <mark key="'" line="33" column="26" />
-        <mark key="[" line="72" column="24" />
-        <mark key="]" line="33" column="26" />
-        <mark key="." line="33" column="26" />
-        <mark key="^" line="33" column="26" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" timestamp="1554765790462">
+        <mark key="'" line="33" column="25" />
+        <mark key="[" line="72" column="26" />
+        <mark key="]" line="33" column="25" />
+        <mark key="." line="33" column="25" />
+        <mark key="^" line="33" column="25" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1554392178827">
         <mark key="'" line="137" column="26" />
@@ -628,13 +628,13 @@
       <jump line="224" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="60" column="20" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
-      <jump line="33" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
       <jump line="52" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="59" column="35" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="51" column="68" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="48" column="33" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="42" column="51" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
       <jump line="30" column="23" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
+      <jump line="33" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -644,7 +644,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>e</text>
+        <text>wONEHOUR</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1186,10 +1186,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>wONEHOUR</text>
       </register>
       <register name="/" type="4">
-        <text>times</text>
+        <text>epochs</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICJBIjogImExIgo=</text>
@@ -1316,9 +1316,9 @@
       </register>
     </registers>
     <search>
-      <last-search>times</last-search>
+      <last-search>epochs</last-search>
       <last-offset />
-      <last-pattern>times</last-pattern>
+      <last-pattern>epochs</last-pattern>
       <last-replace>steps</last-replace>
       <last-substitute>shift_pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1344,8 +1344,8 @@
         <entry>a1</entry>
         <entry>batch_size</entry>
         <entry>cache</entry>
-        <entry>epochs</entry>
         <entry>times</entry>
+        <entry>epochs</entry>
       </history-search>
       <history-cmd>
         <entry>s/a1/a3/g</entry>
