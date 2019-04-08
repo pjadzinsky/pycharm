@@ -297,12 +297,12 @@
         <mark key="." line="33" column="26" />
         <mark key="^" line="33" column="24" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" timestamp="1554757334771">
-        <mark key="'" line="86" column="15" />
-        <mark key="[" line="33" column="26" />
-        <mark key="]" line="71" column="0" />
-        <mark key="." line="71" column="0" />
-        <mark key="^" line="100" column="18" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" timestamp="1554759278812">
+        <mark key="'" line="33" column="26" />
+        <mark key="[" line="72" column="24" />
+        <mark key="]" line="33" column="26" />
+        <mark key="." line="33" column="26" />
+        <mark key="^" line="33" column="26" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" timestamp="1554392178827">
         <mark key="'" line="137" column="26" />
@@ -615,7 +615,6 @@
       <jump line="99" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="70" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
       <jump line="57" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
-      <jump line="33" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
       <jump line="1833" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="95" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
       <jump line="72" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
@@ -635,6 +634,7 @@
       <jump line="224" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="60" column="20" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
+      <jump line="33" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1189,7 +1189,7 @@
         <text>sinusoidal</text>
       </register>
       <register name="/" type="4">
-        <text>cache</text>
+        <text>epochs</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICJBIjogImExIgo=</text>
@@ -1316,9 +1316,9 @@
       </register>
     </registers>
     <search>
-      <last-search>cache</last-search>
+      <last-search>epochs</last-search>
       <last-offset />
-      <last-pattern>cache</last-pattern>
+      <last-pattern>epochs</last-pattern>
       <last-replace>steps</last-replace>
       <last-substitute>shift_pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1340,12 +1340,12 @@
         <entry>shift</entry>
         <entry>timesteps</entry>
         <entry>def train_new</entry>
-        <entry>epochs</entry>
         <entry>time</entry>
         <entry>1</entry>
         <entry>a1</entry>
         <entry>batch_size</entry>
         <entry>cache</entry>
+        <entry>epochs</entry>
       </history-search>
       <history-cmd>
         <entry>s/a1/a3/g</entry>
