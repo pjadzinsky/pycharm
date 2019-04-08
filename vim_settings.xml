@@ -150,7 +150,7 @@
         <mark key="." line="105" column="0" />
         <mark key="^" line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1554738727284">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1554739367916">
         <mark key="'" line="640" column="44" />
         <mark key="[" line="1087" column="0" />
         <mark key="]" line="1087" column="59" />
@@ -592,12 +592,12 @@
         <mark key="." line="25" column="0" />
         <mark key="^" line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" timestamp="1554738668397">
-        <mark key="'" line="81" column="24" />
-        <mark key="[" line="81" column="25" />
-        <mark key="]" line="81" column="25" />
-        <mark key="." line="81" column="25" />
-        <mark key="^" line="81" column="25" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" timestamp="1554739512286">
+        <mark key="'" line="68" column="33" />
+        <mark key="[" line="43" column="24" />
+        <mark key="]" line="48" column="6" />
+        <mark key="." line="48" column="6" />
+        <mark key="^" line="48" column="6" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/storage_to_storage_copy.py" timestamp="1554227987347">
         <mark key="[" line="112" column="48" />
@@ -885,7 +885,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="39" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_stepwise_rnn.py" />
       <jump line="3" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_stepwise_rnn.py" />
       <jump line="42" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_stepwise_rnn.py" />
       <jump line="9" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_stepwise_rnn.py" />
@@ -985,6 +984,7 @@
       <jump line="1215" column="8" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="81" column="52" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/cycles_writer.py" />
       <jump line="83" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/writers/cycles_writer.py" />
+      <jump line="68" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1539,7 +1539,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>transfers</text>
+        <text>sort</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmaWxlbmFtZSA9ICdfJy5qb2luKFtwcmVmaXgsIGRhdGUsIHNvY2tldC5nZXRob3N0bmFtZSgpXSkK</text>
@@ -1666,9 +1666,9 @@
       </register>
     </registers>
     <search>
-      <last-search>transfers</last-search>
+      <last-search>sort</last-search>
       <last-offset />
-      <last-pattern>transfers</last-pattern>
+      <last-pattern>sort</last-pattern>
       <last-replace>steps</last-replace>
       <last-substitute>shift_pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1676,7 +1676,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def predict_new</entry>
         <entry>1</entry>
         <entry>for i</entry>
         <entry>,</entry>
@@ -1696,6 +1695,7 @@
         <entry>transaction[^s]</entry>
         <entry>def _gai</entry>
         <entry>transfers</entry>
+        <entry>sort</entry>
       </history-search>
       <history-cmd>
         <entry>timepoints</entry>
