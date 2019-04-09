@@ -177,8 +177,8 @@
         <mark key="^" line="9" column="27" />
         <mark key="." line="9" column="27" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1554757461440">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1554823636156">
+        <mark key="'" line="252" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/scripts/README_learn_inputs.md" timestamp="1552952433427">
         <mark key="'" line="47" column="33" />
@@ -194,7 +194,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1554777487872">
+      <file name="/Python Console" timestamp="1554823639861">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
@@ -451,7 +451,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1553721533309">
         <mark key="[" line="34" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1554763840433">
+      <file name="/Dummy.txt" timestamp="1554823594767">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -527,7 +527,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="101" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="4" column="86" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="67" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="30" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
@@ -571,7 +570,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
       <jump line="28" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" />
       <jump line="75" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
-      <jump line="252" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="270" column="64" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="129" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
       <jump line="31" column="57" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_0/rnn.yaml" />
@@ -627,6 +625,8 @@
       <jump line="78" column="31" filename="$USER_HOME$/home/pablo/time_series/example_1.py" />
       <jump line="82" column="31" filename="$USER_HOME$/home/pablo/time_series/example_1.py" />
       <jump line="86" column="31" filename="$USER_HOME$/home/pablo/time_series/example_1.py" />
+      <jump line="7" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
+      <jump line="252" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1181,7 +1181,7 @@
         <text>32</text>
       </register>
       <register name="/" type="4">
-        <text>32</text>
+        <text>def run</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGVsaWYgbW9kZWxfbmFtZSA9PSAnY25uMmRfMSc6CiAgICAgICAgbW9kZWwgPSBjbm4xZF8xKG1vZGVsLCBwbnRzKQo=</text>
@@ -1308,9 +1308,9 @@
       </register>
     </registers>
     <search>
-      <last-search>32</last-search>
+      <last-search>def run</last-search>
       <last-offset />
-      <last-pattern>32</last-pattern>
+      <last-pattern>def run</last-pattern>
       <last-replace>steps</last-replace>
       <last-substitute>shift_pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1319,7 +1319,6 @@
     <history>
       <history-search>
         <entry>host</entry>
-        <entry>def run</entry>
         <entry>storage</entry>
         <entry>model</entry>
         <entry>shift</entry>
@@ -1338,6 +1337,7 @@
         <entry>MaxPo</entry>
         <entry>main</entry>
         <entry>32</entry>
+        <entry>def run</entry>
       </history-search>
       <history-cmd>
         <entry>s/a1/a3/g</entry>
