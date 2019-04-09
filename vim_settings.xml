@@ -438,6 +438,13 @@
         <mark key="." line="150" column="34" />
         <mark key="^" line="150" column="34" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1554835743958">
+        <mark key="'" line="326" column="4" />
+        <mark key="[" line="324" column="0" />
+        <mark key="]" line="224" column="96" />
+        <mark key="^" line="224" column="96" />
+        <mark key="." line="224" column="96" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/README.md" timestamp="1554314144590">
         <mark key="'" line="3" column="14" />
         <mark key="[" line="0" column="0" />
@@ -550,7 +557,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="282" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="93" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
       <jump line="79" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
       <jump line="907" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -650,6 +656,7 @@
       <jump line="1" column="28" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="66" column="106" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="16" column="13" filename="$USER_HOME$/home/pablo/time_series/example.py" />
+      <jump line="326" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1204,7 +1211,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>val_</text>
+        <text>smooth</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBJTlRFUlZBTF9TID0gMQo=</text>
@@ -1331,9 +1338,9 @@
       </register>
     </registers>
     <search>
-      <last-search>val_</last-search>
+      <last-search>smooth</last-search>
       <last-offset />
-      <last-pattern>val_</last-pattern>
+      <last-pattern>smooth</last-pattern>
       <last-replace>PNTS</last-replace>
       <last-substitute>pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1341,7 +1348,6 @@
     </search>
     <history>
       <history-search>
-        <entry>batch_size</entry>
         <entry>cache</entry>
         <entry>times</entry>
         <entry>epochs</entry>
@@ -1361,6 +1367,7 @@
         <entry>pnts</entry>
         <entry>tmp</entry>
         <entry>val_</entry>
+        <entry>smooth</entry>
       </history-search>
       <history-cmd>
         <entry>s/,//g</entry>
