@@ -487,12 +487,12 @@
         <mark key="." line="52" column="66" />
         <mark key="^" line="52" column="66" />
       </file>
-      <file name="$USER_HOME$/home/pablo/time_series/example.py" timestamp="1554831057083">
-        <mark key="'" line="146" column="23" />
-        <mark key="[" line="42" column="51" />
-        <mark key="]" line="43" column="3" />
-        <mark key="." line="43" column="3" />
-        <mark key="^" line="43" column="3" />
+      <file name="$USER_HOME$/home/pablo/time_series/example.py" timestamp="1554831272357">
+        <mark key="'" line="53" column="4" />
+        <mark key="[" line="53" column="51" />
+        <mark key="]" line="52" column="11" />
+        <mark key="." line="52" column="11" />
+        <mark key="^" line="52" column="11" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
@@ -545,8 +545,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="281" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
-      <jump line="354" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="9" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="280" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
@@ -645,6 +643,8 @@
       <jump line="25" column="23" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="16" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="142" column="23" filename="$USER_HOME$/home/pablo/time_series/example.py" />
+      <jump line="52" column="63" filename="$USER_HOME$/home/pablo/time_series/example.py" />
+      <jump line="53" column="4" filename="$USER_HOME$/home/pablo/time_series/example.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -653,8 +653,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>val_data</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1196,13 +1196,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>144</text>
+        <text>val_data</text>
       </register>
       <register name="/" type="4">
-        <text>tmp</text>
+        <text>val_</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRhdGEgPSBwZC5EYXRhRnJhbWUoeydBJzogW25wLnNpbihucC5waSAqIDIgKiB4IC8gcG50cykgZm9yIHggaW4gcmFuZ2UoMjAxNildfSkKICAgIHQwID0gZGF0YS5pbmRleFswXQogICAgZGF0YS5pbmRleCAtPSB0MAo=</text>
+        <text encoding="base64">ICAgIGM2ID0gcGxvdF9jb3JyZWxhdGlvbnModmFsX3RhcmdldCwgdmFsX3ByZWRpY3QpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1326,9 +1326,9 @@
       </register>
     </registers>
     <search>
-      <last-search>tmp</last-search>
+      <last-search>val_</last-search>
       <last-offset />
-      <last-pattern>tmp</last-pattern>
+      <last-pattern>val_</last-pattern>
       <last-replace>PNTS</last-replace>
       <last-substitute>pnts</last-substitute>
       <last-dir>1</last-dir>
@@ -1336,7 +1336,6 @@
     </search>
     <history>
       <history-search>
-        <entry>a1</entry>
         <entry>batch_size</entry>
         <entry>cache</entry>
         <entry>times</entry>
@@ -1356,6 +1355,7 @@
         <entry>pn</entry>
         <entry>pnts</entry>
         <entry>tmp</entry>
+        <entry>val_</entry>
       </history-search>
       <history-cmd>
         <entry>s/,//g</entry>
