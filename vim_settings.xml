@@ -195,7 +195,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1554852539160">
+      <file name="/Python Console" timestamp="1554860411315">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="71" />
@@ -506,12 +506,12 @@
         <mark key="." line="52" column="66" />
         <mark key="^" line="52" column="66" />
       </file>
-      <file name="$USER_HOME$/home/pablo/time_series/example.py" timestamp="1554853005181">
-        <mark key="'" line="207" column="0" />
-        <mark key="[" line="211" column="4" />
-        <mark key="]" line="212" column="4" />
-        <mark key="." line="212" column="4" />
-        <mark key="^" line="212" column="4" />
+      <file name="$USER_HOME$/home/pablo/time_series/example.py" timestamp="1554860409013">
+        <mark key="'" line="212" column="84" />
+        <mark key="[" line="161" column="35" />
+        <mark key="]" line="161" column="37" />
+        <mark key="." line="161" column="37" />
+        <mark key="^" line="161" column="37" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
@@ -623,7 +623,6 @@
       <jump line="194" column="19" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="202" column="91" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="204" column="41" filename="$USER_HOME$/home/pablo/time_series/example.py" />
-      <jump line="205" column="96" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="208" column="55" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="60" column="23" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="211" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
@@ -657,7 +656,8 @@
       <jump line="221" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="235" column="46" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="0" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
-      <jump line="207" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
+      <jump line="205" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
+      <jump line="207" column="84" filename="$USER_HOME$/home/pablo/time_series/example.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -666,8 +666,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+      <register name="&quot;" type="4">
+        <text>144</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1209,22 +1209,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>144</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">PDw8PA==</text>
+        <text>cnn1d_0</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAic2NvcGUiOiBbCiAgICAgICAgICAiY2FtcGFpZ25fam91cm5leXMiCiAgICAgICAgXSwKICAgICAgICAibmFtZSI6IFsKICAgICAgICAgICJDb29yZGluYXRvclJlYWRMYXRlbmN5IgogICAgICAgIF0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PT09PT09PQogICAgYWxsX3BhcmFtcy5leHRlbmQoW3snZGF0YV9uYW1lJzogJ25vaXN5JywgJ3NoaWZ0Jzogc2hpZnQsICdzdGQnOiAwLjUsICdtb2RlbF9uYW1lJzogJ2NubjFkXzAnLAogICAgICAgICAgICAgICAgICAgICAgICAncG50cyc6IDE0NH0gZm9yIHNoaWZ0CiAgICAgICAgICAgICAgICAgICAgICAgaW4gWzAsIC1pbnQocG50cyAvIDE2KSwgLWludChwbnRzIC8gOCldXSkKPj4+Pj4+PiA2YjllMGFiMmJlM2MzOGZjNmM1YjcxZDYyN2YxNTVlNDE1Mjc3ZjBjCg==</text>
+        <text encoding="base64">ICAgIG1vZGVsLmFkZChDb252MUQoMzIsIDQsIHBhZGRpbmc9J3ZhbGlkJykpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1249,10 +1249,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHBudHMgPSAxNDQK</text>
+        <text encoding="base64">ICAgICAgICBsZW5ndGggLz0gNAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICMgc2ludXNvaWRhbCArIG5vaXNlIHdpdGggYSBsYXJnZXIgc2hpZnQgYmVjYXVzZSBvdGhlcndpc2UgaXQgaXMgZGlmZmljdWx0IHRvIHZpc3VhbGl6ZSBpdAo=</text>
+        <text encoding="base64">ICAgIHdoaWxlIFRydWU6Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1320,36 +1320,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxlZnRfb3ZlciA9IGxlbmd0aCAlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgICAgICAgICAgICAgICAgICAgICdwbnRzJzogMTQ0fSBmb3Igc2hpZnQgaW4gWzAsIC0xLCAtM11dKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICNhbGxfcGFyYW1zLmV4dGVuZChbeydkYXRhX25hbWUnOiAnc2ludXNvaWRhbCcsICdzaGlmdCc6IHNoaWZ0LCAnbW9kZWxfbmFtZSc6ICdjbm4xZF8wJywK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">PT09PT09PQogICAgYWxsX3BhcmFtcy5leHRlbmQoW3snZGF0YV9uYW1lJzogJ25vaXN5JywgJ3NoaWZ0Jzogc2hpZnQsICdzdGQnOiAwLjUsICdtb2RlbF9uYW1lJzogJ2NubjFkXzAnLAogICAgICAgICAgICAgICAgICAgICAgICAncG50cyc6IDE0NH0gZm9yIHNoaWZ0CiAgICAgICAgICAgICAgICAgICAgICAgaW4gWzAsIC1pbnQocG50cyAvIDE2KSwgLWludChwbnRzIC8gOCldXSkKPj4+Pj4+PiA2YjllMGFiMmJlM2MzOGZjNmM1YjcxZDYyN2YxNTVlNDE1Mjc3ZjBjCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHBudHMgPSAxNDQK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">PT09PT09PQoKICAgICMgYmx1ZXNoaWZ0IGF0IDEgc2hpZnQgYnV0IHVzaW5nIGFsbCAzMiBob3N0cwogICAgI2FsbF9wYXJhbXMuYXBwZW5kKHsnZGF0YV9uYW1lJzogJ2JsdWVzaGlmdCcsICdzaGlmdCc6IC0zLCAnbW9kZWxfbmFtZSc6ICdjbm4xZF8wJywKICAgICMgICAgICAgICAgICAgICAgICAgICdvbmVfaG9zdCc6IEZhbHNlfSkKPj4+Pj4+PiA2YjllMGFiMmJlM2MzOGZjNmM1YjcxZDYyN2YxNTVlNDE1Mjc3ZjBjCg==</text>
+        <text encoding="base64">ICAgICMgc2ludXNvaWRhbCArIG5vaXNlIHdpdGggYSBsYXJnZXIgc2hpZnQgYmVjYXVzZSBvdGhlcndpc2UgaXQgaXMgZGlmZmljdWx0IHRvIHZpc3VhbGl6ZSBpdAo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/PNTS/params['pnts']/gc</text>
+        <text>%s/cnn1d_0/cnn1d_1/gc</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">PDw8PA==</last-search>
+      <last-search>cnn1d_0</last-search>
       <last-offset />
-      <last-pattern encoding="base64">PDw8PA==</last-pattern>
-      <last-replace>params['pnts']</last-replace>
-      <last-substitute>PNTS</last-substitute>
+      <last-pattern>cnn1d_0</last-pattern>
+      <last-replace>cnn1d_1</last-replace>
+      <last-substitute>cnn1d_0</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>values</entry>
         <entry>window_len_</entry>
         <entry>interval_s</entry>
         <entry>window_len</entry>
@@ -1369,9 +1368,9 @@
         <entry>PNTS</entry>
         <entry>get_data</entry>
         <entry encoding="base64">PDw8PA==</entry>
+        <entry>cnn1d_0</entry>
       </history-search>
       <history-cmd>
-        <entry>qa</entry>
         <entry>96</entry>
         <entry>151</entry>
         <entry>s/a1/a2/g</entry>
@@ -1391,6 +1390,7 @@
         <entry>s/train/val/g</entry>
         <entry>%s/pnts/PNTS/gc</entry>
         <entry>%s/PNTS/params['pnts']/gc</entry>
+        <entry>%s/cnn1d_0/cnn1d_1/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
