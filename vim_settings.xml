@@ -355,11 +355,11 @@
         <mark key="^" line="19" column="8" />
         <mark key="." line="17" column="27" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_1.yaml" timestamp="1554935211851">
-        <mark key="'" line="83" column="8" />
-        <mark key="[" line="55" column="43" />
-        <mark key="]" line="55" column="52" />
-        <mark key="." line="55" column="52" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_1.yaml" timestamp="1554941492073">
+        <mark key="'" line="55" column="49" />
+        <mark key="[" line="33" column="25" />
+        <mark key="]" line="33" column="26" />
+        <mark key="." line="33" column="26" />
         <mark key="^" line="55" column="52" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/data.py" timestamp="1554224331891">
@@ -612,7 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="233" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="16" column="0" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="17" column="7" filename="$USER_HOME$/home/pablo/time_series/example.py" />
       <jump line="18" column="9" filename="$USER_HOME$/home/pablo/time_series/example.py" />
@@ -712,6 +711,7 @@
       <jump line="83" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_1.yaml" />
       <jump line="254" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="1038" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="55" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_1.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1266,7 +1266,7 @@
         <text encoding="base64">ICAgIHNjLnBvc3RfbWV0cmljX29iamVjdHNfdG9fc3RvcmFnZShbbTFdKQ==</text>
       </register>
       <register name="/" type="4">
-        <text>def extract</text>
+        <text>shift</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHNjLnBvc3RfbWV0cmljX29iamVjdHNfdG9fc3RvcmFnZShbbTEsIG0yLCBtMywgbTQsIG01LCBtNl0pCg==</text>
@@ -1393,9 +1393,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def extract</last-search>
+      <last-search>shift</last-search>
       <last-offset />
-      <last-pattern>def extract</last-pattern>
+      <last-pattern>shift</last-pattern>
       <last-replace>cnn1d_1</last-replace>
       <last-substitute>cnn1d_0</last-substitute>
       <last-dir>1</last-dir>
@@ -1407,7 +1407,6 @@
         <entry>epochs</entry>
         <entry>epoch</entry>
         <entry>172</entry>
-        <entry>shift</entry>
         <entry>MAX_C</entry>
         <entry>def plo</entry>
         <entry>PNTS</entry>
@@ -1423,6 +1422,7 @@
         <entry>Conv</entry>
         <entry>CNN</entry>
         <entry>def extract</entry>
+        <entry>shift</entry>
       </history-search>
       <history-cmd>
         <entry>96</entry>
