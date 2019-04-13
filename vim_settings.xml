@@ -32,12 +32,12 @@
         <mark key="." line="62" column="0" />
         <mark key="^" line="11" column="107" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/common/utils.py" timestamp="1555189081482">
-        <mark key="'" line="312" column="8" />
-        <mark key="[" line="300" column="4" />
-        <mark key="]" line="300" column="4" />
-        <mark key="^" line="300" column="4" />
-        <mark key="." line="300" column="4" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/common/utils.py" timestamp="1555191563209">
+        <mark key="'" line="368" column="22" />
+        <mark key="[" line="364" column="69" />
+        <mark key="]" line="365" column="17" />
+        <mark key="^" line="365" column="17" />
+        <mark key="." line="365" column="17" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1555033652409">
         <mark key="'" line="388" column="4" />
@@ -229,9 +229,9 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555189002072">
+      <file name="/Python Console" timestamp="1555191291693">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="24" />
+        <mark key="." line="0" column="5" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
         <mark key="'" line="235" column="4" />
@@ -673,8 +673,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
-      <jump line="42" column="46" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/simulate.py" />
       <jump line="48" column="28" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/simulate.py" />
       <jump line="28" column="55" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/simulate.py" />
       <jump line="29" column="55" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/simulate.py" />
@@ -773,6 +771,8 @@
       <jump line="311" column="8" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="282" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="310" column="8" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
+      <jump line="273" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
+      <jump line="368" column="22" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -781,8 +781,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>as_index</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHJldHVybiBkZgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1324,22 +1324,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>as_index</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
-        <text>overlay</text>
+        <text>pivot</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHJhdGlvLmxvY1s6LCAnZXhjaGFuZ2UnXSA9IGRmWydleGNoYW5nZSddCg==</text>
+        <text encoding="base64">ICAgIHByaW50KGRmW2RmWyd0aWNrZXInXT09J1hSUC9CVEMnXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRmLnNoYXBlKQo=</text>
+        <text encoding="base64">ICAgIHJldHVybiBkZgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50KCcqJyo4MCkK</text>
+        <text encoding="base64">ICAgIHByaW50KGRmLnNoYXBlKQogICAgcHJpbnQoZGZbZGZbJ3RpY2tlciddPT0nWFJQL0JUQyddLnNoYXBlKQogICAgcHJpbnQoZGZbZGZbJ3RpY2tlciddPT0nWlJYL0JUQyddLnNoYXBlKQogICAgcHJpbnQoZGZbJ3RpY2tlciddLnVuaXF1ZSgpKQogICAgcHJpbnQoZGYuaGVhZCgpKQogICAgcmV0dXJuCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1364,10 +1364,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChkZi5zaGFwZSkK</text>
+        <text encoding="base64">ICAgIHByaW50KGRmWyd0aWNrZXInXS51bmlxdWUoKSkKICAgIHByaW50KGRmLmhlYWQoKSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgnKicqODApCg==</text>
+        <text encoding="base64">ICAgIHByaW50KHJhdGlvLmhlYWQoKSkKICAgIHJhdGlvLmxvY1s6LCAnZXhjaGFuZ2UnXSA9IGRmWydleGNoYW5nZSddCiAgICByYXRpby5sb2NbOiwgJ3RpY2tlciddID0gZGZbJ3RpY2tlciddCiAgICByYXRpby5sb2NbOiwgJ3RpbWUnXSA9IGRmWyd0aW1lJ10KICAgIHByaW50KGRmWyd0aWNrZXInXS51bmlxdWUoKSkKICAgIHByaW50KGRmLmhlYWQoKSkKCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1435,28 +1435,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgnKicqODApCg==</text>
+        <text encoding="base64">ICAgICAgICB0b3RhbCA9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGEgcm93IGhhcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG92ZXJsYXkgPSBodi5PdmVybGF5KCkK</text>
+        <text encoding="base64">ICAgIFJldHVybiBhIGhvbG92aWV3cyBwbG90IGZvciB0aGUgZ2l2ZW4gZGF0YQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG92bGVyYXkK</text>
+        <text encoding="base64">ICAgIHByaW50KGRmLnNoYXBlKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWx1ZXMgPSBbZFs0XSBmb3IgZCBpbiBkYXRhXQo=</text>
+        <text encoding="base64">ICAgIHByaW50KCcqJyo4MCkK</text>
       </register>
       <register name=":" type="4">
         <text>138</text>
       </register>
     </registers>
     <search>
-      <last-search>overlay</last-search>
+      <last-search>pivot</last-search>
       <last-offset />
-      <last-pattern>overlay</last-pattern>
+      <last-pattern>pivot</last-pattern>
       <last-replace>cnn1d_1</last-replace>
       <last-substitute encoding="base64">XDwnXD4=</last-substitute>
       <last-dir>1</last-dir>
@@ -1464,7 +1464,6 @@
     </search>
     <history>
       <history-search>
-        <entry>PERIOD_2</entry>
         <entry>np</entry>
         <entry>stds</entry>
         <entry>def to_in</entry>
@@ -1484,6 +1483,7 @@
         <entry>class Exc</entry>
         <entry>^class</entry>
         <entry>overlay</entry>
+        <entry>pivot</entry>
       </history-search>
       <history-cmd>
         <entry>225</entry>
