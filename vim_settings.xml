@@ -32,12 +32,12 @@
         <mark key="." line="62" column="0" />
         <mark key="^" line="11" column="107" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/common/utils.py" timestamp="1555184866298">
-        <mark key="'" line="14" column="0" />
-        <mark key="[" line="270" column="14" />
-        <mark key="]" line="270" column="20" />
-        <mark key="." line="270" column="20" />
-        <mark key="^" line="270" column="20" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/common/utils.py" timestamp="1555187571680">
+        <mark key="'" line="283" column="15" />
+        <mark key="[" line="300" column="38" />
+        <mark key="]" line="313" column="20" />
+        <mark key="." line="313" column="20" />
+        <mark key="^" line="313" column="20" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1555033652409">
         <mark key="'" line="388" column="4" />
@@ -229,7 +229,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555184819448">
+      <file name="/Python Console" timestamp="1555187531842">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="24" />
       </file>
@@ -673,7 +673,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="24" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
       <jump line="78" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
       <jump line="191" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
@@ -773,6 +772,7 @@
       <jump line="869" column="0" filename="$USER_HOME$/crypto/crypto/crypto/sdk.py" />
       <jump line="257" column="10" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="14" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
+      <jump line="282" column="15" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -782,7 +782,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBsYXlvdXQgKz0gYwo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChkZi5oZWFkKCkpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1324,22 +1324,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>layout</text>
+        <text>tickers</text>
       </register>
       <register name="/" type="4">
         <text>^class</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHNjLnBvc3RfbWV0cmljX29iamVjdHNfdG9fc3RvcmFnZShbbTEsIG0yLCBtM10pIywgbTQsIG01LCBtNl0pCg==</text>
+        <text encoding="base64">ZGVmIHBsb3RfaGlzdG9yeShleGNoYW5nZV9hbmRfdGlja2VycywgdGltZWZyYW1lLCBzaW5jZT1Ob25lLCBwYXJhbXM9e30pOgogICAgIiIiCiAgICBSZXR1cm4gYSBob2xvdmlld3MgcGxvdCBmb3IgdGhlIGdpdmVuIGRhdGEKICAgIDpwYXJhbSBleGNoYW5nZV9hbmRfdGlja2VyczogbGlzdCBvZiB0dXBsZXMgb2YgdGhlIGZvcm0gKGV4Y2hhbmdlLCB0aWNrZXIpCiAgICA6cGFyYW0gdGltZWZyYW1lOgogICAgOnBhcmFtIHNpbmNlOgogICAgOnBhcmFtIHBhcmFtczoKICAgIDpyZXR1cm46CiAgICAiIiIKICAgIG92ZXJsYXkgPSBodi5PdmVybGF5KCkKICAgIGZvciBleGNoYW5nZSwgdGlja2VyIGluIGV4Y2hhbmdlX2FuZF90aWNrZXJzOgogICAgICAgIGFzc2VydCB0aW1lZnJhbWUgaW4gZXhjaGFuZ2UudGltZWZyYW1lcywgJ3RpbWVmcmFtZSBzaG91bGQgYmUgb25lIG9mIHt9Jy5mb3JtYXQoZXhjaGFuZ2UudGltZWZyYW1lcykKCiAgICAgICAgIyBkYXRhIGlzIGEgbGlzdCBvZiB0dXBsZXMgd2l0aCAodGltZSBpbiBtcywgb3BlbiwgaGlnaGVzdCwgbG93ZXN0LCBjbG9zaW5nLCB2b2x1bWUpCiAgICAgICAgZGF0YSA9IGV4Y2hhbmdlLmZldGNoX29obGN2KHRpY2tlciwgdGltZWZyYW1lLCBzaW5jZT1zaW5jZSwgcGFyYW1zPXBhcmFtcykKCiAgICAgICAgdGltZXMgPSBbZFswXSBmb3IgZCBpbiBkYXRhXQogICAgICAgIHZhbHVlcyA9IFtkWzRdIGZvciBkIGluIGRhdGFdCiAgICAgICAgYyA9IGh2LkN1cnZlKCh0aW1lcywgdmFsdWVzKSwgbGFiZWw9dGlja2VyKQogICAgICAgIAogICAgICAgIG92ZXJsYXkgKj0gYwoKICAgIGh2Lm91dHB1dChvdmVybGF5LCBmaWxlbmFtZT0nL3RtcC9vaGxjdicpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBsYXlvdXQgKz0gYwo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChkZi5oZWFkKCkpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZW4oT3ZlcmxheS5kYXRhKToK</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1364,7 +1364,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIDpwYXJhbSB0aWNrZXJzOgo=</text>
+        <text encoding="base64">aW1wb3J0IHBhbmRhcyBhcyBwZAo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -1435,19 +1435,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lcyA9IAo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBsYXlvdXQgKz0gYwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZW4oT3ZlcmxheS5kYXRhKToK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgIDpwYXJhbSB0aWNrZXJzOgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmaWxlID0gY2xzLmdldF9tZXRyaWNfZmlsZShkaXIpCg==</text>
+        <text encoding="base64">ICAgICAgICB0aW1lcyA9IAo=</text>
       </register>
       <register name=":" type="4">
         <text>138</text>
