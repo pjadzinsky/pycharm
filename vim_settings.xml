@@ -32,12 +32,12 @@
         <mark key="." line="62" column="0" />
         <mark key="^" line="11" column="107" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/common/utils.py" timestamp="1555209446058">
-        <mark key="'" line="324" column="47" />
-        <mark key="[" line="391" column="63" />
-        <mark key="]" line="391" column="67" />
-        <mark key="^" line="391" column="67" />
-        <mark key="." line="391" column="67" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/common/utils.py" timestamp="1555222468506">
+        <mark key="'" line="337" column="0" />
+        <mark key="[" line="330" column="32" />
+        <mark key="]" line="330" column="30" />
+        <mark key="^" line="330" column="30" />
+        <mark key="." line="330" column="30" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1555033652409">
         <mark key="'" line="388" column="4" />
@@ -674,7 +674,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_1.yaml" />
       <jump line="3" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_1.yaml" />
       <jump line="150" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="151" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
@@ -770,10 +769,11 @@
       <jump line="310" column="8" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="273" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="368" column="22" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
-      <jump line="329" column="3" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="390" column="58" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="372" column="30" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
       <jump line="324" column="47" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
+      <jump line="329" column="17" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
+      <jump line="337" column="0" filename="$USER_HOME$/crypto/crypto/crypto/common/utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -783,7 +783,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>a.</text>
+        <text>keys</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1325,22 +1325,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>a.</text>
+        <text>keys</text>
       </register>
       <register name="/" type="4">
-        <text>start_quote</text>
+        <text>&quot;</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRmLmxvY1s6LCAncXVhbnRpdHknXSA9IE5vbmUK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBwaXZvdGVkLCAobGFzdF90b3RhbCwgc3RhcnRfYmFzZSwgdG90YWxfZGF5cykK</text>
+        <text encoding="base64">ICAgIGUgPSBleGNoYW5nZS5lCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50KHBpdm90ZWQuKQo=</text>
+        <text encoding="base64">ICAgIHdoaWxlIFRydWU6Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1365,10 +1365,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgICAKCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBwaXZvdGVkLCAobGFzdF90b3RhbCwgc3RhcnRfYmFzZSwgdG90YWxfZGF5cykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaW50KHBpdm90ZWQuKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1436,28 +1436,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxhc3RfdG90YWwvc3RhcnRfYmFzZSA9IGVmZWN0aXZlX3JhdGUqKnRvdGFsX2RheXMKICAgIGxvZyhsYXN0X3RvdGFsL3N0YXJ0X2Jhc2UpID0gdG90YWxfZGF5cyAqIGxvZyhlZmZlY3RpdmVfcmF0ZSkKICAgIGxvZyhlZmZlY3RpdmVfcmF0ZSkgPSBsb2cobGFzdF90b3RhbC9zdGFydF9iYWVzKSAvIHRvdGFsX2RheXMK</text>
+        <text encoding="base64">CiAgICAKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxhc3RfdG90YWwgPSAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkZi5sb2NbOiwgJ3RpbWUnXSA9IG5wLmRhdGV0aW1lNjQoZGZbJ3RpbWUnXSwgJ21zJykK</text>
+        <text encoding="base64">ICAgIGxhc3RfdG90YWwvc3RhcnRfYmFzZSA9IGVmZWN0aXZlX3JhdGUqKnRvdGFsX2RheXMKICAgIGxvZyhsYXN0X3RvdGFsL3N0YXJ0X2Jhc2UpID0gdG90YWxfZGF5cyAqIGxvZyhlZmZlY3RpdmVfcmF0ZSkKICAgIGxvZyhlZmZlY3RpdmVfcmF0ZSkgPSBsb2cobGFzdF90b3RhbC9zdGFydF9iYWVzKSAvIHRvdGFsX2RheXMK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChwcmV2X3JvdylkZAo=</text>
+        <text encoding="base64">ICAgIGxhc3RfdG90YWwgPSAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHBpdm90ZWQubG9jWzosICd0b3RhbCddID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICBkZi5sb2NbOiwgJ3RpbWUnXSA9IG5wLmRhdGV0aW1lNjQoZGZbJ3RpbWUnXSwgJ21zJykK</text>
       </register>
       <register name=":" type="4">
         <text>138</text>
       </register>
     </registers>
     <search>
-      <last-search>start_quote</last-search>
+      <last-search>&quot;</last-search>
       <last-offset />
-      <last-pattern>start_quote</last-pattern>
+      <last-pattern>&quot;</last-pattern>
       <last-replace>cnn1d_1</last-replace>
       <last-substitute encoding="base64">XDwnXD4=</last-substitute>
       <last-dir>1</last-dir>
@@ -1465,7 +1465,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8PA==</entry>
         <entry>def _un</entry>
         <entry>cluster</entry>
         <entry>tp</entry>
@@ -1485,6 +1484,7 @@
         <entry>total</entry>
         <entry>start_base</entry>
         <entry>start_quote</entry>
+        <entry>&quot;</entry>
       </history-search>
       <history-cmd>
         <entry>225</entry>
