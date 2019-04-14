@@ -229,11 +229,6 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555260174417">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
         <mark key="'" line="235" column="4" />
         <mark key="[" line="325" column="8" />
@@ -511,12 +506,12 @@
         <mark key="." line="150" column="34" />
         <mark key="^" line="150" column="34" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555260075775">
-        <mark key="'" line="30" column="0" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
-        <mark key="^" line="32" column="51" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555261404625">
+        <mark key="'" line="43" column="4" />
+        <mark key="[" line="138" column="44" />
+        <mark key="]" line="138" column="44" />
+        <mark key="." line="138" column="44" />
+        <mark key="^" line="136" column="60" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_2.yaml" timestamp="1555015053248">
         <mark key="'" line="72" column="25" />
@@ -674,9 +669,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="244" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
-      <jump line="127" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
-      <jump line="181" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="72" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_2.yaml" />
       <jump line="41" column="99" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/simulate.py" />
       <jump line="65" column="72" filename="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/simulate.py" />
@@ -774,6 +766,9 @@
       <jump line="485" column="23" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="656" column="7" filename="$USER_HOME$/crypto/crypto/crypto/tests/test_sdk.py" />
       <jump line="30" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="130" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="43" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -782,8 +777,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHllc3RlcmF5X21zID0gKG5vdyAtIHV0aW1lLk9ORURBWSkgKiAxMDAwCg==</text>
+      <register name="&quot;" type="4">
+        <text>exchange_and_tickers</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1325,7 +1320,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>exchange_and_tickers</text>
       </register>
       <register name="/" type="4">
         <text>volume</text>
@@ -1334,13 +1329,13 @@
         <text encoding="base64">ICAgIHByaW50KGxlbihidGNfdGlja2VycykpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHllc3RlcmF5X21zID0gKG5vdyAtIHV0aW1lLk9ORURBWSkgKiAxMDAwCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBwaXZvdGVkLCBlZmZlY3RpdmVfcmF0ZQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBleGNoYW5nZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1365,10 +1360,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGJhc2VzID0gW3RpY2tlci5zcGxpdCgnLycpWzBdIGZvciB0aWNrZXIgaW4gYnRjX3RpY2tlcnNdCg==</text>
+        <text encoding="base64">ICAgIHllc3RlcmF5X21zID0gKG5vdyAtIHV0aW1lLk9ORURBWSkgKiAxMDAwCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICNidGNfdGlja2VycyA9IFt0IGZvciB0IGluIGJ0Y190aWNrZXJzIGlmIHRpY2tlcnNbdF1bJ3RpbWVzdGFtcCddID4geWVzdGVyYXlfbXNdCg==</text>
+        <text encoding="base64">ICAgIHJldHVybiBleGNoYW5nZQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1436,19 +1431,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGJ0Y190aWNrZXJzID0gW3QgZm9yIHQgaW4gYnRjX3RpY2tlcnMgaWYgdGlja2Vyc1t0XVsndGltZXN0YW1wJ10gPiB5ZXN0ZXJheV9tc10K</text>
+        <text encoding="base64">ICAgIGJhc2VzID0gW3RpY2tlci5zcGxpdCgnLycpWzBdIGZvciB0aWNrZXIgaW4gYnRjX3RpY2tlcnNdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBleGNoYW5nZXMK</text>
+        <text encoding="base64">ICAgICNidGNfdGlja2VycyA9IFt0IGZvciB0IGluIGJ0Y190aWNrZXJzIGlmIHRpY2tlcnNbdF1bJ3RpbWVzdGFtcCddID4geWVzdGVyYXlfbXNdCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCB2b2x1bWVzOgogICAgICAgIGVrCgo=</text>
+        <text encoding="base64">ICAgIGJ0Y190aWNrZXJzID0gW3QgZm9yIHQgaW4gYnRjX3RpY2tlcnMgaWYgdGlja2Vyc1t0XVsndGltZXN0YW1wJ10gPiB5ZXN0ZXJheV9tc10K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KGxlbihidGNfdGlja2VycykpCg==</text>
+        <text encoding="base64">ICAgICAgICBleGNoYW5nZXMK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50KGxlbihidGNfdGlja2VycykpCg==</text>
+        <text encoding="base64">ICAgIGlmIG5vdCB2b2x1bWVzOgogICAgICAgIGVrCgo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
