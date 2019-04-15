@@ -513,12 +513,12 @@
         <mark key="." line="150" column="34" />
         <mark key="^" line="150" column="34" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555284946703">
-        <mark key="'" line="44" column="73" />
-        <mark key="[" line="132" column="82" />
-        <mark key="]" line="132" column="100" />
-        <mark key="." line="132" column="100" />
-        <mark key="^" line="132" column="100" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555287623583">
+        <mark key="'" line="116" column="23" />
+        <mark key="[" line="116" column="23" />
+        <mark key="]" line="116" column="23" />
+        <mark key="." line="116" column="23" />
+        <mark key="^" line="116" column="56" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_2.yaml" timestamp="1555015053248">
         <mark key="'" line="72" column="25" />
@@ -676,8 +676,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="37" filename="$USER_HOME$/opas/core/python/opasai/simulation/buildup_0/simulate.py" />
-      <jump line="69" column="9" filename="$USER_HOME$/opas/core/python/opasai/simulation/buildup_0/simulate.py" />
       <jump line="24" column="14" filename="$USER_HOME$/opas/core/python/opasai/simulation/buildup_0/simulate.py" />
       <jump line="30" column="55" filename="$USER_HOME$/opas/core/python/opasai/simulation/buildup_0/simulate.py" />
       <jump line="114" column="16" filename="$USER_HOME$/home/pablo/time_series/example.py" />
@@ -776,6 +774,8 @@
       <jump line="11" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="152" column="73" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="44" column="73" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="132" column="100" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="116" column="23" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -785,7 +785,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>True</text>
+        <text>start_base</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1327,10 +1327,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>True</text>
+        <text>start_base</text>
       </register>
       <register name="/" type="4">
-        <text>report_f</text>
+        <text>start_base</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHVwbG9hZChidWNrZXRfbmFtZSwgc3JjX2ZpbGUsIGRzdF9rZXkpOgo=</text>
@@ -1457,9 +1457,9 @@
       </register>
     </registers>
     <search>
-      <last-search>report_f</last-search>
+      <last-search>start_base</last-search>
       <last-offset />
-      <last-pattern>report_f</last-pattern>
+      <last-pattern>start_base</last-pattern>
       <last-replace>downsampled_df</last-replace>
       <last-substitute>pivoted</last-substitute>
       <last-dir>1</last-dir>
@@ -1475,7 +1475,6 @@
         <entry>overlay</entry>
         <entry>pivot</entry>
         <entry>total</entry>
-        <entry>start_base</entry>
         <entry>start_quote</entry>
         <entry>&quot;</entry>
         <entry>volume</entry>
@@ -1487,6 +1486,7 @@
         <entry>file</entry>
         <entry>plot</entry>
         <entry>report_f</entry>
+        <entry>start_base</entry>
       </history-search>
       <history-cmd>
         <entry>%s/_2/_1/gc</entry>
