@@ -149,8 +149,8 @@
         <mark key="." line="30" column="33" />
         <mark key="^" line="30" column="33" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1555441838499">
-        <mark key="'" line="82" column="13" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1555452566631">
+        <mark key="'" line="654" column="19" />
         <mark key="[" line="1080" column="77" />
         <mark key="]" line="1080" column="97" />
         <mark key="^" line="1080" column="97" />
@@ -250,7 +250,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555442260204">
+      <file name="/Python Console" timestamp="1555452966377">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
@@ -440,12 +440,12 @@
         <mark key="." line="71" column="0" />
         <mark key="^" line="82" column="17" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" timestamp="1555451792332">
-        <mark key="'" line="353" column="16" />
-        <mark key="[" line="355" column="9" />
-        <mark key="]" line="357" column="7" />
-        <mark key="." line="357" column="7" />
-        <mark key="^" line="357" column="7" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" timestamp="1555452961702">
+        <mark key="'" line="370" column="16" />
+        <mark key="[" line="99" column="82" />
+        <mark key="]" line="100" column="7" />
+        <mark key="." line="100" column="7" />
+        <mark key="^" line="100" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/vis/vis_models.py" timestamp="1555101316800">
         <mark key="[" line="31" column="8" />
@@ -585,12 +585,12 @@
         <mark key="^" line="224" column="96" />
         <mark key="." line="224" column="96" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1555451025509">
-        <mark key="'" line="106" column="48" />
-        <mark key="[" line="108" column="86" />
-        <mark key="]" line="108" column="91" />
-        <mark key="." line="108" column="91" />
-        <mark key="^" line="108" column="91" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1555452546141">
+        <mark key="'" line="202" column="15" />
+        <mark key="[" line="195" column="0" />
+        <mark key="]" line="195" column="80" />
+        <mark key="." line="203" column="23" />
+        <mark key="^" line="203" column="23" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/seasonality_1/README.md" timestamp="1554314144590">
         <mark key="'" line="3" column="14" />
@@ -727,11 +727,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
-      <jump line="30" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
-      <jump line="62" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
-      <jump line="64" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/trainer/base_trainer.py" />
-      <jump line="152" column="43" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="153" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="159" column="41" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
       <jump line="200" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_storage_client.py" />
@@ -827,6 +822,11 @@
       <jump line="360" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
       <jump line="351" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
       <jump line="353" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
+      <jump line="195" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
+      <jump line="202" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
+      <jump line="646" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="651" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="654" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -836,7 +836,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCkK</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9zZXJpZXNfZXF1YWwobV8xX2EyLnZhbHVlcywgcHJlZGljdGVkX21ldHJpY3NbMV0udmFsdWVzKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1378,22 +1378,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>assert</text>
+        <text>output_samples</text>
       </register>
       <register name="/" type="4">
-        <text>\[1</text>
+        <text>is_input</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFtbMTAsIDIwXSwgWzExLCAyMV0sIFsxMiwgMjJdLCBbMTMsIDIzXSwgWzE0LCAyNF1dLAo=</text>
+        <text encoding="base64">ICAgICAgICBwZC50ZXN0aW5nLmFzc2VydF9zZXJpZXNfZXF1YWwobV8xX2EyLnZhbHVlcywgcHJlZGljdGVkX21ldHJpY3NbMV0udmFsdWVzKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFtbNjBdLCBbNjFdLCBbNjJdLCBbNjNdLCBbNjRdXSwKICAgICAgICAgICAgICAgIFtbMzVdLCBbMzZdLCBbMzddLCBbMzhdLCBbMzldXSwKICAgICAgICAgICAgICAgIFtbNjVdLCBbNjZdLCBbNjddLCBbNjhdLCBbNjldXSwK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1418,10 +1418,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjcHJpbnQoeSkK</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X2V4dHJhY3RfYW5kX3JlY29uc3RydWN0KHNlbGYpOgogICAgICAgICIiIgogICAgICAgIFRlc3QgdGhhdCB3ZSBjYW4gZXh0cmFjdCB5IGZlYXR1cmVzIGZyb20gdGhlIGZlYXR1cmVzX2RmLCBhbmQgaWYgdGhlIHByZWRpY3Rpb25zIGFyZSBleGFjdGx5IHRob3NlIHNhbWUgJ3knCiAgICAgICAgdGhlbiB3ZSByZWNvbnN0cnVjdCB0aGUgc2FtZSBtZXRyaWNzCgogICAgICAgIDpyZXR1cm46CiAgICAgICAgIiIiCiAgICBkZWYgX3VucHJvY2Vzc19kYXRhX25ldyhzZWxmLCBmZWF0dXJlc19kYXRhZnJhbWUsIG91dHB1dF9zYW1wbGVzLCBpc19pbnB1dCk6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjcHJpbnQoWCkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1489,34 +1489,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChleHBlY3RlZF95KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFtbNjBdLCBbNjFdLCBbNjJdLCBbNjNdLCBbNjRdXSwKICAgICAgICAgICAgICAgIFtbMzVdLCBbMzZdLCBbMzddLCBbMzhdLCBbMzldXSwKICAgICAgICAgICAgICAgIFtbNjVdLCBbNjZdLCBbNjddLCBbNjhdLCBbNjldXSwK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCh5KQo=</text>
+        <text encoding="base64">ICAgICAgICAjcHJpbnQoeSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBleHBlY3RlZF95LnNoYXBlCg==</text>
+        <text encoding="base64">ICAgICAgICAjcHJpbnQoWCkK</text>
       </register>
-      <register name="8" type="8">
-        <text>]
-]
-]
-]</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChleHBlY3RlZF95KQo=</text>
       </register>
-      <register name="9" type="8">
-        <text>]
-]
-]
-]</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCh5KQo=</text>
       </register>
       <register name=":" type="4">
-        <text>s/\[1/[4/g</text>
+        <text>391</text>
       </register>
     </registers>
     <search>
-      <last-search>\[1</last-search>
+      <last-search>is_input</last-search>
       <last-offset />
-      <last-pattern>\[1</last-pattern>
+      <last-pattern>is_input</last-pattern>
       <last-replace>[4</last-replace>
       <last-substitute>\[1</last-substitute>
       <last-dir>1</last-dir>
@@ -1524,7 +1518,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PDw8PA==</entry>
         <entry>PER</entry>
         <entry>PERIO</entry>
         <entry>epochs</entry>
@@ -1544,9 +1537,9 @@
         <entry encoding="base64">XDxhc3NlcnRfYXJyYXlfZXF1YWxcPg==</entry>
         <entry>\ 2</entry>
         <entry>\[1</entry>
+        <entry>is_input</entry>
       </history-search>
       <history-cmd>
-        <entry>27</entry>
         <entry>106</entry>
         <entry>q</entry>
         <entry>%s/b1/b2/g</entry>
@@ -1566,6 +1559,7 @@
         <entry>s/\[3/[6/g</entry>
         <entry>s/\ 2/ 5/g</entry>
         <entry>s/\[1/[4/g</entry>
+        <entry>391</entry>
       </history-cmd>
       <history-expr />
       <history-input />
