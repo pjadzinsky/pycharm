@@ -14,8 +14,8 @@
         <mark key="]" line="545" column="0" />
         <mark key="." line="545" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1555537590862">
-        <mark key="'" line="52" column="22" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1555538932936">
+        <mark key="'" line="318" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" timestamp="1555526259049">
         <mark key="'" line="64" column="0" />
@@ -276,7 +276,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555537067226">
+      <file name="/Python Console" timestamp="1555538934481">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
@@ -658,7 +658,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1553721533309">
         <mark key="[" line="34" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1555537477314">
+      <file name="/Dummy.txt" timestamp="1555538910539">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
@@ -681,12 +681,12 @@
         <mark key="." line="17" column="7" />
         <mark key="^" line="17" column="7" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" timestamp="1555532086152">
-        <mark key="'" line="266" column="4" />
-        <mark key="[" line="266" column="4" />
-        <mark key="]" line="266" column="4" />
-        <mark key="." line="266" column="4" />
-        <mark key="^" line="266" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" timestamp="1555539054535">
+        <mark key="'" line="101" column="3" />
+        <mark key="[" line="176" column="4" />
+        <mark key="]" line="176" column="4" />
+        <mark key="." line="176" column="4" />
+        <mark key="^" line="176" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/simulation.py" timestamp="1553531984247">
         <mark key="'" line="20" column="60" />
@@ -756,9 +756,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="202" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
-      <jump line="646" column="70" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="651" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="654" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="144" column="62" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="170" column="11" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
@@ -856,6 +853,9 @@
       <jump line="41" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
       <jump line="266" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
       <jump line="52" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
+      <jump line="230" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
+      <jump line="101" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
+      <jump line="318" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -866,148 +866,6 @@
       </register>
       <register name="&quot;" type="8">
         <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 #
 #
 #
@@ -1585,155 +1443,13 @@
         <text>FullyConnected</text>
       </register>
       <register name="/" type="4">
-        <text>#&quot;10</text>
+        <text>inputs</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICJuX2VzdGltYXRvcnMiOiAxMCwKICAgICAgICAgICJtYXhfZGVwdGgiOiB7CiAgICAgICAgICAgICJjaG9vc2UiOiBbCiAgICAgICAgICAgICAgNAogICAgICAgICAgICBdCiAgICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="8">
         <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 #
 #
 #
@@ -1879,6 +1595,74 @@
 #
 #
 #
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #</text>
       </register>
       <register name="r" type="4">
@@ -1903,11 +1687,118 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgInBhdGgiOiAib3Bhc2FpLnRyYWluZXJzLnJhbmRvbV9mb3Jlc3QuUmFuZG9tRm9yZXN0IiwK</text>
+      <register name="3" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICJrZXJuZWxfcmVndWxhcml6ZXIiOiB7CiAgICAgICAgICAgICJwYXRoIjogImtlcmFzLnJlZ3VsYXJpemVycy5sMV9sMiIsCiAgICAgICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAgICAgImwxIjogMC4wMSwKICAgICAgICAgICAgICAibDIiOiAwLjAwMQogICAgICAgICAgICB9CiAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgInBhdGgiOiAib3Bhc2FpLnRyYWluZXJzLnJhbmRvbV9mb3Jlc3QuUmFuZG9tRm9yZXN0IiwK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1975,126 +1866,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICJoaWRkZW5fbGF5ZXJzIjogewogICAgICAgICAgICAiY2hvb3NlIjogWwogICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIDQsCiAgICAgICAgICAgICAgICA0LAogICAgICAgICAgICAgICAgNCwKICAgICAgICAgICAgICAgIDQKICAgICAgICAgICAgICBdCiAgICAgICAgICAgIF0KICAgICAgICAgIH0sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICJrZXJuZWxfcmVndWxhcml6ZXIiOiB7CiAgICAgICAgICAgICJwYXRoIjogImtlcmFzLnJlZ3VsYXJpemVycy5sMV9sMiIsCiAgICAgICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAgICAgImwxIjogMC4wMSwKICAgICAgICAgICAgICAibDIiOiAwLjAwMQogICAgICAgICAgICB9CiAgICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIChQcmVwcm9jZXNzb3JJbnRlcmZhY2UpOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICJoaWRkZW5fbGF5ZXJzIjogewogICAgICAgICAgICAiY2hvb3NlIjogWwogICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgIDQsCiAgICAgICAgICAgICAgICA0LAogICAgICAgICAgICAgICAgNCwKICAgICAgICAgICAgICAgIDQKICAgICAgICAgICAgICBdCiAgICAgICAgICAgIF0KICAgICAgICAgIH0sCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgY2xhc3MgVW5pcXVlVGFnQ3JlYXRvcihQcmVwcm9jZXNzb3JJbnRlcmZhY2UpOgo=</text>
+        <text encoding="base64">ICAgICAgICAgIChQcmVwcm9jZXNzb3JJbnRlcmZhY2UpOgo=</text>
       </register>
-      <register name="8" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgY2xhc3MgVW5pcXVlVGFnQ3JlYXRvcihQcmVwcm9jZXNzb3JJbnRlcmZhY2UpOgo=</text>
       </register>
       <register name="9" type="8">
         <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 #
 #
 #
@@ -2122,9 +1906,9 @@
       </register>
     </registers>
     <search>
-      <last-search>#&quot;10</last-search>
+      <last-search>inputs</last-search>
       <last-offset />
-      <last-pattern>#&quot;10</last-pattern>
+      <last-pattern>inputs</last-pattern>
       <last-replace>&quot;10</last-replace>
       <last-substitute>#&quot;10</last-substitute>
       <last-dir>1</last-dir>
@@ -2150,8 +1934,8 @@
         <entry>prepr</entry>
         <entry>model</entry>
         <entry>random</entry>
-        <entry>inputs</entry>
         <entry>#&quot;10</entry>
+        <entry>inputs</entry>
       </history-search>
       <history-cmd>
         <entry>s/ 5/ 4/g</entry>
