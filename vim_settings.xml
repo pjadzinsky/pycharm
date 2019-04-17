@@ -149,8 +149,8 @@
         <mark key="." line="30" column="33" />
         <mark key="^" line="30" column="33" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1555452566631">
-        <mark key="'" line="654" column="19" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1555521641047">
+        <mark key="'" line="1208" column="8" />
         <mark key="[" line="1080" column="77" />
         <mark key="]" line="1080" column="97" />
         <mark key="^" line="1080" column="97" />
@@ -723,8 +723,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_per_rate_code_rf.yaml" />
-      <jump line="60" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_per_rate_code_rf.yaml" />
       <jump line="61" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_per_rate_code_rf.yaml" />
       <jump line="71" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_per_rate_code_rf.yaml" />
       <jump line="72" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_per_rate_code_rf.yaml" />
@@ -823,6 +821,8 @@
       <jump line="46" column="15" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="47" column="12" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="60" column="69" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
+      <jump line="662" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="1208" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1377,7 +1377,7 @@
         <text>index</text>
       </register>
       <register name="/" type="4">
-        <text>extra_tags</text>
+        <text>def predict</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHNvcnRfYW5kX25vcm1hbGl6ZV90YWdfdmFsdWVzKHRhZ3MpOgo=</text>
@@ -1504,9 +1504,9 @@
       </register>
     </registers>
     <search>
-      <last-search>extra_tags</last-search>
+      <last-search>def predict</last-search>
       <last-offset />
-      <last-pattern>extra_tags</last-pattern>
+      <last-pattern>def predict</last-pattern>
       <last-replace>[4</last-replace>
       <last-substitute>\[1</last-substitute>
       <last-dir>1</last-dir>
@@ -1514,8 +1514,6 @@
     </search>
     <history>
       <history-search>
-        <entry>b1</entry>
-        <entry>model</entry>
         <entry encoding="base64">IDI=</entry>
         <entry>7</entry>
         <entry encoding="base64">IDE=</entry>
@@ -1534,6 +1532,8 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>def update</entry>
         <entry>extra_tags</entry>
+        <entry>def metrics_du</entry>
+        <entry>def predict</entry>
       </history-search>
       <history-cmd>
         <entry>q</entry>
