@@ -583,12 +583,12 @@
         <mark key="." line="98" column="43" />
         <mark key="^" line="98" column="43" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555546518005">
-        <mark key="'" line="96" column="6" />
-        <mark key="[" line="102" column="51" />
-        <mark key="]" line="102" column="51" />
-        <mark key="." line="102" column="51" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555549726741">
+        <mark key="'" line="104" column="0" />
+        <mark key="[" line="104" column="0" />
+        <mark key="]" line="104" column="0" />
         <mark key="^" line="102" column="103" />
+        <mark key="." line="104" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_2.yaml" timestamp="1555015053248">
         <mark key="'" line="72" column="25" />
@@ -760,10 +760,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
-      <jump line="40" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
-      <jump line="63" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
-      <jump line="73" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
       <jump line="82" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
       <jump line="103" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
       <jump line="121" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" />
@@ -859,7 +855,11 @@
       <jump line="168" column="92" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="169" column="51" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="637" column="30" filename="$USER_HOME$/envs/crypto/lib/python3.6/codecs.py" />
-      <jump line="96" column="6" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="96" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="147" column="28" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="156" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="164" column="5" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="104" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -868,8 +868,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>s</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCgnKicqMTApCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1414,19 +1414,19 @@
         <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>set_option</text>
+        <text>print</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChkb3duc2FtcGxlZF9kZi5pbG9jWzBdW1sncXVhbnRpdHknXV0pCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGQgPSB7dDogc3RhcnRfcXVvdGUgLyBOIC8gcGl2b3RlZC5pbG9jWzBdWygnY2xvc2UnLCB0KV0gZm9yIHQgaW4gdGlja2Vyc30K</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgnKicqMTApCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIG9yaWdpbmFsX3F1YW50aXRpZXMgPSBbc3RhcnRfcXVvdGUgLyBOIC8gcGl2b3RlZC5pbG9jWzBdWygnY2xvc2UnLCB0KV0gZm9yIHQgaW4gdGlja2Vyc10K</text>
+        <text encoding="base64">ICAgICAgICBwcmludChkb3duc2FtcGxlZF9kZi5pbG9jWy0xXVtbJ2Nsb3NlJ11dKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1451,10 +1451,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgW3N0YXJ0X3F1b3RlIC8gTiAvIGRvd25zYW1wbGVkX2RmLmlsb2NbMF1bKCdjbG9zZScsIHQpXSBmb3IgdCBpbiB0aWNrZXJzXQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChkb3duc2FtcGxlZF9kZi5pbG9jWzBdW1sncXVhbnRpdHknXV0pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBcCg==</text>
+        <text encoding="base64">ICAgIGV4Y2hhbmdlX2FuZF90aWNrZXJzID0gWyhleGNoYW5nZXNfbW9kLnBvbG9uaWV4LCAnRkNUL0JUQycpLCAoZXhjaGFuZ2VzX21vZC5wb2xvbmlleCwgJ1hMTS9CVEMnKV0KICAgIHNpbmNlID0gdXRpbWUubm93KCkgKiAxMDAwIC0gdXRpbWUuT05FREFZICogMTAwMCAqIDM2NSAvMgogICAgcmViYWxhbmNlKGV4Y2hhbmdlX2FuZF90aWNrZXJzLCBzdGFydF9xdW90ZT0xLCBzaW5jZT1zaW5jZSwgcGFyYW1zPXt9LCBwbG90PUZhbHNlLCBkZWJ1Z2dpbmc9RmFsc2UpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1522,343 +1522,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgIGQgPSB7dDogc3RhcnRfcXVvdGUgLyBOIC8gcGl2b3RlZC5pbG9jWzBdWygnY2xvc2UnLCB0KV0gZm9yIHQgaW4gdGlja2Vyc30K</text>
       </register>
-      <register name="6" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIG9yaWdpbmFsX3F1YW50aXRpZXMgPSBbc3RhcnRfcXVvdGUgLyBOIC8gcGl2b3RlZC5pbG9jWzBdWygnY2xvc2UnLCB0KV0gZm9yIHQgaW4gdGlja2Vyc10K</text>
       </register>
-      <register name="7" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgW3N0YXJ0X3F1b3RlIC8gTiAvIGRvd25zYW1wbGVkX2RmLmlsb2NbMF1bKCdjbG9zZScsIHQpXSBmb3IgdCBpbiB0aWNrZXJzXQo=</text>
       </register>
-      <register name="8" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBcCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgInBhdGgiOiAib3Bhc2FpLnRyYWluZXJzLnJhbmRvbV9mb3Jlc3QuUmFuZG9tRm9yZXN0IiwK</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>set_option</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>set_option</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>&quot;10</last-replace>
       <last-substitute>#&quot;10</last-substitute>
       <last-dir>1</last-dir>
@@ -1866,7 +1551,6 @@
     </search>
     <history>
       <history-search>
-        <entry>extra_tags</entry>
         <entry>def metrics_du</entry>
         <entry>def predict</entry>
         <entry>epochs</entry>
@@ -1886,6 +1570,7 @@
         <entry>inputs</entry>
         <entry>since</entry>
         <entry>set_option</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
         <entry>s/ 5/ 4/g</entry>
