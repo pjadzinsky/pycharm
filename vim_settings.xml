@@ -14,8 +14,12 @@
         <mark key="]" line="545" column="0" />
         <mark key="." line="545" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1555541561404">
-        <mark key="'" line="318" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" timestamp="1555611078163">
+        <mark key="'" line="146" column="0" />
+        <mark key="[" line="16" column="51" />
+        <mark key="]" line="16" column="48" />
+        <mark key="." line="16" column="48" />
+        <mark key="^" line="16" column="48" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer_script.py" timestamp="1555526259049">
         <mark key="'" line="64" column="0" />
@@ -743,7 +747,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="15" column="25" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="27" column="33" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="29" column="33" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
@@ -843,6 +846,7 @@
       <jump line="2" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/README_learn_inputs.md" />
       <jump line="38" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/README_learn_inputs.md" />
       <jump line="52" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/README_learn_inputs.md" />
+      <jump line="145" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/inputs_trainer_script.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -851,8 +855,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">LS1yZW1vdmluZ19wYXRpZW5jZSAxMCAgIyBkb24ndCB3b3JyeSB0b28gbXVjaCBmb3IgdGhlIHRpbWUgYmVpbmcgYWJvdXQgdGhpcwo=</text>
+      <register name="&quot;" type="4">
+        <text>ModelConfigId</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1394,7 +1398,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>experience</text>
+        <text>ModelConfigId</text>
       </register>
       <register name="/" type="4">
         <text>Execute</text>
@@ -1403,13 +1407,13 @@
         <text encoding="base64">ICAgIGZpbGVuYW1lID0gJy9tbnQvc2luZ2xlX21ldHJpY19pbmZvcm1hdGlvbl9mb3Jfe31fe31fe31fe30uY3N2Jy5mb3JtYXQoYWNjb3VudF9pZCwgaG9zdCwgc3RhcnQsIHV0aW1lLm5vdygpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">LS1yZW1vdmluZ19wYXRpZW5jZSAxMCAgIyBkb24ndCB3b3JyeSB0b28gbXVjaCBmb3IgdGhlIHRpbWUgYmVpbmcgYWJvdXQgdGhpcwo=</text>
+        <text encoding="base64">ZnJvbSBvcGFzYWkuY29tbW9uIGltcG9ydCB1dGltZQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICwgbWFrZSBzdXJlIGNvbHVtbiB3aXRoIHNoYW5ub24ncyBtdXR1YWwgaW5mb3JtYXRpb24gaXMgbm90IHByZXNlbnQgYW55bW9yZQo=</text>
+        <text encoding="base64">U0VOVElORUwgPSAxMDAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1434,10 +1438,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICogQXQgdGhpcyBwb2ludCB0aGUgaW5mb3JtYXRpb24gaXMgbm90IHVzZWQgYW55bW9yZS4gRHJvcCB0aGUgaW5mb3JtYXRpb24gY29sdW1uCg==</text>
+        <text encoding="base64">ICAgICAgICBTRU5USU5FTCA9IDEwMAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">YXV0b21hdGljYWxseSBnZW5lcmF0ZWQgbm93IHRvIAo=</text>
+        <text encoding="base64">ICAgICAgICBjb25maWdfaWQgPSBNb2RlbENvbmZpZ0lkLmZyb21fcGF0aChtb2RlbF9jb25maWdfcGF0aCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1505,22 +1509,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">L21udC9zaW5nbGVfbWV0cmljX2luZm9ybWF0aW9uX2Zvcl88YWNjb3VudF9pZD5fPGhvc3Q+XzxzdGFydD5fPHJ1bl90aW1lPi5odG1sIGJ1dCBpdCBpcyBub3QgdGVzdGVkIHlldC4K</text>
+        <text encoding="base64">LS1yZW1vdmluZ19wYXRpZW5jZSAxMCAgIyBkb24ndCB3b3JyeSB0b28gbXVjaCBmb3IgdGhlIHRpbWUgYmVpbmcgYWJvdXQgdGhpcwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dGhyZXNob2xkIG9mIG1ldHJpY3MgdG8gdGhyb3cgYXdheS4gUGxvdCB3aWxsIGJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIG5vdyB0byAK</text>
+        <text encoding="base64">ICAgICwgbWFrZSBzdXJlIGNvbHVtbiB3aXRoIHNoYW5ub24ncyBtdXR1YWwgaW5mb3JtYXRpb24gaXMgbm90IHByZXNlbnQgYW55bW9yZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGZpbGVuYW1lID0gJy9tbnQvc2luZ2xlX21ldHJpY19pbmZvcm1hdGlvbl9mb3Jfe31fe31fe31fe30uY3N2Jy5mb3JtYXQoYWNjb3VudF9pZCwgaG9zdCwgc3RhcnQsIHV0aW1lLm5vdygpKQo=</text>
+        <text encoding="base64">ICAgICogQXQgdGhpcyBwb2ludCB0aGUgaW5mb3JtYXRpb24gaXMgbm90IHVzZWQgYW55bW9yZS4gRHJvcCB0aGUgaW5mb3JtYXRpb24gY29sdW1uCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBhbXBsaXR1ZGU9WzFdLAogICAgICAgICAgICAgICAgICAgICAgICAgIG9mZnNldF9zPVswXSwKICAgICAgICAgICAgICAgICAgICAgICAgICBwZXJpb2Q9W3V0aW1lLk9ORURBWV0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgbnVtX3N5bWJvbHM9WzVdCg==</text>
+        <text encoding="base64">YXV0b21hdGljYWxseSBnZW5lcmF0ZWQgbm93IHRvIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBudW1fc3ltYm9scwo=</text>
+        <text encoding="base64">L21udC9zaW5nbGVfbWV0cmljX2luZm9ybWF0aW9uX2Zvcl88YWNjb3VudF9pZD5fPGhvc3Q+XzxzdGFydD5fPHJ1bl90aW1lPi5odG1sIGJ1dCBpdCBpcyBub3QgdGVzdGVkIHlldC4K</text>
       </register>
       <register name=":" type="4">
-        <text>%s/suggestions_first_pass_all_hosts/single_metric_information/g</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -1568,7 +1572,6 @@
         <entry>183</entry>
         <entry>%s/#&quot;10/&quot;10/g</entry>
         <entry>55</entry>
-        <entry>q</entry>
         <entry>s/ = //g</entry>
         <entry>s/ = /=/g</entry>
         <entry>%s/\.DAY/ONEDAY/g</entry>
@@ -1576,6 +1579,7 @@
         <entry>%s/amp=/amplitude=/g</entry>
         <entry>%s/offset=/offset_s=/g</entry>
         <entry>%s/suggestions_first_pass_all_hosts/single_metric_information/g</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
