@@ -70,10 +70,6 @@
         <mark key="^" line="672" column="56" />
         <mark key="." line="672" column="56" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/unique_tag_creator.py" timestamp="1555537060239">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="46" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_selector/tests/test_drop_sentinel_rows.py" timestamp="1551213592618">
         <mark key="[" line="71" column="24" />
       </file>
@@ -577,6 +573,13 @@
         <mark key="^" line="59" column="6" />
         <mark key="." line="59" column="6" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_rf.yaml" timestamp="1555695878288">
+        <mark key="'" line="32" column="22" />
+        <mark key="[" line="69" column="21" />
+        <mark key="]" line="69" column="22" />
+        <mark key="^" line="58" column="24" />
+        <mark key="." line="69" column="22" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/buildup_0/cnn1d_inputs_2_output.yaml" timestamp="1555448207540">
         <mark key="'" line="54" column="5" />
         <mark key="[" line="56" column="0" />
@@ -734,8 +737,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="148" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
-      <jump line="185" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
       <jump line="207" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
       <jump line="229" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
       <jump line="251" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/from_vinesh.yaml" />
@@ -834,6 +835,8 @@
       <jump line="1849" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1885" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="732" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_rf.yaml" />
+      <jump line="32" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_rf.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -843,7 +846,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFJhaXNlcyhBc3NlcnRpb25FcnJvciwgbW9kZWwudHJhaW5fbmV3LCBtZXRyaWNzLCBpbnRlcnZhbHMsIHN0YXJ0LCBlbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzZXRfbW9kZWw9RmFsc2UsIGxvZ3NfcGF0aD0nL3RtcCcpCiAgICAgICAgc2VsZi5hc3NlcnRSYWlzZXMoQXNzZXJ0aW9uRXJyb3IsIG1vZGVsLnRyYWluX29sZCwgbWV0cmljc1snaW5wdXQnXVsndHJhaW5pbmcnXSwgbWV0cmljc1snb3V0cHV0J11bJ3RyYWluaW5nJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnQsIGVuZCwgcmVzZXRfbW9kZWw9RmFsc2UsIGxvZ3NfcGF0aD0nL3RtcCcpCg==</text>
+        <text encoding="base64">ICAgICAgInNob3J0X25hbWUiOiAiaTEiLAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1388,10 +1391,10 @@
         <text>self</text>
       </register>
       <register name="/" type="4">
-        <text>def train</text>
+        <text>inputs</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBvbmVfbWV0cmljLmtleS5xdWVyeSA9IHF1ZXJ5LlF1ZXJ5KCdtJywgJ2UoKScsIHt9LCBbXSwgc2hvcnRfbmFtZT0naTEnKQo=</text>
+        <text encoding="base64">ICAgICAgInNob3J0X25hbWUiOiAiaTEiLAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydFJhaXNlcyhBc3NlcnRpb25FcnJvciwgbW9kZWwudHJhaW5fbmV3LCBtZXRyaWNzLCBpbnRlcnZhbHMsIHN0YXJ0LCBlbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzZXRfbW9kZWw9RmFsc2UsIGxvZ3NfcGF0aD0nL3RtcCcpCiAgICAgICAgc2VsZi5hc3NlcnRSYWlzZXMoQXNzZXJ0aW9uRXJyb3IsIG1vZGVsLnRyYWluX29sZCwgbWV0cmljc1snaW5wdXQnXVsndHJhaW5pbmcnXSwgbWV0cmljc1snb3V0cHV0J11bJ3RyYWluaW5nJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnQsIGVuZCwgcmVzZXRfbW9kZWw9RmFsc2UsIGxvZ3NfcGF0aD0nL3RtcCcpCg==</text>
@@ -1515,9 +1518,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def train</last-search>
+      <last-search>inputs</last-search>
       <last-offset />
-      <last-pattern>def train</last-pattern>
+      <last-pattern>inputs</last-pattern>
       <last-replace>single_metric_information</last-replace>
       <last-substitute>suggestions_first_pass_all_hosts</last-substitute>
       <last-dir>1</last-dir>
@@ -1525,7 +1528,6 @@
     </search>
     <history>
       <history-search>
-        <entry>amplitud</entry>
         <entry encoding="base64">ID0g</entry>
         <entry>m</entry>
         <entry>\.DAY</entry>
@@ -1545,6 +1547,7 @@
         <entry>def _process_data</entry>
         <entry>def train_new</entry>
         <entry>def train</entry>
+        <entry>inputs</entry>
       </history-search>
       <history-cmd>
         <entry>s/\[1/[4/g</entry>
