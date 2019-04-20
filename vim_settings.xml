@@ -210,6 +210,13 @@
         <mark key="." line="71" column="24" />
         <mark key="^" line="3" column="22" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1555721723316">
+        <mark key="'" line="232" column="8" />
+        <mark key="[" line="243" column="34" />
+        <mark key="]" line="243" column="45" />
+        <mark key="." line="243" column="45" />
+        <mark key="^" line="243" column="45" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/feature_creator/time_change_feature_creator.py" timestamp="1555353731163">
         <mark key="'" line="12" column="32" />
         <mark key="[" line="17" column="14" />
@@ -756,8 +763,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="187" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="748" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="228" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="758" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="879" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -856,6 +861,8 @@
       <jump line="128" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="844" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/storage_client.py" />
       <jump line="82" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
+      <jump line="232" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -864,8 +871,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>_</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1407,10 +1414,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.cpu_count()*2</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDwnXD4=</text>
+        <text>train_</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjcG9vbCA9IFBvb2wobXVsdGlwcm9jZXNzaW5nLmNwdV9jb3VudCgpKjIpCg==</text>
@@ -1537,17 +1544,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDwnXD4=</last-search>
+      <last-search>train_</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDwnXD4=</last-pattern>
+      <last-pattern>train_</last-pattern>
       <last-replace>single_metric_information</last-replace>
       <last-substitute>suggestions_first_pass_all_hosts</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>def train</entry>
         <entry>def dumm</entry>
         <entry>__eq__</entry>
         <entry>measurement</entry>
@@ -1567,6 +1573,7 @@
         <entry>client</entry>
         <entry>pool</entry>
         <entry encoding="base64">XDwnXD4=</entry>
+        <entry>train_</entry>
       </history-search>
       <history-cmd>
         <entry>%s/amp=/amplitude=/g</entry>
