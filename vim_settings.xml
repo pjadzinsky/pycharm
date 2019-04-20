@@ -264,7 +264,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555783059370">
+      <file name="/Python Console" timestamp="1555784704394">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="101" />
         <mark key="." line="0" column="29" />
@@ -300,12 +300,12 @@
         <mark key="." line="39" column="22" />
         <mark key="^" line="39" column="22" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" timestamp="1555783055861">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" timestamp="1555785080660">
         <mark key="'" line="34" column="8" />
-        <mark key="[" line="62" column="56" />
-        <mark key="]" line="57" column="19" />
-        <mark key="." line="57" column="19" />
-        <mark key="^" line="57" column="40" />
+        <mark key="[" line="55" column="75" />
+        <mark key="]" line="55" column="76" />
+        <mark key="." line="55" column="76" />
+        <mark key="^" line="55" column="76" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/common/log.py" timestamp="1554593988609">
         <mark key="'" line="0" column="0" />
@@ -603,12 +603,12 @@
         <mark key="." line="57" column="14" />
         <mark key="^" line="57" column="14" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555782472720">
-        <mark key="'" line="158" column="4" />
-        <mark key="[" line="91" column="15" />
-        <mark key="]" line="91" column="11" />
-        <mark key="." line="91" column="11" />
-        <mark key="^" line="91" column="11" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555785102078">
+        <mark key="'" line="147" column="11" />
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="75" />
+        <mark key="." line="63" column="4" />
+        <mark key="^" line="63" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/cnn1d_input_2.yaml" timestamp="1555015053248">
         <mark key="'" line="72" column="25" />
@@ -812,8 +812,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_interval_type.py" />
-      <jump line="5" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/post_processors_utils.py" />
       <jump line="6" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/post_processors_utils.py" />
       <jump line="7" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/post_processors_utils.py" />
       <jump line="8" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/post_processors_utils.py" />
@@ -892,7 +890,6 @@
       <jump line="35" column="42" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" />
       <jump line="3" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" />
       <jump line="115" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="147" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="162" column="3" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="122" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="167" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
@@ -912,6 +909,9 @@
       <jump line="76" column="64" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="94" column="40" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="159" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="242" column="19" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="146" column="43" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="147" column="11" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -921,7 +921,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>p.arange(t0, t1, utime.ONEDAY*1000)</text>
+        <text>def</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1463,22 +1463,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>p.arange(t0, t1, utime.ONEDAY*1000)</text>
+        <text>def</text>
       </register>
       <register name="/" type="4">
-        <text>exchanges</text>
+        <text>since</text>
       </register>
-      <register name="0" type="4">
-        <text>test_rebalance_pivoted_df_at_different_timeframes</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZGVmIHJlYmFsYW5jZShleGNoYW5nZV9hbmRfdGlja2Vycywgc3RhcnRfcXVvdGU9MSwgc2luY2U9Tm9uZSwgcGxvdD1GYWxzZSk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHV0aW1lLk9ORURBWSAqIDEwMDAK</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGV4Y2hhbmdlcyA9IHNldChbZV9hbmRfdFswXSBmb3IgZV9hbmRfdCBpbiBleGNoYW5nZV9hbmRfdGlja2Vyc10pCg==</text>
+        <text encoding="base64">ICAgIGlmIHRpbWVmcmFtZSA9PSAnMWQnOgogICAgICAgIHRpbWVmcmFtZV9ucyA9IHV0aW1lLk9ORURBWSAqIDFFOQogICAgZWxzZToKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1503,10 +1503,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHQwID0gJzIwMTktMDEtMDEnCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB4ID0gbnAucmFuZG9tLnJhbmRuKDEwMCkKICAgICAgICB0MSA9IHV0aW1lLm5vdygpICogMTAwMAogICAgICAgIE4gPSAxMDAKICAgICAgICB0MCA9IHQxIC0gTiAqIHV0aW1lLk9ORURBWSAqIDEwMDAKICAgICAgICBpbmRleCA9IG5wLmFyYW5nZSh0MCwgdDEsIHV0aW1lLk9ORURBWSoxMDAwKQogICAgICAgIHBpdm90ZWRfZGYgPSBwZC5EYXRhRnJhbWUoeygnY2xvc2UnLCAnWFhYL1paWicpOiB4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgncXVhbnRpdHknLCAnWFhYL1paWicpOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgnY2xvc2UnLCAnWVlZL1paWicpOiAxMCAqIHgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCdxdWFudGl0eScsICdZWVkvWlpaJyk6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwgaW5kZXg9aW5kZXgpCiAgICAgICAgcGl2b3RlZF9kZi5pbmRleC5uYW1lID0gJ3RpbWUnCgo=</text>
+        <text encoding="base64">ICAgIHQxIC0gTiAqIHRpbWVmcmFtZV9ucwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1574,28 +1574,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB4ID0gbnAucmFuZG9tLnJhbmRuKDEwMCkKICAgICAgICB0MSA9IHV0aW1lLm5vdygpICogMTAwMAogICAgICAgIE4gPSAxMDAKICAgICAgICB0MCA9IHQxIC0gTiAqIHV0aW1lLk9ORURBWSAqIDEwMDAKICAgICAgICBpbmRleCA9IG5wLmFyYW5nZSh0MCwgdDEsIHV0aW1lLk9ORURBWSoxMDAwKQogICAgICAgIHBpdm90ZWRfZGYgPSBwZC5EYXRhRnJhbWUoeygnY2xvc2UnLCAnWFhYL1paWicpOiB4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgncXVhbnRpdHknLCAnWFhYL1paWicpOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgnY2xvc2UnLCAnWVlZL1paWicpOiAxMCAqIHgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCdxdWFudGl0eScsICdZWVkvWlpaJyk6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwgaW5kZXg9aW5kZXgpCg==</text>
+        <text encoding="base64">ICAgIHV0aW1lLm5vdygpICogMUU5Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZWJhbGFuY2VfcmF0ZSwgaG9sZGluZ19yYXRlLCBjb3JyCg==</text>
+        <text encoding="base64">ICAgIHV0aW1lLk9ORURBWSAqIDEwMDAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcmViYWxhbmNlX3JhdGUsIGhvbGRpbmdfcmF0ZSwgY29ycgo=</text>
+        <text encoding="base64">ICAgIGV4Y2hhbmdlcyA9IHNldChbZV9hbmRfdFswXSBmb3IgZV9hbmRfdCBpbiBleGNoYW5nZV9hbmRfdGlja2Vyc10pCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGluIHRoZSAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkb3duc2FtcGxlZF9kZi5sb2NbOiwgJ3RvdGFsJ10gPSBzdGFydF9xdW90ZQo=</text>
+        <text encoding="base64">ICAgICAgICB4ID0gbnAucmFuZG9tLnJhbmRuKDEwMCkKICAgICAgICB0MSA9IHV0aW1lLm5vdygpICogMTAwMAogICAgICAgIE4gPSAxMDAKICAgICAgICB0MCA9IHQxIC0gTiAqIHV0aW1lLk9ORURBWSAqIDEwMDAKICAgICAgICBpbmRleCA9IG5wLmFyYW5nZSh0MCwgdDEsIHV0aW1lLk9ORURBWSoxMDAwKQogICAgICAgIHBpdm90ZWRfZGYgPSBwZC5EYXRhRnJhbWUoeygnY2xvc2UnLCAnWFhYL1paWicpOiB4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgncXVhbnRpdHknLCAnWFhYL1paWicpOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgnY2xvc2UnLCAnWVlZL1paWicpOiAxMCAqIHgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCdxdWFudGl0eScsICdZWVkvWlpaJyk6IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwgaW5kZXg9aW5kZXgpCiAgICAgICAgcGl2b3RlZF9kZi5pbmRleC5uYW1lID0gJ3RpbWUnCgo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/effective_rate/rebalance_rate/gc</text>
       </register>
     </registers>
     <search>
-      <last-search>exchanges</last-search>
+      <last-search>since</last-search>
       <last-offset />
-      <last-pattern>exchanges</last-pattern>
+      <last-pattern>since</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1614,7 +1614,6 @@
         <entry>utils</entry>
         <entry encoding="base64">PDw8PA==</entry>
         <entry encoding="base64">Pj4+Pj4=</entry>
-        <entry>since</entry>
         <entry>def get</entry>
         <entry>original_quantities</entry>
         <entry>levels</entry>
@@ -1623,6 +1622,7 @@
         <entry>effecitve_rate</entry>
         <entry>effective_rate</entry>
         <entry>exchanges</entry>
+        <entry>since</entry>
       </history-search>
       <history-cmd>
         <entry>376</entry>
