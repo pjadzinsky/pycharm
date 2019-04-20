@@ -477,12 +477,12 @@
         <mark key="." line="304" column="40" />
         <mark key="^" line="304" column="40" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" timestamp="1555731830847">
-        <mark key="'" line="36" column="54" />
-        <mark key="[" line="43" column="67" />
-        <mark key="]" line="43" column="67" />
-        <mark key="^" line="49" column="36" />
-        <mark key="." line="43" column="67" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" timestamp="1555742079359">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="0" />
+        <mark key="^" line="47" column="66" />
+        <mark key="." line="60" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/simulations/seasonality_1/rnn_input_1.yaml" timestamp="1554423969765">
         <mark key="'" line="91" column="24" />
@@ -784,8 +784,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/nyc_revenue_rf.yaml" />
-      <jump line="766" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="60" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/fully_connected.yaml" />
       <jump line="23" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="290" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_sequential_rnn.py" />
@@ -884,6 +882,8 @@
       <jump line="19" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="99" column="39" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="7" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
+      <jump line="51" column="65" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -892,8 +892,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>modelinterval_s</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Pj4+Pj4+PiBTbWFsbCBjaGFuZ2UgdG8gcHVzaCBpbnRlcnZhbF90eXBlIGFsb25nIHdpdGggbWV0cmljcyB0byBzdG9yYWdlCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1438,19 +1438,19 @@
         <text>modelinterval_s</text>
       </register>
       <register name="/" type="4">
-        <text>utils</text>
+        <text encoding="base64">Pj4+Pj4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjcG9vbCA9IFBvb2wobXVsdGlwcm9jZXNzaW5nLmNwdV9jb3VudCgpKjIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbnRlcnZhbF9zID0gc2VsZi5wYXJhbXNbJ21vZGVsJ10uaW50ZXJ2YWxfcwo=</text>
+        <text encoding="base64">Pj4+Pj4+PiBTbWFsbCBjaGFuZ2UgdG8gcHVzaCBpbnRlcnZhbF90eXBlIGFsb25nIHdpdGggbWV0cmljcyB0byBzdG9yYWdlCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI3BtLmtleS5tZWFzdXJlbWVudCA9ICdBJwogICAgICAgICAgICAjcG0ua2V5LmV4cHJlc3Npb24gPSAnbWVhbihle30pJy5mb3JtYXQoaSkK</text>
+        <text encoding="base64">PT09PT09PQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1475,10 +1475,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucG9zdF9wcm9jZXNzb3JzX3V0aWxzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5pbnRlcnZhbF90eXBlX3B1c2hlci5wcm9jZXNzKHBhcmFtcykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2J1ZmZlcl9pbnRlcnZhbHMnOiBidWZmZXJfaW50ZXJ2YWxzLAo=</text>
+        <text encoding="base64">PDw8PDw8PCA4MWMxYmJjN2RlMzZmNzZmZmIxYWYyNjhjMDk5YjllNWJjY2NkOWEzCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1546,28 +1546,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3ZhbF9pbnRlcnZhbHMnOiB2YWxfaW50ZXJ2YWxzLAo=</text>
+        <text encoding="base64">Pj4+Pj4+PiBTbWFsbCBjaGFuZ2UgdG8gcHVzaCBpbnRlcnZhbF90eXBlIGFsb25nIHdpdGggbWV0cmljcyB0byBzdG9yYWdlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG1vZGVsLnZhbF9pbnRlcnZhbHMgPSB2YWxfaW50ZXJ2YWxzCiAgICBtb2RlbC5idWZmZXJfaW50ZXJ2YWxzID0gYnVmZmVyX2ludGVydmFscwo=</text>
+        <text encoding="base64">PDw8PDw8PCA4MWMxYmJjN2RlMzZmNzZmZmIxYWYyNjhjMDk5YjllNWJjY2NkOWEzCiAgICAgICAgc2VsZi5pbnRlcnZhbF90eXBlX3B1c2hlciA9IFB1c2hJbnRlcnZhbFR5cGUoKQo9PT09PT09Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCB2YWxfaW50ZXJ2YWxzOgo=</text>
+        <text encoding="base64">ICAgICAgICBpbnRlcnZhbF9zID0gc2VsZi5wYXJhbXNbJ21vZGVsJ10uaW50ZXJ2YWxfcwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2J1ZmZlcic6IAogICAgICAgIGJ1ZmZlcl9pbnRlcnZhbHMgPSBbdXRpbWUuSW50ZXJ2YWwoMjAsIDMwKV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgI3BtLmtleS5tZWFzdXJlbWVudCA9ICdBJwogICAgICAgICAgICAjcG0ua2V5LmV4cHJlc3Npb24gPSAnbWVhbihle30pJy5mb3JtYXQoaSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsX2ludGVydmFscz12YWxfaW50ZXJ2YWxzLCBidWZmZXJfaW50ZXJ2YWxzPWJ1ZmZlcl9pbnRlcnZhbHMpCg==</text>
+        <text encoding="base64">aW1wb3J0IG9wYXNhaS50cmFpbmVycy5wb3N0X3Byb2Nlc3NvcnMucG9zdF9wcm9jZXNzb3JzX3V0aWxzCg==</text>
       </register>
       <register name=":" type="4">
         <text>67</text>
       </register>
     </registers>
     <search>
-      <last-search>utils</last-search>
+      <last-search encoding="base64">Pj4+Pj4=</last-search>
       <last-offset />
-      <last-pattern>utils</last-pattern>
+      <last-pattern encoding="base64">Pj4+Pj4=</last-pattern>
       <last-replace>single_metric_information</last-replace>
       <last-substitute>suggestions_first_pass_all_hosts</last-substitute>
       <last-dir>1</last-dir>
@@ -1575,8 +1575,6 @@
     </search>
     <history>
       <history-search>
-        <entry>TestReg</entry>
-        <entry>class TestRandomForestW</entry>
         <entry>inputs</entry>
         <entry>query</entry>
         <entry>Interval</entry>
@@ -1595,6 +1593,8 @@
         <entry>intervals</entry>
         <entry>train</entry>
         <entry>utils</entry>
+        <entry encoding="base64">PDw8PA==</entry>
+        <entry encoding="base64">Pj4+Pj4=</entry>
       </history-search>
       <history-cmd>
         <entry>166</entry>
