@@ -333,6 +333,7 @@
         <mark key="." line="57" column="27" />
         <mark key="^" line="57" column="27" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1555858018249" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/adobe/config_1.yaml" timestamp="1553896891147">
         <mark key="'" line="9" column="33" />
         <mark key="[" line="27" column="0" />
@@ -579,7 +580,6 @@
         <mark key="." line="15" column="14" />
         <mark key="^" line="15" column="69" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_metrics_per_pipeline.py" timestamp="1555729492850" />
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/common/bms_utils.py" timestamp="1553731530745">
         <mark key="'" line="27" column="14" />
         <mark key="[" line="33" column="0" />
@@ -601,12 +601,12 @@
         <mark key="." line="57" column="14" />
         <mark key="^" line="57" column="14" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555857210903">
-        <mark key="'" line="145" column="37" />
-        <mark key="[" line="261" column="0" />
-        <mark key="]" line="261" column="56" />
-        <mark key="." line="261" column="56" />
-        <mark key="^" line="261" column="52" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555859183519">
+        <mark key="'" line="15" column="0" />
+        <mark key="[" line="313" column="54" />
+        <mark key="]" line="313" column="51" />
+        <mark key="." line="313" column="51" />
+        <mark key="^" line="313" column="51" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/common/utime.py" timestamp="1555786853449">
         <mark key="e" line="112" column="18" />
@@ -817,7 +817,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="96" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="78" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="1" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="1157" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -887,7 +886,6 @@
       <jump line="65" column="74" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="238" column="78" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="264" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="15" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="48" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="68" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="75" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
@@ -917,6 +915,8 @@
       <jump line="165" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="150" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="149" column="37" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="320" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -925,8 +925,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHdpdGggb3BlbihSRVBPUlRfRklMRSwgJ2ErdCcpIGFzIGZpZDoK</text>
+      <register name="&quot;" type="4">
+        <text>exchanges_mod.bittrex</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1468,7 +1468,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>exchanges_mod.bittrex</text>
       </register>
       <register name="/" type="4">
         <text>rebalance_rate</text>
@@ -1477,13 +1477,13 @@
         <text encoding="base64">ICAgIHdpdGggb3BlbihSRVBPUlRfRklMRSwgJ2ErdCcpIGFzIGZpZDoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmaWQud3JpdGUoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgbWF5YmUgaXQgaXMgYmV0dGVyIHRvIHB1dCBob2xkaW5nX3JhdGUgaW50byByZWJhbGFuY2VfcGl2b3RlZF9kZl9hdF9kaWZmZXJlbnRfdGltZWZyYW1lcwogICAgIyBhcyBpdCB3YXMgYmVmb3JlLiBJdCBpcyB0cnVlIHRoYXQgaXQgd2lsbCBkZXBlbmQgb24gdGhlIHBhcnRpY3VsYXIgbGFzdCBkYXkgb2YgdGhlIHNpbXVsYXRpb24KICAgICMgYnV0IGl0IGlzIGJldHRlciB0aGFuIHRyeWluZyB0byBlbnN1cmUgdGhhdCBhbGwgc2ltdWxhdGlvbnMgZW5kIG9uIHRoZSBzYW1lIGRhdGUuCiAgICAjIE90aGVyd2lzZSB3ZSBjb3VsZCBoYXZlIGEgcHJvYmxlbSB3aGVyZSBhIHNpbXVsYXRpb24gZmluaXNoZWQgb24gZGF5IE4gYnV0IHRoZSBob2xkaW5nCiAgICAjIHJhdGUgd2FzIGNvbXB1dGVkIGJzZWQgb24gYSByYXRlIGJlZm9yZS9hZnRlciBsZWFkaW5nIHRvIHN0cmFuZ2UgcmVzdWx0cwo=</text>
+        <text encoding="base64">ZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1508,10 +1508,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBob2xkaW5nX3JhdGUgPSBnZXRfaG9sZGluZ19yYXRlKGRvd25zYW1wbGVkX2RmLCBzdGFydF9xdW90ZSkK</text>
+        <text encoding="base64">ICAgICAgICBmaWQud3JpdGUoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBob2xkaW5nX3RvdGFsID0gKGRvd25zYW1wbGVkX2RmLmlsb2NbMF1bJ3F1YW50aXR5J10gKiBkb3duc2FtcGxlZF9kZi5pbG9jWy0xXVsnY2xvc2UnXSkuc3VtKCkK</text>
+        <text encoding="base64">ICAgICMgbWF5YmUgaXQgaXMgYmV0dGVyIHRvIHB1dCBob2xkaW5nX3JhdGUgaW50byByZWJhbGFuY2VfcGl2b3RlZF9kZl9hdF9kaWZmZXJlbnRfdGltZWZyYW1lcwogICAgIyBhcyBpdCB3YXMgYmVmb3JlLiBJdCBpcyB0cnVlIHRoYXQgaXQgd2lsbCBkZXBlbmQgb24gdGhlIHBhcnRpY3VsYXIgbGFzdCBkYXkgb2YgdGhlIHNpbXVsYXRpb24KICAgICMgYnV0IGl0IGlzIGJldHRlciB0aGFuIHRyeWluZyB0byBlbnN1cmUgdGhhdCBhbGwgc2ltdWxhdGlvbnMgZW5kIG9uIHRoZSBzYW1lIGRhdGUuCiAgICAjIE90aGVyd2lzZSB3ZSBjb3VsZCBoYXZlIGEgcHJvYmxlbSB3aGVyZSBhIHNpbXVsYXRpb24gZmluaXNoZWQgb24gZGF5IE4gYnV0IHRoZSBob2xkaW5nCiAgICAjIHJhdGUgd2FzIGNvbXB1dGVkIGJzZWQgb24gYSByYXRlIGJlZm9yZS9hZnRlciBsZWFkaW5nIHRvIHN0cmFuZ2UgcmVzdWx0cwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1579,19 +1579,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGhvbGRpbmdfcmF0ZSA9IGdldF9ob2xkaW5nX3JhdGUocGl2b3RlZCwgc3RhcnRfcXVvdGUpCg==</text>
+        <text encoding="base64">ICAgICAgICBob2xkaW5nX3JhdGUgPSBnZXRfaG9sZGluZ19yYXRlKGRvd25zYW1wbGVkX2RmLCBzdGFydF9xdW90ZSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgZmV3IGRheXMgCg==</text>
+        <text encoding="base64">ICAgICAgICBob2xkaW5nX3RvdGFsID0gKGRvd25zYW1wbGVkX2RmLmlsb2NbMF1bJ3F1YW50aXR5J10gKiBkb3duc2FtcGxlZF9kZi5pbG9jWy0xXVsnY2xvc2UnXSkuc3VtKCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC0gdGltZWRlbHRhLmRheXMoNiAqIDMyKQo=</text>
+        <text encoding="base64">ICAgIGhvbGRpbmdfcmF0ZSA9IGdldF9ob2xkaW5nX3JhdGUocGl2b3RlZCwgc3RhcnRfcXVvdGUpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkYXlzID0gNiAqIDMyCg==</text>
+        <text encoding="base64">ICAgICMgZmV3IGRheXMgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAudG9kYXkoKXV0aW1lLm5vdygpICogMTAwMCAtIHV0aW1lLk9ORURBWSAqIDEwMDAgKiAzNjUgLzIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC0gdGltZWRlbHRhLmRheXMoNiAqIDMyKQo=</text>
       </register>
       <register name=":" type="4">
         <text>77</text>
