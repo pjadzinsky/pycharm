@@ -264,7 +264,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555867411922">
+      <file name="/Python Console" timestamp="1555881602235">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
@@ -601,11 +601,12 @@
         <mark key="." line="57" column="14" />
         <mark key="^" line="57" column="14" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555876549646">
-        <mark key="'" line="302" column="46" />
-        <mark key="[" line="301" column="0" />
-        <mark key="]" line="301" column="0" />
-        <mark key="." line="301" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555887375647">
+        <mark key="'" line="305" column="4" />
+        <mark key="[" line="304" column="39" />
+        <mark key="]" line="305" column="4" />
+        <mark key="." line="305" column="4" />
+        <mark key="^" line="305" column="4" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/common/utime.py" timestamp="1555786853449">
         <mark key="e" line="112" column="18" />
@@ -816,7 +817,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="212" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" />
       <jump line="80" column="50" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="26" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="97" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
@@ -916,6 +916,7 @@
       <jump line="275" column="37" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="315" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="301" column="46" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="305" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -924,8 +925,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>.</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1467,10 +1468,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>[</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>time</text>
+        <text encoding="base64">XDxlcnJvcl9iYXJzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGFsbF9wbnRzICo9IGh2LkhMaW5lKDEpCg==</text>
@@ -1597,17 +1598,16 @@
       </register>
     </registers>
     <search>
-      <last-search>time</last-search>
+      <last-search encoding="base64">XDxlcnJvcl9iYXJzXD4=</last-search>
       <last-offset />
-      <last-pattern>time</last-pattern>
+      <last-pattern encoding="base64">XDxlcnJvcl9iYXJzXD4=</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>original_quantities</entry>
         <entry>levels</entry>
         <entry>pivoted</entry>
         <entry>effecitve_rate</entry>
@@ -1627,6 +1627,7 @@
         <entry>rebalance_rate</entry>
         <entry>'rate'</entry>
         <entry>time</entry>
+        <entry encoding="base64">XDxlcnJvcl9iYXJzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>332</entry>
