@@ -264,7 +264,7 @@
         <mark key="^" line="129" column="64" />
         <mark key="." line="129" column="64" />
       </file>
-      <file name="/Python Console" timestamp="1555903424026">
+      <file name="/Python Console" timestamp="1555905947988">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/model_config.py" timestamp="1554240187937">
@@ -601,12 +601,12 @@
         <mark key="." line="57" column="14" />
         <mark key="^" line="57" column="14" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555903478122">
-        <mark key="'" line="311" column="4" />
-        <mark key="[" line="311" column="41" />
-        <mark key="]" line="311" column="42" />
-        <mark key="^" line="311" column="59" />
-        <mark key="." line="311" column="42" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1555906251107">
+        <mark key="'" line="149" column="36" />
+        <mark key="[" line="65" column="71" />
+        <mark key="]" line="65" column="57" />
+        <mark key="^" line="65" column="57" />
+        <mark key="." line="65" column="57" />
       </file>
       <file name="$USER_HOME$/crypto/crypto/crypto/common/utime.py" timestamp="1555786853449">
         <mark key="e" line="112" column="18" />
@@ -817,7 +817,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="80" column="50" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="26" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="97" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="34" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" />
@@ -909,7 +908,6 @@
       <jump line="261" column="62" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="165" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="150" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="149" column="37" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="320" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="15" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="309" column="6" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
@@ -917,6 +915,8 @@
       <jump line="315" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="301" column="46" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="305" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="325" column="16" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="149" column="36" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -925,8 +925,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>style</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1471,19 +1471,19 @@
         <text>style</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxlcnJvcl9iYXJzXD4=</text>
+        <text>set_op</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGFsbF9wbnRzICo9IGh2LkhMaW5lKDEpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50KGUpCg==</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50KHkpCg==</text>
+        <text encoding="base64">ICAgIHByaW50KGUpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1508,10 +1508,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50KHgpCg==</text>
+        <text encoding="base64">ICAgIHByaW50KHkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KHgpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1579,36 +1579,35 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGFsbF9wbnRzICo9IGh2LkhMaW5lKDEpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGVycm9yX2JhcnMgPSBodi5FcnJvckJhcnMoKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHdoaXNrZXJzID0gaHYuQm94V2hpc2tlcihkZikK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGFsbF9wbnRzICo9IGh2LkhMaW5lKDEpCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGVycm9yX2JhcnMgPSBodi5FcnJvckJhcnMoKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHdoaXNrZXJzID0gaHYuQm94V2hpc2tlcihkZikK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzeXMuc3Rkb3V0LndyaXRlKCcuJykKICAgICAgICBzeXMuc3Rkb3V0LmZsdXNoKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>77</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxlcnJvcl9iYXJzXD4=</last-search>
+      <last-search>set_op</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxlcnJvcl9iYXJzXD4=</last-pattern>
+      <last-pattern>set_op</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>levels</entry>
         <entry>pivoted</entry>
         <entry>effecitve_rate</entry>
         <entry>effective_rate</entry>
@@ -1628,6 +1627,7 @@
         <entry>'rate'</entry>
         <entry>time</entry>
         <entry encoding="base64">XDxlcnJvcl9iYXJzXD4=</entry>
+        <entry>set_op</entry>
       </history-search>
       <history-cmd>
         <entry>332</entry>
