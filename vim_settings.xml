@@ -573,8 +573,8 @@
         <mark key="." line="33" column="0" />
         <mark key="^" line="32" column="7" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" timestamp="1555953411018">
-        <mark key="'" line="115" column="24" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" timestamp="1555958208992">
+        <mark key="'" line="96" column="8" />
         <mark key="[" line="98" column="49" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_random_forest.py" timestamp="1555731439898">
@@ -800,7 +800,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="54" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/push_predictions_to_storage.py" />
       <jump line="126" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/tests/test_push_predictions_to_storage.py" />
       <jump line="1168" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1130" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
@@ -900,6 +899,7 @@
       <jump line="149" column="36" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="99" column="23" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
       <jump line="115" column="24" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
+      <jump line="96" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric_key.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1454,7 +1454,7 @@
         <text>style</text>
       </register>
       <register name="/" type="4">
-        <text>__eq__</text>
+        <text>__hash</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGFsbF9wbnRzICo9IGh2LkhMaW5lKDEpCg==</text>
@@ -1581,9 +1581,9 @@
       </register>
     </registers>
     <search>
-      <last-search>__eq__</last-search>
+      <last-search>__hash</last-search>
       <last-offset />
-      <last-pattern>__eq__</last-pattern>
+      <last-pattern>__hash</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1591,7 +1591,6 @@
     </search>
     <history>
       <history-search>
-        <entry>effecitve_rate</entry>
         <entry>effective_rate</entry>
         <entry>exchanges</entry>
         <entry>print</entry>
@@ -1611,6 +1610,7 @@
         <entry encoding="base64">XDxlcnJvcl9iYXJzXD4=</entry>
         <entry>set_op</entry>
         <entry>__eq__</entry>
+        <entry>__hash</entry>
       </history-search>
       <history-cmd>
         <entry>225</entry>
