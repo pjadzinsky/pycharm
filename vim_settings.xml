@@ -16,7 +16,7 @@
         <mark key="[" line="284" column="0" />
         <mark key="]" line="284" column="56" />
       </file>
-      <file name="/Python Console" timestamp="1556038023354">
+      <file name="/Python Console" timestamp="1556040500908">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" timestamp="1555968316024">
@@ -57,12 +57,12 @@
         <mark key="]" line="344" column="0" />
         <mark key="." line="344" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" timestamp="1556035649662">
-        <mark key="'" line="11" column="0" />
-        <mark key="[" line="102" column="20" />
-        <mark key="]" line="102" column="20" />
-        <mark key="." line="102" column="20" />
-        <mark key="^" line="102" column="20" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" timestamp="1556040571595">
+        <mark key="'" line="11" column="71" />
+        <mark key="[" line="32" column="8" />
+        <mark key="]" line="32" column="12" />
+        <mark key="." line="32" column="12" />
+        <mark key="^" line="32" column="12" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/query.py" timestamp="1555979078823" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/unittest/submodel_1.json" timestamp="1555963120829">
@@ -170,7 +170,7 @@
         <mark key="." line="407" column="47" />
         <mark key="^" line="407" column="47" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" timestamp="1556038678962">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" timestamp="1556040385395">
         <mark key="'" line="195" column="95" />
         <mark key="[" line="255" column="0" />
         <mark key="]" line="255" column="0" />
@@ -189,7 +189,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="224" column="43" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="226" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="200" column="106" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="201" column="74" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
@@ -235,7 +234,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" />
       <jump line="195" column="95" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" />
       <jump line="100" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" />
-      <jump line="11" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" />
       <jump line="71" column="8" filename="$USER_HOME$/opas/core/python/opasai/metrics/depipelined_metric_key.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/depipelined_metric_key.py" />
       <jump line="7" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/depipelined_metric_key.py" />
@@ -289,6 +287,8 @@
       <jump line="139" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="170" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="292" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
+      <jump line="58" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" />
+      <jump line="11" column="71" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_cnn_1d.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -297,8 +297,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGZvcl9jb21iaW5lZF9tb2RlbF8xKCkK</text>
+      <register name="&quot;" type="4">
+        <text>model</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -840,13 +840,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>features_dataframe</text>
+        <text>model</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGZvcl9jb21iaW5lZF9tb2RlbF8xKCkK</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbC5mZWF0dXJlX3Bvc3Rwcm9jZXNzb3JzID0gW1RpbWVTaGlmdCh7J3NoaWZ0X3BudHMnOiAtMn0pXQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAjb3V0cHV0X3NhbXBsZXMgPSB0ZW1wX2RmLnZhbHVlcwo=</text>
@@ -966,7 +966,7 @@
         <text encoding="base64">ICAgICAgICAgICAgIyBldmVuIHRob3VnaCB0aGVyZSBpcyBhbiBpbnRlcnNlY3Rpb24sIGJlY2F1c2UgdGhlIF9faGFzaF9fIGluIE1ldHJpY0tleSBkb2VzIG5vdCB1c2UgcXVlcnkKICAgICAgICAgICAgIyBub3IgcXVlcnkuc2hvcnRfbmFtZSB0aGUgZG1rcyBtaWdodCBzdGlsbCBiZSBkaWZmZXJlbnQuCg==</text>
       </register>
       <register name=":" type="4">
-        <text>293</text>
+        <text>qa</text>
       </register>
     </registers>
     <search>
@@ -1002,8 +1002,6 @@
         <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
-        <entry>271</entry>
-        <entry>224</entry>
         <entry>31</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>1169</entry>
@@ -1012,7 +1010,6 @@
         <entry>112</entry>
         <entry>145</entry>
         <entry>918</entry>
-        <entry>qa</entry>
         <entry>65</entry>
         <entry>67</entry>
         <entry>%s/effecitve_rate/rebalance_rate/gc</entry>
@@ -1022,6 +1019,9 @@
         <entry>916</entry>
         <entry>q</entry>
         <entry>293</entry>
+        <entry>59</entry>
+        <entry>32</entry>
+        <entry>qa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
