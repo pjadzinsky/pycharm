@@ -27,12 +27,12 @@
         <mark key="." line="33" column="14" />
         <mark key="^" line="33" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1556205567929">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="." line="64" column="0" />
-        <mark key="^" line="60" column="14" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1556206318853">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="57" column="14" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/unique_tag_creator.py" timestamp="1556141077278">
         <mark key="[" line="54" column="28" />
@@ -46,11 +46,6 @@
         <mark key="]" line="38" column="41" />
         <mark key="^" line="37" column="54" />
         <mark key="." line="38" column="41" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/time_shift.py" timestamp="1556038376035">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="48" />
-        <mark key="." line="18" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/all_tables_300.yaml" timestamp="1556127856095">
         <mark key="[" line="71" column="0" />
@@ -298,14 +293,11 @@
         <mark key="^" line="11" column="67" />
         <mark key="." line="11" column="67" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_gaussian_normalizer.py" timestamp="1556204483058">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_gaussian_normalizer.py" timestamp="1556206311997">
         <mark key="[" line="19" column="53" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="452" column="1" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug_on_2019_04_24.yaml" />
       <jump line="10" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
       <jump line="6" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
       <jump line="12" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
@@ -405,6 +397,7 @@
       <jump line="21" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/causation_stage_to_live_trainer_config.py" />
       <jump line="60" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
+      <jump line="59" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -414,7 +407,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtZWFuc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X21lYW5zX10sIGluZGV4PXByZWRpY3RlZF9kZi5pbmRleCkKICAgICAgICAgICAgc3Rkc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X3N0ZHNfXSwgaW5kZXg9cHJlZGljdGVkX2RmLmluZGV4KQoKICAgICAgICAgICAgcHJlZGljdGVkX2RmLnVwZGF0ZShwcmVkaWN0ZWRfZGYuY29tYmluZShzdGRzX2RmLCBsYW1iZGEgeCwgeTogeCAqIHksIGZpbGxfdmFsdWU9MSkpCiAgICAgICAgICAgIHByZWRpY3RlZF9kZi51cGRhdGUocHJlZGljdGVkX2RmLmNvbWJpbmUobWVhbnNfZGYsIGxhbWJkYSB4LCB5OiB4ICsgeSwgZmlsbF92YWx1ZT0wKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -967,13 +960,13 @@
 #</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtZWFuc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X21lYW5zX10sIGluZGV4PXByZWRpY3RlZF9kZi5pbmRleCkKICAgICAgICAgICAgc3Rkc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X3N0ZHNfXSwgaW5kZXg9cHJlZGljdGVkX2RmLmluZGV4KQoKICAgICAgICAgICAgcHJlZGljdGVkX2RmLnVwZGF0ZShwcmVkaWN0ZWRfZGYuY29tYmluZShzdGRzX2RmLCBsYW1iZGEgeCwgeTogeCAqIHksIGZpbGxfdmFsdWU9MSkpCiAgICAgICAgICAgIHByZWRpY3RlZF9kZi51cGRhdGUocHJlZGljdGVkX2RmLmNvbWJpbmUobWVhbnNfZGYsIGxhbWJkYSB4LCB5OiB4ICsgeSwgZmlsbF92YWx1ZT0wKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgSSB0aGluayB3ZSBzaG91bGQgY2hlY2sgdGhhdCB0aGUgY29sdW1ucyBhcmUgdGhlIHNhbWUsIGlmIHRoZXkgYXJlIHRoZW4gd2UgdXNlIG51bXB5IGRpcmVjdGx5Cg==</text>
+        <text encoding="base64">aW1wb3J0IHRpbWUK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -998,10 +991,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgc29tZXRoaW5nIGxpa2U6CiAgICAgICAgIyAgICAgICAgICAgaWYgcHJlZGljdGVkX2RmLmNvbHVtbnMubGV2ZWxzWy0xXSA9PSBvdXRfbWVhbnNfLmluZGV4LmxldmVsc1stMV1bLW51bV9wcmVkaWN0ZWRfY29sczpdCg==</text>
+        <text encoding="base64">ICAgICAgICB0MCA9IHRpbWUudGltZSgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBudW1fcHJlZGljdGVkX2NvbHMgPSBwcmVkaWN0ZWRfZGYuc2hhcGVbMV0K</text>
+        <text encoding="base64">ICAgICAgICB0MSA9IHRpbWUudGltZSgpCiAgICAgICAgcHJpbnQoInRvb2sge31zIi5mb3JtYXQodDEtdDApKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1069,22 +1062,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGF0YSA9IHByZWRpY3RlZF9kZi52YWx1ZXMKICAgICAgICAgICAgZGF0YSA9IGRhdGEgKiBvdXRfc3Rkc18gKyBvdXRfbWVhbnNfCiAgICAgICAgICAgIHByZWRpY3RlZF9kZiA9IHBkLkRhdGFGcmFtZShkYXRhLCBpbmRleD1wcmVkaWN0ZWRfZGYuaW5kZXgsIGNvbHVtbnM9cHJlZGljdGVkX2RmLmNvbHVtbnMpCg==</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtZWFuc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X21lYW5zX10sIGluZGV4PXByZWRpY3RlZF9kZi5pbmRleCkKICAgICAgICAgICAgc3Rkc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X3N0ZHNfXSwgaW5kZXg9cHJlZGljdGVkX2RmLmluZGV4KQoKICAgICAgICAgICAgcHJlZGljdGVkX2RmLnVwZGF0ZShwcmVkaWN0ZWRfZGYuY29tYmluZShzdGRzX2RmLCBsYW1iZGEgeCwgeTogeCAqIHksIGZpbGxfdmFsdWU9MSkpCiAgICAgICAgICAgIHByZWRpY3RlZF9kZi51cGRhdGUocHJlZGljdGVkX2RmLmNvbWJpbmUobWVhbnNfZGYsIGxhbWJkYSB4LCB5OiB4ICsgeSwgZmlsbF92YWx1ZT0wKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0MCA9IHRpZAo=</text>
+        <text encoding="base64">ICAgICAgICAjICAgSSB0aGluayB3ZSBzaG91bGQgY2hlY2sgdGhhdCB0aGUgY29sdW1ucyBhcmUgdGhlIHNhbWUsIGlmIHRoZXkgYXJlIHRoZW4gd2UgdXNlIG51bXB5IGRpcmVjdGx5Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0MCA9IHRpbWUudGltZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAjICAgc29tZXRoaW5nIGxpa2U6CiAgICAgICAgIyAgICAgICAgICAgaWYgcHJlZGljdGVkX2RmLmNvbHVtbnMubGV2ZWxzWy0xXSA9PSBvdXRfbWVhbnNfLmluZGV4LmxldmVsc1stMV1bLW51bV9wcmVkaWN0ZWRfY29sczpdCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBudW1fcHJlZGljdGVkX2NvbHMgPSBwcmVkaWN0ZWRfZGYuc2hhcGVbMV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGF0YSA9IHByZWRpY3RlZF9kZi52YWx1ZXMKICAgICAgICAgICAgZGF0YSA9IGRhdGEgKiBvdXRfc3Rkc18gKyBvdXRfbWVhbnNfCiAgICAgICAgICAgIHByZWRpY3RlZF9kZiA9IHBkLkRhdGFGcmFtZShkYXRhLCBpbmRleD1wcmVkaWN0ZWRfZGYuaW5kZXgsIGNvbHVtbnM9cHJlZGljdGVkX2RmLmNvbHVtbnMpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
@@ -1138,8 +1131,8 @@
         <entry>237</entry>
         <entry>\$</entry>
         <entry>198</entry>
-        <entry>q</entry>
         <entry>wq</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
