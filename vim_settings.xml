@@ -27,12 +27,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1556141151192">
         <mark key="'" line="686" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556224539627">
-        <mark key="'" line="127" column="0" />
-        <mark key="[" line="46" column="16" />
-        <mark key="]" line="46" column="16" />
-        <mark key="." line="46" column="16" />
-        <mark key="^" line="46" column="25" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556225470598">
+        <mark key="'" line="237" column="0" />
+        <mark key="[" line="236" column="0" />
+        <mark key="]" line="236" column="4" />
+        <mark key="^" line="111" column="35" />
+        <mark key="." line="236" column="4" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1556070879107">
         <mark key="'" line="40" column="0" />
@@ -369,16 +369,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="140" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="155" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="78" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="69" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="164" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="179" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="194" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
-      <jump line="209" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
       <jump line="224" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
       <jump line="239" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
       <jump line="254" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/last_bug.yaml" />
@@ -469,6 +459,16 @@
       <jump line="39" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="117" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="128" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="296" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="119" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="299" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="255" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="247" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="249" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="251" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="290" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="268" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="239" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -477,8 +477,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>describe</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGRlZiBnZXRfbW9kZWwoKToK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1020,22 +1020,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>describe</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>latent</text>
+        <text>get_model</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGVuY29kZXJfaW5wdXRfZGF0YSwgZGVjb2Rlcl9pbnB1dF9kYXRhLCBkZWNvZGVyX291dHB1dF9kYXRhID0gZ2V0X2RhdGEoKQo=</text>
+        <text encoding="base64">ICAgICMgTmV4dDogaW5mZXJlbmNlIG1vZGUgKHNhbXBsaW5nKS4KICAgICMgSGVyZSdzIHRoZSBkcmlsbDoKICAgICMgMSkgZW5jb2RlIGlucHV0IGFuZCByZXRyaWV2ZSBpbml0aWFsIGRlY29kZXIgc3RhdGUKICAgICMgMikgcnVuIG9uZSBzdGVwIG9mIGRlY29kZXIgd2l0aCB0aGlzIGluaXRpYWwgc3RhdGUKICAgICMgYW5kIGEgInN0YXJ0IG9mIHNlcXVlbmNlIiB0b2tlbiBhcyB0YXJnZXQuCiAgICAjIE91dHB1dCB3aWxsIGJlIHRoZSBuZXh0IHRhcmdldCB0b2tlbgogICAgIyAzKSBSZXBlYXQgd2l0aCB0aGUgY3VycmVudCB0YXJnZXQgdG9rZW4gYW5kIGN1cnJlbnQgc3RhdGVzCgogICAgIyBEZWZpbmUgc2FtcGxpbmcgbW9kZWxzCiAgICBlbmNvZGVyX21vZGVsID0gTW9kZWwoZW5jb2Rlcl9pbnB1dHMsIGVuY29kZXJfc3RhdGVzKQoKICAgIGRlY29kZXJfc3RhdGVfaW5wdXRfaCA9IElucHV0KHNoYXBlPShsYXRlbnRfZGltLCkpCiAgICBkZWNvZGVyX3N0YXRlX2lucHV0X2MgPSBJbnB1dChzaGFwZT0obGF0ZW50X2RpbSwpKQogICAgZGVjb2Rlcl9zdGF0ZXNfaW5wdXRzID0gW2RlY29kZXJfc3RhdGVfaW5wdXRfaCwgZGVjb2Rlcl9zdGF0ZV9pbnB1dF9jXQogICAgZGVjb2Rlcl9vdXRwdXRzLCBzdGF0ZV9oLCBzdGF0ZV9jID0gZGVjb2Rlcl9sc3RtKAogICAgICAgIGRlY29kZXJfaW5wdXRzLCBpbml0aWFsX3N0YXRlPWRlY29kZXJfc3RhdGVzX2lucHV0cykKICAgIGRlY29kZXJfc3RhdGVzID0gW3N0YXRlX2gsIHN0YXRlX2NdCiAgICBkZWNvZGVyX291dHB1dHMgPSBkZWNvZGVyX2RlbnNlKGRlY29kZXJfb3V0cHV0cykKICAgIGRlY29kZXJfbW9kZWwgPSBNb2RlbCgKICAgICAgICBbZGVjb2Rlcl9pbnB1dHNdICsgZGVjb2Rlcl9zdGF0ZXNfaW5wdXRzLAogICAgICAgIFtkZWNvZGVyX291dHB1dHNdICsgZGVjb2Rlcl9zdGF0ZXMpCgogICAgIyBSZXZlcnNlLWxvb2t1cCB0b2tlbiBpbmRleCB0byBkZWNvZGUgc2VxdWVuY2VzIGJhY2sgdG8KICAgICMgc29tZXRoaW5nIHJlYWRhYmxlLgogICAgcmV2ZXJzZV9pbnB1dF9jaGFyX2luZGV4ID0gZGljdCgKICAgICAgICAoaSwgY2hhcikgZm9yIGNoYXIsIGkgaW4gaW5wdXRfdG9rZW5faW5kZXguaXRlbXMoKSkKICAgIHJldmVyc2VfdGFyZ2V0X2NoYXJfaW5kZXggPSBkaWN0KAogICAgICAgIChpLCBjaGFyKSBmb3IgY2hhciwgaSBpbiB0YXJnZXRfdG9rZW5faW5kZXguaXRlbXMoKSkKCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50KGVuY29kZXJfaW5wdXRfZGF0YVswLCA6LCAwXSkKICAgIHByaW50KGRlY29kZXJfaW5wdXRfZGF0YVswLCA6LCAwXSkKICAgIHByaW50KGRlY29kZXJfb3V0cHV0X2RhdGFbMCwgOiwgMF0pCg==</text>
+        <text encoding="base64">ICAgIGRlZiBnZXRfbW9kZWwoKToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBnZXRfbW9kZWwoKToKICAgICAgICAjIERlZmluZSBhbiBpbnB1dCBzZXF1ZW5jZSBhbmQgcHJvY2VzcyBpdC4KICAgICAgICBlbmNvZGVyX2lucHV0cyA9IElucHV0KHNoYXBlPShOb25lLCBudW1fZW5jb2Rlcl90b2tlbnMpKQogICAgICAgIGVuY29kZXIgPSBMU1RNKGxhdGVudF9kaW0sIHJldHVybl9zdGF0ZT1UcnVlKQogICAgICAgIGVuY29kZXJfb3V0cHV0cywgc3RhdGVfaCwgc3RhdGVfYyA9IGVuY29kZXIoZW5jb2Rlcl9pbnB1dHMpCiAgICAgICAgIyBXZSBkaXNjYXJkIGBlbmNvZGVyX291dHB1dHNgIGFuZCBvbmx5IGtlZXAgdGhlIHN0YXRlcy4KICAgICAgICBlbmNvZGVyX3N0YXRlcyA9IFtzdGF0ZV9oLCBzdGF0ZV9jXQoKICAgICAgICAjIFNldCB1cCB0aGUgZGVjb2RlciwgdXNpbmcgYGVuY29kZXJfc3RhdGVzYCBhcyBpbml0aWFsIHN0YXRlLgogICAgICAgIGRlY29kZXJfaW5wdXRzID0gSW5wdXQoc2hhcGU9KE5vbmUsIG51bV9kZWNvZGVyX3Rva2VucykpCiAgICAgICAgIyBXZSBzZXQgdXAgb3VyIGRlY29kZXIgdG8gcmV0dXJuIGZ1bGwgb3V0cHV0IHNlcXVlbmNlcywKICAgICAgICAjIGFuZCB0byByZXR1cm4gaW50ZXJuYWwgc3RhdGVzIGFzIHdlbGwuIFdlIGRvbid0IHVzZSB0aGUKICAgICAgICAjIHJldHVybiBzdGF0ZXMgaW4gdGhlIHRyYWluaW5nIG1vZGVsLCBidXQgd2Ugd2lsbCB1c2UgdGhlbSBpbiBpbmZlcmVuY2UuCiAgICAgICAgZGVjb2Rlcl9sc3RtID0gTFNUTShsYXRlbnRfZGltLCByZXR1cm5fc2VxdWVuY2VzPVRydWUsIHJldHVybl9zdGF0ZT1UcnVlKQogICAgICAgIGRlY29kZXJfb3V0cHV0cywgXywgXyA9IGRlY29kZXJfbHN0bShkZWNvZGVyX2lucHV0cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5pdGlhbF9zdGF0ZT1lbmNvZGVyX3N0YXRlcykKICAgICAgICBkZWNvZGVyX2RlbnNlID0gRGVuc2UobnVtX2RlY29kZXJfdG9rZW5zLCBhY3RpdmF0aW9uPSdzb2Z0bWF4JykKICAgICAgICBkZWNvZGVyX291dHB1dHMgPSBkZWNvZGVyX2RlbnNlKGRlY29kZXJfb3V0cHV0cykKCiAgICAgICAgIyBEZWZpbmUgdGhlIG1vZGVsIHRoYXQgd2lsbCB0dXJuCiAgICAgICAgIyBgZW5jb2Rlcl9pbnB1dF9kYXRhYCAmIGBkZWNvZGVyX2lucHV0X2RhdGFgIGludG8gYGRlY29kZXJfdGFyZ2V0X2RhdGFgCiAgICAgICAgbW9kZWwgPSBNb2RlbChbZW5jb2Rlcl9pbnB1dHMsIGRlY29kZXJfaW5wdXRzXSwgZGVjb2Rlcl9vdXRwdXRzKQogICAgICAgIHJldHVybiBtb2RlbAo=</text>
+        <text encoding="base64">ICAgIG1vZGVsID0gZ2V0X21vZGVsKCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1060,10 +1060,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbW9kZWwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlY29kZXJfaW5wdXRfZGF0YVs6LCAtMV0gPSBucC5uYW4K</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbW9kZWwK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1131,28 +1131,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBnZXRfaW5mZXJlbmNlX21vZGVsKCk6Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGVuY29kZXJfaW5wdXRfZGF0YSwgZGVjb2Rlcl9pbnB1dF9kYXRhLCBkZWNvZGVyX291dHB1dF9kYXRhID0gZ2V0X2RhdGEoKQoK</text>
+        <text encoding="base64">ICAgICAgICAjIFdlIHNldCB1cCBvdXIgZGVjb2RlciB0byByZXR1cm4gZnVsbCBvdXRwdXQgc2VxdWVuY2VzLAogICAgICAgICMgYW5kIHRvIHJldHVybiBpbnRlcm5hbCBzdGF0ZXMgYXMgd2VsbC4gV2UgZG9uJ3QgdXNlIHRoZQogICAgICAgICMgcmV0dXJuIHN0YXRlcyBpbiB0aGUgdHJhaW5pbmcgbW9kZWwsIGJ1dCB3ZSB3aWxsIHVzZSB0aGVtIGluIGluZmVyZW5jZS4KICAgICAgICBkZWNvZGVyX2xzdG0gPSBMU1RNKGxhdGVudF9kaW0sIHJldHVybl9zZXF1ZW5jZXM9VHJ1ZSwgcmV0dXJuX3N0YXRlPVRydWUpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNoYXBlKC0xLCAxKQo=</text>
+        <text encoding="base64">ICAgICAgICAjIFNldCB1cCB0aGUgZGVjb2RlciwgdXNpbmcgYGVuY29kZXJfc3RhdGVzYCBhcyBpbml0aWFsIHN0YXRlLgogICAgICAgIGRlY29kZXJfaW5wdXRzID0gSW5wdXQoc2hhcGU9KE5vbmUsIG51bV9kZWNvZGVyX3Rva2VucykpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbmNvZGVyID0gTFNUTShsYXRlbnRfZGltLCByZXR1cm5fc3RhdGU9VHJ1ZSkKICAgICAgICBlbmNvZGVyX291dHB1dHMsIHN0YXRlX2gsIHN0YXRlX2MgPSBlbmNvZGVyKGVuY29kZXJfaW5wdXRzKQogICAgICAgICMgV2UgZGlzY2FyZCBgZW5jb2Rlcl9vdXRwdXRzYCBhbmQgb25seSBrZWVwIHRoZSBzdGF0ZXMuCiAgICAgICAgZW5jb2Rlcl9zdGF0ZXMgPSBbc3RhdGVfaCwgc3RhdGVfY10K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBlbmNvZGVyX2lucHV0cyA9IElucHV0KHNoYXBlPShOb25lLCBudW1fZW5jb2Rlcl90b2tlbnMpKQo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>latent</last-search>
+      <last-search>get_model</last-search>
       <last-offset />
-      <last-pattern>latent</last-pattern>
+      <last-pattern>get_model</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1160,8 +1160,6 @@
     </search>
     <history>
       <history-search>
-        <entry>outputs</entry>
-        <entry>Read</entry>
         <entry>nputs</entry>
         <entry>ActiveTasks</entry>
         <entry>^#</entry>
@@ -1180,6 +1178,8 @@
         <entry>out</entry>
         <entry>latent_dim</entry>
         <entry>latent</entry>
+        <entry>encoder_inputs</entry>
+        <entry>get_model</entry>
       </history-search>
       <history-cmd>
         <entry>189</entry>
