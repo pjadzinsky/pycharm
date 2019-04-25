@@ -27,12 +27,12 @@
         <mark key="." line="33" column="14" />
         <mark key="^" line="33" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1556204902843">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1556205567929">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="64" column="11" />
-        <mark key="]" line="73" column="12" />
-        <mark key="." line="73" column="12" />
-        <mark key="^" line="68" column="12" />
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="0" />
+        <mark key="." line="64" column="0" />
+        <mark key="^" line="60" column="14" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/unique_tag_creator.py" timestamp="1556141077278">
         <mark key="[" line="54" column="28" />
@@ -153,7 +153,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/common/tests/test_string_utils.py" timestamp="1554154756577">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1556204907819">
+      <file name="/Python Console" timestamp="1556205478759">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" timestamp="1556055801771">
@@ -414,7 +414,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB0MCA9IHRpZAo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtZWFuc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X21lYW5zX10sIGluZGV4PXByZWRpY3RlZF9kZi5pbmRleCkKICAgICAgICAgICAgc3Rkc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X3N0ZHNfXSwgaW5kZXg9cHJlZGljdGVkX2RmLmluZGV4KQoKICAgICAgICAgICAgcHJlZGljdGVkX2RmLnVwZGF0ZShwcmVkaWN0ZWRfZGYuY29tYmluZShzdGRzX2RmLCBsYW1iZGEgeCwgeTogeCAqIHksIGZpbGxfdmFsdWU9MSkpCiAgICAgICAgICAgIHByZWRpY3RlZF9kZi51cGRhdGUocHJlZGljdGVkX2RmLmNvbWJpbmUobWVhbnNfZGYsIGxhbWJkYSB4LCB5OiB4ICsgeSwgZmlsbF92YWx1ZT0wKSkK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -956,7 +956,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>True</text>
       </register>
       <register name="/" type="4">
         <text>Filler</text>
@@ -967,13 +967,13 @@
 #</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0MCA9IHRpZAo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtZWFuc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X21lYW5zX10sIGluZGV4PXByZWRpY3RlZF9kZi5pbmRleCkKICAgICAgICAgICAgc3Rkc19kZiA9IHBkLkRhdGFGcmFtZShbb3V0X3N0ZHNfXSwgaW5kZXg9cHJlZGljdGVkX2RmLmluZGV4KQoKICAgICAgICAgICAgcHJlZGljdGVkX2RmLnVwZGF0ZShwcmVkaWN0ZWRfZGYuY29tYmluZShzdGRzX2RmLCBsYW1iZGEgeCwgeTogeCAqIHksIGZpbGxfdmFsdWU9MSkpCiAgICAgICAgICAgIHByZWRpY3RlZF9kZi51cGRhdGUocHJlZGljdGVkX2RmLmNvbWJpbmUobWVhbnNfZGYsIGxhbWJkYSB4LCB5OiB4ICsgeSwgZmlsbF92YWx1ZT0wKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0MCA9IHRpbWUudGltZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAjICAgSSB0aGluayB3ZSBzaG91bGQgY2hlY2sgdGhhdCB0aGUgY29sdW1ucyBhcmUgdGhlIHNhbWUsIGlmIHRoZXkgYXJlIHRoZW4gd2UgdXNlIG51bXB5IGRpcmVjdGx5Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -998,10 +998,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAjICAgc29tZXRoaW5nIGxpa2U6CiAgICAgICAgIyAgICAgICAgICAgaWYgcHJlZGljdGVkX2RmLmNvbHVtbnMubGV2ZWxzWy0xXSA9PSBvdXRfbWVhbnNfLmluZGV4LmxldmVsc1stMV1bLW51bV9wcmVkaWN0ZWRfY29sczpdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBudW1fcHJlZGljdGVkX2NvbHMgPSBwcmVkaWN0ZWRfZGYuc2hhcGVbMV0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1069,19 +1069,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBudW1fcHJlZGljdGVkX2NvbHMgPSBwcmVkaWN0ZWRfZGYuc2hhcGVbMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGF0YSA9IHByZWRpY3RlZF9kZi52YWx1ZXMKICAgICAgICAgICAgZGF0YSA9IGRhdGEgKiBvdXRfc3Rkc18gKyBvdXRfbWVhbnNfCiAgICAgICAgICAgIHByZWRpY3RlZF9kZiA9IHBkLkRhdGFGcmFtZShkYXRhLCBpbmRleD1wcmVkaWN0ZWRfZGYuaW5kZXgsIGNvbHVtbnM9cHJlZGljdGVkX2RmLmNvbHVtbnMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIHdlIG5lZWQgdG8gZXhwYW5kIHNlbGYubWVhbnNfL3N0ZF8gdG8gYmUgZGF0YWZyYW1lcyAodGhleSBhcmUgcGQuU2VyaWVzKSB3aXRoIHRoZSBzYW1lIGluZGV4IGFzIGZlYXR1cmVzX2RmCg==</text>
+        <text encoding="base64">ICAgICAgICB0MCA9IHRpZAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgJ20gY2hhbmdpbmcgaXQgdG8gY2hlY2sgaWYgdGhlIGNvbHVtbnMgYXJlIHRoZSBzYW1lIGFuZCBpZiB0aGV5IGFyZSwgdGhlbiBqdXN0IHVzZSBudW1weQo=</text>
+        <text encoding="base64">ICAgICAgICB0MCA9IHRpbWUudGltZSgpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIiA6ICJvcGFzYWkudHJhaW5lcnMucHJlcHJvY2Vzc29yLnBpcGVsaW5lX2ZpbGxlci5QaXBlbGluZUZpbGxlciIsCiAgICAgICAgInBhcmFtcyIgOiB7CiAgICAgICAgICAiZmlsbF92YWx1ZSI6IDAKICAgICAgICB9CiAgICAgIH0sCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgewogICAgICAgICJwYXRoIiA6ICJvcGFzYWkudHJhaW5lcnMucHJlcHJvY2Vzc29yLnBpcGVsaW5lX2ZpbGxlci5QaXBlbGluZUZpbGxlciIsCiAgICAgICAgInBhcmFtcyIgOiB7CiAgICAgICAgICAiZmlsbF92YWx1ZSI6IDAKICAgICAgICB9CiAgICAgIH0sCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
