@@ -27,11 +27,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1556141151192">
         <mark key="'" line="686" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556219392094">
-        <mark key="'" line="85" column="6" />
-        <mark key="[" line="93" column="12" />
-        <mark key="]" line="87" column="0" />
-        <mark key="." line="87" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556220049091">
+        <mark key="'" line="46" column="10" />
+        <mark key="[" line="108" column="0" />
+        <mark key="]" line="109" column="0" />
+        <mark key="." line="109" column="0" />
+        <mark key="^" line="109" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1556070879107">
         <mark key="'" line="40" column="0" />
@@ -369,7 +370,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="500" column="1" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/temp.yaml" />
       <jump line="49" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/temp.yaml" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug_on_2019_4_24.yaml" />
       <jump line="16" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug_on_2019_4_24.yaml" />
@@ -469,6 +469,7 @@
       <jump line="116" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="86" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="85" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="46" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -478,7 +479,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNoYXBlKC0xLCAxKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1020,22 +1021,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>values</text>
+        <text>metricvalues</text>
       </register>
       <register name="/" type="4">
-        <text>enc</text>
+        <text>in</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGVuY29kZXJfaW5wdXRfZGF0YSA9IG5wLnplcm9zKCh0cmFpbmluZ19zYW1wbGVzLCBtYXhfZW5jb2Rlcl9zZXFfbGVuZ3RoLCAxKSkK</text>
+        <text encoding="base64">ICAgIHByaW50KGRlY29kZXJfaW5wdXRfZGF0YVswLCA6LCAwXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNoYXBlKC0xLCAxKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1060,10 +1061,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICNmb3IgbSBpbiBtZXRyaWNzOgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50KHRvdGFsX3NhbXBsZXMpCg==</text>
+        <text encoding="base64">ICAgICNmb3IgbSBpbiBtZXRyaWNzOgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1131,28 +1132,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlY29kZXJfb3V0cHV0X2RhdGE6IDNEIG5wLmFycmF5cyAoc2FtcGxlcywgbWF4X2RlY29kZXJfc2VxX2xlbmd0aCwgMSkK</text>
+        <text encoding="base64">ICAgIHByaW50KHRvdGFsX3NhbXBsZXMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlY29kZXJfaW5wdXRfZGF0YTogM0QgbnAuYXJyYXlzIChzYW1wbGVzLCBtYXhfZGVjb2Rlcl9zZXFfbGVuZ3RoICsgMiwgMSkK</text>
+        <text encoding="base64">ICAgIGRlY29kZXJfb3V0cHV0X2RhdGE6IDNEIG5wLmFycmF5cyAoc2FtcGxlcywgbWF4X2RlY29kZXJfc2VxX2xlbmd0aCwgMSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIDogM0QgbnAuYXJyYXlzIChzYW1wbGVzLCBtYXhfZW5jb2Rlcl9zZXFfbGVuZ3RoLCAxKQo=</text>
+        <text encoding="base64">ICAgIGRlY29kZXJfaW5wdXRfZGF0YTogM0QgbnAuYXJyYXlzIChzYW1wbGVzLCBtYXhfZGVjb2Rlcl9zZXFfbGVuZ3RoICsgMiwgMSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICMgZWFjCg==</text>
+        <text encoding="base64">ICAgIDogM0QgbnAuYXJyYXlzIChzYW1wbGVzLCBtYXhfZW5jb2Rlcl9zZXFfbGVuZ3RoLCAxKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">bWF4X2VuY29kZXJfc2VxX2xlbmd0aCA9IDE0NCAgICAjIDI0IHBvaW50cyBwZXIgZGF5IGF0IDYwMHMgaW50ZXJ2YWxfcwptYXhfZGVjb2Rlcl9zZXFfbGVuZ3RoID0gOCAgICAgICMgd2UgcHJlZGljdCA4ICogNjAwcyA9IGEgY29uc3RhbnQgc2V0IG9mIDggcG9pbnRzbWF4KFtsZW4odHh0KSBmb3IgdHh0IGluIHRhcmdldF90ZXh0c10pCgo=</text>
+        <text encoding="base64">ICAgICMgZWFjCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>enc</last-search>
+      <last-search>in</last-search>
       <last-offset />
-      <last-pattern>enc</last-pattern>
+      <last-pattern>in</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1178,8 +1179,8 @@
         <entry>max_encoder_seq_length</entry>
         <entry>account_id</entry>
         <entry>max_encoder_seq</entry>
-        <entry>in</entry>
         <entry>enc</entry>
+        <entry>in</entry>
       </history-search>
       <history-cmd>
         <entry>189</entry>
