@@ -77,8 +77,8 @@
         <mark key="^" line="88" column="17" />
         <mark key="." line="88" column="17" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1556142101058">
-        <mark key="'" line="298" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1556206957354">
+        <mark key="'" line="970" column="0" />
         <mark key="[" line="303" column="56" />
         <mark key="]" line="304" column="31" />
         <mark key="^" line="304" column="31" />
@@ -298,7 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
       <jump line="6" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
       <jump line="12" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
       <jump line="502" column="1" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/bug2_on_2019_04_24.yaml" />
@@ -398,6 +397,7 @@
       <jump line="60" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
       <jump line="59" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
+      <jump line="970" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -952,7 +952,7 @@
         <text>True</text>
       </register>
       <register name="/" type="4">
-        <text>Filler</text>
+        <text>def train_new</text>
       </register>
       <register name="0" type="8">
         <text>#
@@ -1081,9 +1081,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Filler</last-search>
+      <last-search>def train_new</last-search>
       <last-offset />
-      <last-pattern>Filler</last-pattern>
+      <last-pattern>def train_new</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1109,8 +1109,8 @@
         <entry>ActiveTasks</entry>
         <entry>^#</entry>
         <entry>17</entry>
-        <entry>def train_new</entry>
         <entry>Filler</entry>
+        <entry>def train_new</entry>
       </history-search>
       <history-cmd>
         <entry>189</entry>
