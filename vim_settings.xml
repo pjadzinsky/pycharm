@@ -27,12 +27,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1556141151192">
         <mark key="'" line="686" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556255178214">
-        <mark key="'" line="56" column="47" />
-        <mark key="[" line="44" column="10" />
-        <mark key="]" line="44" column="10" />
-        <mark key="." line="44" column="10" />
-        <mark key="^" line="128" column="47" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556256310147">
+        <mark key="'" line="336" column="0" />
+        <mark key="[" line="62" column="26" />
+        <mark key="]" line="62" column="27" />
+        <mark key="." line="62" column="27" />
+        <mark key="^" line="62" column="27" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1556070879107">
         <mark key="'" line="40" column="0" />
@@ -373,18 +373,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="177" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="211" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="213" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="247" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="248" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="249" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="286" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="293" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="136" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
-      <jump line="46" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="108" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="87" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="105" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
@@ -473,6 +461,18 @@
       <jump line="295" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="328" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
       <jump line="351" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="43" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="46" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="63" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="69" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="70" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="71" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="114" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="82" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="57" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="122" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="78" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="335" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -481,8 +481,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>0</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG1vZGVsLnNhdmUoJ3Mycy5oNScpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1027,10 +1027,10 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>save</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHRfZW5jb2Rlcl9pbnB1dF9kYXRhLCB0X2RlY29kZXJfaW5wdXRfZGF0YSwgdF9kZWNvZGVyX291dHB1dF9kYXRhID0gZ2V0X3RyYWluaW5nX2RhdGEodHJhaW5fbWV0cmljcykK</text>
+        <text encoding="base64">ICAgIG1vZGVsLnNhdmUoJ3Mycy5oNScpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -1039,7 +1039,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KHZhbF9tZXRyaWNzWzBdLnN0YXJ0LXZhbF9tZXRyaWNzWzBdLmVuZCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1064,10 +1064,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHV0aW1lX2ludGVydmFsID0gdXRpbWUuSW50ZXJ2YWwoc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCkKICAgIHV0aW1lX2ludGVydmFscyA9IHV0aW1lX2ludGVydmFsLnNwbGl0KFswLjddKQo=</text>
+        <text encoding="base64">ICAgIHByaW50KHRyYWluX21ldHJpY3NbMF0uc3RhcnQtdHJhaW5fbWV0cmljc1swXS5lbmQpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHV0aW1lX2ludGVydmFsID0gdXRpbWUuSW50ZXJ2YWwoc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCkKICAgIHV0aW1lX2ludGVydmFscyA9IHV0aW1lX2ludGVydmFsLnNwbGl0KFswLjddKQogICAgbWV0cmljcyA9IGxvYWRlci5sb2FkKGludGVydmFsX3MsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gpCg==</text>
+        <text encoding="base64">ICAgIHJldHVybgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1135,28 +1135,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHN0YXJ0X2Vwb2NoID0gMTU1NDg3OTYwMAogICAgZW5kX2Vwb2NoID0gc3RhcnRfZXBvY2ggKyB1dGltZS5PTkVEQVkgKiAxNAo=</text>
+        <text encoding="base64">ICAgIHByaW50KHRyYWluX21ldHJpY3NbMF0uc3RhcnQsIHRyYWluX21ldHJpY3NbMF0uZW5kKQogICAgcHJpbnQodmFsX21ldHJpY3NbMF0uc3RhcnQsIHZhbF9tZXRyaWNzWzBdLmVuZCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZWxzZToK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aWYgY2FzZSBpbiBbMCwgMV06Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHN0YXJ0X2Vwb2NoID0gMQogICAgZW5kX2Vwb2NoID0gbWluKDEyMDkwMDEsIE4gKiBpbnRlcnZhbF9zICsgc3RhcnRfZXBvY2gpCg==</text>
+        <text encoding="base64">ICAgIHV0aW1lX2ludGVydmFsID0gdXRpbWUuSW50ZXJ2YWwoc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCkKICAgIHV0aW1lX2ludGVydmFscyA9IHV0aW1lX2ludGVydmFsLnNwbGl0KFswLjddKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW50ZXJ2YWxfcyA9IDYwMApOID0gMTAwMDAgICAgIyBwb2ludHMgcGVyIHNlcmllcwppZiBjYXNlIGluIFswLCAxXToKICAgIHN0YXJ0X2Vwb2NoID0gMQogICAgZW5kX2Vwb2NoID0gbWluKDEyMDkwMDEsIE4gKiBpbnRlcnZhbF9zICsgc3RhcnRfZXBvY2gpCmVsc2U6CiAgICBzdGFydF9lcG9jaCA9IDE1NTQ4Nzk2MDAKICAgIGVuZF9lcG9jaCA9IHN0YXJ0X2Vwb2NoICsgdXRpbWUuT05FREFZICogMTQK</text>
+        <text encoding="base64">ICAgIHV0aW1lX2ludGVydmFsID0gdXRpbWUuSW50ZXJ2YWwoc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCkKICAgIHV0aW1lX2ludGVydmFscyA9IHV0aW1lX2ludGVydmFsLnNwbGl0KFswLjddKQogICAgbWV0cmljcyA9IGxvYWRlci5sb2FkKGludGVydmFsX3MsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gpCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>save</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>save</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1164,10 +1164,6 @@
     </search>
     <history>
       <history-search>
-        <entry>latent</entry>
-        <entry>decoder_lstm</entry>
-        <entry>decoder_states_inputs</entry>
-        <entry>encoder_inputs</entry>
         <entry>encoder_states</entry>
         <entry>get_model</entry>
         <entry>SENT</entry>
@@ -1184,6 +1180,10 @@
         <entry>get_metrics</entry>
         <entry>get_m</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry encoding="base64">Y2FzZSA=</entry>
+        <entry>14</entry>
+        <entry>return</entry>
+        <entry>save</entry>
       </history-search>
       <history-cmd>
         <entry>189</entry>
