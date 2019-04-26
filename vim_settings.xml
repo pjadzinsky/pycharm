@@ -27,12 +27,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1556141151192">
         <mark key="'" line="686" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556254135055">
-        <mark key="'" line="109" column="0" />
-        <mark key="[" line="39" column="15" />
-        <mark key="]" line="39" column="29" />
-        <mark key="^" line="99" column="17" />
-        <mark key="." line="39" column="1" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556255178214">
+        <mark key="'" line="56" column="47" />
+        <mark key="[" line="44" column="10" />
+        <mark key="]" line="44" column="10" />
+        <mark key="." line="44" column="10" />
+        <mark key="^" line="128" column="47" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1556070879107">
         <mark key="'" line="40" column="0" />
@@ -205,7 +205,7 @@
         <mark key="." line="209" column="0" />
         <mark key="^" line="208" column="9" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1555990914861">
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1556254380194">
         <mark key="'" line="335" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" timestamp="1556215104466">
@@ -225,6 +225,9 @@
         <mark key="]" line="40" column="0" />
         <mark key="^" line="35" column="107" />
         <mark key="." line="40" column="0" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/common/utime.py" timestamp="1556254412350">
+        <mark key="'" line="311" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/from_metrics.py" timestamp="1556056310043">
         <mark key="'" line="700" column="93" />
@@ -252,11 +255,6 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="84" column="0" />
         <mark key="^" line="83" column="8" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/temp.yaml" timestamp="1556133679846">
-        <mark key="[" line="546" column="0" />
-        <mark key="]" line="546" column="0" />
-        <mark key="." line="546" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_correlations_preprocessor.py" timestamp="1556047962589">
         <mark key="[" line="34" column="49" />
@@ -328,8 +326,10 @@
         <mark key="]" line="455" column="0" />
         <mark key="." line="455" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1556033331756">
-        <mark key="'" line="424" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" timestamp="1556254757120">
+        <mark key="'" line="351" column="0" />
+        <mark key="[" line="351" column="0" />
+        <mark key="]" line="351" column="47" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/simulation/README_simulation.py" timestamp="1553532071610">
         <mark key="[" line="0" column="0" />
@@ -373,93 +373,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/causation_stage_to_live_trainer_config.py" />
-      <jump line="60" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
-      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
-      <jump line="59" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
-      <jump line="970" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
-      <jump line="0" column="20" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/README_self_serve_trainer_app.md" />
-      <jump line="31" column="0" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/README_self_serve_trainer_app.md" />
-      <jump line="102" column="71" filename="$USER_HOME$/opas/core/python/opasai/selfserve/modeling/README_self_serve_trainer_app.md" />
-      <jump line="35" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="69" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/sequential_rnn.py" />
-      <jump line="146" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="88" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="39" column="47" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="41" column="26" filename="$USER_HOME$/opas/core/python/opasai/common/data.py" />
-      <jump line="33" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="189" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="110" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="116" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="86" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="85" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="165" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="181" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="184" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="122" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="137" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="128" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="296" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="299" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="255" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="251" column="52" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="290" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="239" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="261" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="229" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="268" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="260" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="263" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="267" column="27" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="119" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="217" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="219" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="256" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="257" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="230" column="55" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="223" column="33" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="220" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="221" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="158" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="111" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="42" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="112" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="187" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="186" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="166" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="174" column="13" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="57" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="71" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="117" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="54" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="58" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="72" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="118" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="159" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="194" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="64" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="28" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="377" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="376" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="375" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="237" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="236" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="235" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="234" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="233" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="59" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="363" column="35" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="44" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="394" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="39" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="77" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="41" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="47" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="123" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="131" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="138" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="177" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="211" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
@@ -473,6 +386,93 @@
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
       <jump line="46" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="108" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="87" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="105" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="88" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="332" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="361" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="365" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="385" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="393" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="417" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="424" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="460" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="474" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="497" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="32" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="67" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="78" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="97" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="115" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="124" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="132" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="161" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="186" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="239" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="247" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="277" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="283" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="289" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="313" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="326" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="335" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="22" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="38" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="46" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="55" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="59" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="62" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="68" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="71" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="86" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="105" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="111" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="114" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="117" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="156" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="209" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="221" column="4" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="228" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="238" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="246" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="264" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="284" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="302" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="307" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="311" column="0" filename="$USER_HOME$/opas/core/python/opasai/common/utime.py" />
+      <jump line="47" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="93" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="39" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="49" column="14" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="51" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="32" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="44" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="68" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="71" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="74" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="117" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="120" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="123" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="128" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="132" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="142" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="150" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="158" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="177" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="216" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="251" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="295" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="328" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
+      <jump line="351" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/metric.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -482,7 +482,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>'', storage_host='localhost'</text>
+        <text>0</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1024,22 +1024,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'', storage_host='localhost'</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>query</text>
+        <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb2FkZXIgPSBMb2FkZXIoW3F1ZXJ5XSwgJycsIHN0b3JhZ2VfaG9zdD0nbG9jYWxob3N0JykK</text>
+        <text encoding="base64">ICAgIHRfZW5jb2Rlcl9pbnB1dF9kYXRhLCB0X2RlY29kZXJfaW5wdXRfZGF0YSwgdF9kZWNvZGVyX291dHB1dF9kYXRhID0gZ2V0X3RyYWluaW5nX2RhdGEodHJhaW5fbWV0cmljcykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxvYWRlciA9IExvYWRlcihbcXVlcnldLCAnJywgc3RvcmFnZV9ob3N0PSdsb2NhbGhvc3QnKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1064,10 +1064,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgImhvc3QiCg==</text>
+        <text encoding="base64">ICAgIHV0aW1lX2ludGVydmFsID0gdXRpbWUuSW50ZXJ2YWwoc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCkKICAgIHV0aW1lX2ludGVydmFscyA9IHV0aW1lX2ludGVydmFsLnNwbGl0KFswLjddKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBdLAo=</text>
+        <text encoding="base64">ICAgIHV0aW1lX2ludGVydmFsID0gdXRpbWUuSW50ZXJ2YWwoc3RhcnRfZXBvY2gsIGVuZF9lcG9jaCkKICAgIHV0aW1lX2ludGVydmFscyA9IHV0aW1lX2ludGVydmFsLnNwbGl0KFswLjddKQogICAgbWV0cmljcyA9IGxvYWRlci5sb2FkKGludGVydmFsX3MsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1135,28 +1135,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICJwaXZvdHMiOiBbCg==</text>
+        <text encoding="base64">ICAgIHN0YXJ0X2Vwb2NoID0gMTU1NDg3OTYwMAogICAgZW5kX2Vwb2NoID0gc3RhcnRfZXBvY2ggKyB1dGltZS5PTkVEQVkgKiAxNAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJPbmVNaW51dGVSYXRlXCIpIiwK</text>
+        <text encoding="base64">ZWxzZToK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICJtZWFzdXJlbWVudCI6IAo=</text>
+        <text encoding="base64">aWYgY2FzZSBpbiBbMCwgMV06Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRlY29kZWRfc2VxdWVuY2UpCg==</text>
+        <text encoding="base64">ICAgIHN0YXJ0X2Vwb2NoID0gMQogICAgZW5kX2Vwb2NoID0gbWluKDEyMDkwMDEsIE4gKiBpbnRlcnZhbF9zICsgc3RhcnRfZXBvY2gpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">TiA9IDEwMDAwICAgICMgcG9pbnRzIHBlciBzZXJpZXMK</text>
+        <text encoding="base64">aW50ZXJ2YWxfcyA9IDYwMApOID0gMTAwMDAgICAgIyBwb2ludHMgcGVyIHNlcmllcwppZiBjYXNlIGluIFswLCAxXToKICAgIHN0YXJ0X2Vwb2NoID0gMQogICAgZW5kX2Vwb2NoID0gbWluKDEyMDkwMDEsIE4gKiBpbnRlcnZhbF9zICsgc3RhcnRfZXBvY2gpCmVsc2U6CiAgICBzdGFydF9lcG9jaCA9IDE1NTQ4Nzk2MDAKICAgIGVuZF9lcG9jaCA9IHN0YXJ0X2Vwb2NoICsgdXRpbWUuT05FREFZICogMTQK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>query</last-search>
+      <last-search encoding="base64">ZGVmIA==</last-search>
       <last-offset />
-      <last-pattern>query</last-pattern>
+      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1164,10 +1164,6 @@
     </search>
     <history>
       <history-search>
-        <entry>in</entry>
-        <entry>ck</entry>
-        <entry>out</entry>
-        <entry>latent_dim</entry>
         <entry>latent</entry>
         <entry>decoder_lstm</entry>
         <entry>decoder_states_inputs</entry>
@@ -1176,7 +1172,6 @@
         <entry>get_model</entry>
         <entry>SENT</entry>
         <entry>target_seq</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>print</entry>
         <entry>negative</entry>
         <entry>end_epoch</entry>
@@ -1184,6 +1179,11 @@
         <entry>def plot</entry>
         <entry>inputs</entry>
         <entry>query</entry>
+        <entry>case</entry>
+        <entry>split</entry>
+        <entry>get_metrics</entry>
+        <entry>get_m</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
         <entry>189</entry>
