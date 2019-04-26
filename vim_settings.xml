@@ -37,12 +37,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1556141151192">
         <mark key="'" line="686" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556313724866">
-        <mark key="'" line="192" column="10" />
-        <mark key="[" line="320" column="0" />
-        <mark key="]" line="320" column="0" />
-        <mark key="^" line="155" column="68" />
-        <mark key="." line="320" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556316078676">
+        <mark key="'" line="154" column="57" />
+        <mark key="[" line="196" column="80" />
+        <mark key="]" line="195" column="3" />
+        <mark key="^" line="195" column="3" />
+        <mark key="." line="195" column="3" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1556070879107">
         <mark key="'" line="40" column="0" />
@@ -152,10 +152,10 @@
         <mark key="^" line="88" column="17" />
         <mark key="." line="88" column="17" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1556312496664">
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1556316071632">
         <mark key="'" line="100" column="44" />
-        <mark key="[" line="1415" column="0" />
-        <mark key="]" line="1415" column="51" />
+        <mark key="[" line="660" column="0" />
+        <mark key="]" line="660" column="80" />
         <mark key="." line="1620" column="57" />
         <mark key="^" line="1620" column="57" />
       </file>
@@ -233,7 +233,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/common/tests/test_string_utils.py" timestamp="1554154756577">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1556313726890">
+      <file name="/Python Console" timestamp="1556315886662">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" timestamp="1556055801771">
@@ -417,7 +417,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="200" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn_example.py" />
       <jump line="208" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn_example.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn_example.py" />
       <jump line="12" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn_example.py" />
@@ -517,6 +516,7 @@
       <jump line="152" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="153" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="192" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="154" column="57" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -526,7 +526,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgaW50KGJhdGNoZXNfcGVyX3BpcGVsaW5lKSA9PSBiYXRjaGVzX3Blcl9waXBlbGluZSwgIlRvdGFsIG51bWJlciBvZiB0aW1lcyBwZXIgcGlwZWxpbmUgaGFzIHRvIGJlIGEgIiBcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJtdWx0aXBsZSBvZiBzZWxmLnRpbWVzdGVwIGJ1dCB3ZSBnb3Qge30gIiBcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhbmQge30iLmZvcm1hdChzYW1wbGVzX3Blcl9waXBlbGluZSwgc2VsZi5kZWNvZGVyX3NlcV9sZW5ndGgpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBfdW5wcm9jZXNzX2RhdGFfbmV3KHNlbGYsIGZlYXR1cmVzX2RhdGFmcmFtZSwgb3V0cHV0X3NhbXBsZXMsIGlzX2lucHV0KToK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1068,13 +1068,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>-1, self.encoder_seq_length, 1</text>
+        <text>d</text>
       </register>
       <register name="/" type="4">
         <text>encoder_input_data</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAjIGhlcmUgWF90cmFpbiBpcyBhIHR1cGxlIHdpdGggKGVuY29kZXJfaW5wdXRfZGF0YSwgZGVjb2Rlcl9pbnB1dF9kYXRhKQo=</text>
+        <text encoding="base64">ICAgIGRlZiBfdW5wcm9jZXNzX2RhdGFfbmV3KHNlbGYsIGZlYXR1cmVzX2RhdGFmcmFtZSwgb3V0cHV0X3NhbXBsZXMsIGlzX2lucHV0KToK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBhc3NlcnQgaW50KGJhdGNoZXNfcGVyX3BpcGVsaW5lKSA9PSBiYXRjaGVzX3Blcl9waXBlbGluZSwgIlRvdGFsIG51bWJlciBvZiB0aW1lcyBwZXIgcGlwZWxpbmUgaGFzIHRvIGJlIGEgIiBcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJtdWx0aXBsZSBvZiBzZWxmLnRpbWVzdGVwIGJ1dCB3ZSBnb3Qge30gIiBcCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhbmQge30iLmZvcm1hdChzYW1wbGVzX3Blcl9waXBlbGluZSwgc2VsZi5kZWNvZGVyX3NlcV9sZW5ndGgpCg==</text>
