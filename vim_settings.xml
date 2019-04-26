@@ -27,12 +27,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" timestamp="1556141151192">
         <mark key="'" line="686" column="48" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556236038137">
-        <mark key="'" line="147" column="0" />
-        <mark key="[" line="46" column="10" />
-        <mark key="]" line="75" column="35" />
-        <mark key="." line="75" column="35" />
-        <mark key="^" line="75" column="57" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1556254135055">
+        <mark key="'" line="109" column="0" />
+        <mark key="[" line="39" column="15" />
+        <mark key="]" line="39" column="29" />
+        <mark key="^" line="99" column="17" />
+        <mark key="." line="39" column="1" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/common/string_utils.py" timestamp="1556070879107">
         <mark key="'" line="40" column="0" />
@@ -80,6 +80,11 @@
         <mark key="]" line="30" column="4" />
         <mark key="^" line="30" column="4" />
         <mark key="." line="30" column="4" />
+      </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" timestamp="1556253859009">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="111" column="0" />
+        <mark key="]" line="128" column="5" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/combined_model.py" timestamp="1556035836019">
         <mark key="'" line="187" column="21" />
@@ -368,8 +373,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_qps_tag_rename.json" />
-      <jump line="5" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/cassandra/cf_qps_new.json" />
       <jump line="21" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/causation_stage_to_live_trainer_config.py" />
       <jump line="60" column="15" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
       <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" />
@@ -392,7 +395,6 @@
       <jump line="116" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="86" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="85" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="46" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="165" column="19" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="181" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="184" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
@@ -468,6 +470,9 @@
       <jump line="286" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="293" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="136" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/RNN/config_1.yaml" />
+      <jump line="46" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="108" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -476,8 +481,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRlY29kZWRfc2VxdWVuY2UpCg==</text>
+      <register name="&quot;" type="4">
+        <text>'', storage_host='localhost'</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1019,22 +1024,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'A': 'a1'</text>
+        <text>'', storage_host='localhost'</text>
       </register>
       <register name="/" type="4">
-        <text>def plot</text>
+        <text>query</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIHBsb3RfaW5wdXRzKGVuY29kZXJfaW5wdXRfZGF0YSwgZGVjb2Rlcl9pbnB1dF9kYXRhLCBkZWNvZGVyX291dHB1dF9kYXRhKToK</text>
+        <text encoding="base64">ICAgICAgICBsb2FkZXIgPSBMb2FkZXIoW3F1ZXJ5XSwgJycsIHN0b3JhZ2VfaG9zdD0nbG9jYWxob3N0JykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRlY29kZWRfc2VxdWVuY2UpCg==</text>
+        <text encoding="base64">ICAgIGxvYWRlciA9IExvYWRlcihbcXVlcnldLCAnJywgc3RvcmFnZV9ob3N0PSdsb2NhbGhvc3QnKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">TiA9IDEwMDAwICAgICMgcG9pbnRzIHBlciBzZXJpZXMK</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1059,10 +1064,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">c3RhcnRfZXBvY2ggKyBpbnRlcnZhbF9zICogTgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgImhvc3QiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGVuZF9lcG9jaCA9IHN0YXJ0X2Vwb2NoICsgaW50ZXJ2YWxfcyAqIE4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBdLAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1130,28 +1135,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoJ3N0b3BfY29uZGl0aW9uIG1ldDoge30nKQogICAgICAgICAgICBzdG9wX2NvbmRpdGlvbiA9IFRydWUK</text>
+        <text encoding="base64">ICAgICJwaXZvdHMiOiBbCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBvcgo=</text>
+        <text encoding="base64">ICAgICJleHByZXNzaW9uIjogIm1lYW4oXCJPbmVNaW51dGVSYXRlXCIpIiwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGludGVydmFsX3MgPSA2MDAKICAgIHN0YXJ0X2Vwb2NoID0gMQogICAgTiA9IDEwMDAgICAgIyBwb2ludHMgcGVyIHNlcmllcwo=</text>
+        <text encoding="base64">ICAgICJtZWFzdXJlbWVudCI6IAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGludGVydmFsX3MgPSA2MDAK</text>
+        <text encoding="base64">ICAgIHByaW50KGRlY29kZWRfc2VxdWVuY2UpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByZWRpY3QoZW5jb2Rlcl9tb2RlbCwgZGVjb2Rlcl9tb2RlbCwgc2VxdWVuY2UpCg==</text>
+        <text encoding="base64">TiA9IDEwMDAwICAgICMgcG9pbnRzIHBlciBzZXJpZXMK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>def plot</last-search>
+      <last-search>query</last-search>
       <last-offset />
-      <last-pattern>def plot</last-pattern>
+      <last-pattern>query</last-pattern>
       <last-replace>rebalance_rate</last-replace>
       <last-substitute>effective_rate</last-substitute>
       <last-dir>1</last-dir>
@@ -1159,8 +1164,6 @@
     </search>
     <history>
       <history-search>
-        <entry>max_encoder_seq</entry>
-        <entry>enc</entry>
         <entry>in</entry>
         <entry>ck</entry>
         <entry>out</entry>
@@ -1179,6 +1182,8 @@
         <entry>end_epoch</entry>
         <entry>N</entry>
         <entry>def plot</entry>
+        <entry>inputs</entry>
+        <entry>query</entry>
       </history-search>
       <history-cmd>
         <entry>189</entry>
