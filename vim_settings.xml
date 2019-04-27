@@ -55,12 +55,6 @@
         <mark key="." line="33" column="14" />
         <mark key="^" line="33" column="14" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/random_forest.py" timestamp="1556308208476">
-        <mark key="'" line="113" column="0" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="70" />
-        <mark key="." line="51" column="0" />
-      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/gaussian_normalizer.py" timestamp="1556206318853">
         <mark key="'" line="57" column="0" />
         <mark key="[" line="0" column="0" />
@@ -248,10 +242,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/common/tests/test_string_utils.py" timestamp="1554154756577">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1556375819455">
+      <file name="/Python Console" timestamp="1556380250268">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="44" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" timestamp="1556055801771">
         <mark key="'" line="13" column="20" />
@@ -278,6 +274,13 @@
         <mark key="[" line="198" column="0" />
         <mark key="]" line="198" column="0" />
         <mark key="." line="198" column="0" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" timestamp="1556380735316">
+        <mark key="'" line="61" column="24" />
+        <mark key="[" line="61" column="102" />
+        <mark key="]" line="62" column="38" />
+        <mark key="^" line="62" column="38" />
+        <mark key="." line="62" column="38" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/depipelined_metric_key.py" timestamp="1556073384984">
         <mark key="'" line="5" column="0" />
@@ -321,11 +324,6 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="84" column="0" />
         <mark key="^" line="83" column="8" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/sysdig/temp.yaml" timestamp="1556133679846">
-        <mark key="[" line="546" column="0" />
-        <mark key="]" line="546" column="0" />
-        <mark key="." line="546" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/preprocessor/tests/test_correlations_preprocessor.py" timestamp="1556047962589">
         <mark key="[" line="34" column="49" />
@@ -461,8 +459,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="215" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="196" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="200" column="76" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_combined_model.py" />
       <jump line="587" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -561,6 +557,8 @@
       <jump line="44" column="41" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="131" column="101" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
       <jump line="160" column="71" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
+      <jump line="0" column="0" filename="/Python Console" />
+      <jump line="60" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -569,8 +567,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbmFtZXNfYW5kX2F0dHJpYnV0ZXMgPSBbXQo=</text>
+      <register name="&quot;" type="4">
+        <text>'tests/data/poloniex_ETC_QTUM_ZRX.csv'</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1112,10 +1110,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>'tests/data/poloniex_ETC_QTUM_ZRX.csv'</text>
       </register>
       <register name="/" type="4">
-        <text>num_features</text>
+        <text encoding="base64">XDxyZWJhbGFuY2VcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBtZXRyaWNzLCBpbnRlcnZhbHMsIHN0YXJ0X2Vwb2NoLCBlbmRfZXBvY2gsIGludGVydmFsX3MgPSBnZXRfaW5wdXRfb3V0cHV0X21ldHJpY3MoMCwgMCkK</text>
@@ -1238,21 +1236,20 @@
         <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name=":" type="4">
-        <text>250</text>
+        <text>63</text>
       </register>
     </registers>
     <search>
-      <last-search>num_features</last-search>
+      <last-search encoding="base64">XDxyZWJhbGFuY2VcPg==</last-search>
       <last-offset />
-      <last-pattern>num_features</last-pattern>
+      <last-pattern encoding="base64">XDxyZWJhbGFuY2VcPg==</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>dataframe</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>print</entry>
         <entry>decoder_input</entry>
         <entry>encoder_input_data</entry>
         <entry>ct</entry>
@@ -1272,9 +1269,9 @@
         <entry>lin</entry>
         <entry>.7</entry>
         <entry>num_features</entry>
+        <entry encoding="base64">XDxyZWJhbGFuY2VcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>198</entry>
         <entry>wq</entry>
         <entry>%s/prediction_timesteps/decoder_seq_length/g</entry>
         <entry>%s/max_//gc</entry>
@@ -1294,6 +1291,7 @@
         <entry>253</entry>
         <entry>252</entry>
         <entry>250</entry>
+        <entry>63</entry>
       </history-cmd>
       <history-expr />
       <history-input />
