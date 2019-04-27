@@ -167,12 +167,12 @@
         <mark key="]" line="495" column="4" />
         <mark key="." line="502" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1556385450535">
-        <mark key="'" line="68" column="27" />
-        <mark key="[" line="77" column="55" />
-        <mark key="]" line="76" column="15" />
-        <mark key="." line="76" column="15" />
-        <mark key="^" line="76" column="15" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1556386379254">
+        <mark key="'" line="350" column="24" />
+        <mark key="[" line="350" column="24" />
+        <mark key="]" line="350" column="24" />
+        <mark key="." line="350" column="24" />
+        <mark key="^" line="350" column="24" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1556311091157">
         <mark key="'" line="226" column="46" />
@@ -417,9 +417,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_combined_model.py" />
-      <jump line="587" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="22" column="22" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="24" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="48" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -517,6 +514,9 @@
       <jump line="0" column="0" filename="/Python Console" />
       <jump line="60" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/tests/test_rebalance.py" />
       <jump line="67" column="27" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="79" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="290" column="41" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="350" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1071,7 +1071,7 @@
         <text>nice_format</text>
       </register>
       <register name="/" type="4">
-        <text>random_reb</text>
+        <text>10</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGNvcnJfZGljdCA9IGdldF9jb3JyX2FzX2RpY3QoY29ycikK</text>
@@ -1198,9 +1198,9 @@
       </register>
     </registers>
     <search>
-      <last-search>random_reb</last-search>
+      <last-search>10</last-search>
       <last-offset />
-      <last-pattern>random_reb</last-pattern>
+      <last-pattern>10</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>dataframe</last-substitute>
       <last-dir>1</last-dir>
@@ -1208,7 +1208,6 @@
     </search>
     <history>
       <history-search>
-        <entry>encoder_input_data</entry>
         <entry>ct</entry>
         <entry>len</entry>
         <entry encoding="base64">IC0g</entry>
@@ -1228,6 +1227,7 @@
         <entry>num_features</entry>
         <entry encoding="base64">XDxyZWJhbGFuY2VcPg==</entry>
         <entry>random_reb</entry>
+        <entry>10</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
