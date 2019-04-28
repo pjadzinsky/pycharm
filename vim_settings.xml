@@ -238,15 +238,19 @@
       <file name="/fragment.py" timestamp="1556310012363">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1556339108111">
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_pipelines.py" timestamp="1556416013771">
         <mark key="'" line="459" column="8" />
-        <mark key="[" line="490" column="0" />
-        <mark key="]" line="490" column="0" />
+        <mark key="[" line="555" column="66" />
+        <mark key="]" line="555" column="66" />
         <mark key="^" line="483" column="47" />
-        <mark key="." line="490" column="0" />
+        <mark key="." line="555" column="66" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1556331740075">
-        <mark key="'" line="283" column="0" />
+      <file name="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" timestamp="1556415853620">
+        <mark key="'" line="331" column="30" />
+        <mark key="[" line="329" column="67" />
+        <mark key="]" line="331" column="38" />
+        <mark key="^" line="331" column="38" />
+        <mark key="." line="331" column="38" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/tests/test_fake_metric.py" timestamp="1556051754716">
         <mark key="'" line="10" column="33" />
@@ -267,9 +271,6 @@
         <mark key="]" line="40" column="0" />
         <mark key="^" line="35" column="107" />
         <mark key="." line="40" column="0" />
-      </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/common/utime.py" timestamp="1556303271993">
-        <mark key="'" line="311" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_model_checkpoint.py" timestamp="1556311219641">
         <mark key="'" line="52" column="0" />
@@ -330,7 +331,7 @@
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1556389106608">
+      <file name="/Dummy.txt" timestamp="1556416135717">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_gradient_boost_regressor.py" timestamp="1556049557803">
@@ -417,7 +418,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="244" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="248" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="252" column="34" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="257" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -517,6 +517,7 @@
       <jump line="292" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="325" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="338" column="20" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="329" column="30" filename="$USER_HOME$/opas/core/python/opasai/metrics/utils/metric_utils.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -526,7 +527,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>#</text>
+        <text>)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1068,7 +1069,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>Max</text>
@@ -1194,7 +1195,7 @@
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoTikK</text>
       </register>
       <register name=":" type="4">
-        <text>63</text>
+        <text>556</text>
       </register>
     </registers>
     <search>
@@ -1230,9 +1231,6 @@
         <entry>Max</entry>
       </history-search>
       <history-cmd>
-        <entry>wq</entry>
-        <entry>%s/prediction_timesteps/decoder_seq_length/g</entry>
-        <entry>%s/max_//gc</entry>
         <entry>%s/encoder_seq_length/self.encoder_seq_length/gc</entry>
         <entry>%s/decoder_seq_length/self.decoder_seq_length/gc</entry>
         <entry>993</entry>
@@ -1250,6 +1248,9 @@
         <entry>252</entry>
         <entry>250</entry>
         <entry>63</entry>
+        <entry>564</entry>
+        <entry>330</entry>
+        <entry>556</entry>
       </history-cmd>
       <history-expr />
       <history-input />
