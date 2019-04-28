@@ -167,12 +167,12 @@
         <mark key="]" line="495" column="4" />
         <mark key="." line="502" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1556389489441">
-        <mark key="'" line="341" column="0" />
-        <mark key="[" line="357" column="0" />
-        <mark key="]" line="357" column="7" />
-        <mark key="." line="357" column="0" />
-        <mark key="^" line="341" column="6" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1556395297149">
+        <mark key="'" line="338" column="20" />
+        <mark key="[" line="342" column="45" />
+        <mark key="]" line="342" column="46" />
+        <mark key="." line="342" column="46" />
+        <mark key="^" line="342" column="35" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/keras_base_model.py" timestamp="1556311091157">
         <mark key="'" line="226" column="46" />
@@ -221,7 +221,7 @@
       <file name="$USER_HOME$/opas/core/python/opasai/common/tests/test_string_utils.py" timestamp="1554154756577">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1556385578050">
+      <file name="/Python Console" timestamp="1556395301908">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -417,17 +417,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="48" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="59" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="90" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="92" column="87" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="105" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="109" column="57" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="139" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="170" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="203" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
-      <jump line="221" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="244" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="248" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
       <jump line="252" column="34" filename="$USER_HOME$/opas/core/python/opasai/metrics/pipelines.py" />
@@ -517,6 +506,17 @@
       <jump line="290" column="41" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="350" column="24" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="341" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="0" column="42" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="7" column="12" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="8" column="12" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="53" column="35" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="54" column="31" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="313" column="3" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="291" column="23" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="2" column="9" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="292" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="325" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="338" column="20" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -525,8 +525,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+      <register name="&quot;" type="4">
+        <text>all_pnts_1[-1:1, 0:3]</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1068,22 +1068,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>n</text>
       </register>
       <register name="/" type="4">
-        <text>10</text>
+        <text>Max</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGNvcnJfZGljdCA9IGdldF9jb3JyX2FzX2RpY3QoY29ycikK</text>
+      <register name="0" type="4">
+        <text>all_pnts_1[-1:1, 0:3]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICIiIgo=</text>
+        <text encoding="base64">ICAgICAgICBhbGxfcG50c18yICo9IGh2LlBvaW50cygpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoTikK</text>
+        <text encoding="base64">ICAgIGRmLmxvY1s6LCAnbWluX2NvcnInXSA9IAo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1108,10 +1108,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
+        <text encoding="base64">ICAgIG9wdHNfZGlyID0gewogICAgICAgICdQb2ludHMnOiB7J3Bsb3QnOiB7J3dpZHRoJzogODAwLCAnaGVpZ2h0JzogODAwLCAnY29sb3InOiAncmVkJ319LAogICAgICAgICdCb3hXaGlza2VyJzogeydwbG90Jzogeyd3aWR0aCc6IDgwMCwgJ2hlaWdodCc6IDgwMH19LAogICAgICAgICdITGluZSc6IHsnc3l0bGUnOiB7J2xpbmVfZGFzeSc6ICdkYXNoZWQnfX0sCiAgICAgICAgJ0Vycm9yQmFycyc6IHsncGxvdCc6IHsnbG9neCc6IFRydWUsICd3aWR0aCc6IDgwMCwgJ2hlaWdodCc6IDQwMH19CiAgICB9Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIE4gPSBsZW4oZXhjaGFuZ2VfYW5kX3RpY2tlcnMpCg==</text>
+        <text encoding="base64">ICAgIHBsb3RzID0gYWxsX3BudHNbLTE6MSwgMDozXSArIHdoaXNrZXJzICogdmlvbGlucyArIGVycm9yX2JhcnMK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1179,28 +1179,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmFpc2UgQXNzZXJ0aW9uRXJyb3IoJ3RvbyBtdWNoIG9mIGEgY2hhbmdlJykK</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBkZlsndGltZWZyYW1lJ10udW5pcXVlKCk6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIE4gPSBsZW4oZXhjaGFuZ2VfYW5kX3RpY2tlcnMpCg==</text>
+        <text encoding="base64">ICAgIGRmLmNvbHVtbnMgPSBbJ2V4Y2hhbmdlX3RpY2tlcnMnLCAndGltZWZyYW1lJywgJ3NpbmNlJywgJ3JlYmFsYW5jZV9yYXRlJywgJ2hvbGRpbmdfcmF0ZScsICdjb3JyJ10K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChwaXZvdGVkLmhlYWQoKSkK</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBxdWFudGl0aWVzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoTikK</text>
       </register>
       <register name=":" type="4">
         <text>63</text>
       </register>
     </registers>
     <search>
-      <last-search>10</last-search>
+      <last-search>Max</last-search>
       <last-offset />
-      <last-pattern>10</last-pattern>
+      <last-pattern>Max</last-pattern>
       <last-replace>df</last-replace>
       <last-substitute>dataframe</last-substitute>
       <last-dir>1</last-dir>
@@ -1208,12 +1208,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ct</entry>
-        <entry>len</entry>
-        <entry encoding="base64">IC0g</entry>
-        <entry>self</entry>
-        <entry>S</entry>
-        <entry>dataframe</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>def _un</entry>
         <entry>^class</entry>
@@ -1228,6 +1222,12 @@
         <entry encoding="base64">XDxyZWJhbGFuY2VcPg==</entry>
         <entry>random_reb</entry>
         <entry>10</entry>
+        <entry>com</entry>
+        <entry>def plot</entry>
+        <entry>def ana</entry>
+        <entry>min</entry>
+        <entry>M</entry>
+        <entry>Max</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
