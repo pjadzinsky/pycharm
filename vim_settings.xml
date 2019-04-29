@@ -141,6 +141,7 @@
         <mark key="^" line="88" column="17" />
         <mark key="." line="88" column="17" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" timestamp="1556566290456" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn_example.py" timestamp="1556312621789">
         <mark key="'" line="304" column="0" />
         <mark key="[" line="304" column="0" />
@@ -234,10 +235,10 @@
         <mark key="]" line="63" column="0" />
         <mark key="." line="63" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1556566090197">
+      <file name="/Python Console" timestamp="1556566340864">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="." line="0" column="33" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/testing_utils.py" timestamp="1556055801771">
         <mark key="'" line="13" column="20" />
@@ -388,16 +389,15 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_gaussian_normalizer.py" timestamp="1556206311997">
         <mark key="[" line="19" column="53" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1556566083044">
-        <mark key="'" line="31" column="36" />
-        <mark key="[" line="105" column="4" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1556566247283">
+        <mark key="'" line="105" column="4" />
+        <mark key="[" line="9" column="33" />
         <mark key="]" line="105" column="4" />
         <mark key="^" line="105" column="4" />
         <mark key="." line="105" column="4" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="242" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="263" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="284" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="347" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -497,6 +497,7 @@
       <jump line="6" column="47" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/postprocessors_interface.py" />
       <jump line="27" column="25" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_postprocessors_interface.py" />
       <jump line="5" column="98" filename="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_postprocessors_interface.py" />
+      <jump line="105" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1051,7 +1052,7 @@
         <text>p</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx7XD4=</text>
+        <text>#&quot;1</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsKICAgICAgInBhdGgiIDogIm9wYXNhaS50cmFpbmVycy5mZWF0dXJlc19wb3N0cHJvY2Vzc29ycy5nYXVzc2lhbl9ub3JtYWxpemVyLkdhdXNzaWFuTm9ybWFsaXplciIsCiAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgImFwcGxpZXNfdG9faW9fdHlwZSI6IFsiaW5wdXQiXQogICAgICB9CiAgICB9LAo=</text>
@@ -1185,21 +1186,20 @@
         <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwYXJhbXMpOgo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>%s/#&quot;1/&quot;1/g</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx7XD4=</last-search>
+      <last-search>#&quot;1</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx7XD4=</last-pattern>
-      <last-replace>#&quot;1f9</last-replace>
-      <last-substitute>&quot;1f9</last-substitute>
+      <last-pattern>#&quot;1</last-pattern>
+      <last-replace>&quot;1</last-replace>
+      <last-substitute>#&quot;1</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>nutanix</entry>
         <entry>#\&quot;35</entry>
         <entry>#</entry>
         <entry>#&quot;35.*$</entry>
@@ -1219,9 +1219,9 @@
         <entry>def to_in</entry>
         <entry>def train_new</entry>
         <entry encoding="base64">XDx7XD4=</entry>
+        <entry>#&quot;1</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/#\&quot;35//gc</entry>
         <entry>/#&quot;</entry>
         <entry>/#&quot;35</entry>
         <entry>%s/#&quot;35//gc</entry>
@@ -1241,6 +1241,7 @@
         <entry>134</entry>
         <entry>%s/&quot;1f9/#&quot;1f9/g</entry>
         <entry>q</entry>
+        <entry>%s/#&quot;1/&quot;1/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
