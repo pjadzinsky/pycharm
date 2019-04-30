@@ -191,16 +191,15 @@
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/features_postprocessors/tests/test_gaussian_normalizer.py" timestamp="1556206311997">
         <mark key="[" line="19" column="53" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1556664129681">
-        <mark key="'" line="59" column="24" />
-        <mark key="[" line="44" column="32" />
-        <mark key="]" line="44" column="33" />
-        <mark key="." line="44" column="33" />
-        <mark key="^" line="44" column="90" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1556666024716">
+        <mark key="'" line="44" column="87" />
+        <mark key="[" line="408" column="52" />
+        <mark key="]" line="408" column="50" />
+        <mark key="." line="408" column="50" />
+        <mark key="^" line="408" column="50" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
       <jump line="55" column="18" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
       <jump line="80" column="85" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
       <jump line="130" column="29" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
@@ -272,7 +271,6 @@
       <jump line="387" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="481" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="489" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="44" column="77" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="468" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="50" column="109" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="58" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -293,13 +291,15 @@
       <jump line="406" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="427" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="448" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="469" column="23" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="492" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="35" column="48" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="38" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="110" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="59" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="507" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="469" column="21" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="44" column="87" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -309,7 +309,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>test_0test_1</text>
+        <text>mean(controller_num_io) - mean(controller_num_read_io)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -851,13 +851,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>test_0test_1</text>
+        <text>mean(controller_num_io) - mean(controller_num_read_io)</text>
       </register>
       <register name="/" type="4">
-        <text>q16</text>
+        <text>q17</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgInNob3J0X25hbWUiOiAicTE2IiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImZpZWxkIjogImNvbnRyb2xsZXJfbnVtX3JlYWRfaW8iLAogICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKGNvbnRyb2xsZXJfbnVtX3JlYWRfaW8pIiwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiZW50aXR5X2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIjAwMDU2M2Y3LWIxMGItYjVmOS0wMDAwLTAwMDAwMDAxOTkwNSIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6CiAgICAgICAgICBbXSwKICAgICAgICAiZW50aXR5X2lkIjoKICAgICAgICAgIFsKICAgICAgICAgICAgIyIxZjk1ODIxYS02ODVhLTQ4MGUtYTY4NC1iNGY0ODMzZTU4YjEiCiAgICAgICAgICBdLAogICAgICB9LAogICAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICAgIH0sCg==</text>
+        <text encoding="base64">ICAgIHsKICAgICAgInNob3J0X25hbWUiOiAicTE2IiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihjb250cm9sbGVyX251bV9pbykgLSBtZWFuKGNvbnRyb2xsZXJfbnVtX3JlYWRfaW8pIiwKICAgICAgInBpdm90cyI6IFsKICAgICAgICAiZW50aXR5X2lkIiwKICAgICAgICAic291cmNlX2luc3RhbmNlX3V1aWQiCiAgICAgIF0sCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgICAgIjAwMDU2M2Y3LWIxMGItYjVmOS0wMDAwLTAwMDAwMDAxOTkwNSIKICAgICAgICBdLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCI6CiAgICAgICAgICBbXSwKICAgICAgICAiZW50aXR5X2lkIjoKICAgICAgICAgIFsKICAgICAgICAgICAgIyIxZjk1ODIxYS02ODVhLTQ4MGUtYTY4NC1iNGY0ODMzZTU4YjEiCiAgICAgICAgICBdLAogICAgICB9LAogICAgICAiZXhjaXRhdGlvbl9kaXJlY3Rpb24iOiAic2FtZSIKICAgIH0sCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHsKICAgICAgInNob3J0X25hbWUiOiAidGVzdF8xIiwKICAgICAgIm1lYXN1cmVtZW50IjogInZtX3N0YXRzIiwKICAgICAgImV4cHJlc3Npb24iOiAibWVhbihcIm1lbW9yeV91c2FnZV9wcG1cIikiLAogICAgICAicGl2b3RzIjogWwogICAgICAgICJlbnRpdHlfaWQiLAogICAgICAgICJzb3VyY2VfaW5zdGFuY2VfdXVpZCIKICAgICAgXSwKICAgICAgInRhZ3MiOiB7CiAgICAgICAgImNsdXN0ZXIiOiBbCiAgICAgICAgICAiMDAwNTYzZjctYjEwYi1iNWY5LTAwMDAtMDAwMDAwMDE5OTA1IgogICAgICAgIF0sCiAgICAgICAgInNvdXJjZV9pbnN0YW5jZV91dWlkIjoKICAgICAgICAgIFtdLAogICAgICAgICJlbnRpdHlfaWQiOgogICAgICAgICAgWwogICAgICAgICAgICAjIjFmOTU4MjFhLTY4NWEtNDgwZS1hNjg0LWI0ZjQ4MzNlNThiMSIKICAgICAgICAgIF0sCiAgICAgIH0sCiAgICAgICJleGNpdGF0aW9uX2RpcmVjdGlvbiI6ICJzYW1lIgogICAgfSwK</text>
@@ -992,9 +992,9 @@
       </register>
     </registers>
     <search>
-      <last-search>q16</last-search>
+      <last-search>q17</last-search>
       <last-offset />
-      <last-pattern>q16</last-pattern>
+      <last-pattern>q17</last-pattern>
       <last-replace>usage</last-replace>
       <last-substitute>total</last-substitute>
       <last-dir>1</last-dir>
@@ -1002,7 +1002,6 @@
     </search>
     <history>
       <history-search>
-        <entry>LogN</entry>
         <entry>Drop</entry>
         <entry>test_</entry>
         <entry>read_</entry>
@@ -1022,6 +1021,7 @@
         <entry>q1</entry>
         <entry>join</entry>
         <entry>q16</entry>
+        <entry>q17</entry>
       </history-search>
       <history-cmd>
         <entry>g/^\s$/d</entry>
