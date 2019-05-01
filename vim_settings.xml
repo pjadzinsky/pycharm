@@ -79,11 +79,11 @@
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="6" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1556748890142">
-        <mark key="[" line="114" column="33" />
-        <mark key="]" line="114" column="36" />
-        <mark key="." line="114" column="36" />
-        <mark key="^" line="114" column="36" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1556749343111">
+        <mark key="[" line="80" column="0" />
+        <mark key="]" line="81" column="72" />
+        <mark key="." line="81" column="72" />
+        <mark key="^" line="81" column="72" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_config.py" timestamp="1556729016224">
         <mark key="[" line="68" column="0" />
@@ -215,9 +215,9 @@
       <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1553721533309">
         <mark key="[" line="34" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1556748838732">
+      <file name="/Dummy.txt" timestamp="1556750126463">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="57" />
+        <mark key="." line="0" column="65" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
         <mark key="[" line="16" column="0" />
@@ -250,17 +250,15 @@
         <mark key="." line="34" column="28" />
         <mark key="^" line="34" column="28" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1556747489833">
-        <mark key="'" line="3" column="24" />
-        <mark key="[" line="145" column="6" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" timestamp="1556750170366">
+        <mark key="'" line="5" column="7" />
+        <mark key="[" line="130" column="24" />
         <mark key="]" line="145" column="6" />
         <mark key="." line="145" column="6" />
         <mark key="^" line="145" column="6" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="269" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="292" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="315" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="338" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="361" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -359,6 +357,8 @@
       <jump line="3" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="81" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
       <jump line="38" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
+      <jump line="145" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="5" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -368,7 +368,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>False</text>
+        <text>selfpredicted_metrics</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -910,22 +910,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>False</text>
+        <text>selfpredicted_metrics</text>
       </register>
       <register name="/" type="4">
-        <text>enable_cache</text>
+        <text>model</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBtZXRyaWNzX2hhdF90cmFpbiA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3RyYWluaW5nJ10pIGZvciBtIGluIHByZWRpY3RlZF9tZXRyaWNzXQogICAgICAgIG1ldHJpY3NfaGF0X3ZhbCA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3ZhbGlkYXRpb24nXSkgZm9yIG0gaW4gcHJlZGljdGVkX21ldHJpY3NdCiAgICAgICAgbWV0cmljc19oYXRfYnVmZmVyID0gW20uaW50ZXJzZWN0X2ludGVydmFscyhzZWxmLmludGVydmFsc1snYnVmZmVyJ10pIGZvciBtIGluIHByZWRpY3RlZF9tZXRyaWNzXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBvdXRwdXRfbWV0cmljcywgcHJlZGljdGVkX21ldHJpY3MgPSBzZWxmLmxpbWl0X3BpcGVsaW5lcyhzZWxmLm91dHB1dF9tZXRyaWNzLCBzZWxmLnByZWRpY3RlZF9tZXRyaWNzKQoK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljc192YWwgPSBbbSBmb3IgbSBpbiBtZXRyaWNzX3ZhbCBpZiBtLnZhbHVlcy5zaGFwZVswXV0K</text>
+        <text encoding="base64">ICAgICAgICBvdXRwdXRfbWV0cmljcywgcHJlZGljdGVkX21ldHJpY3MgPSBzZWxmLmxpbWl0X3BpcGVsaW5lcyhzZWxmLm91dHB1dF9tZXRyaWNzLCBzZWxmLnByZWRpY3RlZF9tZXRyaWNzKQoK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -955,10 +955,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJlZGljdGVkZAo=</text>
+        <text encoding="base64">ICAgIG1ldHJpY3NfdmFsID0gW20uaW50ZXJzZWN0X2ludGVydmFscyhzZWxmLmludGVydmFsc1sndmFsaWRhdGlvbiddLCBkcm9wX25vX2RhdGFfbWV0cmljcz1UcnVlKQogICAgICAgICAgICAgICAgICAgZm9yIG0gaW4gc2VsZi5vdXRwdXRfbWV0cmljc10KICAgIG1ldHJpY3NfdmFsID0gbGlzdChjaGFpbi5mcm9tX2l0ZXJhYmxlKG1ldHJpY3NfdmFsKSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljc192YWwgPSBbbS5pbnRlcnNlY3RfaW50ZXJ2YWxzKHNlbGYuaW50ZXJ2YWxzWyd2YWxpZGF0aW9uJ10sIGRyb3Bfbm9fZGF0YV9tZXRyaWNzPVRydWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciBtIGluIHNlbGYub3V0cHV0X21ldHJpY3NdCiAgICAgICAgICAgIG1ldHJpY3NfdmFsID0gbGlzdChjaGFpbi5mcm9tX2l0ZXJhYmxlKG1ldHJpY3NfdmFsKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1026,28 +1026,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzX3ZhbCA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3ZhbGlkYXRpb24nXSkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCiAgICAgICAgbWV0cmljc192YWwgPSBsaXN0KG1ldHJpY3NfdmFsKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljc19oYXRfdmFsCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzX2J1ZmZlciA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ2J1ZmZlciddKSBmb3IgbSBpbiBvdXRwdXRfbWV0cmljc10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBpbnRlcnNlY3RfaW50ZXJ2YWxzIGJlbG93IG1pZ2h0IHJldHVybiBtZXRyaWNzIHdpdGggbm8gZGF0YSwgd2UgZmlsdGVyIHRob3NlIG91dCAyIGxpbmVzIGJlbG93Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzX3RyYWluID0gW20uaW50ZXJzZWN0X2ludGVydmFscyhzZWxmLmludGVydmFsc1sndHJhaW5pbmcnXSkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsdWVzLmRyb3BuYShpbnBsYWNlPVRydWUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljc192YWwgPSBbbSBmb3IgbSBpbiBtZXRyaWNzX3ZhbCBpZiBtLnZhbHVlcy5zaGFwZVswXV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIjJjMmIxODIxLWE0ZWYtNDFlMS1hNDU5LTdmZmY5YTMzNjE4OCIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZGljdGVkZAo=</text>
       </register>
       <register name=":" type="4">
         <text>s/predicted/output/</text>
       </register>
     </registers>
     <search>
-      <last-search>enable_cache</last-search>
+      <last-search>model</last-search>
       <last-offset />
-      <last-pattern>enable_cache</last-pattern>
+      <last-pattern>model</last-pattern>
       <last-replace>output</last-replace>
       <last-substitute>predicted</last-substitute>
       <last-dir>1</last-dir>
@@ -1055,7 +1055,6 @@
     </search>
     <history>
       <history-search>
-        <entry>print</entry>
         <entry>1f9</entry>
         <entry>pipeline</entry>
         <entry>r2_per</entry>
@@ -1075,6 +1074,7 @@
         <entry>inputs</entry>
         <entry>entity_id</entry>
         <entry>enable_cache</entry>
+        <entry>model</entry>
       </history-search>
       <history-cmd>
         <entry>/#&quot;/d</entry>
