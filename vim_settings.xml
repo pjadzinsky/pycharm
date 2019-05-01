@@ -79,11 +79,11 @@
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="6" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1556747240512">
-        <mark key="[" line="115" column="33" />
-        <mark key="]" line="115" column="36" />
-        <mark key="." line="115" column="36" />
-        <mark key="^" line="115" column="36" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/post_processors/plot_post_processor.py" timestamp="1556748890142">
+        <mark key="[" line="114" column="33" />
+        <mark key="]" line="114" column="36" />
+        <mark key="." line="114" column="36" />
+        <mark key="^" line="114" column="36" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/tests/test_model_config.py" timestamp="1556729016224">
         <mark key="[" line="68" column="0" />
@@ -205,19 +205,19 @@
         <mark key="^" line="331" column="38" />
         <mark key="." line="331" column="38" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" timestamp="1556658991066">
-        <mark key="'" line="189" column="68" />
-        <mark key="[" line="86" column="8" />
-        <mark key="]" line="86" column="8" />
-        <mark key="." line="86" column="8" />
-        <mark key="^" line="86" column="8" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" timestamp="1556748569619">
+        <mark key="'" line="38" column="69" />
+        <mark key="[" line="142" column="78" />
+        <mark key="]" line="142" column="95" />
+        <mark key="." line="142" column="95" />
+        <mark key="^" line="142" column="95" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/stats/periodicity.py" timestamp="1553721533309">
         <mark key="[" line="34" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1556734092881">
+      <file name="/Dummy.txt" timestamp="1556748838732">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="50" />
+        <mark key="." line="0" column="57" />
       </file>
       <file name="/clustering.py" timestamp="1552594723364">
         <mark key="[" line="16" column="0" />
@@ -259,8 +259,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="225" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
-      <jump line="248" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="269" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="292" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="315" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
@@ -359,6 +357,8 @@
       <jump line="649" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="660" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
       <jump line="3" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_2.yaml" />
+      <jump line="81" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
+      <jump line="38" column="69" filename="$USER_HOME$/opas/core/python/opasai/trainers/single_metric_information.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -368,7 +368,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>values</text>
+        <text>False</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -910,22 +910,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>values</text>
+        <text>False</text>
       </register>
       <register name="/" type="4">
-        <text>entity_id</text>
+        <text>enable_cache</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBtZXRyaWNzX2hhdF90cmFpbiA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3RyYWluaW5nJ10pIGZvciBtIGluIHByZWRpY3RlZF9tZXRyaWNzXQogICAgICAgIG1ldHJpY3NfaGF0X3ZhbCA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3ZhbGlkYXRpb24nXSkgZm9yIG0gaW4gcHJlZGljdGVkX21ldHJpY3NdCiAgICAgICAgbWV0cmljc19oYXRfYnVmZmVyID0gW20uaW50ZXJzZWN0X2ludGVydmFscyhzZWxmLmludGVydmFsc1snYnVmZmVyJ10pIGZvciBtIGluIHByZWRpY3RlZF9tZXRyaWNzXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljc192YWwgPSBbbSBmb3IgbSBpbiBtZXRyaWNzX3ZhbCBpZiBtLnZhbHVlcy5zaGFwZVswXV0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJlZGljdGVkZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWV0cmljc192YWwgPSBbbSBmb3IgbSBpbiBtZXRyaWNzX3ZhbCBpZiBtLnZhbHVlcy5zaGFwZVswXV0K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -955,10 +955,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZGljdGVkZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzX3ZhbCA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3ZhbGlkYXRpb24nXSkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCiAgICAgICAgbWV0cmljc192YWwgPSBsaXN0KG1ldHJpY3NfdmFsKQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1026,16 +1026,16 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzX2J1ZmZlciA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ2J1ZmZlciddKSBmb3IgbSBpbiBvdXRwdXRfbWV0cmljc10K</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNzX3ZhbCA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ3ZhbGlkYXRpb24nXSkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCiAgICAgICAgbWV0cmljc192YWwgPSBsaXN0KG1ldHJpY3NfdmFsKQoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWNzX3RyYWluID0gW20uaW50ZXJzZWN0X2ludGVydmFscyhzZWxmLmludGVydmFsc1sndHJhaW5pbmcnXSkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCg==</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNzX2J1ZmZlciA9IFttLmludGVyc2VjdF9pbnRlcnZhbHMoc2VsZi5pbnRlcnZhbHNbJ2J1ZmZlciddKSBmb3IgbSBpbiBvdXRwdXRfbWV0cmljc10K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsdWVzLmRyb3BuYShpbnBsYWNlPVRydWUpCg==</text>
+        <text encoding="base64">ICAgICAgICBtZXRyaWNzX3RyYWluID0gW20uaW50ZXJzZWN0X2ludGVydmFscyhzZWxmLmludGVydmFsc1sndHJhaW5pbmcnXSkgZm9yIG0gaW4gb3V0cHV0X21ldHJpY3NdCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIjJjMmIxODIxLWE0ZWYtNDFlMS1hNDU5LTdmZmY5YTMzNjE4OCIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsdWVzLmRyb3BuYShpbnBsYWNlPVRydWUpCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgIjJjMmIxODIxLWE0ZWYtNDFlMS1hNDU5LTdmZmY5YTMzNjE4OCIsCg==</text>
@@ -1045,9 +1045,9 @@
       </register>
     </registers>
     <search>
-      <last-search>entity_id</last-search>
+      <last-search>enable_cache</last-search>
       <last-offset />
-      <last-pattern>entity_id</last-pattern>
+      <last-pattern>enable_cache</last-pattern>
       <last-replace>output</last-replace>
       <last-substitute>predicted</last-substitute>
       <last-dir>1</last-dir>
@@ -1055,7 +1055,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pivots</entry>
         <entry>print</entry>
         <entry>1f9</entry>
         <entry>pipeline</entry>
@@ -1075,6 +1074,7 @@
         <entry>predicted_train</entry>
         <entry>inputs</entry>
         <entry>entity_id</entry>
+        <entry>enable_cache</entry>
       </history-search>
       <history-cmd>
         <entry>/#&quot;/d</entry>
