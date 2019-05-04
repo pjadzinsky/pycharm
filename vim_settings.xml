@@ -241,12 +241,12 @@
         <mark key="^" line="285" column="21" />
         <mark key="." line="255" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1556480750207">
-        <mark key="'" line="296" column="33" />
-        <mark key="[" line="188" column="18" />
-        <mark key="]" line="299" column="38" />
-        <mark key="^" line="299" column="38" />
-        <mark key="." line="299" column="38" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" timestamp="1556986453260">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="24" column="19" />
+        <mark key="]" line="24" column="26" />
+        <mark key="." line="24" column="26" />
+        <mark key="^" line="24" column="26" />
       </file>
       <file name="/Clipboard.txt" timestamp="1555350794691">
         <mark key="[" line="0" column="0" />
@@ -336,6 +336,11 @@
         <mark key="]" line="71" column="51" />
         <mark key="." line="71" column="51" />
         <mark key="^" line="71" column="51" />
+      </file>
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/simulations/rebalance.py" timestamp="1556985969117">
+        <mark key="[" line="220" column="0" />
+        <mark key="]" line="220" column="0" />
+        <mark key="." line="220" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/metrics/depipelined_metric_key.py" timestamp="1556769905687">
         <mark key="'" line="24" column="4" />
@@ -539,9 +544,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="141" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_3.yaml" />
-      <jump line="154" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_3.yaml" />
-      <jump line="176" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_3.yaml" />
       <jump line="186" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_3.yaml" />
       <jump line="208" column="9" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_3.yaml" />
       <jump line="218" column="10" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/config_3.yaml" />
@@ -639,6 +641,9 @@
       <jump line="18" column="45" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy_base.py" />
       <jump line="9" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy_base.py" />
       <jump line="73" column="25" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy_base.py" />
+      <jump line="10" column="10" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="53" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -648,7 +653,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>dst_key</text>
+        <text>exchange</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1190,22 +1195,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>dst_key</text>
+        <text>exchange</text>
       </register>
       <register name="/" type="4">
         <text>time_ns</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KDEsICdsb2NhbCcpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBnZXRfaGlzdG9yaWNhbF9kYXRhKHNlbGYsIHRpbWVmcmFtZSwgc2luY2UsIGVuZCk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCB0cmFkZXIsIGhvc3QpOgogICAgICAgICIiIiBUaGlzIG1ldGhvZCBoYXMgdG8gYmUgb3ZlcndyaXR0ZW4gYnkgY2hpbGRyZW4gYXMgaW4KICAgICAgICBkZWYgX19pbml0X18oc2VsZiwgdHJhZGVyLCBob3N0LCBwYXJhbTEsIHBhcmFtczIsIC4uLikKICAgICAgICAgICAgU3RyYXRlZ3kuX19pbml0X18odHJhZGVyLCBob3N0KQogICAgICAgICAgICA8c29tZXRoaW5nIGVsc2Ugd2l0aCBwYXJhbTEgYW5kIHBhcmFtMj4KICAgICAgICAiIiIKICAgICAgICBhc3NlcnQgaG9zdCBpbiBbJ2xvY2FsJywgJ3MzJywgJ2Ryb3Bib3gnXQogICAgICAgIGFzc2VydCB0cmFkZXIKICAgICAgICBzZWxmLnRyYWRlciA9IHRyYWRlcgogICAgICAgIHNlbGYuaG9zdCA9IGhvc3QKCiAgICAgICAgc2VsZi5pZCA9IHNlbGYuX2lkKCkKCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgbGVuKHNldChxdW90ZXMpKSA9PSAxCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCh0aW1lXzIgLSB0aW1lXzEpCg==</text>
+        <text encoding="base64">ICAgICAgICBxdW90ZXMgPSBbZXhjaGFuZ2VfYW5kX3RpY2tlclsxXS5zcGxpdCgnLycpWzFdIGZvciBleGNoYW5nZV9hbmRfdGlja2VyIGluIGV4Y2hhbmdlX2FuZF90aWNrZXJzXQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1243,10 +1248,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzMS5pZCkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzMi5pZCkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1314,19 +1319,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCh0aW1lXzIgLSB0aW1lXzEpCiAgICAgICAgcHJpbnQoczEuaWQpCiAgICAgICAgcHJpbnQoczIuaWQpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">JycnCg==</text>
+        <text encoding="base64">ICAgICAgICBleGNoYW5nZV9hbmRfdGlja2Vycy5zb3J0KCkK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAne31fe31fe30nLmZvcm1hdChzZWxmLl9fY2xhc3NfXy5fX25hbWVfXywgdGltZXN0YW1wLCBzb2NrZXQuZ2V0aG9zdG5hbWUoKSkK</text>
+        <text encoding="base64">CiAgICAgICAgIiIiCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgIGRlZiBnZXRfcGl2b3RlZF9kZihleGNoYW5nZV9hbmRfdGlja2VycywgdGltZWZyYW1lLCBzaW5jZSwgcGFyYW1zPXt9KToK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
