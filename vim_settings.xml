@@ -146,7 +146,7 @@
         <mark key="^" line="28" column="102" />
         <mark key="." line="28" column="102" />
       </file>
-      <file name="/Python Console" timestamp="1557190813766">
+      <file name="/Python Console" timestamp="1557191804447">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -495,8 +495,8 @@
         <mark key="." line="48" column="8" />
         <mark key="^" line="48" column="8" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" timestamp="1557190811106">
-        <mark key="'" line="34" column="24" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" timestamp="1557191801299">
+        <mark key="'" line="505" column="0" />
         <mark key="[" line="42" column="39" />
         <mark key="]" line="42" column="90" />
         <mark key="." line="42" column="90" />
@@ -517,8 +517,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="213" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
-      <jump line="245" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
       <jump line="277" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
       <jump line="309" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
       <jump line="341" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
@@ -617,6 +615,8 @@
       <jump line="823" column="55" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="824" column="45" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="34" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
+      <jump line="81" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
+      <jump line="505" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity.yaml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1171,7 +1171,7 @@
         <text>i</text>
       </register>
       <register name="/" type="4">
-        <text>predici</text>
+        <text>#&quot;021</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgI3sKICAgICAgICAgICAgIyAgICAicGF0aCI6ICJvcGFzYWkudHJhaW5lcnMuZmVhdHVyZXNfcG9zdHByb2Nlc3NvcnMuY2hhbmdlX3BpcGVsaW5lX2RlZi5DaGFuZ2VQaXBlbGluZURlZiIsCiAgICAgICAgICAgICMgICAgInBhcmFtcyI6IHsKICAgICAgICAgICAgIyAgICAgICJwaXBlbGluZV9kZWYiOiBbInNvdXJjZV9pbnN0YW5jZV91dWlkIl0sCiAgICAgICAgICAgICMgICAgICAibmV3X3BpcGVsaW5lX2RlZiI6IFsiZW50aXR5X2lkIiwgInNvdXJjZV9pbnN0YW5jZV91dWlkIl0KICAgICAgICAgICAgIyAgICB9CiAgICAgICAgICAgICN9Cg==</text>
@@ -1281,15 +1281,15 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIjBlNzVkOTBjLWQ3NzAtNGM0YS05Mzk2LTgwMmEzYjVmNWFhYyIsCiAgICAgICAgICAgICAgICAgICAgIyIxMWQwZjQ5MC00OWZiLTRlNDEtYThjMi00ZDhiNGU2YTY2NzUiLAogICAgICAgICAgICAgICAgICAgICMiMWY5NTgyMWEtNjg1YS00ODBlLWE2ODQtYjRmNDgzM2U1OGIxIiwKICAgICAgICAgICAgICAgICAgICAjIyIxZmEyMGI0ZS01YzhiLTQ2YzYtYjg2Zi1hODgyMzFjMjYzM2IiLAogICAgICAgICAgICAgICAgICAgICMiMDI5ZWI2ZmItODM2NS00ZjIxLWJhNzgtNjc1MTkzZGQ1YTgzIiwKICAgICAgICAgICAgICAgICAgICAjIjAzZmQxY2ZiLTM0OTAtNDA4My1hNjMyLWNjNTYyNjYxMGUyNCIsCiAgICAgICAgICAgICAgICAgICAgIyIwNzJkZGY1Ny1hMDU2LTRiMjgtODAxMy1kZGM3NjNlZTg5NzUiLAogICAgICAgICAgICAgICAgICAgICMiMGRiNDMyNGEtM2QzYi00YWY0LWEwYzMtMzAwNDc4M2JhMzliIiwKICAgICAgICAgICAgICAgICAgICAjIjVlYmMxNjQ0LTUzZDUtNDQ0My04MWIxLTJiOGVjOGIwODliNiIsCiAgICAgICAgICAgICAgICAgICAgIyIyNTUxNmM1Ni0xMjA2LTQ5MjEtYTY3NC00ZTY5ZTlmZjJkNmQiLAogICAgICAgICAgICAgICAgICAgICMiMmMyYjE4MjEtYTRlZi00MWUxLWE0NTktN2ZmZjlhMzM2MTg4IiwKICAgICAgICAgICAgICAgICAgICAjIjVlYmMxNjQ0LTUzZDUtNDQ0My04MWIxLTJiOGVjOGIwODliNiIsCiAgICAgICAgICAgICAgICAgICAgIyI2MDM2MDczMS1jOWJkLTQ3Y2ItODVlYS1mNzVkNjVlYjk2NjAiLAo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/&quot;021/#&quot;021/gc</text>
+        <text>%s/#&quot;021/&quot;021/g</text>
       </register>
     </registers>
     <search>
-      <last-search>predici</last-search>
+      <last-search>#&quot;021</last-search>
       <last-offset />
-      <last-pattern>predici</last-pattern>
-      <last-replace>#&quot;021</last-replace>
-      <last-substitute>&quot;021</last-substitute>
+      <last-pattern>#&quot;021</last-pattern>
+      <last-replace>&quot;021</last-replace>
+      <last-substitute>#&quot;021</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -1303,7 +1303,6 @@
         <entry>&quot;1</entry>
         <entry>&quot;0</entry>
         <entry>@&quot;021</entry>
-        <entry>#&quot;021</entry>
         <entry>model</entry>
         <entry>pipeline_def</entry>
         <entry>pivots</entry>
@@ -1315,6 +1314,7 @@
         <entry>post</entry>
         <entry>def train_new</entry>
         <entry>predici</entry>
+        <entry>#&quot;021</entry>
       </history-search>
       <history-cmd>
         <entry>30</entry>
@@ -1334,9 +1334,9 @@
         <entry>%s/&quot;1/#&quot;1/g</entry>
         <entry>%s/&quot;0/#&quot;0/g</entry>
         <entry>%s/@&quot;021/&quot;021/g</entry>
-        <entry>%s/#&quot;021/&quot;021/g</entry>
         <entry>513,907s/ &quot;q/ &quot;o/gc</entry>
         <entry>%s/&quot;021/#&quot;021/gc</entry>
+        <entry>%s/#&quot;021/&quot;021/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
