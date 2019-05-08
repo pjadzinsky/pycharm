@@ -359,11 +359,11 @@
         <mark key="]" line="32" column="8" />
         <mark key="." line="32" column="8" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/README.md" timestamp="1557270275396">
-        <mark key="[" line="12" column="12" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/README.md" timestamp="1557274306311">
+        <mark key="[" line="33" column="0" />
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
-        <mark key="^" line="31" column="73" />
+        <mark key="^" line="30" column="73" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q6.yaml" timestamp="1557245960593">
         <mark key="'" line="191" column="8" />
@@ -526,9 +526,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="35" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q13.yaml" />
-      <jump line="502" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q12.yaml" />
-      <jump line="490" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q12.yaml" />
       <jump line="501" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q12.yaml" />
       <jump line="75" column="37" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q11.yaml" />
       <jump line="79" column="5" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q20.yaml" />
@@ -626,6 +623,9 @@
       <jump line="1213" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="1232" column="4" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/nutanix/complementary_load.py" />
+      <jump line="12" column="26" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/README.md" />
+      <jump line="0" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/README.md" />
+      <jump line="33" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/README.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -634,8 +634,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>split</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">PT09PT09PQpXZSdsbCBjcmVhdGUgYSBjb21iaW5lIG1vZGVsIGZyb20gYWxsIHRoZSBpbnB1dHMgcGVyIFZNICsgb25lIGVudGl0eV9pZCBhbmQgd2UnbGwgb3V0cHV0IHRoZSBWTS1zcGVjaWZpYyBwcmVkaWN0aW9uCgpDb21iaW5lZCBtb2RlbCBpcyBtYWRlIG9mIDMgc3ViLW1vZGVscy4KMS4gSWRlbnRpdHkgc3ViLW1vZGVsCiAgIAogICAgR2l2ZW4gYWxsIHRoZSBpbnB1dHMgYW5kIHRoZSBlbnRpdHlfaWQsIGp1c3QgcmV0dXJuIHRoZSBpbnB1dHMgY29ycmVzcG9uZGluZyB0byB0aGlzCiAgICBwYXJ0aWN1bGFyIGVudGl0eV9pZAoxLiBDb21wbGVtZW50IHN1Yi1tb2RlbC4KCiAgICBHaXZlbiBhbGwgdGhlIGlucHV0cyBhbmQgdGhlIGVudGl0eV9pZCwgY29tcHV0ZSBjb21wbGVtZW50IChmb3IgZWFjaCBtZXRyaWMpIGFzCiAgICBzZWVuIGJ5IHRoaXMgcGFydGljdWxhciBlbnRpdHlfaWQKICAgIAoxLiBWTS1zcGVjaWZpYyBtb2RlbC4KICAgIAogICAgVGhpcyBpcyB0aGUgbW9kZWwgYWxyZWFkeSB0cmFpbmVkLCBJJ20gYWRkaW5nIHRoZSBjb25maWcgaGVyZSBmb3IKICAgIGNvbXBsZXRpb24gCiAgICAKPj4+Pj4+PiBBZGRpbmcgbW9kZWwgb2YgbW9kZWxzIGZvciBOdXRhbml4Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1186,13 +1186,13 @@
         <text encoding="base64">ICAgICAgICAgICAgKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSsgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfCAgICAgCg==</text>
+        <text encoding="base64">PT09PT09PQpXZSdsbCBjcmVhdGUgYSBjb21iaW5lIG1vZGVsIGZyb20gYWxsIHRoZSBpbnB1dHMgcGVyIFZNICsgb25lIGVudGl0eV9pZCBhbmQgd2UnbGwgb3V0cHV0IHRoZSBWTS1zcGVjaWZpYyBwcmVkaWN0aW9uCgpDb21iaW5lZCBtb2RlbCBpcyBtYWRlIG9mIDMgc3ViLW1vZGVscy4KMS4gSWRlbnRpdHkgc3ViLW1vZGVsCiAgIAogICAgR2l2ZW4gYWxsIHRoZSBpbnB1dHMgYW5kIHRoZSBlbnRpdHlfaWQsIGp1c3QgcmV0dXJuIHRoZSBpbnB1dHMgY29ycmVzcG9uZGluZyB0byB0aGlzCiAgICBwYXJ0aWN1bGFyIGVudGl0eV9pZAoxLiBDb21wbGVtZW50IHN1Yi1tb2RlbC4KCiAgICBHaXZlbiBhbGwgdGhlIGlucHV0cyBhbmQgdGhlIGVudGl0eV9pZCwgY29tcHV0ZSBjb21wbGVtZW50IChmb3IgZWFjaCBtZXRyaWMpIGFzCiAgICBzZWVuIGJ5IHRoaXMgcGFydGljdWxhciBlbnRpdHlfaWQKICAgIAoxLiBWTS1zcGVjaWZpYyBtb2RlbC4KICAgIAogICAgVGhpcyBpcyB0aGUgbW9kZWwgYWxyZWFkeSB0cmFpbmVkLCBJJ20gYWRkaW5nIHRoZSBjb25maWcgaGVyZSBmb3IKICAgIGNvbXBsZXRpb24gCiAgICAKPj4+Pj4+PiBBZGRpbmcgbW9kZWwgb2YgbW9kZWxzIGZvciBOdXRhbml4Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">LQogCi0KIAogCiAKLQogCi0KIAogCiAKLQogCi0KIAog</text>
+      <register name="2" type="2">
+        <text encoding="base64">PDw8PDw8PCA5M2IzYTgzNWZlZDUwZjdiMTQzMzRjYjYxNWQxOTJmYTA4ZjQ5MGEwCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1202,11 +1202,11 @@
           <key char="65535" code="65" mods="130" />
         </keys>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgICAgICAgICAKICAgICAgICAgICAKICAgICAgICAgICAKICAgICAgICAgICA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfCAgICAgCg==</text>
       </register>
       <register name="4" type="8">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIA==</text>
+        <text encoding="base64">LQogCi0KIAogCiAKLQogCi0KIAogCiAKLQogCi0KIAog</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1274,19 +1274,19 @@
         </keys>
       </register>
       <register name="5" type="8">
+        <text encoding="base64">ICAgICAgICAgICAKICAgICAgICAgICAKICAgICAgICAgICAKICAgICAgICAgICA=</text>
+      </register>
+      <register name="6" type="8">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIA==</text>
+      </register>
+      <register name="7" type="8">
         <text encoding="base64">IHZtX21vZGVsICAgICAgIAogKGVudGl0eV9pZCBpbiAgCiAgcGlwZWxpbmVfZGVmICAKICBidXQgcXVlcmllcyAgIAogIGFyZSBwaXZvdGVkICAgCiAgYnkgZW50aXR5X2lkICAKICBhbmQgdGhlcmUgaXMgYQogIGNvbXBsZW1lbnQgICAgCmZlYXR1cmUgY3JlYXRvciAKICB0aGF0IGV4cGVjdHMgIAogIGFsbCBlbnRpdHkgaWRz</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICB8Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgKy0tLS0tLS0tLS0tKyAgICAgICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICB8Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgKy0tLS0tLS0tLS0tKyAgICAgICAgICAgICAgICAgICAgICAgKy0tLS0tLS0tLS0tLS0tLS0tLS0rCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICB8Cg==</text>
       </register>
       <register name=":" type="4">
         <text>qa</text>
