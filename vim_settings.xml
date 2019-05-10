@@ -48,6 +48,13 @@
         <mark key="^" line="70" column="6" />
         <mark key="." line="70" column="6" />
       </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" timestamp="1557515020793">
+        <mark key="'" line="23" column="9" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="8" />
+        <mark key="^" line="2" column="10" />
+        <mark key="." line="20" column="8" />
+      </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/differentiation_feature_creator.py" timestamp="1557453262402">
         <mark key="[" line="25" column="62" />
       </file>
@@ -154,10 +161,7 @@
         <mark key="^" line="28" column="80" />
         <mark key="." line="28" column="80" />
       </file>
-      <file name="/Python Console" timestamp="1557512025811">
-        <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="65" />
-      </file>
+      <file name="/Python Console" timestamp="1557514965075" />
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q1.yaml" timestamp="1557245892253">
         <mark key="'" line="67" column="37" />
         <mark key="[" line="100" column="4" />
@@ -283,8 +287,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="121" column="17" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" />
-      <jump line="9" column="28" filename="$USER_HOME$/opas/core/python/opasai/trainers/configs/blueshift/seq2seq.yaml" />
       <jump line="131" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_seq2seq_rnn.py" />
       <jump line="153" column="20" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_seq2seq_rnn.py" />
       <jump line="8" column="49" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_seq2seq_rnn.py" />
@@ -383,6 +385,8 @@
       <jump line="305" column="31" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/tests/test_opas_base_model.py" />
       <jump line="711" column="8" filename="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/opas_base_model.py" />
       <jump line="132" column="4" filename="$USER_HOME$/opas/core/python/opasai/metrics/fake_metric.py" />
+      <jump line="5" column="17" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+      <jump line="22" column="9" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -391,8 +395,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtaXhpbmcgPSBucC5vbmVzKCgxLCAxKSkK</text>
+      <register name="&quot;" type="4">
+        <text>local</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -934,13 +938,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>+</text>
+        <text>local</text>
       </register>
       <register name="/" type="4">
-        <text>10</text>
+        <text>local</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgKGFsbCBwZWFrcyBhcmUgYWxpZ25lZCBhbmQgYXQgNSBzdGVwcyBmcm9tIGVhY2ggb3RoZXIuIE9uY2Ugd2UgY29uc3RydWN0IHRoZSBsaXN0IG9mIHRpbWVzIGFuZCBkaWZmCiAgICAgICAgIyAgIGJldHdlZW4gdGhlbSwgdGhlcmUgd2lsbCBvbmx5IGJlIG9uZSB2YWx1ZSAnNScpCg==</text>
+        <text encoding="base64">d2l0aCBvcGVuKCcvdG1wL2xvY2FsLnlhbWwnKSBhcyBmaWQ6CiAgICBsb2NhbCA9IHlhbWwubG9hZChmaWQpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBtaXhpbmcgPSBucC5vbmVzKCgxLCAxKSkK</text>
@@ -1050,9 +1054,9 @@
       </register>
     </registers>
     <search>
-      <last-search>10</last-search>
+      <last-search>local</last-search>
       <last-offset />
-      <last-pattern>10</last-pattern>
+      <last-pattern>local</last-pattern>
       <last-replace>',)</last-replace>
       <last-substitute>')</last-substitute>
       <last-dir>1</last-dir>
@@ -1060,7 +1064,6 @@
     </search>
     <history>
       <history-search>
-        <entry>fake</entry>
         <entry>def deep</entry>
         <entry>def to_out</entry>
         <entry>def to_m</entry>
@@ -1080,6 +1083,7 @@
         <entry>_unprocess_data_new</entry>
         <entry>to_metrics</entry>
         <entry>10</entry>
+        <entry>local</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
