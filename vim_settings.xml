@@ -79,12 +79,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_many_to_one.py" timestamp="1557261657568">
         <mark key="[" line="92" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" timestamp="1557618049262">
-        <mark key="'" line="4" column="39" />
-        <mark key="[" line="59" column="32" />
-        <mark key="]" line="59" column="0" />
-        <mark key="^" line="59" column="0" />
-        <mark key="." line="59" column="0" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" timestamp="1557621681476">
+        <mark key="'" line="58" column="33" />
+        <mark key="[" line="90" column="49" />
+        <mark key="]" line="91" column="7" />
+        <mark key="." line="91" column="7" />
+        <mark key="^" line="91" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" timestamp="1557458160221">
         <mark key="'" line="181" column="45" />
@@ -162,12 +162,12 @@
         <mark key="^" line="40" column="26" />
         <mark key="." line="40" column="26" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" timestamp="1557620760459">
-        <mark key="'" line="41" column="0" />
-        <mark key="[" line="114" column="17" />
-        <mark key="]" line="114" column="23" />
-        <mark key="^" line="114" column="23" />
-        <mark key="." line="114" column="23" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" timestamp="1557621547322">
+        <mark key="'" line="35" column="41" />
+        <mark key="[" line="119" column="20" />
+        <mark key="]" line="119" column="20" />
+        <mark key="^" line="119" column="20" />
+        <mark key="." line="119" column="20" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1557537451390">
         <mark key="'" line="122" column="17" />
@@ -339,16 +339,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="12" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="38" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="246" column="7" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="250" column="38" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="8" column="28" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="251" column="18" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="9" column="58" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="252" column="32" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="12" column="70" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
-      <jump line="253" column="49" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="254" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="165" column="27" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
       <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/rebalance.py" />
@@ -439,6 +429,16 @@
       <jump line="55" column="13" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="59" column="13" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="4" column="39" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="114" column="23" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="16" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="19" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="68" column="10" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="40" column="8" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="129" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="136" column="92" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
+      <jump line="58" column="33" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="35" column="41" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -448,7 +448,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>analyze</text>
+        <text>_</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -990,22 +990,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>analyze</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>Strategy</text>
+        <text>def pro</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5pZCA9IHNlbGYuX2lkKCkKICAgICAgICAgICAgc2VsZi5hZGRfdG9fYWN0aXZlX3N0cmF0ZWdpZXMoKQo=</text>
+        <text encoding="base64">ICAgIG1vbml0b3IgPSBUcmFuc2FjdGlvbnNNb25pdG9yKFN1bW1hcnlXcml0ZXJJbnRlcmZhY2UoKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBoaXN0b3JpY2FsX2RhdGEoc2VsZiwgc2luY2UpOgogICAgICAgICIiIgoKICAgICAgICA6cmV0dXJuOiBSZXR1cm4gYWxsIHRoZSBoaXN0b3JpY2FsIGRhdGEgc2luY2UgJ3NpbmNlJyBwYXJhbS4gV2Ugc2hvdWxkIGJlIGFibGUgdG8gcnVuOgoKICAgICAgICAgICAgZm9yIGRhdGEgaW4gc3RyYXRlZ3kuaGlzdG9yaWNhbF9kYXRhKHNpbmNlKToKICAgICAgICAgICAgICAgIHN0cmF0ZWd5LmFuYWx5emUoKmRhdGEsIGZvbGRlcj0nL3RtcCcpCgogICAgICAgIG9yCgogICAgICAgICAgICBmb3IgZGF0YSBpbiBzdHJhdGVneS5oaXN0b3JpY2FsX2RhdGEoc2luY2UpOgogICAgICAgICAgICAgICAgc3RyYXRlZ3kuYW5hbHl6ZSgqZGF0YSwgYnVja2V0PURFQlVHR0lORykKICAgICAgICAiIiIKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yKCdOZWVkcyB0byBiZSBpbXBsZW1lbnRlZCBieSBjaGlsZCBjbGFzcycpCg==</text>
+        <text encoding="base64">ICAgICAgICBzdGFydF90aW1lID0gdGVzdF9jbGFzcy4K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1016,10 +1016,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgQnkgJ3N0YXJ0X3RpbWUnIEkgbWVhbiB0aGUgCg==</text>
+        <text encoding="base64">ICAgICAgICB0aW1lc3RhbXAgPSB0aW1lLnRpbWUoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1087,28 +1087,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBfc3RhcnRfdGltZShzZWxmKToKICAgICAgICAiIiIKICAgICAgICBSZXR1cm4gdGhlIHN0YXJ0X3RpbWUgdGhpcyBpbnN0YW5jZSB3YXMgZmlyc3Qgb3JpZ2luYXRlZCBmcm9tIHRoZSBzdHJhdGVneSBpZC4KICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIHN0YXJ0X3RpbWUgPSBzZWxmLmlkLnJzcGxpdCgnLycsIDEpWy0xXQogICAgICAgIHJldHVybiBzdGFydF90aW1lCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5pbml0X3NpbXVsYXRpb24oKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBxdW90ZXMgPSBzZWxmLmZldGNoX2RhdGEoKQogICAgICAgIHNlbGYucXVhbnRpdGllcyA9IG5wLnplcm9zX2xpa2UocXVvdGVzKQogICAgICAgIHNlbGYucHJvY2VzcyhxdW90ZXMsIHRvdGFsPXNlbGYudG90YWwpCgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBpbml0X3NpbXVsYXRpb24oc2VsZik6Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBoaXN0b3JpY2FsX2RhdGEoc2VsZiwgc2luY2UpOgogICAgICAgICIiIgoKICAgICAgICA6cmV0dXJuOiBSZXR1cm4gYWxsIHRoZSBoaXN0b3JpY2FsIGRhdGEgc2luY2UgJ3NpbmNlJyBwYXJhbS4gV2Ugc2hvdWxkIGJlIGFibGUgdG8gcnVuOgoKICAgICAgICAgICAgZm9yIGRhdGEgaW4gc3RyYXRlZ3kuaGlzdG9yaWNhbF9kYXRhKHNpbmNlKToKICAgICAgICAgICAgICAgIHN0cmF0ZWd5LmFuYWx5emUoKmRhdGEsIGZvbGRlcj0nL3RtcCcpCgogICAgICAgIG9yCgogICAgICAgICAgICBmb3IgZGF0YSBpbiBzdHJhdGVneS5oaXN0b3JpY2FsX2RhdGEoc2luY2UpOgogICAgICAgICAgICAgICAgc3RyYXRlZ3kuYW5hbHl6ZSgqZGF0YSwgYnVja2V0PURFQlVHR0lORykKICAgICAgICAiIiIKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yKCdOZWVkcyB0byBiZSBpbXBsZW1lbnRlZCBieSBjaGlsZCBjbGFzcycpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmV4Y2hhbmdlID0gZXhjaGFuZ2UKICAgICAgICBzZWxmLnRpY2tlcnMgPSBzb3J0ZWQodGlja2VycykKICAgICAgICBzZWxmLnRpbWVmcmFtZSA9IHRpbWVmcmFtZQogICAgICAgIHNlbGYudG90YWwgPSB0b3RhbAogICAgICAgIGlmIHF1YW50aXRpZXM6CiAgICAgICAgICAgIHNlbGYucXVhbnRpdGllcyA9IHF1YW50aXRpZXMKICAgICAgICBlbHNlOgogICAgICAgICAgICAjIGluaXRfc2ltdWxhaXRvbiB3aWxsIHNldCBzZWxmLnF1YW50aXRpZXMgaW50ZXJuYWxseQo=</text>
+        <text encoding="base64">ICAgICAgICAgQnkgJ3N0YXJ0X3RpbWUnIEkgbWVhbiB0aGUgCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/(self, /(/g</text>
       </register>
     </registers>
     <search>
-      <last-search>Strategy</last-search>
+      <last-search>def pro</last-search>
       <last-offset />
-      <last-pattern>Strategy</last-pattern>
+      <last-pattern>def pro</last-pattern>
       <last-replace>(</last-replace>
       <last-substitute encoding="base64">KHNlbGYsIA==</last-substitute>
       <last-dir>1</last-dir>
@@ -1116,9 +1116,6 @@
     </search>
     <history>
       <history-search>
-        <entry>filename</entry>
-        <entry>cols</entry>
-        <entry>def .*data</entry>
         <entry>sdk</entry>
         <entry>s</entry>
         <entry>fetch</entry>
@@ -1132,10 +1129,13 @@
         <entry>s\.</entry>
         <entry>class Ticker</entry>
         <entry>fetch_data</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>moni</entry>
         <entry>trader</entry>
         <entry>Strategy</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>def _</entry>
+        <entry>start_time()</entry>
+        <entry>def pro</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
