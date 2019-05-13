@@ -89,12 +89,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_many_to_one.py" timestamp="1557261657568">
         <mark key="[" line="92" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" timestamp="1557705958577">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" timestamp="1557707049792">
         <mark key="'" line="125" column="0" />
-        <mark key="[" line="125" column="0" />
-        <mark key="]" line="125" column="0" />
-        <mark key="^" line="111" column="99" />
-        <mark key="." line="125" column="0" />
+        <mark key="[" line="94" column="84" />
+        <mark key="]" line="94" column="84" />
+        <mark key="^" line="93" column="7" />
+        <mark key="." line="94" column="84" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" timestamp="1557458160221">
         <mark key="'" line="181" column="45" />
@@ -110,7 +110,7 @@
         <mark key="^" line="356" column="36" />
         <mark key="." line="356" column="36" />
       </file>
-      <file name="/Python Console" timestamp="1557698364572">
+      <file name="/Python Console" timestamp="1557707218657">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/nutanix/combined_model/identity_q1.yaml" timestamp="1557245892253">
@@ -180,12 +180,12 @@
         <mark key="^" line="40" column="26" />
         <mark key="." line="40" column="26" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" timestamp="1557698618728">
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" timestamp="1557707214365">
         <mark key="'" line="165" column="30" />
-        <mark key="[" line="161" column="33" />
-        <mark key="]" line="159" column="32" />
-        <mark key="^" line="159" column="32" />
-        <mark key="." line="161" column="37" />
+        <mark key="[" line="159" column="81" />
+        <mark key="]" line="161" column="38" />
+        <mark key="^" line="161" column="38" />
+        <mark key="." line="161" column="38" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/seq2seq_rnn.py" timestamp="1557537451390">
         <mark key="'" line="122" column="17" />
@@ -465,8 +465,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>start_time</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1008,22 +1008,24 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, folder='/tmp'</text>
+        <text>start_time</text>
       </register>
       <register name="/" type="4">
         <text>tempdirname</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIFRlbXBvcmFyeURpcmVjdG9yeSgpIGFzIHRlbXBkaXJuYW1lOgogICAgICAgICAgICB0ZXN0X2NsYXNzID0gU3RyYXRlZ3koc2VsZi5tb25pdG9yLCBhPTEsIHR3aWNlX2E9Tm9uZSwgaG9zdD0nbG9jYWwnLCBidWNrZXRfbmFtZT10ZW1wZGlybmFtZSkK</text>
+        <text encoding="base64">ICAgIGRlZiBmcm9tX2hvc3QoY2xzLCB0cmFkZXIsIHN0YXJ0X3RpbWUsIGhvc3QsIGJ1Y2tldF9uYW1lKToK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>start_time = s1.start_time
+            s2 = Strategy.from_host(self.monitor, start_time, 'local', tempdirname, start_time)
+            self.assertEqual(s1, s2)</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X2xvY2FsX2hvc3Qoc2VsZik6CiAgICAgICAgdGVzdF9jbGFzcyA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnKQo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1034,10 +1036,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0ZXN0X2NsYXNzID0gU3RyYXRlZ3koc2VsZi5tb25pdG9yLCBhPTEsIHR3aWNlX2E9Tm9uZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2lsZGNhcmQgPSBvcy5wYXRoLmpvaW4oZm9sZGVyLCAie30vKiove30vKioiLmZvcm1hdChjbHMuX19uYW1lX18sIHN0YXJ0X3RpbWUpKQogICAgICAgICAgICBpdGVtcyA9IGdsb2IuZ2xvYih3aWxkY2FyZCwgcmVjdXJzaXZlPVRydWUpCiAgICAgICAgICAgIGl0ZW1zLnNvcnQoKQogICAgICAgICAgICBzdHJhdGVneSA9IGNscy5mcm9tX2pzb24odHJhZGVyLCBpdGVtc1stMV0pCiAgICAgICAgZWxzZToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBtb2NrZWRfYWN0aXZhdGUucmV0dXJuX3ZhbHVlID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJ1Y2tldCA9IGNvbmZpZy5DT05GSUdTX0JVQ0tFVAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1105,19 +1107,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IGJ1Y2tldDoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBmb2xkZXI6CiAgICAgICAgICAgICMgd2UgZG9uJ3QgZG8gYW55dGhpbmcgZWxzZSwgd2UganVzdCBzYXZlZCB0aGUgY29uZmlnIGxvY2FsbHksIG5vIHVwbG9hZGluZyBuZWNlc3NhcnkKICAgICAgICAgICAgcGFzcwo=</text>
+        <text encoding="base64">ICAgICAgICAgKG9yIGxvY2FsICdmb2xkZXInIGlmIGRlZmluZWQpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnKQo=</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X2xvY2FsX2hvc3Qoc2VsZik6CiAgICAgICAgdGVzdF9jbGFzcyA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzMiA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
+        <text encoding="base64">ICAgICAgICB0ZXN0X2NsYXNzID0gU3RyYXRlZ3koc2VsZi5tb25pdG9yLCBhPTEsIHR3aWNlX2E9Tm9uZSkK</text>
       </register>
       <register name=":" type="4">
         <text>%s/tmpdirname/tempdirname/g</text>
