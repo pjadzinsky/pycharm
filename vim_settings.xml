@@ -89,12 +89,12 @@
       <file name="$USER_HOME$/opas/core/python/opasai/nnets/demos/demo_many_to_one.py" timestamp="1557261657568">
         <mark key="[" line="92" column="0" />
       </file>
-      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" timestamp="1557698513271">
-        <mark key="'" line="27" column="17" />
-        <mark key="[" line="81" column="28" />
-        <mark key="]" line="81" column="21" />
-        <mark key="^" line="81" column="21" />
-        <mark key="." line="81" column="21" />
+      <file name="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" timestamp="1557705958577">
+        <mark key="'" line="125" column="0" />
+        <mark key="[" line="125" column="0" />
+        <mark key="]" line="125" column="0" />
+        <mark key="^" line="111" column="99" />
+        <mark key="." line="125" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/opas_models/cnn_1d.py" timestamp="1557458160221">
         <mark key="'" line="181" column="45" />
@@ -357,9 +357,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="103" column="10" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/temp_rebalance.py" />
-      <jump line="144" column="21" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/temp_rebalance.py" />
-      <jump line="157" column="12" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/temp_rebalance.py" />
       <jump line="187" column="38" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/temp_rebalance.py" />
       <jump line="11" column="21" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/temp_rebalance.py" />
       <jump line="17" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/analyzers/temp_rebalance.py" />
@@ -457,6 +454,9 @@
       <jump line="78" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="18" column="36" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="27" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="89" column="72" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="37" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="125" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -466,7 +466,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1008,22 +1008,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>folder</text>
+        <text>, folder='/tmp'</text>
       </register>
       <register name="/" type="4">
-        <text>delete</text>
+        <text>tempdirname</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIFRlbXBvcmFyeURpcmVjdG9yeSgpIGFzIHRlbXBkaXJuYW1lOgogICAgICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnLCBidWNrZXRfbmFtZT10ZW1wZGlybmFtZSkK</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIFRlbXBvcmFyeURpcmVjdG9yeSgpIGFzIHRlbXBkaXJuYW1lOgogICAgICAgICAgICB0ZXN0X2NsYXNzID0gU3RyYXRlZ3koc2VsZi5tb25pdG9yLCBhPTEsIHR3aWNlX2E9Tm9uZSwgaG9zdD0nbG9jYWwnLCBidWNrZXRfbmFtZT10ZW1wZGlybmFtZSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBmb2xkZXI6CiAgICAgICAgICAgICMgd2UgZG9uJ3QgZG8gYW55dGhpbmcgZWxzZSwgd2UganVzdCBzYXZlZCB0aGUgY29uZmlnIGxvY2FsbHksIG5vIHVwbG9hZGluZyBuZWNlc3NhcnkKICAgICAgICAgICAgcGFzcwo=</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X2xvY2FsX2hvc3Qoc2VsZik6CiAgICAgICAgdGVzdF9jbGFzcyA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1034,10 +1034,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
+        <text encoding="base64">ICAgICAgICB0ZXN0X2NsYXNzID0gU3RyYXRlZ3koc2VsZi5tb25pdG9yLCBhPTEsIHR3aWNlX2E9Tm9uZSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnKQo=</text>
+        <text encoding="base64">ICAgICAgICBtb2NrZWRfYWN0aXZhdGUucmV0dXJuX3ZhbHVlID0gTm9uZQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1105,28 +1105,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzMiA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
+        <text encoding="base64">ICAgICAgICBpZiBmb2xkZXI6CiAgICAgICAgICAgICMgd2UgZG9uJ3QgZG8gYW55dGhpbmcgZWxzZSwgd2UganVzdCBzYXZlZCB0aGUgY29uZmlnIGxvY2FsbHksIG5vIHVwbG9hZGluZyBuZWNlc3NhcnkKICAgICAgICAgICAgcGFzcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdXRpbHMuczNfZGVsZXRlKGNvbmZpZy5VTklUVEVTVF9CVUNLRVQsIGNvbmZpZy5BQ1RJVkVfU1RSQVRFR0lFUykK</text>
+        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzMSA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvciwgaG9zdD0nbG9jYWwnKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0ZW1wZGlyID0gbWtkdGVtcCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBzMiA9IFN0cmF0ZWd5KHNlbGYubW9uaXRvcikK</text>
       </register>
       <register name=":" type="4">
         <text>%s/tmpdirname/tempdirname/g</text>
       </register>
     </registers>
     <search>
-      <last-search>delete</last-search>
+      <last-search>tempdirname</last-search>
       <last-offset />
-      <last-pattern>delete</last-pattern>
+      <last-pattern>tempdirname</last-pattern>
       <last-replace>tempdirname</last-replace>
       <last-substitute>tmpdirname</last-substitute>
       <last-dir>1</last-dir>
@@ -1134,7 +1134,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>def _</entry>
         <entry>start_time()</entry>
         <entry>def pro</entry>
@@ -1154,6 +1153,7 @@
         <entry>Strategy</entry>
         <entry>tmpdirname</entry>
         <entry>delete</entry>
+        <entry>tempdirname</entry>
       </history-search>
       <history-cmd>
         <entry>580</entry>
