@@ -994,7 +994,7 @@
         <text>compute</text>
       </register>
       <register name="/" type="4">
-        <text>def process</text>
+        <text>print</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">c2ltdWxhdGUoc2luY2UsIGVuZCwgcmVzb2x1dGlvbik6CiAgICBmb3IgZXBvY2hfdGltZSBpbiByYW5nZShzaW5jZSwgZW5kLCByZXNvbHV0aW9uKToKICAgICAgICBnZXRfZGF0YShlcG9jaF90aW1lKQogICAgICAgIHByb2Nlc3MoKQo=</text>
@@ -1103,13 +1103,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>qa</text>
+        <text>30</text>
       </register>
     </registers>
     <search>
-      <last-search>def process</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>def process</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>tempdirname</last-replace>
       <last-substitute>tmpdirname</last-substitute>
       <last-dir>1</last-dir>
@@ -1117,7 +1117,6 @@
     </search>
     <history>
       <history-search>
-        <entry>host</entry>
         <entry>to_csv</entry>
         <entry>bucket_name</entry>
         <entry>down</entry>
@@ -1137,9 +1136,9 @@
         <entry encoding="base64">IyA=</entry>
         <entry>inf</entry>
         <entry>def process</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
-        <entry>245</entry>
         <entry>572</entry>
         <entry>s/'/&quot;/g</entry>
         <entry>s/=/=('</entry>
@@ -1159,6 +1158,7 @@
         <entry>%s/tmpdirname/tempdirname/g</entry>
         <entry>31</entry>
         <entry>qa</entry>
+        <entry>30</entry>
       </history-cmd>
       <history-expr />
       <history-input />
