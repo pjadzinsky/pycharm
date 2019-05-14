@@ -371,12 +371,12 @@
         <mark key="^" line="87" column="36" />
         <mark key="." line="86" column="35" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" timestamp="1557848325149">
-        <mark key="'" line="0" column="42" />
-        <mark key="[" line="40" column="0" />
-        <mark key="]" line="40" column="0" />
-        <mark key="." line="40" column="0" />
-        <mark key="^" line="39" column="28" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" timestamp="1557860830932">
+        <mark key="'" line="90" column="30" />
+        <mark key="[" line="67" column="30" />
+        <mark key="]" line="67" column="31" />
+        <mark key="." line="67" column="31" />
+        <mark key="^" line="67" column="31" />
       </file>
       <file name="/Dummy.txt" timestamp="1557846544959">
         <mark key="[" line="0" column="0" />
@@ -426,11 +426,11 @@
         <mark key="." line="28" column="56" />
         <mark key="^" line="28" column="56" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/processing_pipeline.py" timestamp="1557859944282">
-        <mark key="[" line="33" column="30" />
-        <mark key="]" line="33" column="9" />
-        <mark key="^" line="33" column="9" />
-        <mark key="." line="33" column="9" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/processing_pipeline.py" timestamp="1557860491628">
+        <mark key="[" line="0" column="33" />
+        <mark key="]" line="1" column="7" />
+        <mark key="." line="1" column="7" />
+        <mark key="^" line="1" column="7" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/configs/blueshift/seq2seq.yaml" timestamp="1557537568931">
         <mark key="'" line="9" column="28" />
@@ -447,9 +447,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="36" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
-      <jump line="27" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
-      <jump line="89" column="72" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="125" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="72" column="31" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
       <jump line="174" column="0" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
@@ -547,6 +544,9 @@
       <jump line="27" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" />
       <jump line="7" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" />
       <jump line="143" column="4" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
+      <jump line="75" column="6" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/processing_pipeline.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/processing_pipeline.py" />
+      <jump line="15" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -556,7 +556,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHBwLmFkZCh1cXBfMCwgdXFwXzEsIHVxcF8yKQo=</text>
+        <text encoding="base64">ICAgICAgICB1cHBfMSA9IFViZXJQb3N0UHJvY2Vzc29yKHByZWRpdG9yXzEpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1098,25 +1098,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>m</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
         <text>to_host</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHVxcF8wID0gVWJlclF1ZXJpZXNQcm9jKCkK</text>
+        <text encoding="base64">ICAgICAgICB1cHBfMSA9IFViZXJQb3N0UHJvY2Vzc29yKHByZWRpdG9yXzEpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHBwLmFkZCh1cXBfMCwgdXFwXzEsIHVxcF8yKQo=</text>
+        <text encoding="base64">ICAgICAgICB1cHBfMSA9IFViZXJQb3N0UHJvY2Vzc29yKHByZWRpdG9yXzEpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text>_0
-_0
-_0
-_0</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB1bV8yID0gVWJlck1vZGVscyh1ZHNwKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1127,10 +1124,10 @@ _0</text>
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHVxcF8yID0gVWJlclF1ZXJpZXNQcm9jKCkK</text>
+        <text encoding="base64">ICAgICAgICBwcC4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHVxcF8xID0gVWJlclF1ZXJpZXNQcm9jKCkK</text>
+        <text encoding="base64">ICAgICAgICBwcCA9IFByb2Nlc3NpbmdQaXBlbGluZSgpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1198,19 +1195,19 @@ _0</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBwcCA9IFByb2Nlc3NpbmdQaXBlbGluZSgpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHBwLmFkZChVYmVyUXVlcmllc1Byb2MoKSkKICAgIHBwLmFkZChVYmVyUXVlcmllc1Byb2MoKSkK</text>
+        <text encoding="base64">ICAgIEV4YW1wbGUgMQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICBibG9jazBfMSAtPiBibG9jazFfMSAtLS0rCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwK</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICstLSBibG9jazJfMAo=</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/save_to_host(timestamp/save_to_host(timestamp, config.CONFIG_FILE/gc</text>
