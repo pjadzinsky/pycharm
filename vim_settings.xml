@@ -100,6 +100,9 @@
         <mark key="^" line="70" column="6" />
         <mark key="." line="70" column="6" />
       </file>
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" timestamp="1557851373486">
+        <mark key="'" line="7" column="36" />
+      </file>
       <file name="$USER_HOME$/opas/core/.gitlab-ci.yml" timestamp="1557524287123">
         <mark key="[" line="11" column="97" />
         <mark key="]" line="11" column="107" />
@@ -452,10 +455,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="159" column="78" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
-      <jump line="163" column="25" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
-      <jump line="165" column="30" filename="$USER_HOME$/crypto/crypto/crypto/strategies/strategy.py" />
-      <jump line="38" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="50" column="38" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="18" column="36" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
       <jump line="27" column="17" filename="$USER_HOME$/crypto/crypto/crypto/strategies/tests/test_strategy.py" />
@@ -552,6 +551,10 @@
       <jump line="32" column="11" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
       <jump line="38" column="22" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
       <jump line="0" column="42" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
+      <jump line="6" column="30" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" />
+      <jump line="22" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" />
+      <jump line="27" column="44" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" />
+      <jump line="7" column="36" filename="$USER_HOME$/opas/core/python/opasai/trainers/new_feature_creator/feature_creator_interface.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1106,7 +1109,7 @@
         <text>UberQueriesProc()</text>
       </register>
       <register name="/" type="4">
-        <text>save_to_host</text>
+        <text>pipeline_def</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHVxcF8wID0gVWJlclF1ZXJpZXNQcm9jKCkK</text>
@@ -1219,9 +1222,9 @@
       </register>
     </registers>
     <search>
-      <last-search>save_to_host</last-search>
+      <last-search>pipeline_def</last-search>
       <last-offset />
-      <last-pattern>save_to_host</last-pattern>
+      <last-pattern>pipeline_def</last-pattern>
       <last-replace>save_to_host(timestamp, config.CONFIG_FILE</last-replace>
       <last-substitute>save_to_host(timestamp</last-substitute>
       <last-dir>1</last-dir>
@@ -1229,7 +1232,6 @@
     </search>
     <history>
       <history-search>
-        <entry>items</entry>
         <entry>Cl</entry>
         <entry>def .*data</entry>
         <entry encoding="base64">IyA=</entry>
@@ -1249,6 +1251,7 @@
         <entry>_get_dst_key</entry>
         <entry>save_to_host(timestamp</entry>
         <entry>save_to_host</entry>
+        <entry>pipeline_def</entry>
       </history-search>
       <history-cmd>
         <entry>s/')/',)/g</entry>
