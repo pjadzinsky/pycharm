@@ -102,12 +102,12 @@
         <mark key="." line="23" column="60" />
         <mark key="^" line="23" column="60" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/tests/test_processing_pipeline.py" timestamp="1557895000071">
-        <mark key="'" line="103" column="18" />
-        <mark key="[" line="103" column="0" />
-        <mark key="]" line="104" column="66" />
-        <mark key="^" line="106" column="18" />
-        <mark key="." line="106" column="18" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/tests/test_processing_pipeline.py" timestamp="1557931974518">
+        <mark key="'" line="110" column="18" />
+        <mark key="[" line="21" column="38" />
+        <mark key="]" line="30" column="0" />
+        <mark key="^" line="113" column="18" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/opas/core/python/opasai/trainers/live_trainer.py" timestamp="1557537291618">
         <mark key="'" line="356" column="8" />
@@ -416,12 +416,12 @@
         <mark key="^" line="87" column="36" />
         <mark key="." line="86" column="35" />
       </file>
-      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" timestamp="1557883663980">
-        <mark key="'" line="236" column="25" />
-        <mark key="[" line="165" column="26" />
-        <mark key="]" line="165" column="31" />
-        <mark key="." line="165" column="31" />
-        <mark key="^" line="165" column="31" />
+      <file name="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" timestamp="1557932164024">
+        <mark key="'" line="181" column="16" />
+        <mark key="[" line="187" column="8" />
+        <mark key="]" line="187" column="7" />
+        <mark key="." line="187" column="7" />
+        <mark key="^" line="187" column="7" />
       </file>
       <file name="/Dummy.txt" timestamp="1557902810495">
         <mark key="[" line="0" column="0" />
@@ -463,9 +463,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="106" column="34" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
-      <jump line="91" column="0" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
-      <jump line="116" column="32" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
       <jump line="150" column="3" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
       <jump line="166" column="24" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
       <jump line="89" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
@@ -563,6 +560,9 @@
       <jump line="40" column="12" filename="$USER_HOME$/opas/core/python/opasai/trainers/queries_processor/tests/data/config.json" />
       <jump line="26" column="40" filename="$USER_HOME$/opas/core/python/opasai/trainers/queries_processor/tests/data/config.json" />
       <jump line="13" column="38" filename="$USER_HOME$/opas/core/python/opasai/trainers/queries_processor/tests/data/config.json" />
+      <jump line="164" column="7" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
+      <jump line="95" column="65" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
+      <jump line="179" column="16" filename="$USER_HOME$/opas/core/python/opasai/trainers/processing_pipeline/uber_block.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -571,8 +571,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X2Vwb2NoID0gcGFyYW1zWydzdGFydF9lcG9jaCddCiAgICAgICAgc2VsZi5lbmRfZXBvY2ggPSBwYXJhbXNbJ2VuZF9lcG9jaCddCiAgICAgICAgc2VsZi5pbnRlcnZhbF9zID0gcGFyYW1zWydpbnRlcnZhbF9zJ10KCg==</text>
+      <register name="&quot;" type="4">
+        <text>fname</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -1114,22 +1114,27 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>10</text>
+        <text>fname</text>
       </register>
       <register name="/" type="4">
-        <text>metic</text>
+        <text>proces</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgIHsKICAgICAgICAgICAgInNob3J0X25hbWUiOiAicTAiLAogICAgICAgICAgICAibWVhc3VyZW1lbnQiOiAic2ltcGxlX21ldHJpY3MiLAogICAgICAgICAgICAiZXhwcmVzc2lvbiI6ICJtZWFuKHNpbnVzb2lkYWwpIiwKICAgICAgICAgICAgInRhZ3MiOiB7CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJwaXZvdHMiOiBbCiAgICAgICAgICAgICAgJ0EnCiAgICAgICAgICAgIF0KICAgICAgICAgIH0K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X2Vwb2NoID0gcGFyYW1zWydzdGFydF9lcG9jaCddCiAgICAgICAgc2VsZi5lbmRfZXBvY2ggPSBwYXJhbXNbJ2VuZF9lcG9jaCddCiAgICAgICAgc2VsZi5pbnRlcnZhbF9zID0gcGFyYW1zWydpbnRlcnZhbF9zJ10KCg==</text>
+      <register name="1" type="4">
+        <text>@classmethod
+    def from_file(cls, fname):
+        with open(fname, 'r+t') as fid:
+            dod = nx.convert.from_dict_of_dicts(fname)
+        g = nx.DiGraph(dod)
+        print(g)</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X2Vwb2NoID0gMTAwCiAgICAgICAgc2VsZi5lbmRfZXBvY2ggPSAyMDAKICAgICAgICBzZWxmLmludGVydmFsX3MgPSAxMAo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCB1bWMuX19kaWN0X18K</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -1140,10 +1145,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIFF1ZXJpZXNQcm9jZXNzb3IuZnJvbV9wYXRoKCkK</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wcm9jZXNzb3JzID0gcHJvY2Vzc29ycwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1211,28 +1216,28 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICIiIgogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgZnJvbV9wYXRoKGNscyk6CiAgICAgICAgZm5hbWUgPSBvcy5wYXRoLmV4cGFuZHVzZXIoJ34vb3Bhcy9jb3JlL3B5dGhvbi9vcGFzYWkvdHJhaW5lcnMvY29uZmlncy91bml0dGVzdC9jb25maWcuanNvbicpCiAgICAgICAgcHJpbnQgZm5hbWUKICAgICAgICBhc3NlcnQgb3MucGF0aC5pc2ZpbGUoZm5hbWUpCiAgICAgICAgY29uZmlnID0gTW9kZWxDb25maWcuZnJvbWZpbGUoZm5hbWUsIHt9KQogICAgICAgIGNvbmZpZy5nZXRfY2xhc3NfaW5zdGFuY2UoImlucHV0c19wcm9jZXNzb3IiKQogICAgIiIiCgo=</text>
+        <text encoding="base64">ICAgICAgICAjc2VsZi5wcmV2aW91c18gPSBwcmV2aW91c18KICAgICAgICAjc2VsZi5uZXh0XyA9IFtdCiAgICAgICAgIyBsaW5rIHRoaXMgb2JqZWN0ICgnc2VsZicpIGFzIHRoZSAnbmV4dF8nIGluIGVhY2ggaXRlbSBpbiAncHJldmlvdXNfJwogICAgICAgICMgbm90ZSB0aGF0IG5leHQgbGluZSB3b3JrcyBpbiBwbGFjZQogICAgICAgICNbcHJldmlvdXNfLm5leHRfLmFwcGVuZChzZWxmKSBmb3IgcHJldmlvdXNfIGluIHNlbGYucHJldmlvdXNfXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAnQScK</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICAgICBdLAo=</text>
+        <text encoding="base64">ICAgICAgICAiIiIgV2UgYWNjZXB0IAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICAgICAgICBdLAo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X2Vwb2NoID0gcGFyYW1zWydzdGFydF9lcG9jaCddCiAgICAgICAgc2VsZi5lbmRfZXBvY2ggPSBwYXJhbXNbJ2VuZF9lcG9jaCddCiAgICAgICAgc2VsZi5pbnRlcnZhbF9zID0gcGFyYW1zWydpbnRlcnZhbF9zJ10KCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAiaW5wdXRzIjogWwogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oT25lTWludXRlUmF0ZSkiLAogICAgICAidGFncyI6IHsKICAgICAgICAiY2x1c3RlciI6IFsKICAgICAgICBdLAogICAgICAgICJrZXlzcGFjZSI6IFsKICAgICAgICBdLAogICAgICAgICJuYW1lIjogWwogICAgICAgICAgIlJlYWRMYXRlbmN5IiwKICAgICAgICAgICJXcml0ZUxhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJuYW1lIiwKICAgICAgICAiaG9zdCIsCiAgICAgICAgInNjb3BlIgogICAgICBdCiAgICB9CiAgXSwKICAib3V0cHV0cyI6WwogICAgewogICAgICAibWVhc3VyZW1lbnQiOiAib3JnLmFwYWNoZS5jYXNzYW5kcmEubWV0cmljczp0eXBlPUNvbHVtbkZhbWlseSIsCiAgICAgICJleHByZXNzaW9uIjogIm1lYW4oXCI5NXRoUGVyY2VudGlsZVwiKSIsCiAgICAgICJ0YWdzIjogewogICAgICAgICJjbHVzdGVyIjogWwogICAgICAgIF0sCiAgICAgICAgImtleXNwYWNlIjogWwogICAgICAgIF0sCiAgICAgICAgIm5hbWUiOiBbCiAgICAgICAgICAiUmVhZExhdGVuY3kiCiAgICAgICAgXQogICAgICB9LAogICAgICAicGl2b3RzIjogWwogICAgICAgICJob3N0IiwKICAgICAgICAic2NvcGUiCiAgICAgIF0KICAgIH0KICBdCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnN0YXJ0X2Vwb2NoID0gMTAwCiAgICAgICAgc2VsZi5lbmRfZXBvY2ggPSAyMDAKICAgICAgICBzZWxmLmludGVydmFsX3MgPSAxMAo=</text>
       </register>
       <register name=":" type="4">
-        <text>s/inp/outp/gc</text>
+        <text>181</text>
       </register>
     </registers>
     <search>
-      <last-search>metic</last-search>
+      <last-search>proces</last-search>
       <last-offset />
-      <last-pattern>metic</last-pattern>
+      <last-pattern>proces</last-pattern>
       <last-replace>outp</last-replace>
       <last-substitute>inp</last-substitute>
       <last-dir>1</last-dir>
@@ -1240,7 +1245,6 @@
     </search>
     <history>
       <history-search>
-        <entry>init__(self)</entry>
         <entry>init__\(self\)</entry>
         <entry>init__\(self</entry>
         <entry>init__(self</entry>
@@ -1260,9 +1264,9 @@
         <entry>inp</entry>
         <entry>SENTINEL_PA</entry>
         <entry>metic</entry>
+        <entry>proces</entry>
       </history-search>
       <history-cmd>
-        <entry>qa</entry>
         <entry>30</entry>
         <entry>50</entry>
         <entry>wq</entry>
@@ -1282,6 +1286,7 @@
         <entry>105</entry>
         <entry>q</entry>
         <entry>s/inp/outp/gc</entry>
+        <entry>181</entry>
       </history-cmd>
       <history-expr />
       <history-input />
