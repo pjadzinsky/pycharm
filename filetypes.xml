@@ -1,6 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.pytest_cache;*.rbc;*.yarb;*build;*dist;*egg-info;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping pattern="crypto" type="PLAIN_TEXT" />
       <mapping pattern="nutanix_1_kpi.yaml" type="PLAIN_TEXT" />
@@ -10,9 +10,9 @@
       <mapping pattern="tras" type="PLAIN_TEXT" />
       <mapping pattern="ss_nutantix" type="PLAIN_TEXT" />
       <mapping pattern="log4j_properties" type="PLAIN_TEXT" />
-      <mapping ext="in" type="PLAIN_TEXT" />
-      <mapping ext="db_scripts" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="db_scripts" type="PLAIN_TEXT" />
+      <mapping ext="in" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
