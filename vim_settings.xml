@@ -23,8 +23,8 @@
         <entry>again</entry>
         <entry>gold</entry>
         <entry>model</entry>
-        <entry>date</entry>
         <entry>timedelta</entry>
+        <entry>date</entry>
       </history-search>
       <history-cmd>
         <entry>%s/_emojis//gc</entry>
@@ -200,6 +200,13 @@
         <mark key="]" line="26" column="0" />
         <mark key="." line="26" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593128383570">
+        <mark key="'" line="67" column="74" />
+        <mark key="[" line="99" column="112" />
+        <mark key="]" line="101" column="9" />
+        <mark key="." line="101" column="8" />
+        <mark key="^" line="101" column="9" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" timestamp="1593052892290">
         <mark key="'" line="2" column="15" />
         <mark key="[" line="20" column="53" />
@@ -237,8 +244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="40" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/train.py" />
-      <jump line="39" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_2/train.py" />
       <jump line="54" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_2/train.py" />
       <jump line="60" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_2/train.py" />
       <jump line="145" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -333,10 +338,12 @@
       <jump line="72" column="103" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="54" column="66" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="77" column="44" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="2" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="5" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="152" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="162" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="78" column="101" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="2" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="67" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -347,8 +354,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRmLnNob3coKQo=</text>
+      <register name="&quot;" type="4">
+        <text>data_up_to</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -896,16 +903,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>date</text>
+        <text>data_up_to</text>
       </register>
       <register name="/" type="4">
-        <text>timedelta</text>
+        <text>date</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAoJzIwMjAtMDEtMDEnLCAxMCksCiAgICAgICAgKCcyMDIwLTAxLTAxJywgMTEpLAogICAgICAgICgnMjAyMC0wMS0wMScsIDEyKSwKICAgICAgICAoJzIwMjAtMDEtMDInLCAyMCksCiAgICAgICAgKCcyMDIwLTAxLTAyJywgMjEpLAogICAgICAgICgnMjAyMC0wMS0wMycsIDMwKSwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRmLnNob3coKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -919,7 +926,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRmLnNob3coKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgR1JPVVAgQlkgbWluZHN0cm9uZ19pZCwgCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -929,11 +936,11 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">IAogCiAKIAog</text>
+      <register name="3" type="2">
+        <text encoding="base64">ZGF0ZV9zdWIoY3VycmVudF9kYXRlKCksIHtudW1fZGF5c30pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkZiA9IGRmLndpdGhDb2x1bW5SZW5hbWVkKCJjZ2lzX3RpbWVzdGFtcCIsICJkYXRhX3VwX3RvIikK</text>
+        <text encoding="base64">ICAgIGRlZiBfZ2V0Xwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1001,19 +1008,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRmLnNob3coKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlZiBfZ2V0X3Bob25lX2xvZ190cmFpbmluZ19kYXRhKHNlbGYsIGlucHV0X3RhYmxlX25hbWU6IHN0ciwgbnVtX2RheXM6IGludCkgLT4gU3BhcmtERjoKICAgICAgICAjIGdldCBkYXRhIGZyb20gc291cmNlX3RhYmxlIHRoYXQgY29ycmVzcG9uZHMgdG8gJ251bV9kYXlzJyBiZWZvcmUgZWFjaCBsYWJlbCBpdGVtCiAgICAgICAgY2dpcyA9ICgKICAgICAgICAgICAgc2VsZi5fc3Bhcmsuc3FsKGYiU0VMRUNUICogRlJPTSB7c2VsZi5pbnB1dF9kYl9uYW1lfS5jZ2lzIikKICAgICAgICAgICAgLndpdGhDb2x1bW4oImZlYXR1cmVfZGF0ZSIsIEYuZGF0ZV9zdWIoRi5jb2woImNnaXNfZGF0ZSIpLCAxKSkKICAgICAgICAgICAgLndpdGhDb2x1bW4oCiAgICAgICAgICAgICAgICAiY2dpc190aW1lc3RhbXAiLAogICAgICAgICAgICAgICAgRi50b191dGNfdGltZXN0YW1wKEYuY29uY2F0KEYuY29sKCJjZ2lzX2RhdGUiKS5jYXN0KCJzdHJpbmciKSwgRi5saXQoIiAwOTowMDowMCIpKSwgIlBTVCIpLAogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICAjIHdlIGRvIHRoZSBmaXJzdCBxdWVyeSBvbiAndXBsb2FkX2RhdGUnIGJlY2F1c2UgdGhlIHRhYmxlIGlzIHBhcnRpdGlvbmVkIG9uIGl0IGFuZCBpcyBmYXN0ZXIKICAgICAgICBwaG9uZV9sb2cgPSBzZWxmLl9zcGFyay5zcWwoZiJTRUxFQ1QgKiBGUk9NIHtzZWxmLmlucHV0X2RiX25hbWV9LntpbnB1dF90YWJsZV9uYW1lfSIpCiAgICAgICAgZGYgPSAoCiAgICAgICAgICAgIHBob25lX2xvZy5qb2luKGNnaXMsIG9uPSJtaW5kc3Ryb25nX2lkIiwgaG93PSJvdXRlciIpCiAgICAgICAgICAgIC5maWx0ZXIoCiAgICAgICAgICAgICAgICBGLmNvbCgidXBsb2FkX2RhdGUiKS5iZXR3ZWVuKEYuZGF0ZV9zdWIoRi5jb2woImZlYXR1cmVfZGF0ZSIpLCBudW1fZGF5cyksIEYuY29sKCJjZ2lzX3RpbWVzdGFtcCIpKQogICAgICAgICAgICApCiAgICAgICAgICAgIC53aXRoQ29sdW1uUmVuYW1lZCgiY2dpc190aW1lc3RhbXAiLCAiZGF0YV91cF90byIpCiAgICAgICAgKQogICAgICAgIHJldHVybiBkZgo=</text>
+        <text encoding="base64">ICAgIGRmLnNob3coKQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBiZWZvcmUgZWFjaAo=</text>
+      <register name="7" type="8">
+        <text encoding="base64">IAogCiAKIAog</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIKICAgICAgICBqdXN0IGdldCBhbGwgZGF0YSBmcm9tIGNvcnJlc3BvbmRpbmcgc291cmNlX3RhYmxlIGZvciB0aGUgbGFzdCAnbnVtX2RheXMnCgogICAgICAgIDpwYXJhbSBzcGFyazoKICAgICAgICA6cGFyYW0gbnVtX2RheXM6CiAgICAgICAgOnJldHVybjoKICAgICAgICAiIiIK</text>
+        <text encoding="base64">ICAgICAgICBkZiA9IGRmLndpdGhDb2x1bW5SZW5hbWVkKCJjZ2lzX3RpbWVzdGFtcCIsICJkYXRhX3VwX3RvIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiBfZ2V0X3Bob25lX2xvZ19zY29yaW5nX2RhdGEoc2VsZiwgaW5wdXRfdGFibGVfbmFtZTogc3RyLCBzdGFydF9kYXRlOiBkYXRlLCBlbmRfZGF0ZTogZGF0ZSkgLT4gU3BhcmtERjoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>37</text>
@@ -1022,9 +1029,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>timedelta</last-search>
+      <last-search>date</last-search>
       <last-offset />
-      <last-pattern>timedelta</last-pattern>
+      <last-pattern>date</last-pattern>
       <last-replace encoding="base64">ICdnb2xkJyA=</last-replace>
       <last-substitute encoding="base64">IGdvbGQg</last-substitute>
       <last-dir>1</last-dir>
