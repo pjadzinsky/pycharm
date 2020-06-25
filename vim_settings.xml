@@ -27,7 +27,6 @@
         <entry>mindstrong_id</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/measure/feature_value/g</entry>
         <entry>%s/featurename/feature_name/g</entry>
         <entry>241,261s/_emojis//</entry>
         <entry>%s/_emojis//gc</entry>
@@ -47,6 +46,7 @@
         <entry>47</entry>
         <entry>%s/Scor/Train</entry>
         <entry>%s/scor/train/g</entry>
+        <entry>28</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -145,10 +145,8 @@
         <mark key="]" line="4" column="17" />
         <mark key="." line="4" column="17" />
       </file>
-      <file name="/Dummy.txt" timestamp="1593045579302">
+      <file name="/Dummy.txt" timestamp="1593100079585">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1593097087235">
         <mark key="[" line="0" column="0" />
@@ -158,6 +156,11 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/cluster_lightweight.json" timestamp="1593052710535">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="44" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/score.py" timestamp="1593100051863">
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/new_cluster.json" timestamp="1593044129799">
         <mark key="'" line="1" column="0" />
@@ -180,12 +183,12 @@
         <mark key="." line="29" column="20" />
         <mark key="^" line="41" column="25" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/score.py" timestamp="1593090617499">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/score.py" timestamp="1593099982452">
         <mark key="'" line="19" column="0" />
-        <mark key="[" line="27" column="4" />
-        <mark key="]" line="27" column="5" />
-        <mark key="." line="27" column="4" />
-        <mark key="^" line="27" column="5" />
+        <mark key="[" line="26" column="5" />
+        <mark key="]" line="26" column="5" />
+        <mark key="." line="26" column="5" />
+        <mark key="^" line="4" column="25" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/phone_log_etl/phone_log_etl_stack.json.template" timestamp="1593044220852">
         <mark key="[" line="21" column="41" />
@@ -211,25 +214,20 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/rendered/jobs/model/model_scoring_stack.json" timestamp="1593051920011">
         <mark key="'" line="7" column="81" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring.py" timestamp="1593042373715">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" timestamp="1593051476780">
-        <mark key="[" line="6" column="10" />
-        <mark key="]" line="6" column="10" />
-        <mark key="^" line="6" column="16" />
-        <mark key="." line="6" column="10" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" timestamp="1593100075917">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="^" line="5" column="16" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" timestamp="1593045947487">
         <mark key="'" line="118" column="4" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" timestamp="1593097291023">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" timestamp="1593099953393">
         <mark key="'" line="33" column="19" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
         <mark key="^" line="26" column="24" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/gold_jsons/android_type.json" timestamp="1593048199491">
@@ -362,7 +360,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHBpdm90X2NvbHVtbnMgPSBbIm1pbmRzdHJvbmdfaWQiXQo=</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -910,7 +908,7 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;mindstrong_id&quot;, &quot;cgis_date&quot;, &quot;cgis_ge_5&quot;</text>
+        <text>timedelta</text>
       </register>
       <register name="/" type="4">
         <text>mindstrong_id</text>
@@ -919,7 +917,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LmxvZ19wYXJhbSgiZmVhdHVyZSIsIGNvbCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHBpdm90X2NvbHVtbnMgPSBbIm1pbmRzdHJvbmdfaWQiXQo=</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -933,7 +931,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfY29sdW1ucyA9IGxpc3QobmV3X2NvbHVtbnMuZGlmZmVyZW5jZShmZWF0dXJlcykpCg==</text>
+        <text encoding="base64">ICAgICMjIElmIGluc3RlYWQgb2YgdXNpbmcgYSBkZWZpbmVkIHJ1bl9pZCB3ZSB3YW50ZWQgdG8gZ2V0IHRoZSBydW5faWQgYXNzb2NpYXRlZCB3aXRoIHRoZSBsYXN0IG1vZGVsIHRyYWluLAogICAgIyMgd2UgY291bGQgZG8gc29tZXRoaW5nIGxpa2U6CiAgICAjIGNsaWVudCA9IG1sZmxvdy50cmFja2luZy5NbGZsb3dDbGllbnQoKQogICAgIyBleHBfaWQgPSBjbGllbnQuZ2V0X2V4cGVyaW1lbnRfYnlfbmFtZSgnL1VzZXJzL3BhYmxvLmphZHppbnNreUBtaW5kc3Ryb25naGVhbHRoLmNvbS90ZXN0X2V4cGVyaW1lbnRfMScpLmV4cGVyaW1lbnRfaWQKICAgICMgZGYgPSBzcGFyay5yZWFkLmZvcm1hdCgnbWxmbG93LWV4cGVyaW1lbnQnKS5sb2FkKGV4cF9pZCkKICAgICMgbGFzdCA9IGRmLmFnZyhGLm1heChGLmNvbCgiZW5kX3RpbWUiKSkuYWxpYXMoImVuZF90aW1lIikpCiAgICAjIHJ1bl9pZCA9IGRmLmpvaW4obGFzdCwgb249WydlbmRfdGltZSddKS5jb2xsZWN0KClbMF0ucnVuX2lkCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -944,10 +942,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGNvbHVtbnMgPSBzZXQoKQo=</text>
+        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LmxvZ19tZXRyaWMoImF1YyIsIGF1YykK</text>
+        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1015,22 +1013,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBtYXNvbi5jb21tb24gaW1wb3J0IHNwYXJrX3V0aWwK</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
+        <text encoding="base64">ICAgIHBpdm90X2NvbHVtbnMgPSBbIm1pbmRzdHJvbmdfaWQiXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LmxvZ19tZXRyaWMoIm1hZSIsIG1hZSkK</text>
+        <text encoding="base64">ICAgICAgICBuZXdfY29sdW1ucyA9IGxpc3QobmV3X2NvbHVtbnMuZGlmZmVyZW5jZShmZWF0dXJlcykpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LmxvZ19tZXRyaWMoInIyIiwgcjIpCg==</text>
+        <text encoding="base64">ICAgIGNvbHVtbnMgPSBzZXQoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LmxvZ19tZXRyaWMoInJtc2UiLCBybXNlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LmxvZ19tZXRyaWMoImF1YyIsIGF1YykK</text>
       </register>
       <register name=":" type="4">
-        <text>%s/scor/train/g</text>
+        <text>28</text>
       </register>
     </registers>
   </component>
