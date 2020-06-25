@@ -19,12 +19,12 @@
         <entry>ch</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>date()</entry>
-        <entry>date</entry>
         <entry>query_</entry>
         <entry encoding="base64">IGdvbGQg</entry>
         <entry>again</entry>
         <entry>gold</entry>
         <entry>model</entry>
+        <entry>date</entry>
       </history-search>
       <history-cmd>
         <entry>%s/_emojis//gc</entry>
@@ -200,11 +200,12 @@
         <mark key="]" line="26" column="0" />
         <mark key="." line="26" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593120202478">
-        <mark key="[" line="74" column="93" />
-        <mark key="]" line="74" column="93" />
-        <mark key="^" line="112" column="47" />
-        <mark key="." line="74" column="93" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593121527572">
+        <mark key="'" line="54" column="66" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="14" />
+        <mark key="." line="2" column="13" />
+        <mark key="^" line="2" column="14" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" timestamp="1593052892290">
         <mark key="'" line="2" column="15" />
@@ -244,9 +245,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/train.py" />
-      <jump line="17" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_2/train.py" />
-      <jump line="14" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="17" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/train.py" />
       <jump line="63" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/train.py" />
       <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_2/train.py" />
@@ -344,6 +342,9 @@
       <jump line="115" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/README.md" />
       <jump line="116" column="84" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/README.md" />
       <jump line="6" column="90" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="72" column="103" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="2" column="21" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="54" column="66" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -355,7 +356,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>end_date</text>
+        <text>str</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -903,16 +904,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>end_date</text>
+        <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>model</text>
+        <text>date</text>
       </register>
       <register name="0" type="4">
         <text>, start_time: str, end_time: str</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Q0dJU19TQ0hFTUEgdG8gZGJfdXRpbHMucHkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -926,7 +927,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text>Changing test to use fake data created on the fly rather than using real delta tables</text>
+        <text encoding="base64">Q0dJU19TQ0hFTUEgdG8gZGJfdXRpbHMucHkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -937,10 +938,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IGBicm9uemVfanNvbnNgIChzZWUgZm9sZGVycyBmb3IgZXhhbXBsZXMpLiAgCg==</text>
+        <text>Changing test to use fake data created on the fly rather than using real delta tables</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">MS4gRWFjaCBvbmUgb2YgdXMgd2lsbCBoYXZlIGhpcy9oZXIgb3duIGZlYXR1cmUgY29kZSB1bmRlciBgYnJvbnplX2ZlYXR1cmVzYCBmb2xkZXIgd2l0aCB0aGUganNvbiBzcGVjaWZpY2F0aW9ucyB1bmRlcgo=</text>
+        <text encoding="base64">IGBicm9uemVfanNvbnNgIChzZWUgZm9sZGVycyBmb3IgZXhhbXBsZXMpLiAgCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1008,19 +1009,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBQaG9uZUxvZ0RyaXZlcgo=</text>
+        <text encoding="base64">MS4gRWFjaCBvbmUgb2YgdXMgd2lsbCBoYXZlIGhpcy9oZXIgb3duIGZlYXR1cmUgY29kZSB1bmRlciBgYnJvbnplX2ZlYXR1cmVzYCBmb2xkZXIgd2l0aCB0aGUganNvbiBzcGVjaWZpY2F0aW9ucyB1bmRlcgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBQaG9uZUxvZ0RyaXZlcgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">VGhlc2UgYXJlIHRoZSBzdGVwcyB0byBzdGFydCBmcm9tIHNjcmF0Y2ggYW5kIGVuZCB1cCB3aXRoIGEgZ3JhZHVhdGVkIGZlYXR1cmUgY29tcHV0ZWQgZnJvbSBwaG9uZSBsb2dzLgpBIHJlc2VhcmNoZXIgd2lsbCBuZWVkIHRvIHByZXBhcmUgdHdvIGZpbGVzIGZvciBlYWNoIGZlYXR1cmUgZW5naW5lZXJlZCBhZ2FpbnN0IHJhdyBwaG9uZSBsb2dzLgpPbmUgZmlsZSB3aWxsIGJlIGEgbW9kdWxlICgucHkgZmlsZSkgdGhhdCBjb250YWlucyBhIGZ1bmN0aW9uIG5hbWVkICJjb21wdXRlIiB0byBiZSB1c2VkIHRvIGVuZ2luZWVyCnRoZSBmZWF0dXJlLiBUaGUgb3RoZXIgZmlsZSBpcyBhIGpzb24gZmlsZSB0aGF0IHNwZWNpZmllcyBwYXJhbWV0ZXJzIG5lZWRlZCBieSAiY29tcHV0ZSIuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">IEZvciBtZSBpdCBpcyBkaWZmaWN1bHQgdG8K</text>
+        <text encoding="base64">VGhlc2UgYXJlIHRoZSBzdGVwcyB0byBzdGFydCBmcm9tIHNjcmF0Y2ggYW5kIGVuZCB1cCB3aXRoIGEgZ3JhZHVhdGVkIGZlYXR1cmUgY29tcHV0ZWQgZnJvbSBwaG9uZSBsb2dzLgpBIHJlc2VhcmNoZXIgd2lsbCBuZWVkIHRvIHByZXBhcmUgdHdvIGZpbGVzIGZvciBlYWNoIGZlYXR1cmUgZW5naW5lZXJlZCBhZ2FpbnN0IHJhdyBwaG9uZSBsb2dzLgpPbmUgZmlsZSB3aWxsIGJlIGEgbW9kdWxlICgucHkgZmlsZSkgdGhhdCBjb250YWlucyBhIGZ1bmN0aW9uIG5hbWVkICJjb21wdXRlIiB0byBiZSB1c2VkIHRvIGVuZ2luZWVyCnRoZSBmZWF0dXJlLiBUaGUgb3RoZXIgZmlsZSBpcyBhIGpzb24gZmlsZSB0aGF0IHNwZWNpZmllcyBwYXJhbWV0ZXJzIG5lZWRlZCBieSAiY29tcHV0ZSIuCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IFJlbWVtYmVyIHRoYXQgYWxsIGZlYXR1cmVzIGFyZSBhbHdheXMgYXZhaWxhYmxlIHRvIGFsbCBvZiB1cywgaWYgYSBmZWF0dXJlIGlzIGNvcnJlY3QgYW5kIHdpbGwgYXQgc29tZSBwb2ludCBiZQogdXNlZnVsIGluIGEgbW9kZWwsIHdlIGNhbiBhbHdheXMgZ3JhZHVhdGUgaXQgb25jZSB3ZSBmaW5kIHRhaHQK</text>
+        <text encoding="base64">IEZvciBtZSBpdCBpcyBkaWZmaWN1bHQgdG8K</text>
       </register>
       <register name=":" type="4">
         <text>37</text>
@@ -1029,9 +1030,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>model</last-search>
+      <last-search>date</last-search>
       <last-offset />
-      <last-pattern>model</last-pattern>
+      <last-pattern>date</last-pattern>
       <last-replace encoding="base64">ICdnb2xkJyA=</last-replace>
       <last-substitute encoding="base64">IGdvbGQg</last-substitute>
       <last-dir>1</last-dir>
