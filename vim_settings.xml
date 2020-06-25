@@ -200,8 +200,11 @@
         <mark key="]" line="26" column="0" />
         <mark key="." line="26" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593119665961">
-        <mark key="[" line="53" column="43" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593120202478">
+        <mark key="[" line="74" column="93" />
+        <mark key="]" line="74" column="93" />
+        <mark key="^" line="112" column="47" />
+        <mark key="." line="74" column="93" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" timestamp="1593052892290">
         <mark key="'" line="2" column="15" />
@@ -352,7 +355,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>Union</text>
+        <text>end_date</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -900,13 +903,13 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>Union</text>
+        <text>end_date</text>
       </register>
       <register name="/" type="4">
         <text>model</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGZlYXR1cmVzX2RiX25hbWU6IHN0ciwgZmVhdHVyZV9uYW1lczogc3RyLCB0YWJsZV9uYW1lOiBzdHIsIHJldHVybl9sYWJlbHM6IGJvb2wsIHF1ZXJ5X25hbWU6IHN0cj0iY2dpcyIsIAogICAgICAgIGxhYmVsc19kYl9uYW1lOiBzdHI9ImRlZmF1bHQiCg==</text>
+      <register name="0" type="4">
+        <text>, start_time: str, end_time: str</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Q0dJU19TQ0hFTUEgdG8gZGJfdXRpbHMucHkK</text>
