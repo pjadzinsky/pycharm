@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pyfu</entry>
         <entry>eval_metrics</entry>
         <entry>eval_me</entry>
         <entry>eval</entry>
@@ -25,6 +24,7 @@
         <entry>scor</entry>
         <entry>8</entry>
         <entry>cluster</entry>
+        <entry>spark</entry>
       </history-search>
       <history-cmd>
         <entry>%s/measure/feature_value/g</entry>
@@ -219,6 +219,13 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" timestamp="1593045947487">
         <mark key="'" line="118" column="4" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" timestamp="1593093612043">
+        <mark key="'" line="29" column="8" />
+        <mark key="[" line="41" column="9" />
+        <mark key="]" line="27" column="37" />
+        <mark key="." line="27" column="36" />
+        <mark key="^" line="27" column="37" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/gold_jsons/android_type.json" timestamp="1593048199491">
         <mark key="[" line="4" column="16" />
         <mark key="]" line="4" column="17" />
@@ -245,10 +252,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="13" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="60" column="102" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="22" column="96" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="34" column="89" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="44" column="22" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="45" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="33" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/train.py" />
@@ -345,6 +348,10 @@
       <jump line="32" column="30" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" />
       <jump line="2" column="15" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" />
       <jump line="19" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_1/score.py" />
+      <jump line="28" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" />
+      <jump line="34" column="6" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" />
+      <jump line="42" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" />
+      <jump line="30" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/pablo_3/train.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -355,8 +362,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>pjadzinsky</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -904,16 +911,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>instead</text>
+        <text>pjadzinsky</text>
       </register>
       <register name="/" type="4">
-        <text>cluster</text>
+        <text>spark</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ImV4aXN0aW5nX2NsdXN0ZXJfaWQiOiAiMDUyMC0xODA3MzAteWVhczEwMyIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0YWxsX2Rmcy5hcHBlbmQoc3BhcmtfdGFsbF9kZikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -927,7 +934,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIG5wLnJhbmRvbS5zZWVkKDQwKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -938,10 +945,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHdhcm5pbmdzLmZpbHRlcndhcm5pbmdzKCJpZ25vcmUiKQogICAgbnAucmFuZG9tLnNlZWQoNDApCg==</text>
+        <text encoding="base64">ICAgICAgICByZXNlYXJjaGVyX2ZlYXR1cmUuZXh0ZW5kKFsocmVzZWFyY2hlciwgci5mZWF0dXJlX25hbWUpIGZvciByIGluIHNwYXJrLnNxbChzcWwpLmNvbGxlY3QoKV0pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICMgSWYgaW5zdGVhZCBvZiB1c2luZyBhIGRlZmluZWQgcnVuX2lkIHdlIHdhbnRlZCB0byBnZXQgdGhlIHJ1bl9pZCBhc3NvY2lhdGVkIHdpdGggdGhlIGxhc3QgbW9kZWwgdHJhaW4sCiAgICAjIHdlIGNvdWxkIGRvIHNvbWV0aGluZyBsaWtlOgogICAgY2xpZW50ID0gbWxmbG93LnRyYWNraW5nLk1sZmxvd0NsaWVudCgpCiAgICBleHBfaWQgPSBjbGllbnQuZ2V0X2V4cGVyaW1lbnRfYnlfbmFtZSgnL1VzZXJzL3BhYmxvLmphZHppbnNreUBtaW5kc3Ryb25naGVhbHRoLmNvbS90ZXN0X2V4cGVyaW1lbnRfMScpLmV4cGVyaW1lbnRfaWQKICAgIGRmID0gc3BhcmsucmVhZC5mb3JtYXQoJ21sZmxvdy1leHBlcmltZW50JykubG9hZChleHBfaWQpCg==</text>
+        <text encoding="base64">ICAgICAgICBzcWwgPSBmIlNFTEVDVCBESVNUSU5DVChmZWF0dXJlX25hbWUpIEZST00ge3Jlc2VhcmNoZXJ9LnRhbGxfZmVhdHVyZXMiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1009,19 +1016,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICNzdGFydF9kYXRlICsgdGltZWRlbHRhKGRheXM9MSkK</text>
+        <text encoding="base64">ICAgIHJlc2VhcmNoZXJfZmVhdHVyZSA9IFtdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAsMDYwMy0wNTAyMDktY29tZXM1Mwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAsPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2NsdXN0ZXJfbGlnaHR3ZWlnaHQuanNvbiIvPgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">JSBlbmRmb3IK</text>
+        <text encoding="base64">IyBUaGUgZGF0YSBzZXQgdXNlZCBpbiB0aGlzIGV4YW1wbGUgaXMgZnJvbSBodHRwOi8vYXJjaGl2ZS5pY3MudWNpLmVkdS9tbC9kYXRhc2V0cy9XaW5lK1F1YWxpdHkKIyBQLiBDb3J0ZXosIEEuIENlcmRlaXJhLCBGLiBBbG1laWRhLCBULiBNYXRvcyBhbmQgSi4gUmVpcy4KIyBNb2RlbGluZyB3aW5lIHByZWZlcmVuY2VzIGJ5IGRhdGEgbWluaW5nIGZyb20gcGh5c2ljb2NoZW1pY2FsIHByb3BlcnRpZXMuIEluIERlY2lzaW9uIFN1cHBvcnQgU3lzdGVtcywgRWxzZXZpZXIsIDQ3KDQpOjU0Ny01NTMsIDIwMDkuCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICIke3BhcmFtZXRlcnNbMF19Igo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/scor/train/g</text>
@@ -1030,9 +1037,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cluster</last-search>
+      <last-search>spark</last-search>
       <last-offset />
-      <last-pattern>cluster</last-pattern>
+      <last-pattern>spark</last-pattern>
       <last-replace>train</last-replace>
       <last-substitute>scor</last-substitute>
       <last-dir>1</last-dir>
