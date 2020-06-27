@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>output_db</entry>
-        <entry>create</entry>
-        <entry>createGlobal</entry>
-        <entry>os_type</entry>
         <entry>pjadz</entry>
         <entry>tall_fe</entry>
         <entry>BIO</entry>
@@ -16,7 +12,6 @@
         <entry>except</entry>
         <entry>a72</entry>
         <entry>Union</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>pj</entry>
         <entry>con</entry>
         <entry>feature_names</entry>
@@ -25,11 +20,13 @@
         <entry>6</entry>
         <entry>new_</entry>
         <entry>android</entry>
+        <entry>cgis</entry>
+        <entry>self.table_name</entry>
+        <entry>features_name</entry>
+        <entry>cgis_name</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/feature/prediction/g</entry>
-        <entry>79</entry>
-        <entry>47</entry>
         <entry>%s/Scor/Train</entry>
         <entry>%s/scor/train/g</entry>
         <entry>28</entry>
@@ -47,6 +44,9 @@
         <entry>s/ //g</entry>
         <entry>wq</entry>
         <entry>s/android/ios/g</entry>
+        <entry>%s/self.table_name/features_name/gc</entry>
+        <entry>%s/features_name/tall_features</entry>
+        <entry>%s/features_name/tall_features/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1593284640588">
+      <file name="/Python Console" timestamp="1593285895534">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -148,17 +148,19 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/requirements.txt" timestamp="1593224867291">
         <mark key="[" line="6" column="11" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" timestamp="1593284460102">
-        <mark key="'" line="74" column="4" />
-        <mark key="[" line="71" column="50" />
-        <mark key="]" line="71" column="50" />
-        <mark key="." line="71" column="50" />
-        <mark key="^" line="68" column="35" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" timestamp="1593286332935">
+        <mark key="'" line="26" column="8" />
+        <mark key="[" line="77" column="0" />
+        <mark key="]" line="77" column="0" />
+        <mark key="." line="77" column="0" />
+        <mark key="^" line="78" column="18" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1593222116348">
-        <mark key="]" line="44" column="36" />
-        <mark key="." line="2" column="31" />
-        <mark key="^" line="2" column="32" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1593285372933">
+        <mark key="'" line="43" column="29" />
+        <mark key="[" line="57" column="4" />
+        <mark key="]" line="58" column="96" />
+        <mark key="." line="58" column="95" />
+        <mark key="^" line="58" column="96" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training_stack.json.template" timestamp="1593224716473">
         <mark key="'" line="28" column="54" />
@@ -174,7 +176,7 @@
         <mark key="[" line="24" column="0" />
         <mark key="]" line="24" column="46" />
       </file>
-      <file name="/Dummy.txt" timestamp="1593281326901">
+      <file name="/Dummy.txt" timestamp="1593286646672">
         <mark key="'" line="0" column="75" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -186,7 +188,7 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" timestamp="1593225991150">
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" timestamp="1593286644443">
         <mark key="'" line="21" column="76" />
         <mark key="[" line="15" column="23" />
         <mark key="]" line="15" column="23" />
@@ -224,14 +226,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="113" column="13" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="141" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="144" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="154" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="61" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="51" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="114" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="142" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="143" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="145" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -322,8 +316,16 @@
       <jump line="21" column="76" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" />
       <jump line="51" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
       <jump line="6" column="31" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
-      <jump line="74" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
+      <jump line="59" column="100" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="43" column="29" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="25" column="46" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
+      <jump line="16" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
+      <jump line="74" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
+      <jump line="18" column="125" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
+      <jump line="27" column="125" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
+      <jump line="26" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,8 +336,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>bool</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGltcG9ydCB0aW1lCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -883,16 +885,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>bool</text>
+        <text>scope=&quot;class&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>android</text>
+        <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGNnaXMud3JpdGUuZm9ybWF0KCJkZWx0YSIpLm1vZGUoIm92ZXJ3cml0ZSIpLnNhdmUoY2dpc190YWJsZV9sb2NhdGlvbikK</text>
+        <text encoding="base64">ICAgICAgICBjZ2lzID0gZmFrZV9mZWF0dXJlc1siY2dpcyJdCiAgICAgICAgdGFsbF9mZWF0dXJlcyA9IGZha2VfZmVhdHVyZXNbInRhbGxfZmVhdHVyZXMiXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRiX25hbWUgPSAiZ2xvYmFsX3RlbXAiCg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCB0aW1lCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -906,7 +908,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICNjZ2lzLmNyZWF0ZUdsb2JhbFRlbXBWaWV3KCJjZ2lzIikK</text>
+        <text encoding="base64">ICAgIHRpbWUuc2xlZXAoNjApCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -917,10 +919,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlvc190YWJsZV9sb2NhdGlvbiA9IGRiX3V0aWxzLnRhYmxlX2xvY2F0aW9uKHRlbXBfZGJbJ2RiX25hbWUnXSwgImlvc19zZXNzaW9uIikK</text>
+        <text encoding="base64">ICAgICAgICBjZ2lzID0gZmFrZV9mZWF0dXJlc1siY2dpcyJdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRiX3V0aWxzLmNyZWF0ZV90YWJsZSgiaW9zX2tleWJvcmFkIikK</text>
+        <text encoding="base64">ICAgIGRiX25hbWUgPSAiZ2xvYmFsX3RlbXAiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -988,32 +990,32 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRhYmxlX25hbWUgPSAidGFsbF9mZWF0dXJlcyIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRiX3V0aWxzLmNyZWF0ZV90YWJsZSgiY2dpcyIpCiAgICBkYl91dGlscy5jcmVhdGVfdGFibGUoImFuZHJvaWRfc2Vzc2lvbiIpCiAgICBkYl91dGlscy5jcmVhdGVfdGFibGUoImlvc19rZXlib3JhZCIpCgogICAgY2dpcy5jcmVhdGVHbG9iYWxUZW1wVmlldygiY2dpcyIpCg==</text>
+        <text encoding="base64">ICAgIGNnaXMuY3JlYXRlR2xvYmFsVGVtcFZpZXcoZiJjZ2lzX3t0aW1lfSIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRiX3V0aWxzLmNyZWF0ZV90YWJsZSgiY2dpcyIpCiAgICBkYl91dGlscy5jcmVhdGVfdGFibGUoImFuZHJvaWRfc2Vzc2lvbiIpCiAgICBkYl91dGlscy5jcmVhdGVfdGFibGUoImlvc19rZXlib3JhZCIpCgo=</text>
+        <text encoding="base64">ICAgIGVsc2U6CiAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcihmInF1ZXJ5X25hbWUgJ3txdWVyeV90YWJsZV9uYW1lfScgaXMgbm90IHlldCBpbXBsZW1lbnRlZCIpCg==</text>
       </register>
       <register name="8" type="2">
-        <text>[DSCI-705] Astart_dateDDING NEW TEMPLATE FOR DATABRICKSRELEASE 7.0</text>
+        <text encoding="base64">ICAgIGlmIHF1ZXJ5X3RhYmxlX25hbWUgPT0gImNnaXMiOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IDcuMC54LXNjYWxhMi4xMiAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLndpdGhDb2x1bW5SZW5hbWVkKCJtaW5kc3Ryb25nX2lkIiwgIm1faWQiKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>s/android/ios/g</text>
+        <text>%s/features_name/tall_features/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>android</last-search>
+      <last-search encoding="base64">ZGVmIA==</last-search>
       <last-offset />
-      <last-pattern>android</last-pattern>
-      <last-replace>ios</last-replace>
-      <last-substitute>android</last-substitute>
+      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-replace>tall_features</last-replace>
+      <last-substitute>features_name</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
