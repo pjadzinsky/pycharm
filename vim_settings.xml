@@ -140,6 +140,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/feature_utils.py" timestamp="1593459772769">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="76" />
+      </file>
       <file name="/Python Console" timestamp="1593312258449">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -147,13 +151,6 @@
       </file>
       <file name="/&quot;cgis&quot;" timestamp="1593447680286">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" timestamp="1593289486485">
-        <mark key="'" line="11" column="23" />
-        <mark key="[" line="8" column="32" />
-        <mark key="]" line="9" column="4" />
-        <mark key="." line="9" column="3" />
-        <mark key="^" line="9" column="4" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" timestamp="1593447724918">
         <mark key="'" line="26" column="8" />
@@ -168,12 +165,11 @@
         <mark key="^" line="15" column="94" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1593447676701">
-        <mark key="'" line="37" column="16" />
-        <mark key="[" line="8" column="107" />
-        <mark key="]" line="8" column="107" />
-        <mark key="." line="8" column="107" />
-        <mark key="^" line="5" column="34" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1593458104605">
+        <mark key="[" line="63" column="76" />
+        <mark key="]" line="64" column="4" />
+        <mark key="^" line="64" column="4" />
+        <mark key="." line="64" column="3" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training_stack.json.template" timestamp="1593289631564">
         <mark key="'" line="28" column="54" />
@@ -193,13 +189,10 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1593311575818">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1593459782040">
+        <mark key="'" line="48" column="0" />
         <mark key="[" line="48" column="0" />
         <mark key="]" line="48" column="56" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_driver.py" timestamp="1593455233286">
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="47" column="62" />
       </file>
       <file name="/Dummy.txt" timestamp="1593455820088">
         <mark key="[" line="0" column="0" />
@@ -244,7 +237,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="172" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="169" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="224" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="225" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -344,6 +336,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_driver.py" />
       <jump line="37" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_driver.py" />
       <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -355,7 +348,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -909,10 +902,10 @@
         <text encoding="base64">ZGVmIA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBqdXN0IGdldCBhbGwgZGF0YSBmcm9tIGNvcnJlc3BvbmRpbmcgc291cmNlX3RhYmxlIGZvciB0aGUgcmVxdWVzdGVkIGludGVydmFsCiAgICAgICAgCiAgICAgICAgQWN0dWFsIHRpbWUgaW50ZXJ2YWwgaXM6IFtzdGFydF9kYXRlIC0gZXh0cmFfZGF5cywgZW5kX2RhdGUpCgogICAgICAgIDpwYXJhbSBpbnB1dF90YWJsZV9uYW1lOiBuYW1lIG9mIHBob25uZSBsb2cgdGFibGUsIGllIGFuZHJvaWRfc2Vzc2lvbiwgaW9zX2tleWJvYXJkLCBldGMKICAgICAgICA6cGFyYW0gZXh0cmFfZGF5czogaWYgY29tcHV0aW5nIGZlYXR1cmUgb24gZGF0ZSBEMSwgaXMgcGhvbmUgbG9nIGRhdGEgZnJvbSBEMSBlbm91Z2ggdG8gY29tcHV0ZSB0aGUgZmVhdHVyZT8KICAgICAgICAgICAgSWYgdGhlIGFuc3dlciBpcyB5ZXMsIGV4dHJhX2RheXMgc2hvdWxkIGJlIDAKICAgICAgICAgICAgSWYgdGhlIGFuc3dlciBpcyBubywgaG93IG1hbnkgZGF5cyBkbyB3ZSBuZWVkPwogICAgICAgIDpyZXR1cm46CiAgICAgICAgIiIiCg==</text>
+        <text encoding="base64">ICAgIGxhYmVscyA9IHNwYXJrLnNxbChmIlNFTEVDVCAqIEZST00ge2xhYmVsc19kYl9uYW1lfS57cXVlcnlfdGFibGVfbmFtZX0iKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAiIiIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -926,7 +919,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICA6cmV0dXJuOgo=</text>
+        <text encoding="base64">ICAgIGlmIGxhYmVsc190YWJsZV9uYW1lID09ICJjZ2lzIjoKICAgICAgICBjZ2lzID0gc3Bhcmsuc3FsKGYiU0VMRUNUICogRlJPTSB7bGFiZWxzX2RiX25hbWV9LmNnaXMiKS53aXRoQ29sdW1uUmVuYW1lZCgibWluZHN0cm9uZ19pZCIsICJtX2lkIikKICAgIGVsc2U6CiAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcihmInF1ZXJ5X25hbWUgJ3tsYWJlbHNfdGFibGVfbmFtZX0nIGlzIG5vdCB5ZXQgaW1wbGVtZW50ZWQiKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -937,10 +930,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gc3RhcnRfZGF0ZToKICAgICAgICA6cGFyYW0gZW5kX2RhdGU6Cg==</text>
+        <text encoding="base64">ICAgIDpwYXJhbSByZXR1cm5fbGFiZWxzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gZXh0cmFfZGF5czoK</text>
+        <text encoding="base64">ICAgICAgICAiIiIK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1008,19 +1001,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gaW5wdXRfdGFibGVfbmFtZToK</text>
+        <text encoding="base64">ICAgICAgICA6cmV0dXJuOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gc3RhcnRfZGF0ZToKICAgICAgICA6cGFyYW0gZW5kX2RhdGU6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0K</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gZXh0cmFfZGF5czoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaG93IG1hbnkgZGF5cz8K</text>
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gaW5wdXRfdGFibGVfbmFtZToK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZG8gd2UgbmVlZCBwaG9uZSBsb2cgZGF0YSBmcm9tIHByaW9yIGRheXM/IElmIHNvCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>80</text>
