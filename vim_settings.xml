@@ -22,9 +22,9 @@
         <entry>_</entry>
         <entry>toy</entry>
         <entry>self</entry>
-        <entry>def run</entry>
         <entry>widg</entry>
         <entry>def get</entry>
+        <entry>def run</entry>
       </history-search>
       <history-cmd>
         <entry>34</entry>
@@ -145,13 +145,6 @@
         <mark key="]" line="4" column="15" />
         <mark key="." line="4" column="15" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" timestamp="1593554816811">
-        <mark key="'" line="12" column="23" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
-        <mark key="^" line="3" column="22" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/app_name_classification.json" timestamp="1593557787608">
         <mark key="[" line="4" column="14" />
         <mark key="]" line="4" column="15" />
@@ -227,10 +220,10 @@
         <mark key="]" line="4" column="15" />
         <mark key="." line="4" column="15" />
       </file>
-      <file name="/Dummy.txt" timestamp="1593556929547">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1593559618566">
+        <mark key="[" line="0" column="1" />
+        <mark key="]" line="0" column="1" />
+        <mark key="." line="0" column="1" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1593556535588">
         <mark key="'" line="11" column="0" />
@@ -251,9 +244,16 @@
         <mark key="^" line="54" column="11" />
         <mark key="." line="6" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" timestamp="1593559290376">
+        <mark key="'" line="19" column="6" />
+        <mark key="[" line="85" column="59" />
+        <mark key="]" line="85" column="61" />
+        <mark key="^" line="85" column="61" />
+        <mark key="." line="85" column="60" />
+        <mark key="n" line="70" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
       <jump line="59" column="100" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="25" column="46" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
       <jump line="16" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
@@ -353,6 +353,7 @@
       <jump line="75" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="11" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="7" column="37" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
+      <jump line="19" column="6" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -364,7 +365,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>f&quot;feature_name={feature_name_for_plot}&quot;</text>
+        <text>[DSCI-804] Adding 'params' to print statement</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -912,10 +913,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>f&quot;feature_name={feature_name_for_plot}&quot;</text>
+        <text>[DSCI-804] Adding 'params' to print statement</text>
       </register>
       <register name="/" type="4">
-        <text>def get</text>
+        <text>def run</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgIm91dHB1dF90YWJsZSI6ICJiaW9tYXJrZXJfbW9kZWwiCg==</text>
@@ -1038,9 +1039,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def get</last-search>
+      <last-search>def run</last-search>
       <last-offset />
-      <last-pattern>def get</last-pattern>
+      <last-pattern>def run</last-pattern>
       <last-replace />
       <last-substitute>_models</last-substitute>
       <last-dir>1</last-dir>
