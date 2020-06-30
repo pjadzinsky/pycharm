@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>)</entry>
         <entry>compute</entry>
         <entry>Ela</entry>
         <entry>predict_proba</entry>
@@ -25,6 +24,7 @@
         <entry>last</entry>
         <entry>_</entry>
         <entry>toy</entry>
+        <entry>self</entry>
       </history-search>
       <history-cmd>
         <entry>34</entry>
@@ -195,7 +195,7 @@
         <mark key="]" line="17" column="49" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="/Python Console" timestamp="1593548812859">
+      <file name="/Python Console" timestamp="1593550182053">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -217,12 +217,12 @@
         <mark key="]" line="0" column="9" />
         <mark key="." line="0" column="9" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1593547948450">
-        <mark key="'" line="51" column="19" />
-        <mark key="[" line="26" column="8" />
-        <mark key="]" line="57" column="109" />
-        <mark key="." line="57" column="108" />
-        <mark key="^" line="57" column="109" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1593550491184">
+        <mark key="'" line="139" column="28" />
+        <mark key="[" line="139" column="45" />
+        <mark key="]" line="139" column="45" />
+        <mark key="." line="139" column="45" />
+        <mark key="^" line="119" column="97" />
       </file>
       <file name="/Dummy.txt" timestamp="1593545746121">
         <mark key="[" line="0" column="0" />
@@ -234,12 +234,12 @@
         <mark key="." line="33" column="24" />
         <mark key="^" line="33" column="25" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1593549034468">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1593550285818">
         <mark key="'" line="89" column="37" />
-        <mark key="[" line="25" column="53" />
-        <mark key="]" line="34" column="26" />
-        <mark key="." line="34" column="25" />
-        <mark key="^" line="34" column="26" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
+        <mark key="^" line="38" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold_jsons/models_to_score.json" timestamp="1593537418582">
         <mark key="[" line="2" column="0" />
@@ -259,7 +259,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="40" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="14" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
@@ -359,6 +358,7 @@
       <jump line="13" column="72" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring.py" />
       <jump line="89" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="26" column="51" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="139" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -369,8 +369,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHJlcGxhY2UoIi8iLCAiLiIpLnN0cmlwKCcuJykK</text>
+      <register name="&quot;" type="4">
+        <text>self._</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -918,16 +918,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>name</text>
+        <text>self._</text>
       </register>
       <register name="/" type="4">
-        <text>toy</text>
+        <text>self</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICJydW5faWQiOiAiYmUxZTc0NWQ0ZWYwNDEwYzkzZjM1ODRlMmFhMmViYmEiCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJlcGxhY2UoIi8iLCAiLiIpLnN0cmlwKCcuJykK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl9vdXRwdXRfZGJfbmFtZSA9IG91dHB1dF9kYl9uYW1lCiAgICAgICAgc2VsZi5fb3V0cHV0X3RhYmxlX25hbWUgPSBvdXRwdXRfdGFibGVfbmFtZQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -941,7 +941,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtbGZsb3cubG9nX3BhcmFtKCJsMV9yYXRpbyIsIGwxX3JhdGlvKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl9vdXRwdXRfZGJfbmFtZSA9IG91dHB1dF9kYl9uYW1lCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -952,10 +952,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtbGZsb3cubG9nX3BhcmFtKCJhbHBoYSIsIGFscGhhKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl9vdXRwdXRfdGFibGVfbmFtZSA9IG91dHB1dF90YWJsZV9uYW1lCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl9vdXRwdXRfZGJfbmFtZSA9IG91dHB1dF9kYl9uYW1lCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1023,19 +1023,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICN0b2tlbnMgPSBbdG9rZW4uY2FwaXRhbGl6ZSgpIGZvciB0b2tlbiBpbiB0b2tlbnNdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZpbGVfcGF0aCA9IGFicwo=</text>
+        <text encoding="base64">ICAgIE1vZGVsIG5hbWVzIGNhbid0IGhhdmUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHJlcGxhY2UoIi8iLCAiLiIpLnN0cmlwKCcuJykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGZpbGVfcGF0aCBpcyBwYXRoIHRvIGEgdHJhaW4ucHkgd2l0aCBhICdjb21wdXRlJyBtZXRob2QuCg==</text>
+        <text encoding="base64">ICAgICAgICBtbGZsb3cubG9nX3BhcmFtKCJsMV9yYXRpbyIsIGwxX3JhdGlvKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGEK</text>
+        <text encoding="base64">ICAgICAgICBtbGZsb3cubG9nX3BhcmFtKCJhbHBoYSIsIGFscGhhKQo=</text>
       </register>
       <register name=":" type="4">
         <text>39,40s/_models//g</text>
@@ -1044,9 +1044,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>toy</last-search>
+      <last-search>self</last-search>
       <last-offset />
-      <last-pattern>toy</last-pattern>
+      <last-pattern>self</last-pattern>
       <last-replace />
       <last-substitute>_models</last-substitute>
       <last-dir>1</last-dir>
