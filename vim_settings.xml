@@ -181,7 +181,7 @@
         <mark key="^" line="7" column="38" />
         <mark key="." line="58" column="9" />
       </file>
-      <file name="/Python Console" timestamp="1593712631024">
+      <file name="/Python Console" timestamp="1593715435358">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" timestamp="1593712224440">
@@ -223,12 +223,12 @@
         <mark key="." line="88" column="49" />
         <mark key="^" line="88" column="50" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1593710299091">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1593712993127">
         <mark key="'" line="109" column="4" />
-        <mark key="[" line="154" column="70" />
-        <mark key="]" line="155" column="29" />
-        <mark key="^" line="155" column="29" />
-        <mark key="." line="155" column="28" />
+        <mark key="[" line="124" column="4" />
+        <mark key="]" line="125" column="20" />
+        <mark key="^" line="111" column="4" />
+        <mark key="." line="125" column="20" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/time_checks.json" timestamp="1593643210877">
         <mark key="[" line="4" column="16" />
@@ -354,7 +354,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>1440</text>
+        <text encoding="base64">ZGZfMSwgZGZfMiwgZGZfMywg</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -902,16 +902,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>1440</text>
+        <text encoding="base64">ZGZfMSwgZGZfMiwgZGZfMywg</text>
       </register>
       <register name="/" type="4">
         <text>cache</text>
       </register>
-      <register name="0" type="4">
-        <text>, tzinfo=pytz.FixedOffset(-420)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGRmID0gcGQuY29uY2F0KFtkZl8xLCBkZl8yLCBkZl8zLCBkZl80XSwgYXhpcz0wKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IHB5dHoK</text>
+        <text encoding="base64">ICAgICIiIgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -925,7 +925,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgV2UgZG9uJ3QgZ2V0IGZlYXR1cmUgZm9yIDIwMjAtMDEtMDQgb25seSBiZWNhdXNlIAo=</text>
+        <text encoding="base64">aW1wb3J0IHB5dHoK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -936,10 +936,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICMgV2UgZG9uJ3QgZ2V0IGZlYXR1cmUgZm9yIDIwMjAtMDEtMDQgb25seSBiZWNhdXNlIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBSZXR1cm4gc3BhcmsgZGF0YWZyYW1lIHdpdGggYXQgbGVhc3QgMyBjb2x1bW5zLCBtaW5kc3Ryb25nX2lkLCBsYWJlbF90aW1lc3RhbXAsIGZlYXR1cmVfZGF0ZQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1007,21 +1007,20 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IHB5dHoK</text>
+        <text encoding="base64">ICAgICAgICBSZXR1cm4gc3BhcmsgZGF0YWZyYW1lIHdpdGggYXQgbGVhc3QgMyBjb2x1bW5zLCBtaW5kc3Ryb25nX2lkLCBsYWJlbF90aW1lc3RhbXAsIGZlYXR1cmVfZGF0ZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">QHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCJudW1fZGF5cyIsICgwLCAxLCAyKSkKZGVmIHRlc3RfZ2V0X3Bob25lX2xvZ19zY29yaW5nX2RhdGFfc2FtZV9zdGFydF9lbmRfZGF5KGZha2VfY29udGludW91c19kYXRhLCBqc29uX2ZpbGVzLCBudW1fZGF5cyk6CiAgICAiIiIKICAgIEluIHRoaXMgdGVzdCwgZWFjaCBkYXkgaGFzIDQgZW50cmllcyBpbnRvIGFuZHJvaWRfc2Vzc2lvbiB0YWJsZQogICAgU3RhcnRfZGF0ZSA9IGVuZF9kYXRlID0gMjAyMC0wMS0wMwogICAgYmVjYXVzZSBlbmRfZGF0ZSBpcyBleGNsdXNpdmUgLi4uCiAgICAgICAgd2l0aCBudW1fZGF5cyA9IDAsIHdlIGV4cGVjdCBubyBkYXRhCiAgICAgICAgd2l0aCBudW1fZGF5cyA9IDEsIHdlIGV4cGVjdCBkYXRhIGZvciAyMDIwLTAxLTAyICAjIDQgcm93cwogICAgICAgIHdpdGggbnVtX2RheXMgPSAyLCB3ZSBleHBlY3QgZGF0YSBmb3IgMjAyMC0wMS0wMiBhbmQgMjAyMC0wMS0wMyAgIyA4IHJvd3MKCiAgICA6cmV0dXJuOgogICAgIiIiCiAgICBzcGFyayA9IHNwYXJrX3V0aWwuZ2V0X29yX2NyZWF0ZV9zcGFyaygpCiAgICBkZiA9IHNwYXJrLnNxbCgiU0VMRUNUICogRlJPTSBnbG9iYWxfdGVtcC5hbmRyb2lkX3Nlc3Npb24iKQogICAgcHJpbnQoIioiKjgwKQogICAgcHJpbnQoZGYuY291bnQoKSkKICAgIHByaW50KGpzb25fZmlsZXMpCiAgICBhbmRyb2lkX2ZpbGVzID0gW2ogZm9yIGogaW4ganNvbl9maWxlcyBpZiAiYW5kcm9pZCIgaW4gai5uYW1lXQogICAgZHJpdmVyID0gcGhvbmVfbG9nX2RyaXZlci5QaG9uZUxvZ0RyaXZlcihhbmRyb2lkX2ZpbGVzLCAnc2NvcmluZycsICdnbG9iYWxfdGVtcCcsICdvdXRwdXRfZGInLCAnb3V0cHV0X3RhYmxlX25hbWUnKQoKICAgIGNvbXB1dGVkID0gZHJpdmVyLl9nZXRfcGhvbmVfbG9nX3Njb3JpbmdfZGF0YShpbnB1dF90YWJsZV9uYW1lPSJhbmRyb2lkX3Nlc3Npb24iLCBudW1fZGF5cz1udW1fZGF5cywgc3RhcnRfZGF0ZT0nMjAyMC0wMS0wMycsIGVuZF9kYXRlPScyMDIwLTAxLTAzJykKICAgIHByaW50KG51bV9kYXlzLCBjb21wdXRlZC5jb3VudCgpKQogICAgYXNzZXJ0IGNvbXB1dGVkLmNvdW50KCkgPT0gbnVtX2RheXMgKiA0Cgo=</text>
+        <text encoding="base64">aW1wb3J0IHB5dHoK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">QHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCJudW1fZGF5cyIsICgwLCAxLCAyKSkKZGVmIHRlc3RfZ2V0X3Bob25lX2xvZ19zY29yaW5nX2RhdGFfc2FtZV9zdGFydF9lbmRfZGF5KGZha2VfY29udGludW91c19kYXRhLCBqc29uX2ZpbGVzLCBudW1fZGF5cyk6CiAgICAiIiIKICAgIEluIHRoaXMgdGVzdCwgZWFjaCBkYXkgaGFzIDQgZW50cmllcyBpbnRvIGFuZHJvaWRfc2Vzc2lvbiB0YWJsZQogICAgU3RhcnRfZGF0ZSA9IGVuZF9kYXRlID0gMjAyMC0wMS0wMwogICAgYmVjYXVzZSBlbmRfZGF0ZSBpcyBleGNsdXNpdmUgLi4uCiAgICAgICAgd2l0aCBudW1fZGF5cyA9IDAsIHdlIGV4cGVjdCBubyBkYXRhCiAgICAgICAgd2l0aCBudW1fZGF5cyA9IDEsIHdlIGV4cGVjdCBkYXRhIGZvciAyMDIwLTAxLTAyICAjIDQgcm93cwogICAgICAgIHdpdGggbnVtX2RheXMgPSAyLCB3ZSBleHBlY3QgZGF0YSBmb3IgMjAyMC0wMS0wMiBhbmQgMjAyMC0wMS0wMyAgIyA4IHJvd3MKCiAgICA6cmV0dXJuOgogICAgIiIiCiAgICBzcGFyayA9IHNwYXJrX3V0aWwuZ2V0X29yX2NyZWF0ZV9zcGFyaygpCiAgICBkZiA9IHNwYXJrLnNxbCgiU0VMRUNUICogRlJPTSBnbG9iYWxfdGVtcC5hbmRyb2lkX3Nlc3Npb24iKQogICAgcHJpbnQoIioiKjgwKQogICAgcHJpbnQoZGYuY291bnQoKSkKICAgIHByaW50KGpzb25fZmlsZXMpCiAgICBhbmRyb2lkX2ZpbGVzID0gW2ogZm9yIGogaW4ganNvbl9maWxlcyBpZiAiYW5kcm9pZCIgaW4gai5uYW1lXQogICAgZHJpdmVyID0gcGhvbmVfbG9nX2RyaXZlci5QaG9uZUxvZ0RyaXZlcihhbmRyb2lkX2ZpbGVzLCAnc2NvcmluZycsICdnbG9iYWxfdGVtcCcsICdvdXRwdXRfZGInLCAnb3V0cHV0X3RhYmxlX25hbWUnKQoKICAgIGNvbXB1dGVkID0gZHJpdmVyLl9nZXRfcGhvbmVfbG9nX3Njb3JpbmdfZGF0YShpbnB1dF90YWJsZV9uYW1lPSJhbmRyb2lkX3Nlc3Npb24iLCBudW1fZGF5cz1udW1fZGF5cywgc3RhcnRfZGF0ZT0nMjAyMC0wMS0wMycsIGVuZF9kYXRlPScyMDIwLTAxLTAzJykKICAgIHByaW50KG51bV9kYXlzLCBjb21wdXRlZC5jb3VudCgpKQogICAgYXNzZXJ0IGNvbXB1dGVkLmNvdW50KCkgPT0gbnVtX2RheXMgKiA0Cgo=</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>y
         say 'features for the previous day'. I say this is incorrectly  prediction day, we</text>
-      </register>
-      <register name="9" type="8">
-        <text>incorrectl
-because on</text>
       </register>
       <register name=":" type="4">
         <text>111</text>
