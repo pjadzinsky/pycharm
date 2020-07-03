@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>num</entry>
         <entry>tatal</entry>
         <entry>PST</entry>
         <entry>df</entry>
@@ -25,6 +24,7 @@
         <entry>event_desc</entry>
         <entry>def com</entry>
         <entry>pandas</entry>
+        <entry>feature_date</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -168,7 +168,7 @@
         <mark key="]" line="3" column="40" />
         <mark key="." line="3" column="40" />
       </file>
-      <file name="/Python Console" timestamp="1593788091918">
+      <file name="/Python Console" timestamp="1593817968230">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -181,12 +181,11 @@
         <mark key="^" line="129" column="33" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation_stack.json.template" timestamp="1593786532096" />
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1593726780088">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="32" column="21" />
-        <mark key="]" line="0" column="1" />
-        <mark key="^" line="0" column="1" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_text_type_ratios.py" timestamp="1593818012746">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="25" column="66" />
+        <mark key="^" line="26" column="20" />
+        <mark key="." line="26" column="19" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/README.md" timestamp="1593788087318">
         <mark key="[" line="45" column="48" />
@@ -212,7 +211,8 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593815527298">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1593817502197">
+        <mark key="'" line="204" column="59" />
         <mark key="[" line="67" column="0" />
         <mark key="]" line="67" column="0" />
         <mark key="." line="67" column="0" />
@@ -244,27 +244,19 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="120" column="9" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="3" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="123" column="22" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="124" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="12" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="131" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="170" column="101" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="138" column="96" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="340" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="325" column="81" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="223" column="71" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="332" column="97" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="7" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="133" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="183" column="13" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="41" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="43" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="57" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="72" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="91" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="113" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="144" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="58" column="9" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="191" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -273,7 +265,6 @@
       <jump line="37" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="109" column="81" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="110" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="129" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="200" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="149" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -344,6 +335,15 @@
       <jump line="13" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
       <jump line="4" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
       <jump line="26" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/db_tracking_env.py" />
+      <jump line="154" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="113" column="79" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="129" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="130" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="133" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="167" column="104" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="170" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="199" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="204" column="59" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -355,7 +355,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRPRE8oRFNDSS03ODUpOiBBY3R1YWxseSByZXNwZWN0IHRoZSBwYXNzZWQgc3RhcnRfZGF0ZSBhbmQgZW5kX2RhdGUgdmFsdWVzLgo=</text>
+        <text encoding="base64">ICAgIHBob25lX2xvZ19kZi5sb2NbOiwgImRhdGFfdXBfdG8iXSA9IGRhdGV0aW1lKDIwMjAsIDEsIDIsIDksIHR6aW5mbz1weXR6LlVUQykKICAgIHBob25lX2xvZ19kZi5sb2NbOiwgJ2ZlYXR1cmVfZGF0ZSddID0gcGhvbmVfbG9nX2RmLnVwbG9hZF9kYXRlCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -903,13 +903,13 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>datetime</text>
       </register>
       <register name="/" type="4">
-        <text>pandas</text>
+        <text>feature_date</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIHRlc3RfZmFrZV9wYW5kYXNfcGhvbmVfbG9nKCk6CiAgICBjb21wdXRlZCA9IGZha2VfcGhvbmVfbG9nLmFuZHJvaWRfc2Vzc2lvbigiYUVOVEVSX0tFWWtTUEFDRV9LRVlBU0hJRlRLIikKICAgIGFzc2VydCBjb21wdXRlZC5jb3VudCgpID09IDcKICAgIGFzc2VydCBbci5ldmVudF9kZXNjIGZvciByIGluIGNvbXB1dGVkLmNvbGxlY3QoKV0gPT0gWwogICAgICAgIGYiVHlwZWQ6e3R9IiBmb3IgdCBpbiBbInEiLCAiRU5URVJfS0VZIiwgInAiLCAiU1BBQ0VfS0VZIiwgIlEiLCAiU0hJRlQiLCAiUCJdCiAgICBdCiAgICBhc3NlcnQgW3IuZXZlbnRfdHlwZSBmb3IgciBpbiBjb21wdXRlZC5jb2xsZWN0KCldID09IFsxM10gKiA3Cg==</text>
+        <text encoding="base64">ICAgIHBob25lX2xvZ19kZi5sb2NbOiwgImRhdGFfdXBfdG8iXSA9IGRhdGV0aW1lKDIwMjAsIDEsIDIsIDksIHR6aW5mbz1weXR6LlVUQykKICAgIHBob25lX2xvZ19kZi5sb2NbOiwgJ2ZlYXR1cmVfZGF0ZSddID0gcGhvbmVfbG9nX2RmLnVwbG9hZF9kYXRlCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAjIFRPRE8oRFNDSS03ODUpOiBBY3R1YWxseSByZXNwZWN0IHRoZSBwYXNzZWQgc3RhcnRfZGF0ZSBhbmQgZW5kX2RhdGUgdmFsdWVzLgo=</text>
@@ -1029,9 +1029,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>pandas</last-search>
+      <last-search>feature_date</last-search>
       <last-offset />
-      <last-pattern>pandas</last-pattern>
+      <last-pattern>feature_date</last-pattern>
       <last-replace />
       <last-substitute>_models</last-substitute>
       <last-dir>1</last-dir>
