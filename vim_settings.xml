@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>command</entry>
-        <entry>BRONZ</entry>
         <entry>USER_DB_NAME</entry>
         <entry>CANONICAL</entry>
         <entry>def get_pr</entry>
@@ -25,6 +23,8 @@
         <entry>update_</entry>
         <entry>update_no</entry>
         <entry>(profile</entry>
+        <entry>feature_date</entry>
+        <entry>date</entry>
       </history-search>
       <history-cmd>
         <entry>80</entry>
@@ -140,18 +140,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1594152983698">
-        <mark key="'" line="49" column="0" />
-        <mark key="[" line="93" column="102" />
-        <mark key="]" line="93" column="102" />
-        <mark key="^" line="93" column="86" />
-        <mark key="." line="93" column="102" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1594136054677">
         <mark key="]" line="17" column="48" />
       </file>
       <file name="/" timestamp="1594135987741">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_app_name_classification.py" timestamp="1594167355951">
+        <mark key="'" line="18" column="4" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="19" column="66" />
+        <mark key="." line="19" column="18" />
+        <mark key="^" line="19" column="19" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1594156208385">
         <mark key="'" line="23" column="20" />
@@ -160,13 +160,19 @@
         <mark key="^" line="57" column="88" />
         <mark key="." line="62" column="96" />
       </file>
-      <file name="/Python Console" timestamp="1594156179408">
+      <file name="/Python Console" timestamp="1594167331659">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1594147545581">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_text_type_ratios.py" timestamp="1594167261670">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="25" column="66" />
+        <mark key="^" line="26" column="20" />
+        <mark key="." line="26" column="19" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training_stack.json.template" timestamp="1594143780937">
         <mark key="'" line="1" column="42" />
@@ -202,11 +208,6 @@
         <mark key="." line="21" column="0" />
         <mark key="^" line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/test/common/test_schema.py" timestamp="1594133666633">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="11" column="36" />
-        <mark key="]" line="57" column="29" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/config/local.py" timestamp="1594146068961">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
@@ -235,6 +236,9 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1594167110965">
+        <mark key="'" line="168" column="104" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring_stack.json.template" timestamp="1594144416472">
         <mark key="'" line="31" column="30" />
         <mark key="[" line="18" column="76" />
@@ -242,31 +246,8 @@
         <mark key="^" line="19" column="120" />
         <mark key="." line="19" column="119" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1594070825047">
-        <mark key="[" line="7" column="36" />
-        <mark key="]" line="7" column="49" />
-        <mark key="^" line="7" column="49" />
-        <mark key="." line="7" column="48" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" timestamp="1594134826638">
-        <mark key="'" line="14" column="10" />
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="27" column="0" />
-        <mark key="^" line="14" column="7" />
-        <mark key="." line="27" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="11" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
-      <jump line="52" column="24" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
-      <jump line="7" column="14" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
-      <jump line="16" column="22" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
-      <jump line="29" column="4" filename="$USER_HOME$/MindstrongRepos/mason/jobs/tests/tests_stack.json.template" />
-      <jump line="1" column="39" filename="$USER_HOME$/MindstrongRepos/mason/jobs/tests/tests_stack.json.template" />
-      <jump line="14" column="40" filename="$USER_HOME$/MindstrongRepos/mason/jobs/tests/tests_stack.json.template" />
-      <jump line="17" column="33" filename="$USER_HOME$/MindstrongRepos/mason/jobs/tests/tests_stack.json.template" />
-      <jump line="53" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
-      <jump line="77" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="8" column="37" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="11" column="42" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="18" column="51" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
@@ -357,6 +338,16 @@
       <jump line="102" column="36" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="17" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="23" column="20" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="228" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="171" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="200" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="205" column="59" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="114" column="79" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="130" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="131" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="134" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="168" column="104" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="18" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_app_name_classification.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -367,8 +358,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHBob25lX2xvZ19kZi5sb2NbOiwgImRhdGFfdXBfdG8iXSA9IHBob25lX2xvZ19kZi51cGxvYWRfZGF0ZQogICAgcGhvbmVfbG9nX2RmLmxvY1s6LCAiZmVhdHVyZV9kYXRlIl0gPSBwaG9uZV9sb2dfZGYudXBsb2FkX2RhdGUK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -916,16 +907,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>fake_phone_logup</text>
       </register>
       <register name="/" type="4">
-        <text>(profile</text>
+        <text>date</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBlY2hvICJVc2FnZTogY29weV9wYWNrYWdlX3RvX2RiZnMuc2ggREVGQVVMVCIK</text>
+        <text encoding="base64">ICAgIHBob25lX2xvZ19kZi5sb2NbOiwgImRhdGFfdXBfdG8iXSA9IHBob25lX2xvZ19kZi51cGxvYWRfZGF0ZQogICAgcGhvbmVfbG9nX2RmLmxvY1s6LCAiZmVhdHVyZV9kYXRlIl0gPSBwaG9uZV9sb2dfZGYudXBsb2FkX2RhdGUK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBwcm9maWxlPSQxCg==</text>
+        <text encoding="base64">ICAgIHBob25lX2xvZ19kZi5sb2NbOiwgImZlYXR1cmVfZGF0ZSJdID0gcGhvbmVfbG9nX2RmLnVwbG9hZF9kYXRlCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -939,7 +930,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IHRoZW4K</text>
+        <text encoding="base64">ICBwcm9maWxlPSQxCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -950,10 +941,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZWNobyAxCg==</text>
+        <text encoding="base64">IHRoZW4K</text>
       </register>
       <register name="4" type="2">
-        <text>[DSCI-841] Passing &quot;profile&quot; to all databricks-cli ca</text>
+        <text encoding="base64">ZWNobyAxCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1021,19 +1012,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHN1YnByb2Nlc3MucnVuKFtjbWQsIHByb2ZpbGVdKQo=</text>
+        <text>[DSCI-841] Passing &quot;profile&quot; to all databricks-cli ca</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHN1YnByb2Nlc3MK</text>
+        <text encoding="base64">ICAgIHN1YnByb2Nlc3MucnVuKFtjbWQsIHByb2ZpbGVdKQo=</text>
       </register>
       <register name="7" type="2">
-        <text>[[DSCI-763] Cleaning configurator script]</text>
+        <text encoding="base64">aW1wb3J0IHN1YnByb2Nlc3MK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFyZ19wYXJzZXIuYWRkX2FyZ3VtZW50KCItLXVuZGVwbG95IiwgbmFyZ3M9IisiLCBtZXRhdmFyPSJzdGFja19maWxlIiwgaGVscD0idW5kZXBsb3kgcmVuZGVyZWQgc3RhY2sgZmlsZXMiKQo=</text>
+        <text>[[DSCI-763] Cleaning configurator script]</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICkK</text>
+        <text encoding="base64">ICAgIGFyZ19wYXJzZXIuYWRkX2FyZ3VtZW50KCItLXVuZGVwbG95IiwgbmFyZ3M9IisiLCBtZXRhdmFyPSJzdGFja19maWxlIiwgaGVscD0idW5kZXBsb3kgcmVuZGVyZWQgc3RhY2sgZmlsZXMiKQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
@@ -1042,9 +1033,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>(profile</last-search>
+      <last-search>date</last-search>
       <last-offset />
-      <last-pattern>(profile</last-pattern>
+      <last-pattern>date</last-pattern>
       <last-replace>list_stack</last-replace>
       <last-substitute>stack_list</last-substitute>
       <last-dir>1</last-dir>
