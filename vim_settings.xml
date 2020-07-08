@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>feature_date</entry>
-        <entry>date</entry>
-        <entry>def run</entry>
         <entry>def compu</entry>
         <entry>pytz</entry>
         <entry>utc_offseg</entry>
@@ -25,6 +22,9 @@
         <entry>def pus</entry>
         <entry>arg</entry>
         <entry>profile</entry>
+        <entry>feature_names</entry>
+        <entry>ML</entry>
+        <entry>ADMIN</entry>
       </history-search>
       <history-cmd>
         <entry>%s/'/&quot;/g</entry>
@@ -151,6 +151,16 @@
         <mark key="^" line="4" column="36" />
         <mark key="." line="4" column="35" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1594231292899">
+        <mark key="[" line="2" column="28" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1594232373078">
+        <mark key="'" line="44" column="18" />
+        <mark key="[" line="77" column="18" />
+        <mark key="]" line="77" column="24" />
+        <mark key="." line="77" column="23" />
+        <mark key="^" line="77" column="24" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_time_checks.py" timestamp="1594218316725">
         <mark key="[" line="27" column="0" />
         <mark key="]" line="27" column="0" />
@@ -207,30 +217,12 @@
         <mark key="]" line="239" column="58" />
         <mark key="." line="239" column="58" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/copy_package_to_dbfs.sh" timestamp="1594224040337">
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/copy_package_to_dbfs.sh" timestamp="1594231131318">
         <mark key="'" line="6" column="0" />
         <mark key="[" line="23" column="0" />
         <mark key="]" line="23" column="0" />
         <mark key="^" line="6" column="0" />
         <mark key="." line="23" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_inactivity.py" timestamp="1594217844513">
-        <mark key="'" line="38" column="36" />
-        <mark key="[" line="12" column="39" />
-        <mark key="]" line="49" column="72" />
-        <mark key="^" line="49" column="72" />
-        <mark key="." line="49" column="71" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/feature_utils.py" timestamp="1594173729244">
-        <mark key="'" line="18" column="118" />
-        <mark key="[" line="18" column="119" />
-        <mark key="]" line="18" column="148" />
-        <mark key="^" line="18" column="148" />
-        <mark key="." line="18" column="147" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1594173697741">
-        <mark key="'" line="38" column="0" />
-        <mark key="[" line="33" column="22" />
       </file>
       <file name="/Dummy.txt" timestamp="1594228155466">
         <mark key="'" line="0" column="17" />
@@ -252,12 +244,15 @@
         <mark key="^" line="61" column="16" />
         <mark key="." line="45" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1594231655047">
+        <mark key="'" line="32" column="64" />
+        <mark key="[" line="37" column="4" />
+        <mark key="]" line="37" column="10" />
+        <mark key="." line="37" column="9" />
+        <mark key="^" line="37" column="10" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="54" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="99" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="26" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="37" column="4" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="38" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="44" column="13" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="45" column="4" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -354,6 +349,10 @@
       <jump line="61" column="23" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="17" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="6" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/bash/copy_package_to_dbfs.sh" />
+      <jump line="28" column="21" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="30" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="32" column="64" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="44" column="18" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -364,8 +363,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ZWNobyAicHJvZmlsZTogJHByb2ZpbGUiCg==</text>
+      <register name="&quot;" type="4">
+        <text>mzhilyaev</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -913,10 +912,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>function</text>
+        <text>mzhilyaev</text>
       </register>
       <register name="/" type="4">
-        <text>profile</text>
+        <text>ADMIN</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIGZha2VfYWN0aXZpdHkoc3RhcnRfZGF0ZXRpbWUsIGR1cmF0aW9uLCB1bml0LCBudW1fZXZlbnRzLCAqKmt3YXJncyk6Cg==</text>
@@ -1039,9 +1038,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>profile</last-search>
+      <last-search>ADMIN</last-search>
       <last-offset />
-      <last-pattern>profile</last-pattern>
+      <last-pattern>ADMIN</last-pattern>
       <last-replace>&quot;aa&quot;</last-replace>
       <last-substitute>&quot;a&quot;</last-substitute>
       <last-dir>1</last-dir>
