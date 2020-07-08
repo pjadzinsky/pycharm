@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ML</entry>
         <entry>ADMIN</entry>
         <entry>GOLD</entry>
         <entry>PRECIOUS_PROBE</entry>
@@ -25,6 +24,7 @@
         <entry>23</entry>
         <entry>string</entry>
         <entry>temp_dir</entry>
+        <entry>fid</entry>
       </history-search>
       <history-cmd>
         <entry>117</entry>
@@ -226,7 +226,7 @@
         <mark key="^" line="141" column="62" />
         <mark key="." line="139" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594249099445">
+      <file name="/Dummy.txt" timestamp="1594250882155">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -236,12 +236,12 @@
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1594248687574">
-        <mark key="'" line="7" column="8" />
-        <mark key="[" line="33" column="4" />
-        <mark key="]" line="7" column="9" />
-        <mark key="^" line="7" column="9" />
-        <mark key="." line="7" column="8" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1594251936823">
+        <mark key="'" line="81" column="71" />
+        <mark key="[" line="83" column="26" />
+        <mark key="]" line="83" column="26" />
+        <mark key="^" line="81" column="64" />
+        <mark key="." line="83" column="26" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" timestamp="1594246350854">
         <mark key="'" line="24" column="10" />
@@ -252,8 +252,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="131" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="134" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="168" column="104" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="18" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_app_name_classification.py" />
@@ -352,6 +350,8 @@
       <jump line="33" column="81" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
       <jump line="80" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
       <jump line="7" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="70" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="81" column="71" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -362,8 +362,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX2RmID0gU2NoZW1hLmZyb21fc3RyaW5nKHNjaGVtYXMuVEFMTF9GRUFUVVJFU19TQ0hFTUEpLmVtcHR5X3NwYXJrX2RmKCkKICAgIHRlbXBfZGYgPSBTY2hlbWEuZnJvbV9zdHJpbmcoc2NoZW1hcy5UQUxMX0ZFQVRVUkVTX1NDSEVNQSkuZW1wdHlfc3BhcmtfZGYoKQo=</text>
+      <register name="&quot;" type="4">
+        <text>features</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -911,10 +911,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>temp_df</text>
+        <text>features</text>
       </register>
       <register name="/" type="4">
-        <text>temp_dir</text>
+        <text>fid</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChmInRlbXBfZGYgY29sdW1uczoge3RlbXBfZGYuY29sdW1uc30iKQo=</text>
@@ -1037,9 +1037,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>temp_dir</last-search>
+      <last-search>fid</last-search>
       <last-offset />
-      <last-pattern>temp_dir</last-pattern>
+      <last-pattern>fid</last-pattern>
       <last-replace>&quot;aa&quot;</last-replace>
       <last-substitute>&quot;a&quot;</last-substitute>
       <last-dir>1</last-dir>
