@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>def compu</entry>
         <entry>pytz</entry>
         <entry>utc_offseg</entry>
         <entry>utc_offset</entry>
@@ -25,6 +24,7 @@
         <entry>feature_names</entry>
         <entry>ML</entry>
         <entry>ADMIN</entry>
+        <entry>GOLD</entry>
       </history-search>
       <history-cmd>
         <entry>%s/'/&quot;/g</entry>
@@ -154,12 +154,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1594231292899">
         <mark key="[" line="2" column="28" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1594232373078">
-        <mark key="'" line="44" column="18" />
-        <mark key="[" line="77" column="18" />
-        <mark key="]" line="77" column="24" />
-        <mark key="." line="77" column="23" />
-        <mark key="^" line="77" column="24" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1594233766179">
+        <mark key="'" line="77" column="24" />
+        <mark key="[" line="83" column="24" />
+        <mark key="]" line="83" column="33" />
+        <mark key="." line="83" column="32" />
+        <mark key="^" line="83" column="33" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_time_checks.py" timestamp="1594218316725">
         <mark key="[" line="27" column="0" />
@@ -253,9 +253,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="44" column="13" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="45" column="4" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="74" column="86" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="75" column="76" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="88" column="19" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
@@ -353,6 +350,9 @@
       <jump line="30" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
       <jump line="32" column="64" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
       <jump line="44" column="18" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="87" column="0" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="89" column="27" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="77" column="24" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -364,7 +364,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>mzhilyaev</text>
+        <text>}</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -912,13 +912,13 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>mzhilyaev</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
-        <text>ADMIN</text>
+        <text>GOLD</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZGVmIGZha2VfYWN0aXZpdHkoc3RhcnRfZGF0ZXRpbWUsIGR1cmF0aW9uLCB1bml0LCBudW1fZXZlbnRzLCAqKmt3YXJncyk6Cg==</text>
+      <register name="0" type="4">
+        <text>mzhilyaev</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZWNobyAicHJvZmlsZTogJHByb2ZpbGUiCg==</text>
@@ -1038,9 +1038,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>ADMIN</last-search>
+      <last-search>GOLD</last-search>
       <last-offset />
-      <last-pattern>ADMIN</last-pattern>
+      <last-pattern>GOLD</last-pattern>
       <last-replace>&quot;aa&quot;</last-replace>
       <last-substitute>&quot;a&quot;</last-substitute>
       <last-dir>1</last-dir>
