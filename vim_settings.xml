@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>GOLD</entry>
         <entry>PRECIOUS_PROBE</entry>
         <entry>def for</entry>
         <entry>a a</entry>
@@ -25,6 +24,7 @@
         <entry>temp_dir</entry>
         <entry>fid</entry>
         <entry>def .*name</entry>
+        <entry>get_features</entry>
       </history-search>
       <history-cmd>
         <entry>117</entry>
@@ -140,10 +140,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1594249787931">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1594253679421">
         <mark key="'" line="2" column="29" />
-        <mark key="[" line="133" column="46" />
-        <mark key="]" line="135" column="30" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="51" column="2" />
         <mark key="^" line="135" column="30" />
         <mark key="." line="135" column="29" />
       </file>
@@ -209,6 +209,11 @@
       <file name="/constants.FEATURES_DELTA_TABLE_NAME" timestamp="1594241401391">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/model_policy.json" timestamp="1594254476037">
+        <mark key="[" line="3" column="18" />
+        <mark key="]" line="3" column="18" />
+        <mark key="." line="3" column="18" />
+      </file>
       <file name="/&quot;cgis&quot;" timestamp="1594241385081">
         <mark key="[" line="0" column="0" />
       </file>
@@ -220,22 +225,17 @@
       <file name="/None" timestamp="1594241400002">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594253649713">
-        <mark key="'" line="197" column="0" />
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="^" line="201" column="19" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594253846674">
+        <mark key="'" line="201" column="0" />
+        <mark key="[" line="186" column="0" />
+        <mark key="]" line="187" column="0" />
+        <mark key="^" line="187" column="0" />
+        <mark key="." line="187" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1594250882155">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/feature_utils.py" timestamp="1594222734013">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1594252011524">
         <mark key="'" line="81" column="71" />
@@ -253,7 +253,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="44" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="16" column="118" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/feature_utils.py" />
       <jump line="2" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/inactivity.py" />
@@ -351,8 +350,9 @@
       <jump line="3" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="190" column="6" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="9" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="7" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="197" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="7" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="201" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -363,8 +363,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IHRlbXBmaWxlCg==</text>
+      <register name="&quot;" type="4">
+        <text>28ee175381c34a2fad4bb7c2798f0645</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -912,16 +912,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>c</text>
+        <text>28ee175381c34a2fad4bb7c2798f0645</text>
       </register>
       <register name="/" type="4">
-        <text>def .*name</text>
+        <text>get_features</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChmInRlbXBfZGYgY29sdW1uczoge3RlbXBfZGYuY29sdW1uc30iKQo=</text>
+        <text encoding="base64">ZGVmIGdldF9zY29yaW5nX2ZlYXRydWVzKAogICAgZmVhdHVyZV9saXN0X29mX2RpY3RzOiBTZXF1ZW5jZVtkaWN0XSwgc3RhcnRfZGF0ZTogZGF0ZXRpbWUuZGF0ZSwgZW5kX2RhdGU6IGRhdGV0aW1lLmRhdGUsCik6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IHRlbXBmaWxlCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -935,7 +935,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHdpdGggdGVtcGZpbGUuTmFtZWRUZW1wb3JhcnlGaWxlKCkgYXMgZmlkOgo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -946,10 +946,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlmIGlzaW5zdGFuY2UocnVuLCBzdHIpOgo=</text>
+        <text encoding="base64">ICAgICB3IAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBydW4gPSBtbGZsb3cuCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1017,19 +1017,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlc19maWxlID0gb3MucGF0aC5qb2luKHJ1bi5pbmZvLmFydGlmYWN0X3VyaSwgImZlYXR1cmVzLmpzb24iKQogICAgICAgIHdpdGggb3BlbigpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlc19maWxlID0ganNvbi5sb2FkcyhydW4uZGF0YS5wYXJhbXNbImZlYXR1cmVfbmFtZXMiXS5yZXBsYWNlKCInIiwgJyInKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlcmltZW50ID0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kX2RhdGU9ZW5kX2RhdGUpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX2RmID0gU2NoZW1hLmZyb21fc3RyaW5nKHNjaGVtYXMuVEFMTF9GRUFUVVJFU19TQ0hFTUEpLmVtcHR5X3NwYXJrX2RmKCkKICAgIHRlbXBfZGYgPSBTY2hlbWEuZnJvbV9zdHJpbmcoc2NoZW1hcy5UQUxMX0ZFQVRVUkVTX1NDSEVNQSkuZW1wdHlfc3BhcmtfZGYoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnRfZGF0ZT1zdGFydF9kYXRlIC0gZGF0ZXRpbWUudGltZWRlbHRhKDEpLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRPRE8gdGhlIHByb2JsZW0gaGVyZSBpcyB0aGF0IGZlYXR1cmVfbmFtZXMgYXMgYXNzdW1lZCB0byBiZSBpbiBVU0VSX0RCX05BTUUuCiAgICAgICAgIyBzZWVtcyBsaWtlIHdlIG5lZWQgZmVhdHVyZV9uYW1lcyB0byBiZSBhIGRpY3Rpb25hcnkgd2l0aCBrZXlzIEdPTEQ/U0lMVkVSL0JST05aRQogICAgICAgICMgcHVsbCBhbGwgdGhvc2UgZmVhdHVyZXMsIHVuaW9uIHRoZW0gYW5kIHRoZW4gcHJvY2VlZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmVhdHVyZV9uYW1lcz1mZWF0dXJlX25hbWVzLAo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
@@ -1038,9 +1038,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def .*name</last-search>
+      <last-search>get_features</last-search>
       <last-offset />
-      <last-pattern>def .*name</last-pattern>
+      <last-pattern>get_features</last-pattern>
       <last-replace>&quot;aa&quot;</last-replace>
       <last-substitute>&quot;a&quot;</last-substitute>
       <last-dir>1</last-dir>
