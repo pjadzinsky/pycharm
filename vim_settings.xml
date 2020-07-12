@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>if</entry>
-        <entry>DA</entry>
-        <entry>logging</entry>
         <entry>MASON_CONFIG</entry>
         <entry>admin_utils</entry>
         <entry>constants</entry>
@@ -25,6 +22,9 @@
         <entry>libr</entry>
         <entry>rend</entry>
         <entry>deploy</entry>
+        <entry>def deploy</entry>
+        <entry>py</entry>
+        <entry>.py</entry>
       </history-search>
       <history-cmd>
         <entry>%s/, utc_offset=utc_offset//g</entry>
@@ -140,14 +140,14 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1594586171310">
-        <mark key="'" line="50" column="37" />
-        <mark key="[" line="66" column="0" />
-        <mark key="]" line="66" column="0" />
-        <mark key="^" line="68" column="13" />
-        <mark key="." line="66" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1594588190406">
+        <mark key="'" line="43" column="0" />
+        <mark key="[" line="56" column="23" />
+        <mark key="]" line="67" column="0" />
+        <mark key="^" line="69" column="13" />
+        <mark key="." line="67" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1594588053402">
+      <file name="/Python Console" timestamp="1594588064698">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -180,6 +180,12 @@
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="57" column="1" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging.py" timestamp="1594588326946">
+        <mark key="'" line="8" column="8" />
+        <mark key="[" line="11" column="8" />
+        <mark key="]" line="11" column="8" />
+        <mark key="." line="11" column="8" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1594581392681">
         <mark key="'" line="3" column="6" />
@@ -225,20 +231,20 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1594506917576" />
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/libraries.json" timestamp="1594585676896">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="27" column="1" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" timestamp="1594588350706">
+        <mark key="'" line="4" column="31" />
+        <mark key="[" line="7" column="54" />
+        <mark key="]" line="7" column="54" />
+        <mark key="." line="7" column="54" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/email.json" timestamp="1594585726586">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="4" column="1" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/silver_features/text_type_ratios.py" timestamp="1594433232237">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/spark_util.py" timestamp="1594509159860">
         <mark key="'" line="32" column="0" />
@@ -247,14 +253,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="104" column="4" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="12" column="29" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/database.py" />
-      <jump line="89" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="1" column="1" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="250" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="261" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="417" column="80" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/__init__.py" />
       <jump line="117" column="8" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="58" column="11" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
@@ -288,7 +286,6 @@
       <jump line="14" column="7" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="31" column="4" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="32" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="43" column="4" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="44" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="61" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="70" column="22" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -347,6 +344,15 @@
       <jump line="40" column="14" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="49" column="47" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="50" column="37" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="43" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="4" column="7" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging.py" />
+      <jump line="8" column="8" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging.py" />
+      <jump line="7" column="54" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" />
+      <jump line="8" column="44" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" />
+      <jump line="22" column="15" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" />
+      <jump line="23" column="53" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" />
+      <jump line="1" column="12" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" />
+      <jump line="4" column="31" filename="$USER_HOME$/MindstrongRepos/mason/jobs/logging/logging_stack.json.template" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -357,8 +363,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">fQo=</text>
+      <register name="&quot;" type="4">
+        <text>y</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -906,16 +912,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>feature_generation</text>
+        <text>y</text>
       </register>
       <register name="/" type="4">
-        <text>deploy</text>
+        <text>.py</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ewogICAgIm9uX3N0YXJ0IjogW10sCiAgICAib25fc3VjY2VzcyI6IFtdLAogICAgIm9uX2ZhaWx1cmUiOiBbIiR7VVNFUl9FTUFJTH0iXQp9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgIG4gPSBpbnQoc3lzLmFyZ3ZbMV0pCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -929,7 +935,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgIHJldHVybiBzcGFyay5zcGFya0NvbnRleHQucGFyYWxsZWxpemUocmFuZ2UobikpLm1hcChsYW1iZGEgeDogeCAqKiAyKS5jb2xsZWN0KCkKICAgICMgWzAgMSAyIDMgNF0KICAgICMgWzAgMSA0IDkgMTZdCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -963,10 +969,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ewogICJuYW1lIjogImhlbGxvIHdvcmxkIiwKICAiZXhpc3RpbmdfY2x1c3Rlcl9pZCI6ICIwNTIwLTE4MDczMC15ZWFzMTAzIiwKICAibGlicmFyaWVzIjogWwogIF0sCiAgImVtYWlsX25vdGlmaWNhdGlvbnMiOiB7CiAgICAib25fc3RhcnQiOiBbXSwKICAgICJvbl9zdWNjZXNzIjogW10sCiAgICAib25fZmFpbHVyZSI6IFsicGFibG8uamFkemluc2t5QG1pbmRzdHJvbmcuY29tIl0KICB9LAogICJ0aW1lb3V0X3NlY29uZHMiOiAwLAogICJzY2hlZHVsZSI6IHsKICAgICJxdWFydHpfY3Jvbl9leHByZXNzaW9uIjogIjAgMCAzICogKiA/IiwKICAgICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgogIH0sCiAgInNwYXJrX3B5dGhvbl90YXNrIjogewogICAgInB5dGhvbl9maWxlIjogImRiZnM6L21udC9kb2NzL2hlbGxvX3dvcmxkLnB5IiwKICAgICJwYXJhbWV0ZXJzIjogWwogICAgICA1CiAgICBdCiAgfSwKICAibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKfQo=</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">LCJtYXhfY29uY3VycmVudF9ydW5zIjogMQosInRpbWVvdXRfc2Vjb25kcyI6IDcyMDAKLCJzcGFya19weXRob25fdGFzayI6IHsKInB5dGhvbl9maWxlIjogIiR7REJGU19VU0VSX0ZPTERFUn0vZmVhdHVyZV9nZW5lcmF0aW9uLnB5IiwKInBhcmFtZXRlcnMiOiBbCiJtZXRhbD0nJHtNRVRBTF9QUk9CRX0nIGlucHV0X2RiX25hbWU9JyR7RVRMX0RBVEFCQVNFX05BTUV9JyBtb2RlPSdzY29yaW5nJyIKXQp9Cg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1034,19 +1040,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAsewogICJpZCI6ICIke0NBTk9OSUNBTF9VU0VSfSBmZWF0dXJlIHVwZGF0ZXMiLAogICJzZXJ2aWNlIjogImpvYnMiLAogICJwcm9wZXJ0aWVzIjogewogICJuYW1lIjogIiR7Q0FOT05JQ0FMX1VTRVJ9IGZlYXR1cmUgdXBkYXRlcyBqb2IiCiAgLCJuZXdfY2x1c3RlciI6ICAgICAgICAgICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvbmV3X2NsdXN0ZXIuanNvbiIvPgogICwibGlicmFyaWVzIjogICAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2xpYnJhcmllcy5qc29uIi8+CiAgLCJlbWFpbF9ub3RpZmljYXRpb25zIjogICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvZW1haWwuanNvbiIvPgogICwic2NoZWR1bGUiOiB7CiAgInF1YXJ0el9jcm9uX2V4cHJlc3Npb24iOiAiMCAwIDMgKiAqID8iLAogICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgp9Cg==</text>
+        <text encoding="base64">ewogICJuYW1lIjogImhlbGxvIHdvcmxkIiwKICAiZXhpc3RpbmdfY2x1c3Rlcl9pZCI6ICIwNTIwLTE4MDczMC15ZWFzMTAzIiwKICAibGlicmFyaWVzIjogWwogIF0sCiAgImVtYWlsX25vdGlmaWNhdGlvbnMiOiB7CiAgICAib25fc3RhcnQiOiBbXSwKICAgICJvbl9zdWNjZXNzIjogW10sCiAgICAib25fZmFpbHVyZSI6IFsicGFibG8uamFkemluc2t5QG1pbmRzdHJvbmcuY29tIl0KICB9LAogICJ0aW1lb3V0X3NlY29uZHMiOiAwLAogICJzY2hlZHVsZSI6IHsKICAgICJxdWFydHpfY3Jvbl9leHByZXNzaW9uIjogIjAgMCAzICogKiA/IiwKICAgICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgogIH0sCiAgInNwYXJrX3B5dGhvbl90YXNrIjogewogICAgInB5dGhvbl9maWxlIjogImRiZnM6L21udC9kb2NzL2hlbGxvX3dvcmxkLnB5IiwKICAgICJwYXJhbWV0ZXJzIjogWwogICAgICA1CiAgICBdCiAgfSwKICAibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICJtZXRhbD0nJHtNRVRBTF9QUk9CRX0nIGlucHV0X2RiX25hbWU9JyR7RVRMX0RBVEFCQVNFX05BTUV9JyBtb2RlPSd0cmFpbmluZycgc3RhcnRfZGF0ZT0nMjAxNi0wMS0wMSciCg==</text>
+        <text encoding="base64">LCJtYXhfY29uY3VycmVudF9ydW5zIjogMQosInRpbWVvdXRfc2Vjb25kcyI6IDcyMDAKLCJzcGFya19weXRob25fdGFzayI6IHsKInB5dGhvbl9maWxlIjogIiR7REJGU19VU0VSX0ZPTERFUn0vZmVhdHVyZV9nZW5lcmF0aW9uLnB5IiwKInBhcmFtZXRlcnMiOiBbCiJtZXRhbD0nJHtNRVRBTF9QUk9CRX0nIGlucHV0X2RiX25hbWU9JyR7RVRMX0RBVEFCQVNFX05BTUV9JyBtb2RlPSdzY29yaW5nJyIKXQp9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">fQpdCn0KewogICJuYW1lIjogImhlbGxvIHdvcmxkIiwKICAiZXhpc3RpbmdfY2x1c3Rlcl9pZCI6ICIwNTIwLTE4MDczMC15ZWFzMTAzIiwKICAibGlicmFyaWVzIjogWwogIF0sCiAgImVtYWlsX25vdGlmaWNhdGlvbnMiOiB7CiAgICAib25fc3RhcnQiOiBbXSwKICAgICJvbl9zdWNjZXNzIjogW10sCiAgICAib25fZmFpbHVyZSI6IFsicGFibG8uamFkemluc2t5QG1pbmRzdHJvbmcuY29tIl0KICB9LAogICJ0aW1lb3V0X3NlY29uZHMiOiAwLAogICJzY2hlZHVsZSI6IHsKICAgICJxdWFydHpfY3Jvbl9leHByZXNzaW9uIjogIjAgMCAzICogKiA/IiwKICAgICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgogIH0sCiAgInNwYXJrX3B5dGhvbl90YXNrIjogewogICAgInB5dGhvbl9maWxlIjogImRiZnM6L21udC9kb2NzL2hlbGxvX3dvcmxkLnB5IiwKICAgICJwYXJhbWV0ZXJzIjogWwogICAgICA1CiAgICBdCiAgfSwKICAibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKfQo=</text>
+        <text encoding="base64">ICAsewogICJpZCI6ICIke0NBTk9OSUNBTF9VU0VSfSBmZWF0dXJlIHVwZGF0ZXMiLAogICJzZXJ2aWNlIjogImpvYnMiLAogICJwcm9wZXJ0aWVzIjogewogICJuYW1lIjogIiR7Q0FOT05JQ0FMX1VTRVJ9IGZlYXR1cmUgdXBkYXRlcyBqb2IiCiAgLCJuZXdfY2x1c3RlciI6ICAgICAgICAgICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvbmV3X2NsdXN0ZXIuanNvbiIvPgogICwibGlicmFyaWVzIjogICAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2xpYnJhcmllcy5qc29uIi8+CiAgLCJlbWFpbF9ub3RpZmljYXRpb25zIjogICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvZW1haWwuanNvbiIvPgogICwic2NoZWR1bGUiOiB7CiAgInF1YXJ0el9jcm9uX2V4cHJlc3Npb24iOiAiMCAwIDMgKiAqID8iLAogICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgp9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAsewogICJpZCI6ICIke0NBTk9OSUNBTF9VU0VSfSBmZWF0dXJlIHVwZGF0ZXMiLAogICJzZXJ2aWNlIjogImpvYnMiLAogICJwcm9wZXJ0aWVzIjogewogICJuYW1lIjogIiR7Q0FOT05JQ0FMX1VTRVJ9IGZlYXR1cmUgdXBkYXRlcyBqb2IiCiAgLCJuZXdfY2x1c3RlciI6ICAgICAgICAgICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvbmV3X2NsdXN0ZXIuanNvbiIvPgogICwibGlicmFyaWVzIjogICAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2xpYnJhcmllcy5qc29uIi8+CiAgLCJlbWFpbF9ub3RpZmljYXRpb25zIjogICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvZW1haWwuanNvbiIvPgogICwic2NoZWR1bGUiOiB7CiAgInF1YXJ0el9jcm9uX2V4cHJlc3Npb24iOiAiMCAwIDMgKiAqID8iLAogICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgp9CiwibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKLCJ0aW1lb3V0X3NlY29uZHMiOiA3MjAwCiwic3BhcmtfcHl0aG9uX3Rhc2siOiB7CiJweXRob25fZmlsZSI6ICIke0RCRlNfVVNFUl9GT0xERVJ9L2ZlYXR1cmVfZ2VuZXJhdGlvbi5weSIsCiJwYXJhbWV0ZXJzIjogWwoibWV0YWw9JyR7TUVUQUxfUFJPQkV9JyBpbnB1dF9kYl9uYW1lPScke0VUTF9EQVRBQkFTRV9OQU1FfScgbW9kZT0nc2NvcmluZyciCl0KfQp9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICJtZXRhbD0nJHtNRVRBTF9QUk9CRX0nIGlucHV0X2RiX25hbWU9JyR7RVRMX0RBVEFCQVNFX05BTUV9JyBtb2RlPSd0cmFpbmluZycgc3RhcnRfZGF0ZT0nMjAxNi0wMS0wMSciCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgJWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvZW1haWwuanNvbiIvPgo=</text>
+        <text encoding="base64">fQpdCn0KewogICJuYW1lIjogImhlbGxvIHdvcmxkIiwKICAiZXhpc3RpbmdfY2x1c3Rlcl9pZCI6ICIwNTIwLTE4MDczMC15ZWFzMTAzIiwKICAibGlicmFyaWVzIjogWwogIF0sCiAgImVtYWlsX25vdGlmaWNhdGlvbnMiOiB7CiAgICAib25fc3RhcnQiOiBbXSwKICAgICJvbl9zdWNjZXNzIjogW10sCiAgICAib25fZmFpbHVyZSI6IFsicGFibG8uamFkemluc2t5QG1pbmRzdHJvbmcuY29tIl0KICB9LAogICJ0aW1lb3V0X3NlY29uZHMiOiAwLAogICJzY2hlZHVsZSI6IHsKICAgICJxdWFydHpfY3Jvbl9leHByZXNzaW9uIjogIjAgMCAzICogKiA/IiwKICAgICJ0aW1lem9uZV9pZCI6ICJVUy9QYWNpZmljIgogIH0sCiAgInNwYXJrX3B5dGhvbl90YXNrIjogewogICAgInB5dGhvbl9maWxlIjogImRiZnM6L21udC9kb2NzL2hlbGxvX3dvcmxkLnB5IiwKICAgICJwYXJhbWV0ZXJzIjogWwogICAgICA1CiAgICBdCiAgfSwKICAibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKfQo=</text>
       </register>
       <register name=":" type="4">
         <text>30</text>
@@ -1055,9 +1061,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>deploy</last-search>
+      <last-search>.py</last-search>
       <last-offset />
-      <last-pattern>deploy</last-pattern>
+      <last-pattern>.py</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
