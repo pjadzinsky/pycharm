@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>def run</entry>
-        <entry>py</entry>
-        <entry>pyfunc</entry>
         <entry>sklearn</entry>
         <entry>feature_set</entry>
         <entry>error</entry>
@@ -25,9 +22,11 @@
         <entry>select</entry>
         <entry>def wri</entry>
         <entry>sql</entry>
+        <entry>db_ut</entry>
+        <entry>int,</entry>
+        <entry>schema</entry>
       </history-search>
       <history-cmd>
-        <entry>332,359s/&quot;a&quot;/&quot;aa&quot;/</entry>
         <entry>13</entry>
         <entry>51</entry>
         <entry>118</entry>
@@ -47,6 +46,7 @@
         <entry>83</entry>
         <entry>95</entry>
         <entry>190</entry>
+        <entry>%s/int,/integer,/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -146,12 +146,19 @@
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594836545418">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1594846502985">
+        <mark key="'" line="6" column="24" />
+        <mark key="[" line="118" column="43" />
+        <mark key="]" line="118" column="43" />
+        <mark key="^" line="76" column="43" />
+        <mark key="." line="118" column="43" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1594847013508">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1594844541633">
+      <file name="/Python Console" timestamp="1594846814234">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -188,16 +195,25 @@
         <mark key="^" line="3" column="40" />
         <mark key="." line="3" column="17" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" timestamp="1594838656033">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/random_n.py" timestamp="1594847800435">
+        <mark key="'" line="17" column="28" />
+        <mark key="[" line="17" column="77" />
+        <mark key="]" line="17" column="77" />
+        <mark key="^" line="17" column="77" />
+        <mark key="." line="17" column="76" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" timestamp="1594845629616">
+        <mark key="'" line="114" column="0" />
         <mark key="[" line="114" column="0" />
         <mark key="]" line="119" column="37" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" timestamp="1594727608848">
-        <mark key="'" line="2" column="16" />
-        <mark key="[" line="110" column="0" />
-        <mark key="]" line="110" column="0" />
-        <mark key="^" line="111" column="31" />
-        <mark key="." line="110" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" timestamp="1594846401360">
+        <mark key="[" line="81" column="0" />
+        <mark key="]" line="81" column="0" />
+        <mark key="." line="81" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/random_n.json" timestamp="1594847869772">
+        <mark key="[" line="1" column="40" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" timestamp="1594776262137">
         <mark key="'" line="109" column="18" />
@@ -219,14 +235,13 @@
         <mark key="." line="192" column="64" />
         <mark key="^" line="192" column="65" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/README.md" timestamp="1594834289694">
-        <mark key="[" line="19" column="88" />
-        <mark key="]" line="19" column="88" />
-        <mark key="." line="19" column="88" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/README.md" timestamp="1594847626855">
+        <mark key="[" line="67" column="30" />
+        <mark key="]" line="67" column="30" />
+        <mark key="." line="67" column="29" />
+        <mark key="^" line="67" column="30" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1594727417132">
-        <mark key="[" line="6" column="18" />
-      </file>
+      <file name="/README.md" timestamp="1594847353456" />
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" timestamp="1594749419149">
         <mark key="'" line="13" column="33" />
         <mark key="[" line="51" column="74" />
@@ -234,30 +249,15 @@
         <mark key="^" line="51" column="90" />
         <mark key="." line="51" column="89" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594844479373">
-        <mark key="'" line="19" column="40" />
-        <mark key="[" line="175" column="0" />
-        <mark key="]" line="175" column="0" />
-        <mark key="^" line="174" column="60" />
-        <mark key="." line="175" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1594727687348">
-        <mark key="'" line="55" column="4" />
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594846962552">
+        <mark key="'" line="18" column="24" />
+        <mark key="[" line="18" column="32" />
+        <mark key="]" line="18" column="32" />
+        <mark key="^" line="18" column="34" />
+        <mark key="." line="18" column="32" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
-      <jump line="38" column="51" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
-      <jump line="125" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="14" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
-      <jump line="9" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="12" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="133" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="13" column="19" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="39" column="23" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="5" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="3" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="40" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
@@ -348,7 +348,16 @@
       <jump line="163" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="23" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="171" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="19" column="40" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="108" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="19" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="114" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="114" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
+      <jump line="118" column="56" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="119" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="4" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="6" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="18" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/random_n.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -360,7 +369,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5zZWxlY3Qoc2NoZW1hLm5hbWVzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -908,16 +917,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>schema</text>
+        <text>value</text>
       </register>
       <register name="/" type="4">
-        <text>sql</text>
+        <text>schema</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzcGFya19wcmVkaWN0aW9uc19kZiA9IHNwYXJrX3ByZWRpY3Rpb25zX2RmLnNlbGVjdChbJ21vZGVsX3VyaScsJ21pbmRzdHJvbmdfaWQnLCAncHJlZGljdGlvbl9mb3JfZGF0ZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncHJlZGljdGlvbl92YWx1ZScgLCAncHJlZGljdGlvbl9wcm9iYScgLCAncHJlZGljdGlvbl9hdF90aW1lc3RhbXAnXSkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludChzcWxfc3RyKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5zZWxlY3Qoc2NoZW1hLm5hbWVzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -931,7 +940,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlbWEgPSAoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -965,10 +974,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5jcmVhdGVPclJlcGxhY2VUZW1wVmlldygidXBkYXRlcyIpCg==</text>
+        <text encoding="base64">ZnJvbSBtYXNvbi5jb21tb24uY29uc3RhbnRzIGltcG9ydCBGRUFUVVJFX0FORFJPSUQsIEZFQVRVUkVfSU9TCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZiA9IAo=</text>
+        <text encoding="base64">ICAgICMgICBhbmQgJ2ZlYXR1cmVfbmFtZV9wcmVmaXgnCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1035,34 +1044,33 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="4">
-        <text>spark_predictions_df = spark_predictions_df.select(['model_uri','mindstrong_id', 'prediction_for_date',
-                                     'prediction_value' , 'prediction_proba' , 'prediction_at_timestamp'])</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICMgICBJbiBnZW5lcmFsLCBlYWNoIG1ldGhvZCBjcmVhdGVzIGEgZmFtaWx5IG9mICdmZWF0dXJlcycgYW5kIHRoZXJlIGlzIGEgZGlzdGluY3Rpb24gYmV0d2VlbiAnZmVhdHVyZV9uYW1lJwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgMi4gVGhlcmUgaXMgb25seSBvbmUgZmVhdHVyZSBiZWluZyBjb21wdXRlZCBhbmQgc28gdGhlICdmZWF0dXJlX25hbWUnIGlzIGp1c3QgdGhlIGZlYXR1cmVfbmFtZV9wcmVmaXguCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgImV4cF9pZCI6ICIzMTMwMSIsCiAgICAgICJ3aGljaCI6ICJsYXRlc3QiCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICMgMS4gVGhlIHZhbHVlcyBhcmUgY29uc3RhbnRzIChhbGwgY2F0ZWdvcmljYWwgZmVhdHVyZXMgc2hhcmUgdGhpcyBwcm9wZXJ0eSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICBXaWxsIGJlIGJhY2sgZmlsbGVkIGFuZCBjb21wdXRlZCBkYWlseSBieSBQaG9uZUxvZ0RyaXZlcgo=</text>
+        <text encoding="base64">ICAgICMgTm90ZSB0aGF0IHRoaXMgaXMgYSB2ZXJ5IHNwZWNpYWwgZmVhdHVyZSBpbiAyIHdheXMuCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>190</text>
+        <text>%s/int,/integer,/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>sql</last-search>
+      <last-search>schema</last-search>
       <last-offset />
-      <last-pattern>sql</last-pattern>
-      <last-replace>end</last-replace>
-      <last-substitute>start</last-substitute>
+      <last-pattern>schema</last-pattern>
+      <last-replace>integer,</last-replace>
+      <last-substitute>int,</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
