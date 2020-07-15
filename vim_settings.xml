@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>from_s</entry>
         <entry>def run</entry>
         <entry>py</entry>
         <entry>pyfunc</entry>
@@ -25,6 +24,7 @@
         <entry>gold</entry>
         <entry>select</entry>
         <entry>def wri</entry>
+        <entry>sql</entry>
       </history-search>
       <history-cmd>
         <entry>332,359s/&quot;a&quot;/&quot;aa&quot;/</entry>
@@ -151,7 +151,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1594839486408">
+      <file name="/Python Console" timestamp="1594844541633">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -234,12 +234,12 @@
         <mark key="^" line="51" column="90" />
         <mark key="." line="51" column="89" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594839578690">
-        <mark key="'" line="23" column="0" />
-        <mark key="[" line="175" column="60" />
-        <mark key="]" line="176" column="8" />
-        <mark key="." line="176" column="7" />
-        <mark key="^" line="176" column="8" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594844479373">
+        <mark key="'" line="19" column="40" />
+        <mark key="[" line="175" column="0" />
+        <mark key="]" line="175" column="0" />
+        <mark key="^" line="174" column="60" />
+        <mark key="." line="175" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1594727687348">
         <mark key="'" line="55" column="4" />
@@ -249,8 +249,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
-      <jump line="20" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="31" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="38" column="51" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="125" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
@@ -349,6 +347,8 @@
       <jump line="83" column="40" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="163" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="23" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="171" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="19" column="40" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -360,7 +360,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5jcmVhdGVPclJlcGxhY2VUZW1wVmlldygidXBkYXRlcyIpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5zZWxlY3Qoc2NoZW1hLm5hbWVzKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -911,13 +911,13 @@
         <text>schema</text>
       </register>
       <register name="/" type="4">
-        <text>def wri</text>
+        <text>sql</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzcGFya19wcmVkaWN0aW9uc19kZiA9IHNwYXJrX3ByZWRpY3Rpb25zX2RmLnNlbGVjdChbJ21vZGVsX3VyaScsJ21pbmRzdHJvbmdfaWQnLCAncHJlZGljdGlvbl9mb3JfZGF0ZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncHJlZGljdGlvbl92YWx1ZScgLCAncHJlZGljdGlvbl9wcm9iYScgLCAncHJlZGljdGlvbl9hdF90aW1lc3RhbXAnXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5jcmVhdGVPclJlcGxhY2VUZW1wVmlldygidXBkYXRlcyIpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5zZWxlY3Qoc2NoZW1hLm5hbWVzKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -931,7 +931,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZiA9IAo=</text>
+        <text encoding="base64">ICAgICAgICBzY2hlbWEgPSAoKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -964,12 +964,11 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="4">
-        <text>spark_predictions_df = spark_predictions_df.select(['model_uri','mindstrong_id', 'prediction_for_date',
-                                     'prediction_value' , 'prediction_proba' , 'prediction_at_timestamp'])</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZi5jcmVhdGVPclJlcGxhY2VUZW1wVmlldygidXBkYXRlcyIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uc19kZiA9IAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1036,20 +1035,21 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgImV4cF9pZCI6ICIzMTMwMSIsCiAgICAgICJ3aGljaCI6ICJsYXRlc3QiCiAgICB9Cg==</text>
+      <register name="5" type="4">
+        <text>spark_predictions_df = spark_predictions_df.select(['model_uri','mindstrong_id', 'prediction_for_date',
+                                     'prediction_value' , 'prediction_proba' , 'prediction_at_timestamp'])</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICBXaWxsIGJlIGJhY2sgZmlsbGVkIGFuZCBjb21wdXRlZCBkYWlseSBieSBQaG9uZUxvZ0RyaXZlcgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgImV4cF9pZCI6ICIzMTMwMSIsCiAgICAgICJ3aGljaCI6ICJsYXRlc3QiCiAgICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICBXaWxsIGJlIGJhY2sgZmlsbGVkIGFuZCBjb21wdXRlZCBkYWlseSBieSBQaG9uZUxvZ0RyaXZlcgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>190</text>
@@ -1058,9 +1058,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def wri</last-search>
+      <last-search>sql</last-search>
       <last-offset />
-      <last-pattern>def wri</last-pattern>
+      <last-pattern>sql</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
