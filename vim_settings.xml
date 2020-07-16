@@ -27,7 +27,6 @@
         <entry>print</entry>
       </history-search>
       <history-cmd>
-        <entry>s/ //g</entry>
         <entry>134</entry>
         <entry>158</entry>
         <entry>s/start/end/g</entry>
@@ -47,6 +46,7 @@
         <entry>%s/spark=None/spark: Optional[SparkSession]=None/gc</entry>
         <entry>99</entry>
         <entry>%s/print/logger.info/gc</entry>
+        <entry>9</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -161,10 +161,7 @@
         <mark key="]" line="5" column="19" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/README.md" timestamp="1594849057330">
-        <mark key="[" line="73" column="20" />
-        <mark key="]" line="67" column="30" />
-        <mark key="." line="67" column="29" />
-        <mark key="^" line="67" column="30" />
+        <mark key="[" line="4" column="20" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/MANIFEST.in" timestamp="1594865210571">
         <mark key="[" line="2" column="49" />
@@ -185,12 +182,14 @@
         <mark key="." line="113" column="4" />
         <mark key="^" line="114" column="24" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" timestamp="1594912485577">
-        <mark key="[" line="0" column="23" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" timestamp="1594921830391">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="20" column="32" />
+        <mark key="]" line="20" column="59" />
+        <mark key="." line="20" column="58" />
+        <mark key="^" line="20" column="59" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594874147763">
+      <file name="/Dummy.txt" timestamp="1594920239555">
         <mark key="c" line="0" column="25" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="17" />
@@ -242,7 +241,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="116" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="139" column="70" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="174" column="50" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="208" column="72" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
@@ -342,6 +340,7 @@
       <jump line="98" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="180" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="12" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" />
+      <jump line="9" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -353,7 +352,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>android_session</text>
+        <text>dfdata_up_to</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -901,7 +900,7 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>android_session</text>
+        <text>dfdata_up_to</text>
       </register>
       <register name="/" type="4">
         <text>print</text>
@@ -910,7 +909,7 @@
         <text encoding="base64">ICAgIHAgPSBkZi5ldmVudF9kZXNjW2RmLmV2ZW50X2Rlc2M9PSd0eXBlZDpwJ10KICAgIG51bV9wID0gcC5zaGFwZVswXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGRmLm1pbmRzdHJvbmdfaWQuaWxvY1swXQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -924,7 +923,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -958,10 +957,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ZnJvbSBtYXNvbi5jb21tb24uY29uc3RhbnRzIGltcG9ydCBGRUFUVVJFX0FORFJPSUQsIEZFQVRVUkVfSU9TCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgImRhdGFfdXBfdG8iOiBkZi5kYXRhX3VwX3RvLmlsb2NbMF0sCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1029,22 +1028,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgImZlYXR1cmVfdmFsdWUiOiB2YWx1ZSwK</text>
+        <text encoding="base64">ICAgICkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgImZlYXR1cmVfbmFtZSI6IGZlYXR1cmVfbmFtZV9wcmVmaXggKyAiX251bXAiLAo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgImRhdGFfdXBfdG8iOiBkZi5kYXRhX3VwX3RvLmlsb2NbMF0sCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG51bXMgPSB7fQogICAgZm9yIGxldHRlciBpbiBbJ3AnLCAncScsICdQJywgJ1EnXToKICAgICAgICBzdWJfZGYgPSBkZi5ldmVudF9kZXNjW2RmLmV2ZW50X2Rlc2M9PWYndHlwZWQ6e2xldHRlcn0nXQogICAgICAgIG51bXNbbGV0dGVyXSA9IHN1Yl9kZi5zaGFwZVswXQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgImZlYXR1cmVfdmFsdWUiOiB2YWx1ZSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIm1pbmRzdHJvbmdfaWQiOiBkZi5taW5kc3Ryb25nX2lkLmlsb2NbMF0sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgImZlYXR1cmVfbmFtZSI6IGZlYXR1cmVfbmFtZV9wcmVmaXggKyAiX251bXAiLAo=</text>
       </register>
       <register name=":" type="4">
-        <text>%s/print/logger.info/gc</text>
+        <text>9</text>
       </register>
     </registers>
   </component>
