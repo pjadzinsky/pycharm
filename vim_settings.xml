@@ -13,7 +13,6 @@
         <entry>Ens</entry>
         <entry>El</entry>
         <entry>logger</entry>
-        <entry>print</entry>
         <entry>def wri</entry>
         <entry>writing to</entry>
         <entry>Writing to</entry>
@@ -25,10 +24,9 @@
         <entry>spark=None</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>cr</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
-        <entry>87</entry>
-        <entry>s/ //</entry>
         <entry>s/ //g</entry>
         <entry>134</entry>
         <entry>158</entry>
@@ -47,6 +45,8 @@
         <entry>69</entry>
         <entry>116</entry>
         <entry>%s/spark=None/spark: Optional[SparkSession]=None/gc</entry>
+        <entry>99</entry>
+        <entry>%s/print/logger.info/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -184,19 +184,12 @@
         <mark key="]" line="2" column="49" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594856234753">
-        <mark key="'" line="199" column="18" />
-        <mark key="[" line="177" column="0" />
-        <mark key="]" line="181" column="26" />
-        <mark key="^" line="181" column="26" />
-        <mark key="." line="181" column="25" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1594858631915">
-        <mark key="'" line="20" column="0" />
-        <mark key="[" line="46" column="76" />
-        <mark key="]" line="29" column="62" />
-        <mark key="^" line="29" column="62" />
-        <mark key="." line="46" column="81" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1594873758389">
+        <mark key="'" line="180" column="0" />
+        <mark key="[" line="91" column="28" />
+        <mark key="]" line="91" column="43" />
+        <mark key="." line="91" column="42" />
+        <mark key="^" line="91" column="43" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_schema.py" timestamp="1594858219090">
         <mark key="'" line="21" column="45" />
@@ -205,10 +198,11 @@
         <mark key="." line="113" column="4" />
         <mark key="^" line="114" column="24" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594867091794">
+      <file name="/Dummy.txt" timestamp="1594874147763">
+        <mark key="c" line="0" column="25" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="11" />
-        <mark key="." line="0" column="11" />
+        <mark key="]" line="0" column="17" />
+        <mark key="." line="0" column="17" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/rf_1/model_policy.json" timestamp="1594852969557">
         <mark key="[" line="4" column="0" />
@@ -233,13 +227,6 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" timestamp="1594858447932">
-        <mark key="'" line="57" column="4" />
-        <mark key="[" line="53" column="26" />
-        <mark key="]" line="53" column="35" />
-        <mark key="^" line="53" column="35" />
-        <mark key="." line="53" column="34" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/spark_util.py" timestamp="1594858500396">
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="36" />
@@ -253,7 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="148" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
       <jump line="88" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" />
       <jump line="116" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="139" column="70" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
@@ -299,7 +285,6 @@
       <jump line="89" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="91" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="95" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="98" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="109" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="110" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="112" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
@@ -353,6 +338,8 @@
       <jump line="20" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/requirements.txt" />
       <jump line="5" column="2" filename="$USER_HOME$/MindstrongRepos/mason/requirements.txt" />
+      <jump line="98" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="180" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -364,10 +351,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>Model Driver, attempting to write only model schema columns
-
-Added method to convert Schema to sql_str
-Added method to db_utils to get Schema from table name</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -915,19 +899,16 @@ Added method to db_utils to get Schema from table name</text>
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>cr</text>
+        <text>print</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">aW5jbHVkZSBtYXNvbi9waG9uZV9sb2dzX2V0bC90ZXN0cy9kYXRhLyouYXZyby5lbgo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">bG9nZ2VyLmluZm8oZiJBYm91dCB0byBzY29yZSB3aXRoIHJ1bl9pZDoge3J1bl9pZH0iKQogICAgICAgICAgICAgICAgICAgIHNlbGYuc2NvcmUocnVuX2lkLCBvdXRwdXRfdGFibGVfbmFtZSwgc3RhcnRfZGF0ZSwgZW5kX2RhdGUsIG91dHB1dF9kYXRhYmFzZSkKCiAgICBkZWYgdHJhaW4oc2VsZiwgbW9kZWxfZm9sZGVyOiBTZXF1ZW5jZVtzdHJdKToKICAgICAgICAiIiIKICAgICAgICBUcmFpbiB0aGUgbGlzdCBvZiBtb2RlbHMgZ2l2ZW4uCiAgICAgICAgOnBhcmFtIG1vZGVsX2ZvbGRlcjogRm9sZGVycyBhcmUgcmVsYXRpdmUgdG8gbWFzb24vbW9kZWxzLCBpZQogICAgICAgICAgICBtb2RlbF9mb2xkZXJzID0gJ2dvbGRfbW9kZWxzL3RveV9tb2RlbF8xJwogICAgICAgICIiIgogICAgICAgIGN1cnJlbnRfcGF0aCA9IG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXykKICAgICAgICBtb2R1bGVfcGF0aCA9IG9zLnBhdGguYWJzcGF0aChvcy5wYXRoLmpvaW4oY3VycmVudF9wYXRoLCBtb2RlbF9mb2xkZXIsICJ0cmFpbi5weSIpKQogICAgICAgIGxvZ2dlci5pbmZvKGYibW9kdWxlX3BhdGg6IHttb2R1bGVfcGF0aH0iKQogICAgICAgIGxvZ2dlci5pbmZvKGYiUkVQT19ST09UX0ZPTERFUjoge2NvbmZpZy5SRVBPX1JPT1RfRk9MREVSfSIpCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKG1vZHVsZV9wYXRoKToKICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJmaWxlIG5vdCBmb3VuZDoge21vZHVsZV9wYXRofSIpCgogICAgICAgIG1vZHVsZV9zdHIgPSBjb21tb25fdXRpbHMuZ2V0X21vZHVsZV9zdHJfZnJvbV9wYXRoKG1vZHVsZV9wYXRoKQoKICAgICAgICBsb2dnZXIuaW5mbyhmIm1vZHVsZV9zdHI6IHttb2R1bGVfc3RyfSIpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBtb2R1bGUgPSBpbXBvcnRsaWIuaW1wb3J0X21vZHVsZShtb2R1bGVfc3RyKQogICAgICAgIGV4Y2VwdCBNb2R1bGVOb3RGb3VuZEVycm9yOgogICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIk1vZHVsZSBub3QgZm91bmQgZm9yIG1vZHVsZV9zdHI6IHttb2R1bGVfc3RyfSIpCiAgICAgICAgICAgIHBhc3MKICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiBoYXNhdHRyKG1vZHVsZSwgInRyYWluIik6CiAgICAgICAgICAgICAgICB0cmFpbl9tZXRob2QgPSBnZXRhdHRyKG1vZHVsZSwgInRyYWluIikKICAgICAgICAgICAgICAgIHRyYWluX21ldGhvZCgpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByYWlzZSBBdHRyaWJ1dGVFcnJvcihmIm1vZHVsZSAne21vZHVsZX0nIGRvZXMgbm90IGhhdmUgbWV0aG9kICd0cmFpbiciKQoKICAgIGRlZiBzY29yZShzZWxmLCBydW5faWQsIG91dHB1dF90YWJsZV9uYW1lLCBzdGFydF9kYXRlLCBlbmRfZGF0ZSwgb3V0cHV0X2RiX25hbWUpOgogICAgICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkKCiAgICAgICAgd2FybmluZ3MuZmlsdGVyd2FybmluZ3MoImlnbm9yZSIpCiAgICAgICAgbnAucmFuZG9tLnNlZWQoNDApCgogICAgICAgIG1vZGVsX3VyaSA9ICJydW5zOi8iICsgcnVuX2lkICsgIi9tb2RlbCIKICAgICAgICBsb2dnZXIuaW5mbyhmIlNlYXJjaGluZyBmb3IgbW9kZWxfdXJpOiB7bW9kZWxfdXJpfSIpCiAgICAgICAgbW9kZWwgPSBza2xlYXJuLmxvYWRfbW9kZWwobW9kZWxfdXJpPW1vZGVsX3VyaSkKCiAgICAgICAgaWYgbW9kZWwgaXMgTm9uZToKICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJNb2RlbCBub3QgZm91bmQgZm9yIHJ1bl9pZDoge3J1bl9pZH0iKQogICAgICAgIGNsaWVudCA9IE1sZmxvd0NsaWVudCgpCiAgICAgICAgcnVuID0gY2xpZW50LmdldF9ydW4ocnVuX2lkKQogICAgICAgIGZlYXR1cmVzID0gZ2V0X2ZlYXR1cmVzKHJ1bikKCiAgICAgICAgIyBTaW5jZSB3ZSBhcmUgc2NvcmluZyBhdCAic3RhcnRfZGF0ZSIsIHdlIG5lZWQgZmVhdHVyZXMgb24gdGhlIHByZXZpb3VzIGRheQogICAgICAgIHNwYXJrX3RhbGxfZGYgPSBmZWF0dXJlX3V0aWxzLmdldF9zY29yaW5nX2ZlYXR1cmVzKGZlYXR1cmVzLCBzdGFydF9kYXRlLCBlbmRfZGF0ZSkKICAgICAgICBzcGFya193aWRlX2RmLCBmZWF0dXJlX25hbWVzID0gZmVhdHVyZV91dGlscy50YWxsX3RvX3dpZGVfc3BhcmtfY29udmVyc2lvbihzcGFya190YWxsX2RmKQoKICAgICAgICAjIE5PdCBzdXJlIHdoeSBidXQgdGhlIHVkZiBpcyBub3Qgd29ya2luZyB5ZXQKICAgICAgICAjIHByZWRpY3Rpb25zX2RmID0gc3Bhcmtfd2lkZV9kZi53aXRoQ29sdW1uKCJwcmVkaWN0aW9uIiwgcHlmdW5jX3VkZigidGNoZWNrX21pbiIsICJ0Y2hlY2tfbWF4IikpCiAgICAgICAgIyBwcmVkaWN0aW9uc19kZi5zaG93KCkKCiAgICAgICAgcGFuZGFzX2RmID0gc3Bhcmtfd2lkZV9kZi50b1BhbmRhcygpCiAgICAgICAgaWYgaGFzYXR0cihtb2RlbCwgInByZWRpY3RfcHJvYmEiKToKICAgICAgICAgICAgIyBGaXhtZTogaHR0cHM6Ly9taW5kc3Ryb25naGVhbHRoLmF0bGFzc2lhbi5uZXQvYnJvd3NlL0RTQ0ktODg3CiAgICAgICAgICAgIHBhbmRhc19kZi5sb2NbOiwgInByZWRpY3Rpb25fcHJvYmEiXSA9IG1vZGVsLnByZWRpY3RfcHJvYmEocGFuZGFzX2RmW2ZlYXR1cmVfbmFtZXNdKVs6LCAxXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBhbmRhc19kZi5sb2NbOiwgInByZWRpY3Rpb25fcHJvYmEiXSA9IG1vZGVsLnByZWRpY3QocGFuZGFzX2RmW2ZlYXR1cmVfbmFtZXNdKQoKICAgICAgICBzcGFya19wcmVkaWN0aW9uc19kZiA9IHNwYXJrLmNyZWF0ZURhdGFGcmFtZShwYW5kYXNfZGYpCiAgICAgICAgc3BhcmtfcHJlZGljdGlvbnNfZGYgPSAoCiAgICAgICAgICAgIHNwYXJrX3ByZWRpY3Rpb25zX2RmCiAgICAgICAgICAgIC53aXRoQ29sdW1uKCJwcmVkaWN0aW9uX2Zvcl9kYXRlIiwgRi5kYXRlX2FkZCgiZmVhdHVyZV9kYXRlIiwgMSkpCiAgICAgICAgICAgIC53aXRoQ29sdW1uKCJtb2RlbF91cmkiLCBGLmxpdChtb2RlbF91cmkpKQogICAgICAgICAgICAud2l0aENvbHVtbigicHJlZGljdGlvbl92YWx1ZSIsIChGLmNvbCgicHJlZGljdGlvbl9wcm9iYSIpID4gMC41KS5jYXN0KCJpbnQiKSkKICAgICAgICAgICAgLndpdGhDb2x1bW4oInByZWRpY3Rpb25fYXRfdGltZXN0YW1wIiwgRi5jdXJyZW50X3RpbWVzdGFtcCgpKQogICAgICAgICkKICAgICAgICBzZWxmLndyaXRlX3RvX3RhYmxlKHNwYXJrX3ByZWRpY3Rpb25zX2RmLCBvdXRwdXRfdGFibGVfbmFtZSwgb3V0cHV0X2RiX25hbWUpCgogICAgZGVmIHdyaXRlX3RvX3RhYmxlKHNlbGYsIHByZWRpY3Rpb25zX2RmOiBTcGFya0RGLCBvdXRwdXRfdGFibGVfbmFtZTogc3RyLCBvdXRwdXRfZGJfbmFtZTogc3RyKSAtPiBOb25lOgogICAgICAgICIiIgogICAgICAgIFdyaXRlIGEgcHJlZGljdGlvbnMgZGF0YWZyYW1lIHdpdGggdGhlIHRhbGxfcHJlZGljdGlvbnMgc2NoZW1hIHRvIHRoZSBjb3JyZXNwb25kaW5nIG91dHB1dCB0YWJsZS4KCiAgICAgICAgVXBzZXJ0cyB0aGUgZGF0YSBieSBtYXRjaGluZyBvbiBtaW5kc3Ryb25nX2lkLCBwcmVkaWN0aW9uX2RhdGUsIGRhdGFfdXBfdG8sIGFuZCBwcmVkaWN0aW9uX25hbWUuCiAgICAgICAgIiIiCiAgICAgICAgc2NoZW1hID0gZGJfdXRpbHMuZ2V0X3NjaGVtYShvdXRwdXRfdGFibGVfbmFtZSkKICAgICAgICBwcmVkaWN0aW9uc19kZiA9IHByZWRpY3Rpb25zX2RmLnNlbGVjdChzY2hlbWEuY29sdW1ucykKICAgICAgICBwcmVkaWN0aW9uc19kZi5jcmVhdGVPclJlcGxhY2VUZW1wVmlldygidXBkYXRlcyIpCgogICAgICAgIA==</text>
       </register>
-      <register name="1" type="4">
-        <text>Model Driver, attempting to write only model schema columns
-
-Added method to convert Schema to sql_str
-Added method to db_utils to get Schema from table name</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCgicHJlZGljdGlvbnMiKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -941,7 +922,7 @@ Added method to db_utils to get Schema from table name</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBmaWwK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgnKicqODApCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -974,11 +955,14 @@ Added method to db_utils to get Schema from table name</text>
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICBweWNyeXB0b2RvbWU9PTMuOS44LAo=</text>
+      <register name="3" type="4">
+        <text>Model Driver, attempting to write only model schema columns
+
+Added method to convert Schema to sql_str
+Added method to db_utils to get Schema from table name</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIK</text>
+        <text encoding="base64">ICAgICAgICBmaWwK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1046,32 +1030,32 @@ Added method to db_utils to get Schema from table name</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHNjaGVtYTEgPSBzY2hlbWEuU2NoZW1hLmZyb21fa3dhcmdzKAogICAgICAgIG1lbWJlcl9pZD0ibG9uZyIsCiAgICAgICAgdGVudXJlPSgiaW50ZWdlciIsICJIb3cgbG9uZyB0aGUgbWVtYmVyIGhhcyBiZWVuIHdpdGggTWluZHN0cm9uZyAoaW4gbW9udGhzKSIpLAogICAgICAgIGRpYWdub3Nlcz0oQXJyYXlUeXBlKFN0cmluZ1R5cGUoKSksICJUaGUgbWVtYmVyJ3MgZGlhZ25vc2VzIiksCiAgICAgICAgYWdlPUludGVnZXJUeXBlKCksCiAgICAgICAgbm90ZXM9c2NoZW1hLkZpZWxkKCJub3RlcyIsICJzdHJpbmciLCBOb25lKSwKICAgICkKICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
+        <text encoding="base64">ICBweWNyeXB0b2RvbWU9PTMuOS44LAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
+        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG1ldGhvZHMgaGVyZS4K</text>
+        <text encoding="base64">ICAgIHNjaGVtYTEgPSBzY2hlbWEuU2NoZW1hLmZyb21fa3dhcmdzKAogICAgICAgIG1lbWJlcl9pZD0ibG9uZyIsCiAgICAgICAgdGVudXJlPSgiaW50ZWdlciIsICJIb3cgbG9uZyB0aGUgbWVtYmVyIGhhcyBiZWVuIHdpdGggTWluZHN0cm9uZyAoaW4gbW9udGhzKSIpLAogICAgICAgIGRpYWdub3Nlcz0oQXJyYXlUeXBlKFN0cmluZ1R5cGUoKSksICJUaGUgbWVtYmVyJ3MgZGlhZ25vc2VzIiksCiAgICAgICAgYWdlPUludGVnZXJUeXBlKCksCiAgICAgICAgbm90ZXM9c2NoZW1hLkZpZWxkKCJub3RlcyIsICJzdHJpbmciLCBOb25lKSwKICAgICkKICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICIiIiBUZXN0IHRoYXQgdGhlIHN0cmluZyBwcm9kdWNlZCBieSBTY2hlbWEudG9fc3RyaW5nIGNhbiBiZSB1c2VkIHRvIHJlZ2VuZXJhdGUgdGhlIHNhbWUgU2NoZW1hCiAgICAiIiIK</text>
+        <text encoding="base64">ICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIKICAgIGNvbXB1dGVkID0gc2NoZW1hLlNjaGVtYS5mcm9tX3N0cmluZyhzY2hlbWFfc3RyaW5nKQogICAgYXNzZXJ0IGxlbihjb21wdXRlZC5maWVsZHMpID09IGxlbihzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSKQo=</text>
+        <text encoding="base64">ICAgIG1ldGhvZHMgaGVyZS4K</text>
       </register>
       <register name=":" type="4">
-        <text>%s/spark=None/spark: Optional[SparkSession]=None/gc</text>
+        <text>%s/print/logger.info/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>cr</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>cr</last-pattern>
-      <last-replace>spark: Optional[SparkSession]=None</last-replace>
-      <last-substitute>spark=None</last-substitute>
+      <last-pattern>print</last-pattern>
+      <last-replace>logger.info</last-replace>
+      <last-substitute>print</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
