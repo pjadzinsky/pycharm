@@ -143,7 +143,7 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1594848423361">
         <mark key="'" line="95" column="11" />
       </file>
-      <file name="/Python Console" timestamp="1594858221612">
+      <file name="/Python Console" timestamp="1594866679173">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -205,8 +205,10 @@
         <mark key="." line="113" column="4" />
         <mark key="^" line="114" column="24" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594858948001">
+      <file name="/Dummy.txt" timestamp="1594867091794">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="11" />
+        <mark key="." line="0" column="11" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/rf_1/model_policy.json" timestamp="1594852969557">
         <mark key="[" line="4" column="0" />
@@ -219,6 +221,11 @@
         <mark key="]" line="21" column="31" />
         <mark key="." line="21" column="30" />
         <mark key="^" line="21" column="31" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" timestamp="1594867026167">
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" timestamp="1594852439775">
         <mark key="[" line="49" column="120" />
@@ -237,7 +244,6 @@
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="36" />
       </file>
-      <file name="/README.md" timestamp="1594847353456" />
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/rf_1/train.py" timestamp="1594852528280">
         <mark key="'" line="16" column="40" />
         <mark key="[" line="68" column="50" />
@@ -357,8 +363,11 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW5jbHVkZSBtYXNvbi9waG9uZV9sb2dzX2V0bC90ZXN0cy9kYXRhLyouYXZyby5lbgo=</text>
+      <register name="&quot;" type="4">
+        <text>Model Driver, attempting to write only model schema columns
+
+Added method to convert Schema to sql_str
+Added method to db_utils to get Schema from table name</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -906,7 +915,7 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
         <text>cr</text>
@@ -914,8 +923,11 @@
       <register name="0" type="2">
         <text encoding="base64">aW5jbHVkZSBtYXNvbi9waG9uZV9sb2dzX2V0bC90ZXN0cy9kYXRhLyouYXZyby5lbgo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICBweWNyeXB0b2RvbWU9PTMuOS44LAo=</text>
+      <register name="1" type="4">
+        <text>Model Driver, attempting to write only model schema columns
+
+Added method to convert Schema to sql_str
+Added method to db_utils to get Schema from table name</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -929,7 +941,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIK</text>
+        <text encoding="base64">ICAgICAgICBmaWwK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -963,10 +975,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHNjaGVtYTEgPSBzY2hlbWEuU2NoZW1hLmZyb21fa3dhcmdzKAogICAgICAgIG1lbWJlcl9pZD0ibG9uZyIsCiAgICAgICAgdGVudXJlPSgiaW50ZWdlciIsICJIb3cgbG9uZyB0aGUgbWVtYmVyIGhhcyBiZWVuIHdpdGggTWluZHN0cm9uZyAoaW4gbW9udGhzKSIpLAogICAgICAgIGRpYWdub3Nlcz0oQXJyYXlUeXBlKFN0cmluZ1R5cGUoKSksICJUaGUgbWVtYmVyJ3MgZGlhZ25vc2VzIiksCiAgICAgICAgYWdlPUludGVnZXJUeXBlKCksCiAgICAgICAgbm90ZXM9c2NoZW1hLkZpZWxkKCJub3RlcyIsICJzdHJpbmciLCBOb25lKSwKICAgICkKICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
+        <text encoding="base64">ICBweWNyeXB0b2RvbWU9PTMuOS44LAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
+        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1034,19 +1046,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG1ldGhvZHMgaGVyZS4K</text>
+        <text encoding="base64">ICAgIHNjaGVtYTEgPSBzY2hlbWEuU2NoZW1hLmZyb21fa3dhcmdzKAogICAgICAgIG1lbWJlcl9pZD0ibG9uZyIsCiAgICAgICAgdGVudXJlPSgiaW50ZWdlciIsICJIb3cgbG9uZyB0aGUgbWVtYmVyIGhhcyBiZWVuIHdpdGggTWluZHN0cm9uZyAoaW4gbW9udGhzKSIpLAogICAgICAgIGRpYWdub3Nlcz0oQXJyYXlUeXBlKFN0cmluZ1R5cGUoKSksICJUaGUgbWVtYmVyJ3MgZGlhZ25vc2VzIiksCiAgICAgICAgYWdlPUludGVnZXJUeXBlKCksCiAgICAgICAgbm90ZXM9c2NoZW1hLkZpZWxkKCJub3RlcyIsICJzdHJpbmciLCBOb25lKSwKICAgICkKICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICIiIiBUZXN0IHRoYXQgdGhlIHN0cmluZyBwcm9kdWNlZCBieSBTY2hlbWEudG9fc3RyaW5nIGNhbiBiZSB1c2VkIHRvIHJlZ2VuZXJhdGUgdGhlIHNhbWUgU2NoZW1hCiAgICAiIiIK</text>
+        <text encoding="base64">ICAgIHNjaGVtYTEgPSBFWEFNUExFX1NDSEVNQS5jb3B5KCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIKICAgIGNvbXB1dGVkID0gc2NoZW1hLlNjaGVtYS5mcm9tX3N0cmluZyhzY2hlbWFfc3RyaW5nKQogICAgYXNzZXJ0IGxlbihjb21wdXRlZC5maWVsZHMpID09IGxlbihzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSKQo=</text>
+        <text encoding="base64">ICAgIG1ldGhvZHMgaGVyZS4K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGVmIHRlc3RfdG9fc3RyaW5nKCk6Cg==</text>
+        <text encoding="base64">ICAgICIiIiBUZXN0IHRoYXQgdGhlIHN0cmluZyBwcm9kdWNlZCBieSBTY2hlbWEudG9fc3RyaW5nIGNhbiBiZSB1c2VkIHRvIHJlZ2VuZXJhdGUgdGhlIHNhbWUgU2NoZW1hCiAgICAiIiIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGFsbCBrZXlzIGluIHNjaGVtYS5TUUxfVE9fU1BBUktfVFlQRV9QQVJTRVIgY2FuIGJlIGNvbnZlcnRlZCB0byBzY2hlbWFzIiIiCg==</text>
+        <text encoding="base64">ICAgIHRva2VucyA9IFtdCiAgICBmb3Igc3FsX3R5cGVfbmFtZSBpbiBzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSOgogICAgICAgIG5hbWUgPSAiIi5qb2luKHJhbmRvbS5zYW1wbGUoc3RyaW5nLmFzY2lpX2xldHRlcnMsIDEwKSkKICAgICAgICB0b2tlbnMuYXBwZW5kKGYie25hbWV9IHtzcWxfdHlwZV9uYW1lfSIpCiAgICBzY2hlbWFfc3RyaW5nID0gIigiICsgIiwgIi5qb2luKHRva2VucykgKyAiKSIKICAgIGNvbXB1dGVkID0gc2NoZW1hLlNjaGVtYS5mcm9tX3N0cmluZyhzY2hlbWFfc3RyaW5nKQogICAgYXNzZXJ0IGxlbihjb21wdXRlZC5maWVsZHMpID09IGxlbihzY2hlbWEuU1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSKQo=</text>
       </register>
       <register name=":" type="4">
         <text>%s/spark=None/spark: Optional[SparkSession]=None/gc</text>
