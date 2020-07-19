@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>print</entry>
-        <entry>read</entry>
-        <entry>on</entry>
-        <entry>9</entry>
-        <entry>da</entry>
-        <entry>offset</entry>
         <entry>0</entry>
         <entry>plot</entry>
         <entry encoding="base64">ICA=</entry>
@@ -24,15 +18,15 @@
         <entry>date</entry>
         <entry>test_db</entry>
         <entry>temp_view</entry>
+        <entry>_pandas_android_session</entry>
+        <entry>def get</entry>
+        <entry>def fake</entry>
+        <entry>schema</entry>
+        <entry>pp</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>&quot;&quot;&quot;</entry>
       </history-search>
       <history-cmd>
-        <entry>s/start/end/g</entry>
-        <entry>331</entry>
-        <entry>24</entry>
-        <entry>30</entry>
-        <entry encoding="base64">JzwsJz5zb3J0</entry>
-        <entry>111</entry>
         <entry>95</entry>
         <entry>190</entry>
         <entry>%s/int,/integer,/gc</entry>
@@ -47,6 +41,12 @@
         <entry>128</entry>
         <entry>q</entry>
         <entry>83</entry>
+        <entry>158</entry>
+        <entry>283</entry>
+        <entry>202</entry>
+        <entry>205</entry>
+        <entry>207</entry>
+        <entry>44</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -151,12 +151,12 @@
       <file name="/a.dummy" timestamp="1594941295920">
         <mark key="[" line="0" column="2" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" timestamp="1595128098618">
-        <mark key="'" line="159" column="3" />
-        <mark key="[" line="164" column="28" />
-        <mark key="]" line="164" column="34" />
-        <mark key="." line="164" column="33" />
-        <mark key="^" line="164" column="34" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" timestamp="1595130897809">
+        <mark key="'" line="58" column="0" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="10" />
+        <mark key="." line="4" column="9" />
+        <mark key="^" line="4" column="10" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/activity_android.json" timestamp="1594954436796">
         <mark key="[" line="8" column="0" />
@@ -164,12 +164,12 @@
         <mark key="." line="8" column="0" />
         <mark key="^" line="3" column="38" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" timestamp="1595128463282">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" timestamp="1595129724042">
         <mark key="'" line="82" column="46" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="." line="84" column="0" />
-        <mark key="^" line="83" column="62" />
+        <mark key="[" line="18" column="10" />
+        <mark key="]" line="18" column="28" />
+        <mark key="." line="18" column="27" />
+        <mark key="^" line="18" column="28" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" timestamp="1594928339666">
         <mark key="'" line="9" column="0" />
@@ -187,7 +187,7 @@
         <mark key="." line="8" column="26" />
         <mark key="^" line="8" column="27" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594952182520">
+      <file name="/Dummy.txt" timestamp="1595130905777">
         <mark key="c" line="0" column="25" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="17" />
@@ -238,61 +238,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="181" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="185" column="22" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="199" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="74" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="112" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="47" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="81" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_schema.py" />
-      <jump line="54" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="83" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_schema.py" />
-      <jump line="21" column="45" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_schema.py" />
-      <jump line="82" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="97" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="105" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="108" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="111" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="114" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="118" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="123" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="155" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="158" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="162" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="25" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="42" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="47" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="50" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="53" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="57" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="109" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="115" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="19" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="2" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="114" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="29" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="33" column="41" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="37" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="46" column="81" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="55" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="72" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="79" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="87" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="94" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="118" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="20" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/requirements.txt" />
-      <jump line="5" column="2" filename="$USER_HOME$/MindstrongRepos/mason/requirements.txt" />
-      <jump line="98" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="180" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="12" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" />
-      <jump line="9" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/demo.py" />
-      <jump line="195" column="85" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="127" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
-      <jump line="25" column="23" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
-      <jump line="78" column="21" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
-      <jump line="73" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/inactivity.py" />
-      <jump line="67" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" />
       <jump line="23" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
       <jump line="3" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
       <jump line="1" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
@@ -329,15 +274,70 @@
       <jump line="87" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" />
       <jump line="84" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" />
       <jump line="83" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" />
-      <jump line="158" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="187" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="189" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="184" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="170" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="175" column="40" filename="$USER_HOME$/venv/mason/lib/python3.7/site-packages/pluggy/callers.py" />
       <jump line="12" column="0" filename="$USER_HOME$/venv/mason/lib/python3.7/site-packages/pluggy/callers.py" />
       <jump line="159" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="82" column="46" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/tests/test_activity.py" />
+      <jump line="164" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="158" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="157" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="240" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="295" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="321" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="166" column="19" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="452" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="39" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="296" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="47" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="54" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="57" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="172" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="196" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="38" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="42" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="50" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="53" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="74" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="46" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="456" column="6" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="204" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="205" column="45" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="52" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="55" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="61" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="176" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="206" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="44" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="451" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="366" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="361" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="363" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="332" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="216" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="280" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="335" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="358" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="20" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="21" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="270" column="29" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="273" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="184" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="214" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="349" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="343" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="174" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="323" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="268" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="210" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="265" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="285" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="43" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="7" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
+      <jump line="58" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -348,8 +348,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRmMiA9IGZha2VfcGhvbmVfbG9nLmFuZHJvaWRfc2Vzc2lvbl9zcGFya19kZignMTIzJykK</text>
+      <register name="&quot;" type="4">
+        <text>android_session</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -897,16 +897,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>abc</text>
+        <text>android_session</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>&quot;&quot;&quot;</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRmMSA9IGZha2VfcGhvbmVfbG9nLmZha2VfYWN0aXZpdHkoZGF0ZXRpbWUoMjAyMCwgMSwgMSwgMywgdHppbmZvPXB5dHouVVRDKSwgMywgJ2gnLCAzICogNiArIDEpCg==</text>
+        <text encoding="base64">ICAgIGRmID0gX3BhbmRhc19hY3Rpdml0eShzdGFydF9kYXRldGltZSwgZHVyYXRpb24sIHVuaXQsIG51bV9ldmVudHMsICoqa3dhcmdzKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRmMiA9IGZha2VfcGhvbmVfbG9nLmFuZHJvaWRfc2Vzc2lvbl9zcGFya19kZignMTIzJykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -920,7 +920,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRmLnNob3coKQo=</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -954,10 +954,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICNkZiA9IHNwYXJrLnNxbCgiU0VMRUNUICogRlJPTSBtbF9ib3RfZ29sZC5hbmRyb2lkX3Nlc3Npb24gV0hFUkUgbWluZHN0cm9uZ19pZD0nTkExMDAwMDAyNTg0JyBBTkQgdXBsb2FkX2RhdGU9JzIwMTktMDQtMjYnIikuY2FjaGUoKQo=</text>
+        <text encoding="base64">ZGVmIHBhbmRhc19ldmVudHNfZGYKICAgIF9wYW5kYXNfYW5kcm9pZF9zZXNzaW9uICsgY29sdW1ucyAiZGF0YV91cF90byIgYW5kICJmZWF0dXJlX2RhdGUiIHRoYXQgYXJlIGFkZGVkIGluIFBob25lTG9nRHJpdmVyIGFmdGVyIHJldHJpZXZpbmcKICAgIGRhdGEgZnJvbSBkZWx0YSB0YWJsZQoKZGVmIHBhbmRhc19hY3Rpdml0eV9kZgogICAgX3BhbmRhc19hbmRyb2lkX3Nlc3Npb24gYWZ0ZXIgY2hhbmdpbmcgaW50ZXJuYWwgdGltZXMgb2YgZXZlbnRzIGEgYml0IGFuZCBhZGRpbmcgY29sdW1ucwogICAgImRhdGFfdXBfdG8iIGFuZCAiZmVhdHVyZV9kYXRlIiBhbmQgdGhhdCBhcmUgYWRkZWQgaW4gUGhvbmVMb2dEcml2ZXIgYWZ0ZXIgcmV0cmlldmluZyBkYXRhIGZyb20gZGVsdGEgdGFibGUKCmRlZiBzcGFya19ldmVudHNfZGYKICAgIF9wYW5kYXNfYW5kcm9pZF9zZXNzaW9uIGFuZCBjb252ZXJ0IHBhbmRhc19kZiB0byBzcGFya19kZgoKZGVmIHNwYXJrX2FjdGl2aXR5X2RmCiAgICBfcGFuZGFzX2FuZHJvaWRfc2Vzc2lvbiBhbmQgY2hhbmdlcyB0aW1pbmcgb2YgZXZlbnRzLiBDb252ZXJ0IHBhbmRhc19kZiB0byBzcGFya19kZgoKZGVmIGdsb2JhbF9hbmRyb2lkX3Nlc3Npb25fdGFibGUoZGZzLCB0YWJsZV9uYW1lKToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzcGFyay5zcWwoZiJJTlNFUlQgSU5UTyB7dGFibGVfbmFtZX0gU0VMRUNUICogRlJPTSB1cGRhdGUiKQogICAgZWxzZToKICAgICAgICBzcGFya19kZi5jcmVhdGVPclJlcGxhY2VUZW1wVmlldyh0YWJsZV9uYW1lKQo=</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1025,30 +1025,30 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX2RmLmNyZWEK</text>
+        <text encoding="base64">ZGVmIHNwYXJrX2V2ZW50c19kZigKICAgIHRleHQsCiAgICBtaW5kc3Ryb25nX2lkPSJtMSIsCiAgICB1c2VyX3Nlc3Npb25faWQ9Tm9uZSwKICAgIGFwcF9zZXNzaW9uX2lkPTAsCiAgICBkaXNwbGF5X3R5cGU9Tm9uZSwKICAgIGRpc3BsYXlfdG9wPU5vbmUsCiAgICBkaXNwbGF5X2JvdHRvbT1Ob25lLAogICAgZGlzcGxheV90b3RhbD1Ob25lLAogICAgYXBwX25hbWU9Tm9uZSwKICAgIHZpZXdfbmFtZT1Ob25lLAogICAgdGltZXN0YW1wX2xvY2FsPWRhdGV0aW1lKDIwMjAsIDEsIDEsIDksIHR6aW5mbz1weXR6LkZpeGVkT2Zmc2V0KC00MjApKSwKICAgIHVwbG9hZF90aW1lc3RhbXA9Tm9uZSwKKToKICAgICIiIgogICAgR2VuZXJhdGUgYSBmYWtlIHBob25lIGxvZyBhcyB3b3VsZCBiZSByZXRyaWV2ZWQgZnJvbSBhbmRyb2lkX3Nlc3Npb24gdGFibGUuCiAgICBEYXRhZnJhbWUgY29ycmVzcG9uZHMgdG8gbWVtYmVyIGVudGVyaW5nICd0ZXh0JyBvbiB0aGUgcGhvbmUKCiAgICBOb3RlIHRoYXQgbWFueSBzd2lwZS90b3VjaCBldmVudHMgYXJlIG5vdCB5ZXQgY292ZXJlZC4KICAgIFRpbWluZyBvZiBldmVudHMgaXMgaGFyZGNvZGVkIHRvIGJlIGluY3JlbWVudGFsIGJ5IDEwMG1zCgogICAgOnBhcmFtIHRleHQ6IHN0ciwgc29tZXRoaW5nIGxpa2U6CiAgICAgICAgIlRoaXMgaXMgYSB2ZXJ5IHNpbXBsZSBzdHJpbmciCiAgICAgICAgIlRoaXMgaXMgYW5vdGhlciBvbmUgd2l0aCBleGFjdGx5IDEgZXhwbGljaXQgRU5URVJfS0VZIGluIHRoZSBtaWRkbGUiCiAgICAgICAgIlRoaXMgbG9nIE9yaWVudGF0aW9uIENoYW5nZWQgd291bGQgY2FwdHVyZSB0aGUgdXNlciBjaGFuZ2luZyB0aGUgb3JpZW50YXRpb24gb2YgdGhlIHNjcmVlbiIKICAgICAgICAiU2NyZWVuIE9uU2NyZWVuIE9mZlNjcmVlbiBPbiBzb21lIHRleHQgU2NyZWVuIE9mZiIgICMgaGVyZSB0aGUgdXNlciB0dXJuIHRoZSBwaG9uZSBvbiBhbmQgb2ZmIHR3aWNlLAogICAgICAgIHdyaXRpbmcgIiBzb21lIHRleHQgIiB0aGUgc2Vjb25kIHRpbWUgdGhlIHBob25lIHdhcyBvbgoKICAgIFNlcXVlbmNlIGlzIGEgbGlzdCBvZiBsZXR0ZXJzL251bWJlcnMvc3ltYm9scyBmb3IgZXhhbXBsZSBbY2hyIGZvciBjaHIgaW4gJ3NvbWUgVGV4dCBJIHdhbnQgdG8gdGVzdCBhdCA4OjAwLiddCiAgICBZb3UgY2FuIGluY2x1ZGUgdGhlIGZvbGxvd2luZyBpbiB5b3VyICdzZXF1ZW5jZScgdGhhdCBoYXZlIHNwZWNpYWwgbWVhbmluZwoKICAgIHNvbWUgc3BlY2lhbCBjaGFyYWN0ZXJzIGFyZSBoYXJkY29kZWQgYXMgJ0FwcCBDaGFuZ2VkJywgJ0NsaWNrZWQnLCAnU2Nyb2xsZWQnLCAnQ0hBTkdFRF9WSUVXJywKICAgICdEZWxldGVkOngnLCAnRGVsZXRlZDp4eCcsICdTUEFDRV9LRVknLCAnU0hJRlQnLCAnRU5URVJfS0VZJywgJ1JBTkRPTScgKGdlbmVyYXRlcyBhIHJhbmRvbSB0eXBlZCBjaGFyYWN0ZXIpLAogICAgJ09yaWVudGF0aW9uIENoYW5nZWQnLCAnU2NyZWVuIE9uJywgJ1NjcmVlbiBPZmYnLCAnU2NyZWVuIFVubG9ja2VkJywgJ1Bob25lIFNodXRkb3duJywgJ1RyYWNraW5nIFN0YXJ0ZWQnLAogICAgJ1JlcGxhY2VkJwoKCiAgICA6cmV0dXJuOiBzcGFyayBEYXRhRnJhbWUuCiAgICAiIiIKICAgIHBhbmRhc19kZiA9IF9wYW5kYXNfYW5kcm9pZF9zZXNzaW9uKAogICAgICAgIHRleHQsCiAgICAgICAgbWluZHN0cm9uZ19pZD1taW5kc3Ryb25nX2lkLAogICAgICAgIHVzZXJfc2Vzc2lvbl9pZD11c2VyX3Nlc3Npb25faWQsCiAgICAgICAgYXBwX3Nlc3Npb25faWQ9YXBwX3Nlc3Npb25faWQsCiAgICAgICAgZGlzcGxheV90eXBlPWRpc3BsYXlfdHlwZSwKICAgICAgICBkaXNwbGF5X3RvcD1kaXNwbGF5X3RvcCwKICAgICAgICBkaXNwbGF5X2JvdHRvbT1kaXNwbGF5X2JvdHRvbSwKICAgICAgICBkaXNwbGF5X3RvdGFsPWRpc3BsYXlfdG90YWwsCiAgICAgICAgYXBwX25hbWU9YXBwX25hbWUsCiAgICAgICAgdmlld19uYW1lPXZpZXdfbmFtZSwKICAgICAgICB0aW1lc3RhbXBfbG9jYWw9dGltZXN0YW1wX2xvY2FsLAogICAgICAgIHVwbG9hZF90aW1lc3RhbXA9dXBsb2FkX3RpbWVzdGFtcCwKICAgICkKCiAgICBzcGFya19kZiA9IF9wYW5kYXNfdG9fc3BhcmsocGFuZGFzX2RmKQogICAgcmV0dXJuIHNwYXJrX2RmCgoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkKICAgIHNwYQogICAgaWYgc3Bhcmsuc3FsKCJTSE9XIFRBQkxFUyIpLndoZXJlKGYidGFibGVOYW1lPSd7dGFibGVfbmFtZX0nIikuY291bnQoKToK</text>
+        <text encoding="base64">ZGVmIHBhbmRhc19hY3Rpdml0eV9kZihzdGFydF9kYXRldGltZSwgZHVyYXRpb24sIHVuaXQsIG51bV9ldmVudHMsICoqa3dhcmdzKToKICAgICIiIgogICAgRmFrZSBhIHZlcnkgc2ltcGxlIGFuZHJvaWQgc2Vzc2lvbiwgd2l0aCBhIGZldyBsaW5lcyB3aGVyZSBTY3JlZW4gT24gaGFwcGVucyBvbiBkYXRlIGFuZCBzdGFydF9ob3VyCiAgICBhbmQgU2NyZWVuIE9mZiBoYXBwZW5zICdkdXJhdGlvbicgJ3VuaXRzJyBhZnRlciBTY3JlZW4gT24gKGNvdWxkIGJlIHRoZSBuZXh0IGRheSBvciBzZXZlcmFsIGRheXMgYWZ0ZXIpCgogICAgOnBhcmFtIGRhdGU6CiAgICA6cGFyYW0gc3RhcnRfaG91cjoKICAgIDpwYXJhbSBkdXJhdGlvbjoKICAgIDpwYXJhbSB1bml0OgogICAgOnBhcmFtIHV0Y19vZmZzZXQ6CiAgICA6cmV0dXJuOgogICAgIiIiCiAgICBkZiA9IF9wYW5kYXNfYWN0aXZpdHkoc3RhcnRfZGF0ZXRpbWUsIGR1cmF0aW9uLCB1bml0LCBudW1fZXZlbnRzLCAqKmt3YXJncykKICAgICMgYmVjYXVzZSB3ZSBhcmUgbm90IGdvaW5nIHRocm91Z2ggc3BhcmtfYW5kcm9pZF9zZXNzaW9uLCB0aW1lc3RhbXBfbG9jYWwgaXMgbm90IGEgc3RyIGJ1dCBhIHBkLlRpZW1zdGFtcAogICAgIyBhbHJlYWR5IGFuZCBkb2VzIG5vdCBuZWVkIGV4dHJhIGNvbnZlcnNpb24uCiAgICBkZi5sb2NbOiwgImRhdGFfdXBfdG8iXSA9IGRmLnVwbG9hZF90aW1lc3RhbXAKICAgIGRmLmxvY1s6LCAiZmVhdHVyZV9kYXRlIl0gPSBkZi51cGxvYWRfZGF0ZQogICAgcmV0dXJuIGRmCgoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ZGVmIGdsb2JhbF9hbmRyb2lkX3Nlc3Npb25fdGFibGUoZGZzOiBTZXF1ZW5jZVtTcGFya0RGXSwgdGFibGVfbmFtZTogc3RyKSAtPiBOb25lOgogICAgIiIiCiAgICBHZW5lcmF0ZSBhIHRhYmxlIGluIHRoZSBnbG9iYWxfdGVtcCBkYXRhYmFzZSB3aXRoIGFsbCB0aGUgY29udGVudHMgZnJvbSBhbGwgc3BhcmsgZGF0YWZyYW1lcyBpbiAnZGZzJwogICAgIiIiCiAgICBzcGFya19kZiA9IGRmc1swXQogICAgZm9yIHRlbXBfZGYgaW4gZGZzWzE6XToKICAgICAgICBzcGFya19kZiA9IHNwYXJrX2RmLnVuaW9uKHRlbXBfZGYpCgogICAgc3BhcmtfZGYuY3JlYXRlT3JSZXBsYWNlR2xvYmFsVGVtcFZpZXcodGFibGVfbmFtZSkKCgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">KToK</text>
+        <text encoding="base64">ICAgIChldmVyeSBoYWxmIGFuIGhvdXIpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX2RmID0gYW5kcm9pZF9zZXNzaW9uX3NwYXJrX2RmKAogICAgICAgIHRleHQsCiAgICAgICAgbWluZHN0cm9uZ19pZD1taW5kc3Ryb25nX2lkLAogICAgICAgIHVzZXJfc2Vzc2lvbl9pZD11c2VyX3Nlc3Npb25faWQsCiAgICAgICAgYXBwX3Nlc3Npb25faWQ9YXBwX3Nlc3Npb25faWQsCiAgICAgICAgZGlzcGxheV90eXBlPWRpc3BsYXlfdHlwZSwKICAgICAgICBkaXNwbGF5X3RvcD1kaXNwbGF5X3RvcCwKICAgICAgICBkaXNwbGF5X2JvdHRvbT1kaXNwbGF5X2JvdHRvbSwKICAgICAgICBkaXNwbGF5X3RvdGFsPWRpc3BsYXlfdG90YWwsCiAgICAgICAgYXBwX25hbWU9YXBwX25hbWUsCiAgICAgICAgdmlld19uYW1lPXZpZXdfbmFtZSwKICAgICAgICB0aW1lc3RhbXBfbG9jYWw9dGltZXN0YW1wX2xvY2FsLAogICAgICAgIHVwbG9hZF90aW1lc3RhbXA9dXBsb2FkX3RpbWVzdGFtcCwKICAgICkK</text>
+        <text encoding="base64">ICAgIDIuIFdoZW4gc2ltdWxhdGluZyBzcGFyayBkYXRhZnJhbWVzIGFzIHJldHVybmVkIGJ5IHF1ZXJpZXMgdG8gdGhlIGFuZHJvaWRfc2Vzc2lvbiBkZWx0YSB0YWJsZQo=</text>
       </register>
       <register name=":" type="4">
-        <text>83</text>
+        <text>44</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>&quot;&quot;&quot;</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>&quot;&quot;&quot;</last-pattern>
       <last-replace>logger.info</last-replace>
       <last-substitute>print</last-substitute>
       <last-dir>1</last-dir>
