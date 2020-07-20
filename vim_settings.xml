@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>temp_view</entry>
         <entry>_pandas_android_session</entry>
         <entry>def get</entry>
         <entry>def fake</entry>
@@ -25,11 +24,9 @@
         <entry>print</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>_get_option</entry>
+        <entry>__cache</entry>
       </history-search>
       <history-cmd>
-        <entry>69</entry>
-        <entry>116</entry>
-        <entry>%s/spark=None/spark: Optional[SparkSession]=None/gc</entry>
         <entry>99</entry>
         <entry>%s/print/logger.info/gc</entry>
         <entry>9</entry>
@@ -47,6 +44,9 @@
         <entry>q</entry>
         <entry>311</entry>
         <entry>27</entry>
+        <entry>l177</entry>
+        <entry>l117</entry>
+        <entry>117</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -146,12 +146,6 @@
         <mark key="." line="343" column="69" />
         <mark key="^" line="343" column="70" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_table.json" timestamp="1595261313881">
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="34" column="0" />
-        <mark key="^" line="23" column="4" />
-        <mark key="." line="34" column="0" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" timestamp="1595274947154">
         <mark key="'" line="197" column="18" />
         <mark key="[" line="216" column="8" />
@@ -172,13 +166,6 @@
         <mark key="]" line="11" column="35" />
         <mark key="." line="11" column="34" />
         <mark key="^" line="11" column="35" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/libraries.json" timestamp="1595261284784">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="31" column="3" />
-        <mark key="." line="21" column="30" />
-        <mark key="^" line="21" column="31" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" timestamp="1595278651362">
         <mark key="'" line="27" column="14" />
@@ -211,6 +198,13 @@
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595281093491">
+        <mark key="'" line="103" column="8" />
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="55" column="24" />
+        <mark key="." line="54" column="9" />
+        <mark key="^" line="54" column="10" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1595277016018">
         <mark key="'" line="18" column="0" />
@@ -256,9 +250,9 @@
         <mark key="." line="65" column="56" />
         <mark key="^" line="65" column="57" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/copy_package_to_dbfs.sh" timestamp="1595281044673" />
     </filemarks>
     <jumps>
-      <jump line="285" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="43" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="7" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="22" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -358,6 +352,7 @@
       <jump line="160" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="171" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
+      <jump line="101" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -368,8 +363,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>run_id</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgZm9sZGVyLmVuZHN3aXRoKCJfX2NhY2hlX18iKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -920,10 +915,10 @@
         <text>run_id</text>
       </register>
       <register name="/" type="4">
-        <text>_get_option</text>
+        <text>__cache</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICB7CiAgICAiamFyIjogImRiZnM6L0ZpbGVTdG9yZS9qYXJzL2UyZGY1MmJhXzFmYTVfNDEyNV84NjczXzUwOGJhMzIyNmU1OS1teXNxbF9jb25uZWN0b3JfamF2YV81XzFfNDktOTNmZGQuamFyIgogIH0sCiAgewogICAgInB5cGkiOiB7CiAgICAgICJwYWNrYWdlIjogImF2cm8tcHl0aG9uMyIKICAgIH0KICB9LAogIHsKICAgICJweXBpIjogewogICAgICAicGFja2FnZSI6ICJlbW9qaSIKICAgIH0KICB9LAogIHsKICAgICJweXBpIjogewogICAgICAicGFja2FnZSI6ICJtbGZsb3ciCiAgICB9CiAgfSwKICB7CiAgICAicHlwaSI6IHsKICAgICAgInBhY2thZ2UiOiAicHljcnlwdG9kb21lIgogICAgfQogIH0sCiAgewogICAgInB5cGkiOiB7CiAgICAgICJwYWNrYWdlIjogInMzZnMiCiAgICB9CiAgfSwKICB7CiAgICAid2hsIjogIiR7REJGU19QQUNLQUdFX0xPQ0FUSU9OfSIKICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgZm9sZGVyLmVuZHN3aXRoKCJfX2NhY2hlX18iKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLldBUk4pCg==</text>
@@ -1060,15 +1055,15 @@
         <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
       </register>
       <register name=":" type="4">
-        <text>27</text>
+        <text>117</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>_get_option</last-search>
+      <last-search>__cache</last-search>
       <last-offset />
-      <last-pattern>_get_option</last-pattern>
+      <last-pattern>__cache</last-pattern>
       <last-replace>logger.info</last-replace>
       <last-substitute>print</last-substitute>
       <last-dir>1</last-dir>
