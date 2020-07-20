@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>StructF</entry>
         <entry>_get_phone</entry>
         <entry>date</entry>
         <entry>test_db</entry>
@@ -25,6 +24,7 @@
         <entry># 1</entry>
         <entry>Dict</entry>
         <entry>def deploy</entry>
+        <entry>Generic</entry>
       </history-search>
       <history-cmd>
         <entry>95</entry>
@@ -39,7 +39,6 @@
         <entry>9</entry>
         <entry>197</entry>
         <entry>128</entry>
-        <entry>q</entry>
         <entry>83</entry>
         <entry>158</entry>
         <entry>283</entry>
@@ -47,6 +46,7 @@
         <entry>205</entry>
         <entry>207</entry>
         <entry>44</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -152,12 +152,12 @@
         <mark key="^" line="23" column="4" />
         <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595260606492">
-        <mark key="'" line="3" column="41" />
-        <mark key="[" line="139" column="41" />
-        <mark key="]" line="140" column="43" />
-        <mark key="^" line="140" column="43" />
-        <mark key="." line="140" column="42" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595263257962">
+        <mark key="'" line="57" column="4" />
+        <mark key="[" line="152" column="44" />
+        <mark key="]" line="154" column="20" />
+        <mark key="^" line="154" column="20" />
+        <mark key="." line="154" column="19" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/activity_ios.json" timestamp="1594954435580">
         <mark key="[" line="8" column="0" />
@@ -346,7 +346,6 @@
       <jump line="35" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="39" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="48" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="57" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="74" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="101" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="108" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -354,12 +353,13 @@
       <jump line="116" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="125" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="120" column="99" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="3" column="41" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="1" column="0" filename="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/new_cluster.json" />
       <jump line="19" column="2" filename="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/libraries.json" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/libraries.json" />
       <jump line="1" column="0" filename="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/libraries.json" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="3" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="57" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -371,7 +371,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgVGhpcyBqb2Igd291bGQgYmUgbXVjaCBiZXR0ZXIgYXMgYSBub3RlYm9vawo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -922,13 +922,13 @@
         <text>create</text>
       </register>
       <register name="/" type="4">
-        <text>def deploy</text>
+        <text>Generic</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICB7CiAgICAiamFyIjogImRiZnM6L0ZpbGVTdG9yZS9qYXJzL2UyZGY1MmJhXzFmYTVfNDEyNV84NjczXzUwOGJhMzIyNmU1OS1teXNxbF9jb25uZWN0b3JfamF2YV81XzFfNDktOTNmZGQuamFyIgogIH0sCiAgewogICAgInB5cGkiOiB7CiAgICAgICJwYWNrYWdlIjogImF2cm8tcHl0aG9uMyIKICAgIH0KICB9LAogIHsKICAgICJweXBpIjogewogICAgICAicGFja2FnZSI6ICJlbW9qaSIKICAgIH0KICB9LAogIHsKICAgICJweXBpIjogewogICAgICAicGFja2FnZSI6ICJtbGZsb3ciCiAgICB9CiAgfSwKICB7CiAgICAicHlwaSI6IHsKICAgICAgInBhY2thZ2UiOiAicHljcnlwdG9kb21lIgogICAgfQogIH0sCiAgewogICAgInB5cGkiOiB7CiAgICAgICJwYWNrYWdlIjogInMzZnMiCiAgICB9CiAgfSwKICB7CiAgICAid2hsIjogIiR7REJGU19QQUNLQUdFX0xPQ0FUSU9OfSIKICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgVGhpcyBqb2Igd291bGQgYmUgbXVjaCBiZXR0ZXIgYXMgYSBub3RlYm9vawo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -942,7 +942,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBjb21tYW5kID09ICJyZWNyZWF0ZSI6CiAgICAgICAgICAgIGFzc2VydCAndGFibGVfbmFtZScgaW4ga3dhcmdzCiAgICAgICAgICAgIHRhYmxlX25hbWUgPSBrd2FyZ3NbJ3RhYmxlX25hbWUnXQogICAgICAgICAgICByZWNyZWF0ZV90YWJsZShkYl9uYW1lLCB0YWJsZV9uYW1lLCBzcGFyaykK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -976,10 +976,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAicHljcnlwdG9kb21lIgogICAgICB9CiAgICB9LAo=</text>
+        <text encoding="base64">ICAgICMgVGhpcyBqb2Igd291bGQgYmUgbXVjaCBiZXR0ZXIgYXMgYSBub3RlYm9vawo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAibWxmbG93IgogICAgICB9CiAgICB9LAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1047,30 +1047,30 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAiZW1vamkiCiAgICAgIH0KICAgIH0sCg==</text>
+        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAicHljcnlwdG9kb21lIgogICAgICB9CiAgICB9LAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAiYXZyby1weXRob24zIgogICAgICB9CiAgICB9LAo=</text>
+        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAibWxmbG93IgogICAgICB9CiAgICB9LAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAiZW1vamkiCiAgICAgIH0KICAgIH0sCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBrd2FyZ3MgPSB7J3RhYmxlX25hbWUnOiB0YWJsZV9uYW1lfQo=</text>
+        <text encoding="base64">ICAgIHsKICAgICAgInB5cGkiOiB7CiAgICAgICAgInBhY2thZ2UiOiAiYXZyby1weXRob24zIgogICAgICB9CiAgICB9LAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGlmIGNvbW1hbmQgPT0gInJlY3JlYXRlIjoK</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
-        <text>44</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def deploy</last-search>
+      <last-search>Generic</last-search>
       <last-offset />
-      <last-pattern>def deploy</last-pattern>
+      <last-pattern>Generic</last-pattern>
       <last-replace>logger.info</last-replace>
       <last-substitute>print</last-substitute>
       <last-dir>1</last-dir>
