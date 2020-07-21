@@ -27,7 +27,6 @@
         <entry>register</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/print/logger.info/gc</entry>
         <entry>9</entry>
         <entry>197</entry>
         <entry>128</entry>
@@ -47,6 +46,7 @@
         <entry>l117</entry>
         <entry>117</entry>
         <entry>112</entry>
+        <entry>248</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -154,12 +154,12 @@
         <mark key="." line="216" column="18" />
         <mark key="^" line="65" column="19" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595273153093">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595289434909">
         <mark key="'" line="19" column="34" />
-        <mark key="[" line="111" column="4" />
-        <mark key="]" line="111" column="15" />
-        <mark key="^" line="111" column="15" />
-        <mark key="." line="111" column="14" />
+        <mark key="[" line="146" column="63" />
+        <mark key="]" line="146" column="75" />
+        <mark key="^" line="146" column="75" />
+        <mark key="." line="146" column="74" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_driver.py" timestamp="1595273032094">
         <mark key="'" line="12" column="0" />
@@ -204,11 +204,11 @@
         <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595285358915">
-        <mark key="'" line="103" column="8" />
-        <mark key="[" line="112" column="0" />
-        <mark key="]" line="112" column="0" />
-        <mark key="." line="112" column="0" />
-        <mark key="^" line="56" column="53" />
+        <mark key="'" line="101" column="8" />
+        <mark key="[" line="110" column="0" />
+        <mark key="]" line="110" column="0" />
+        <mark key="." line="110" column="0" />
+        <mark key="^" line="54" column="53" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1595277016018">
         <mark key="'" line="18" column="0" />
@@ -216,7 +216,7 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595275582494">
+      <file name="/Dummy.txt" timestamp="1595289441720">
         <mark key="c" line="0" column="25" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -227,12 +227,6 @@
         <mark key="]" line="29" column="58" />
         <mark key="." line="29" column="57" />
         <mark key="^" line="29" column="58" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1595273242458">
-        <mark key="[" line="248" column="4" />
-        <mark key="]" line="248" column="6" />
-        <mark key="." line="248" column="5" />
-        <mark key="^" line="248" column="6" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1595273295155">
         <mark key="'" line="16" column="0" />
@@ -367,8 +361,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LnJlZ2lzdGVyX21vZGVsKG1vZGVsX3VyaT1tb2RlbF91cmksIG5hbWU9bW9kZWxfbmFtZSkK</text>
+      <register name="&quot;" type="4">
+        <text>BRONZE_DATABASE</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -916,7 +910,7 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>VERSION AS OF {label_version}</text>
+        <text>BRONZE_DATABASE</text>
       </register>
       <register name="/" type="4">
         <text>register</text>
@@ -925,7 +919,7 @@
         <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LnJlZ2lzdGVyX21vZGVsKG1vZGVsX3VyaT1tb2RlbF91cmksIG5hbWU9bW9kZWxfbmFtZSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmIlJFUE9fUk9PVF9GT0xERVI6IHtjb25maWcuUkVQT19ST09UX0ZPTERFUn0iKQo=</text>
+        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkKICAgICMgZGYgPSBzcGFyay5zcWwoIlNFTEVDVCAqIEZST00gZ2xvYmFsX3RlbXAuYW5kcm9pZF9zZXNzaW9uIikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -939,7 +933,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLldBUk4pCg==</text>
+        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -973,7 +967,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmIlJFUE9fUk9PVF9GT0xERVI6IHtjb25maWcuUkVQT19ST09UX0ZPTERFUn0iKQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLldBUk4pCg==</text>
@@ -1044,22 +1038,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRhdGVzKQo=</text>
+        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50KG51bV9kYXlzLCBjb21wdXRlZC5jb3VudCgpKQo=</text>
+        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLldBUk4pCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50KGpzb25fZmlsZXMpCg==</text>
+        <text encoding="base64">ICAgIHByaW50KGRhdGVzKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRmLmNvdW50KCkpCg==</text>
+        <text encoding="base64">ICAgIHByaW50KG51bV9kYXlzLCBjb21wdXRlZC5jb3VudCgpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50KCIqIiAqIDgwKQo=</text>
+        <text encoding="base64">ICAgIHByaW50KGpzb25fZmlsZXMpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>112</text>
+        <text>248</text>
       </register>
     </registers>
   </component>
