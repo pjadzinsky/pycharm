@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pp</entry>
-        <entry>&quot;&quot;&quot;</entry>
         <entry>groupby</entry>
         <entry>GOLD</entry>
         <entry>schema</entry>
@@ -17,7 +15,6 @@
         <entry>def deploy</entry>
         <entry>Generic</entry>
         <entry>config</entry>
-        <entry>logger</entry>
         <entry>print</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>_get_option</entry>
@@ -25,6 +22,9 @@
         <entry>param_grid</entry>
         <entry>Starting</entry>
         <entry>register</entry>
+        <entry>logger</entry>
+        <entry>administer</entry>
+        <entry>s3_utils</entry>
       </history-search>
       <history-cmd>
         <entry>197</entry>
@@ -154,12 +154,12 @@
         <mark key="." line="216" column="18" />
         <mark key="^" line="65" column="19" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595289434909">
-        <mark key="'" line="19" column="34" />
-        <mark key="[" line="146" column="63" />
-        <mark key="]" line="146" column="75" />
-        <mark key="^" line="146" column="75" />
-        <mark key="." line="146" column="74" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595342193793">
+        <mark key="'" line="7" column="36" />
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
+        <mark key="^" line="70" column="16" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_driver.py" timestamp="1595273032094">
         <mark key="'" line="12" column="0" />
@@ -198,11 +198,6 @@
       <file name="/Python Console" timestamp="1595286042664">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_table.py" timestamp="1595261934602">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595285358915">
         <mark key="'" line="101" column="8" />
         <mark key="[" line="110" column="0" />
@@ -216,13 +211,14 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595297181002">
-        <mark key="c" line="0" column="25" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" timestamp="1595341970125">
+        <mark key="'" line="32" column="0" />
+        <mark key="[" line="5" column="12" />
+        <mark key="]" line="5" column="12" />
+        <mark key="." line="5" column="12" />
+        <mark key="^" line="5" column="20" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1595341002835">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1595341107338">
         <mark key="[" line="260" column="90" />
         <mark key="]" line="260" column="12" />
         <mark key="^" line="260" column="12" />
@@ -251,11 +247,6 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/copy_package_to_dbfs.sh" timestamp="1595281044673" />
     </filemarks>
     <jumps>
-      <jump line="101" column="29" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
-      <jump line="95" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="96" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="94" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="92" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="98" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="79" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="72" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -275,9 +266,7 @@
       <jump line="76" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="87" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="12" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="70" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="89" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="130" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="14" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/s3_utils.py" />
       <jump line="86" column="29" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="152" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -319,7 +308,6 @@
       <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_driver.py" />
       <jump line="27" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
       <jump line="68" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="19" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="29" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/dwh_feature_utils.py" />
       <jump line="69" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
@@ -351,6 +339,14 @@
       <jump line="401" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="74" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
       <jump line="97" column="50" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="111" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="70" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="29" column="57" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
+      <jump line="3" column="45" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
+      <jump line="30" column="0" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
+      <jump line="130" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="7" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -361,8 +357,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>_</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICMgc2VlIFdhcm5pbmcgYWJvdXQgJ3MzIGV2ZW50dWFsIGNvbnNpc3RlbmN5IGlzc3VlcycK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -910,16 +906,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>database</text>
       </register>
       <register name="/" type="4">
-        <text>register</text>
+        <text>s3_utils</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxmbG93LnJlZ2lzdGVyX21vZGVsKG1vZGVsX3VyaT1tb2RlbF91cmksIG5hbWU9bW9kZWxfbmFtZSkK</text>
+        <text encoding="base64">IyMgVGhlc2UgYXJlIHRoZSBwYXJhbWV0ZXJzIHRvIGVkaXQsIGJvdGggdGhlIGRhdGFiYXNlIGFuZCB0aGUgdGFibGVfbmFtZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkKICAgICMgZGYgPSBzcGFyay5zcWwoIlNFTEVDVCAqIEZST00gZ2xvYmFsX3RlbXAuYW5kcm9pZF9zZXNzaW9uIikK</text>
+        <text encoding="base64">ICAgICMgc2VlIFdhcm5pbmcgYWJvdXQgJ3MzIGV2ZW50dWFsIGNvbnNpc3RlbmN5IGlzc3VlcycK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -933,7 +929,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
+        <text encoding="base64">ICAgICMgMiBEZWxldGUgYWxsIGRhdGEgcmVjdXJzaXZlbHkK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -967,10 +963,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmIlJFUE9fUk9PVF9GT0xERVI6IHtjb25maWcuUkVQT19ST09UX0ZPTERFUn0iKQo=</text>
+        <text encoding="base64">ICAgICMgMiBEZWxldGUgYWxsIGRhdGEgcmVjdXJzaXZlbHkKICAgICMgc2VlIFdhcm5pbmcgYWJvdXQgJ3MzIGV2ZW50dWFsIGNvbnNpc3RlbmN5IGlzc3VlcycKICAgIGxvY2F0aW9uID0gdGFibGVfbG9jYXRpb24oZGF0YWJhc2VfbmFtZSwgdGFibGVfbmFtZSkKICAgIHMzX3V0aWxzLmRlbGV0ZV91cmxfcmVjdXJzaXZlbHkobG9jYXRpb24pCgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLldBUk4pCg==</text>
+        <text encoding="base64">ICAgIHMzX3V0aWxzLmRlbGV0ZV91cmxfcmVjdXJzaXZlbHkobG9jYXRpb24pCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1038,19 +1034,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
+        <text encoding="base64">ZGF0YWJhc2UgYWRtaW5pc3RlciBqb2IsIHBhcmFtZXRlciBjb3VsZCBiZSBlaXRoZXIgY3JlYXRlIG9yIGRyb3AK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLldBUk4pCg==</text>
+        <text encoding="base64">IyMgZGF0YWJhc2UgYWRtaW5pc3RlciBqb2IsIHBhcmFtZXRlciBjb3VsZCBiZSBlaXRoZXIgY3JlYXRlIG9yIGRyb3AK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50KGRhdGVzKQo=</text>
+        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KG51bV9kYXlzLCBjb21wdXRlZC5jb3VudCgpKQo=</text>
+        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkKICAgICMgZGYgPSBzcGFyay5zcWwoIlNFTEVDVCAqIEZST00gZ2xvYmFsX3RlbXAuYW5kcm9pZF9zZXNzaW9uIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50KGpzb25fZmlsZXMpCg==</text>
+        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
       </register>
       <register name=":" type="4">
         <text>261</text>
@@ -1059,9 +1055,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>register</last-search>
+      <last-search>s3_utils</last-search>
       <last-offset />
-      <last-pattern>register</last-pattern>
+      <last-pattern>s3_utils</last-pattern>
       <last-replace>logger.info</last-replace>
       <last-substitute>print</last-substitute>
       <last-dir>1</last-dir>
