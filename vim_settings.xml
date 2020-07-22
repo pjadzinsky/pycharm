@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>print</entry>
-        <entry>level</entry>
-        <entry>isi</entry>
         <entry>Rota</entry>
         <entry>copy_pack</entry>
         <entry>Problem</entry>
@@ -25,12 +22,11 @@
         <entry>}</entry>
         <entry>},}</entry>
         <entry>md</entry>
+        <entry>&quot;min&quot;: 0, &quot;max&quot;: 1</entry>
+        <entry>max:</entry>
+        <entry>min:</entry>
       </history-search>
       <history-cmd>
-        <entry>205</entry>
-        <entry>207</entry>
-        <entry>44</entry>
-        <entry>153</entry>
         <entry>wq</entry>
         <entry>311</entry>
         <entry>l177</entry>
@@ -47,6 +43,10 @@
         <entry>%/},}/}}/gc</entry>
         <entry>%/\},\}/}}/gc</entry>
         <entry>%s/},}/}}/gc</entry>
+        <entry>%s/&quot;min&quot;: 0, &quot;max&quot;: 1/&quot;min: 0/gc</entry>
+        <entry>%s/&quot;min&quot;: 0, &quot;max&quot;: 1/&quot;max: 1/gc</entry>
+        <entry>%s/max:/max&quot;:/gc</entry>
+        <entry>%s/min:/min&quot;:/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -167,11 +167,7 @@
         <mark key="^" line="12" column="2" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1595439300990">
-        <mark key="'" line="6" column="49" />
-        <mark key="[" line="274" column="26" />
-        <mark key="]" line="274" column="40" />
-        <mark key="." line="274" column="39" />
-        <mark key="^" line="274" column="40" />
+        <mark key="'" line="3" column="49" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1595386411516">
         <mark key="'" line="108" column="51" />
@@ -185,7 +181,7 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595452839281">
+      <file name="/Dummy.txt" timestamp="1595455316365">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -199,13 +195,7 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1595429592991">
         <mark key="'" line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" timestamp="1595452830432">
-        <mark key="'" line="41" column="36" />
-        <mark key="[" line="40" column="36" />
-        <mark key="]" line="40" column="36" />
-        <mark key="^" line="129" column="30" />
-        <mark key="." line="40" column="36" />
-      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" timestamp="1595454918015" />
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1595430265714">
         <mark key="[" line="209" column="56" />
         <mark key="]" line="208" column="7" />
@@ -229,10 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="7" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="6" column="15" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="11" column="0" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
       <jump line="140" column="20" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="96" column="42" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="20" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -329,6 +315,10 @@
       <jump line="0" column="1" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="64" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="35" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
+      <jump line="21" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="34" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="17" column="67" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="31" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,8 +329,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRhdGUudG9kYXkoKSAtIHRpbWVkZWx0YSgxKSwgZGF0ZS50b2RheSgpKQo=</text>
+      <register name="&quot;" type="4">
+        <text>, &quot;max&quot;: 1</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -888,10 +878,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>, &quot;max&quot;: 1</text>
       </register>
       <register name="/" type="4">
-        <text>md</text>
+        <text>min:</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">IyBDT01NQU5EIC0tLS0tLS0tLS0K</text>
@@ -1031,17 +1021,17 @@
         <text encoding="base64">ICAgICAgICAibWF4IjogeyJtaW4iOiAwLCAibWF4IjogMX0K</text>
       </register>
       <register name=":" type="4">
-        <text>%s/},}/}}/gc</text>
+        <text>%s/min:/min&quot;:/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>md</last-search>
+      <last-search>min:</last-search>
       <last-offset />
-      <last-pattern>md</last-pattern>
-      <last-replace>}}</last-replace>
-      <last-substitute>},}</last-substitute>
+      <last-pattern>min:</last-pattern>
+      <last-replace>min&quot;:</last-replace>
+      <last-substitute>min:</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
