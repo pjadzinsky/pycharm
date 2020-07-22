@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>recreate_table</entry>
-        <entry>para</entry>
         <entry encoding="base64">XDxzdWJwcm9jZXNzXD4=</entry>
         <entry>print</entry>
         <entry>level</entry>
@@ -25,18 +23,16 @@
         <entry>missing</entry>
         <entry>di</entry>
         <entry>pu</entry>
+        <entry>}</entry>
+        <entry>},}</entry>
       </history-search>
       <history-cmd>
-        <entry>158</entry>
-        <entry>283</entry>
-        <entry>202</entry>
         <entry>205</entry>
         <entry>207</entry>
         <entry>44</entry>
         <entry>153</entry>
         <entry>wq</entry>
         <entry>311</entry>
-        <entry>27</entry>
         <entry>l177</entry>
         <entry>l117</entry>
         <entry>117</entry>
@@ -47,6 +43,10 @@
         <entry>110</entry>
         <entry>113</entry>
         <entry>81</entry>
+        <entry>27</entry>
+        <entry>%/},}/}}/gc</entry>
+        <entry>%/\},\}/}}/gc</entry>
+        <entry>%s/},}/}}/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -192,7 +192,7 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595439394842">
+      <file name="/Dummy.txt" timestamp="1595452839281">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -206,12 +206,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1595429592991">
         <mark key="'" line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" timestamp="1595449557574">
-        <mark key="'" line="131" column="6" />
-        <mark key="[" line="132" column="15" />
-        <mark key="]" line="132" column="30" />
-        <mark key="^" line="132" column="30" />
-        <mark key="." line="132" column="29" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" timestamp="1595452830432">
+        <mark key="'" line="41" column="36" />
+        <mark key="[" line="40" column="36" />
+        <mark key="]" line="40" column="36" />
+        <mark key="^" line="129" column="30" />
+        <mark key="." line="40" column="36" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1595430265714">
         <mark key="[" line="209" column="56" />
@@ -229,13 +229,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="381" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
-      <jump line="401" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
-      <jump line="74" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
-      <jump line="97" column="50" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
-      <jump line="111" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="19" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="70" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="29" column="57" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
       <jump line="3" column="45" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
       <jump line="30" column="0" filename="$USER_HOME$/MindstrongRepos/mason/jobs/database/recreate_template_stack.json.template" />
@@ -326,9 +319,16 @@
       <jump line="66" column="58" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
       <jump line="74" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
       <jump line="80" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
-      <jump line="36" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
       <jump line="44" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
       <jump line="130" column="6" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="29" column="79" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="35" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="36" column="50" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="37" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="38" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="39" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="40" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
+      <jump line="41" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,8 +339,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGZlYXR1cmVfbmFtZXMgPSAK</text>
+      <register name="&quot;" type="4">
+        <text>,</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -888,10 +888,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>resource[&quot;table&quot;]</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>pu</text>
+        <text>},}</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAibWluIjogeyJtaW4iOiAwLCAibWF4IjogMX0sCg==</text>
@@ -1031,17 +1031,17 @@
         <text encoding="base64">fQo=</text>
       </register>
       <register name=":" type="4">
-        <text>81</text>
+        <text>%s/},}/}}/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>pu</last-search>
+      <last-search>},}</last-search>
       <last-offset />
-      <last-pattern>pu</last-pattern>
-      <last-replace>logger.info</last-replace>
-      <last-substitute>print</last-substitute>
+      <last-pattern>},}</last-pattern>
+      <last-replace>}}</last-replace>
+      <last-substitute>},}</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
