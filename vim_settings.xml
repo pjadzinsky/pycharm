@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Rota</entry>
         <entry>copy_pack</entry>
         <entry>Problem</entry>
         <entry>named</entry>
@@ -21,10 +20,11 @@
         <entry>pu</entry>
         <entry>}</entry>
         <entry>},}</entry>
-        <entry>md</entry>
         <entry>&quot;min&quot;: 0, &quot;max&quot;: 1</entry>
         <entry>max:</entry>
         <entry>min:</entry>
+        <entry>md</entry>
+        <entry>%#</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -181,7 +181,7 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595473972675">
+      <file name="/Dummy.txt" timestamp="1595521028400">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -196,12 +196,12 @@
         <mark key="^" line="208" column="7" />
         <mark key="." line="208" column="6" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" timestamp="1595453548851">
-        <mark key="'" line="35" column="0" />
-        <mark key="[" line="45" column="1" />
-        <mark key="]" line="35" column="0" />
-        <mark key="." line="35" column="0" />
-        <mark key="^" line="35" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" timestamp="1595520693700">
+        <mark key="'" line="53" column="0" />
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+        <mark key="^" line="53" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/copy_package_to_dbfs.sh" timestamp="1595373204694">
         <mark key="[" line="2" column="0" />
@@ -212,8 +212,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="96" column="42" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="20" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="35" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="39" column="17" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="55" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -312,6 +310,8 @@
       <jump line="17" column="67" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
       <jump line="31" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/monitoring.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/cgis_etl/cgis_etl.py" />
+      <jump line="24" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
+      <jump line="53" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -323,7 +323,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>, &quot;max&quot;: 1</text>
+        <text>%</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -871,13 +871,13 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>, &quot;max&quot;: 1</text>
+        <text>%</text>
       </register>
       <register name="/" type="4">
-        <text>min:</text>
+        <text>%#</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">IyBDT01NQU5EIC0tLS0tLS0tLS0K</text>
+        <text encoding="base64">JSMgQ29tbWVudAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGRhdGUudG9kYXkoKSAtIHRpbWVkZWx0YSgxKSwgZGF0ZS50b2RheSgpKQo=</text>
@@ -1020,9 +1020,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>min:</last-search>
+      <last-search>%#</last-search>
       <last-offset />
-      <last-pattern>min:</last-pattern>
+      <last-pattern>%#</last-pattern>
       <last-replace>min&quot;:</last-replace>
       <last-substitute>min:</last-substitute>
       <last-dir>1</last-dir>
