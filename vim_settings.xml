@@ -5,14 +5,9 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Problem</entry>
-        <entry>named</entry>
-        <entry>PROF</entry>
-        <entry>databricks</entry>
         <entry>get_job_id</entry>
         <entry>config</entry>
         <entry>def _get</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>Di</entry>
         <entry>missing</entry>
         <entry>di</entry>
@@ -25,6 +20,11 @@
         <entry>md</entry>
         <entry>%#</entry>
         <entry>def upda</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>def clean</entry>
+        <entry>clean</entry>
+        <entry>clean_libraries</entry>
+        <entry>DSCI</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -140,14 +140,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1595523489975">
-        <mark key="'" line="86" column="0" />
-        <mark key="[" line="90" column="13" />
-        <mark key="]" line="90" column="25" />
-        <mark key="." line="90" column="24" />
-        <mark key="^" line="90" column="25" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1595526936691">
+        <mark key="[" line="150" column="0" />
+        <mark key="]" line="150" column="4" />
+        <mark key="." line="150" column="4" />
       </file>
-      <file name="/Python Console" timestamp="1595448992028">
+      <file name="/Python Console" timestamp="1595526052396">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/test/test_logging.py" timestamp="1595436544463">
@@ -160,11 +158,11 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" timestamp="1595429751687">
         <mark key="'" line="42" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/clean_libraries.sh" timestamp="1595373789647">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="." line="10" column="0" />
-        <mark key="^" line="12" column="2" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/bash/clean_libraries.sh" timestamp="1595526634549">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="5" column="2" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1595439300990">
         <mark key="'" line="3" column="49" />
@@ -181,7 +179,7 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1595521028400">
+      <file name="/Dummy.txt" timestamp="1595526465969">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -212,19 +210,8 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="39" column="17" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="55" column="8" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="63" column="29" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="26" column="11" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="41" column="7" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="27" column="11" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="11" column="7" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="92" column="14" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="10" column="10" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="110" column="13" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="114" column="29" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="136" column="77" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="166" column="19" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="167" column="13" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="186" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -263,7 +250,6 @@
       <jump line="43" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="42" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="93" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="89" column="24" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="90" column="25" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -312,6 +298,18 @@
       <jump line="24" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="53" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="50" column="12" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="87" column="19" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="93" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="136" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="21" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="30" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="44" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="60" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="70" column="15" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="94" column="26" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="119" column="96" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/bash/clean_libraries.sh" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -322,8 +320,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>%</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGVsaWYgYXJncy5qZW5raW5zX2RlcGxveToKICAgICAgICBwdXNoX3BhY2thZ2UoKQogICAgICAgIGRlcGxveV9zdGFjayhTRVJWSUNFX1NUQUNLUykKICAgICAgICBkZXBsb3lfbm90ZWJvb2tzKCkgICMgTm90ZTogZGVwbG95X3N0YWNrIHJlbmRlcnMgdGhlIG5vdGVib29rcywgc28gdGhpcyBjYWxsIG11c3QgaGFwcGVuIHNlY29uZAo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -871,16 +869,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>%</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>def upda</text>
+        <text>DSCI</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">JSMgQ29tbWVudAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRhdGUudG9kYXkoKSAtIHRpbWVkZWx0YSgxKSwgZGF0ZS50b2RheSgpKQo=</text>
+        <text encoding="base64">ICAgIGVsaWYgYXJncy5qZW5raW5zX2RlcGxveToKICAgICAgICBwdXNoX3BhY2thZ2UoKQogICAgICAgIGRlcGxveV9zdGFjayhTRVJWSUNFX1NUQUNLUykKICAgICAgICBkZXBsb3lfbm90ZWJvb2tzKCkgICMgTm90ZTogZGVwbG95X3N0YWNrIHJlbmRlcnMgdGhlIG5vdGVib29rcywgc28gdGhpcyBjYWxsIG11c3QgaGFwcGVuIHNlY29uZAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -894,7 +892,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IyAK</text>
+        <text encoding="base64">IyBpdGVtcyBmcm9tIGRhdGFicmlja3MK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -928,7 +926,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGZlYXR1cmVfbmFtZXMgPSAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -999,19 +997,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGNsZWFuX2xpYnJhcmllcygpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICJ0ZXh0X3B1bmN0dWF0aW9uX3JhdGlvIjogewogICAgICAgICJtaW4iOiB7Im1pbiI6IDAsICJtYXgiOiAxfSwKICAgICAgICAibWF4IjogeyJtaW4iOiAwLCAibWF4IjogMX0KICAgIH0sCg==</text>
+        <text encoding="base64">ICAgIGZvbGRlcl9zdHIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH0sCiAgICAidGV4dF9wdW5jdHVhdGlvbl9yYXRpbyI6IHsKICAgICAgICAibWluIjogeyJtaW4iOiAwLCAibWF4IjogMX0sCiAgICAgICAgIm1heCI6IHsibWluIjogMCwgIm1heCI6IDF9CiAgICB9LAo=</text>
+        <text encoding="base64">ICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICJ0ZXh0X3B1bmN0dWF0aW9uX3JhdGlvIjogewogICAgICAgICJtaW4iOiB7Im1pbiI6IDAsICJtYXgiOiAxfSwKICAgICAgICAibWF4IjogeyJtaW4iOiAwLCAibWF4IjogMX0KICAgIH0sCiAgICAidGV4dF9wdW5jdHVhdGlvbl9yYXRpbyI6IHsKICAgICAgICAibWluIjogeyJtaW4iOiAwLCAibWF4IjogMX0sCiAgICAgICAgIm1heCI6IHsibWluIjogMCwgIm1heCI6IDF9Cg==</text>
+        <text encoding="base64">ICAgIGRhdGUudG9kYXkoKSAtIHRpbWVkZWx0YSgxKSwgZGF0ZS50b2RheSgpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAibWF4IjogeyJtaW4iOiAwLCAibWF4IjogMX0K</text>
+        <text encoding="base64">IyAK</text>
       </register>
       <register name=":" type="4">
         <text>%s/min:/min&quot;:/gc</text>
@@ -1020,9 +1018,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def upda</last-search>
+      <last-search>DSCI</last-search>
       <last-offset />
-      <last-pattern>def upda</last-pattern>
+      <last-pattern>DSCI</last-pattern>
       <last-replace>min&quot;:</last-replace>
       <last-substitute>min:</last-substitute>
       <last-dir>1</last-dir>
