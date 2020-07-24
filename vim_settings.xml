@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>min:</entry>
         <entry>md</entry>
         <entry>%#</entry>
         <entry>def upda</entry>
@@ -25,6 +24,7 @@
         <entry>timedelta</entry>
         <entry>model_name</entry>
         <entry>Union</entry>
+        <entry>def log_er</entry>
       </history-search>
       <history-cmd>
         <entry>l117</entry>
@@ -183,12 +183,12 @@
         <mark key="^" line="410" column="0" />
         <mark key="." line="408" column="11" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595612618842">
-        <mark key="'" line="145" column="32" />
-        <mark key="[" line="125" column="39" />
-        <mark key="]" line="125" column="35" />
-        <mark key="^" line="125" column="35" />
-        <mark key="." line="125" column="34" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595616327941">
+        <mark key="'" line="79" column="10" />
+        <mark key="[" line="78" column="9" />
+        <mark key="]" line="78" column="17" />
+        <mark key="^" line="78" column="17" />
+        <mark key="." line="78" column="16" />
       </file>
       <file name="/Dummy.txt" timestamp="1595613773441">
         <mark key="[" line="0" column="0" />
@@ -250,8 +250,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="192" column="4" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="198" column="58" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="14" column="1" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="188" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
@@ -350,6 +348,8 @@
       <jump line="54" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="121" column="31" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="3" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
+      <jump line="48" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="79" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -361,7 +361,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>ed6ce0b518ea45e5abfa3255a819c8fe</text>
+        <text>List</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -909,20 +909,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>ed6ce0b518ea45e5abfa3255a819c8fe</text>
+        <text>List</text>
       </register>
       <register name="/" type="4">
-        <text>Union</text>
+        <text>def log_er</text>
       </register>
       <register name="0" type="2">
-        <text>def test_assert_model_passes():
-    &quot;&quot;&quot;
-    Test that we can run the method and no errors are raised. Just the fact that the method runs is a test
-    &quot;&quot;&quot;
-    model_utils.assert_model('ed6ce0b518ea45e5abfa3255a819c8fe')</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnJhaXNlX2Vycm9ycyhlcnJvcnMpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBydW5faWQgaW4gcnVuX2lkczoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiBlcnJvcjoKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChlcnJvcikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -936,7 +932,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGNhbiBydW4gdGhlIG1ldGhvZCBhbmQgbm8gZXJyb3JzIGFyZSByYWlzZWQuIEp1c3QgdGhlIGZhY3QgdGhhdCB0aGUgbWV0aG9kIHJ1bnMgaXMgYSB0ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -970,10 +966,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIDpyZXR1cm46IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYiXHJ1bl9pZCBub3QgZm91bmQiKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">QHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCJydW5faWQsICIpCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBlcnJvcnM6CiAgICAgICAgICAgIGRpdmlkZXIgPSAiKiIgKiA4MCArICJcbiIKICAgICAgICAgICAgbXNnID0gZGl2aWRlci5qb2luKGYie2V9IiBmb3IgZSBpbiBlcnJvcnMpCiAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihtc2cpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1041,19 +1037,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiMgQ09NTUFORCAtLS0tLS0tLS0tCgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEF0dHJpYnV0ZUVycm9yKGYibW9kdWxlICd7bW9kdWxlfScgZG9lcyBub3QgaGF2ZSBtZXRob2QgJ3RyYWluJyIpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhaW5fbWV0aG9kKCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">I3NDT01NQU5EIC0tLS0tLS0tLS0K</text>
+        <text encoding="base64">ICAgICAgICBpZiBoYXNhdHRyKG1vZHVsZSwgInRyYWluIik6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name=":" type="4">
         <text>24</text>
@@ -1062,9 +1058,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Union</last-search>
+      <last-search>def log_er</last-search>
       <last-offset />
-      <last-pattern>Union</last-pattern>
+      <last-pattern>def log_er</last-pattern>
       <last-replace>min&quot;:</last-replace>
       <last-substitute>min:</last-substitute>
       <last-dir>1</last-dir>
