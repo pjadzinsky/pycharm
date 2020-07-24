@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>&quot;min&quot;: 0, &quot;max&quot;: 1</entry>
         <entry>max:</entry>
         <entry>min:</entry>
         <entry>md</entry>
@@ -25,9 +24,9 @@
         <entry>deploy</entry>
         <entry>datetime</entry>
         <entry>timedelta</entry>
+        <entry>model_name</entry>
       </history-search>
       <history-cmd>
-        <entry>311</entry>
         <entry>l177</entry>
         <entry>l117</entry>
         <entry>117</entry>
@@ -47,6 +46,7 @@
         <entry>%s/max:/max&quot;:/gc</entry>
         <entry>%s/min:/min&quot;:/gc</entry>
         <entry>197</entry>
+        <entry>203</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -146,7 +146,7 @@
         <mark key="]" line="187" column="0" />
         <mark key="." line="187" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/model_policy.json" timestamp="1595556953634">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/model_policy.json" timestamp="1595557941409">
         <mark key="[" line="6" column="17" />
         <mark key="]" line="6" column="17" />
         <mark key="^" line="6" column="51" />
@@ -155,16 +155,11 @@
       <file name="/Python Console" timestamp="1595542096702">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/model_policy.json" timestamp="1595556942828">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/model_policy.json" timestamp="1595558209193">
         <mark key="[" line="5" column="17" />
         <mark key="]" line="5" column="21" />
         <mark key="." line="3" column="48" />
         <mark key="^" line="3" column="49" />
-      </file>
-      <file name="/a.dummy" timestamp="1595536306751">
-        <mark key="[" line="0" column="17" />
-        <mark key="]" line="0" column="16" />
-        <mark key="." line="0" column="16" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/model_policy.json" timestamp="1595542536185" />
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" timestamp="1595551477002">
@@ -185,11 +180,11 @@
         <mark key="^" line="78" column="49" />
         <mark key="." line="78" column="48" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595551216628">
-        <mark key="[" line="154" column="61" />
-        <mark key="]" line="155" column="60" />
-        <mark key="^" line="155" column="60" />
-        <mark key="." line="155" column="59" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1595557458370">
+        <mark key="'" line="144" column="32" />
+        <mark key="[" line="146" column="0" />
+        <mark key="]" line="146" column="0" />
+        <mark key="." line="146" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1595551549229">
         <mark key="[" line="0" column="0" />
@@ -227,6 +222,9 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="4" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1595557955954">
+        <mark key="'" line="27" column="33" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring.py" timestamp="1595551314995">
         <mark key="[" line="15" column="0" />
         <mark key="]" line="17" column="39" />
@@ -247,8 +245,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="64" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="43" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="42" column="16" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
       <jump line="89" column="24" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
@@ -347,6 +343,8 @@
       <jump line="42" column="25" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
       <jump line="1" column="14" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
       <jump line="38" column="94" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
+      <jump line="144" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="27" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -357,8 +355,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>19af5e6ff82142eeaa5b08ce58abb598uc</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -909,13 +907,13 @@
         <text>19af5e6ff82142eeaa5b08ce58abb598uc</text>
       </register>
       <register name="/" type="4">
-        <text>timedelta</text>
+        <text>model_name</text>
       </register>
       <register name="0" type="4">
         <text>37875</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGlmIGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmhvdXIgPj0gMTc6CiAgICAgICAgYXJnc1sic3RhcnRfZGF0ZSJdIC09IGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTEpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -929,7 +927,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHN0YXJ0X2RhdGUgPSBkYXRlLnRvZGF5KCkK</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5kZWJ1ZyhmIntmZWF0dXJlc30iKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -963,10 +961,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHN0YXJ0X2RhdGUgPSBkYXRlLnRvZGF5KCkK</text>
+        <text encoding="base64">ICAgIGlmIGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmhvdXIgPj0gMTc6CiAgICAgICAgYXJnc1sic3RhcnRfZGF0ZSJdIC09IGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTEpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIgo=</text>
+        <text encoding="base64">ICAgIHN0YXJ0X2RhdGUgPSBkYXRlLnRvZGF5KCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1034,30 +1032,30 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">JSVwaXAgaW5zdGFsbCBweWNyeXB0b2RvbWU9PTMuOS44Cg==</text>
+        <text encoding="base64">ICAgIHN0YXJ0X2RhdGUgPSBkYXRlLnRvZGF5KCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">JSVwaXAgaW5zdGFsbCAtcgo=</text>
+        <text encoding="base64">ICAgICAgIgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IyBEYXRhYnJpY2tzIG5vdGVib29rIHNvdXJjZQo=</text>
+        <text encoding="base64">JSVwaXAgaW5zdGFsbCBweWNyeXB0b2RvbWU9PTMuOS44Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">IyBjcmVhdGVzIChvciBkcm9wcykgYSBub24tYWRtaW4gdXNlciBkYXRhYmFzZQp3aGljaCBkZWZhdWx0cyB0byBhIHVzZXIgY2Fub25pY2FsIG5hbWUgLSAke0NBTk9OSUNBTF9VU0VSfQo=</text>
+        <text encoding="base64">JSVwaXAgaW5zdGFsbCAtcgo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">IyBEYXRhYnJpY2tzIG5vdGVib29rIHNvdXJjZQo=</text>
       </register>
       <register name=":" type="4">
-        <text>197</text>
+        <text>203</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>timedelta</last-search>
+      <last-search>model_name</last-search>
       <last-offset />
-      <last-pattern>timedelta</last-pattern>
+      <last-pattern>model_name</last-pattern>
       <last-replace>min&quot;:</last-replace>
       <last-substitute>min:</last-substitute>
       <last-dir>1</last-dir>
