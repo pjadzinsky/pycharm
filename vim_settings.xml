@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>,</entry>
-        <entry>,true</entry>
-        <entry>true</entry>
-        <entry>get_run_ids</entry>
-        <entry>monkeypatch</entry>
-        <entry>RDD</entry>
         <entry>rdd</entry>
         <entry>run_id</entry>
         <entry>mlflow</entry>
@@ -19,12 +13,18 @@
         <entry>Fo</entry>
         <entry>pytz</entry>
         <entry>def get</entry>
-        <entry encoding="base64">ZGVmIA==</entry>
         <entry>GIT</entry>
         <entry>TIMES</entry>
         <entry>datetime</entry>
         <entry>20</entry>
         <entry encoding="base64">IDIw</entry>
+        <entry>fake_exp</entry>
+        <entry>faked_get_exp</entry>
+        <entry>%pytest</entry>
+        <entry>%</entry>
+        <entry>@</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>faked</entry>
       </history-search>
       <history-cmd>
         <entry>%s/},}/}}/gc</entry>
@@ -221,16 +221,15 @@
         <mark key="]" line="81" column="22" />
         <mark key="." line="81" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1595896905402">
+        <mark key="'" line="154" column="48" />
+        <mark key="[" line="128" column="42" />
+        <mark key="]" line="127" column="52" />
+        <mark key="." line="127" column="51" />
+        <mark key="^" line="127" column="52" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="42" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="68" column="21" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="69" column="14" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="26" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
-      <jump line="36" column="24" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
-      <jump line="8" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
-      <jump line="24" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
-      <jump line="25" column="0" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="34" column="7" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="35" column="24" filename="$USER_HOME$/MindstrongRepos/mason/notebook/bronze_features.py.template" />
       <jump line="47" column="12" filename="$USER_HOME$/MindstrongRepos/mason/notebook/monitoring_features.py.template" />
@@ -271,7 +270,6 @@
       <jump line="17" column="53" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="18" column="63" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="21" column="44" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="19" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="23" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="20" column="64" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
@@ -323,6 +321,15 @@
       <jump line="69" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="80" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="91" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="131" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="118" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="119" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="143" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="188" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="114" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="127" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="154" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -333,8 +340,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIDpwYXJhbSBtb2RlbF9uYW1lOgo=</text>
+      <register name="&quot;" type="4">
+        <text>/Users/pablo.jadzinsky@mindstronghealth.com/toy_model_1</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -882,16 +889,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>List</text>
+        <text>/Users/pablo.jadzinsky@mindstronghealth.com/toy_model_1</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">IDIw</text>
+        <text>faked</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGlmIGRhdGUgPT0gJzAxLTEwLTIwMjAnOgogICAgICAgIGV4cGVjdGVkID0gWyJydW5faWRfMSIsICJydW5faWRfMiIsICJydW5faWRfMyJdCg==</text>
+        <text encoding="base64">ICAgIHNwYXJrX3V0aWwuZ2V0X29yX2NyZWF0ZV9zcGFyayA9IE1hZ2ljTW9jaygpCiAgICBzcGFyayA9IHNwYXJrX3V0aWwuZ2V0X29yX2NyZWF0ZV9zcGFyaygpCiAgICBzcGFyay5yZWFkLmZvcm1hdCgibWxmbG93LWV4cGVyaW1lbnQiKS5sb2FkLnJldHVybl92YWx1ZSA9IGZha2VfZXhwX3J1bnMKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoc3BhcmtfdXRpbCwgImlzX21sX3J1bnRpbWUiLCBsYW1iZGE6IFRydWUpCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKG1vZGVsX3V0aWxzLCAiZ2V0X2V4cCIsIGZha2VkX2dldF9leHApCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIDpwYXJhbSBtb2RlbF9uYW1lOgo=</text>
+        <text encoding="base64">QHB5dGVzdC5maXh0dXJlKCJtb2R1bGUiKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -905,7 +912,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text>[DSCI-915] Making computation correct regardless of day light savings</text>
+        <text encoding="base64">ICAgIGRlZiBmYWtlZF9nZXRfZXhwKGV4cF9pZCk6CiAgICAgICAgY2xhc3MgRmFrZWQ6CiAgICAgICAgICAgIGV4cGVyaW1lbnRfaWQgPSAiMTIzNDUiCgogICAgICAgIHJldHVybiBGYWtlZCgpCgo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -939,10 +946,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIFdlIGFsc28gaGF2ZSBtb2RlbHMgdGhhdCBmYWlsZWQgCg==</text>
+        <text encoding="base64">ZGVmIHRlc3QoZmFrZV9leHBfcnVucyk6CiAgICBkZiA9IGZha2VfZXhwX3J1bnMKICAgIGRmLnNob3coKQoKCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIDpyZXR1cm46Cg==</text>
+        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigibm90IHNwYXJrX3V0aWwuaXNfbWxfcnVudGltZSgpIikK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1010,19 +1017,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIDpwYXJhbSBtb25rZXlwYXRjaDoK</text>
+        <text encoding="base64">ICAgIDpwYXJhbSBtb2RlbF9uYW1lOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIDpwYXJhbSBmYWtlX2V4cF9ydW5zOgo=</text>
+        <text>[DSCI-915] Making computation correct regardless of day light savings</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEphbiAxMAo=</text>
+        <text encoding="base64">ICAgIFdlIGFsc28gaGF2ZSBtb2RlbHMgdGhhdCBmYWlsZWQgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHJlcXVlc3QgbW9kZWxzIHRyYWluZWQgYWZ0ZXIgYSBjcmFuIDEwLCB3ZSBnZXQgMyBtb2RlbHMsIG9uZSBvZiB0aGVtIGJlaW5nIHRyYWluZWQgb24K</text>
+        <text encoding="base64">ICAgIDpyZXR1cm46Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICNzcGFyay5yZWFkLmZvcm1hdCgpCiAgICAjbW9ua2V5cGF0Y2guc2V0YXR0cihzcGFya191dGlsLCAiZ2V0X29yX2NyZWF0ZV9zcGFyayIsIGxhbWJkYSB4OiBmYWtlZF9mb3JtYXQoeCkpCiAgICAjbW9ua2V5cGF0Y2guc2V0YXR0cihzcGFyay5yZWFkLCAiZm9ybWF0IiwgbGFtYmRhIHg6IGZha2VkX2Zvcm1hdCh4KSkKICAgICNtb25rZXlwYXRjaC5zZXRhdHRyKHNwYXJrLnJlYWQuZm9ybWF0LCAibG9hZCIsIGxhbWJkYSB4OiBmYWtlX2V4cF9ydW5zKQogICAgI2RmID0gc3BhcmsucmVhZC5mb3JtYXQoIm1sZmxvdy1leHBlcmltZW50IikubG9hZChleHAuZXhwZXJpbWVudF9pZCkK</text>
+        <text encoding="base64">ICAgIDpwYXJhbSBtb25rZXlwYXRjaDoK</text>
       </register>
       <register name=":" type="4">
         <text>148</text>
@@ -1031,9 +1038,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">IDIw</last-search>
+      <last-search>faked</last-search>
       <last-offset />
-      <last-pattern encoding="base64">IDIw</last-pattern>
+      <last-pattern>faked</last-pattern>
       <last-replace>True</last-replace>
       <last-substitute>true</last-substitute>
       <last-dir>1</last-dir>
