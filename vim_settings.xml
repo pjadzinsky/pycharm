@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>print</entry>
         <entry>Fo</entry>
         <entry>pytz</entry>
         <entry>def get</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>spark</entry>
         <entry>28</entry>
+        <entry>def cre</entry>
       </history-search>
       <history-cmd>
         <entry>%s/&quot;min&quot;: 0, &quot;max&quot;: 1/&quot;min: 0/gc</entry>
@@ -160,15 +160,15 @@
         <mark key="." line="11" column="13" />
         <mark key="^" line="11" column="14" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1595817668945">
-        <mark key="'" line="389" column="20" />
-        <mark key="[" line="407" column="32" />
-        <mark key="]" line="408" column="49" />
-        <mark key="^" line="408" column="49" />
-        <mark key="." line="408" column="48" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1595883579714">
         <mark key="'" line="4" column="7" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1595961608055">
+        <mark key="'" line="106" column="30" />
+        <mark key="[" line="52" column="32" />
+        <mark key="]" line="52" column="32" />
+        <mark key="." line="52" column="32" />
+        <mark key="^" line="105" column="5" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_scoring.py" timestamp="1595820089737">
         <mark key="'" line="3" column="10" />
@@ -192,12 +192,12 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/etl/etl_stack.json.template" timestamp="1595889242900" />
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" timestamp="1595959731645">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="0" />
-        <mark key="." line="51" column="0" />
-        <mark key="^" line="50" column="31" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" timestamp="1595961112346">
+        <mark key="'" line="46" column="0" />
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="15" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="46" column="23" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1595882924207">
         <mark key="[" line="164" column="34" />
@@ -232,8 +232,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="77" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
-      <jump line="24" column="20" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
       <jump line="39" column="57" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
       <jump line="42" column="25" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
       <jump line="1" column="14" filename="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" />
@@ -332,6 +330,8 @@
       <jump line="20" column="42" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="37" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
+      <jump line="44" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
+      <jump line="106" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -342,8 +342,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5kZWJ1ZyhmIkFmdGVyIHlpZWxkLCBhYm91dCB0byBkZWxldGUgRGF0YWJhc2Uge2RiX25hbWV9IikK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">SUYgTk9UIEVYSVNUUyA=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -891,16 +891,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>creating</text>
+        <text encoding="base64">SUYgTk9UIEVYSVNUUyA=</text>
       </register>
       <register name="/" type="4">
-        <text>28</text>
+        <text>def cre</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGRhdGFiYXNlcyA9IFtyIGZvciByIGluIHNwYXJrLnNxbChmIlNIT1cgREFUQUJBU0VTIGxpa2UgJ3tjb25maWcuQ0FOT05JQ0FMX1VTRVJ9LionIikuY29sbGVjdCgpXQogICAgbG9nZ2VyLmRlYnVnKGYiQWZ0ZXIgY3JlYXRpbmcgdGVzdGluZyBEQiwgZXhpc3RpbmcgZGF0YWJhc2VzOiB7ZGF0YWJhc2VzfSIpCg==</text>
+        <text encoding="base64">ICAgIHNwYXJrLnNxbChmIkRST1AgREFUQUJBU0UgSUYgRVhJU1RTIHtkYXRhYmFzZV9uYW1lfSBDQVNDQURFIikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5kZWJ1ZyhmIkFmdGVyIHlpZWxkLCBhYm91dCB0byBkZWxldGUgRGF0YWJhc2Uge2RiX25hbWV9IikK</text>
+        <text encoding="base64">aW1wb3J0IHRlbXBmaWxlCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -914,7 +914,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHBhcmFtcyA9IHsiZGJfbmFtZSI6IGRiX25hbWV9Cg==</text>
+        <text encoding="base64">ICAgIGltcG9ydCByYW5kb20KICAgIGltcG9ydCBzdHJpbmcK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -948,10 +948,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRhdGFiYXNlcyA9IFtyLmRhdGFiYXNlTmFtZSBmb3IgciBpbiBzcGFyay5zcWwoZiJTSE9XIERBVEFCQVNFUyBsaWtlICd7Y29uZmlnLkNBTk9OSUNBTF9VU0VSfS4qJyIpLmNvbGxlY3QoKV0KICAgIGxvZ2dlci5kZWJ1ZyhmIkJlZm9yZSBjcmVhdGluZyB0ZXN0aW5nIERCLCBleGlzdGluZyBkYXRhYmFzZXM6IHtkYXRhYmFzZXN9IikK</text>
+        <text encoding="base64">ICAgIGltcG9ydCByYW5kb20K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRhdGFiYXNlcyA9IHNwYXJrLnNxbCgiU0hPVyBEQVRBQkFTRVMiKS5jb2xsZWN0KCkK</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5kZWJ1ZyhmIkFib3V0IHRvIGNyZWF0ZSB7ZGJfbmFtZX0iKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1019,19 +1019,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlCg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5kZWJ1ZyhmIkFmdGVyIHlpZWxkLCBhYm91dCB0byBkZWxldGUgRGF0YWJhc2Uge2RiX25hbWV9IikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHBhcmFtcyA9IHsiZGJfbmFtZSI6IGRiX25hbWV9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRhdGFiYXNlcyA9IFtyLmRhdGFiYXNlTmFtZSBmb3IgciBpbiBzcGFyay5zcWwoZiJTSE9XIERBVEFCQVNFUyBsaWtlICd7Y29uZmlnLkNBTk9OSUNBTF9VU0VSfS4qJyIpLmNvbGxlY3QoKV0KICAgIGxvZ2dlci5kZWJ1ZyhmIkJlZm9yZSBjcmVhdGluZyB0ZXN0aW5nIERCLCBleGlzdGluZyBkYXRhYmFzZXM6IHtkYXRhYmFzZXN9IikK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGZyb20gCg==</text>
+        <text encoding="base64">ICAgIGRhdGFiYXNlcyA9IHNwYXJrLnNxbCgiU0hPVyBEQVRBQkFTRVMiKS5jb2xsZWN0KCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
+        <text encoding="base64">ICAgIGxvZ2dlCg==</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
@@ -1040,9 +1040,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>28</last-search>
+      <last-search>def cre</last-search>
       <last-offset />
-      <last-pattern>28</last-pattern>
+      <last-pattern>def cre</last-pattern>
       <last-replace>True</last-replace>
       <last-substitute>true</last-substitute>
       <last-dir>1</last-dir>
