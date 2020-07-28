@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>%pytest</entry>
         <entry>%</entry>
         <entry>@</entry>
         <entry>faked</entry>
@@ -25,6 +24,7 @@
         <entry>model training</entry>
         <entry>URI</entry>
         <entry>DBFS_USER_FOLDER</entry>
+        <entry>model_name</entry>
       </history-search>
       <history-cmd>
         <entry>203</entry>
@@ -145,8 +145,8 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/model_policy.json" timestamp="1595971586097">
-        <mark key="[" line="6" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/model_policy.json" timestamp="1595978946928">
+        <mark key="[" line="5" column="22" />
         <mark key="]" line="6" column="65" />
         <mark key="." line="6" column="63" />
         <mark key="^" line="6" column="64" />
@@ -166,6 +166,12 @@
         <mark key="]" line="52" column="32" />
         <mark key="." line="52" column="32" />
         <mark key="^" line="105" column="5" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" timestamp="1595978773927">
+        <mark key="'" line="81" column="39" />
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="52" />
+        <mark key="." line="29" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/spark_util.py" timestamp="1595900943507">
         <mark key="'" line="24" column="0" />
@@ -203,7 +209,7 @@
         <mark key="." line="98" column="0" />
         <mark key="^" line="157" column="29" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1595976057953">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1595978726187">
         <mark key="'" line="155" column="43" />
         <mark key="[" line="181" column="22" />
         <mark key="]" line="181" column="26" />
@@ -222,9 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="49" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="57" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="14" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_driver.py" />
       <jump line="72" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
@@ -322,6 +325,9 @@
       <jump line="83" column="11" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="84" column="4" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="9" column="38" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training_stack.json.template" />
+      <jump line="94" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
+      <jump line="29" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
+      <jump line="81" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -332,8 +338,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>union</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYiSW5zaWRlIHRyYWluLnB5IGZvciB7bW9kZWxfbmFtZX0iKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -881,16 +887,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>union</text>
+        <text>toy_model_1</text>
       </register>
       <register name="/" type="4">
-        <text>DBFS_USER_FOLDER</text>
+        <text>model_name</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcnVuX2lkcyA9IG1vZGVsX3V0aWxzLmdldF9ydW5faWRzX2Zyb21fcG9saWN5KHBvbGljeV9maWxlKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBtYXNvbi5kZWx0YSBpbXBvcnQgZGJfdXRpbHMK</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYiSW5zaWRlIHRyYWluLnB5IGZvciB7bW9kZWxfbmFtZX0iKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -904,7 +910,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3RhYmxlX25hbWUgPSBtb2RlbF9wb2xpY3lbIm91dHB1dF90YWJsZV9uYW1lIl0K</text>
+        <text encoding="base64">ZnJvbSBtYXNvbi5kZWx0YSBpbXBvcnQgZGJfdXRpbHMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -938,10 +944,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJfdXRpbHMuY3JlYXRlX3RhYmxlKG91dHB1dF9kYXRhYmFzZSwgb3V0cHV0X3RhYmxlX25hbWUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3RhYmxlX25hbWUgPSBtb2RlbF9wb2xpY3lbIm91dHB1dF90YWJsZV9uYW1lIl0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG91dHB1dF90YWJsZV9uYW1lID0gbW9kZWxfcG9saWN5WyJvdXRwdXRfdGFibGVfbmFtZSJdCiAgICBkYl91dGlscy5jcmVhdGVfdGFibGUob3V0cHV0X2RhdGFiYXNlLCBvdXRwdXRfdGFibGVfbmFtZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGJfdXRpbHMuY3JlYXRlX3RhYmxlKG91dHB1dF9kYXRhYmFzZSwgb3V0cHV0X3RhYmxlX25hbWUpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1009,19 +1015,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRiX3V0aWxzLmNyZWF0ZV90YWJsZShvdXRwdXRfZGF0YWJhc2UsIG91dHB1dF90YWJsZV9uYW1lKQo=</text>
+        <text encoding="base64">ICAgIG91dHB1dF90YWJsZV9uYW1lID0gbW9kZWxfcG9saWN5WyJvdXRwdXRfdGFibGVfbmFtZSJdCiAgICBkYl91dGlscy5jcmVhdGVfdGFibGUob3V0cHV0X2RhdGFiYXNlLCBvdXRwdXRfdGFibGVfbmFtZSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRiX3V0aWxzLmNyZWF0ZV90YWJsZShvdXRwdXRfZGF0YWJhc2UsIG91dHB1dF90YWJsZV9uYW1lKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBtb2RlbF9uYW1lID0gaW5mZXJfbW9kZWxfbmFtZV9mcm9tX3BvbGljeShwb2xpY3lfZmlsZSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGlmIG9zLnBhdGguaXNmaWxlKHBvbGljeV9maWxlKToKICAgICAgICBtb2RlbF9uYW1lID0gaW5mZXJfbW9kZWxfbmFtZV9mcm9tX3BvbGljeShwb2xpY3lfZmlsZSkKICAgICAgICB3aXRoIG9wZW4ocG9saWN5X2ZpbGUpIGFzIGZpZDoKICAgICAgICAgICAgcG9saWN5ID0ganNvbi5sb2FkKGZpZCkK</text>
+        <text encoding="base64">ICAgICAgICBtb2RlbF9uYW1lID0gaW5mZXJfbW9kZWxfbmFtZV9mcm9tX3BvbGljeShwb2xpY3lfZmlsZSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIGlmIG9zLnBhdGguaXNmaWxlKHBvbGljeV9maWxlKToKICAgICAgICBtb2RlbF9uYW1lID0gaW5mZXJfbW9kZWxfbmFtZV9mcm9tX3BvbGljeShwb2xpY3lfZmlsZSkKICAgICAgICB3aXRoIG9wZW4ocG9saWN5X2ZpbGUpIGFzIGZpZDoKICAgICAgICAgICAgcG9saWN5ID0ganNvbi5sb2FkKGZpZCkK</text>
       </register>
       <register name=":" type="4">
         <text>170</text>
@@ -1030,9 +1036,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>DBFS_USER_FOLDER</last-search>
+      <last-search>model_name</last-search>
       <last-offset />
-      <last-pattern>DBFS_USER_FOLDER</last-pattern>
+      <last-pattern>model_name</last-pattern>
       <last-replace>True</last-replace>
       <last-substitute>true</last-substitute>
       <last-dir>1</last-dir>
