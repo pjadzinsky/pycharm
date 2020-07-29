@@ -5,11 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>DBFS_USER_FOLDER</entry>
-        <entry>model_name</entry>
-        <entry>Sequence</entry>
-        <entry>**model</entry>
-        <entry>model)</entry>
         <entry>get_run_ids</entry>
         <entry>DWH</entry>
         <entry>DWN</entry>
@@ -20,14 +15,18 @@
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>sql</entry>
         <entry>##</entry>
-        <entry>udf</entry>
         <entry>udf_fix</entry>
         <entry>s3</entry>
         <entry>.avro</entry>
         <entry>\.avro</entry>
+        <entry>cons</entry>
+        <entry>PH</entry>
+        <entry>avro_decrypted</entry>
+        <entry>udf</entry>
+        <entry>file_to_load</entry>
+        <entry>file_uri</entry>
       </history-search>
       <history-cmd>
-        <entry>24</entry>
         <entry>111</entry>
         <entry>s/),S/),\nS</entry>
         <entry>s/),S/\),\nS</entry>
@@ -47,6 +46,7 @@
         <entry>q</entry>
         <entry>92</entry>
         <entry>38</entry>
+        <entry>%s/file_to_load/file_uri/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -165,23 +165,23 @@
         <mark key="." line="38" column="18" />
         <mark key="^" line="38" column="19" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/udf.py" timestamp="1596055134562">
-        <mark key="'" line="38" column="53" />
-        <mark key="[" line="48" column="37" />
-        <mark key="]" line="47" column="31" />
-        <mark key="^" line="47" column="31" />
-        <mark key="." line="47" column="30" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/udf.py" timestamp="1596056460410">
+        <mark key="'" line="37" column="14" />
+        <mark key="[" line="46" column="131" />
+        <mark key="]" line="46" column="131" />
+        <mark key="^" line="46" column="47" />
+        <mark key="." line="46" column="131" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1596040515027">
         <mark key="'" line="2" column="7" />
         <mark key="[" line="74" column="27" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" timestamp="1596054803209">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="42" />
-        <mark key="^" line="106" column="79" />
-        <mark key="." line="106" column="78" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" timestamp="1596056701310">
+        <mark key="'" line="201" column="60" />
+        <mark key="[" line="104" column="77" />
+        <mark key="]" line="104" column="78" />
+        <mark key="^" line="104" column="78" />
+        <mark key="." line="104" column="77" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/DWH/tests/test_sql_db.py" timestamp="1596048146785">
         <mark key="[" line="1" column="0" />
@@ -206,8 +206,8 @@
         <mark key="." line="8" column="16" />
         <mark key="^" line="8" column="17" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1596045834519">
-        <mark key="'" line="38" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1596055873427">
+        <mark key="'" line="3" column="0" />
         <mark key="[" line="38" column="0" />
         <mark key="]" line="38" column="0" />
         <mark key="." line="38" column="0" />
@@ -225,7 +225,7 @@
         <mark key="^" line="2" column="17" />
         <mark key="." line="2" column="46" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596048345124">
+      <file name="/Dummy.txt" timestamp="1596057239052">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -247,19 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="42" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="37" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
-      <jump line="44" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
-      <jump line="106" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="139" column="19" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="91" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="78" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="99" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="109" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="121" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="132" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="146" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="147" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="160" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
@@ -310,7 +297,6 @@
       <jump line="1" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/config/DWH/tests/test_tunnel.py" />
       <jump line="13" column="77" filename="$USER_HOME$/MindstrongRepos/mason/mason/config/DWH/sql_db.py" />
       <jump line="60" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/config/DWH/sql_db.py" />
-      <jump line="106" column="78" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="148" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="140" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="11" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
@@ -347,6 +333,20 @@
       <jump line="34" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="36" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
+      <jump line="49" column="47" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/udf.py" />
+      <jump line="7" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/udf.py" />
+      <jump line="50" column="22" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/udf.py" />
+      <jump line="28" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="4" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="7" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="23" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="106" column="62" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
+      <jump line="138" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
+      <jump line="37" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/udf.py" />
+      <jump line="201" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -357,8 +357,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIG9yIGl0IGNvdWxkIGJlIGFuIGVuY3J5cHRlZCBmaWxlIGxpa2UK</text>
+      <register name="&quot;" type="4">
+        <text>files_df</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -906,16 +906,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>files_df</text>
       </register>
       <register name="/" type="4">
-        <text>\.avro</text>
+        <text>file_uri</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzMzovL21pbmRzdHJvbmdoZWFsdGguY29tLnJhdy9OQS9tc2gvTkExMDAwMDAyNDc0L3Nlc3Npb24vYW5kcm9pZF9zZXNzaW9uLTIwMjAwNzA4LTE2MTg0OC0zOTcuYXZybwo=</text>
+        <text encoding="base64">ICAgICAgICBzMzovL21pbmRzdHJvbmdoZWFsdGguY29tLnJhdy9OQS9tc2gvTkExMDAwMDAyNDc0L3Nlc3Npb24vYW5kcm9pZF9zZXNzaW9uLTIwMTkwNzA3LTE1MDIzOS0yODMuYXZyby5lbgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG9yIGl0IGNvdWxkIGJlIGFuIGVuY3J5cHRlZCBmaWxlIGxpa2UK</text>
+        <text encoding="base64">ICAgICAgICApCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -929,7 +929,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHMzOi8vTkEvbXNoL05BMTAwMDAwMC9zZXNzaW9uLzxzb21ldGhpbmc+LmF2cm8nCg==</text>
+        <text encoding="base64">ICAgIG9yIGl0IGNvdWxkIGJlIGFuIGVuY3J5cHRlZCBmaWxlIGxpa2UK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -963,7 +963,7 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHMzOi8vTkEvbXNoL05BMTAwMDAwMC9zZXNzaW9uLzxzb21ldGhpbmc+LmF2cm8nCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -1034,32 +1034,32 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyMgZGF0YWJhc2UgcmVjcmVhdGUgam9iCiAgICAsewogICAgICAiaWQiOiAiJHtDQU5PTklDQUxfVVNFUn0gcmVjcmVhdGUgdGFibGUgaW4gZGF0YWJhc2UiLAogICAgICAic2VydmljZSI6ICJqb2JzIiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgICJuYW1lIjogIiR7Q0FOT05JQ0FMX1VTRVJ9IHJlY3JlYXRlIHRhYmxlIgogICAgICAgICwibmV3X2NsdXN0ZXIiOiAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2NoZWFwX2NsdXN0ZXIuanNvbiIvPgogICAgICAgICwibGlicmFyaWVzIjogICAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2xpYnJhcmllcy5qc29uIi8+CiAgICAgICAgLCJlbWFpbF9ub3RpZmljYXRpb25zIjogICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvZW1haWwuanNvbiIvPgogICAgICAgICwibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKICAgICAgICAsInRpbWVvdXRfc2Vjb25kcyI6IDYwMAogICAgICAgICwic3BhcmtfcHl0aG9uX3Rhc2siOiB7CiAgICAgICAgICAgICJweXRob25fZmlsZSI6ICIke0RCRlNfVVNFUl9GT0xERVJfVVJJfS9yZWNyZWF0ZV90YWJsZS5weSIsCiMjIFRoZXNlIGFyZSB0aGUgcGFyYW1ldGVycyB0byBlZGl0LCBib3RoIHRoZSBkYXRhYmFzZSBhbmQgdGhlIHRhYmxlX25hbWUKICAgICAgICAgICAgInBhcmFtZXRlcnMiOiBbImR1bW15X2RiX25hbWUiLCAiZHVtbXlfdGFibGUiXQogICAgICAgIH0KICAgICAgfQogICAgfQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">IyMgY29weSB0aGUgcHlzcGFyayBmaWxlcyB0byBkYmZzCiAgICB7CiAgICAgICJpZCI6ICJyZWNyZWF0ZV90YWJsZV9qb2IiLAogICAgICAic2VydmljZSI6ICJkYmZzIiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZV9wYXRoIjogIiR7Sk9CU19GT0xERVJ9L2RhdGFiYXNlL3JlY3JlYXRlX3RhYmxlLnB5IiwKICAgICAgICAicGF0aCI6ICIke0RCRlNfVVNFUl9GT0xERVJfVVJJfS9yZWNyZWF0ZV90YWJsZS5weSIsCiAgICAgICAgImlzX2RpciI6IGZhbHNlLAogICAgICAgICJvdmVycmlkZSI6IHRydWUKICAgICAgfQogICAgfQo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">IyMgZGF0YWJhc2UgcmVjcmVhdGUgam9iCiAgICAsewogICAgICAiaWQiOiAiJHtDQU5PTklDQUxfVVNFUn0gcmVjcmVhdGUgdGFibGUgaW4gZGF0YWJhc2UiLAogICAgICAic2VydmljZSI6ICJqb2JzIiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgICJuYW1lIjogIiR7Q0FOT05JQ0FMX1VTRVJ9IHJlY3JlYXRlIHRhYmxlIgogICAgICAgICwibmV3X2NsdXN0ZXIiOiAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2NoZWFwX2NsdXN0ZXIuanNvbiIvPgogICAgICAgICwibGlicmFyaWVzIjogICAgICAgICAgICAgPCVpbmNsdWRlIGZpbGU9ImRlZmF1bHRzL2xpYnJhcmllcy5qc29uIi8+CiAgICAgICAgLCJlbWFpbF9ub3RpZmljYXRpb25zIjogICA8JWluY2x1ZGUgZmlsZT0iZGVmYXVsdHMvZW1haWwuanNvbiIvPgogICAgICAgICwibWF4X2NvbmN1cnJlbnRfcnVucyI6IDEKICAgICAgICAsInRpbWVvdXRfc2Vjb25kcyI6IDYwMAogICAgICAgICwic3BhcmtfcHl0aG9uX3Rhc2siOiB7CiAgICAgICAgICAgICJweXRob25fZmlsZSI6ICIke0RCRlNfVVNFUl9GT0xERVJfVVJJfS9yZWNyZWF0ZV90YWJsZS5weSIsCiMjIFRoZXNlIGFyZSB0aGUgcGFyYW1ldGVycyB0byBlZGl0LCBib3RoIHRoZSBkYXRhYmFzZSBhbmQgdGhlIHRhYmxlX25hbWUKICAgICAgICAgICAgInBhcmFtZXRlcnMiOiBbImR1bW15X2RiX25hbWUiLCAiZHVtbXlfdGFibGUiXQogICAgICAgIH0KICAgICAgfQogICAgfQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">IyMgY29weSB0aGUgcHlzcGFyayBmaWxlcyB0byBkYmZzCiAgICB7CiAgICAgICJpZCI6ICJyZWNyZWF0ZV90YWJsZV9qb2IiLAogICAgICAic2VydmljZSI6ICJkYmZzIiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZV9wYXRoIjogIiR7Sk9CU19GT0xERVJ9L2RhdGFiYXNlL3JlY3JlYXRlX3RhYmxlLnB5IiwKICAgICAgICAicGF0aCI6ICIke0RCRlNfVVNFUl9GT0xERVJfVVJJfS9yZWNyZWF0ZV90YWJsZS5weSIsCiAgICAgICAgImlzX2RpciI6IGZhbHNlLAogICAgICAgICJvdmVycmlkZSI6IHRydWUKICAgICAgfQogICAgfQo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IG1hc29uCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRiX3V0aWxzLmFkbWluaXN0ZXJfdXNlcl9kYXRhYmFzZXMoY29tbWFuZCwgc3Bhcms9c3BhcmspCg==</text>
+        <text encoding="base64">aW1wb3J0IG1hc29uCg==</text>
       </register>
       <register name=":" type="4">
-        <text>38</text>
+        <text>%s/file_to_load/file_uri/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>\.avro</last-search>
+      <last-search>file_uri</last-search>
       <last-offset />
-      <last-pattern>\.avro</last-pattern>
-      <last-replace>True</last-replace>
-      <last-substitute>true</last-substitute>
+      <last-pattern>file_uri</last-pattern>
+      <last-replace>file_uri</last-replace>
+      <last-substitute>file_to_load</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
