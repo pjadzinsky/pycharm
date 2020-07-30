@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>datetime</entry>
         <entry>sql</entry>
         <entry>##</entry>
         <entry>udf_fix</entry>
@@ -25,6 +24,7 @@
         <entry>train_method()</entry>
         <entry>and</entry>
         <entry>GIT</entry>
+        <entry>dbutils</entry>
       </history-search>
       <history-cmd>
         <entry>111</entry>
@@ -159,9 +159,9 @@
         <mark key="^" line="5" column="35" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" timestamp="1596129895983">
-        <mark key="[" line="48" column="0" />
-        <mark key="]" line="48" column="43" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" timestamp="1596131455371">
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="54" column="58" />
         <mark key="^" line="18" column="45" />
         <mark key="." line="18" column="0" />
       </file>
@@ -178,6 +178,13 @@
         <mark key="]" line="7" column="25" />
         <mark key="^" line="53" column="62" />
         <mark key="." line="7" column="25" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/expose_bug.py" timestamp="1596131484447">
+        <mark key="'" line="7" column="4" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="4" column="0" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" timestamp="1596064651356">
         <mark key="'" line="76" column="8" />
@@ -223,7 +230,7 @@
         <mark key="^" line="2" column="17" />
         <mark key="." line="2" column="46" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596127659572">
+      <file name="/Dummy.txt" timestamp="1596131509082">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -255,8 +262,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="67" column="0" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="81" column="28" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="83" column="11" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="84" column="4" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="9" column="38" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training_stack.json.template" />
@@ -355,6 +360,8 @@
       <jump line="120" column="13" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="126" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="168" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="5" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/expose_bug.py" />
+      <jump line="6" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/expose_bug.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -366,7 +373,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -914,16 +921,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>create</text>
       </register>
       <register name="/" type="4">
-        <text>GIT</text>
+        <text>dbutils</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwo=</text>
+        <text encoding="base64">ICAgIHRyeToKICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwoKICAgICAgICBkYnV0aWxzID0gREJVdGlscyhzcGFyaykKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBpbXBvcnQgSVB5dGhvbgoKICAgICAgICBkYnV0aWxzID0gSVB5dGhvbi5nZXRfaXB5dGhvbigpLnVzZXJfbnNbImRidXRpbHMiXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigib3MuZW52aXJvbi5nZXQoJ0dJVEhVQl9XT1JLRkxPVycpIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -937,7 +944,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigib3MuZW52aXJvbi5nZXQoJ0dJVEhVQl9XT1JLRkxPVycpIikK</text>
+        <text encoding="base64">ZnJvbSBweXNwYXJrLmRidXRpbHMgaW1wb3J0IERCVXRpbHMK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -971,10 +978,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZXJyb3IK</text>
+        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBlcnJvciA9IG1vZGVsX3V0aWxzLmFzc2VydF9tb2RlbF9oYXNfbmFtZShydW5faWQpCg==</text>
+        <text encoding="base64">ICAgIGRidXRpbHMgPSBEQlV0aWxzKHNwYXJrKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1042,19 +1049,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZXJyb3IK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBydW5faWQ6Cg==</text>
+        <text encoding="base64">ZnJvbSBweXNwYXJrLmRhdGFicmlja3MgaW1wb3J0IEQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQgQXR0cmlidXRlRXJyb3IgYXMgZToKICAgICAgICAgICAgcmV0dXJuIGUKCiAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigib3MuZW52aXJvbi5nZXQoJ0dJVEhVQl9XT1JLRkxPVycpIikK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQgTW9kdWxlTm90Rm91bmRFcnJvciBhcyBlOgogICAgICAgICAgICByZXR1cm4gZQoKICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigib3MuZW52aXJvbi5nZXQoJ0dJVEhVQl9XT1JLRkxPVycpIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gZXJyb3IK</text>
       </register>
       <register name=":" type="4">
         <text>%s/file_to_load/file_uri/gc</text>
@@ -1063,9 +1070,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>GIT</last-search>
+      <last-search>dbutils</last-search>
       <last-offset />
-      <last-pattern>GIT</last-pattern>
+      <last-pattern>dbutils</last-pattern>
       <last-replace>file_uri</last-replace>
       <last-substitute>file_to_load</last-substitute>
       <last-dir>1</last-dir>
