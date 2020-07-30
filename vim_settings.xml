@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>\.avro</entry>
         <entry>cons</entry>
         <entry>PH</entry>
         <entry>avro_decrypted</entry>
@@ -25,6 +24,7 @@
         <entry>def train</entry>
         <entry>logger</entry>
         <entry>def score</entry>
+        <entry>append</entry>
       </history-search>
       <history-cmd>
         <entry>16,24s/ield\(/ield(&quot;/</entry>
@@ -210,14 +210,14 @@
         <mark key="]" line="38" column="0" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1596146883389">
-        <mark key="'" line="64" column="4" />
-        <mark key="[" line="62" column="0" />
-        <mark key="]" line="62" column="16" />
-        <mark key="^" line="61" column="25" />
-        <mark key="." line="62" column="16" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1596147953037">
+        <mark key="'" line="62" column="23" />
+        <mark key="[" line="103" column="0" />
+        <mark key="]" line="103" column="16" />
+        <mark key="^" line="102" column="25" />
+        <mark key="." line="103" column="16" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596147057261">
+      <file name="/Dummy.txt" timestamp="1596147634382">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="2" column="15" />
         <mark key="." line="2" column="15" />
@@ -247,8 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="36" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
-      <jump line="12" column="80" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="83" column="41" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="6" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="13" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
@@ -347,6 +345,8 @@
       <jump line="123" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" />
       <jump line="190" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="64" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="103" column="23" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="62" column="23" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -909,7 +909,7 @@
         <text>fixing</text>
       </register>
       <register name="/" type="4">
-        <text>def score</text>
+        <text>append</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgImV4cF9pZCI6ICIzMTMwMSIsCg==</text>
@@ -1055,9 +1055,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def score</last-search>
+      <last-search>append</last-search>
       <last-offset />
-      <last-pattern>def score</last-pattern>
+      <last-pattern>append</last-pattern>
       <last-replace>file_uri</last-replace>
       <last-substitute>file_to_load</last-substitute>
       <last-dir>1</last-dir>
