@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>DWH</entry>
-        <entry>DWN</entry>
-        <entry>S</entry>
         <entry>get_or</entry>
         <entry>nt</entry>
         <entry>datetime</entry>
@@ -25,6 +22,9 @@
         <entry>PHONE</entry>
         <entry>udf</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>def sc</entry>
+        <entry>def train_me</entry>
+        <entry>train_method()</entry>
       </history-search>
       <history-cmd>
         <entry>111</entry>
@@ -140,6 +140,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/model_driver.py" timestamp="1596123675245" />
       <file name="/a.dummy" timestamp="1596053922716">
         <mark key="[" line="0" column="1" />
         <mark key="]" line="0" column="16" />
@@ -172,10 +173,6 @@
         <mark key="^" line="53" column="62" />
         <mark key="." line="7" column="25" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1596040515027">
-        <mark key="'" line="2" column="7" />
-        <mark key="[" line="74" column="27" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" timestamp="1596064651356">
         <mark key="'" line="76" column="8" />
         <mark key="[" line="113" column="0" />
@@ -188,12 +185,6 @@
         <mark key="]" line="1" column="0" />
         <mark key="^" line="1" column="17" />
         <mark key="." line="1" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1596044264066">
-        <mark key="'" line="60" column="0" />
-        <mark key="[" line="187" column="0" />
-        <mark key="]" line="187" column="0" />
-        <mark key="." line="187" column="0" />
       </file>
       <file name="/Python Console" timestamp="1596065974048">
         <mark key="[" line="0" column="0" />
@@ -218,6 +209,13 @@
         <mark key="^" line="42" column="23" />
         <mark key="." line="42" column="22" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1596124602108">
+        <mark key="'" line="141" column="37" />
+        <mark key="[" line="120" column="66" />
+        <mark key="]" line="120" column="71" />
+        <mark key="^" line="120" column="71" />
+        <mark key="." line="120" column="70" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/DWH/tests/test_tunnel.py" timestamp="1596048172750">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="2" column="46" />
@@ -225,16 +223,16 @@
         <mark key="^" line="2" column="17" />
         <mark key="." line="2" column="46" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596064809298">
+      <file name="/Dummy.txt" timestamp="1596124260899">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" timestamp="1596065334083">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" timestamp="1596066423700">
         <mark key="'" line="62" column="0" />
-        <mark key="[" line="54" column="49" />
-        <mark key="]" line="65" column="108" />
-        <mark key="." line="65" column="107" />
+        <mark key="[" line="131" column="0" />
+        <mark key="]" line="131" column="0" />
+        <mark key="." line="131" column="0" />
         <mark key="^" line="65" column="108" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/DWH/__init__.py" timestamp="1596048089353">
@@ -250,7 +248,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="85" column="31" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="78" column="46" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="80" column="51" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
@@ -268,7 +265,6 @@
       <jump line="91" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="90" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="77" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="81" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="156" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="71" column="6" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="10" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
@@ -350,6 +346,8 @@
       <jump line="56" column="40" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="76" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
       <jump line="61" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
+      <jump line="81" column="50" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="141" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -360,8 +358,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>avro</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBleGNlcHQgQXR0cmlidXRlRXJyb3IgYXMgZToKICAgICAgICAgICAgcmV0dXJuIGUKCiAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -909,16 +907,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>avro</text>
+        <text>error</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>train_method()</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBvc19uYW1lID0gImFuZHJvaWQiCiAgICAgICAgZHR5cGUgPSAic2Vzc2lvbiIKCiAgICAgICAgZmlsZXMgPSBbZiBmb3IgZiBpbiBzb3J0ZWQob3MubGlzdGRpcihEQVRBX1BBVEgpKSBpZiAiYW5kcm9pZF9zZXNzaW9uIiBpbiBmIGFuZCBmLmVuZHN3aXRoKCIuYXZybyIpXQogICAgICAgICMgc3RhcnQgZnJlc2gKICAgICAgICBkZWxldGVfcHJlZml4X3JlY3Vyc2l2ZWx5KGNvbnN0YW50cy5URVNUSU5HX0JVQ0tFVCwgb3MucGF0aC5qb2luKCJ0ZXN0aW5nIiwgc2VsZi5tZW1iZXJfcHJlZml4KSkKCiAgICAgICAgZm9yIGZpbGUgaW4gZmlsZXNbOjJdOgogICAgICAgICAgICBzZWxmLl9jb3B5X3RvX3MzKGZpbGUsIGR0eXBlKQoKICAgICAgICB0aW1lc3RhbXAgPSB0aW1lLnRpbWUoKQoKICAgICAgICBmaWxlciA9IEZpbGVyKAogICAgICAgICAgICBvc19uYW1lLAogICAgICAgICAgICBkdHlwZSwKICAgICAgICAgICAgdGVtcF9kYlsiZGJfbmFtZSJdLAogICAgICAgICAgICBzb3VyY2VfYnVja2V0PWNvbnN0YW50cy5URVNUSU5HX0JVQ0tFVCwKICAgICAgICAgICAgbWVtYmVyX3dpbGRjaGFyPW9zLnBhdGguam9pbigidGVzdGluZyIsIHNlbGYubWVtYmVyX3ByZWZpeCksCiAgICAgICAgICAgIGRlY3J5cHRlZF9idWNrZXQ9Y29uc3RhbnRzLlRFU1RJTkdfQlVDS0VULAogICAgICAgICAgICBkZWNyeXB0ZWRfbWVtYmVyX3dpbGRjaGFyPW9zLnBhdGguam9pbigidGVzdGluZyIsIHNlbGYubWVtYmVyX3ByZWZpeCkKICAgICAgICApCgogICAgICAgICMgc2V0IGN1cnJlbnQgZGF0YWJhc2UgYW5kIGNyZWF0ZSBhbiBvdXRwdXQgdGFibGUKICAgICAgICBkYl91dGlscy5jcmVhdGVfdGFibGUodGVtcF9kYlsiZGJfbmFtZSJdLCAiYW5kcm9pZF9zZXNzaW9uIiwgc3Bhcms9c2VsZi5zcGFyaykKCiAgICAgICAgZmlsZXIucnVuKHNlbGYuc3BhcmspCiAgICAgICAgcm93c19wZXJfZmlsZSA9IHt9CiAgICAgICAgZm9yIGZpbGUgaW4gZmlsZXM6CiAgICAgICAgICAgIHMzX3BhdGggPSBzZWxmLl9maWxlX3RvX3MzX3BhdGgoZmlsZSwgZHR5cGUpCiAgICAgICAgICAgIHJvd3NfcGVyX2ZpbGVbZmlsZV0gPSAoCiAgICAgICAgICAgICAgICBzZWxmLnNwYXJrLnNxbChmIlNFTEVDVCBjb3VudCgqKSBmcm9tIHtmaWxlci5fdGFibGVfbmFtZX0gV0hFUkUgcmF3X2F2cm9fZmlsZT0ne3MzX3BhdGh9JyIpCiAgICAgICAgICAgICAgICAucmRkLm1hcChsYW1iZGEgeDogeFswXSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0KClbMF0KICAgICAgICAgICAgKQoKICAgICAgICBmb3IgZmlsZSBpbiBmaWxlc1syOl06CiAgICAgICAgICAgIHNlbGYuX2NvcHlfdG9fczMoZmlsZSwgZHR5cGUpCiAgICAgICAgIyAxc3QgZmlsZSBjb3JyZXNwb25kcyB0byBKYW4gMDEsIDIwMjAKICAgICAgICAjIHRoZSBvdGhlciAzIGZpbGVzIGFyZSBmcm9tIE1heSAwMSBhbmQgMDIsIDIwMjAKICAgICAgICAjIG9sZGVzdF9jYXB0dXJlX2RhdGUgaGFzIHRvIGJlIG92ZXJ3cml0dGVuIHRvIHBpY2sgdXAgYWxsIDMgZmlsZXMgZnJvbSBNYXkgMjAyMCBidXQgbm90IHRoZSBvbmUgZnJvbSBKYW4gMjAyMAogICAgICAgIGZpbGVyLl9vbGRlc3RfdXBsb2FkX3RpbWVzdGFtcCA9IGRhdGV0aW1lLmZyb210aW1lc3RhbXAodGltZXN0YW1wLCB0ej1weXR6LlVUQykucmVwbGFjZSgKICAgICAgICAgICAgaG91cj0wLCBtaW51dGU9MCwgc2Vjb25kPTAsIG1pY3Jvc2Vjb25kPTAKICAgICAgICApCiAgICAgICAgZmlsZXIucnVuKHNlbGYuc3BhcmspCgogICAgICAgICMgbm93IHdlIGhhdmUgdG8gY2hlY2sgZGF0YSBpbnRlZ3JpdHkKICAgICAgICBuZXdfcm93c19wZXJfZmlsZSA9IHt9CiAgICAgICAgZm9yIGZpbGUgaW4gZmlsZXM6CiAgICAgICAgICAgIHMzX3BhdGggPSBzZWxmLl9maWxlX3RvX3MzX3BhdGgoZmlsZSwgZHR5cGUpCiAgICAgICAgICAgIG5ld19yb3dzX3Blcl9maWxlW2ZpbGVdID0gKAogICAgICAgICAgICAgICAgc2VsZi5zcGFyay5zcWwoZiJTRUxFQ1QgY291bnQoKikgZnJvbSB7ZmlsZXIuX3RhYmxlX25hbWV9IFdIRVJFIHJhd19hdnJvX2ZpbGU9J3tzM19wYXRofSciKQogICAgICAgICAgICAgICAgLnJkZC5tYXAobGFtYmRhIHg6IHhbMF0pCiAgICAgICAgICAgICAgICAuY29sbGVjdCgpWzBdCiAgICAgICAgICAgICkKICAgICAgICBhc3NlcnQgcm93c19wZXJfZmlsZVtmaWxlc1swXV0gPT0gbmV3X3Jvd3NfcGVyX2ZpbGVbZmlsZXNbMF1dCiAgICAgICAgYXNzZXJ0IHJvd3NfcGVyX2ZpbGVbZmlsZXNbMV1dID09IG5ld19yb3dzX3Blcl9maWxlW2ZpbGVzWzFdXQogICAgICAgIGFzc2VydCByb3dzX3Blcl9maWxlW2ZpbGVzWzJdXSA9PSByb3dzX3Blcl9maWxlW2ZpbGVzWzNdXSA9PSAwCiAgICAgICAgYXNzZXJ0IG5ld19yb3dzX3Blcl9maWxlW2ZpbGVzWzJdXSA+IDAKICAgICAgICBhc3NlcnQgbmV3X3Jvd3NfcGVyX2ZpbGVbZmlsZXNbM11dID4gMAoKICAgICAgICAjIG5vdyBjaGVjayB0aGF0IHJhdyBhdnJvIGZpbGVzIGhhdmUgdGhlIHNhbWUgbnVtYmVyIG9mIHJvd3MgYXMgd2UgaGF2ZSBpbiB0aGUgdGFibGVzCiAgICAgICAgZm9yIGZpbGUgaW4gZmlsZXM6CiAgICAgICAgICAgIHJvd3MgPSBbXQogICAgICAgICAgICBmaWxlX3BhdGggPSBvcy5wYXRoLmpvaW4oREFUQV9QQVRILCBmaWxlKQogICAgICAgICAgICB3aXRoIG9wZW4oZmlsZV9wYXRoLCAicmIiKSBhcyBmcDoKICAgICAgICAgICAgICAgIHJlYWRlciA9IERhdGFGaWxlUmVhZGVyKGZwLCBEYXR1bVJlYWRlcigpKQogICAgICAgICAgICAgICAgcm93cyArPSBbciBmb3IgciBpbiByZWFkZXJdCiAgICAgICAgICAgIGFzc2VydCBuZXdfcm93c19wZXJfZmlsZVtmaWxlXSA9PSBsZW4ocm93cykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X3J1bl93aXRoX2VuY3J5cHRlZF9maWxlKHNlbGYsIHRlbXBfZGIpOgogICAgICAgIG9zX25hbWUgPSAiYW5kcm9pZCIKICAgICAgICBkdHlwZSA9ICJzZXNzaW9uIgoKICAgICAgICBmaWxlcyA9IFtmIGZvciBmIGluIHNvcnRlZChvcy5saXN0ZGlyKERBVEFfUEFUSCkpIGlmICJhbmRyb2lkX3Nlc3Npb24iIGluIGYgYW5kIGYuZW5kc3dpdGgoIi5hdnJvLmVuIildCiAgICAgICAgIyBzdGFydCBmcmVzaAogICAgICAgIGRlbGV0ZV9wcmVmaXhfcmVjdXJzaXZlbHkoY29uc3RhbnRzLlRFU1RJTkdfQlVDS0VULCBvcy5wYXRoLmpvaW4oInRlc3RpbmciLCBzZWxmLm1lbWJlcl9wcmVmaXgpKQoKICAgICAgICBmb3IgZmlsZSBpbiBmaWxlc1s6Ml06CiAgICAgICAgICAgIHNlbGYuX2NvcHlfdG9fczMoZmlsZSwgZHR5cGUpCgogICAgICAgIHRpbWVzdGFtcCA9IHRpbWUudGltZSgpCgogICAgICAgIGZpbGVyID0gRmlsZXIoCiAgICAgICAgICAgIG9zX25hbWUsCiAgICAgICAgICAgIGR0eXBlLAogICAgICAgICAgICB0ZW1wX2RiWyJkYl9uYW1lIl0sCiAgICAgICAgICAgIHNvdXJjZV9idWNrZXQ9Y29uc3RhbnRzLlRFU1RJTkdfQlVDS0VULAogICAgICAgICAgICBtZW1iZXJfd2lsZGNoYXI9b3MucGF0aC5qb2luKCJ0ZXN0aW5nIiwgc2VsZi5tZW1iZXJfcHJlZml4KSwKICAgICAgICAgICAgZGVjcnlwdGVkX2J1Y2tldD1jb25zdGFudHMuVEVTVElOR19CVUNLRVQsCiAgICAgICAgICAgIGRlY3J5cHRlZF9tZW1iZXJfd2lsZGNoYXI9b3MucGF0aC5qb2luKCJ0ZXN0aW5nIiwgc2VsZi5tZW1iZXJfcHJlZml4KQogICAgICAgICkKCiAgICAgICAgIyBzZXQgY3VycmVudCBkYXRhYmFzZSBhbmQgY3JlYXRlIGFuIG91dHB1dCB0YWJsZQogICAgICAgIGRiX3V0aWxzLmNyZWF0ZV90YWJsZSh0ZW1wX2RiWyJkYl9uYW1lIl0sICJhbmRyb2lkX3Nlc3Npb24iLCBzcGFyaz1zZWxmLnNwYXJrKQoKICAgICAgICBmaWxlci5ydW4oc2VsZi5zcGFyaykKICAgICAgICByb3dzX3Blcl9maWxlID0ge30KICAgICAgICBmb3IgZmlsZSBpbiBmaWxlczoKICAgICAgICAgICAgczNfcGF0aCA9IHNlbGYuX2ZpbGVfdG9fczNfcGF0aChmaWxlLCBkdHlwZSkKICAgICAgICAgICAgcm93c19wZXJfZmlsZVtmaWxlXSA9ICgKICAgICAgICAgICAgICAgIHNlbGYuc3Bhcmsuc3FsKGYiU0VMRUNUIGNvdW50KCopIGZyb20ge2ZpbGVyLl90YWJsZV9uYW1lfSBXSEVSRSByYXdfYXZyb19maWxlPSd7czNfcGF0aH0nIikKICAgICAgICAgICAgICAgICAgICAucmRkLm1hcChsYW1iZGEgeDogeFswXSkKICAgICAgICAgICAgICAgICAgICAuY29sbGVjdCgpWzBdCiAgICAgICAgICAgICkKCiAgICAgICAgZm9yIGZpbGUgaW4gZmlsZXNbMjpdOgogICAgICAgICAgICBzZWxmLl9jb3B5X3RvX3MzKGZpbGUsIGR0eXBlKQogICAgICAgICMgMXN0IGZpbGUgY29ycmVzcG9uZHMgdG8gSmFuIDAxLCAyMDIwCiAgICAgICAgIyB0aGUgb3RoZXIgMyBmaWxlcyBhcmUgZnJvbSBNYXkgMDEgYW5kIDAyLCAyMDIwCiAgICAgICAgIyBvbGRlc3RfY2FwdHVyZV9kYXRlIGhhcyB0byBiZSBvdmVyd3JpdHRlbiB0byBwaWNrIHVwIGFsbCAzIGZpbGVzIGZyb20gTWF5IDIwMjAgYnV0IG5vdCB0aGUgb25lIGZyb20gSmFuIDIwMjAKICAgICAgICBmaWxlci5fb2xkZXN0X3VwbG9hZF90aW1lc3RhbXAgPSBkYXRldGltZS5mcm9tdGltZXN0YW1wKHRpbWVzdGFtcCwgdHo9cHl0ei5VVEMpLnJlcGxhY2UoCiAgICAgICAgICAgIGhvdXI9MCwgbWludXRlPTAsIHNlY29uZD0wLCBtaWNyb3NlY29uZD0wCiAgICAgICAgKQogICAgICAgIGZpbGVyLnJ1bihzZWxmLnNwYXJrKQoKICAgICAgICAjIG5vdyB3ZSBoYXZlIHRvIGNoZWNrIGRhdGEgaW50ZWdyaXR5CiAgICAgICAgbmV3X3Jvd3NfcGVyX2ZpbGUgPSB7fQogICAgICAgIGZvciBmaWxlIGluIGZpbGVzOgogICAgICAgICAgICBzM19wYXRoID0gc2VsZi5fZmlsZV90b19zM19wYXRoKGZpbGUsIGR0eXBlKQogICAgICAgICAgICBuZXdfcm93c19wZXJfZmlsZVtmaWxlXSA9ICgKICAgICAgICAgICAgICAgIHNlbGYuc3Bhcmsuc3FsKGYiU0VMRUNUIGNvdW50KCopIGZyb20ge2ZpbGVyLl90YWJsZV9uYW1lfSBXSEVSRSByYXdfYXZyb19maWxlPSd7czNfcGF0aH0nIikKICAgICAgICAgICAgICAgICAgICAucmRkLm1hcChsYW1iZGEgeDogeFswXSkKICAgICAgICAgICAgICAgICAgICAuY29sbGVjdCgpWzBdCiAgICAgICAgICAgICkKICAgICAgICBhc3NlcnQgcm93c19wZXJfZmlsZVtmaWxlc1swXV0gPT0gbmV3X3Jvd3NfcGVyX2ZpbGVbZmlsZXNbMF1dCiAgICAgICAgYXNzZXJ0IHJvd3NfcGVyX2ZpbGVbZmlsZXNbMV1dID09IG5ld19yb3dzX3Blcl9maWxlW2ZpbGVzWzFdXQogICAgICAgIGFzc2VydCByb3dzX3Blcl9maWxlW2ZpbGVzWzJdXSA9PSByb3dzX3Blcl9maWxlW2ZpbGVzWzNdXSA9PSAwCiAgICAgICAgYXNzZXJ0IG5ld19yb3dzX3Blcl9maWxlW2ZpbGVzWzJdXSA+IDAKICAgICAgICBhc3NlcnQgbmV3X3Jvd3NfcGVyX2ZpbGVbZmlsZXNbM11dID4gMAoKICAgICAgICAjIG5vdyBjaGVjayB0aGF0IHJhdyBhdnJvIGZpbGVzIGhhdmUgdGhlIHNhbWUgbnVtYmVyIG9mIHJvd3MgYXMgd2UgaGF2ZSBpbiB0aGUgdGFibGVzCiAgICAgICAgZm9yIGZpbGUgaW4gZmlsZXM6CiAgICAgICAgICAgIHJvd3MgPSBbXQogICAgICAgICAgICBmaWxlX3BhdGggPSBvcy5wYXRoLmpvaW4oREFUQV9QQVRILCBmaWxlKQogICAgICAgICAgICB3aXRoIG9wZW4oZmlsZV9wYXRoLCAicmIiKSBhcyBmcDoKICAgICAgICAgICAgICAgIHJlYWRlciA9IERhdGFGaWxlUmVhZGVyKGZwLCBEYXR1bVJlYWRlcigpKQogICAgICAgICAgICAgICAgcm93cyArPSBbciBmb3IgciBpbiByZWFkZXJdCiAgICAgICAgICAgIGFzc2VydCBuZXdfcm93c19wZXJfZmlsZVtmaWxlXSA9PSBsZW4ocm93cykK</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQgQXR0cmlidXRlRXJyb3IgYXMgZToKICAgICAgICAgICAgcmV0dXJuIGUKCiAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -932,7 +930,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQgTW9kdWxlTm90Rm91bmRFcnJvciBhcyBlOgogICAgICAgICAgICByZXR1cm4gZQoKICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -966,10 +964,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlcnJvcnMgPSBbXQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1037,19 +1035,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgdWRmX3RvX2ZpbGVfdXJpKHJhd19hdnJvX2ZpbGUsIHJhd19idWNrZXQsIGRlY3J5cHRlZF9idWNrZXQsIHJhd19wcmVmaXgsIGRlY3J5cHRlZF9wcmVmaXgpOgo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gZXJyb3JzCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJhd19wcmVmaXggPSBjb25zdGFudHMuUEhPTkVfTE9HX0FMTF9NRU1CRVJTX1BSRUZJWFs6LTFdCiAgICBkZWNyeXB0ZWRfcHJlZml4ID0gY29uc3RhbnRzLlBIT05FX0xPR19ERUNSWVBURURfQUxMX01FTUJFUlNfUFJFRklYWzotMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgIwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0X3RhYmxlX25hbWUgPSBtb2RlbF9wb2xpY3lbIm91dHB1dF90YWJsZV9uYW1lIl0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChuZXdfZXJyb3IpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG9yIGl0IGNvdWxkIGJlIGFuIGVuY3J5cHRlZCBmaWxlIGxpa2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChuZXdfZXJyb3IpCg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/file_to_load/file_uri/gc</text>
@@ -1058,9 +1056,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>train_method()</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>train_method()</last-pattern>
       <last-replace>file_uri</last-replace>
       <last-substitute>file_to_load</last-substitute>
       <last-dir>1</last-dir>
