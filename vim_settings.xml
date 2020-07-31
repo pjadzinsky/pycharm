@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>prefix</entry>
-        <entry>en</entry>
         <entry>new_rows_per</entry>
         <entry>rows_per_file</entry>
         <entry>regardless</entry>
@@ -25,9 +23,10 @@
         <entry>conc</entry>
         <entry>testing</entry>
         <entry>timestamp</entry>
+        <entry>self.timestamp</entry>
+        <entry>string</entry>
       </history-search>
       <history-cmd>
-        <entry>16,24s/true/True/</entry>
         <entry>148</entry>
         <entry>157</entry>
         <entry>112</entry>
@@ -47,6 +46,7 @@
         <entry>%s/print/logger.info</entry>
         <entry encoding="base64">JzwsJz4yMjc=</entry>
         <entry>227</entry>
+        <entry encoding="base64">JzwsJz5zb3J0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -220,7 +220,7 @@
         <mark key="^" line="70" column="69" />
         <mark key="." line="70" column="68" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596231127841">
+      <file name="/Dummy.txt" timestamp="1596231682585">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="52" />
         <mark key="." line="0" column="52" />
@@ -237,6 +237,13 @@
         <mark key="." line="21" column="53" />
         <mark key="^" line="14" column="44" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" timestamp="1596233257615">
+        <mark key="'" line="14" column="7" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="15" column="11" />
+        <mark key="^" line="12" column="9" />
+        <mark key="." line="15" column="11" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/tests/pytest_runner_stack.json.template" timestamp="1596227926631">
         <mark key="'" line="21" column="14" />
         <mark key="[" line="21" column="33" />
@@ -246,8 +253,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="213" column="0" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
-      <jump line="19" column="23" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="21" column="70" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="26" column="57" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="27" column="62" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
@@ -343,9 +348,11 @@
       <jump line="88" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
       <jump line="188" column="80" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
       <jump line="55" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
-      <jump line="56" column="31" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
       <jump line="79" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
       <jump line="113" column="64" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
+      <jump line="56" column="114" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
+      <jump line="11" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
+      <jump line="14" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/tests/test_filer.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -356,8 +363,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaW50KCJsaWZlX2N5Y2xlX3N0YXRlIiwgbGlmZV9jeWNsZV9zdGF0ZSkK</text>
+      <register name="&quot;" type="4">
+        <text>timestamp</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -905,10 +912,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>status</text>
+        <text>timestamp</text>
       </register>
       <register name="/" type="4">
-        <text>timestamp</text>
+        <text>string</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZWNobyAiU2V0dXAgbG9jYWwgY29uZmlncyIK</text>
@@ -1048,15 +1055,15 @@
         <text encoding="base64">ICAgIHJhaXNlIEVycm9yCg==</text>
       </register>
       <register name=":" type="4">
-        <text>227</text>
+        <text encoding="base64">JzwsJz5zb3J0</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>timestamp</last-search>
+      <last-search>string</last-search>
       <last-offset />
-      <last-pattern>timestamp</last-pattern>
+      <last-pattern>string</last-pattern>
       <last-replace>logger.info</last-replace>
       <last-substitute>print</last-substitute>
       <last-dir>1</last-dir>
