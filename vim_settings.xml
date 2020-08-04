@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>DB_P</entry>
         <entry>databricks</entry>
         <entry>CAN</entry>
         <entry>REN</entry>
@@ -25,9 +24,9 @@
         <entry>BIO</entry>
         <entry>stage</entry>
         <entry encoding="base64">ZGVmIA==</entry>
+        <entry>PACKAGE_URI</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz4yMjc=</entry>
         <entry>227</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>204</entry>
@@ -47,6 +46,7 @@
         <entry>82</entry>
         <entry>43</entry>
         <entry>%s/stage/dev/gc</entry>
+        <entry>268</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -168,8 +168,6 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1596493786582">
         <mark key="'" line="27" column="25" />
         <mark key="[" line="27" column="41" />
-        <mark key="]" line="33" column="0" />
-        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/requirements.txt" timestamp="1596499309690">
         <mark key="]" line="14" column="0" />
@@ -178,14 +176,8 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/care_model.json" timestamp="1596493173990">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/etl/etl_stack.json.template" timestamp="1596488397464">
-        <mark key="[" line="88" column="98" />
-        <mark key="]" line="88" column="77" />
-        <mark key="^" line="88" column="77" />
-        <mark key="." line="88" column="76" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1596495485896">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1596547364006">
+        <mark key="'" line="13" column="11" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1596501375378">
         <mark key="'" line="221" column="37" />
@@ -194,6 +186,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/notebook/pytest_runner.py.template" timestamp="1596547401729">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="36" />
+        <mark key="^" line="9" column="36" />
+        <mark key="." line="9" column="35" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/defaults/libraries.json" timestamp="1596501547039">
         <mark key="[" line="2" column="108" />
@@ -225,7 +223,7 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" timestamp="1596544685506">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/tests/pytest_runner_stack.json.template" timestamp="1596488421717">
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/tests/pytest_runner_stack.json.template" timestamp="1596547336801">
         <mark key="[" line="18" column="98" />
         <mark key="]" line="18" column="76" />
         <mark key="^" line="18" column="76" />
@@ -246,7 +244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/test/common/test_spark_util.py" />
       <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/test/common/test_spark_util.py" />
       <jump line="279" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="11" column="9" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -346,6 +343,7 @@
       <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" />
       <jump line="32" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" />
       <jump line="46" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" />
+      <jump line="13" column="11" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -908,7 +906,7 @@
         <text>pyspark.dbutils</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>PACKAGE_URI</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiTG9hZGluZyBEQlV0aWxzIGZyb20gcHlzcGFyay5kYnV0aWxzIikK</text>
@@ -1048,15 +1046,15 @@
         <text encoding="base64">ZGVmIGdldF9sYXN0X3J1bl9pZChtb2RlbF9uYW1lOiBzdHIpIC0+IHN0cjoKICAgIGNsaWVudCA9IE1sZmxvd0NsaWVudCgpCiAgICBtb2RlbF92ZXJzaW9uID0gW20gZm9yIG0gaW4gY2xpZW50LmdldF9yZWdpc3RlcmVkX21vZGVsKG1vZGVsX25hbWUpLmxhdGVzdF92ZXJzaW9ucyBpZiBtLmN1cnJlbnRfc3RhZ2U9PSdOb25lJ11bMF0KICAgIHJldHVybiBtb2RlbF92ZXJzaW9uLnJ1bl9pZAoKCg==</text>
       </register>
       <register name=":" type="4">
-        <text>%s/stage/dev/gc</text>
+        <text>268</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">ZGVmIA==</last-search>
+      <last-search>PACKAGE_URI</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ZGVmIA==</last-pattern>
+      <last-pattern>PACKAGE_URI</last-pattern>
       <last-replace>dev</last-replace>
       <last-substitute>stage</last-substitute>
       <last-dir>1</last-dir>
