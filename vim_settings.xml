@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>databricks</entry>
         <entry>CAN</entry>
         <entry>REN</entry>
         <entry>config</entry>
@@ -25,9 +24,9 @@
         <entry>stage</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>PACKAGE_URI</entry>
+        <entry>patched</entry>
       </history-search>
       <history-cmd>
-        <entry>227</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>204</entry>
         <entry>103</entry>
@@ -47,6 +46,7 @@
         <entry>43</entry>
         <entry>%s/stage/dev/gc</entry>
         <entry>268</entry>
+        <entry>314</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -147,11 +147,10 @@
         <mark key="^" line="126" column="34" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation_stack.json.template" timestamp="1596488408561">
-        <mark key="[" line="39" column="98" />
-        <mark key="]" line="39" column="76" />
-        <mark key="^" line="39" column="76" />
-        <mark key="." line="39" column="75" />
+      <file name="/Python Console" timestamp="1596550450609">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/README.md" timestamp="1596499431286">
         <mark key="[" line="31" column="15" />
@@ -198,6 +197,13 @@
         <mark key="]" line="2" column="108" />
         <mark key="." line="2" column="108" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1596550448729">
+        <mark key="'" line="290" column="8" />
+        <mark key="[" line="300" column="0" />
+        <mark key="]" line="300" column="0" />
+        <mark key="." line="300" column="0" />
+        <mark key="^" line="300" column="0" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/.gitignore" timestamp="1596498042678">
         <mark key="'" line="8" column="8" />
         <mark key="[" line="39" column="0" />
@@ -236,20 +242,8 @@
         <mark key="^" line="39" column="0" />
         <mark key="." line="6" column="37" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" timestamp="1596490436951">
-        <mark key="'" line="80" column="0" />
-        <mark key="[" line="87" column="0" />
-        <mark key="]" line="87" column="0" />
-        <mark key="." line="87" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/test/common/test_spark_util.py" />
-      <jump line="279" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="11" column="9" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="281" column="58" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="295" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="304" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="337" column="41" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="15" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -344,6 +338,12 @@
       <jump line="32" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" />
       <jump line="46" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/dwh_util.py" />
       <jump line="13" column="11" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="313" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="295" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="288" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="425" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="426" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="290" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -354,8 +354,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>pyspark.dbutils</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG1vbmtleXBhdGNoLnNldGF0dHIoKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -903,16 +903,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>pyspark.dbutils</text>
+        <text>gold_features</text>
       </register>
       <register name="/" type="4">
-        <text>PACKAGE_URI</text>
+        <text>patched</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiTG9hZGluZyBEQlV0aWxzIGZyb20gcHlzcGFyay5kYnV0aWxzIikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoK</text>
+        <text encoding="base64">ICAgIG1vbmtleXBhdGNoLnNldGF0dHIoKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -926,7 +926,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHRyeToK</text>
+        <text encoding="base64">ICAgIG1vbmtleXBhdGNoLnNldGF0dHIob3NfdHlwZSwgImNvbXB1dGUiLCBwYXRjaGVkX2NvbXB1dGUpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -960,10 +960,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZWNobyAiVGhpcyBpcyBkYXRhYnJpY2tzY2ZnIgpjYXQgfi8uZGF0YWJyaWNrc2NmZwoK</text>
+        <text encoding="base64">ICAgIGRlZiBwYXRjaGVkX2NvbXB1dGUocGFuZGFzX2RmLCBwcmVmaXhfbmFtZSwgcGFyYW1zKToKICAgICAgICAiIiIKICAgICAgICBKdXN0IGNvbXB1dGUgdGhlIGRpZmZlcmVuY2UgaW4gdGltZSBiZXR3ZWVuIGNvbnNlY3V0aXZlIHJvd3MuIElmIGdyb3VwZWQgZGF0YWZyYW1lIGlzIHNvcnRlZCwgZGlmZmVyZW5jZQogICAgICAgIHNob3VsZCBiZSA+IDAKCiAgICAgICAgOnBhcmFtIHBhbmRhc19kZjoKICAgICAgICA6cmV0dXJuOgogICAgICAgICIiIgogICAgICAgIHByaW50KCcqJyo4MCkKICAgICAgICBsb2dnZXIuaW5mbygiPyIqNDApCiAgICAgICAgbWluX2RlbHRhID0gcGFuZGFzX2RmLnRpbWVzdGFtcC5kaWZmKCkubWluKCkKICAgICAgICBmZWF0dXJlc19kZiA9IHBkLkRhdGFGcmFtZSgKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImZlYXR1cmVfbmFtZSI6IFsiZmVhdHVyZV9uYW1lIl0sCiAgICAgICAgICAgICAgICAiZmVhdHVyZV92YWx1ZSI6IFttaW5fZGVsdGFdLAogICAgICAgICAgICAgICAgImZlYXR1cmVfZGF0ZSI6IGRhdGUoMjAyMCwgMSwgMiksCiAgICAgICAgICAgICAgICAiZGF0YV91cF90byI6IGRhdGV0aW1lKDIwMjAsIDEsIDMsIDkpLAogICAgICAgICAgICAgICAgIm1pbmRzdHJvbmdfaWQiOiAibTEiLAogICAgICAgICAgICB9CiAgICAgICAgKQogICAgICAgIHJldHVybiBmZWF0dXJlc19kZgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZGF0YWJyaWNrcyBqb2JzIHJ1bi1ub3cgLS1qb2ItaWQgMiAtLXByb2ZpbGUgc3RhZ2UK</text>
+        <text encoding="base64">ICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1031,30 +1031,30 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZGF0YWJyaWNrcyBmcyBscyBkYmZzOi9GaWxlU3RvcmUvamFycy8gLS1wcm9maWxlIHN0YWdlCg==</text>
+        <text encoding="base64">ICAgIHRyeToK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGF0YWJyaWNrcyBmcyBscyBkYmZzOi9GaWxlU3RvcmUvamFycy8gLS1wcm9maWxlIHN0YWdlCg==</text>
+        <text encoding="base64">ZWNobyAiVGhpcyBpcyBkYXRhYnJpY2tzY2ZnIgpjYXQgfi8uZGF0YWJyaWNrc2NmZwoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHB5dHoK</text>
+        <text encoding="base64">ZGF0YWJyaWNrcyBqb2JzIHJ1bi1ub3cgLS1qb2ItaWQgMiAtLXByb2ZpbGUgc3RhZ2UK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHN0YXJ0X2Vwb2NoID0gKAogICAgICAgIGRhdGV0aW1lLmNvbWJpbmUoc3RhcnRfZGF0ZSwgdGltZSgwLCAwLCB0emluZm89cHl0ei50aW1lem9uZSgiQW1lcmljYS9Mb3NfQW5nZWxlcyIpKSkudGltZXN0YW1wKCkgKiAxMDAwCiAgICApCiAgICBlbmRfZXBvY2ggPSAoCiAgICAgICAgZGF0ZXRpbWUuY29tYmluZShlbmRfZGF0ZSwgdGltZSgwLCAwLCB0emluZm89cHl0ei50aW1lem9uZSgiQW1lcmljYS9Mb3NfQW5nZWxlcyIpKSkudGltZXN0YW1wKCkgKiAxMDAwCiAgICApCg==</text>
+        <text encoding="base64">ZGF0YWJyaWNrcyBmcyBscyBkYmZzOi9GaWxlU3RvcmUvamFycy8gLS1wcm9maWxlIHN0YWdlCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIGdldF9sYXN0X3J1bl9pZChtb2RlbF9uYW1lOiBzdHIpIC0+IHN0cjoKICAgIGNsaWVudCA9IE1sZmxvd0NsaWVudCgpCiAgICBtb2RlbF92ZXJzaW9uID0gW20gZm9yIG0gaW4gY2xpZW50LmdldF9yZWdpc3RlcmVkX21vZGVsKG1vZGVsX25hbWUpLmxhdGVzdF92ZXJzaW9ucyBpZiBtLmN1cnJlbnRfc3RhZ2U9PSdOb25lJ11bMF0KICAgIHJldHVybiBtb2RlbF92ZXJzaW9uLnJ1bl9pZAoKCg==</text>
+        <text encoding="base64">ZGF0YWJyaWNrcyBmcyBscyBkYmZzOi9GaWxlU3RvcmUvamFycy8gLS1wcm9maWxlIHN0YWdlCg==</text>
       </register>
       <register name=":" type="4">
-        <text>268</text>
+        <text>314</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>PACKAGE_URI</last-search>
+      <last-search>patched</last-search>
       <last-offset />
-      <last-pattern>PACKAGE_URI</last-pattern>
+      <last-pattern>patched</last-pattern>
       <last-replace>dev</last-replace>
       <last-substitute>stage</last-substitute>
       <last-dir>1</last-dir>
