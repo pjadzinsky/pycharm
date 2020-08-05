@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>This</entry>
         <entry>This is</entry>
         <entry>def get</entry>
         <entry>=</entry>
@@ -25,6 +24,7 @@
         <entry>def run_</entry>
         <entry encoding="base64">ZGVmIA==</entry>
         <entry>ml_bot</entry>
+        <entry>skip</entry>
       </history-search>
       <history-cmd>
         <entry>150</entry>
@@ -175,7 +175,7 @@
         <mark key="." line="32" column="35" />
         <mark key="^" line="32" column="36" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596597201751">
+      <file name="/Dummy.txt" timestamp="1596598426782">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -209,12 +209,12 @@
         <mark key="^" line="36" column="0" />
         <mark key="." line="18" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1596598166796">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="120" column="51" />
-        <mark key="]" line="120" column="91" />
-        <mark key="." line="120" column="51" />
-        <mark key="^" line="114" column="99" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1596601501391">
+        <mark key="'" line="167" column="88" />
+        <mark key="[" line="176" column="0" />
+        <mark key="]" line="176" column="106" />
+        <mark key="." line="176" column="92" />
+        <mark key="^" line="176" column="93" />
       </file>
       <file name="/phone_log_driver.py" timestamp="1596558350844">
         <mark key="[" line="131" column="0" />
@@ -231,18 +231,15 @@
         <mark key="^" line="18" column="76" />
         <mark key="." line="18" column="75" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" timestamp="1596598387492">
+        <mark key="'" line="65" column="93" />
+        <mark key="[" line="10" column="31" />
+        <mark key="]" line="80" column="62" />
+        <mark key="." line="80" column="62" />
+        <mark key="^" line="80" column="68" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="15" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="20" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="44" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="65" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="80" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="171" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="197" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
-      <jump line="32" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="27" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="51" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="202" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
@@ -333,6 +330,16 @@
       <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="80" column="16" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="76" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
+      <jump line="80" column="67" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
+      <jump line="20" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
+      <jump line="65" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
+      <jump line="166" column="103" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="176" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="114" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="116" column="43" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
+      <jump line="167" column="88" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -343,8 +350,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IG9yIGNvbmZpZy5EQl9CT1RfVVNFUiBpcyBub3QgbWxfYm90X2Rldg==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigibm90IHNwYXJrX3V0aWwuaXNfcnVubmluZ19pbl9kYXRhYnJpY2tzKCkgb3IgY29uZmlnLkRCX0JPVF9VU0VSIGlzIG5vdCAnbWxfYm90X2RldiciKQo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -892,13 +899,13 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>timestamp</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
-        <text>ml_bot</text>
+        <text>skip</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">IG9yIGNvbmZpZy5EQl9CT1RfVVNFUiBpcyBub3QgbWxfYm90X2Rldg==</text>
+      <register name="0" type="2">
+        <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigibm90IHNwYXJrX3V0aWwuaXNfcnVubmluZ19pbl9kYXRhYnJpY2tzKCkgb3IgY29uZmlnLkRCX0JPVF9VU0VSIGlzIG5vdCAnbWxfYm90X2RldiciKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">QHB5dGVzdC5tYXJrLnNraXBpZigiY29uZmlnLkRCX0JPVF9VU0VSIGlzIG5vdCAnbWxfYm90X2RldiciKQo=</text>
@@ -1041,9 +1048,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>ml_bot</last-search>
+      <last-search>skip</last-search>
       <last-offset />
-      <last-pattern>ml_bot</last-pattern>
+      <last-pattern>skip</last-pattern>
       <last-replace>dev</last-replace>
       <last-substitute>stage</last-substitute>
       <last-dir>1</last-dir>
