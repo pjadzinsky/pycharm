@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Window</entry>
         <entry>pivot</entry>
         <entry>def test_driver</entry>
         <entry>db_utils</entry>
@@ -25,6 +24,7 @@
         <entry>date</entry>
         <entry>Un</entry>
         <entry>Union</entry>
+        <entry>TimestampT</entry>
       </history-search>
       <history-cmd>
         <entry>194</entry>
@@ -140,24 +140,24 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1596779433629">
-        <mark key="'" line="24" column="26" />
-        <mark key="[" line="26" column="99" />
-        <mark key="]" line="26" column="99" />
-        <mark key="." line="26" column="99" />
-        <mark key="^" line="26" column="92" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1596815005052">
+        <mark key="'" line="7" column="87" />
+        <mark key="[" line="62" column="120" />
+        <mark key="]" line="62" column="117" />
+        <mark key="." line="62" column="116" />
+        <mark key="^" line="62" column="117" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1596740859243">
         <mark key="'" line="320" column="36" />
         <mark key="[" line="184" column="0" />
         <mark key="]" line="184" column="85" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1596778007472">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1596814903757">
         <mark key="'" line="68" column="0" />
-        <mark key="[" line="68" column="113" />
-        <mark key="]" line="68" column="120" />
+        <mark key="[" line="3" column="29" />
+        <mark key="]" line="3" column="29" />
         <mark key="^" line="68" column="120" />
-        <mark key="." line="68" column="119" />
+        <mark key="." line="3" column="29" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/text_type_ratios_ios.json" timestamp="1596730759870">
         <mark key="[" line="4" column="14" />
@@ -192,7 +192,7 @@
         <mark key="." line="95" column="0" />
         <mark key="^" line="93" column="41" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596774740968">
+      <file name="/Dummy.txt" timestamp="1596815014059">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="11" />
         <mark key="." line="0" column="11" />
@@ -248,7 +248,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="298" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="434" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="160" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="182" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -348,6 +347,7 @@
       <jump line="47" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="16" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="68" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="7" column="87" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -359,7 +359,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>, schema=schema</text>
+        <text>BooleanType</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -907,16 +907,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>, schema=schema</text>
+        <text>BooleanType</text>
       </register>
       <register name="/" type="4">
-        <text>Union</text>
+        <text>TimestampT</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzcWwgPSBmIiIiSU5TRVJUIElOVE8gVm15X3RhYmxlCiAgICAgICAgICAgICAgU0VMRUNUICogRlJPTSBteV90YWJsZSBUSU1FU1RBTVAgQVMgT0YgZGF0ZV9zdWIoY3VycmVudF9kYXRlKCksIDEpCiAgICAgICAgICAgICAgV0hFUkUgdXNlcklkID0gMTExCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkYl91dGlscy5jcmVhdGVfdGFibGUodGVtcF9kYlsibmFtZSJdLCBzY2hlbWFfbmFtZSwgc3BhcmspCg==</text>
+        <text encoding="base64">aW1wb3J0IHB5dGVzdAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -930,7 +930,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IiIiCg==</text>
+        <text encoding="base64">ICAgICAgICBkYl91dGlscy5jcmVhdGVfdGFibGUodGVtcF9kYlsibmFtZSJdLCBzY2hlbWFfbmFtZSwgc3BhcmspCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -964,10 +964,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIFdIRVJFIHVzZXJJZCA9IDExMQo=</text>
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIFNFTEVDVCAqIEZST00gbXlfdGFibGUgVElNRVNUQU1QIEFTIE9GIGRhdGVfc3ViKGN1cnJlbnRfZGF0ZSgpLCAxKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIFdIRVJFIHVzZXJJZCA9IDExMQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1035,19 +1035,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0ZW1wX3ZpZXcgPSAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIFNFTEVDVCAqIEZST00gbXlfdGFibGUgVElNRVNUQU1QIEFTIE9GIGRhdGVfc3ViKGN1cnJlbnRfZGF0ZSgpLCAxKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0ZW1wX3RhYmxlID0gCg==</text>
+        <text encoding="base64">ICAgICAgICB0ZW1wX3ZpZXcgPSAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">awo=</text>
+        <text encoding="base64">ICAgICAgICB0ZW1wX3RhYmxlID0gCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGJfdXRpbHMuawo=</text>
+        <text encoding="base64">awo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGJfdXRpbHMuawo=</text>
       </register>
       <register name=":" type="4">
         <text>69</text>
@@ -1056,9 +1056,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Union</last-search>
+      <last-search>TimestampT</last-search>
       <last-offset />
-      <last-pattern>Union</last-pattern>
+      <last-pattern>TimestampT</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
