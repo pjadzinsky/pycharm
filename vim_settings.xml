@@ -27,7 +27,6 @@
         <entry>train_merged</entry>
       </history-search>
       <history-cmd>
-        <entry>34</entry>
         <entry>28</entry>
         <entry>3</entry>
         <entry>219,238s/,.*$//</entry>
@@ -47,6 +46,7 @@
         <entry>180</entry>
         <entry>440</entry>
         <entry>414</entry>
+        <entry>128</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -154,12 +154,12 @@
         <mark key="^" line="178" column="37" />
         <mark key="." line="178" column="36" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1596838430545">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1596839384618">
         <mark key="'" line="19" column="0" />
-        <mark key="[" line="127" column="52" />
-        <mark key="]" line="127" column="67" />
-        <mark key="." line="127" column="66" />
-        <mark key="^" line="127" column="67" />
+        <mark key="[" line="123" column="19" />
+        <mark key="]" line="123" column="25" />
+        <mark key="." line="123" column="24" />
+        <mark key="^" line="123" column="25" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1596814903757">
         <mark key="'" line="68" column="0" />
@@ -193,6 +193,13 @@
         <mark key="^" line="76" column="8" />
         <mark key="." line="28" column="0" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" timestamp="1596840748270">
+        <mark key="'" line="121" column="0" />
+        <mark key="[" line="81" column="46" />
+        <mark key="]" line="81" column="81" />
+        <mark key="^" line="81" column="81" />
+        <mark key="." line="81" column="80" />
+      </file>
       <file name="/Python Console" timestamp="1596835973946">
         <mark key="[" line="0" column="0" />
       </file>
@@ -214,26 +221,22 @@
         <mark key="^" line="107" column="82" />
         <mark key="." line="6" column="43" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1596830787265">
+      <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1596840462711">
         <mark key="'" line="103" column="32" />
         <mark key="[" line="219" column="76" />
-        <mark key="^" line="33" column="1" />
+        <mark key="]" line="219" column="76" />
+        <mark key="^" line="219" column="76" />
+        <mark key="." line="219" column="75" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596838458883">
+      <file name="/Dummy.txt" timestamp="1596840908642">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/Jenkinsfile_stage" timestamp="1596836381508">
-        <mark key="'" line="34" column="0" />
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="34" column="34" />
-        <mark key="^" line="1" column="7" />
-        <mark key="." line="34" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/notebook/monitoring_features.py.template" timestamp="1596774661852">
-        <mark key="[" line="12" column="4" />
-        <mark key="]" line="12" column="9" />
-        <mark key="^" line="12" column="10" />
-        <mark key="." line="12" column="9" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/Jenkinsfile_stage" timestamp="1596840835510">
+        <mark key="'" line="37" column="0" />
+        <mark key="[" line="4" column="40" />
+        <mark key="]" line="4" column="40" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="4" column="40" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1596823254700">
         <mark key="'" line="116" column="43" />
@@ -256,7 +259,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="65" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="258" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="307" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -356,6 +358,7 @@
       <jump line="393" column="55" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="394" column="53" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="414" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="37" column="0" filename="$USER_HOME$/MindstrongRepos/mason/Jenkinsfile_stage" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -366,8 +369,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChlKQo=</text>
+      <register name="&quot;" type="4">
+        <text>stage</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -915,16 +918,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>stage</text>
       </register>
       <register name="/" type="4">
         <text>train_merged</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZWNobyAiUnVubmluZyB0ZXN0cyBpbiBEYXRhYnJpY2tzIgo=</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYiRmlyc3QgbGluZXMgb2YgdGVtcF9kZi4uLiIpCiAgICBsb2dnZXIuaW5mbyhmInt0ZW1wX2ZlYXR1cmVzLnNob3coKX0iKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChlKQo=</text>
+        <text encoding="base64">bW9kZWxfc2NvcmluZ19zdGFjay5qc29uLnRlbXBsYXRlIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -938,7 +941,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
+        <text encoding="base64">L29wdC9kYXRhYnJpY2tzL3JlbmRlcmVkL3N0YWdlL21vZGVsX3Njb3Jpbmdfc3RhY2suZGVwbG95ZWQuanNvbi50ZW1wbGF0ZQpweXRob24gYWRtaW4vY29uZmlndXJhdG9yLnB5IC0tdW5kZXBsb3kgbW9kZWxfc2NvcmluZ19zdGFjay5qc29uLnRlbXBsYXRlIC0tcHJvZmlsZSBzdGFnZQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -972,10 +975,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjZXJyb3JzLmFwcGVuZChzeXMuZXhjX2luZm8oKSkK</text>
+        <text encoding="base64">ICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChlKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1043,22 +1046,22 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjZXJyb3JzLmFwcGVuZChzeXMuZXhjX2luZm8oKSkK</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgXywgXywgdHJhY2ViYWNrXyBpbiBlcnJvcnM6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCIqIiAqIDgwKQogICAgICAgICAgICB0cmFjZWJhY2sucHJpbnRfdGIodHJhY2ViYWNrXykK</text>
+        <text encoding="base64">aW1wb3J0IHN5cwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSB0cmFjZWJhY2sgaW1wb3J0IAo=</text>
+        <text encoding="base64">ICAgICAgICAjZXJyb3JzLmFwcGVuZChzeXMuZXhjX2luZm8oKSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVycm9ycy5hcHBlbmQoQXR0cmlidXRlRXJyb3IoIm1pc3Npbmcgc29tZSBhdHRyaWJ1dGUiKSkK</text>
+        <text encoding="base64">ICAgICAgICAjZXJyb3JzLmFwcGVuZChzeXMuZXhjX2luZm8oKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpbXBvcnQgdHJhY2ViYWNrCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgXywgXywgdHJhY2ViYWNrXyBpbiBlcnJvcnM6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCIqIiAqIDgwKQogICAgICAgICAgICB0cmFjZWJhY2sucHJpbnRfdGIodHJhY2ViYWNrXykK</text>
       </register>
       <register name=":" type="4">
-        <text>414</text>
+        <text>128</text>
       </register>
     </registers>
   </component>
