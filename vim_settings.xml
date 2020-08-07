@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>' '</entry>
-        <entry>print</entry>
         <entry>Window</entry>
         <entry>pivot</entry>
         <entry>def test_driver</entry>
@@ -25,10 +23,10 @@
         <entry>android_files</entry>
         <entry>datetime</entry>
         <entry>date</entry>
+        <entry>Un</entry>
+        <entry>Union</entry>
       </history-search>
       <history-cmd>
-        <entry>200</entry>
-        <entry>282</entry>
         <entry>194</entry>
         <entry>52</entry>
         <entry>203</entry>
@@ -47,6 +45,8 @@
         <entry>216</entry>
         <entry>243</entry>
         <entry>q</entry>
+        <entry>79</entry>
+        <entry>69</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,24 +140,24 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1596777576354">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1596779433629">
         <mark key="'" line="24" column="26" />
-        <mark key="[" line="12" column="27" />
-        <mark key="]" line="15" column="65" />
-        <mark key="." line="15" column="64" />
-        <mark key="^" line="15" column="65" />
+        <mark key="[" line="26" column="99" />
+        <mark key="]" line="26" column="99" />
+        <mark key="." line="26" column="99" />
+        <mark key="^" line="26" column="92" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1596740859243">
         <mark key="'" line="320" column="36" />
         <mark key="[" line="184" column="0" />
         <mark key="]" line="184" column="85" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1596777042443">
-        <mark key="'" line="39" column="0" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="83" />
-        <mark key="^" line="46" column="24" />
-        <mark key="." line="46" column="33" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1596778007472">
+        <mark key="'" line="68" column="0" />
+        <mark key="[" line="68" column="113" />
+        <mark key="]" line="68" column="120" />
+        <mark key="^" line="68" column="120" />
+        <mark key="." line="68" column="119" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/text_type_ratios_ios.json" timestamp="1596730759870">
         <mark key="[" line="4" column="14" />
@@ -176,7 +176,7 @@
         <mark key="." line="9" column="4" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/spark_util.py" timestamp="1596746728125" />
-      <file name="/Python Console" timestamp="1596776787242">
+      <file name="/Python Console" timestamp="1596779435716">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" timestamp="1596759254946">
@@ -248,7 +248,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="386" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="298" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="434" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="160" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -348,6 +347,7 @@
       <jump line="1" column="34" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="47" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="16" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
+      <jump line="68" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -359,7 +359,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>table_view</text>
+        <text>, schema=schema</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -907,10 +907,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>table_view</text>
+        <text>, schema=schema</text>
       </register>
       <register name="/" type="4">
-        <text>date</text>
+        <text>Union</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzcWwgPSBmIiIiSU5TRVJUIElOVE8gVm15X3RhYmxlCiAgICAgICAgICAgICAgU0VMRUNUICogRlJPTSBteV90YWJsZSBUSU1FU1RBTVAgQVMgT0YgZGF0ZV9zdWIoY3VycmVudF9kYXRlKCksIDEpCiAgICAgICAgICAgICAgV0hFUkUgdXNlcklkID0gMTExCg==</text>
@@ -1050,15 +1050,15 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>69</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>date</last-search>
+      <last-search>Union</last-search>
       <last-offset />
-      <last-pattern>date</last-pattern>
+      <last-pattern>Union</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
