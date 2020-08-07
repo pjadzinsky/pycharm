@@ -161,7 +161,7 @@
         <mark key="." line="4" column="15" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/spark_util.py" timestamp="1596746728125" />
-      <file name="/Python Console" timestamp="1596759841932">
+      <file name="/Python Console" timestamp="1596760623891">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" timestamp="1596759254946">
@@ -185,10 +185,10 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1596681328346">
         <mark key="^" line="33" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596756191618">
+      <file name="/Dummy.txt" timestamp="1596760825882">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="]" line="0" column="11" />
+        <mark key="." line="0" column="11" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/notebook/pytest_runner.py.template" timestamp="1596745489872">
         <mark key="[" line="12" column="4" />
@@ -196,11 +196,11 @@
         <mark key="^" line="8" column="0" />
         <mark key="." line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1596744670363">
-        <mark key="[" line="267" column="67" />
-        <mark key="]" line="267" column="66" />
-        <mark key="^" line="267" column="66" />
-        <mark key="." line="267" column="65" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1596760496668">
+        <mark key="[" line="260" column="65" />
+        <mark key="]" line="260" column="65" />
+        <mark key="^" line="251" column="9" />
+        <mark key="." line="260" column="65" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" timestamp="1596759501207">
         <mark key="'" line="5" column="39" />
@@ -209,12 +209,12 @@
         <mark key="." line="30" column="43" />
         <mark key="^" line="30" column="44" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1596759838678">
-        <mark key="'" line="388" column="92" />
-        <mark key="[" line="172" column="78" />
-        <mark key="]" line="172" column="79" />
-        <mark key="." line="172" column="79" />
-        <mark key="^" line="203" column="24" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1596760707998">
+        <mark key="'" line="386" column="92" />
+        <mark key="[" line="202" column="0" />
+        <mark key="]" line="202" column="0" />
+        <mark key="." line="202" column="0" />
+        <mark key="^" line="203" column="82" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/time_checks.json" timestamp="1596730762739">
         <mark key="[" line="4" column="16" />
@@ -342,8 +342,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRyeToKICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwoKICAgICAgICBkYnV0aWxzID0gREJVdGlscyhzcGFyaykKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBpbXBvcnQgSVB5dGhvbgoKICAgICAgICBkYnV0aWxzID0gSVB5dGhvbi5nZXRfaXB5dGhvbigpLnVzZXJfbnNbImRidXRpbHMiXQo=</text>
+      <register name="&quot;" type="4">
+        <text>Changing test_driver to be local, no need to run in databricks</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -891,7 +891,7 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>com</text>
+        <text>Changing test_driver to be local, no need to run in databricks</text>
       </register>
       <register name="/" type="4">
         <text>2020, 10</text>
@@ -900,7 +900,7 @@
         <text encoding="base64">ICAgIGFzc2VydCBjb21wdXRlZC50aW1lc3RhbXBfbG9jYWwuaWxvY1sxXSA9PSBmIntzdGFydCArIHRpbWVkZWx0YShob3Vycz0xKX0iCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHRyeToKICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwoKICAgICAgICBkYnV0aWxzID0gREJVdGlscyhzcGFyaykKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBpbXBvcnQgSVB5dGhvbgoKICAgICAgICBkYnV0aWxzID0gSVB5dGhvbi5nZXRfaXB5dGhvbigpLnVzZXJfbnNbImRidXRpbHMiXQo=</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmIntkZi5zaG93KCl9IikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -914,7 +914,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludChkZi5zaG93KCkpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -948,10 +948,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGYie2VuZH0iXQo=</text>
+        <text encoding="base64">ICAgIHRyeToKICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwoKICAgICAgICBkYnV0aWxzID0gREJVdGlscyhzcGFyaykKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBpbXBvcnQgSVB5dGhvbgoKICAgICAgICBkYnV0aWxzID0gSVB5dGhvbi5nZXRfaXB5dGhvbigpLnVzZXJfbnNbImRidXRpbHMiXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZGVmIHRlc3RfZmFrZV9hY3Rpdml0eV8yX2hvdXIoKTogc3RhcnQgPSBkYXRldGltZSgyMDIwLCAxLCAyLCAxMCwgdHppbmZvPXB5dHouVVRDKQogICAgZW5kID0gZGF0ZXRpbWUoMjAyMCwgMSwgMiwgMTEsIHR6aW5mbz1weXR6LlVUQykKICAgIGNvbXB1dGVkID0gZmFrZV9waG9uZV9sb2cuZmFrZV9hY3Rpdml0eShzdGFydCwgMSwgJ2gnLCAyKQogICAgYXNzZXJ0IGNvbXB1dGVkLnNoYXBlWzBdID09IDIKICAgIGFzc2VydCBjb21wdXRlZC50aW1lc3RhbXBfbG9jYWwudmFsdWVzLnRvbGlzdCgpID09IFtmIntzdGFydH0iLCBmIntlbmR9Il0K</text>
+        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1019,19 +1019,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFtzdGFydCwgZW5kXQo=</text>
+        <text encoding="base64">ICAgIGYie2VuZH0iXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVmIGZha2VfYWN0aXZpdHkoc3RhcnRfZGF0ZXRpbWUsIGR1cmF0aW9uLCB1bml0LCBudW1fZXZlbnRzLCAqKmt3YXJncyk6Cg==</text>
+        <text encoding="base64">ZGVmIHRlc3RfZmFrZV9hY3Rpdml0eV8yX2hvdXIoKTogc3RhcnQgPSBkYXRldGltZSgyMDIwLCAxLCAyLCAxMCwgdHppbmZvPXB5dHouVVRDKQogICAgZW5kID0gZGF0ZXRpbWUoMjAyMCwgMSwgMiwgMTEsIHR6aW5mbz1weXR6LlVUQykKICAgIGNvbXB1dGVkID0gZmFrZV9waG9uZV9sb2cuZmFrZV9hY3Rpdml0eShzdGFydCwgMSwgJ2gnLCAyKQogICAgYXNzZXJ0IGNvbXB1dGVkLnNoYXBlWzBdID09IDIKICAgIGFzc2VydCBjb21wdXRlZC50aW1lc3RhbXBfbG9jYWwudmFsdWVzLnRvbGlzdCgpID09IFtmIntzdGFydH0iLCBmIntlbmR9Il0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIFtzdGFydCwgZW5kXQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZiA9IHNwYXJrLnNxbChmIlNFTEVDVCAqIEZST00ge3RlbXBfZGJbJ2RiX25hbWUnXX0ue3RhYmxlX25hbWV9IikK</text>
+        <text encoding="base64">ZGVmIGZha2VfYWN0aXZpdHkoc3RhcnRfZGF0ZXRpbWUsIGR1cmF0aW9uLCB1bml0LCBudW1fZXZlbnRzLCAqKmt3YXJncyk6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRyaXZlci5ydW4oZGF0ZSgyMDIwLCAxMCwgMiksIGRhdGUoMjAyMCwgMTAsIDMpKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>243</text>
