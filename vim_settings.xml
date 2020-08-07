@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Union</entry>
         <entry>TimestampT</entry>
         <entry>da</entry>
         <entry>Seq</entry>
@@ -25,11 +24,9 @@
         <entry>append</entry>
         <entry>import</entry>
         <entry>T</entry>
+        <entry>train_merged</entry>
       </history-search>
       <history-cmd>
-        <entry>268</entry>
-        <entry>182</entry>
-        <entry>314</entry>
         <entry>34</entry>
         <entry>28</entry>
         <entry>3</entry>
@@ -47,6 +44,9 @@
         <entry>350</entry>
         <entry>202</entry>
         <entry>31</entry>
+        <entry>180</entry>
+        <entry>440</entry>
+        <entry>414</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -147,19 +147,19 @@
         <mark key="." line="62" column="116" />
         <mark key="^" line="62" column="117" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1596832925053">
-        <mark key="'" line="178" column="24" />
-        <mark key="[" line="374" column="64" />
-        <mark key="]" line="374" column="102" />
-        <mark key="^" line="374" column="102" />
-        <mark key="." line="374" column="101" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1596838277819">
+        <mark key="'" line="414" column="12" />
+        <mark key="[" line="177" column="43" />
+        <mark key="]" line="178" column="37" />
+        <mark key="^" line="178" column="37" />
+        <mark key="." line="178" column="36" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1596823079478">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1596838430545">
         <mark key="'" line="19" column="0" />
-        <mark key="[" line="115" column="21" />
-        <mark key="]" line="115" column="84" />
-        <mark key="." line="115" column="84" />
-        <mark key="^" line="115" column="63" />
+        <mark key="[" line="127" column="52" />
+        <mark key="]" line="127" column="67" />
+        <mark key="." line="127" column="66" />
+        <mark key="^" line="127" column="67" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1596814903757">
         <mark key="'" line="68" column="0" />
@@ -219,7 +219,7 @@
         <mark key="[" line="219" column="76" />
         <mark key="^" line="33" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596836707515">
+      <file name="/Dummy.txt" timestamp="1596838458883">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/Jenkinsfile_stage" timestamp="1596836381508">
@@ -256,12 +256,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="456" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="280" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="300" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="453" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="20" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="33" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="47" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="65" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="258" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
@@ -356,6 +350,12 @@
       <jump line="70" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="91" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="108" column="92" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="389" column="47" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="413" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="386" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="393" column="55" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="394" column="53" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="414" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -918,7 +918,7 @@
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>T</text>
+        <text>train_merged</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZWNobyAiUnVubmluZyB0ZXN0cyBpbiBEYXRhYnJpY2tzIgo=</text>
@@ -1058,15 +1058,15 @@
         <text encoding="base64">ICAgICAgICBpbXBvcnQgdHJhY2ViYWNrCg==</text>
       </register>
       <register name=":" type="4">
-        <text>31</text>
+        <text>414</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>T</last-search>
+      <last-search>train_merged</last-search>
       <last-offset />
-      <last-pattern>T</last-pattern>
+      <last-pattern>train_merged</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
