@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>logger</entry>
-        <entry>sorted</entry>
         <entry>class S</entry>
         <entry>,.*$</entry>
         <entry>' '</entry>
@@ -25,6 +23,8 @@
         <entry>monkey</entry>
         <entry>monke</entry>
         <entry>2020, 10</entry>
+        <entry>json_files</entry>
+        <entry>android_files</entry>
       </history-search>
       <history-cmd>
         <entry>200</entry>
@@ -185,7 +185,7 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1596681328346">
         <mark key="^" line="33" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1596760825882">
+      <file name="/Dummy.txt" timestamp="1596763446688">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="11" />
         <mark key="." line="0" column="11" />
@@ -209,12 +209,12 @@
         <mark key="." line="30" column="43" />
         <mark key="^" line="30" column="44" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1596760707998">
-        <mark key="'" line="386" column="92" />
-        <mark key="[" line="202" column="0" />
-        <mark key="]" line="202" column="0" />
-        <mark key="." line="202" column="0" />
-        <mark key="^" line="203" column="82" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1596763444870">
+        <mark key="'" line="212" column="60" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="268" column="13" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/time_checks.json" timestamp="1596730762739">
         <mark key="[" line="4" column="16" />
@@ -232,19 +232,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="80" column="16" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="76" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="13" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="80" column="67" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="20" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="65" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_dwh_util.py" />
-      <jump line="166" column="103" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="176" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="114" column="93" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="116" column="43" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="167" column="88" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="22" column="1" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -284,7 +271,6 @@
       <jump line="12" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="240" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="320" column="36" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="315" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
       <jump line="42" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="1" column="1" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="16" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
@@ -332,6 +318,20 @@
       <jump line="34" column="57" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
       <jump line="5" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
       <jump line="93" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
+      <jump line="456" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="280" column="74" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="300" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="453" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="20" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="33" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="47" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="65" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="258" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="307" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="287" column="90" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="315" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="268" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="212" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -342,8 +342,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>Changing test_driver to be local, no need to run in databricks</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">aW1wb3J0IGpzb24K</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -891,16 +891,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>Changing test_driver to be local, no need to run in databricks</text>
+        <text>android_files</text>
       </register>
       <register name="/" type="4">
-        <text>2020, 10</text>
+        <text>android_files</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGFzc2VydCBjb21wdXRlZC50aW1lc3RhbXBfbG9jYWwuaWxvY1sxXSA9PSBmIntzdGFydCArIHRpbWVkZWx0YShob3Vycz0xKX0iCg==</text>
+        <text encoding="base64">ICAgIGFuZHJvaWRfZmlsZXMgPSBkaWN0X3RvX2pzb25fZmlsZSh7CiAgICAgICAgIm1vZHVsZSI6ICJtYXNvbi5mZWF0dXJlcy5waG9uZV9sb2cuZ29sZF9mZWF0dXJlcy5vc190eXBlIiwKICAgICAgICAiaW5wdXRfdGFibGVfbmFtZSI6ICJhbmRyb2lkX3Nlc3Npb24iLAogICAgICAgICJudW1fZGF5cyI6IDEsCiAgICAgICAgImZlYXR1cmVfbmFtZV9wcmVmaXgiOiAib3NfdHlwZSIsCiAgICAgICAgInBhcmFtcyI6IHsib3NfdHlwZSI6ICJhbmRyb2lkIn0sCiAgICB9LCAnanNvbl9maWxlJykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmIntkZi5zaG93KCl9IikK</text>
+        <text encoding="base64">aW1wb3J0IGpzb24K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -914,7 +914,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChkZi5zaG93KCkpCg==</text>
+        <text encoding="base64">ICAgIGFuZHJvaWRfZmlsZXMgPSBbaiBmb3IgaiBpbiBqc29uX2ZpbGVzIGlmICJhbmRyb2lkIiBpbiBqLm5hbWVdCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -948,10 +948,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHRyeToKICAgICAgICBmcm9tIHB5c3BhcmsuZGJ1dGlscyBpbXBvcnQgREJVdGlscwoKICAgICAgICBkYnV0aWxzID0gREJVdGlscyhzcGFyaykKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBpbXBvcnQgSVB5dGhvbgoKICAgICAgICBkYnV0aWxzID0gSVB5dGhvbi5nZXRfaXB5dGhvbigpLnVzZXJfbnNbImRidXRpbHMiXQo=</text>
+        <text encoding="base64">ICAgIGFuZHJvaWRfZmlsZXMgPSBbaiBmb3IgaiBpbiBqc29uX2ZpbGVzIGlmICJhbmRyb2lkIiBpbiBqLm5hbWVdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHNwYXJrID0gc3BhcmtfdXRpbC5nZXRfb3JfY3JlYXRlX3NwYXJrKCkK</text>
+        <text encoding="base64">ICAgIH0pCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1019,16 +1019,16 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGYie2VuZH0iXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVmIHRlc3RfZmFrZV9hY3Rpdml0eV8yX2hvdXIoKTogc3RhcnQgPSBkYXRldGltZSgyMDIwLCAxLCAyLCAxMCwgdHppbmZvPXB5dHouVVRDKQogICAgZW5kID0gZGF0ZXRpbWUoMjAyMCwgMSwgMiwgMTEsIHR6aW5mbz1weXR6LlVUQykKICAgIGNvbXB1dGVkID0gZmFrZV9waG9uZV9sb2cuZmFrZV9hY3Rpdml0eShzdGFydCwgMSwgJ2gnLCAyKQogICAgYXNzZXJ0IGNvbXB1dGVkLnNoYXBlWzBdID09IDIKICAgIGFzc2VydCBjb21wdXRlZC50aW1lc3RhbXBfbG9jYWwudmFsdWVzLnRvbGlzdCgpID09IFtmIntzdGFydH0iLCBmIntlbmR9Il0K</text>
+        <text encoding="base64">ICAgICAgICAibW9kdWxlIjogIm1hc29uLmZlYXR1cmVzLnBob25lX2xvZy5nb2xkX2ZlYXR1cmVzLm9zX3R5cGUiLAogICAgICAgICJpbnB1dF90YWJsZV9uYW1lIjogdGFibGUsCiAgICAgICAgIm51bV9kYXlzIjogMSwKICAgICAgICAiZmVhdHVyZV9uYW1lX3ByZWZpeCI6ICJvc190eXBlIiwKICAgICAgICAicGFyYW1zIjogeyJvc190eXBlIjogb3N9LAogICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFtzdGFydCwgZW5kXQo=</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZGVmIGZha2VfYWN0aXZpdHkoc3RhcnRfZGF0ZXRpbWUsIGR1cmF0aW9uLCB1bml0LCBudW1fZXZlbnRzLCAqKmt3YXJncyk6Cg==</text>
+        <text encoding="base64">anNvbl9kYXRhID0gewogICAgIm1vZHVsZSI6ICJtYXNvbi5mZWF0dXJlcy5waG9uZV9sb2cuZ29sZF9mZWF0dXJlcy5vc190eXBlIiwKICAgICJpbnB1dF90YWJsZV9uYW1lIjogdGFibGUsCiAgICAibnVtX2RheXMiOiAxLAogICAgImZlYXR1cmVfbmFtZV9wcmVmaXgiOiAib3NfdHlwZSIsCiAgICAicGFyYW1zIjogeyJvc190eXBlIjogb3N9LAp9Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -1040,9 +1040,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>2020, 10</last-search>
+      <last-search>android_files</last-search>
       <last-offset />
-      <last-pattern>2020, 10</last-pattern>
+      <last-pattern>android_files</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
