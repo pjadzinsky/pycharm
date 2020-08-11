@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>MlflowClient</entry>
-        <entry>Ml</entry>
         <entry>def test_</entry>
         <entry>def fake</entry>
         <entry>mlflow-experiment</entry>
@@ -25,6 +23,8 @@
         <entry>bioma</entry>
         <entry>date</entry>
         <entry>wide</entry>
+        <entry>def _</entry>
+        <entry>def get_</entry>
       </history-search>
       <history-cmd>
         <entry>42</entry>
@@ -170,8 +170,8 @@
         <mark key="^" line="25" column="0" />
         <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597120143893">
-        <mark key="'" line="145" column="11" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597159436511">
+        <mark key="'" line="90" column="10" />
         <mark key="[" line="192" column="0" />
         <mark key="]" line="192" column="85" />
       </file>
@@ -237,10 +237,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="175" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="192" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="202" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="211" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="219" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
       <jump line="117" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
@@ -337,6 +333,10 @@
       <jump line="43" column="39" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="37" column="56" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="145" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="190" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="250" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="90" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -899,7 +899,7 @@
         <text>model_name</text>
       </register>
       <register name="/" type="4">
-        <text>wide</text>
+        <text>def get_</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHRhbGxfdG9fd2lkZV9zcGFya19jb252ZXJzaW9uKHRhbGxfZGY6IFNwYXJrREYpIC0+IFR1cGxlW1NwYXJrREYsIFNlcXVlbmNlW3N0cl1dOgo=</text>
@@ -1045,9 +1045,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>wide</last-search>
+      <last-search>def get_</last-search>
       <last-offset />
-      <last-pattern>wide</last-pattern>
+      <last-pattern>def get_</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
