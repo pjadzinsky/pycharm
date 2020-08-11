@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>exp_name</entry>
         <entry>E</entry>
         <entry>ful</entry>
         <entry>full</entry>
@@ -25,6 +24,7 @@
         <entry>9:00</entry>
         <entry>con</entry>
         <entry>BIO</entry>
+        <entry>pivot</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -168,8 +168,8 @@
         <mark key="^" line="31" column="55" />
         <mark key="." line="31" column="54" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597159436511">
-        <mark key="'" line="90" column="10" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597175508356">
+        <mark key="'" line="172" column="8" />
         <mark key="[" line="192" column="0" />
         <mark key="]" line="192" column="85" />
       </file>
@@ -240,7 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="13" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="17" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="20" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -340,6 +339,7 @@
       <jump line="28" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="3" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="65" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="172" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -902,7 +902,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>BIO</text>
+        <text>pivot</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsicnVuX2lkIjogInJ1bl9pZF8xIiwgInByb2RfZGF0ZSI6ICIyMDIwLTAzLTAxfSwK</text>
@@ -1048,9 +1048,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>BIO</last-search>
+      <last-search>pivot</last-search>
       <last-offset />
-      <last-pattern>BIO</last-pattern>
+      <last-pattern>pivot</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
