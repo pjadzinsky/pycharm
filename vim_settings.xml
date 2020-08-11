@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">ZGVmIA==</entry>
-        <entry>ml</entry>
         <entry>prod</entry>
         <entry>datetime</entry>
         <entry>pytz</entry>
@@ -25,6 +23,8 @@
         <entry>model</entry>
         <entry>run_Id</entry>
         <entry>run</entry>
+        <entry>prediction_time</entry>
+        <entry>if not runs</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -161,12 +161,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" timestamp="1597162825442">
         <mark key="[" line="46" column="75" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1597100803910">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1597167932366">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="28" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="^" line="25" column="0" />
-        <mark key="." line="25" column="0" />
+        <mark key="[" line="27" column="35" />
+        <mark key="]" line="28" column="33" />
+        <mark key="^" line="28" column="33" />
+        <mark key="." line="28" column="32" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597159436511">
         <mark key="'" line="90" column="10" />
@@ -186,7 +186,7 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597087448085">
         <mark key="'" line="155" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1597160916525">
+      <file name="/Dummy.txt" timestamp="1597168464871">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -194,12 +194,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1597160785888">
         <mark key="'" line="131" column="4" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597164146102">
-        <mark key="'" line="50" column="38" />
-        <mark key="[" line="50" column="46" />
-        <mark key="]" line="50" column="52" />
-        <mark key="." line="50" column="51" />
-        <mark key="^" line="50" column="52" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597168203875">
+        <mark key="'" line="20" column="126" />
+        <mark key="[" line="97" column="15" />
+        <mark key="]" line="97" column="20" />
+        <mark key="." line="97" column="19" />
+        <mark key="^" line="97" column="20" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1597160913803">
         <mark key="'" line="278" column="8" />
@@ -236,8 +236,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="44" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="2" column="0" filename="$USER_HOME$/MindstrongRepos/DS/mindstrong_ds/mindstrong_fepy/historical_1035/spectral_analysis.py" />
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/DS/mindstrong_ds/mindstrong_fepy/historical_1035/spectral_analysis.py" />
       <jump line="123" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/fft.py" />
       <jump line="415" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -336,6 +334,8 @@
       <jump line="47" column="92" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="49" column="7" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="50" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="57" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="20" column="126" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -346,8 +346,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHsicnVuX2lkIjogInJ1bl9pZF8xIiwgInByb2RfZGF0ZSI6ICIyMDIwLTAzLTAxfSwK</text>
+      <register name="&quot;" type="4">
+        <text>exception</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -895,10 +895,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>run.info.run_id</text>
+        <text>exception</text>
       </register>
       <register name="/" type="4">
-        <text>run</text>
+        <text>if not runs</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsicnVuX2lkIjogInJ1bl9pZF8xIiwgInByb2RfZGF0ZSI6ICIyMDIwLTAzLTAxfSwK</text>
@@ -1044,9 +1044,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>run</last-search>
+      <last-search>if not runs</last-search>
       <last-offset />
-      <last-pattern>run</last-pattern>
+      <last-pattern>if not runs</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
