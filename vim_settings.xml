@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>def test_</entry>
-        <entry>def fake</entry>
-        <entry>mlflow-experiment</entry>
         <entry>from_u</entry>
         <entry>where_to</entry>
         <entry>MlflowExc</entry>
@@ -25,6 +22,9 @@
         <entry>wide</entry>
         <entry>def _</entry>
         <entry>def get_</entry>
+        <entry>_get_phone</entry>
+        <entry>def .*get_phone</entry>
+        <entry>_get_phone_log_sc</entry>
       </history-search>
       <history-cmd>
         <entry>203</entry>
@@ -140,11 +140,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/data_up_to.md" timestamp="1597072815215">
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
-      </file>
       <file name="/Python Console" timestamp="1597115291642">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -188,10 +183,13 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597087448085">
         <mark key="'" line="155" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1597115187548">
+      <file name="/Dummy.txt" timestamp="1597160916525">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1597160785888">
+        <mark key="'" line="131" column="4" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/fft.py" timestamp="1597073025518">
         <mark key="'" line="123" column="4" />
@@ -206,6 +204,13 @@
         <mark key="]" line="38" column="50" />
         <mark key="." line="38" column="50" />
         <mark key="^" line="37" column="28" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1597160913803">
+        <mark key="'" line="278" column="8" />
+        <mark key="[" line="303" column="45" />
+        <mark key="]" line="303" column="37" />
+        <mark key="^" line="303" column="37" />
+        <mark key="." line="303" column="36" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1597104460845">
         <mark key="'" line="50" column="0" />
@@ -223,23 +228,12 @@
         <mark key="]" line="20" column="0" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/DS/mindstrong_ds/mindstrong_fepy/historical_1035/spectral_analysis.py" timestamp="1597072992550">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="122" column="12" />
-      </file>
       <file name="/model_utils.py" timestamp="1597076972858">
         <mark key="[" line="91" column="0" />
         <mark key="]" line="91" column="28" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="211" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="219" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="117" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="123" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="127" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" />
-      <jump line="94" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="88" column="89" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="8" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="22" column="67" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
@@ -334,6 +328,12 @@
       <jump line="250" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="19" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="90" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="303" column="22" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="268" column="17" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="131" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="52" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="291" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
+      <jump line="278" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -896,7 +896,7 @@
         <text>model_name</text>
       </register>
       <register name="/" type="4">
-        <text>def get_</text>
+        <text>_get_phone_log_sc</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGVmIHRhbGxfdG9fd2lkZV9zcGFya19jb252ZXJzaW9uKHRhbGxfZGY6IFNwYXJrREYpIC0+IFR1cGxlW1NwYXJrREYsIFNlcXVlbmNlW3N0cl1dOgo=</text>
@@ -1042,9 +1042,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def get_</last-search>
+      <last-search>_get_phone_log_sc</last-search>
       <last-offset />
-      <last-pattern>def get_</last-pattern>
+      <last-pattern>_get_phone_log_sc</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
