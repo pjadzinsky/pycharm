@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>def _</entry>
         <entry>def get_</entry>
         <entry>_get_phone</entry>
         <entry>def .*get_phone</entry>
@@ -25,6 +24,7 @@
         <entry>_SCHEMA</entry>
         <entry>logger</entry>
         <entry>def create</entry>
+        <entry>optimize</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -182,12 +182,12 @@
         <mark key="." line="84" column="73" />
         <mark key="^" line="84" column="74" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597182546534">
-        <mark key="'" line="62" column="0" />
-        <mark key="[" line="29" column="88" />
-        <mark key="]" line="30" column="21" />
-        <mark key="^" line="30" column="21" />
-        <mark key="." line="30" column="20" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597187676020">
+        <mark key="'" line="86" column="0" />
+        <mark key="[" line="25" column="48" />
+        <mark key="]" line="26" column="12" />
+        <mark key="^" line="26" column="12" />
+        <mark key="." line="26" column="11" />
       </file>
       <file name="/Dummy.txt" timestamp="1597185120347">
         <mark key="[" line="0" column="0" />
@@ -241,7 +241,6 @@
     <jumps>
       <jump line="40" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="69" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="98" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="106" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="113" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -339,6 +338,7 @@
       <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="30" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="62" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -901,7 +901,7 @@
         <text>format</text>
       </register>
       <register name="/" type="4">
-        <text>def create</text>
+        <text>optimize</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZGJfdXRpbHMuRVRMX1RBQkxFUyA9IFtzY2hlbWFfbmFtZS5sb3dlcigpXQo=</text>
@@ -1047,9 +1047,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def create</last-search>
+      <last-search>optimize</last-search>
       <last-offset />
-      <last-pattern>def create</last-pattern>
+      <last-pattern>optimize</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
