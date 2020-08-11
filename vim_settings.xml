@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>E</entry>
         <entry>ful</entry>
         <entry>full</entry>
         <entry>bioma</entry>
@@ -25,6 +24,7 @@
         <entry>con</entry>
         <entry>BIO</entry>
         <entry>pivot</entry>
+        <entry>def cr</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -140,7 +140,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1597178879732">
+      <file name="/Python Console" timestamp="1597179739676">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="82" />
         <mark key="." line="0" column="38" />
@@ -158,11 +158,11 @@
         <mark key="." line="19" column="63" />
         <mark key="^" line="19" column="64" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1597178868623">
-        <mark key="[" line="28" column="21" />
-        <mark key="]" line="31" column="82" />
-        <mark key="^" line="31" column="82" />
-        <mark key="." line="31" column="81" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1597179771959">
+        <mark key="[" line="31" column="25" />
+        <mark key="]" line="31" column="80" />
+        <mark key="^" line="32" column="58" />
+        <mark key="." line="31" column="25" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/features/feature_generation.py" timestamp="1597162825442">
         <mark key="[" line="46" column="75" />
@@ -181,8 +181,8 @@
         <mark key="." line="84" column="73" />
         <mark key="^" line="84" column="74" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597087448085">
-        <mark key="'" line="155" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597179332220">
+        <mark key="'" line="60" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1597169404307">
         <mark key="[" line="0" column="0" />
@@ -258,8 +258,6 @@
       <jump line="32" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="36" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="40" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="50" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="60" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="69" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="98" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -338,6 +336,8 @@
       <jump line="3" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="65" column="60" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="172" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="50" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="60" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -349,7 +349,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>ml_bot_dev_test_db1597178555250</text>
+        <text>db_utils.table_location(temp_db[&quot;db_name&quot;], table_view)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -897,10 +897,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>ml_bot_dev_test_db1597178555250</text>
+        <text>db_utils.table_location(temp_db[&quot;db_name&quot;], table_view)</text>
       </register>
       <register name="/" type="4">
-        <text>pivot</text>
+        <text>def cr</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHsicnVuX2lkIjogInJ1bl9pZF8xIiwgInByb2RfZGF0ZSI6ICIyMDIwLTAzLTAxfSwK</text>
@@ -1046,9 +1046,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>pivot</last-search>
+      <last-search>def cr</last-search>
       <last-offset />
-      <last-pattern>pivot</last-pattern>
+      <last-pattern>def cr</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
