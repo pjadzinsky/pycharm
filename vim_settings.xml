@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>def get_</entry>
-        <entry>_get_phone</entry>
         <entry>def .*get_phone</entry>
         <entry>_get_phone_log_sc</entry>
         <entry>model</entry>
@@ -25,6 +23,8 @@
         <entry>logger</entry>
         <entry>def create</entry>
         <entry>optimize</entry>
+        <entry encoding="base64">ZGVmIA==</entry>
+        <entry>def sc</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -182,6 +182,9 @@
         <mark key="." line="84" column="73" />
         <mark key="^" line="84" column="74" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597190508914">
+        <mark key="'" line="107" column="4" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597187676020">
         <mark key="'" line="86" column="0" />
         <mark key="[" line="25" column="48" />
@@ -189,7 +192,7 @@
         <mark key="^" line="26" column="12" />
         <mark key="." line="26" column="11" />
       </file>
-      <file name="/Dummy.txt" timestamp="1597185120347">
+      <file name="/Dummy.txt" timestamp="1597187705183">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -207,13 +210,6 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
         <mark key="^" line="69" column="112" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" timestamp="1597160913803">
-        <mark key="'" line="278" column="8" />
-        <mark key="[" line="303" column="45" />
-        <mark key="]" line="303" column="37" />
-        <mark key="^" line="303" column="37" />
-        <mark key="." line="303" column="36" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" timestamp="1597180426777">
         <mark key="'" line="112" column="15" />
@@ -239,8 +235,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="40" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="69" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="98" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="106" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="113" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
@@ -339,6 +333,8 @@
       <jump line="30" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="62" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="94" column="44" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="107" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -901,7 +897,7 @@
         <text>format</text>
       </register>
       <register name="/" type="4">
-        <text>optimize</text>
+        <text>def sc</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZGJfdXRpbHMuRVRMX1RBQkxFUyA9IFtzY2hlbWFfbmFtZS5sb3dlcigpXQo=</text>
@@ -1047,9 +1043,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>optimize</last-search>
+      <last-search>def sc</last-search>
       <last-offset />
-      <last-pattern>optimize</last-pattern>
+      <last-pattern>def sc</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
