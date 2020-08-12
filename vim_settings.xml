@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>prediction_time</entry>
-        <entry>if not runs</entry>
         <entry>9:00</entry>
         <entry>con</entry>
         <entry>pivot</entry>
@@ -25,6 +23,8 @@
         <entry>bool</entry>
         <entry>BIO</entry>
         <entry>trac</entry>
+        <entry>CARE</entry>
+        <entry>SCOR</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -148,10 +148,15 @@
       <file name="/Python Console" timestamp="1597199792464">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1597180431808">
-        <mark key="[" line="0" column="4" />
-        <mark key="]" line="0" column="4" />
-        <mark key="." line="0" column="4" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/notebook/new_prod_model.py" timestamp="1597245343498">
+        <mark key="[" line="1" column="29" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1597245318982">
+        <mark key="[" line="0" column="8" />
+        <mark key="]" line="0" column="8" />
+        <mark key="." line="0" column="8" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" timestamp="1597243347549">
         <mark key="'" line="41" column="8" />
@@ -166,12 +171,12 @@
         <mark key="^" line="31" column="55" />
         <mark key="." line="31" column="54" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1597169018578">
-        <mark key="'" line="45" column="78" />
-        <mark key="[" line="84" column="64" />
-        <mark key="]" line="84" column="74" />
-        <mark key="." line="84" column="73" />
-        <mark key="^" line="84" column="74" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1597244578109">
+        <mark key="'" line="74" column="73" />
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+        <mark key="^" line="38" column="91" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597190508914">
         <mark key="'" line="107" column="4" />
@@ -188,13 +193,14 @@
         <mark key="[" line="242" column="0" />
         <mark key="]" line="242" column="50" />
       </file>
-      <file name="/Dummy.txt" timestamp="1597243385423">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" timestamp="1597208108715">
         <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/config.py" timestamp="1597244520832">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+        <mark key="^" line="12" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597169402379">
         <mark key="'" line="65" column="60" />
@@ -228,15 +234,8 @@
         <mark key="^" line="59" column="64" />
         <mark key="." line="59" column="63" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/tagged_models.json" timestamp="1597165293034">
-        <mark key="[" line="6" column="51" />
-        <mark key="]" line="5" column="52" />
-        <mark key="^" line="5" column="52" />
-        <mark key="." line="5" column="51" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="30" filename="$USER_HOME$/MindstrongRepos/mason/jobs/integrations/care.py" />
       <jump line="6" column="11" filename="$USER_HOME$/MindstrongRepos/mason/jobs/integrations/care.py" />
       <jump line="11" column="4" filename="$USER_HOME$/MindstrongRepos/mason/jobs/integrations/care.py" />
       <jump line="15" column="12" filename="$USER_HOME$/MindstrongRepos/mason/jobs/integrations/care.py" />
@@ -336,6 +335,7 @@
       <jump line="128" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
       <jump line="32" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
       <jump line="123" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
+      <jump line="74" column="73" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -347,7 +347,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIGltcG9ydCB0cmFjZWJhY2sKICAgICAgICAgICAgdHJhY2ViYWNrLnByaW50X2V4YygpCg==</text>
+        <text encoding="base64">aW1wb3J0IG1sZmxvdwo=</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -895,16 +895,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>boolean</text>
+        <text>M</text>
       </register>
       <register name="/" type="4">
-        <text>trac</text>
+        <text>SCOR</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oZiJ7U1FMX1RPX1NQQVJLX1RZUEVfUEFSU0VSWydib29sZWFuJ119IikK</text>
+        <text encoding="base64">REJfU0NPUkVTX1MzX1VSTD0iczM6Ly9taW5kc3Ryb25nLmRhdGFzY2llbmNlLnRyYXNoL21sX2JvdF9kZXYvaW50ZWdyYXRpb24vIgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIGltcG9ydCB0cmFjZWJhY2sKICAgICAgICAgICAgdHJhY2ViYWNrLnByaW50X2V4YygpCg==</text>
+        <text encoding="base64">aW1wb3J0IG1sZmxvdwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -918,7 +918,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">ICAgIERCX1NDT1JFU19TM19VUkwgPSBmInMzOi9taW5kc3Ryb25nLmRhdGFzY2llbmNlLnRyYXNoL2ludGVncmF0aW9uL2NhcmUve0NBTk9OSUNBTF9VU0VSfSIK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -952,10 +952,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIERPIE5PVCBNRVJHRSBORVhUICdpZicKICAgICAgICBpZiBzY2hlbWFfbmFtZSAhPSAiQ0dJU19TQ0hFTUEiOgogICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">REJfU0NPUkVTX1MzX1VSTD0iczM6Ly9taW5kc3Ryb25nLmRhdGFzY2llbmNlLnRyYXNoL21sX2JvdF9kZXYvaW50ZWdyYXRpb24vIgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICJqb2JzL2ludGVncmF0aW9ucy9pbnRlZ3JhdGlvbnNfc3RhY2suanNvbiIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAiczM6L21pbmRzdHJvbmcuZGF0YXNjaWVuY2UudHJhc2gvaW50ZWdyYXRpb24vY2FyZS9wamFkemluc2t5Igo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1023,19 +1023,19 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQ6CiAgICAgICAgICAgIGltcG9ydCB0cmFjZWJhY2sKICAgICAgICAgICAgdHJhY2ViYWNrLnByaW50X2V4YygpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGpzb24K</text>
+        <text encoding="base64">ICAgICAgICAjIERPIE5PVCBNRVJHRSBORVhUICdpZicKICAgICAgICBpZiBzY2hlbWFfbmFtZSAhPSAiQ0dJU19TQ0hFTUEiOgogICAgICAgICAgICBjb250aW51ZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmImFib3V0IHRvIGNyZWF0ZSB0YWJsZSB7dGFibGVfbmFtZX0iKQo=</text>
+        <text encoding="base64">ICAgICJqb2JzL2ludGVncmF0aW9ucy9pbnRlZ3JhdGlvbnNfc3RhY2suanNvbiIK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiQWJvdXQgdG8gb3B0aW1pemUiKQo=</text>
+        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
       </register>
       <register name=":" type="4">
         <text>40</text>
@@ -1044,9 +1044,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>trac</last-search>
+      <last-search>SCOR</last-search>
       <last-offset />
-      <last-pattern>trac</last-pattern>
+      <last-pattern>SCOR</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
