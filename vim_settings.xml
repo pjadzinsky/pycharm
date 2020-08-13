@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>ensure</entry>
-        <entry>date_</entry>
         <entry>source_path</entry>
         <entry>FOLDER</entry>
         <entry>update_nb</entry>
@@ -20,11 +18,13 @@
         <entry>timed</entry>
         <entry>Sp</entry>
         <entry>&quot;s3</entry>
-        <entry>schema</entry>
         <entry>CAT</entry>
         <entry>IS THIS</entry>
         <entry>was converted</entry>
         <entry>def to</entry>
+        <entry>to_pan</entry>
+        <entry>schema</entry>
+        <entry>Schema</entry>
       </history-search>
       <history-cmd>
         <entry>180</entry>
@@ -175,7 +175,7 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" timestamp="1597262272288">
         <mark key="[" line="37" column="63" />
       </file>
-      <file name="/Python Console" timestamp="1597340140388">
+      <file name="/Python Console" timestamp="1597347632820">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/new_prod_tag/new_prod_tag_stack.json.template" timestamp="1597255021654">
@@ -202,11 +202,12 @@
         <mark key="]" line="0" column="44" />
         <mark key="." line="0" column="44" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1597346239646">
-        <mark key="'" line="129" column="19" />
-        <mark key="[" line="14" column="34" />
-        <mark key="]" line="16" column="0" />
-        <mark key="." line="16" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1597347718850">
+        <mark key="'" line="15" column="37" />
+        <mark key="[" line="14" column="41" />
+        <mark key="]" line="15" column="38" />
+        <mark key="^" line="15" column="38" />
+        <mark key="." line="15" column="37" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" timestamp="1597341274903">
         <mark key="'" line="58" column="0" />
@@ -215,18 +216,15 @@
         <mark key="^" line="74" column="8" />
         <mark key="." line="64" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" timestamp="1597346641624">
-        <mark key="'" line="168" column="42" />
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="22" column="41" />
-        <mark key="." line="25" column="4" />
-        <mark key="^" line="25" column="5" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" timestamp="1597347621856">
+        <mark key="'" line="25" column="30" />
+        <mark key="[" line="32" column="30" />
+        <mark key="]" line="32" column="38" />
+        <mark key="." line="32" column="37" />
+        <mark key="^" line="32" column="38" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="153" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="173" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="169" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="27" column="13" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="16" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
@@ -317,13 +315,16 @@
       <jump line="697" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/emoji_classification.py" />
       <jump line="74" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" />
       <jump line="58" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" />
-      <jump line="128" column="19" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
       <jump line="29" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
       <jump line="11" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
       <jump line="70" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
       <jump line="91" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
       <jump line="94" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
       <jump line="168" column="42" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
+      <jump line="25" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
+      <jump line="53" column="38" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="128" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
+      <jump line="15" column="37" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -334,8 +335,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICJiaW5hcnkiOiBzcGFya190eXBlcy5CaW5hcnlUeXBlKCksCiAgICAiaW50ZWdlciI6IHNwYXJrX3R5cGVzLkludGVnZXJUeXBlKCksCiAgICAibG9uZyI6IHNwYXJrX3R5cGVzLkxvbmdUeXBlKCksCiAgICAiZG91YmxlIjogc3BhcmtfdHlwZXMuRG91YmxlVHlwZSgpLAogICAgInN0cmluZyI6IHNwYXJrX3R5cGVzLlN0cmluZ1R5cGUoKSwKICAgICJ0aW1lc3RhbXAiOiBzcGFya190eXBlcy5UaW1lc3RhbXBUeXBlKCksCiAgICAiZGF0ZSI6IHNwYXJrX3R5cGVzLkRhdGVUeXBlKCksCiAgICAiYm9vbGVhbiI6IHNwYXJrX3R5cGVzLkJvb2xlYW5UeXBlKCksCg==</text>
+      <register name="&quot;" type="4">
+        <text>.</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -883,16 +884,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>spark_typesBooleanType</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>def to</text>
+        <text>Schema</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICJiaW5hcnkiOiBzcGFya190eXBlcy5CaW5hcnlUeXBlKCksCiAgICAiaW50ZWdlciI6IHNwYXJrX3R5cGVzLkludGVnZXJUeXBlKCksCiAgICAibG9uZyI6IHNwYXJrX3R5cGVzLkxvbmdUeXBlKCksCiAgICAiZG91YmxlIjogc3BhcmtfdHlwZXMuRG91YmxlVHlwZSgpLAogICAgInN0cmluZyI6IHNwYXJrX3R5cGVzLlN0cmluZ1R5cGUoKSwKICAgICJ0aW1lc3RhbXAiOiBzcGFya190eXBlcy5UaW1lc3RhbXBUeXBlKCksCiAgICAiZGF0ZSI6IHNwYXJrX3R5cGVzLkRhdGVUeXBlKCksCiAgICAiYm9vbGVhbiI6IHNwYXJrX3R5cGVzLkJvb2xlYW5UeXBlKCksCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICBzcGFya190eXBlcy5CaW5hcnlUeXBlKCk6IGJpbiwK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -906,7 +907,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICJsb25nIjogc3BhcmtfdHlwZXMuTG9uZ1R5cGUoKSwK</text>
+        <text encoding="base64">ICAgICJkb3VibGUiOiBmbG9hdCwKICAgICJzdHJpbmciOiBzdHIsCiAgICAidGltZXN0YW1wIjogZGF0ZXRpbWUsCiAgICAiZGF0ZSI6IGRhdGUsCiAgICAiYm9vbGVhbiI6IGJvb2wsCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -940,10 +941,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICJiaW5hcnkiOiAsCg==</text>
+        <text encoding="base64">ICAgICBpbnQsCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBtYXNvbi5jb21tb24K</text>
+        <text encoding="base64">ICAgIDogaW50LAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1010,20 +1011,38 @@
           <key char="65535" code="127" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlbWEgPSAiIidtaW5kc3Ryb25nX2lkJywgJ2ZlYXR1cmVfbmFtZScsICdmZWF0dXJlX2RhdGUnLCAnZmVhdHVyZV92YWx1ZScsICdkYXRhX3VwX3RvJ10K</text>
+      <register name="5" type="8">
+        <text>&quot;
+&quot;
+:
+&quot;
+&quot;
+&quot;
+:
+&quot;
+&quot;
+:</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKGYicGF0aDoge3BhdGh9IHdhcyBjb252ZXJ0ZWQgdG8gYWJzX3BhdGg6IHthYnNfcGF0aH0iKQo=</text>
+      <register name="6" type="8">
+        <text>&quot;binar
+&quot;integ
+&quot;long&quot;
+&quot;doubl
+&quot;strin
+&quot;times
+&quot;date&quot;
+&quot;boole
+&quot;integ
+&quot;long&quot;</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKCJpcyBhYnNvbHV0ZSBwYXRoIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKCJwYXRoIGlzIG5vdCBhYnNvbHV0ZSBwYXRoIikK</text>
+        <text encoding="base64">ICAgICJsb25nIjogc3BhcmtfdHlwZXMuTG9uZ1R5cGUoKSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuZGVidWcoIklTIFRISVMgV09SS0lORyIpCg==</text>
+        <text encoding="base64">ICAgICJiaW5hcnkiOiAsCg==</text>
       </register>
       <register name=":" type="4">
         <text>31</text>
@@ -1032,9 +1051,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def to</last-search>
+      <last-search>Schema</last-search>
       <last-offset />
-      <last-pattern>def to</last-pattern>
+      <last-pattern>Schema</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
