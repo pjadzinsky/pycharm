@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>schema</entry>
-        <entry>Schema</entry>
         <entry>CANONICAL</entry>
         <entry>DB_WORKSPACE</entry>
         <entry>model</entry>
@@ -25,6 +23,8 @@
         <entry>1000</entry>
         <entry encoding="base64">ICo=</entry>
         <entry encoding="base64">IFwq</entry>
+        <entry>MODE</entry>
+        <entry>No model</entry>
       </history-search>
       <history-cmd>
         <entry>440</entry>
@@ -140,12 +140,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1597436493020">
+      <file name="/Dummy.txt" timestamp="1597440919364">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1597365015684">
+      <file name="/Python Console" timestamp="1597441269461">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1597347801119">
@@ -154,12 +154,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/config.py" timestamp="1597430509705">
         <mark key="'" line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597440105045">
-        <mark key="'" line="106" column="16" />
-        <mark key="[" line="71" column="93" />
-        <mark key="]" line="71" column="90" />
-        <mark key="." line="71" column="89" />
-        <mark key="^" line="71" column="90" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597441413814">
+        <mark key="'" line="105" column="68" />
+        <mark key="[" line="69" column="78" />
+        <mark key="]" line="70" column="77" />
+        <mark key="." line="70" column="76" />
+        <mark key="^" line="70" column="77" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/new_prod_tag/new_prod_tag_stack.json.template" timestamp="1597255021654">
         <mark key="[" line="24" column="12" />
@@ -246,9 +246,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="56" column="62" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="58" column="97" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="68" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="49" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="188" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
@@ -296,7 +293,6 @@
       <jump line="11" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="101" column="70" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="112" column="45" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="20" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="38" column="24" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="690" column="41" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/emoji_classification.py" />
       <jump line="692" column="41" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_features/emoji_classification.py" />
@@ -322,7 +318,6 @@
       <jump line="20" column="20" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="3" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="14" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="105" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="53" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="86" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="155" column="57" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
@@ -346,6 +341,11 @@
       <jump line="164" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="102" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="106" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="58" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="155" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="71" column="109" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="20" column="90" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="105" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -356,8 +356,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>1000</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -905,16 +905,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>1000</text>
+        <text>full_exp_name</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">IFwq</text>
+        <text>No model</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">KSAtPiBUdXBsZVtTcGFya0RGLCBMaXN0W3N0cl1dOgo=</text>
+        <text encoding="base64">ZGVmIGdldF9sYXN0X3RhZ2dlZF9tb2RlbF9mb3JfZGF0ZShwcmVkaWN0aW9uX2RhdGU6IGRhdGUsIGZ1bGxfZXhwX25hbWU6IHN0ciwgdGFnOiBzdHIpIC0+IE9wdGlvbmFsW1J1bl06Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -928,7 +928,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">KToK</text>
+        <text encoding="base64">ICAgICAgICBwdXNoX3ByZWRpY3Rpb25zKGNvbnN0YW50cy5CSU9NQVJLRVJfTU9ERUwsIHN0YXJ0X2RhdGUsIHN0YXJ0X2RhdGUsIGNvbmZpZy5EQl9TQ09SRVNfUzNfVVJMKQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -962,13 +962,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text>[DSCI-1015] Changing bucket where we drop CARE predictions
-
-Changing file format to be avro instead of parquet
-Adding partner_id to dataframe, although it is hardcoded</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3Bhcmtfd2lkZV9kZiwgZmVhdHVyZV9uYW1lcyA9IGZlYXR1cmVfdXRpbHMudGFsbF90b193aWRlX3NwYXJrX2NvbnZlcnNpb24oc3BhcmtfdGFsbF9kZikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1036,19 +1033,19 @@ Adding partner_id to dataframe, although it is hardcoded</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
+        <text encoding="base64">ICAgIHRhZzogc3RyKSAtPiBPcHRpb25hbFtSdW5dOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGZlYXR1cmVfbmFtZXMgPSBbY29sIGZvciBjb2wgaW4gcGFuZGFzX3dpZGVfZGYgaWYgY29sIG5vdCBpbiBbIm1pbmRzdHJvbmdfaWQiLCAiY2dpc19nZV81IiwgImxhYmVsX2RhdGUiXV0K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX3dpZGVfZGYgPSAoIHNwYXJrX3RhbGxfZGYuZ3JvdXBieSgibWluZHN0cm9uZ19pZCIsICJsYWJlbF9kYXRlIiwgImNnaXNfZ2VfNSIpCiAgICAgICAgLnBpdm90KCJmZWF0dXJlX25hbWUiKQogICAgICAgIC5zdW0oImZlYXR1cmVfdmFsdWUiKQogICAgICAgIC5jYWNoZSgpCiAgICApCg==</text>
+        <text encoding="base64">KToK</text>
       </register>
       <register name=":" type="4">
         <text>160</text>
@@ -1057,9 +1054,9 @@ Adding partner_id to dataframe, although it is hardcoded</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">IFwq</last-search>
+      <last-search>No model</last-search>
       <last-offset />
-      <last-pattern encoding="base64">IFwq</last-pattern>
+      <last-pattern>No model</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
