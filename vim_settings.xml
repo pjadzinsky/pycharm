@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cache</entry>
-        <entry>timed</entry>
-        <entry>Sp</entry>
-        <entry>&quot;s3</entry>
         <entry>CAT</entry>
         <entry>IS THIS</entry>
         <entry>was converted</entry>
@@ -25,6 +21,10 @@
         <entry>def train</entry>
         <entry>TAG</entry>
         <entry>s3</entry>
+        <entry>def get_tr</entry>
+        <entry>tall</entry>
+        <entry>get_scor</entry>
+        <entry>sco</entry>
       </history-search>
       <history-cmd>
         <entry>180</entry>
@@ -140,6 +140,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/Dummy.txt" timestamp="1597436493020">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="/Python Console" timestamp="1597365015684">
         <mark key="[" line="0" column="0" />
       </file>
@@ -173,6 +178,13 @@
         <mark key="." line="15" column="29" />
         <mark key="^" line="15" column="30" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1597436423132">
+        <mark key="'" line="34" column="4" />
+        <mark key="[" line="34" column="19" />
+        <mark key="]" line="34" column="19" />
+        <mark key="^" line="34" column="21" />
+        <mark key="." line="34" column="19" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_driver.py" timestamp="1597341274903">
         <mark key="'" line="58" column="0" />
         <mark key="[" line="64" column="0" />
@@ -191,15 +203,24 @@
         <mark key="." line="726" column="99" />
         <mark key="^" line="726" column="100" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" timestamp="1597262272288">
-        <mark key="[" line="37" column="63" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" timestamp="1597436203011">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="0" />
+        <mark key="^" line="40" column="20" />
+        <mark key="." line="44" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597419674606">
-        <mark key="'" line="87" column="4" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
-        <mark key="^" line="53" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1597436311880">
+        <mark key="[" line="367" column="0" />
+        <mark key="]" line="367" column="0" />
+        <mark key="^" line="364" column="32" />
+        <mark key="." line="367" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597436334296">
+        <mark key="'" line="19" column="5" />
+        <mark key="[" line="160" column="59" />
+        <mark key="]" line="160" column="107" />
+        <mark key="." line="160" column="106" />
+        <mark key="^" line="160" column="107" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1597432030876">
         <mark key="'" line="33" column="36" />
@@ -221,19 +242,15 @@
         <mark key="." line="110" column="31" />
         <mark key="^" line="110" column="32" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597420916072">
-        <mark key="'" line="50" column="4" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597436367379">
+        <mark key="'" line="154" column="12" />
+        <mark key="[" line="154" column="61" />
+        <mark key="]" line="154" column="66" />
+        <mark key="^" line="154" column="66" />
+        <mark key="." line="154" column="65" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="45" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
-      <jump line="4" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
-      <jump line="166" column="70" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_fake_phone_log.py" />
-      <jump line="63" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/tests/test_phone_log_driver.py" />
-      <jump line="128" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
-      <jump line="32" column="48" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/schema.py" />
-      <jump line="123" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/schemas.py" />
       <jump line="74" column="73" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="29" column="29" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="1" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
@@ -326,6 +343,14 @@
       <jump line="15" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="10" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/config/config.py" />
       <jump line="33" column="36" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="54" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="34" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
+      <jump line="364" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="367" column="46" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="160" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="248" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="19" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="154" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -337,7 +362,10 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByZWRpY3Rpb25zLndyaXRlLihycGF0aCkK</text>
+        <text>[DSCI-1015] Changing bucket where we drop CARE predictions
+
+Changing file format to be avro instead of parquet
+Adding partner_id to dataframe, although it is hardcoded</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -885,16 +913,19 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>‘s3://mindstrong.datascience.trash/ml_bot_dev/integration/care/2020-08-11.avro’</text>
+        <text>j</text>
       </register>
       <register name="/" type="4">
-        <text>s3</text>
+        <text>sco</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIERCX1NDT1JFU19TM19VUkwgPSBmInMzOi8vbWluZHN0cm9uZ2hlYWx0aC5jb20ucHJvY2Vzc2Vke2Vudn0vcHJvZ25vc3RpY19zY29yZS8iCg==</text>
+        <text encoding="base64">ICAgIGZlYXR1cmVfbGlzdF9vZl9kaWN0czogU2VxdWVuY2VbZGljdF0sIGxhYmVsc19kYl9uYW1lOiBzdHIsIGxhYmVsc190YWJsZV9uYW1lOiBzdHIsIHJldHVybl9sYWJlbHM6IGJvb2wK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByZWRpY3Rpb25zLndyaXRlLihycGF0aCkK</text>
+        <text>[DSCI-1015] Changing bucket where we drop CARE predictions
+
+Changing file format to be avro instead of parquet
+Adding partner_id to dataframe, although it is hardcoded</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -908,7 +939,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICBmImAuY29tLnByb2Nlc3NlZHtlbnZ9L3Byb2dub3N0aWNfc2NvcmUvIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3Bhcmtfd2lkZV9kZiwgZmVhdHVyZV9uYW1lcyA9IGZlYXR1cmVfdXRpbHMudGFsbF90b193aWRlX3NwYXJrX2NvbnZlcnNpb24oc3BhcmtfdGFsbF9kZikK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -942,10 +973,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICMudG9fKHJwYXRoLCBpbmRleD1GYWxzZSkK</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmIERCX0JPVF9VU0VSID09ICJtbF9ib3RfZGV2IjoKICAgICAgICBEQl9TQ09SRVNfUzNfVVJMICs9ICIvcWEiCiAgICBlbGlmIERCX0JPVF9VU0VSID09ICJtbF9ib3Rfc3RhZ2UiOgogICAgICAgIERCX1NDT1JFU19TM19VUkwgKz0gIi9zdGFnaW5nIgo=</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1016,16 +1047,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG1pbmRzdHJvbmcuZGF0YXNjaWVuY2UudHJhc2gve0NBTk9OSUNBTF9VU0VSfS9pbnRlZ3JhdGlvbi9jYXJlIgo=</text>
+        <text encoding="base64">ICAgIGZlYXR1cmVfbmFtZXMgPSBbY29sIGZvciBjb2wgaW4gcGFuZGFzX3dpZGVfZGYgaWYgY29sIG5vdCBpbiBbIm1pbmRzdHJvbmdfaWQiLCAiY2dpc19nZV81IiwgImxhYmVsX2RhdGUiXV0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHNwYXJrX3dpZGVfZGYgPSAoIHNwYXJrX3RhbGxfZGYuZ3JvdXBieSgibWluZHN0cm9uZ19pZCIsICJsYWJlbF9kYXRlIiwgImNnaXNfZ2VfNSIpCiAgICAgICAgLnBpdm90KCJmZWF0dXJlX25hbWUiKQogICAgICAgIC5zdW0oImZlYXR1cmVfdmFsdWUiKQogICAgICAgIC5jYWNoZSgpCiAgICApCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHBhcnRuZXJfaWQgPSBjb25maWcuREJfQk9UX1VTRVIK</text>
+        <text encoding="base64">ICAgIHNwYXJrX3dpZGVfZGYgPSAoCiAgICAgICAgc3BhcmtfdGFsbF9kZi5ncm91cGJ5KCJtaW5kc3Ryb25nX2lkIiwgImxhYmVsX2RhdGUiLCAiY2dpc19nZV81IikKICAgICAgICAucGl2b3QoImZlYXR1cmVfbmFtZSIpCiAgICAgICAgLnN1bSgiZmVhdHVyZV92YWx1ZSIpCiAgICAgICAgLmNhY2hlKCkKICAgICkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgYW5kIAo=</text>
+        <text encoding="base64">ICAgICMgc3BhcmtfdGFsbF9kZiBoYXMgY29sdW1ucyB3aXRoIHRhbGxfZmVhdHVyZXMgKyBjZ2lzX2RhdGUsIGNnaXMsIGNnaXNfZ2VfNQogICAgIyBGb3IgZWFjaCBtaW5kc3Ryb25nX2lkLCBjZ2lzX2RhdGUgdGhlcmUgaXM6CiAgICAjICAgb25lIGNnaXMKICAgICMgICBvbmUgY2dpc19nZV81CiAgICAjICAgdGhlcmUgY291bGQgYmUgbW9yZSB0aGFuIG9uZSBmZWF0dXJlX2RhdGUsIHRoZXNlIHNob3VsZCBiZSBtYWRlIHJlbGF0aXZlIHRvIGNnaXNfZGF0ZSwgY2F1c2UKICAgICMgICAgICAgaGF2aW5nIGNnaXNfZGF0ZV8xPTEwIGFuZCBjZ2lzX2RhdGVfMj0yMCBzaG91bGQgbm90IGNyZWF0ZSBjb2x1bW5zCiAgICAjICAgICAgIGZlYXR1cmVfZGF0ZSA5IGFuZCBmZWF0dXJlX2RhdGUgMTkgYnV0IHRoaW5ncyBsaWtlIGZlYXR1cmVfZGF0ZSAtMSBhbmQgZmVhdHVyZV9kYXRlIC0yCiAgICAjICAgdGhlcmUgYXJlIHByb2JhYmx5IG1hbnkgZmVhdHVyZV9uYW1lCiAgICBzcGFya193aWRlX2RmID0gKAogICAgICAgIHNwYXJrX3RhbGxfZGYuZ3JvdXBieSgibWluZHN0cm9uZ19pZCIsICJsYWJlbF9kYXRlIiwgImNnaXNfZ2VfNSIpCiAgICAgICAgLnBpdm90KCJmZWF0dXJlX25hbWUiKQogICAgICAgIC5zdW0oImZlYXR1cmVfdmFsdWUiKQogICAgKQo=</text>
       </register>
       <register name=":" type="4">
         <text>31</text>
@@ -1034,9 +1065,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>s3</last-search>
+      <last-search>sco</last-search>
       <last-offset />
-      <last-pattern>s3</last-pattern>
+      <last-pattern>sco</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
