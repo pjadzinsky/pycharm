@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>jenkins</entry>
         <entry>def dep</entry>
         <entry>SCORE</entry>
         <entry>cache</entry>
@@ -25,6 +24,7 @@
         <entry>model_uri</entry>
         <entry>def get_</entry>
         <entry>def .*wide</entry>
+        <entry>def train</entry>
       </history-search>
       <history-cmd>
         <entry>180</entry>
@@ -218,11 +218,11 @@
         <mark key="." line="110" column="31" />
         <mark key="^" line="110" column="32" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597420916072">
+        <mark key="'" line="50" column="4" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="107" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="118" column="26" filename="$USER_HOME$/MindstrongRepos/mason/mason/phone_logs_etl/filer.py" />
-      <jump line="32" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="37" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="14" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="41" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
@@ -320,6 +320,9 @@
       <jump line="105" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="53" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="86" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="155" column="57" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="40" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="50" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -882,7 +885,7 @@
         <text>overwrite</text>
       </register>
       <register name="/" type="4">
-        <text>def .*wide</text>
+        <text>def train</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICJiaW5hcnkiOiBzcGFya190eXBlcy5CaW5hcnlUeXBlKCksCiAgICAiaW50ZWdlciI6IHNwYXJrX3R5cGVzLkludGVnZXJUeXBlKCksCiAgICAibG9uZyI6IHNwYXJrX3R5cGVzLkxvbmdUeXBlKCksCiAgICAiZG91YmxlIjogc3BhcmtfdHlwZXMuRG91YmxlVHlwZSgpLAogICAgInN0cmluZyI6IHNwYXJrX3R5cGVzLlN0cmluZ1R5cGUoKSwKICAgICJ0aW1lc3RhbXAiOiBzcGFya190eXBlcy5UaW1lc3RhbXBUeXBlKCksCiAgICAiZGF0ZSI6IHNwYXJrX3R5cGVzLkRhdGVUeXBlKCksCiAgICAiYm9vbGVhbiI6IHNwYXJrX3R5cGVzLkJvb2xlYW5UeXBlKCksCg==</text>
@@ -1046,9 +1049,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def .*wide</last-search>
+      <last-search>def train</last-search>
       <last-offset />
-      <last-pattern>def .*wide</last-pattern>
+      <last-pattern>def train</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
