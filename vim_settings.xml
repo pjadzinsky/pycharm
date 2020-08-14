@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>update_nb</entry>
-        <entry>new_cluster</entry>
         <entry>SCORES</entry>
         <entry>def get_sc</entry>
         <entry>jenkins</entry>
@@ -25,6 +23,8 @@
         <entry>Schema</entry>
         <entry>CANONICAL</entry>
         <entry>DB_WORKSPACE</entry>
+        <entry>model</entry>
+        <entry>model_uri</entry>
       </history-search>
       <history-cmd>
         <entry>180</entry>
@@ -156,10 +156,11 @@
         <mark key="]" line="0" column="12" />
         <mark key="." line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597332429352">
-        <mark key="[" line="3" column="37" />
-        <mark key="]" line="3" column="37" />
-        <mark key="." line="3" column="37" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597368557832">
+        <mark key="'" line="105" column="52" />
+        <mark key="[" line="108" column="32" />
+        <mark key="]" line="108" column="32" />
+        <mark key="." line="108" column="32" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/new_prod_tag/new_prod_tag_stack.json.template" timestamp="1597255021654">
         <mark key="[" line="24" column="12" />
@@ -214,8 +215,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="20" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
-      <jump line="62" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="86" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
       <jump line="94" column="44" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="107" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
@@ -283,7 +282,6 @@
       <jump line="102" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="109" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="115" column="84" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="3" column="51" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="119" column="43" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="126" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="111" column="85" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
@@ -314,6 +312,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="15" column="11" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
       <jump line="20" column="20" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
+      <jump line="3" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="14" column="25" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="105" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -325,7 +326,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>to_pandas_str</text>
+        <text>.drop(&quot;model_uri&quot;)</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -873,10 +874,10 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>to_pandas_str</text>
+        <text>.drop(&quot;model_uri&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text>DB_WORKSPACE</text>
+        <text>model_uri</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICJiaW5hcnkiOiBzcGFya190eXBlcy5CaW5hcnlUeXBlKCksCiAgICAiaW50ZWdlciI6IHNwYXJrX3R5cGVzLkludGVnZXJUeXBlKCksCiAgICAibG9uZyI6IHNwYXJrX3R5cGVzLkxvbmdUeXBlKCksCiAgICAiZG91YmxlIjogc3BhcmtfdHlwZXMuRG91YmxlVHlwZSgpLAogICAgInN0cmluZyI6IHNwYXJrX3R5cGVzLlN0cmluZ1R5cGUoKSwKICAgICJ0aW1lc3RhbXAiOiBzcGFya190eXBlcy5UaW1lc3RhbXBUeXBlKCksCiAgICAiZGF0ZSI6IHNwYXJrX3R5cGVzLkRhdGVUeXBlKCksCiAgICAiYm9vbGVhbiI6IHNwYXJrX3R5cGVzLkJvb2xlYW5UeXBlKCksCg==</text>
@@ -1040,9 +1041,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>DB_WORKSPACE</last-search>
+      <last-search>model_uri</last-search>
       <last-offset />
-      <last-pattern>DB_WORKSPACE</last-pattern>
+      <last-pattern>model_uri</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
