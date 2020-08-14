@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>CAT</entry>
         <entry>IS THIS</entry>
         <entry>was converted</entry>
         <entry>def to</entry>
@@ -25,9 +24,9 @@
         <entry>tall</entry>
         <entry>get_scor</entry>
         <entry>sco</entry>
+        <entry>def get_w</entry>
       </history-search>
       <history-cmd>
-        <entry>180</entry>
         <entry>440</entry>
         <entry>414</entry>
         <entry>128</entry>
@@ -47,6 +46,7 @@
         <entry>40</entry>
         <entry>693</entry>
         <entry>31</entry>
+        <entry>160</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -151,11 +151,6 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/phone_log_driver.py" timestamp="1597347801119">
         <mark key="'" line="15" column="37" />
       </file>
-      <file name="/a.dummy" timestamp="1597252768804">
-        <mark key="[" line="0" column="13" />
-        <mark key="]" line="0" column="12" />
-        <mark key="." line="0" column="12" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/config.py" timestamp="1597430509705">
         <mark key="'" line="10" column="0" />
       </file>
@@ -215,12 +210,18 @@
         <mark key="^" line="364" column="32" />
         <mark key="." line="367" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597436334296">
-        <mark key="'" line="19" column="5" />
-        <mark key="[" line="160" column="59" />
-        <mark key="]" line="160" column="107" />
-        <mark key="." line="160" column="106" />
-        <mark key="^" line="160" column="107" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/tests/test_feature_utils.py" timestamp="1597438461807">
+        <mark key="[" line="161" column="22" />
+        <mark key="]" line="161" column="25" />
+        <mark key="^" line="161" column="25" />
+        <mark key="." line="161" column="24" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" timestamp="1597438530710">
+        <mark key="'" line="6" column="30" />
+        <mark key="[" line="163" column="67" />
+        <mark key="]" line="163" column="87" />
+        <mark key="." line="163" column="86" />
+        <mark key="^" line="163" column="87" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1597432030876">
         <mark key="'" line="33" column="36" />
@@ -251,10 +252,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="73" filename="$USER_HOME$/MindstrongRepos/mason/config/config.py" />
-      <jump line="29" column="29" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
-      <jump line="1" column="24" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
-      <jump line="30" column="32" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
       <jump line="39" column="35" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="45" column="19" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="52" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
@@ -351,6 +348,10 @@
       <jump line="248" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="19" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="154" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="49" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="159" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
+      <jump line="6" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -361,11 +362,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text>[DSCI-1015] Changing bucket where we drop CARE predictions
-
-Changing file format to be avro instead of parquet
-Adding partner_id to dataframe, although it is hardcoded</text>
+      <register name="&quot;" type="4">
+        <text>label_colums</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -913,19 +911,16 @@ Adding partner_id to dataframe, although it is hardcoded</text>
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>j</text>
+        <text>label_colums</text>
       </register>
       <register name="/" type="4">
-        <text>sco</text>
+        <text>def get_w</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGZlYXR1cmVfbGlzdF9vZl9kaWN0czogU2VxdWVuY2VbZGljdF0sIGxhYmVsc19kYl9uYW1lOiBzdHIsIGxhYmVsc190YWJsZV9uYW1lOiBzdHIsIHJldHVybl9sYWJlbHM6IGJvb2wK</text>
+        <text encoding="base64">KSAtPiBUdXBsZVtTcGFya0RGLCBMaXN0W3N0cl1dOgo=</text>
       </register>
       <register name="1" type="2">
-        <text>[DSCI-1015] Changing bucket where we drop CARE predictions
-
-Changing file format to be avro instead of parquet
-Adding partner_id to dataframe, although it is hardcoded</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -939,7 +934,7 @@ Adding partner_id to dataframe, although it is hardcoded</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3Bhcmtfd2lkZV9kZiwgZmVhdHVyZV9uYW1lcyA9IGZlYXR1cmVfdXRpbHMudGFsbF90b193aWRlX3NwYXJrX2NvbnZlcnNpb24oc3BhcmtfdGFsbF9kZikK</text>
+        <text encoding="base64">KToK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -973,10 +968,13 @@ Adding partner_id to dataframe, although it is hardcoded</text>
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
+        <text>[DSCI-1015] Changing bucket where we drop CARE predictions
+
+Changing file format to be avro instead of parquet
+Adding partner_id to dataframe, although it is hardcoded</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3Bhcmtfd2lkZV9kZiwgZmVhdHVyZV9uYW1lcyA9IGZlYXR1cmVfdXRpbHMudGFsbF90b193aWRlX3NwYXJrX2NvbnZlcnNpb24oc3BhcmtfdGFsbF9kZikK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1044,30 +1042,30 @@ Adding partner_id to dataframe, although it is hardcoded</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZlYXR1cmVfbmFtZXMgPSBbY29sIGZvciBjb2wgaW4gcGFuZGFzX3dpZGVfZGYgaWYgY29sIG5vdCBpbiBbIm1pbmRzdHJvbmdfaWQiLCAiY2dpc19nZV81IiwgImxhYmVsX2RhdGUiXV0K</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYic3BhcmtfdGFsbF9kZiBoYXMge3NwYXJrX3dpZGVfZGYuY291bnQoKX0gcm93cyIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX3dpZGVfZGYgPSAoIHNwYXJrX3RhbGxfZGYuZ3JvdXBieSgibWluZHN0cm9uZ19pZCIsICJsYWJlbF9kYXRlIiwgImNnaXNfZ2VfNSIpCiAgICAgICAgLnBpdm90KCJmZWF0dXJlX25hbWUiKQogICAgICAgIC5zdW0oImZlYXR1cmVfdmFsdWUiKQogICAgICAgIC5jYWNoZSgpCiAgICApCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHNwYXJrX3dpZGVfZGYgPSAoCiAgICAgICAgc3BhcmtfdGFsbF9kZi5ncm91cGJ5KCJtaW5kc3Ryb25nX2lkIiwgImxhYmVsX2RhdGUiLCAiY2dpc19nZV81IikKICAgICAgICAucGl2b3QoImZlYXR1cmVfbmFtZSIpCiAgICAgICAgLnN1bSgiZmVhdHVyZV92YWx1ZSIpCiAgICAgICAgLmNhY2hlKCkKICAgICkK</text>
+        <text encoding="base64">ICAgIGZlYXR1cmVfbmFtZXMgPSBbY29sIGZvciBjb2wgaW4gcGFuZGFzX3dpZGVfZGYgaWYgY29sIG5vdCBpbiBbIm1pbmRzdHJvbmdfaWQiLCAiY2dpc19nZV81IiwgImxhYmVsX2RhdGUiXV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgc3BhcmtfdGFsbF9kZiBoYXMgY29sdW1ucyB3aXRoIHRhbGxfZmVhdHVyZXMgKyBjZ2lzX2RhdGUsIGNnaXMsIGNnaXNfZ2VfNQogICAgIyBGb3IgZWFjaCBtaW5kc3Ryb25nX2lkLCBjZ2lzX2RhdGUgdGhlcmUgaXM6CiAgICAjICAgb25lIGNnaXMKICAgICMgICBvbmUgY2dpc19nZV81CiAgICAjICAgdGhlcmUgY291bGQgYmUgbW9yZSB0aGFuIG9uZSBmZWF0dXJlX2RhdGUsIHRoZXNlIHNob3VsZCBiZSBtYWRlIHJlbGF0aXZlIHRvIGNnaXNfZGF0ZSwgY2F1c2UKICAgICMgICAgICAgaGF2aW5nIGNnaXNfZGF0ZV8xPTEwIGFuZCBjZ2lzX2RhdGVfMj0yMCBzaG91bGQgbm90IGNyZWF0ZSBjb2x1bW5zCiAgICAjICAgICAgIGZlYXR1cmVfZGF0ZSA5IGFuZCBmZWF0dXJlX2RhdGUgMTkgYnV0IHRoaW5ncyBsaWtlIGZlYXR1cmVfZGF0ZSAtMSBhbmQgZmVhdHVyZV9kYXRlIC0yCiAgICAjICAgdGhlcmUgYXJlIHByb2JhYmx5IG1hbnkgZmVhdHVyZV9uYW1lCiAgICBzcGFya193aWRlX2RmID0gKAogICAgICAgIHNwYXJrX3RhbGxfZGYuZ3JvdXBieSgibWluZHN0cm9uZ19pZCIsICJsYWJlbF9kYXRlIiwgImNnaXNfZ2VfNSIpCiAgICAgICAgLnBpdm90KCJmZWF0dXJlX25hbWUiKQogICAgICAgIC5zdW0oImZlYXR1cmVfdmFsdWUiKQogICAgKQo=</text>
+        <text encoding="base64">ICAgIHNwYXJrX3dpZGVfZGYgPSAoIHNwYXJrX3RhbGxfZGYuZ3JvdXBieSgibWluZHN0cm9uZ19pZCIsICJsYWJlbF9kYXRlIiwgImNnaXNfZ2VfNSIpCiAgICAgICAgLnBpdm90KCJmZWF0dXJlX25hbWUiKQogICAgICAgIC5zdW0oImZlYXR1cmVfdmFsdWUiKQogICAgICAgIC5jYWNoZSgpCiAgICApCg==</text>
       </register>
       <register name=":" type="4">
-        <text>31</text>
+        <text>160</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>sco</last-search>
+      <last-search>def get_w</last-search>
       <last-offset />
-      <last-pattern>sco</last-pattern>
+      <last-pattern>def get_w</last-pattern>
       <last-replace>', '</last-replace>
       <last-substitute>' '</last-substitute>
       <last-dir>1</last-dir>
