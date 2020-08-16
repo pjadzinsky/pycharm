@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>CANONICAL</entry>
         <entry>DB_WORKSPACE</entry>
         <entry>model</entry>
         <entry>model_uri</entry>
@@ -25,9 +24,9 @@
         <entry>MODE</entry>
         <entry>No model</entry>
         <entry>1000</entry>
+        <entry>uploading</entry>
       </history-search>
       <history-cmd>
-        <entry>440</entry>
         <entry>414</entry>
         <entry>128</entry>
         <entry>133</entry>
@@ -47,6 +46,7 @@
         <entry>693</entry>
         <entry>31</entry>
         <entry>160</entry>
+        <entry>103,110s/uploading/uploaded/gc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -155,12 +155,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/config.py" timestamp="1597430509705">
         <mark key="'" line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597447861440">
-        <mark key="'" line="31" column="108" />
-        <mark key="[" line="104" column="101" />
-        <mark key="]" line="104" column="101" />
-        <mark key="." line="104" column="101" />
-        <mark key="^" line="106" column="84" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597602855819">
+        <mark key="'" line="102" column="18" />
+        <mark key="[" line="102" column="47" />
+        <mark key="]" line="102" column="51" />
+        <mark key="." line="102" column="50" />
+        <mark key="^" line="102" column="51" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/new_prod_tag/new_prod_tag_stack.json.template" timestamp="1597255021654">
         <mark key="[" line="24" column="12" />
@@ -339,7 +339,6 @@
       <jump line="159" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="6" column="30" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="164" column="3" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="102" column="11" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="106" column="16" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="58" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="155" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
@@ -347,6 +346,7 @@
       <jump line="20" column="90" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="105" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="31" column="108" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="102" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -358,7 +358,7 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>parquet</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -906,16 +906,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>parquet</text>
       </register>
       <register name="/" type="4">
-        <text>1000</text>
+        <text>uploading</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGVmIGdldF9sYXN0X3RhZ2dlZF9tb2RlbF9mb3JfZGF0ZShwcmVkaWN0aW9uX2RhdGU6IGRhdGUsIGZ1bGxfZXhwX25hbWU6IHN0ciwgdGFnOiBzdHIpIC0+IE9wdGlvbmFsW1J1bl06Cg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYndXBsb2FkaW5nIGRhdGEgdG8ge3JwYXRoICsgIi9wYXJxdWV0LyJ9JykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByZWRpY3Rpb25zLnJlcGFydGl0aW9uKDEpLndyaXRlLm1vZGUoIm92ZXJ3cml0ZSIpLmZvcm1hdCgiY29tLmRhdGFicmlja3Muc3BhcmsuYXZybyIpLnNhdmUocnBhdGggKyAiL2F2cm8vIikK</text>
+        <text encoding="base64">ICAgIGlmIHByZWRpY3Rpb25zLmNvdW50KCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -929,7 +929,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByZWRpY3Rpb25zLndpdGhDb2x1bW4oCiAgICAgICAgInByZWRpY3Rpb25fYXRfdGltZXN0YW1wX3N0ciIsIEYuY29sKCJwcmVkaWN0aW9uX2F0X3RpbWVzdGFtcCIpLmNhc3QoInN0cmluZyIpCiAgICApLndpdGhDb2x1bW4oInByZWRpY3Rpb25fZm9yX2RhdGVfc3RyIiwgRi5jb2woInByZWRpY3Rpb25fZm9yX2RhdGUiKS5jYXN0KCJzdHJpbmciKSkK</text>
+        <text encoding="base64">ICAgIGlmIHByZWRpY3Rpb25zLmNvdW50KCkgPT0gMDoK</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -963,10 +963,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text>rash/ml_bot_dev/integration/care/2020-08-14/parquet/&quot;)</text>
+        <text encoding="base64">ICAgIHByZWRpY3Rpb25zLnJlcGFydGl0aW9uKDEpLndyaXRlLm1vZGUoIm92ZXJ3cml0ZSIpLmZvcm1hdCgiY29tLmRhdGFicmlja3Muc3BhcmsuYXZybyIpLnNhdmUocnBhdGggKyAiL2F2cm8vIikK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpCg==</text>
+        <text encoding="base64">ICAgIHByZWRpY3Rpb25zLndpdGhDb2x1bW4oCiAgICAgICAgInByZWRpY3Rpb25fYXRfdGltZXN0YW1wX3N0ciIsIEYuY29sKCJwcmVkaWN0aW9uX2F0X3RpbWVzdGFtcCIpLmNhc3QoInN0cmluZyIpCiAgICApLndpdGhDb2x1bW4oInByZWRpY3Rpb25fZm9yX2RhdGVfc3RyIiwgRi5jb2woInByZWRpY3Rpb25fZm9yX2RhdGUiKS5jYXN0KCJzdHJpbmciKSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1034,32 +1034,32 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwdXNoX3ByZWRpY3Rpb25zKGNvbnN0YW50cy5CSU9NQVJLRVJfTU9ERUwsIHN0YXJ0X2RhdGUsIHN0YXJ0X2RhdGUsIGNvbmZpZy5EQl9TQ09SRVNfUzNfVVJMKQo=</text>
+        <text>rash/ml_bot_dev/integration/care/2020-08-14/parquet/&quot;)</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwdXNoX3ByZWRpY3Rpb25zKGNvbnN0YW50cy5CSU9NQVJLRVJfTU9ERUwsIHN0YXJ0X2RhdGUsIHN0YXJ0X2RhdGUsIGNvbmZpZy5EQl9TQ09SRVNfUzNfVVJMKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRhZzogc3RyKSAtPiBPcHRpb25hbFtSdW5dOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>160</text>
+        <text>103,110s/uploading/uploaded/gc</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>1000</last-search>
+      <last-search>uploading</last-search>
       <last-offset />
-      <last-pattern>1000</last-pattern>
-      <last-replace>', '</last-replace>
-      <last-substitute>' '</last-substitute>
+      <last-pattern>uploading</last-pattern>
+      <last-replace>uploaded</last-replace>
+      <last-substitute>uploading</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
