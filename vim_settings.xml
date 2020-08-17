@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>DB_WORKSPACE</entry>
-        <entry>model</entry>
         <entry>model_uri</entry>
         <entry>def get_</entry>
         <entry>def .*wide</entry>
@@ -25,6 +23,8 @@
         <entry>No model</entry>
         <entry>1000</entry>
         <entry>uploading</entry>
+        <entry>for run_id</entry>
+        <entry>def score</entry>
       </history-search>
       <history-cmd>
         <entry>414</entry>
@@ -238,8 +238,8 @@
         <mark key="." line="110" column="31" />
         <mark key="^" line="110" column="32" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597436367379">
-        <mark key="'" line="154" column="12" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597680315794">
+        <mark key="'" line="132" column="4" />
         <mark key="[" line="154" column="61" />
         <mark key="]" line="154" column="66" />
         <mark key="^" line="154" column="66" />
@@ -247,10 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="49" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
-      <jump line="188" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="189" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
-      <jump line="190" column="72" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/fake_phone_log.py" />
       <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="72" column="31" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="9" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
@@ -333,7 +329,6 @@
       <jump line="160" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="248" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="19" column="5" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
-      <jump line="154" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="49" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="56" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
       <jump line="159" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/features/feature_utils.py" />
@@ -347,6 +342,11 @@
       <jump line="105" column="68" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="31" column="108" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="102" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
+      <jump line="154" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="148" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="141" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="132" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -909,7 +909,7 @@
         <text>Bijay</text>
       </register>
       <register name="/" type="4">
-        <text>uploading</text>
+        <text>def score</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYndXBsb2FkaW5nIGRhdGEgdG8ge3JwYXRoICsgIi9wYXJxdWV0LyJ9JykK</text>
@@ -1055,9 +1055,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>uploading</last-search>
+      <last-search>def score</last-search>
       <last-offset />
-      <last-pattern>uploading</last-pattern>
+      <last-pattern>def score</last-pattern>
       <last-replace>uploaded</last-replace>
       <last-substitute>uploading</last-substitute>
       <last-dir>1</last-dir>
