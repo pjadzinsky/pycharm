@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>model_uri</entry>
         <entry>def get_</entry>
         <entry>def .*wide</entry>
         <entry>def train</entry>
@@ -25,10 +24,9 @@
         <entry>uploading</entry>
         <entry>for run_id</entry>
         <entry>def score</entry>
+        <entry>avro</entry>
       </history-search>
       <history-cmd>
-        <entry>414</entry>
-        <entry>128</entry>
         <entry>133</entry>
         <entry>269</entry>
         <entry>138</entry>
@@ -47,6 +45,8 @@
         <entry>31</entry>
         <entry>160</entry>
         <entry>103,110s/uploading/uploaded/gc</entry>
+        <entry>45</entry>
+        <entry>139</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -155,12 +155,12 @@
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/config/config.py" timestamp="1597430509705">
         <mark key="'" line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597609842601">
-        <mark key="'" line="102" column="18" />
-        <mark key="[" line="107" column="58" />
-        <mark key="]" line="109" column="16" />
-        <mark key="." line="109" column="15" />
-        <mark key="^" line="109" column="16" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597695381511">
+        <mark key="'" line="110" column="15" />
+        <mark key="[" line="139" column="0" />
+        <mark key="]" line="99" column="7" />
+        <mark key="." line="99" column="6" />
+        <mark key="^" line="99" column="7" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/jobs/new_prod_tag/new_prod_tag_stack.json.template" timestamp="1597255021654">
         <mark key="[" line="24" column="12" />
@@ -218,12 +218,12 @@
         <mark key="." line="164" column="3" />
         <mark key="^" line="164" column="4" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1597432030876">
+      <file name="$USER_HOME$/MindstrongRepos/mason/config/config.py" timestamp="1597694291030">
         <mark key="'" line="33" column="36" />
-        <mark key="[" line="44" column="90" />
-        <mark key="]" line="44" column="71" />
-        <mark key="." line="44" column="70" />
-        <mark key="^" line="44" column="71" />
+        <mark key="[" line="43" column="84" />
+        <mark key="]" line="44" column="68" />
+        <mark key="." line="44" column="67" />
+        <mark key="^" line="44" column="68" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/bronze_jsons/emoji_classification.json" timestamp="1597336301721">
         <mark key="[" line="4" column="15" />
@@ -247,7 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="72" column="31" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="9" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
       <jump line="80" column="40" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/tests/test_db_utils.py" />
@@ -347,6 +346,7 @@
       <jump line="141" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="65" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="132" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="110" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -909,7 +909,7 @@
         <text>Bijay</text>
       </register>
       <register name="/" type="4">
-        <text>def score</text>
+        <text>avro</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYndXBsb2FkaW5nIGRhdGEgdG8ge3JwYXRoICsgIi9wYXJxdWV0LyJ9JykK</text>
@@ -1049,15 +1049,15 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>103,110s/uploading/uploaded/gc</text>
+        <text>139</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>def score</last-search>
-      <last-offset>copy_package</last-offset>
-      <last-pattern>def score</last-pattern>
+      <last-search>avro</last-search>
+      <last-offset />
+      <last-pattern>avro</last-pattern>
       <last-replace>uploaded</last-replace>
       <last-substitute>uploading</last-substitute>
       <last-dir>1</last-dir>
