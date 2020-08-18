@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>def tall_to</entry>
         <entry encoding="base64">ICo=</entry>
         <entry encoding="base64">IFwq</entry>
         <entry>MODE</entry>
@@ -25,6 +24,7 @@
         <entry>spark_util</entry>
         <entry>input_feature</entry>
         <entry>sklearn</entry>
+        <entry>MODEL</entry>
       </history-search>
       <history-cmd>
         <entry>133</entry>
@@ -140,17 +140,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/silver_jsons/screen_stats.json" timestamp="1597761647796">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="14" />
-        <mark key="." line="9" column="0" />
-      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/rendered/ML_BOT_DEV/notebook/pytest_runner.py" timestamp="1597771869699">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="21" column="20" />
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
         <mark key="^" line="21" column="0" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1597775316461">
+        <mark key="'" line="49" column="19" />
+        <mark key="[" line="35" column="33" />
+        <mark key="]" line="35" column="52" />
+        <mark key="^" line="35" column="33" />
+        <mark key="." line="35" column="33" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/dwh/tests/test_demographics.py" timestamp="1597771910333">
         <mark key="[" line="86" column="0" />
@@ -161,10 +163,11 @@
         <mark key="^" line="106" column="69" />
         <mark key="." line="106" column="68" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/silver_jsons/non_text_ratios.json" timestamp="1597761644581">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="14" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" timestamp="1597775062899">
+        <mark key="[" line="120" column="32" />
+        <mark key="]" line="120" column="47" />
+        <mark key="^" line="120" column="47" />
+        <mark key="." line="120" column="46" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" timestamp="1597769809883">
         <mark key="'" line="72" column="4" />
@@ -214,16 +217,24 @@
         <mark key="." line="4" column="42" />
         <mark key="^" line="4" column="43" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1597773195023">
-        <mark key="[" line="148" column="50" />
-        <mark key="]" line="148" column="51" />
-        <mark key="^" line="148" column="51" />
-        <mark key="." line="148" column="50" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" timestamp="1597775327572">
+        <mark key="[" line="148" column="26" />
+        <mark key="]" line="148" column="65" />
+        <mark key="^" line="148" column="65" />
+        <mark key="." line="148" column="64" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1597774416048">
-        <mark key="[" line="120" column="0" />
-        <mark key="]" line="120" column="0" />
-        <mark key="." line="120" column="0" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/tests/test_model_utils.py" timestamp="1597775247787">
+        <mark key="[" line="112" column="33" />
+        <mark key="]" line="112" column="33" />
+        <mark key="." line="112" column="32" />
+        <mark key="^" line="112" column="33" />
+      </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" timestamp="1597775356836">
+        <mark key="'" line="69" column="27" />
+        <mark key="[" line="17" column="31" />
+        <mark key="]" line="69" column="28" />
+        <mark key="^" line="69" column="28" />
+        <mark key="." line="69" column="27" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/features/phone_log/silver_jsons/text_type_ratios_android.json" timestamp="1597761650963">
         <mark key="[" line="7" column="0" />
@@ -244,8 +255,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="160" column="11" filename="$USER_HOME$/MindstrongRepos/mason/admin/configurator.py" />
-      <jump line="21" column="25" filename="$USER_HOME$/MindstrongRepos/mason/admin/admin_utils.py" />
       <jump line="99" column="69" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="8" column="43" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="109" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
@@ -344,6 +353,8 @@
       <jump line="113" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="5" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
       <jump line="115" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" />
+      <jump line="47" column="19" filename="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" />
+      <jump line="68" column="27" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -354,8 +365,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIG1sZmxvdy5kZWxldGVfZXhwZXJpbWVudChzdHIoZXhwZXJpbWVudF9pZCkpCg==</text>
+      <register name="&quot;" type="4">
+        <text>input_feature_order</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -903,13 +914,13 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>fake_run.info.</text>
+        <text>input_feature_order</text>
       </register>
       <register name="/" type="4">
-        <text>sklearn</text>
+        <text>MODEL</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBydW5faWQgPSBtbGZsb3cuYWN0aXZlX3J1bigpLmluZm8ucnVuX2lkCg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYidGVtcCBleHBlcmltZW50X2lkOiB7ZXhwZXJpbWVudF9pZH0iKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIG1sZmxvdy5kZWxldGVfZXhwZXJpbWVudChzdHIoZXhwZXJpbWVudF9pZCkpCg==</text>
@@ -1052,9 +1063,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>sklearn</last-search>
+      <last-search>MODEL</last-search>
       <last-offset />
-      <last-pattern>sklearn</last-pattern>
+      <last-pattern>MODEL</last-pattern>
       <last-replace>uploaded</last-replace>
       <last-substitute>uploading</last-substitute>
       <last-dir>1</last-dir>
