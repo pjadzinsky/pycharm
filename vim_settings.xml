@@ -143,6 +143,13 @@
       <file name="/a.dummy" timestamp="1597788020638">
         <mark key="[" line="0" column="6" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" timestamp="1597854338156">
+        <mark key="'" line="13" column="24" />
+        <mark key="[" line="14" column="45" />
+        <mark key="]" line="14" column="45" />
+        <mark key="^" line="13" column="46" />
+        <mark key="." line="14" column="45" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1597777558360">
         <mark key="'" line="310" column="24" />
         <mark key="[" line="310" column="25" />
@@ -156,13 +163,6 @@
         <mark key="]" line="77" column="0" />
         <mark key="." line="76" column="31" />
         <mark key="^" line="77" column="0" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/tests/test_common_utils.py" timestamp="1597771943168">
-        <mark key="'" line="4" column="42" />
-        <mark key="[" line="4" column="35" />
-        <mark key="]" line="4" column="43" />
-        <mark key="." line="4" column="42" />
-        <mark key="^" line="4" column="43" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" timestamp="1597777436610">
         <mark key="'" line="72" column="25" />
@@ -185,12 +185,12 @@
         <mark key="." line="111" column="63" />
         <mark key="^" line="111" column="64" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1597852604107">
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/constants.py" timestamp="1597854374701">
         <mark key="'" line="1" column="30" />
-        <mark key="[" line="46" column="26" />
-        <mark key="]" line="46" column="43" />
-        <mark key="^" line="46" column="43" />
-        <mark key="." line="46" column="42" />
+        <mark key="[" line="51" column="23" />
+        <mark key="]" line="53" column="18" />
+        <mark key="^" line="53" column="18" />
+        <mark key="." line="53" column="17" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" timestamp="1597775062899">
         <mark key="[" line="120" column="32" />
@@ -244,7 +244,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="108" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="102" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
       <jump line="154" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="148" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
@@ -344,6 +343,7 @@
       <jump line="92" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="101" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="246" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
+      <jump line="12" column="24" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -354,8 +354,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBydW5faWRzLmFkZChtb2RlbF91dGlscy5nZXRfbGFzdF90YWdnZWRfbW9kZWxfZm9yX2RhdGUoKSkK</text>
+      <register name="&quot;" type="4">
+        <text>BRONZE_PROBE</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -903,7 +903,7 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>constantsBIOMARKER_MODEL</text>
+        <text>BRONZE_PROBE</text>
       </register>
       <register name="/" type="4">
         <text>start</text>
