@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>df</entry>
         <entry>F</entry>
         <entry>data</entry>
         <entry>spark_util</entry>
@@ -25,6 +24,7 @@
         <entry>TIME</entry>
         <entry>MIND</entry>
         <entry>start</entry>
+        <entry>drop</entry>
       </history-search>
       <history-cmd>
         <entry>174</entry>
@@ -157,6 +157,9 @@
         <mark key="^" line="310" column="60" />
         <mark key="." line="310" column="59" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" timestamp="1597858721990">
+        <mark key="'" line="107" column="4" />
+      </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" timestamp="1597850625872">
         <mark key="'" line="18" column="0" />
         <mark key="[" line="107" column="0" />
@@ -191,12 +194,6 @@
         <mark key="]" line="53" column="18" />
         <mark key="^" line="53" column="18" />
         <mark key="." line="53" column="17" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/common/conftest.py" timestamp="1597775062899">
-        <mark key="[" line="120" column="32" />
-        <mark key="]" line="120" column="47" />
-        <mark key="^" line="120" column="47" />
-        <mark key="." line="120" column="46" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/MANIFEST.in" timestamp="1597845111443">
         <mark key="[" line="0" column="0" />
@@ -244,10 +241,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="18" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
-      <jump line="154" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="148" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
-      <jump line="141" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="65" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="132" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="110" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/integration/integrate.py" />
@@ -344,6 +337,10 @@
       <jump line="101" column="52" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
       <jump line="246" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_utils.py" />
       <jump line="12" column="24" filename="$USER_HOME$/MindstrongRepos/mason/jobs/model/model_training.py" />
+      <jump line="68" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="93" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="106" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
+      <jump line="107" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/delta/db_utils.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -906,7 +903,7 @@
         <text>BRONZE_PROBE</text>
       </register>
       <register name="/" type="4">
-        <text>start</text>
+        <text>drop</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdGFydF90aW1lc3RhbXAgPSBkYXRldGltZS5kYXRldGltZS5jb21iaW5lKHN0YXJ0X2RhdGUsIGNvbnN0YW50cy5CSU9NQVJLRVJfUFJFRElDVElPTl9USU1FKQo=</text>
@@ -1052,9 +1049,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>start</last-search>
+      <last-search>drop</last-search>
       <last-offset />
-      <last-pattern>start</last-pattern>
+      <last-pattern>drop</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
