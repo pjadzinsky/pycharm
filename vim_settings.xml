@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>auc_train_track</entry>
-        <entry>roc_curve</entry>
-        <entry>threshold</entry>
-        <entry>train</entry>
         <entry>is has</entry>
         <entry>def creat</entry>
         <entry>db_ut</entry>
@@ -25,11 +21,12 @@
         <entry>update</entry>
         <entry>ax1</entry>
         <entry>ax2</entry>
+        <entry>2</entry>
+        <entry>rgr</entry>
+        <entry>170</entry>
+        <entry>Exception</entry>
       </history-search>
       <history-cmd>
-        <entry>41</entry>
-        <entry>46</entry>
-        <entry>179</entry>
         <entry>40</entry>
         <entry>693</entry>
         <entry>31</entry>
@@ -47,6 +44,9 @@
         <entry>s/start/end/g</entry>
         <entry>s/train/val/g</entry>
         <entry>q</entry>
+        <entry>%s/2//gc</entry>
+        <entry>170</entry>
+        <entry>188</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -152,10 +152,10 @@
         <mark key="^" line="26" column="52" />
         <mark key="." line="26" column="51" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1597936501883">
-        <mark key="'" line="193" column="10" />
-        <mark key="[" line="238" column="0" />
-        <mark key="]" line="242" column="9" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" timestamp="1597936858519">
+        <mark key="'" line="248" column="15" />
+        <mark key="[" line="250" column="0" />
+        <mark key="]" line="252" column="59" />
         <mark key="." line="154" column="4" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/notebook/model_driver.py.template" timestamp="1597897120483">
@@ -210,12 +210,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/daily_auc_distribution.py" timestamp="1597936344158">
-        <mark key="'" line="41" column="0" />
-        <mark key="[" line="14" column="25" />
-        <mark key="]" line="14" column="35" />
-        <mark key="^" line="14" column="35" />
-        <mark key="." line="14" column="34" />
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/daily_auc_distribution.py" timestamp="1597937178041">
+        <mark key="'" line="32" column="0" />
+        <mark key="[" line="32" column="77" />
+        <mark key="]" line="32" column="77" />
+        <mark key="." line="32" column="77" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" timestamp="1597882108737">
         <mark key="'" line="68" column="46" />
@@ -223,13 +222,6 @@
         <mark key="]" line="112" column="35" />
         <mark key="." line="112" column="34" />
         <mark key="^" line="112" column="35" />
-      </file>
-      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/model.py" timestamp="1597872044810">
-        <mark key="'" line="16" column="8" />
-        <mark key="[" line="12" column="8" />
-        <mark key="]" line="17" column="66" />
-        <mark key="." line="17" column="65" />
-        <mark key="^" line="17" column="66" />
       </file>
       <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/artifact.py" timestamp="1597881662654">
         <mark key="'" line="8" column="15" />
@@ -252,6 +244,13 @@
         <mark key="^" line="118" column="54" />
         <mark key="." line="118" column="53" />
       </file>
+      <file name="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" timestamp="1597938357489">
+        <mark key="'" line="131" column="15" />
+        <mark key="[" line="132" column="0" />
+        <mark key="]" line="132" column="33" />
+        <mark key="." line="132" column="0" />
+        <mark key="^" line="187" column="32" />
+      </file>
       <file name="/Dummy.txt" timestamp="1597902858722">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="19" />
@@ -266,18 +265,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" />
-      <jump line="72" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
-      <jump line="76" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
-      <jump line="116" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" />
-      <jump line="22" column="49" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" />
-      <jump line="114" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" />
-      <jump line="82" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/toy_model_1/train.py" />
-      <jump line="0" column="22" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/roc_auc_curves.py" />
-      <jump line="21" column="45" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/json_artifact.py" />
-      <jump line="7" column="33" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/json_artifact.py" />
-      <jump line="12" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/json_artifact.py" />
-      <jump line="8" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/artifact.py" />
       <jump line="19" column="69" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/bronze/simple_rf/train.py" />
       <jump line="111" column="28" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" />
       <jump line="17" column="69" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/gold/dwh_features_rf_model/train.py" />
@@ -360,12 +347,24 @@
       <jump line="294" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="192" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="241" column="88" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
-      <jump line="248" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="250" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="251" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="252" column="8" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="303" column="4" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
       <jump line="193" column="10" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="245" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="248" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/silver/dwh_phone_log_rf_model/train.py" />
+      <jump line="34" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/daily_auc_distribution.py" />
+      <jump line="32" column="0" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/artifacts/daily_auc_distribution.py" />
+      <jump line="186" column="13" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="51" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="81" column="14" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="108" column="61" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="124" column="103" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="132" column="12" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="187" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="142" column="9" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
+      <jump line="131" column="15" filename="$USER_HOME$/MindstrongRepos/mason/mason/models/model_driver.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -377,7 +376,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBkZl9ncm91cCA9IGRmLmdyb3VwYnkoYXR0cmlidXRlX2NvbCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2ViYWNrLnByaW50X2V4YygpCg==</text>
       </register>
       <register name="b" type="4">
         <keys>
@@ -925,16 +924,16 @@
         <text encoding="base64">ICAgIDA6ICJjaGFyLXNwYWNlX2tleSIsCg==</text>
       </register>
       <register name="-" type="4">
-        <text>label_date_col</text>
+        <text>tra</text>
       </register>
       <register name="/" type="4">
-        <text>ax2</text>
+        <text>Exception</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByb3dfaWQgPSBmb2xkX2luZGV4IC8vIDMKICAgICAgICBjb2x1bW5faWQgPSBmb2xkX2luZGV4ICUgMwogICAgICAgIHNucy5kaXN0cGxvdCgKICAgICAgICAgICAgcGVyX2RheV9hdWNfdHJhaW4sIGtkZT1GYWxzZSwgYmlucz1ucC5saW5zcGFjZSgwLCAxLCA0MCksIGxhYmVsPSJ0cmFpbiIsIGF4PWF4Mltyb3dfaWRdW2NvbHVtbl9pZF0KICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhY2ViYWNrLnByaW50X2V4YygpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkZl9ncm91cCA9IGRmLmdyb3VwYnkoYXR0cmlidXRlX2NvbCkK</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKGYiZmlyc3QgZmVhdHVyZXMgYXJlOiB7ZmVhdHVyZXNbOjVdfSIpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -948,7 +947,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuX2F4W3Jvd11bY29sXS5zZXRfdGl0bGUoZiJGb2xkIHtmb2xkX2luZGV4fSBcbiBwZXIgZGF5IGF1YyBoaXN0b3JncmFtIikKICAgICAgICAgICAgICAgIHNlbGYuX2F4W3Jvd11bY29sXS5zZXRfeGxhYmVsKCJST0MgYXVjIikKICAgICAgICAgICAgICAgIHNlbGYuX2F4W3Jvd11bY29sXS5zZXRfeWxhYmVsKCJOdW1iZXIgb2YgZGF5cyIpCg==</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -982,10 +981,10 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgeT1ncm91cGVkX2RmW2xhYmVsX2NvbF0udmFsdWVzLCByYXdfcHJlZD1ncm91cGVkX2RmWyJyYXdfcHJlZGljdGlvbiJdLnZhbHVlcwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIGNvbCBpbiByYW5nZShDT0xfTlVNKToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLCBwb3NfbGFiZWw9cG9zX2xhYmVsLCBzYW1wbGVfd2VpZ2h0PXNhbXBsZV93ZWlnaHQsIGRyb3BfaW50ZXJtZWRpYXRlPWRyb3BfaW50ZXJtZWRpYXRlCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3Igcm93IGluIHJhbmdlKFJPV19OVU0pOgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -1053,32 +1052,34 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBncm91cGVkX2RmID0gZ3JvdXBbMV0K</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl9heFtyb3ddW2NvbF0uc2V0X3RpdGxlKGYiRm9sZCB7Zm9sZF9pbmRleH0gXG4gcGVyIGRheSBhdWMgaGlzdG9yZ3JhbSIpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmcHIsIHRwciwgXyA9IHJvY19jdXJ2ZSgKICAgICAgICAgICAgeSwgcmF3X3ByZWQsIHBvc19sYWJlbD1wb3NfbGFiZWwsIHNhbXBsZV93ZWlnaHQ9c2FtcGxlX3dlaWdodCwgZHJvcF9pbnRlcm1lZGlhdGU9ZHJvcF9pbnRlcm1lZGlhdGUKICAgICAgICApCiAgICAgICAgcm9jX2F1YyA9IGF1YyhmcHIsIHRwcikK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuX2F4W3Jvd11bY29sXS5zZXRfdGl0bGUoZiJGb2xkIHtmb2xkX2luZGV4fSBcbiBwZXIgZGF5IGF1YyBoaXN0b3JncmFtIikK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzCg==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYuX2F4W3Jvd11bY29sXS5zZXRfdGl0bGUoZiJGb2xkIHtmb2xkX2luZGV4fSBcbiBwZXIgZGF5IGF1YyBoaXN0b3JncmFtIikK</text>
+      </register>
+      <register name="9" type="8">
+        <text>umn
+umn
+umn</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>188</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>ax2</last-search>
+      <last-search>Exception</last-search>
       <last-offset />
-      <last-pattern>ax2</last-pattern>
-      <last-replace>val</last-replace>
-      <last-substitute>train</last-substitute>
+      <last-pattern>Exception</last-pattern>
+      <last-replace />
+      <last-substitute>2</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
